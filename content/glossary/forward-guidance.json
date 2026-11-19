@@ -1,0 +1,15 @@
+{
+ "id": "forward-guidance",
+ "term": {
+  "en": "forward guidance",
+  "ko": "포워드 가이던스"
+ },
+ "definition": {
+  "en": "Statements by a central bank about where it expects to set its policy interest rate in future. It can be a date, a condition such as an unemployment rate, or a published forecast.",
+  "ko": "중앙은행이 앞으로 정책금리를 어떻게 운용할지 미리 밝히는 발언이다. 날짜를 못 박거나, 실업률 같은 조건을 걸거나, 전망치를 발표하는 형태가 있다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "omt",
+ "term": {
+  "en": "Outright Monetary Transactions (OMT)",
+  "ko": "전면적 통화거래(OMT)"
+ },
+ "definition": {
+  "en": "The ECB's 2012 offer to buy a euro country's short-term government bonds with no limit set in advance. It applies only to a country that accepts agreed policy conditions.",
+  "ko": "ECB가 2012년에 내놓은, 한 유로 국가의 단기 국채를 한도를 미리 정하지 않고 사들이겠다는 약속이다. 합의된 정책 조건을 받아들인 나라에만 적용된다."
+ },
+ "topics": [
+  "monetary-policy",
+  "euro-area"
+ ],
+ "approvedBy": null
+}

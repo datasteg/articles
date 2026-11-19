@@ -1,0 +1,46 @@
+[
+ {
+  "ref": "jejualps:48224",
+  "title": "Geoeconomics and trade",
+  "institution": "ECB Discussion Paper 31 (Georgiadis, Strasser, Khalil and Teti)",
+  "date": "2026-07-01",
+  "url": "https://www.ecb.europa.eu//pub/pdf/scpdps/ecb.dp31~0e62e3849a.en.pdf",
+  "why": {
+   "en": "A recent survey of the whole fragmentation and tariff literature, the place to go for where the models disagree and for the studies this article does not cite.",
+   "ko": "분절화와 관세 연구 전체를 훑은 최근 개관으로, 모형들이 어디서 갈리는지와 이 글이 다루지 않은 연구를 찾기에 좋다."
+  }
+ },
+ {
+  "ref": "jejualps:48875",
+  "title": "The 2025 Trade War: Dynamic Impacts Across U.S. States and the Global Economy",
+  "institution": "Federal Reserve Bank of San Francisco Working Paper 2025-09 (Ulate, Vasquez and Rodríguez-Clare)",
+  "date": "2025-04-22",
+  "url": "https://www.frbsf.org/wp-content/uploads/wp2025-09.pdf",
+  "why": {
+   "en": "A dynamic model of the 2025 tariffs with a transition path year by year, which complements the steady-state numbers used here.",
+   "ko": "2025년 관세의 효과를 해마다 이어지는 경로로 본 동태 모형으로, 이 글이 쓴 장기 균형 수치를 보완한다."
+  }
+ },
+ {
+  "ref": "jejualps:67408",
+  "title": "Trade Diversion Effects from Global Tensions—Higher Than We Think",
+  "institution": "IMF Working Paper 2023/234 (Hannan and Wang)",
+  "date": "2023-11-10",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2023/234/001.2023.issue-234-en.xml",
+  "why": {
+   "en": "The detailed Mexico case: how much a bystander's exports to the US rose after the 2018 tariffs, estimated with input-output data of the kind the model design needs for Korea.",
+   "ko": "멕시코 사례 분석으로, 2018년 관세 뒤 제삼국의 대미 수출이 얼마나 늘었는지를 이 글의 모형 설계가 한국에 필요로 하는 산업연관 자료로 추정했다."
+  }
+ },
+ {
+  "ref": "jejualps:66770",
+  "title": "ASEAN's Trade and Investment in a Fragmented World",
+  "institution": "IMF Working Paper 2026/118 (Donato and Kitsios)",
+  "date": "2026-06-12",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2026/118/001.2026.issue-118-en.xml",
+  "why": {
+   "en": "The most recent look at whether the ASEAN gainers' wins in tariffed products lifted their exports overall, the comparator set for Korea's neighbours.",
+   "ko": "관세 대상 품목에서 이득을 본 아세안 나라들의 수출이 전체적으로도 늘었는지를 가장 최근에 살핀 연구로, 한국 이웃 나라들과 비교하기에 좋다."
+  }
+ }
+]

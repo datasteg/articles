@@ -1,0 +1,15 @@
+{
+ "id": "realised-volatility",
+ "term": {
+  "en": "volatility",
+  "ko": "변동성"
+ },
+ "definition": {
+  "en": "How far a price moves from one day or month to the next, up or down, measured over a past period. It is often annualised, scaled up to show how much the price would swing over a year at that pace.",
+  "ko": "가격이 하루나 한 달 사이에 오르내린 폭을 과거 일정 기간에 걸쳐 측정한 값이다. 흔히 같은 속도가 한 해 동안 이어질 때의 등락폭으로 환산해 나타낸다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets"
+ ]
+}

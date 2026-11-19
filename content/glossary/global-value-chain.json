@@ -1,0 +1,16 @@
+{
+ "id": "global-value-chain",
+ "term": {
+  "en": "global value chain",
+  "ko": "글로벌 가치사슬"
+ },
+ "definition": {
+  "en": "The chain of steps across countries through which a product is designed, made from parts and sold, so that one country's exports contain value added in others.",
+  "ko": "한 제품이 여러 나라를 거쳐 설계되고 부품으로 조립돼 팔리는 단계의 사슬이다. 그래서 한 나라의 수출품에는 다른 나라에서 더해진 가치가 들어 있다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "global-economy"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "id": "basis-point",
+ "term": {
+  "en": "basis point",
+  "ko": "베이시스포인트(bp)"
+ },
+ "definition": {
+  "en": "A hundredth of a percentage point, the usual unit for small gaps and changes in interest rates.",
+  "ko": "1%p의 100분의 1이다. 금리의 작은 차이나 변화를 나타낼 때 흔히 쓰는 단위다."
+ },
+ "topics": [
+  "bond-markets"
+ ],
+ "approvedBy": null
+}

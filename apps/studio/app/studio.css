@@ -1,0 +1,226 @@
+/* The video slides: the article page's components (packages/ui/glacier.css, apps/web/app/article.css) at 1920×1080.
+   Glacier tokens only, dark theme (data-theme="dark" on <html>). Scale: the article's 16 px is 40 px here. Margins
+   96 px left and right (5%), 72 px top; the bottom 162 px (15%) stay empty for YouTube's captions. */
+
+.vs-body { margin: 0; background: var(--surface); }
+
+.vs { position: relative; width: 1920px; height: 1080px; overflow: hidden; box-sizing: border-box; background: var(--surface);
+  color: var(--ink); font-family: var(--font-sans); padding: 96px 96px 162px; }
+.vs-in { display: flex; flex-direction: column; height: 100%; }
+.vs:lang(ko) { word-break: keep-all; }
+
+/* roadmap marker (1 · 2 · 3), top right */
+.vs-road { position: absolute; top: 56px; right: 96px; margin: 0; display: flex; gap: 28px; font: 500 30px/1 var(--font-mono); color: var(--ink-muted); }
+.vs-road span { position: relative; padding-bottom: 10px; }
+.vs-road .is-on { color: var(--link); box-shadow: inset 0 -4px 0 var(--link); }
+
+/* kicker and labels (.gl-kicker, .ac-figure__num, .gl-findings__title) */
+.vs-kicker { margin: 0 0 20px; font: 600 32px/40px var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); }
+.vs-label { margin: 0 0 20px; font: 600 30px/38px var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-muted); }
+.vs:lang(ko) .vs-kicker, .vs:lang(ko) .vs-label, .vs:lang(ko) .vs-readlabel { letter-spacing: 0.02em; text-transform: none; }
+.vs-rule { border-top: 2px solid var(--line-strong); }
+
+/* question (.ac-question__asked) and answer (dek) */
+.vs--question .vs-in, .vs--answer .vs-in, .vs--term .vs-in, .vs--quote .vs-in, .vs--read .vs-in { justify-content: center; }
+.vs-asked { margin: 12px 0 0; max-width: 1500px; font: italic 400 76px/104px var(--font-serif); color: var(--ink); text-wrap: balance; }
+.vs:lang(ko) .vs-asked { font-style: normal; font-size: 68px; line-height: 104px; }
+.vs-answer { margin: 0; max-width: 1560px; font: 600 72px/100px var(--font-sans); letter-spacing: -0.015em; color: var(--ink); text-wrap: balance; }
+.vs:lang(ko) .vs-answer { font-size: 66px; line-height: 100px; letter-spacing: -0.02em; }
+
+/* roadmap and findings (.gl-findings) */
+.vs-roadmap, .vs-findings { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 44px; }
+.vs-roadmap li, .vs-findings li { display: grid; grid-template-columns: 96px 1fr; align-items: baseline; transition: none; }
+.vs-roadmap span, .vs-findings span { font: 500 40px/1 var(--font-mono); color: var(--link); }
+.vs-roadmap li { font: 600 64px/84px var(--font-sans); letter-spacing: -0.012em; }
+.vs--roadmap .vs-in, .vs--findings .vs-in { justify-content: center; }
+.vs-findings { padding: 64px 72px; background: var(--surface-ice); border-radius: 16px; }
+.vs-findings li { font: 400 52px/76px var(--font-serif); }
+.vs:lang(ko) .vs-findings li { font-family: "Noto Serif KR", var(--font-serif); font-size: 48px; }
+.is-later { visibility: hidden; }
+
+/* key number (.gl-stat, .ac-keynums) */
+.vs--number .vs-in { justify-content: center; }
+.vs-big { margin: 36px 0 0; font: 600 300px/1 var(--font-sans); letter-spacing: -0.03em; color: var(--link); }
+.vs-biglabel { margin: 36px 0 0; max-width: 1300px; font: 400 48px/66px var(--font-sans); color: var(--ink-secondary); }
+.vs-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 72px; margin-top: 48px; }
+.vs--compare .vs-in { justify-content: center; }
+.vs-tile__value { margin: 0; font: 600 168px/1 var(--font-sans); letter-spacing: -0.025em; color: var(--link); }
+.vs-tile__label { margin: 24px 0 0; font: 400 40px/56px var(--font-sans); color: var(--ink-secondary); }
+
+/* figure (.ac-figure): kicker, headline, chart, source line */
+.vs-headline { margin: 0 0 28px; max-width: 1600px; font: 700 56px/72px var(--font-sans); letter-spacing: -0.012em; text-wrap: balance; }
+.vs:lang(ko) .vs-headline { font-size: 54px; line-height: 72px; letter-spacing: -0.02em; }
+.vs-chart { flex: 1 1 auto; min-height: 0; zoom: 2.36; width: 680px; }
+.vs-chart .gl-legend, .vs-chart .ac-view__tools { display: none; }
+.vs-source { margin: 18px 0 0; font: 400 28px/36px var(--font-sans); color: var(--ink-muted); }
+
+/* term (glossary popover) and quote (.ac-quote) */
+.vs-term { margin: 0; font: 600 48px/60px var(--font-sans); color: var(--link); }
+.vs-define { margin: 28px 0 0; max-width: 1500px; font: 400 64px/96px var(--font-serif); }
+.vs:lang(ko) .vs-define { font-family: "Noto Serif KR", var(--font-serif); font-size: 58px; }
+.vs-quote { position: relative; margin: 0; padding-left: 110px; }
+.vs-quote::before { content: "“"; position: absolute; left: 0; top: -36px; font: 400 200px/1 var(--font-serif); color: var(--glacial); }
+.vs-quote p { margin: 0; max-width: 1500px; font: italic 400 68px/100px var(--font-serif); }
+.vs-quote:lang(ko) p { font-style: normal; font-family: "Noto Serif KR", var(--font-serif); font-size: 60px; }
+.vs-quote footer { margin-top: 32px; font: 400 36px/48px var(--font-sans); color: var(--ink-muted); }
+
+/* our read (.gl-insight with its strata rule) */
+.vs-strata { display: flex; flex-direction: column; gap: 10px; margin-bottom: 40px; }
+.vs-strata i { display: block; height: 5px; border-radius: 2px; background: var(--glacial); }
+.vs-strata i:nth-child(1) { width: 100px; } .vs-strata i:nth-child(2) { width: 70px; } .vs-strata i:nth-child(3) { width: 40px; }
+.vs-readlabel { margin: 0 0 24px; font: 600 32px/40px var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--alpenglow); }
+.vs-read { margin: 0; max-width: 1560px; font: italic 400 76px/108px var(--font-serif); }
+.vs:lang(ko) .vs-read { font-style: normal; font-family: "Noto Serif KR", var(--font-serif); font-size: 66px; }
+
+/* end card (references, "Cite this article") */
+.vs-refs { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 20px; font: 400 38px/52px var(--font-sans); color: var(--ink-secondary); }
+.vs-refs span { display: inline-block; width: 64px; font: 600 34px/52px var(--font-mono); color: var(--link); }
+.vs-addr { margin: 64px 0 0; font: 600 52px/64px var(--font-sans); color: var(--link); }
+.vs-fine { margin: 28px 0 0; max-width: 1500px; font: 400 30px/44px var(--font-sans); color: var(--ink-muted); }
+
+/* chapter card (the podcast video's part titles): the part's number, its title, the question it answers */
+.vs--chapter .vs-in, .vs--thumb .vs-in { justify-content: center; }
+.vs-chapnum { margin: 0 0 28px; font: 600 40px/48px var(--font-mono); letter-spacing: 0.04em; color: var(--link); }
+.vs-chaptitle { margin: 0; max-width: 1560px; font: 700 96px/116px var(--font-sans); letter-spacing: -0.02em; text-wrap: balance; }
+.vs:lang(ko) .vs-chaptitle { font-size: 88px; line-height: 116px; letter-spacing: -0.03em; }
+.vs-chapq { margin: 40px 0 0; max-width: 1400px; font: italic 400 52px/76px var(--font-serif); color: var(--ink-secondary); }
+.vs:lang(ko) .vs-chapq { font-style: normal; font-family: "Noto Serif KR", var(--font-serif); font-size: 48px; }
+
+/* YouTube thumbnail: read at 320 px wide, so three to six words, very large */
+.vs--thumb { padding-bottom: 96px; }
+.vs-thumbtitle { margin: 0; max-width: 1650px; font: 800 150px/160px var(--font-sans); letter-spacing: -0.03em; color: var(--ink); text-wrap: balance; }
+.vs:lang(ko) .vs-thumbtitle { font-size: 136px; line-height: 160px; letter-spacing: -0.04em; }
+.vs-thumbsub { margin: 40px 0 0; font: 600 64px/80px var(--font-sans); color: var(--link); }
+.vs-thumbmark { position: absolute; right: 96px; bottom: 72px; margin: 0; font: 600 44px/1 var(--font-mono); color: var(--ink-muted); }
+
+/* the contact sheet: every slide and step at a quarter size */
+.vs-sheet { display: grid; grid-template-columns: repeat(4, 480px); gap: 40px 24px; padding: 32px; background: #000; }
+.vs-sheet figure { margin: 0; }
+.vs-sheet .vs-thumb { width: 480px; height: 270px; overflow: hidden; outline: 1px solid var(--line); }
+.vs-sheet .vs-thumb > .vs { transform: scale(0.25); transform-origin: 0 0; }
+.vs-sheet figcaption { margin-top: 8px; font: 500 16px/22px var(--font-mono); color: #ccc; }
+
+/* ===================================================================== § podcast
+   The podcast video's decks (deck.motion, class vs-pod): the same components with more contrast and room, a soft
+   glacier light in the top corner, the story rail on top, cards for tiles, findings, terms and flow steps. */
+
+.vs-pod { background:
+    radial-gradient(1100px 640px at 88% -8%, color-mix(in srgb, var(--glacial) 13%, transparent), transparent 70%),
+    radial-gradient(900px 520px at -6% 108%, color-mix(in srgb, var(--meltwater) 6%, transparent), transparent 70%),
+    var(--surface); }
+.vs-pod.has-rail { padding-top: 156px; }
+.vs-pod .vs-kicker { display: inline-block; align-self: flex-start; padding: 8px 22px; border: 2px solid color-mix(in srgb, var(--link) 55%, transparent);
+  border-radius: 999px; font-size: 28px; line-height: 36px; }
+.vs-pod .vs-label { color: var(--link); }
+.vs-pod .vs-rule { width: 160px; border-top: 6px solid var(--link); border-radius: 3px; transform-origin: left; }
+
+/* the rail: one short label per part over a track; the assembly fills the current part's track as the audio runs */
+.vs-rail { position: absolute; top: 48px; left: 96px; right: 96px; margin: 0; display: grid; grid-auto-flow: column;
+  grid-auto-columns: 1fr; gap: 20px; }
+.vs-rail span { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.vs-rail b { font: 500 24px/30px var(--font-sans); color: var(--ink-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.vs-rail i { display: block; height: 6px; border-radius: 3px; background: color-mix(in srgb, var(--line-strong) 45%, transparent); }
+.vs-rail .is-done b { color: var(--ink-secondary); }
+.vs-rail .is-done i { background: color-mix(in srgb, var(--link) 70%, transparent); }
+.vs-rail .is-on b { color: var(--ink); font-weight: 700; }
+
+/* question, answer: a left accent bar */
+.vs-pod .vs-answer, .vs-pod .vs-asked { padding-left: 48px; border-left: 8px solid var(--link); }
+.vs-pod .vs-asked { border-left-color: var(--alpenglow); }
+
+/* a number and what it means */
+.vs-pod .vs-big { font-size: 280px; text-shadow: 0 0 80px color-mix(in srgb, var(--glacial) 35%, transparent); }
+.vs-pod .vs-biglabel { color: var(--ink); }
+.vs-so { align-self: flex-start; margin: 40px 0 0; max-width: 1500px; padding: 6px 0 6px 32px; border-left: 6px solid var(--alpenglow);
+  font: 500 42px/58px var(--font-sans); color: var(--ink); }
+
+/* tiles, findings and terms as cards */
+.vs-pod .vs-tile { padding: 48px 52px; border-radius: 24px; background: color-mix(in srgb, var(--surface-ice) 80%, transparent);
+  border: 2px solid var(--line); }
+.vs-pod .vs-tile__value { font-size: 150px; }
+.vs-pod .vs-tile__label { color: var(--ink); }
+.vs-pod .vs-findings { padding: 0; background: none; gap: 24px; }
+.vs-pod .vs-findings li { padding: 30px 44px; border-radius: 20px; background: color-mix(in srgb, var(--surface-ice) 80%, transparent);
+  border-left: 8px solid var(--link); }
+.vs-pod.vs--term { display: flex; flex-direction: column; justify-content: center; }
+.vs-pod.vs--term .vs-in { height: auto; padding: 64px 72px; border-radius: 28px; background: color-mix(in srgb, var(--surface-ice) 70%, transparent);
+  border-left: 10px solid var(--glacial); }
+.vs-pod .vs-term { font-size: 60px; line-height: 72px; font-weight: 700; }
+.vs-pod .vs-define { font-size: 56px; line-height: 86px; }
+
+/* a figure: the chart takes the room */
+.vs-pod .vs-chart { transform-origin: left top; }
+
+/* flow: two to four steps left to right, an arrow before each next step, the last one lit */
+.vs-flow { list-style: none; margin: 40px 0 0; padding: 0; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 88px; }
+.vs-flow li { position: relative; display: flex; flex-direction: column; justify-content: center; min-height: 300px; padding: 40px 40px;
+  border-radius: 24px; background: color-mix(in srgb, var(--surface-ice) 80%, transparent); border: 2px solid var(--line); }
+.vs-flow li.is-end { border-color: var(--link); box-shadow: 0 0 60px color-mix(in srgb, var(--glacial) 25%, transparent); }
+.vs-flow__text { margin: 0; font: 600 46px/62px var(--font-sans); letter-spacing: -0.01em; text-wrap: balance; }
+.vs:lang(ko) .vs-flow__text { font-size: 42px; line-height: 60px; letter-spacing: -0.02em; line-break: strict; }
+.vs-flow__value { margin: 20px 0 0; font: 700 76px/1 var(--font-sans); letter-spacing: -0.02em; color: var(--link); }
+.vs-flow__arrow { position: absolute; left: -76px; top: 50%; width: 64px; height: 6px; margin-top: -3px; border-radius: 3px;
+  background: var(--link); transform-origin: left; }
+.vs-flow__arrow::after { content: ""; position: absolute; right: -4px; top: -11px; border: 14px solid transparent; border-left: 18px solid var(--link); border-right: 0; }
+.vs--flow .vs-in { justify-content: center; }
+.vs--flow .vs-so { margin-top: 56px; }
+
+/* the story line: a vertical track; parts done show what they found, the current one is lit */
+.vs-line { position: relative; list-style: none; margin: 0; padding: 0; display: grid; gap: 30px; }
+.vs-line li { position: relative; padding-left: 64px; }
+.vs-line li::before { content: ""; position: absolute; left: 0; top: 8px; width: 24px; height: 24px; border-radius: 50%; box-sizing: border-box;
+  border: 4px solid var(--line-strong); background: var(--surface); }
+.vs-line li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 40px; bottom: -26px; width: 4px; border-radius: 2px;
+  background: color-mix(in srgb, var(--line-strong) 45%, transparent); }
+.vs-line b { display: block; font: 600 36px/44px var(--font-sans); color: var(--ink-muted); }
+.vs-line span { display: block; margin-top: 6px; font: 400 28px/38px var(--font-sans); color: var(--ink-secondary); }
+.vs-line .is-done::before { border-color: var(--link); background: var(--link); }
+.vs-line .is-done::after { background: var(--link) !important; }
+.vs-line .is-done b { color: var(--ink); }
+.vs-line .is-on::before { width: 32px; height: 32px; left: -4px; top: 4px; border-color: var(--link); background: var(--surface);
+  box-shadow: 0 0 0 10px color-mix(in srgb, var(--glacial) 22%, transparent); }
+.vs-line .is-on b { color: var(--link); font-size: 44px; line-height: 48px; }
+.vs-line--big { gap: 30px; }
+.vs-line--big b { font-size: 46px; line-height: 56px; color: var(--ink); }
+.vs-line--big span { font-size: 32px; line-height: 44px; }
+.vs-line .is-ask span { color: var(--ink-muted); font-family: var(--font-serif); font-style: italic; }
+.vs:lang(ko) .vs-line .is-ask span { font-family: "Noto Serif KR", var(--font-serif); font-style: normal; }
+.vs-line--big li::before { top: 16px; }
+.vs-line--big li:not(:last-child)::after { top: 48px; bottom: -26px; }
+.vs-pod.vs--roadmap .vs-in, .vs-pod.vs--story .vs-in { justify-content: center; }
+.vs-pod.vs--story .vs-line { gap: 28px; }
+.vs-pod.vs--story .vs-line--big b { font-size: 44px; line-height: 54px; }
+.vs-pod.vs--story .vs-line--big span { font-size: 36px; line-height: 48px; }
+/* six parts: a tighter line, so the roadmap and the recap stay above the caption zone */
+.vs-line--big:has(> li:nth-child(6)), .vs-pod.vs--story .vs-line:has(> li:nth-child(6)) { gap: 18px; }
+.vs-line--big:has(> li:nth-child(6)) b, .vs-pod.vs--story .vs-line--big:has(> li:nth-child(6)) b { font-size: 42px; line-height: 50px; }
+.vs-line--big:has(> li:nth-child(6)) span, .vs-pod.vs--story .vs-line--big:has(> li:nth-child(6)) span { font-size: 32px; line-height: 42px; }
+.vs-line--big:has(> li:nth-child(6)) li::before { top: 13px; }
+.vs-line--big:has(> li:nth-child(6)) li:not(:last-child)::after { top: 45px; bottom: -14px; }
+
+/* chapter: the part on the left, the story so far on the right */
+.vs-chap2 { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 96px; align-items: center; height: 100%; }
+.vs-chap2__head { display: flex; flex-direction: column; }
+.vs-pod .vs-chapnum { font-size: 44px; }
+.vs-pod .vs-chaptitle { font-size: 84px; line-height: 104px; }
+.vs-pod:lang(ko) .vs-chaptitle { font-size: 78px; line-height: 102px; }
+.vs-pod .vs-chapq { font-size: 46px; line-height: 66px; }
+.vs-pod:lang(ko) .vs-chapq { font-size: 44px; }
+
+/* ===================================================================== § motion
+   Mild and short: things rise a little and fade in, one after another (110 ms apart), a chart is drawn left to
+   right, an arrow before the step it leads to. `artools video slides` pauses every animation and steps it frame by
+   frame (slides.py → FRAMES_JS), so the timing here is the video's. Nothing moves longer than 1.4 s. */
+[data-a] { animation-duration: 700ms; animation-timing-function: cubic-bezier(0.2, 0.7, 0.2, 1); animation-fill-mode: both;
+  animation-delay: calc(120ms + var(--i, 0) * 110ms); }
+[data-a="rise"] { animation-name: vs-rise; }
+[data-a="fade"] { animation-name: vs-fade; animation-duration: 600ms; }
+[data-a="pop"] { animation-name: vs-pop; animation-duration: 800ms; transform-origin: left center; }
+[data-a="grow"] { animation-name: vs-grow; transform-origin: left; }
+[data-a="draw"] { animation-name: vs-grow; animation-duration: 450ms; }
+[data-a="wipe"] { animation-name: vs-wipe; animation-duration: 1300ms; animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+@keyframes vs-rise { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+@keyframes vs-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes vs-pop { from { opacity: 0; transform: scale(0.94); } to { opacity: 1; transform: none; } }
+@keyframes vs-grow { from { transform: scaleX(0); } to { transform: none; } }
+@keyframes vs-wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 -10% 0 0); } }

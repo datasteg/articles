@@ -1,0 +1,228 @@
+{
+ "id": "scale",
+ "form": "bars",
+ "headline": {
+  "en": "Canada's cross-border bank debt equals 142% of a year's exports, against 13.4% for Mexico",
+  "ko": "캐나다 국경 간 은행 부채는 연간 수출액의 142%, 멕시코는 13.4%"
+ },
+ "title": {
+  "en": "Bank loans owed to all lenders against goods exports, economies whose largest lender is also their largest buyer",
+  "ko": "상품 수출에 대한 모든 대출기관에 대한 은행 대출, 최대 대출기관이 최대 구매국이기도 한 경제"
+ },
+ "subtitle": {
+  "en": "BIS loans owed at end-June 2026 over UN Comtrade goods exports, twelve months to June 2026; %; UK left out; the reference line is the median of the whole group",
+  "ko": "2026년 6월말 BIS 대출 잔액의 2026년 6월 기준 최근 12개월 UN Comtrade 상품 수출액 대비 비율(%); 영국 제외; 기준선은 전체 그룹 중앙값"
+ },
+ "alt": {
+  "en": "Canada's bank loans equal 142% of a year's goods exports and Mexico's 13.4%, against a group median of 60.6%.",
+  "ko": "캐나다의 은행 대출은 연간 상품 수출액의 142%에 해당하며, 멕시코는 13.4%다. 그룹 중앙값은 60.6%다."
+ },
+ "notes": [
+  {
+   "en": "The UK is left out because banks located there book loans for groups based elsewhere, so its ratio reflects booking.",
+   "ko": "영국은 해당 지역에 소재한 은행들이 다른 지역에 기반을 둔 그룹의 대출을 기록하기 때문에, 그 비율은 기록(booking)을 반영하므로 제외된다."
+  },
+  {
+   "en": "Loans are a stock and exports a twelve-month flow, so the ratio measures scale, not the ability to repay.",
+   "ko": "대출은 재고(stock)이고 수출은 12개월간의 흐름(flow)이므로, 해당 비율은 상환 능력이 아닌 규모를 측정한다."
+  },
+  {
+   "en": "Of all 36 economies, Canada ranks 5 on this ratio, counting from the highest; Mexico ranks 2, counting from the lowest.",
+   "ko": "36개 경제권 전체에서 캐나다의 해당 비율은 높은 순으로 5위이며, 멕시코는 낮은 순으로 2위이다."
+  }
+ ],
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Cross-border bank loans owed, % of twelve-month goods exports",
+    "ko": "최근 12개월간 상품 수출액 대비 국경 간 은행 대출 잔액 비율"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    250
+   ],
+   "ticks": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "categories": [
+  {
+   "id": "NOR",
+   "label": {
+    "en": "Norway",
+    "ko": "노르웨이"
+   },
+   "value": 226.21,
+   "highlight": false
+  },
+  {
+   "id": "CAN",
+   "label": {
+    "en": "Canada",
+    "ko": "캐나다"
+   },
+   "value": 141.7,
+   "highlight": true
+  },
+  {
+   "id": "FIN",
+   "label": {
+    "en": "Finland",
+    "ko": "핀란드"
+   },
+   "value": 119.9,
+   "highlight": false
+  },
+  {
+   "id": "ESP",
+   "label": {
+    "en": "Spain",
+    "ko": "스페인"
+   },
+   "value": 104.77,
+   "highlight": false
+  },
+  {
+   "id": "COL",
+   "label": {
+    "en": "Colombia",
+    "ko": "콜롬비아"
+   },
+   "value": 62.11,
+   "highlight": false
+  },
+  {
+   "id": "PRT",
+   "label": {
+    "en": "Portugal",
+    "ko": "포르투갈"
+   },
+   "value": 61.82,
+   "highlight": false
+  },
+  {
+   "id": "MEX",
+   "label": {
+    "en": "Mexico",
+    "ko": "멕시코"
+   },
+   "value": 13.42,
+   "highlight": true
+  }
+ ],
+ "valueFormat": {
+  "decimals": 1,
+  "suffix": "%"
+ },
+ "referenceLines": [
+  {
+   "axis": "x",
+   "value": 60.625,
+   "label": {
+    "en": "Median, all economies in the group",
+    "ko": "그룹 내 모든 경제의 중앙값"
+   }
+  }
+ ],
+ "table": {
+  "columns": [
+   {
+    "key": "label",
+    "label": {
+     "en": "Economy",
+     "ko": "경제"
+    }
+   },
+   {
+    "key": "bank_loans_pct_exports",
+    "label": {
+     "en": "Cross-border bank loans owed, % of twelve-month goods exports",
+     "ko": "최근 12개월간 상품 수출액 대비 국경 간 은행 대출 잔액 비율"
+    },
+    "align": "right"
+   }
+  ],
+  "rows": [
+   {
+    "label": {
+     "en": "Norway",
+     "ko": "노르웨이"
+    },
+    "bank_loans_pct_exports": 226.21
+   },
+   {
+    "label": {
+     "en": "Canada",
+     "ko": "캐나다"
+    },
+    "bank_loans_pct_exports": 141.7
+   },
+   {
+    "label": {
+     "en": "Finland",
+     "ko": "핀란드"
+    },
+    "bank_loans_pct_exports": 119.9
+   },
+   {
+    "label": {
+     "en": "Spain",
+     "ko": "스페인"
+    },
+    "bank_loans_pct_exports": 104.77
+   },
+   {
+    "label": {
+     "en": "Colombia",
+     "ko": "콜롬비아"
+    },
+    "bank_loans_pct_exports": 62.11
+   },
+   {
+    "label": {
+     "en": "Portugal",
+     "ko": "포르투갈"
+    },
+    "bank_loans_pct_exports": 61.82
+   },
+   {
+    "label": {
+     "en": "Mexico",
+     "ko": "멕시코"
+    },
+    "bank_loans_pct_exports": 13.42
+   }
+  ]
+ },
+ "meta": {
+  "sources": [
+   "S2"
+  ],
+  "provider": "datasteg calculation",
+  "keys": [
+   "desk join of board, sovereign, stress, country"
+  ],
+  "definition": {
+   "en": "Bank loans and deposits owed, % of goods exports over the window joined at the funding quarter",
+   "ko": "최근 12개월간 상품 수출액 대비 국경 간 은행 대출 잔액 비율"
+  },
+  "lastObservation": "2026-06-30",
+  "retrieved": "2026-11-17",
+  "licence": "derived views of open statistics; each publisher's terms apply",
+  "attribution": {
+   "en": "BIS, IMF, UN Comtrade via datasteg global-network; datasteg calculation",
+   "ko": "BIS, IMF, UN Comtrade, datasteg global-network를 통해; datasteg 계산"
+  }
+ },
+ "csv": "data/scale.csv"
+}

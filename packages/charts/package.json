@@ -1,0 +1,21 @@
+{
+  "name": "@articles/charts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Server-rendered SVG charts in Glacier's anatomy for articles: line, bars, dumbbell, scatter, stat tiles, table",
+  "exports": {
+    ".": "./src/index.ts",
+    "./charts.css": "./charts.css"
+  },
+  "dependencies": {
+    "@glacier/i18n": "workspace:*",
+    "@glacier/ui": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "react": "19.3.0"
+  }
+}

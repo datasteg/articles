@@ -1,0 +1,25 @@
+# Only the web app and its content go into the image; the newsroom stays on dev-host.
+**/node_modules
+**/.next
+**/*.tsbuildinfo
+.git
+.env*
+**/.DS_Store
+.preview
+.claude
+pipeline
+docs
+guides
+# The build reads config/pipelines (the article types and their diagrams) and config/topics.yaml; the rest stays out
+config/*
+!config/pipelines
+!config/topics.yaml
+contracts
+evals
+runs
+readings
+cache
+packages/tokens/tokens.css
+apps/web/generated
+apps/web/public/data
+apps/web/public/pdf

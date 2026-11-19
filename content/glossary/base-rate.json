@@ -1,0 +1,15 @@
+{
+ "id": "base-rate",
+ "term": {
+  "en": "base rate",
+  "ko": "기준금리"
+ },
+ "definition": {
+  "en": "The policy interest rate a central bank sets to steer borrowing costs across the economy. In Korea it is the Bank of Korea's Base Rate.",
+  "ko": "중앙은행이 경제 전반의 금리를 이끌기 위해 정하는 정책금리다. 한국에서는 한국은행 기준금리를 말한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy"
+ ]
+}

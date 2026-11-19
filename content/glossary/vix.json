@@ -1,0 +1,16 @@
+{
+ "id": "vix",
+ "term": {
+  "en": "VIX",
+  "ko": "VIX"
+ },
+ "definition": {
+  "en": "An index, worked out from option prices, of how much the US stock market is expected to swing over the coming month. It is widely used as a gauge of investors' fear.",
+  "ko": "옵션 가격으로 계산한, 앞으로 한 달 동안 미국 주식시장이 얼마나 출렁일지에 대한 시장의 예상치다. 투자자들의 불안을 측정하는 지표로 널리 쓰인다."
+ },
+ "topics": [
+  "stock-markets",
+  "financial-conditions"
+ ],
+ "approvedBy": null
+}

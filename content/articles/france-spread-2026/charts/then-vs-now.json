@@ -1,0 +1,250 @@
+{
+ "id": "then-vs-now",
+ "form": "table",
+ "headline": {
+  "en": "France's debt is now close to Italy's and Portugal's in 2011 and its deficit is the largest of the six in 2025, but its interest bill is lighter and its economy is growing",
+  "ko": "프랑스 부채는 2011년 이탈리아·포르투갈 수준에 가깝고 2025년 재정적자는 여섯 나라 중 가장 크지만, 이자 부담은 더 가볍고 경제는 성장하고 있다"
+ },
+ "title": {
+  "en": "France today beside the crisis countries in 2011",
+  "ko": "오늘의 프랑스와 2011년의 위기국"
+ },
+ "subtitle": {
+  "en": "Spread over Germany in basis points; government debt, budget balance and interest paid in % of GDP; real GDP growth in % on the year before",
+  "ko": "대독일 가산금리는 bp, 정부 부채·재정수지·이자 지출은 GDP 대비 %, 실질 성장률은 전년 대비 %"
+ },
+ "howToRead": {
+  "en": "The 2011 rows show the crisis countries, and France, during the crisis. The 'now' rows show the latest data: September 2026 for the spread, 2025 for the other columns. A negative balance is a deficit; negative growth means the economy shrank.",
+  "ko": "2011년 행은 위기 당시의 위기국과 프랑스를 보여 준다. '현재' 행은 최신 자료로, 가산금리는 2026년 9월, 나머지 열은 2025년 값이다. 재정수지가 음수면 적자, 성장률이 음수면 경제가 위축됐다는 뜻이다."
+ },
+ "notes": [
+  {
+   "en": "Spread for the 'now' rows is the September 2026 monthly average; for the 2011 rows it is the average of 2011's twelve monthly averages. Debt, balance, interest and growth for the 'now' rows are for 2025, the latest full year. Germany is the benchmark, so it has no spread.",
+   "ko": "'현재' 행의 가산금리는 2026년 9월 월평균이고, 2011년 행은 2011년 12개월 월평균의 평균이다. '현재' 행의 부채·재정수지·이자·성장률은 최신 연간 자료인 2025년 값이다. 독일은 기준 국가여서 가산금리가 없다."
+  },
+  {
+   "en": "Peak spreads, up to 2,739bp for Greece in February 2012, are in the text rather than the table: the spread column shows typical levels, not extremes.",
+   "ko": "그리스의 2012년 2월 2,739bp 같은 정점 가산금리는 표가 아니라 본문에 있다. 표의 가산금리 열은 극단값이 아니라 대표 수준을 보여 준다."
+  },
+  {
+   "en": "Current-account balances are left out: the crisis countries' external deficits built up before 2008, so 2011 values miss the point; the text gives 2007 and 2025. Ireland is not among the countries compared.",
+   "ko": "경상수지는 뺐다. 위기국의 대외 적자는 2008년 이전에 쌓였으므로 2011년 값으로는 핵심을 놓친다. 본문에 2007년과 2025년 값이 있다. 아일랜드는 비교 대상이 아니다."
+  }
+ ],
+ "alt": {
+  "en": "Table comparing France now (2025; spread September 2026) with France, Italy, Spain, Portugal and Greece in 2011, and with those countries and Germany now. France's debt, 115.6% of GDP, is near Italy's 119.1% and Portugal's 114.0% in 2011; its deficit of 5.1% of GDP is the largest of the six in 2025; its interest bill of 2.2% of GDP is below each crisis country's in 2011; it grew 0.8% in 2025; and its 97bp spread is far below the crisis countries' 2011 averages of 281bp to 1,314bp.",
+  "ko": "현재(2025년, 가산금리는 2026년 9월)의 프랑스를 2011년의 프랑스·이탈리아·스페인·포르투갈·그리스, 그리고 현재의 이들 나라·독일과 비교한 표. 프랑스 부채는 GDP의 115.6%로 2011년 이탈리아(119.1%)·포르투갈(114.0%)에 가깝고, 재정적자는 GDP의 5.1%로 2025년 여섯 나라 중 가장 크다. 이자 지출은 GDP의 2.2%로 2011년 어느 위기국보다 낮고, 2025년 0.8% 성장했으며, 가산금리 97bp는 위기국들의 2011년 평균(281bp~1,314bp)에 크게 못 미친다."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S7",
+   "S6"
+  ],
+  "provider": "ECB Data Portal; Eurostat",
+  "keys": [
+   "IRS.M.{FR,DE,IT,ES,PT,GR}.L.L40.CI.0000.EUR.N.Z",
+   "gov_10dd_edpt1: na_item GD, B9, D41PAY; sector S13; unit PC_GDP",
+   "nama_10_gdp: na_item B1GQ; unit CLV_PCH_PRE"
+  ],
+  "definition": {
+   "en": "Spread: 10-year government bond yield minus Germany's (ECB). Debt: general government gross debt (Maastricht). Balance: general government net lending (+) or borrowing (−). Interest: general government interest payable. Growth: real GDP, chain-linked volumes, % change on the previous year (Eurostat).",
+   "ko": "가산금리: 10년물 국채 금리에서 독일 금리를 뺀 값(ECB). 부채: 일반정부 총부채(마스트리흐트 기준). 재정수지: 일반정부 순대출(+) 또는 순차입(−). 이자: 일반정부 이자 지출. 성장률: 실질 GDP(연쇄 가중 물량) 전년 대비 증감률(Eurostat)."
+  },
+  "calculation": {
+   "en": "Spread = (country yield − Germany yield) × 100; the 2011 figure is the mean of the twelve monthly spreads. Other columns as published.",
+   "ko": "가산금리 = (각국 금리 − 독일 금리) × 100이며, 2011년 값은 12개월 가산금리의 평균이다. 나머지 열은 발표값 그대로다."
+  },
+  "span": [
+   "2011",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-19",
+  "licence": "ECB: reuse with attribution; Eurostat: CC BY 4.0",
+  "attribution": {
+   "en": "Sources: ECB Data Portal; Eurostat; datasteg calculation",
+   "ko": "출처: ECB 데이터 포털; Eurostat; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "row",
+    "label": {
+     "en": "Country, period",
+     "ko": "국가, 시점"
+    }
+   },
+   {
+    "key": "spread",
+    "label": {
+     "en": "Spread, bp",
+     "ko": "가산금리(bp)"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "debt",
+    "label": {
+     "en": "Debt, %",
+     "ko": "부채(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "balance",
+    "label": {
+     "en": "Balance, %",
+     "ko": "재정수지(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "interest",
+    "label": {
+     "en": "Interest, %",
+     "ko": "이자(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "growth",
+    "label": {
+     "en": "Growth, %",
+     "ko": "성장률(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "row": {
+     "en": "France now",
+     "ko": "프랑스 현재"
+    },
+    "spread": 96.7,
+    "debt": 115.6,
+    "balance": -5.1,
+    "interest": 2.2,
+    "growth": 0.8
+   },
+   {
+    "row": {
+     "en": "France 2011",
+     "ko": "프랑스 2011년"
+    },
+    "spread": 71.2,
+    "debt": 88.7,
+    "balance": -5.3,
+    "interest": 2.7,
+    "growth": 2.4
+   },
+   {
+    "row": {
+     "en": "Italy 2011",
+     "ko": "이탈리아 2011년"
+    },
+    "spread": 281.4,
+    "debt": 119.1,
+    "balance": -3.5,
+    "interest": 4.6,
+    "growth": 0.7
+   },
+   {
+    "row": {
+     "en": "Spain 2011",
+     "ko": "스페인 2011년"
+    },
+    "spread": 283.2,
+    "debt": 69.5,
+    "balance": -9.7,
+    "interest": 2.5,
+    "growth": -0.6
+   },
+   {
+    "row": {
+     "en": "Portugal 2011",
+     "ko": "포르투갈 2011년"
+    },
+    "spread": 763.1,
+    "debt": 114.0,
+    "balance": -7.7,
+    "interest": 4.3,
+    "growth": -1.7
+   },
+   {
+    "row": {
+     "en": "Greece 2011",
+     "ko": "그리스 2011년"
+    },
+    "spread": 1314.1,
+    "debt": 175.1,
+    "balance": -10.5,
+    "interest": 7.7,
+    "growth": -9.9
+   },
+   {
+    "row": {
+     "en": "Italy now",
+     "ko": "이탈리아 현재"
+    },
+    "spread": 88.9,
+    "debt": 137.1,
+    "balance": -3.1,
+    "interest": 3.9,
+    "growth": 0.6
+   },
+   {
+    "row": {
+     "en": "Spain now",
+     "ko": "스페인 현재"
+    },
+    "spread": 45.4,
+    "debt": 100.7,
+    "balance": -2.4,
+    "interest": 2.4,
+    "growth": 2.6
+   },
+   {
+    "row": {
+     "en": "Portugal now",
+     "ko": "포르투갈 현재"
+    },
+    "spread": 37.3,
+    "debt": 89.7,
+    "balance": 0.7,
+    "interest": 1.9,
+    "growth": 1.9
+   },
+   {
+    "row": {
+     "en": "Greece now",
+     "ko": "그리스 현재"
+    },
+    "spread": 74.7,
+    "debt": 146.1,
+    "balance": 1.7,
+    "interest": 3.2,
+    "growth": 2.1
+   },
+   {
+    "row": {
+     "en": "Germany now",
+     "ko": "독일 현재"
+    },
+    "spread": null,
+    "debt": 63.5,
+    "balance": -2.7,
+    "interest": 1.1,
+    "growth": 0.2
+   }
+  ]
+ },
+ "csv": "data/then-vs-now.csv"
+}

@@ -1,0 +1,35 @@
+[
+ {
+  "ref": "jejualps:45559",
+  "title": "The geography of AI firms",
+  "institution": "BIS Working Papers 1343 (Shreeti and Rishabh)",
+  "date": "2026-04-20",
+  "url": "https://www.bis.org/publ/work1343.htm",
+  "why": {
+   "en": "Maps where AI firms are listed and how much of each country's stock market they make up, Korea and Chinese Taipei included: background to the article's AI and Korea sections.",
+   "ko": "AI 기업이 어디에 상장돼 있고 각국 주식시장에서 얼마나 큰 비중을 차지하는지 한국과 대만을 포함해 정리한 연구로, 이 글의 AI와 한국 부분을 이해하는 배경이 된다."
+  }
+ },
+ {
+  "ref": "jejualps:69048",
+  "title": "How Important is the Global Financial Cycle? Evidence from Capital Flows",
+  "institution": "IMF Working Paper 2017/193 (Cerutti, Claessens and Rose)",
+  "date": "2017-09-01",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2017/193/001.2017.issue-193-en.xml",
+  "why": {
+   "en": "The classic dissent behind the article's 'prices move together, money doesn't' point: across 85 countries in 1990-2015, global factors rarely explain more than a quarter of capital flows.",
+   "ko": "'가격은 함께 움직여도 돈은 그렇지 않다'는 이 글의 논점 뒤에 있는 고전적 반론으로, 1990~2015년 85개국에서 글로벌 요인이 자본 흐름 변동의 4분의 1 이상을 설명하는 경우가 드물었다고 밝힌다."
+  }
+ },
+ {
+  "ref": "jejualps:22194",
+  "title": "Andrew Bailey: Global imbalances in a more fragmented world",
+  "institution": "Bank of England (speech, published by the BIS)",
+  "date": "2026-02-04",
+  "url": "https://www.bis.org/review/r260203h.htm",
+  "why": {
+   "en": "The Bank of England governor's view of global imbalances in a more fragmented world: a wider frame for why money piling into one country matters to the rest.",
+   "ko": "분열이 심해지는 세계에서의 글로벌 불균형에 관한 영란은행 총재의 견해로, 한 나라로 돈이 몰리는 일이 다른 나라에 왜 중요한지 더 넓은 틀에서 보여 준다."
+  }
+ }
+]

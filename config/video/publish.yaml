@@ -1,0 +1,50 @@
+# Where drafts and videos go.
+
+# Secrets live outside the repository, mode 600. The paths below are placeholders.
+secrets:
+  gemini_env: /path/to/private/gemini.env            # GEMINI_API_KEY=…
+  youtube_client: /path/to/private/youtube-client.json
+  youtube_token: /path/to/private/youtube-token.json
+
+youtube:
+  redirect_port: 8765                                  # the loopback address of `artools video auth`
+  scopes:
+    - https://www.googleapis.com/auth/youtube.upload
+    - https://www.googleapis.com/auth/youtube.force-ssl
+  category: "27"                                       # Education
+  made_for_kids: false
+  synthetic_media: true                                # the narrator is a synthetic voice
+  privacy_on_upload: public                            # the editor's choice, 26 Oct 2026: no private review stage
+  playlists:
+    en: {title: "datasteg explainers", description: "Ten-minute explainers of datasteg articles: one question, answered with research and data."}
+    ko: {title: "datasteg 해설", description: "datasteg 기사를 10분 영상으로 풉니다. 질문 하나에 연구와 데이터로 답합니다."}
+  disclosure:
+    en: "Narrated by a synthetic voice (Gemini TTS). The script was written with AI assistance from the published article and approved by the editor."
+    ko: "합성 음성(Gemini TTS)으로 읽었습니다. 대본은 게시된 기사를 바탕으로 AI의 도움을 받아 썼고, 편집자가 승인했습니다."
+  disclaimer:
+    en: "General information about the economy and financial markets, not investment advice."
+    ko: "경제와 금융시장에 관한 일반 정보이며 투자 권유가 아닙니다."
+
+  # The channel's introduction (`artools video channel`): English by default, Korean for viewers whose YouTube is in
+  # Korean. YouTube makes the address clickable once the channel has advanced features (YouTube Studio → Settings →
+  # Channel → Feature eligibility).
+  channel:
+    keywords: datasteg economics finance "economics explained" "central bank" "bond markets" 경제 금융 "경제 해설" 채권
+    country: KR
+    description:
+      en: |-
+        datasteg explains economics and finance with central-bank research and official statistics. Each video is a narrated version of an article on articles.datasteg.com: one question, answered with the data, with every number and source checked. In English and in Korean.
+
+        Read the articles: https://articles.datasteg.com
+
+        English videos are in the "datasteg explainers" playlist, Korean ones in "datasteg 해설".
+
+        The narration is a synthetic voice (Gemini TTS). Scripts are written with AI assistance from the published articles and approved by an editor. General information about the economy and financial markets, not investment advice.
+      ko: |-
+        datasteg는 중앙은행 연구와 공식 통계로 경제와 금융을 설명합니다. 영상마다 articles.datasteg.com에 실린 기사 한 편을 내레이션으로 옮겼습니다. 질문 하나에 데이터로 답하고, 모든 수치와 출처를 확인했습니다. 영어와 한국어로 냅니다.
+
+        기사 읽기: https://articles.datasteg.com
+
+        한국어 영상은 「datasteg 해설」, 영어 영상은 「datasteg explainers」 재생목록에 있습니다.
+
+        목소리는 합성 음성(Gemini TTS)입니다. 대본은 게시된 기사를 바탕으로 AI의 도움을 받아 쓰고 편집자가 승인합니다. 경제와 금융시장에 관한 일반 정보이며 투자 권유가 아닙니다.

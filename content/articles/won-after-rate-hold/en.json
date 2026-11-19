@@ -1,0 +1,212 @@
+{
+ "kicker": "Korean won",
+ "title": "The won's rise came before the rate hold, not after it",
+ "dek": "Nearly all of the won's gain since its July low came before the Bank of Korea held rates on 22 October, and in January–August the current account brought in 2.8 times as many dollars as foreigners took out of Korean stocks.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "97%",
+   "label": "of the won's rise since its 2 Jul low had come by 16 Oct, before the meeting week",
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "−60bp",
+   "label": "change in the gap between Korea's 3-year and the US 2-year government bond rates, 2 Jul–21 Oct, all of the net change after late August (negative = against Korea)",
+   "cite": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "value": "2.8×",
+   "label": "the dollars the current account brought in, against those foreigners took out of Korean stocks, January–August 2026",
+   "cite": [
+    "S12",
+    "S13"
+   ]
+  }
+ ],
+ "findings": [
+  "The won did not speed up after the hold: on decision day it moved 0.08% against the dollar, less than on 20 of the 22 trading days before, and 97% of its rise since the July low had come by 16 Oct [[S1]].",
+  "On balance the gap between Korean and US market interest rates moved against Korea only from late August, 60bp in all from 2 Jul to 21 Oct [[S2,S3]]. Korea's two hikes had narrowed the policy-rate gap and the Fed's rise widened it again, so the hold left Korea's ((base-rate|base rate)) 100bp below the top of the Fed's range [[S4,S5]].",
+  "Studies of other currencies find that decisions move exchange rates through their surprise, and on Fed and ECB decision days mostly through news about the future path of rates; in 1996 a model whose power came almost wholly from net buying and selling explained more than half of daily moves in the mark-dollar rate [[S6,S7,S8]]. Korea's 3-year government bond ((bond-yield|yield)) had fallen 30bp from its late-September high before the meeting and moved 1.8bp on decision day, which suggests the hold was largely expected [[S2,S4]].",
+  "This was the won, not a weak dollar: from 2 Jul to 16 Oct a dollar came to cost 13.3% fewer won, while the ((broad-dollar-index|broad dollar index)) rose 0.6% and the Taiwan dollar, a fellow chip exporter's currency, weakened [[S9,S10,S11]].",
+  "In January–August 2026 the ((current-account|current account)) brought in USD 279bn, 2.8 times the USD 101bn foreigners took out of Korean stocks, and in the balance of payments foreigners were small net buyers of Korean shares in July–August, though daily exchange data, which we cannot republish, show net selling in every month from July; how much export income was turned into won is not measured [[S12,S13]]."
+ ],
+ "question": {
+  "asked": "Why did the won keep strengthening through the Bank of Korea's October 2026 rate hold, though US rates rose further above Korea's and foreigners sold Korean stocks heavily this year, and what part did export dollars and other flows play?",
+  "lookedAt": "How the won moved around the Bank of Korea's October rate hold and this year's two hikes, whether interest rates or the dollars flowing into and out of Korea explain the move, and what research finds about currencies on central-bank decision days.",
+  "premiseNote": "At the daily close the won did not rise faster after the decision than before it—nearly all of its gain since July came earlier—and over that rise the gap with US market interest rates moved against the won, not for it, on balance only from late August."
+ },
+ "sections": [
+  {
+   "id": "timing",
+   "heading": "Almost all of the won's rise came before the meeting week",
+   "summary": "Almost all of the won's gain since July came before the meeting week.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Almost all of the won's gain since its July low came before the meeting week. We measure the won as won per dollar, so a lower number means a stronger won. At the Bank of Korea's afternoon close a dollar cost 1,555.8 won on 2 Jul 2026, the won's weakest of 2026, and 1,324.6 won on 23 Oct, a fall of 14.9% [[S1]]. On decision day the won closed at its strongest since 2 Oct 2024."
+    },
+    {
+     "type": "p",
+     "text": "Meanwhile the Bank raised its base rate from 2.50% to 3.00%, on 16 Jul 2026 and 27 Aug 2026 [[S4]]. By Friday 16 Oct, the last trading day before the meeting week, 97% of the won's rise had already happened [[S1]]. That Friday alone a dollar got 13.2 won cheaper. The chart below shows the year: the won weakened into early July, then rose, most of it by mid-October, with a setback in mid-September."
+    },
+    {
+     "type": "figure",
+     "chart": "won-2026"
+    }
+   ]
+  },
+  {
+   "id": "decision-day",
+   "heading": "The hold moved the won less than an ordinary day",
+   "summary": "On decision day the won moved less than on almost any day of the month before.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In the meeting week the won kept the pace it had already set, and on decision day it moved less than on almost any day of the month before. Over the four days to Thursday 22 Oct it gained 7.2 won, about 1.8 won a day [[S1]]. Over the 22 trading days before, it had gained 1.7 won a day on average [[S1]]. On Friday it slipped back 0.4 won."
+    },
+    {
+     "type": "p",
+     "text": "In percent, which keeps days at different levels comparable, the decision-day move was 0.08%, smaller than on 20 of those 22 trading days [[S1]]. It was also smaller than on the two days the Bank raised rates, 0.29% and 0.28%. The chart below compares them with the average day."
+    },
+    {
+     "type": "figure",
+     "chart": "decision-days"
+    },
+    {
+     "type": "p",
+     "text": "In June Governor Shin Hyun Song said that round-the-clock trading in the onshore currency market would open in July [[S14]]. The won's extended-session close tells the same story: on decision day it ended 0.3 won weaker than the day before, at 1,326.5 won [[S15]]."
+    }
+   ]
+  },
+  {
+   "id": "rates",
+   "heading": "The market-rate gap moved against the won late in its rise",
+   "summary": "From late August the gap with US market rates widened against Korea while the won kept rising.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Over the won's rise as a whole the gap that markets trade moved 60bp against Korea, all of the net change after 26 Aug, by when 74% of the rise had already happened [[S2,S3,S1]]. Two gaps matter here, both measured in ((basis-point|basis points)). The ((policy-rate-gap|policy-rate gap)) is Korea's base rate minus the top of the Federal Reserve's target range. The market-rate gap, Korea's 3-year government bond ((bond-yield|yield)) minus the US 2-year Treasury yield, moves with where investors think policy rates are heading."
+    },
+    {
+     "type": "p",
+     "text": "The policy gap moved both ways: Korea's two hikes narrowed it from 125bp to 75bp below the Fed's [[S4,S5]], and the won rose before, between and after them. The Fed's rise, in effect from 17 Sep 2026, widened it to 100bp, where the hold left it [[S5,S4]]. On 17 Sep 2026 the won fell 0.99%, its largest one-day fall since the July low [[S1]]. It came within a setback that had begun on 9 Sep, before the Fed moved: a dollar cost 1,336.1 won on 9 Sep and 1,383.3 won on 18 Sep [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "The market gap moved against Korea, from −39bp at the won's July low to −99bp on 21 Oct, its widest since 30 Sep 2025 [[S2,S3]]. Until late August it swung, between −26.4bp on 15 Jul and −52.2bp on 31 Jul, and on 26 Aug it stood at −37.4bp, close to where it started. US 2-year yields rose 67bp, while Korea's 3-year yield rose only 8bp [[S3,S2]]. The chart below shows both gaps through the year."
+    },
+    {
+     "type": "figure",
+     "chart": "rate-gaps"
+    },
+    {
+     "type": "p",
+     "text": "Day to day, the won ignored the market gap. Over 70 days the correlation between their daily moves was 0.05, close to none, and the won moved the way the gap suggested on 47% of days [[S1,S2,S3]]. These are descriptions, not a test of cause."
+    },
+    {
+     "type": "p",
+     "text": "Research suggests why a hold need not move a currency. Under ((uncovered-interest-parity|uncovered interest parity)) a currency reflects the whole expected path of rate gaps [[S16]], but in US, euro-area and UK data expected rate gaps in the near future matter much more than the theory implies [[S16]]. By that finding, the market gap's move against Korea would have been expected to weigh on the won [[S16,S2,S3]]. On Fed and ECB decision days currencies react to the surprise, mostly about the ((expected-policy-path|expected path)) of rates [[S7]]. In a study of advanced and emerging economies, surprises in the current rate averaged close to zero [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "Korea's 3-year yield suggests the hold was expected. It fell 30bp from its 28 Sep 2026 high to 21 Oct, the day before the meeting [[S2]]. Its margin over the base rate shrank from 112bp to 82bp over the same weeks, and on decision day it moved 1.8bp [[S2,S4]]."
+    },
+    {
+     "type": "p",
+     "text": "Rates still matter: in the same study a surprise rise in the policy rate strengthened the currency [[S6]], though less so in advanced economies since 2021 [[S6]]. In a study of emerging economies from 2000 to 2019, the tendency of currencies to weaken after rate rises disappeared or shrank once forward-looking expectations were included [[S17]]."
+    }
+   ]
+  },
+  {
+   "id": "won-alone",
+   "heading": "This was the won, not a weak dollar",
+   "summary": "The won rose far more than the broad dollar moved, and more than its neighbours.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The won rose far more than the broad dollar moved, and more than its Asian neighbours, so the explanation points to Korea. In emerging economies capital inflows rise when the dollar weakens, and the dollar remains an important global factor [[S18]]. From 2 Jul to 16 Oct, at New York noon rates, a dollar came to cost 13.3% fewer won while the broad dollar index rose 0.6% [[S9,S10]]. A dollar bought 1.8% fewer yen but 1.7% more Taiwan dollars, the currency of a fellow chip exporter [[S19,S11]]."
+    },
+    {
+     "type": "p",
+     "text": "The chart below shows the three currencies from 1 Jun, each set to one hundred on 2 Jul."
+    },
+    {
+     "type": "figure",
+     "chart": "peers"
+    },
+    {
+     "type": "p",
+     "text": "The month before the meeting week looks the same. From 16 Sep to 16 Oct the broad dollar rose 2.1%, and the yen and the Taiwan dollar each lost about 1.9% against it, while a dollar came to cost 2.5% fewer won [[S10,S19,S11,S9]]. US data for the meeting week itself are not yet out. Against the yuan, the one comparison we can publish, the won gained 0.43% from 16 Oct to 22 Oct [[S20]]."
+    },
+    {
+     "type": "p",
+     "text": "Calmer markets do not explain the timing either. The VIX, a gauge of expected swings in US stocks, closed at 16.46 on 15 Oct, the US close before the won's best day that fortnight. That was above every close from 2 Oct to 13 Oct and only a little below 14 Oct's [[S21]]."
+    }
+   ]
+  },
+  {
+   "id": "flows",
+   "heading": "More dollars came in than foreign stock selling took out",
+   "summary": "Dollars from the current account far exceeded those foreigners took out of stocks.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In the short run a currency follows the net of all buying and selling, and in January–August 2026 the dollars the current account brought in far exceeded those foreign stock sales took out, though how many of them reached the currency market is not measured [[S12,S13]]. Like the price at a market stall, a currency moves with who is buying and who is selling today, whatever their reasons; studies call this ((order-flow|order flow)) [[S8]]. In mark and yen trading in 1996, a model with order flow and the rate gap explained more than half of daily moves in the mark-dollar rate, almost wholly through order flow [[S8]]. In a study of major currencies and the Mexican peso from 2006 to 2024, changes in dealer banks' currency positions accounted for most of the monthly moves in exchange rates, and much of the adjustment came through the exchange rate rather than interest rates [[S22]]."
+    },
+    {
+     "type": "p",
+     "text": "Foreign selling was large: in the ((balance-of-payments|balance of payments)), foreigners sold a net USD 101bn of Korean shares in January–August 2026, including USD 32bn in June, the most in a month since at least 2015 [[S13]]. What the data measure is foreigners' net selling of shares, which is how we read the question's \"redemptions\". In June Governor Shin said such outflows kept the won weak despite a large surplus [[S14]]. In a study of Thailand in 2005 and 2006, net purchases of Thai shares went with a stronger baht, and foreign investors did not appear to hedge their currency risk [[S23]]."
+    },
+    {
+     "type": "p",
+     "text": "But the current account brought in USD 279bn over the same months, 2.8 times as much [[S12,S13]]. From March it ran at between USD 28bn and USD 50bn a month [[S12]]. Foreigners also bought USD 15bn of Korean bonds, while Korean residents' purchases of foreign securities took USD 74bn out; then-Governor Rhee Chang Yong had said such purchases weighed on the won in late 2025 [[S24,S25,S26]]. Netting these four flows leaves USD 119bn coming in, as the chart below shows; direct investment, derivatives, other investment and reserves are left out, so this is not the whole balance of payments [[S12,S13,S24,S25]]."
+    },
+    {
+     "type": "figure",
+     "chart": "flows"
+    },
+    {
+     "type": "p",
+     "text": "For foreign stock flows the balance-of-payments timing fits, up to August. Foreign selling was heaviest in March–June, USD 93bn, when the won was weakest, and turned to small net buying of USD 6bn in July–August as the won rose [[S13]]. The net of the four flows was positive before the turn too, USD 51bn in March–June while the won weakened, but faster in July–August, USD 61bn in two months [[S12,S13,S24,S25]]."
+    },
+    {
+     "type": "p",
+     "text": "Daily exchange data, which we cannot republish, tell a different story from July. In them foreigners went on selling Korean shares on balance in every month, more heavily in September and October while the won kept rising. Their net buying came only in short spells, such as in mid-July and mid-August, and from 16 Oct, the won's best day in October, to decision day, with one selling day in between. The balance-of-payments data end in August, so the two records cannot yet be compared for the autumn."
+    }
+   ]
+  },
+  {
+   "id": "exports",
+   "heading": "Export dollars arrive, but not on a timetable",
+   "summary": "Exports supply dollars, but when they turn into won is not measured.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The export boom created a large supply of dollars, but when exporters sell them for won is not in the data we could use. Export growth turned up at the end of 2025, reaching 14.7% a year in December, and surged from January 2026, when it reached 37.1% [[S27]]. By September 2026 export values were 89.2% higher than a year before, with higher prices explaining 58% of the rise [[S27,S28,S29]]. Then-Governor Rhee said the chip boom had helped steady the currency market [[S30]]."
+    },
+    {
+     "type": "p",
+     "text": "Export dollars need not reach the currency market on any given day. Exporters can hold on to dollars instead of converting them [[S31]], and Bank of Korea economists write that Korea's persistent surpluses have been directed more towards overseas investment [[S18]]. In Brazil from 2002 to 2011, daily flows from non-financial customers, mostly trade, were much more strongly linked to moves in the real than flows from financial customers [[S32]]. One published hint in the data we used, residents' foreign-currency deposits at Korean banks, rose about USD 29bn from end-June to end-August, so residents were adding to their foreign-currency deposits, not running them down, as the won rose [[S33,S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Taiwan offers a contrast: this year a dollar came to cost 3.2% more Taiwan dollars but 7.6% fewer won [[S11,S9]]. We found no study of why the two diverged in 2026. One difference the BIS noted in 2021 is ((currency-hedging|hedging)): Korean life insurers hedged close to all of their foreign-currency bond portfolios [[S34]], while the share hedged by Taiwanese life insurers had fallen to just over half in 2019 [[S34]]. In April 2025 the won was reportedly used as a stand-in hedge for the Taiwan dollar [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "Whether the authorities bought or sold dollars is not in our sources. Foreign-exchange reserves rose USD 13bn from end-June to end-September, but changes in the value of reserve assets blur that [[S35]]."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "The question's two intuitions, that rate gaps set the won and that foreign stock selling pushes it down, describe real forces, but in this episode neither was in charge. Korea's 3-year yield moved little on decision day, which suggests the hold was largely expected [[S2,S4]]. The gap with US market rates moved against the won on balance from late August, and the won rose far more than the broad dollar moved, which points to something specific to Korea, such as the flows into and out of it [[S2,S3,S10]]. The four flows we measured brought in more dollars than they took out, with a current account surplus 2.8 times the size of foreign stock selling in January–August, though they are not the whole balance of payments [[S12,S13]]. But they did so on balance in March–June too, when the won weakened [[S12,S13,S24,S25]]. When exporters convert dollars, how institutions hedge, whether the authorities intervened and what moved in the meeting week are not in the data we could use or publish. US data due on 26 Oct and September's balance of payments will test this read."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

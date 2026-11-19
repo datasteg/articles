@@ -1,0 +1,5 @@
+﻿Wealth group,"Share, %"
+"{'en': 'Top 1%', 'ko': '상위 1%'}",50.9
+"{'en': 'Next 9% (90th–99th percentiles)', 'ko': '상위 1~10% (90~99백분위)'}",37.2
+"{'en': 'Next 40% (50th–90th percentiles)', 'ko': '상위 10~50% (50~90백분위)'}",11.4
+"{'en': 'Bottom 50%', 'ko': '하위 50%'}",0.6

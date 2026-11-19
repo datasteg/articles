@@ -1,0 +1,47 @@
+# The sources the pipeline may use. frame-question and refine-question choose from this list; map-literature
+# routes indicators to a data provider by its `provider` id; the driver runs only the skills that have work.
+sources:
+  - id: jejualps
+    kind: documents
+    skill: search-jejualps
+    coverage: "Central banking, monetary policy, financial stability, macroeconomics, international finance, banking, sovereign debt; BIS, FSB, IMF, World Bank, NBER, OECD, SUERF and ~105 central banks; 1973 to mid-October 2026"
+    freshness: "weekly scrape"
+    access: "a read-only Postgres connection, through artools jejualps"
+    required: true
+    fallback: none
+    licence: "each document's publisher; quote at most one sentence per document, link to the original"
+    publishable: true
+    quote_policy: {max_sentences_per_doc: 1}
+  - id: public-data
+    kind: series
+    skill: fetch-public-data
+    providers: [ecb, eurostat]
+    coverage: "Euro-area statistics: government bond yields by country (ECB IRS), government debt and deficits (Eurostat), and other ECB Data Portal and Eurostat series"
+    freshness: "monthly or annual, as published"
+    access: "public APIs, no key"
+    required: false
+    fallback: none
+    licence: "ECB: reuse with attribution; Eurostat: CC BY 4.0"
+    publishable: true
+  - id: fred
+    kind: series
+    skill: fetch-fred
+    providers: [fred]
+    coverage: "US rates, Treasury yields, inflation, jobs, the dollar, oil, VIX, credit spreads; OECD cross-country copies"
+    freshness: "daily to quarterly"
+    access: "FRED API, FRED_API_KEY"
+    required: false
+    fallback: none
+    licence: "per series, from FRED's cc tags; pre-approval-required series are never published"
+    publishable: true
+  - id: ecos
+    kind: series
+    skill: fetch-ecos
+    providers: [ecos]
+    coverage: "Korean rates, bond yields, the won, prices, growth, money, balance of payments; ECOS international tables (IMF, OECD, BIS)"
+    freshness: "daily to quarterly"
+    access: "Bank of Korea ECOS Open API, BOK_API_KEY"
+    required: false
+    fallback: none
+    licence: "Bank of Korea statistics: reuse with attribution; other producers keep their copyright"
+    publishable: true

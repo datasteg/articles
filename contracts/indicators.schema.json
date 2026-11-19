@@ -1,0 +1,111 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "indicators",
+ "type": "object",
+ "properties": {
+  "as_of": {
+   "type": "string",
+   "minLength": 1
+  },
+  "number": {
+   "type": "string",
+   "minLength": 1
+  },
+  "period": {
+   "type": "string",
+   "minLength": 1
+  },
+  "indicators": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "provider": {
+      "enum": [
+       "ecb",
+       "eurostat",
+       "fred",
+       "ecos",
+       "imf",
+       "bis",
+       "oecd"
+      ]
+     },
+     "key": {
+      "type": "string",
+      "minLength": 1
+     },
+     "title": {
+      "type": "string",
+      "minLength": 1
+     },
+     "unit": {
+      "type": "string",
+      "minLength": 1
+     },
+     "frequency": {
+      "type": "string",
+      "minLength": 1
+     },
+     "role": {
+      "enum": [
+       "headline",
+       "comparison",
+       "context"
+      ]
+     },
+     "serves": {
+      "type": "string",
+      "minLength": 1
+     },
+     "anchor": {
+      "type": "object",
+      "properties": {
+       "period": {
+        "type": "string",
+        "minLength": 1
+       },
+       "value": {
+        "type": "number"
+       },
+       "source": {
+        "type": "string",
+        "minLength": 1
+       }
+      },
+      "required": [
+       "period",
+       "value",
+       "source"
+      ]
+     }
+    },
+    "required": [
+     "id",
+     "provider",
+     "key",
+     "role",
+     "serves"
+    ]
+   },
+   "minItems": 2
+  },
+  "context_queries": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  }
+ },
+ "required": [
+  "as_of",
+  "number",
+  "indicators"
+ ]
+}

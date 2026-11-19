@@ -1,0 +1,124 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "litmap",
+ "type": "object",
+ "properties": {
+  "mechanisms": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "name": {
+      "type": "string",
+      "minLength": 1
+     },
+     "summary": {
+      "type": "string",
+      "minLength": 1
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 1
+     },
+     "indicators": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "id": {
+         "type": "string",
+         "minLength": 1
+        },
+        "text": {
+         "type": "string",
+         "minLength": 1
+        },
+        "reader_value": {
+         "type": "string",
+         "minLength": 1
+        },
+        "priority": {
+         "enum": [
+          "needed",
+          "useful",
+          "context"
+         ]
+        },
+        "provider": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "id",
+        "text",
+        "reader_value",
+        "priority",
+        "provider"
+       ],
+       "additionalProperties": true
+      },
+      "minItems": 0
+     }
+    },
+    "required": [
+     "id",
+     "name",
+     "summary",
+     "evidence",
+     "indicators"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 1
+  },
+  "models": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "consensus": {
+   "type": "array",
+   "items": {
+    "type": [
+     "object",
+     "string"
+    ]
+   },
+   "minItems": 0
+  },
+  "disagreements": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "gaps": {
+   "type": "array",
+   "items": {
+    "type": [
+     "object",
+     "string"
+    ]
+   },
+   "minItems": 0
+  }
+ },
+ "required": [
+  "mechanisms",
+  "disagreements",
+  "gaps"
+ ],
+ "additionalProperties": true
+}

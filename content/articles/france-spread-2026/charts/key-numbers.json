@@ -1,0 +1,88 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "France's premium over Germany is the widest since 2012, but it is 63% of its own 2011 peak, and three-quarters of its higher borrowing cost this year is Germany's own yield rising",
+  "ko": "프랑스의 대독일 가산금리는 2012년 이후 최대지만 2011년 자국 정점의 63% 수준이고, 올해 차입 비용 상승의 4분의 3은 독일 금리 자체의 상승이다"
+ },
+ "title": {
+  "en": "Three numbers on France's borrowing premium",
+  "ko": "프랑스 가산금리를 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "10-year government bond yields, monthly averages, September 2026",
+  "ko": "10년물 국채 금리, 월평균, 2026년 9월"
+ },
+ "tiles": [
+  {
+   "value": "{{F1}}",
+   "label": {
+    "en": "France's 10-year spread over Germany in September 2026, the widest since July 2012",
+    "ko": "2026년 9월 프랑스 10년물 국채의 대독일 가산금리, 2012년 7월 이후 최대"
+   },
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "{{F16}}",
+   "label": {
+    "en": "of France's own November 2011 peak of {{F14}}",
+    "ko": "2011년 11월 프랑스 자체 정점({{F14}}) 대비 수준"
+   },
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "{{F94}}",
+   "label": {
+    "en": "of the rise in France's 10-year yield since December 2025 that was Germany's own yield rising",
+    "ko": "2025년 12월 이후 프랑스 10년물 금리 상승분 가운데 독일 금리 자체의 상승에 해당하는 몫"
+   },
+   "cite": [
+    "S1"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "A spread is the gap between two 10-year yields, here France's minus Germany's, in basis points (100bp = 1 percentage point).",
+   "ko": "가산금리(스프레드)는 두 10년물 금리의 차이로, 여기서는 프랑스 금리에서 독일 금리를 뺀 값이며 단위는 베이시스포인트(100bp = 1%포인트)다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: France's spread over Germany was 97bp in September 2026, the widest since July 2012; that is 63% of its November 2011 peak of 154bp; and 75% of the rise in France's 10-year yield since December 2025 was Germany's own yield rising.",
+  "ko": "세 숫자: 2026년 9월 프랑스의 대독일 가산금리는 97bp로 2012년 7월 이후 최대다. 이는 2011년 11월 정점 154bp의 63%이며, 2025년 12월 이후 프랑스 10년물 금리 상승분의 75%는 독일 금리 자체의 상승이었다."
+ },
+ "meta": {
+  "sources": [
+   "S1"
+  ],
+  "provider": "ECB Data Portal",
+  "keys": [
+   "IRS.M.FR.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.DE.L.L40.CI.0000.EUR.N.Z"
+  ],
+  "definition": {
+   "en": "Long-term interest rates for convergence purposes: 10-year government bond yields, monthly averages.",
+   "ko": "수렴 기준 장기 금리: 10년 만기 국채 금리의 월평균."
+  },
+  "calculation": {
+   "en": "Spread = (France yield − Germany yield) × 100. Share of peak = September 2026 spread ÷ November 2011 spread. Germany's share = Germany's yield change ÷ France's yield change, December 2025 to September 2026.",
+   "ko": "가산금리 = (프랑스 금리 − 독일 금리) × 100. 정점 대비 수준 = 2026년 9월 가산금리 ÷ 2011년 11월 가산금리. 독일 몫 = 2025년 12월~2026년 9월 독일 금리 변화 ÷ 프랑스 금리 변화."
+  },
+  "span": [
+   "1999-01",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-19",
+  "licence": "ECB: reuse with attribution (ECB statistics reuse policy)",
+  "attribution": {
+   "en": "Source: ECB Data Portal; datasteg calculation",
+   "ko": "출처: ECB 데이터 포털; datasteg 계산"
+  }
+ },
+ "csv": null
+}

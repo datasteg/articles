@@ -1,0 +1,35 @@
+[
+ {
+  "ref": "jejualps:33101",
+  "title": "Communication and monetary policy",
+  "institution": "Federal Reserve Board (Ben S Bernanke, Herbert Stein Memorial Lecture)",
+  "date": "2013-11-19",
+  "url": "https://www.bis.org/review/r131120a.htm",
+  "why": {
+   "en": "The then-Chair's own account, six months after the taper tantrum, of why the Fed adopted forward guidance and how it read the 2013 reaction: the defence from the inside.",
+   "ko": "긴축 발작 여섯 달 뒤 당시 버냉키 의장이 직접 밝힌 연준의 포워드 가이던스 도입 이유와 2013년 시장 반응에 대한 해석으로, 연준 내부의 변론이다."
+  }
+ },
+ {
+  "ref": "jejualps:50376",
+  "title": "Observing and shaping the market: the dilemma of central banks",
+  "institution": "Swiss National Bank Working Paper 2018-03 (Baeriswyl, Cornand and Ziliotto)",
+  "date": "2018-02",
+  "url": "https://www.snb.ch/n/mmr/reference/working_paper_2018_03/source/working_paper_2018_03.n.pdf",
+  "why": {
+   "en": "A readable statement of the hall-of-mirrors problem, in which a central bank that reads market prices also shapes them, for readers who want the mechanism behind Warsh's central charge.",
+   "ko": "시장 가격을 읽는 중앙은행이 그 가격을 만들기도 한다는 '거울의 방' 문제를 알기 쉽게 정리한 논문으로, 워시 비판의 핵심 메커니즘을 알고 싶은 독자에게 맞다."
+  }
+ },
+ {
+  "ref": "jejualps:91425",
+  "title": "The Treasury Market in Spring 2020 and the Response of the Federal Reserve",
+  "institution": "NBER Working Paper w29128 (Annette Vissing-Jorgensen)",
+  "date": "2021-08",
+  "url": "https://www.nber.org/papers/w29128",
+  "why": {
+   "en": "The fullest narrative of the March 2020 'dash for cash', when the 10-year yield rose 64bp in nine days and the Fed bought USD 1 trillion of Treasuries in a quarter: the genuine crisis Warsh exempts from his critique.",
+   "ko": "2020년 3월 '현금 확보 경쟁'으로 10년물 금리가 아흐레 만에 급등하고 연준이 한 분기에 1조 달러의 국채를 사들인 과정을 가장 자세히 다룬 연구로, 워시가 비판에서 제외한 '진짜 위기'의 기록이다."
+  }
+ }
+]

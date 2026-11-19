@@ -1,0 +1,16 @@
+{
+ "id": "current-account",
+ "term": {
+  "en": "current account",
+  "ko": "경상수지"
+ },
+ "definition": {
+  "en": "A country's earnings from selling goods and services abroad and from investments abroad, minus what it pays for the same. A surplus means more foreign currency comes in from these transactions than goes out.",
+  "ko": "한 나라가 상품·서비스 수출과 해외 투자소득 등으로 받은 금액에서 같은 항목의 지급액을 뺀 값이다. 흑자이면 이런 거래로 유입된 외화가 유출된 외화보다 많다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "capital-flows"
+ ]
+}

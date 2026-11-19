@@ -1,0 +1,96 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "Since February Korean share prices have moved 11.1% a month on average, 4.6 times as much as US prices, with the largest monthly rise since 1981 in May, on a chip boom that took export values 268% above a year earlier",
+  "ko": "2026년 2월 이후 한국 주가는 한 달 평균 11.1% 움직여 미국 주가의 4.6배였고, 5월에는 1981년 이후 가장 큰 월간 상승을 기록했다. 그 바탕에는 반도체 수출액을 한 해 전보다 268% 늘린 호황이 있었다"
+ },
+ "title": {
+  "en": "Three numbers on Korea's stock swings",
+  "ko": "한국 주가 급등락을 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "OECD monthly averages of share prices to Sep 2026; Bank of Korea chip export value index to Sep 2026",
+  "ko": "OECD 월평균 주가는 2026년 9월까지, 한국은행 반도체 수출금액지수는 2026년 9월까지"
+ },
+ "tiles": [
+  {
+   "value": "{{F105}}",
+   "label": {
+    "en": "Korea's average monthly share-price move, Feb–Sep 2026, {{F124}} the US's (OECD, monthly averages)",
+    "ko": "2026년 2월부터 9월까지 한국 주가의 월평균 등락폭, 미국의 {{F124}}(OECD 월평균)"
+   },
+   "cite": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "value": "{{F130}}",
+   "label": {
+    "en": "rise in Korean share prices in May 2026, the largest monthly rise since 1981 (OECD, monthly averages)",
+    "ko": "2026년 5월 한국 주가 상승률, 1981년 이후 가장 큰 월간 상승(OECD 월평균)"
+   },
+   "cite": [
+    "S2"
+   ]
+  },
+  {
+   "value": "{{F199}}",
+   "label": {
+    "en": "Korea's chip export values in September 2026 against a year earlier (Bank of Korea, in dollars)",
+    "ko": "2026년 9월 반도체 수출액의 한 해 전 대비 증가율(한국은행, 달러 기준)"
+   },
+   "cite": [
+    "S6"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "Share prices are the OECD's monthly averages of daily prices, which track the KOSPI but smooth its daily highs and lows. The average monthly move is the mean of the absolute changes from one month to the next.",
+   "ko": "주가는 일별 주가를 월별로 평균한 OECD 지수로, 코스피를 따라가지만 일별 고점과 저점은 평탄해진다. 월평균 등락폭은 전월 대비 변화율의 절댓값을 평균한 것이다."
+  },
+  {
+   "en": "Chip export values are an index of semiconductor exports in US dollars, not company earnings or export volumes.",
+   "ko": "반도체 수출액은 달러 기준 반도체 수출금액지수로, 기업 이익이나 수출 물량이 아니다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: from February to September 2026 Korean share prices moved 11.1% a month on average, 4.6 times the US's average move (OECD monthly averages); in May 2026 they rose 25.8%, the largest monthly rise since 1981; and in September 2026 Korea's chip export values were 268% higher than a year earlier.",
+  "ko": "세 숫자: 2026년 2월부터 9월까지 한국 주가는 한 달 평균 11.1% 움직여 미국 주가 평균 등락폭의 4.6배였다(OECD 월평균). 2026년 5월에는 25.8% 올라 1981년 이후 가장 큰 월간 상승을 기록했다. 2026년 9월 반도체 수출액은 한 해 전보다 268% 많았다."
+ },
+ "meta": {
+  "sources": [
+   "S2",
+   "S3",
+   "S6"
+  ],
+  "provider": "OECD via FRED; Bank of Korea, ECOS",
+  "keys": [
+   "SPASTT01KRM661N",
+   "SPASTT01USM661N",
+   "403Y001/M/3091AA"
+  ],
+  "definition": {
+   "en": "Share prices: OECD total share price index, monthly average, 2015 = 100, Korea and the United States. Chip exports: Bank of Korea export value index for semiconductors, US dollar basis, 2020 = 100.",
+   "ko": "주가: OECD 전체 주가지수, 월평균, 2015 = 100, 한국과 미국. 반도체 수출: 한국은행 반도체 수출금액지수, 달러 기준, 2020 = 100."
+  },
+  "calculation": {
+   "en": "Average monthly move = mean of |index ÷ previous month − 1| × 100 over Feb–Sep 2026; multiple = Korea's average ÷ the US's. May rise = May 2026 ÷ Apr 2026 − 1. Chip exports = Sep 2026 ÷ Sep 2025 − 1.",
+   "ko": "월평균 등락폭 = 2026년 2~9월 |지수 ÷ 전월 지수 − 1| × 100의 평균, 배수 = 한국 평균 ÷ 미국 평균. 5월 상승률 = 2026년 5월 ÷ 4월 − 1. 반도체 수출 증가율 = 2026년 9월 ÷ 2025년 9월 − 1."
+  },
+  "span": [
+   "1981-01",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-30",
+  "licence": "FRED (OECD series): copyrighted, citation required; ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: OECD via FRED; Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: OECD(FRED); 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "csv": null
+}

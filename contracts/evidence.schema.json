@@ -1,0 +1,105 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "evidence",
+ "type": "object",
+ "properties": {
+  "id": {
+   "type": "string",
+   "minLength": 1
+  },
+  "source": {
+   "type": "string",
+   "minLength": 1
+  },
+  "mode": {
+   "enum": [
+    "scout",
+    "deep"
+   ]
+  },
+  "doc": {
+   "type": "object",
+   "properties": {
+    "ref": {
+     "type": "string",
+     "minLength": 1
+    },
+    "title": {
+     "type": "string",
+     "minLength": 1
+    },
+    "date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "url": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "ref",
+    "title"
+   ],
+   "additionalProperties": true
+  },
+  "kind": {
+   "enum": [
+    "finding",
+    "mechanism",
+    "model",
+    "method",
+    "number",
+    "policy",
+    "context"
+   ]
+  },
+  "claim": {
+   "type": "string",
+   "minLength": 1
+  },
+  "quote": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "verified": {
+   "type": "boolean"
+  },
+  "locator": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "answers": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  },
+  "relevance": {
+   "type": [
+    "number",
+    "null"
+   ]
+  }
+ },
+ "required": [
+  "id",
+  "source",
+  "mode",
+  "doc",
+  "kind",
+  "claim",
+  "verified"
+ ],
+ "additionalProperties": true
+}

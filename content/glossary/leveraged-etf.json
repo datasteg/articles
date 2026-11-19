@@ -1,0 +1,16 @@
+{
+ "id": "leveraged-etf",
+ "term": {
+  "en": "leveraged ETF",
+  "ko": "레버리지 ETF"
+ },
+ "definition": {
+  "en": "An exchange-traded fund that aims to deliver a multiple, such as twice, of the daily move in a stock or index, using borrowed money or derivatives. To keep that multiple it has to buy after prices rise and sell after they fall.",
+  "ko": "빌린 돈이나 파생상품을 이용해 주식이나 지수의 하루 등락률의 몇 배(예컨대 두 배)를 따라가도록 만든 상장지수펀드다. 그 배율을 유지하려면 가격이 오르면 사고 떨어지면 팔아야 한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets",
+  "financial-stability"
+ ]
+}

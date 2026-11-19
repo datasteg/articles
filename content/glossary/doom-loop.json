@@ -1,0 +1,16 @@
+{
+ "id": "doom-loop",
+ "term": {
+  "en": "doom loop",
+  "ko": "악순환 고리"
+ },
+ "definition": {
+  "en": "The two-way link between banks and their own government: doubts about the government cut the value of the bonds banks hold, the banks weaken, and the cost of supporting them weakens the government in turn.",
+  "ko": "은행과 자국 정부 사이의 상호 연결이다. 정부에 대한 의심으로 은행이 보유한 국채 값이 떨어지면 은행이 약해지고, 은행을 지원하는 비용이 다시 정부를 약하게 만든다."
+ },
+ "topics": [
+  "financial-stability",
+  "sovereign-debt"
+ ],
+ "approvedBy": null
+}

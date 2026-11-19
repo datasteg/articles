@@ -1,0 +1,15 @@
+{
+ "id": "call-option",
+ "term": {
+  "en": "call option",
+  "ko": "콜옵션"
+ },
+ "definition": {
+  "en": "A contract giving its buyer the right to buy an asset at a set price by a set date, so it pays off when the price rises. A put option is the opposite, a right to sell that pays off when the price falls.",
+  "ko": "정해진 날까지 정해진 가격에 자산을 살 수 있는 권리로, 가격이 오르면 이익이 난다. 반대로 팔 권리인 풋옵션은 가격이 내리면 이익이 난다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets"
+ ]
+}

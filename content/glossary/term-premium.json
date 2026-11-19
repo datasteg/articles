@@ -1,0 +1,15 @@
+{
+ "id": "term-premium",
+ "term": {
+  "en": "term premium",
+  "ko": "기간프리미엄"
+ },
+ "definition": {
+  "en": "The extra return investors demand for holding a long-term bond instead of rolling over short-term ones, as compensation for the risk that rates move. It cannot be observed directly and is estimated with models.",
+  "ko": "단기 채권을 계속 갈아타는 대신 장기 채권을 보유하는 대가로 투자자가 요구하는 웃돈으로, 금리가 움직일 위험에 대한 보상이다. 직접 관찰할 수 없어 모형으로 추정한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "bond-markets"
+ ]
+}

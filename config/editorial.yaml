@@ -1,0 +1,53 @@
+# House rules that the guides describe and `artools check` enforces.
+# ko 50 from 16 Nov 2026: the editor's Korean title for the t8 data note ("A·B 비교: …, …") was 49 characters
+headline_max: {en: 90, ko: 50}
+sentence_words_avg_max: 22
+sentence_words_max: 40
+paragraph_sentences_max: 4
+ko_sentence_chars_avg_max: 50
+ko_sentence_chars_max: 70
+length_words: {en: [1200, 1800]}
+figures: {min: 3, max: 6, min_forms: 2}
+quote_max_sentences_per_doc: 1
+byline: {en: "datasteg desk · AI-assisted", ko: "datasteg 데스크 · AI 지원"}
+disclaimer:
+  en: "This article is general information about the economy and financial markets. It is not investment advice."
+  ko: "이 글은 경제와 금융시장에 관한 일반적인 정보이며 투자 조언이 아닙니다."
+# Added to the disclaimer of every article that cites data from datasteg's data sites (money-flow, trade-flow,
+# global-network, the API): their figures follow datasteg's published aggregation rules, so they can differ from the same statistics elsewhere (the owner, 18 Nov 2026).
+datasteg_data_note:
+  en: "Figures from the data sites linked in this article's sources follow their published aggregation rules, so they can differ from the same statistics published elsewhere."
+  ko: "본 기사의 출처에 링크된 데이터 사이트의 수치는 해당 사이트의 공개된 집계 규칙을 따르므로, 다른 곳에 공개된 동일한 통계와 다를 수 있습니다."
+jargon: [spread, basis point, yield, TPI, OMT, CDS, primary balance, TARGET, sovereign, contagion]
+# How readers should cite an article: the "Cite this article" block at its end. `artools publish` stamps author,
+# publisher, date, title and URL into meta.json → citation, so a published article keeps the author it was published
+# under when these lines change (contracts/content.md § Citation).
+citation:
+  author: {en: datasteg, ko: datasteg}
+  publisher: {en: datasteg articles, ko: datasteg articles}
+  base_url: https://articles.datasteg.com
+# The editor's gates. auto: true lets `artools drive` approve each gate itself, signed `by`, and ship the article once
+# the publish gate is open. on_blocking: publish approves the publish gate even when the review loop ran out of rounds
+# with blocking issues left (the approval note counts them); stop keeps it closed for the editor. video: true starts
+# the article's YouTube video (`artools video auto <slug>`) right after the ship. auto: false stops the driver at every
+# gate for the editor. The editor asked for unattended runs end to end on 31 Oct 2026: they review the live article
+# and video on the sites and send notes to the update-article skill. Still hard stops: usage limits, and authorship
+# (unpublishable data, citations and source lines failing the content checks, another run's slug).
+gates:
+  auto: true
+  by: datasteg
+  on_blocking: publish
+  video: true
+# Stage logs of finished runs (artools/logs.py; the driver tidies after every drive). archive: a run's logs/*.jsonl
+# become .jsonl.zst without screenshot data once the article shipped or both video editions are up (about a fifth of
+# the size, every line kept). keep_days: that long after, the archives are replaced by logs/PRUNED.json (each session's
+# tokens, cost, characters received and ledger record); usage.json and the ledger keep counting them. null keeps
+# archives for good. Set on 31 Oct 2026 when the editor asked to free the disk once the ledger has the analysis.
+logs:
+  archive: true
+  keep_days: 90
+# The admin's Newsroom. deploy: true lets the driver, after a drive that leaves a run
+# finished (the article shipped, both video editions up), copy the run ledger into the admin app and `ds deploy admin`
+# the next tag, so the admin site shows the run. The ledger rides in the private image; it is never committed.
+newsroom:
+  deploy: true

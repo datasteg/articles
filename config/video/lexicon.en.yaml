@@ -1,0 +1,16 @@
+# How the English narrator says terms the voice may misread. Applied to the spoken text just before each TTS request
+# (whole words, case-sensitive); captions keep the written form. Add an entry whenever a transcript shows a misreading.
+OAT: O-A-T
+BTP: B-T-P
+TPI: T-P-I
+OMT: O-M-T
+FOMC: F-O-M-C
+PCE: P-C-E
+CDS: C-D-S
+KOSPI: KOSS-pee
+Bund: Boond
+Bunds: Boonds
+VIX: Vicks
+bp: basis points
+"%p": percentage points
+datasteg: data-steg

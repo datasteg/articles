@@ -1,0 +1,12 @@
+{
+ "id": "currency-hedging",
+ "term": {
+  "en": "currency hedging",
+  "ko": "환헤지"
+ },
+ "definition": {
+  "en": "Contracts that protect an investor holding foreign assets against losses if the foreign currency falls. Hedging does not mean selling the assets.",
+  "ko": "외화 자산을 가진 투자자가 그 통화의 가치 하락으로 입을 손실을 막기 위해 맺는 계약이다. 환헤지는 자산을 파는 것과 다르다."
+ },
+ "approvedBy": null
+}

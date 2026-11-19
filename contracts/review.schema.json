@@ -1,0 +1,76 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "review",
+ "type": "object",
+ "properties": {
+  "status": {
+   "enum": [
+    "pass",
+    "changes_required"
+   ]
+  },
+  "blocking": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "where": {
+      "type": "string",
+      "minLength": 1
+     },
+     "issue": {
+      "type": "string",
+      "minLength": 1
+     },
+     "fix": {
+      "type": "string",
+      "minLength": 1
+     },
+     "owner": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "where",
+     "issue",
+     "owner"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 0
+  },
+  "advisory": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "where": {
+      "type": "string",
+      "minLength": 1
+     },
+     "issue": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "where",
+     "issue"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 0
+  },
+  "checks": {
+   "type": "object"
+  }
+ },
+ "required": [
+  "status",
+  "blocking",
+  "advisory",
+  "checks"
+ ],
+ "additionalProperties": true
+}

@@ -1,0 +1,15 @@
+{
+ "id": "order-flow",
+ "term": {
+  "en": "order flow",
+  "ko": "주문 흐름"
+ },
+ "definition": {
+  "en": "The difference between orders to buy and orders to sell a currency or other asset over a period, whatever the reason for each trade. More buying than selling tends to push the price up.",
+  "ko": "일정 기간 한 통화나 자산을 사려는 주문과 팔려는 주문의 차이로, 각 거래의 이유는 따지지 않는다. 사려는 주문이 많으면 값이 오르기 쉽다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates"
+ ]
+}

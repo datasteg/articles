@@ -1,0 +1,231 @@
+{
+ "id": "four-markets",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Since February Korean share prices have moved 11.1% a month on average, two and a half times their usual move, while US, Japanese and German prices moved less than usual",
+  "ko": "2026년 2월 이후 한국 주가는 한 달 평균 11.1% 움직여 평소의 2.5배였지만, 미국·일본·독일 주가는 평소보다 덜 움직였다"
+ },
+ "title": {
+  "en": "Average monthly move in share prices: the long run against Feb–Sep 2026",
+  "ko": "주가의 월평균 등락폭: 장기 평균과 2026년 2~9월"
+ },
+ "subtitle": {
+  "en": "Average absolute monthly change, %, OECD monthly averages; long run Feb 1981–May 2025",
+  "ko": "전월 대비 변화율 절댓값의 평균(%), OECD 월평균, 장기 평균은 1981년 2월~2025년 5월"
+ },
+ "howToRead": {
+  "en": "Each row is one market: the hollow dot is its usual monthly move since 1981, the filled dot its average since February 2026. A dot further right means bigger swings, up or down.",
+  "ko": "행마다 한 시장이다. 속이 빈 점은 1981년 이후 보통의 월간 등락폭, 채운 점은 2026년 2월 이후 평균이다. 점이 오른쪽에 있을수록 위로든 아래로든 등락이 크다."
+ },
+ "notes": [
+  {
+   "en": "OECD monthly averages of daily prices, not daily closes. Germany stands in for Europe. Taiwan, the closest chip-heavy market, is not in any source available to us. Japan's daily swings also rose in 2026 but stayed far below Korea's (Nikkei data, not shown).",
+   "ko": "일별 종가가 아니라 일별 주가를 월별로 평균한 OECD 지수다. 독일은 유럽을 대표한다. 반도체 비중이 가장 비슷한 대만은 우리가 쓸 수 있는 자료에 없다. 일본의 일별 등락도 2026년에 커졌지만 한국보다 훨씬 작았다(닛케이 자료, 그래프에는 없음)."
+  },
+  {
+   "en": "Over the longer window from June 2025 to September 2026 the picture is the same (table). From February to September 2026 Korean prices moved 10% or more in four months; US, Japanese and German prices in none. In the eight months before February Korean prices had already risen by double digits in three months, but only upwards; from February they swung both ways.",
+   "ko": "2025년 6월부터 2026년 9월까지로 넓혀 봐도 모습은 같다(표). 2026년 2월부터 9월까지 한국 주가는 네 달 동안 10% 이상 움직였지만 미국·일본·독일은 한 달도 없었다. 2월 이전 여덟 달에도 한국 주가가 두 자릿수로 오른 달이 세 번 있었지만 모두 상승이었고, 2월부터는 위아래로 출렁였다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of the average absolute monthly change in share prices (OECD monthly averages), February 1981 to May 2025 against February to September 2026. Korea: 4.4% to 11.1%. Japan: 3.5% to 2.8%. United States: 2.7% to 2.4%. Germany: 3.5% to 2.3%. Only Korea moved more than its long-run norm; its 2026 average is 4.6 times the US's and 4.0 times Japan's.",
+  "ko": "주가의 월평균 등락폭(전월 대비 변화율 절댓값의 평균, OECD 월평균)을 1981년 2월~2025년 5월과 2026년 2~9월로 비교한 덤벨 그래프. 한국 4.4%에서 11.1%, 일본 3.5%에서 2.8%, 미국 2.7%에서 2.4%, 독일 3.5%에서 2.3%. 장기 평균보다 크게 움직인 곳은 한국뿐이며, 한국의 2026년 평균은 미국의 4.6배, 일본의 4.0배다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Average monthly move, %",
+    "ko": "월평균 등락폭(%)"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    12
+   ],
+   "ticks": [
+    0,
+    3,
+    6,
+    9,
+    12
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "Feb 1981–May 2025",
+  "ko": "1981.2~2025.5"
+ },
+ "toLabel": {
+  "en": "Feb–Sep 2026",
+  "ko": "2026.2~9"
+ },
+ "rows": [
+  {
+   "id": "KR",
+   "label": {
+    "en": "Korea",
+    "ko": "한국"
+   },
+   "from": 4.366,
+   "to": 11.06,
+   "highlight": true
+  },
+  {
+   "id": "JP",
+   "label": {
+    "en": "Japan",
+    "ko": "일본"
+   },
+   "from": 3.484,
+   "to": 2.764,
+   "highlight": false
+  },
+  {
+   "id": "US",
+   "label": {
+    "en": "United States",
+    "ko": "미국"
+   },
+   "from": 2.66,
+   "to": 2.411,
+   "highlight": false
+  },
+  {
+   "id": "DE",
+   "label": {
+    "en": "Germany",
+    "ko": "독일"
+   },
+   "from": 3.53,
+   "to": 2.279,
+   "highlight": false
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S2",
+   "S3",
+   "S14",
+   "S15"
+  ],
+  "provider": "OECD via FRED; datasteg calculation",
+  "keys": [
+   "SPASTT01KRM661N",
+   "SPASTT01USM661N",
+   "SPASTT01JPM661N",
+   "SPASTT01DEM661N"
+  ],
+  "definition": {
+   "en": "OECD total share price index for Korea, the United States, Japan and Germany, monthly average of daily prices, 2015 = 100.",
+   "ko": "한국·미국·일본·독일의 OECD 전체 주가지수, 일별 주가의 월평균, 2015 = 100."
+  },
+  "calculation": {
+   "en": "Average monthly move = mean of |index ÷ previous month − 1| × 100 over each window: Feb 1981–May 2025 (532 months), Feb–Sep 2026 (8 months), Jun 2025–Sep 2026 (16 months, table).",
+   "ko": "월평균 등락폭 = 각 기간 |지수 ÷ 전월 지수 − 1| × 100의 평균. 1981년 2월~2025년 5월(532개월), 2026년 2~9월(8개월), 2025년 6월~2026년 9월(16개월, 표)."
+  },
+  "span": [
+   "1981-02",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-30",
+  "licence": "FRED (OECD series): copyrighted, citation required",
+  "attribution": {
+   "en": "Source: OECD via FRED; datasteg calculation",
+   "ko": "출처: OECD(FRED); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "market",
+    "label": {
+     "en": "Market",
+     "ko": "시장"
+    }
+   },
+   {
+    "key": "lr",
+    "label": {
+     "en": "Feb 1981–May 2025, %",
+     "ko": "1981.2~2025.5, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "y26",
+    "label": {
+     "en": "Feb–Sep 2026, %",
+     "ko": "2026.2~9, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "w16",
+    "label": {
+     "en": "Jun 2025–Sep 2026, %",
+     "ko": "2025.6~2026.9, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "big",
+    "label": {
+     "en": "Months of 10%+ moves, Feb–Sep 2026",
+     "ko": "10% 이상 움직인 달, 2026.2~9"
+    },
+    "align": "right",
+    "decimals": 0
+   }
+  ],
+  "rows": [
+   {
+    "market": {
+     "en": "Korea",
+     "ko": "한국"
+    },
+    "lr": 4.366,
+    "y26": 11.06,
+    "w16": 9.515,
+    "big": 4
+   },
+   {
+    "market": {
+     "en": "Japan",
+     "ko": "일본"
+    },
+    "lr": 3.484,
+    "y26": 2.764,
+    "w16": 3.059,
+    "big": 0
+   },
+   {
+    "market": {
+     "en": "United States",
+     "ko": "미국"
+    },
+    "lr": 2.66,
+    "y26": 2.411,
+    "w16": 2.201,
+    "big": 0
+   },
+   {
+    "market": {
+     "en": "Germany",
+     "ko": "독일"
+    },
+    "lr": 3.53,
+    "y26": 2.279,
+    "w16": 2.069,
+    "big": 0
+   }
+  ]
+ },
+ "csv": "data/four-markets.csv"
+}

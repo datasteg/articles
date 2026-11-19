@@ -1,0 +1,809 @@
+{
+ "id": "tariff-rate",
+ "form": "line",
+ "headline": {
+  "en": "The tariff the US collected rose from 2.6% of goods imports in 2024 to 11.3% in Q4 2025, three times the first trade war's high, and eased to 8.2% in Q2 2026",
+  "ko": "미국이 실제 걷은 관세는 2024년 상품 수입액의 2.6%에서 2025년 4분기 11.3%로 첫 무역전쟁 고점의 세 배가 됐다가 2026년 2분기 8.2%로 내려왔다"
+ },
+ "title": {
+  "en": "US effective tariff rate: customs duties as a share of goods imports",
+  "ko": "미국 실효관세율: 상품 수입액 대비 관세 징수액"
+ },
+ "subtitle": {
+  "en": "% of goods imports, quarterly, Q1 2000–Q2 2026",
+  "ko": "상품 수입액 대비 %, 분기, 2000년 1분기~2026년 2분기"
+ },
+ "howToRead": {
+  "en": "The line is customs duties the US collected as a share of its goods imports each quarter: the tariff that was actually paid, not the rate announced. The shaded bands mark the first US–China trade war and the 2025 tariffs.",
+  "ko": "선은 미국이 분기마다 걷은 관세를 상품 수입액으로 나눈 값이다. 발표된 관세율이 아니라 실제로 낸 관세다. 음영은 첫 미중 무역전쟁과 2025년 관세 기간이다."
+ },
+ "notes": [
+  {
+   "en": "BEA customs duties and goods imports, both seasonally adjusted annual rates, so the ratio needs no annualising. Announced (statutory) rates ran far higher in 2025 because of exemptions, lags and shifts in sourcing. Q3 2026 is released at the end of October 2026.",
+   "ko": "BEA의 관세 징수액과 상품 수입액은 둘 다 계절조정 연율이어서 비율에 연율 환산이 필요 없다. 2025년 발표(법정) 관세율은 면제, 시차, 조달처 이동 때문에 훨씬 높았다. 2026년 3분기 값은 2026년 10월 말에 나온다."
+  },
+  {
+   "en": "Left out: announced statutory rates (about 17% in December 2025 against 9.3% collected) and the realized rate on Korean goods (from near zero in 2024 to about 9% in 2025) are single figures from research papers, given in the text.",
+   "ko": "뺀 것: 발표된 법정 관세율(2025년 12월 약 17%, 실제 징수 9.3%)과 한국산에 실제 매겨진 관세율(2024년 거의 0에서 2025년 약 9%)은 연구 논문의 개별 수치로, 본문에 있다."
+  }
+ ],
+ "alt": {
+  "en": "Line chart of US customs duties as a share of goods imports, quarterly from 2000 to Q2 2026. The rate stayed between about 1.3% and 1.8% from 2000 to 2017, rose to a high of 3.5% in Q4 2019 during the first US–China trade war, drifted down to 2.4–2.7% in 2024, then jumped to 8.3% in Q2 2025, 10.3% in Q3 and 11.3% in Q4 2025, before easing to 9.5% in Q1 2026 and 8.2% in Q2 2026.",
+  "ko": "2000년부터 2026년 2분기까지 분기별 미국 상품 수입액 대비 관세 징수액 비율의 선 그래프. 2000년부터 2017년까지 약 1.3%에서 1.8% 사이에 머물다 첫 미중 무역전쟁 때인 2019년 4분기 3.5%로 올랐고, 2024년 2.4~2.7%로 내려왔다가 2025년 2분기 8.3%, 3분기 10.3%, 4분기 11.3%로 뛰었고, 2026년 1분기 9.5%, 2분기 8.2%로 내려왔다."
+ },
+ "axes": {
+  "x": {
+   "type": "time",
+   "format": "year",
+   "unit": "quarter",
+   "ticks": [
+    "2000-Q1",
+    "2004-Q1",
+    "2008-Q1",
+    "2012-Q1",
+    "2016-Q1",
+    "2020-Q1",
+    "2024-Q1"
+   ],
+   "label": {
+    "en": "Quarter",
+    "ko": "분기"
+   }
+  },
+  "y": {
+   "label": {
+    "en": "% of goods imports",
+    "ko": "상품 수입액 대비 %"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    12
+   ],
+   "ticks": [
+    0,
+    3,
+    6,
+    9,
+    12
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "x": [
+  "2000-Q1",
+  "2000-Q2",
+  "2000-Q3",
+  "2000-Q4",
+  "2001-Q1",
+  "2001-Q2",
+  "2001-Q3",
+  "2001-Q4",
+  "2002-Q1",
+  "2002-Q2",
+  "2002-Q3",
+  "2002-Q4",
+  "2003-Q1",
+  "2003-Q2",
+  "2003-Q3",
+  "2003-Q4",
+  "2004-Q1",
+  "2004-Q2",
+  "2004-Q3",
+  "2004-Q4",
+  "2005-Q1",
+  "2005-Q2",
+  "2005-Q3",
+  "2005-Q4",
+  "2006-Q1",
+  "2006-Q2",
+  "2006-Q3",
+  "2006-Q4",
+  "2007-Q1",
+  "2007-Q2",
+  "2007-Q3",
+  "2007-Q4",
+  "2008-Q1",
+  "2008-Q2",
+  "2008-Q3",
+  "2008-Q4",
+  "2009-Q1",
+  "2009-Q2",
+  "2009-Q3",
+  "2009-Q4",
+  "2010-Q1",
+  "2010-Q2",
+  "2010-Q3",
+  "2010-Q4",
+  "2011-Q1",
+  "2011-Q2",
+  "2011-Q3",
+  "2011-Q4",
+  "2012-Q1",
+  "2012-Q2",
+  "2012-Q3",
+  "2012-Q4",
+  "2013-Q1",
+  "2013-Q2",
+  "2013-Q3",
+  "2013-Q4",
+  "2014-Q1",
+  "2014-Q2",
+  "2014-Q3",
+  "2014-Q4",
+  "2015-Q1",
+  "2015-Q2",
+  "2015-Q3",
+  "2015-Q4",
+  "2016-Q1",
+  "2016-Q2",
+  "2016-Q3",
+  "2016-Q4",
+  "2017-Q1",
+  "2017-Q2",
+  "2017-Q3",
+  "2017-Q4",
+  "2018-Q1",
+  "2018-Q2",
+  "2018-Q3",
+  "2018-Q4",
+  "2019-Q1",
+  "2019-Q2",
+  "2019-Q3",
+  "2019-Q4",
+  "2020-Q1",
+  "2020-Q2",
+  "2020-Q3",
+  "2020-Q4",
+  "2021-Q1",
+  "2021-Q2",
+  "2021-Q3",
+  "2021-Q4",
+  "2022-Q1",
+  "2022-Q2",
+  "2022-Q3",
+  "2022-Q4",
+  "2023-Q1",
+  "2023-Q2",
+  "2023-Q3",
+  "2023-Q4",
+  "2024-Q1",
+  "2024-Q2",
+  "2024-Q3",
+  "2024-Q4",
+  "2025-Q1",
+  "2025-Q2",
+  "2025-Q3",
+  "2025-Q4",
+  "2026-Q1",
+  "2026-Q2"
+ ],
+ "series": [
+  {
+   "id": "rate",
+   "label": {
+    "en": "Effective tariff rate",
+    "ko": "실효관세율"
+   },
+   "dataset": "derived-us-effective-tariff-q",
+   "color": "focus",
+   "endLabel": true,
+   "values": [
+    1.67,
+    1.78,
+    1.68,
+    1.62,
+    1.73,
+    1.73,
+    1.74,
+    1.83,
+    1.68,
+    1.65,
+    1.68,
+    1.64,
+    1.69,
+    1.66,
+    1.66,
+    1.6,
+    1.59,
+    1.54,
+    1.53,
+    1.5,
+    1.52,
+    1.5,
+    1.47,
+    1.39,
+    1.4,
+    1.43,
+    1.43,
+    1.36,
+    1.47,
+    1.43,
+    1.44,
+    1.42,
+    1.36,
+    1.32,
+    1.29,
+    1.5,
+    1.6,
+    1.52,
+    1.33,
+    1.39,
+    1.43,
+    1.45,
+    1.51,
+    1.48,
+    1.42,
+    1.44,
+    1.46,
+    1.39,
+    1.38,
+    1.47,
+    1.5,
+    1.49,
+    1.53,
+    1.51,
+    1.53,
+    1.61,
+    1.56,
+    1.52,
+    1.56,
+    1.61,
+    1.61,
+    1.79,
+    1.54,
+    1.72,
+    1.78,
+    1.71,
+    1.67,
+    1.61,
+    1.6,
+    1.66,
+    1.63,
+    1.61,
+    1.64,
+    1.84,
+    2.06,
+    2.78,
+    2.99,
+    2.73,
+    3.17,
+    3.48,
+    3.35,
+    2.86,
+    2.81,
+    2.87,
+    3.07,
+    3.15,
+    3.12,
+    3.19,
+    3.36,
+    3.22,
+    3.11,
+    2.87,
+    2.76,
+    2.7,
+    2.55,
+    2.55,
+    2.56,
+    2.45,
+    2.54,
+    2.68,
+    2.85,
+    8.29,
+    10.31,
+    11.3,
+    9.48,
+    8.22
+   ]
+  }
+ ],
+ "bands": [
+  {
+   "from": "2018-Q3",
+   "to": "2019-Q4",
+   "label": {
+    "en": "First US–China trade war",
+    "ko": "첫 미중 무역전쟁"
+   }
+  },
+  {
+   "from": "2025-Q2",
+   "to": "2026-Q2",
+   "label": {
+    "en": "2025 tariffs",
+    "ko": "2025년 관세"
+   }
+  }
+ ],
+ "annotations": [
+  {
+   "x": "2025-Q4",
+   "label": {
+    "en": "Statutory about 17%, collected 9.3%",
+    "ko": "법정 약 17%, 실제 징수 9.3%"
+   },
+   "evidence": "jejualps-E3"
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S1",
+   "S2",
+   "S3"
+  ],
+  "provider": "BEA via FRED, Federal Reserve Bank of St. Louis",
+  "keys": [
+   "B235RC1Q027SBEA",
+   "A255RC1Q027SBEA"
+  ],
+  "definition": {
+   "en": "Federal government current tax receipts from customs duties divided by current payments to the rest of the world for imports of goods, both BEA national accounts, quarterly at seasonally adjusted annual rates.",
+   "ko": "연방정부의 관세 수입을 상품 수입 대외 지급액으로 나눈 값. 둘 다 BEA 국민계정의 분기, 계절조정 연율."
+  },
+  "calculation": {
+   "en": "Effective tariff rate = customs duties ÷ goods imports × 100, each quarter.",
+   "ko": "실효관세율 = 관세 징수액 ÷ 상품 수입액 × 100, 분기마다."
+  },
+  "span": [
+   "2000-Q1",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-20",
+  "licence": "FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: BEA via FRED, Federal Reserve Bank of St. Louis; datasteg calculation",
+   "ko": "출처: BEA(FRED); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "x",
+    "label": {
+     "en": "Quarter",
+     "ko": "분기"
+    }
+   },
+   {
+    "key": "rate",
+    "label": {
+     "en": "Tariff rate, % of goods imports",
+     "ko": "관세율, 상품 수입액 대비 %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "x": "2000-Q1",
+    "rate": 1.67
+   },
+   {
+    "x": "2000-Q2",
+    "rate": 1.78
+   },
+   {
+    "x": "2000-Q3",
+    "rate": 1.68
+   },
+   {
+    "x": "2000-Q4",
+    "rate": 1.62
+   },
+   {
+    "x": "2001-Q1",
+    "rate": 1.73
+   },
+   {
+    "x": "2001-Q2",
+    "rate": 1.73
+   },
+   {
+    "x": "2001-Q3",
+    "rate": 1.74
+   },
+   {
+    "x": "2001-Q4",
+    "rate": 1.83
+   },
+   {
+    "x": "2002-Q1",
+    "rate": 1.68
+   },
+   {
+    "x": "2002-Q2",
+    "rate": 1.65
+   },
+   {
+    "x": "2002-Q3",
+    "rate": 1.68
+   },
+   {
+    "x": "2002-Q4",
+    "rate": 1.64
+   },
+   {
+    "x": "2003-Q1",
+    "rate": 1.69
+   },
+   {
+    "x": "2003-Q2",
+    "rate": 1.66
+   },
+   {
+    "x": "2003-Q3",
+    "rate": 1.66
+   },
+   {
+    "x": "2003-Q4",
+    "rate": 1.6
+   },
+   {
+    "x": "2004-Q1",
+    "rate": 1.59
+   },
+   {
+    "x": "2004-Q2",
+    "rate": 1.54
+   },
+   {
+    "x": "2004-Q3",
+    "rate": 1.53
+   },
+   {
+    "x": "2004-Q4",
+    "rate": 1.5
+   },
+   {
+    "x": "2005-Q1",
+    "rate": 1.52
+   },
+   {
+    "x": "2005-Q2",
+    "rate": 1.5
+   },
+   {
+    "x": "2005-Q3",
+    "rate": 1.47
+   },
+   {
+    "x": "2005-Q4",
+    "rate": 1.39
+   },
+   {
+    "x": "2006-Q1",
+    "rate": 1.4
+   },
+   {
+    "x": "2006-Q2",
+    "rate": 1.43
+   },
+   {
+    "x": "2006-Q3",
+    "rate": 1.43
+   },
+   {
+    "x": "2006-Q4",
+    "rate": 1.36
+   },
+   {
+    "x": "2007-Q1",
+    "rate": 1.47
+   },
+   {
+    "x": "2007-Q2",
+    "rate": 1.43
+   },
+   {
+    "x": "2007-Q3",
+    "rate": 1.44
+   },
+   {
+    "x": "2007-Q4",
+    "rate": 1.42
+   },
+   {
+    "x": "2008-Q1",
+    "rate": 1.36
+   },
+   {
+    "x": "2008-Q2",
+    "rate": 1.32
+   },
+   {
+    "x": "2008-Q3",
+    "rate": 1.29
+   },
+   {
+    "x": "2008-Q4",
+    "rate": 1.5
+   },
+   {
+    "x": "2009-Q1",
+    "rate": 1.6
+   },
+   {
+    "x": "2009-Q2",
+    "rate": 1.52
+   },
+   {
+    "x": "2009-Q3",
+    "rate": 1.33
+   },
+   {
+    "x": "2009-Q4",
+    "rate": 1.39
+   },
+   {
+    "x": "2010-Q1",
+    "rate": 1.43
+   },
+   {
+    "x": "2010-Q2",
+    "rate": 1.45
+   },
+   {
+    "x": "2010-Q3",
+    "rate": 1.51
+   },
+   {
+    "x": "2010-Q4",
+    "rate": 1.48
+   },
+   {
+    "x": "2011-Q1",
+    "rate": 1.42
+   },
+   {
+    "x": "2011-Q2",
+    "rate": 1.44
+   },
+   {
+    "x": "2011-Q3",
+    "rate": 1.46
+   },
+   {
+    "x": "2011-Q4",
+    "rate": 1.39
+   },
+   {
+    "x": "2012-Q1",
+    "rate": 1.38
+   },
+   {
+    "x": "2012-Q2",
+    "rate": 1.47
+   },
+   {
+    "x": "2012-Q3",
+    "rate": 1.5
+   },
+   {
+    "x": "2012-Q4",
+    "rate": 1.49
+   },
+   {
+    "x": "2013-Q1",
+    "rate": 1.53
+   },
+   {
+    "x": "2013-Q2",
+    "rate": 1.51
+   },
+   {
+    "x": "2013-Q3",
+    "rate": 1.53
+   },
+   {
+    "x": "2013-Q4",
+    "rate": 1.61
+   },
+   {
+    "x": "2014-Q1",
+    "rate": 1.56
+   },
+   {
+    "x": "2014-Q2",
+    "rate": 1.52
+   },
+   {
+    "x": "2014-Q3",
+    "rate": 1.56
+   },
+   {
+    "x": "2014-Q4",
+    "rate": 1.61
+   },
+   {
+    "x": "2015-Q1",
+    "rate": 1.61
+   },
+   {
+    "x": "2015-Q2",
+    "rate": 1.79
+   },
+   {
+    "x": "2015-Q3",
+    "rate": 1.54
+   },
+   {
+    "x": "2015-Q4",
+    "rate": 1.72
+   },
+   {
+    "x": "2016-Q1",
+    "rate": 1.78
+   },
+   {
+    "x": "2016-Q2",
+    "rate": 1.71
+   },
+   {
+    "x": "2016-Q3",
+    "rate": 1.67
+   },
+   {
+    "x": "2016-Q4",
+    "rate": 1.61
+   },
+   {
+    "x": "2017-Q1",
+    "rate": 1.6
+   },
+   {
+    "x": "2017-Q2",
+    "rate": 1.66
+   },
+   {
+    "x": "2017-Q3",
+    "rate": 1.63
+   },
+   {
+    "x": "2017-Q4",
+    "rate": 1.61
+   },
+   {
+    "x": "2018-Q1",
+    "rate": 1.64
+   },
+   {
+    "x": "2018-Q2",
+    "rate": 1.84
+   },
+   {
+    "x": "2018-Q3",
+    "rate": 2.06
+   },
+   {
+    "x": "2018-Q4",
+    "rate": 2.78
+   },
+   {
+    "x": "2019-Q1",
+    "rate": 2.99
+   },
+   {
+    "x": "2019-Q2",
+    "rate": 2.73
+   },
+   {
+    "x": "2019-Q3",
+    "rate": 3.17
+   },
+   {
+    "x": "2019-Q4",
+    "rate": 3.48
+   },
+   {
+    "x": "2020-Q1",
+    "rate": 3.35
+   },
+   {
+    "x": "2020-Q2",
+    "rate": 2.86
+   },
+   {
+    "x": "2020-Q3",
+    "rate": 2.81
+   },
+   {
+    "x": "2020-Q4",
+    "rate": 2.87
+   },
+   {
+    "x": "2021-Q1",
+    "rate": 3.07
+   },
+   {
+    "x": "2021-Q2",
+    "rate": 3.15
+   },
+   {
+    "x": "2021-Q3",
+    "rate": 3.12
+   },
+   {
+    "x": "2021-Q4",
+    "rate": 3.19
+   },
+   {
+    "x": "2022-Q1",
+    "rate": 3.36
+   },
+   {
+    "x": "2022-Q2",
+    "rate": 3.22
+   },
+   {
+    "x": "2022-Q3",
+    "rate": 3.11
+   },
+   {
+    "x": "2022-Q4",
+    "rate": 2.87
+   },
+   {
+    "x": "2023-Q1",
+    "rate": 2.76
+   },
+   {
+    "x": "2023-Q2",
+    "rate": 2.7
+   },
+   {
+    "x": "2023-Q3",
+    "rate": 2.55
+   },
+   {
+    "x": "2023-Q4",
+    "rate": 2.55
+   },
+   {
+    "x": "2024-Q1",
+    "rate": 2.56
+   },
+   {
+    "x": "2024-Q2",
+    "rate": 2.45
+   },
+   {
+    "x": "2024-Q3",
+    "rate": 2.54
+   },
+   {
+    "x": "2024-Q4",
+    "rate": 2.68
+   },
+   {
+    "x": "2025-Q1",
+    "rate": 2.85
+   },
+   {
+    "x": "2025-Q2",
+    "rate": 8.29
+   },
+   {
+    "x": "2025-Q3",
+    "rate": 10.31
+   },
+   {
+    "x": "2025-Q4",
+    "rate": 11.3
+   },
+   {
+    "x": "2026-Q1",
+    "rate": 9.48
+   },
+   {
+    "x": "2026-Q2",
+    "rate": 8.22
+   }
+  ]
+ },
+ "csv": "data/tariff-rate.csv"
+}

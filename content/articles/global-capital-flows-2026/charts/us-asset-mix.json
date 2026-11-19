@@ -1,0 +1,202 @@
+{
+ "id": "us-asset-mix",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Foreigners bought more US stocks and fewer Treasuries: stock purchases rose to $923 billion in the year to June 2026 while Treasury purchases fell to $294 billion",
+  "ko": "외국인은 미국 주식을 더 사고 미 국채는 덜 샀다. 2026년 6월까지 1년 동안 주식 순매수는 9,230억 달러로 늘고 미 국채 순매수는 2,940억 달러로 줄었다"
+ },
+ "title": {
+  "en": "Foreign net purchases of US securities by type, year to June 2025 and year to June 2026",
+  "ko": "외국인의 미국 증권 종류별 순매수, 2025년 6월까지 1년과 2026년 6월까지 1년"
+ },
+ "subtitle": {
+  "en": "USD billion, four-quarter sums ending Q2 2025 and Q2 2026",
+  "ko": "10억 달러, 2025년 2분기와 2026년 2분기까지 네 분기 합계"
+ },
+ "howToRead": {
+  "en": "The hollow dot is what foreigners bought, net, in the year to June 2025; the filled dot, the year to June 2026. A filled dot to the right means they bought more.",
+  "ko": "빈 점은 2025년 6월까지 1년, 채운 점은 2026년 6월까지 1년 동안의 외국인 순매수다. 채운 점이 오른쪽에 있으면 더 많이 샀다는 뜻이다."
+ },
+ "notes": [
+  {
+   "en": "Stocks include investment fund shares. Treasuries include short-term bills. Agency bonds are securities issued or backed by US government agencies and sponsored enterprises. Municipal bonds are not in the Fed's total.",
+   "ko": "주식에는 투자펀드 지분이 포함된다. 미 국채에는 단기채가 포함된다. 정부기관채는 미 정부기관과 정부지원기관이 발행하거나 보증한 채권이다. 지방채는 연준 합계에 들어 있지 않다."
+  },
+  {
+   "en": "Foreign Treasury buying peaked more recently at $745 billion in the year to March 2025; the chart compares years ending in June. Stocks were 52% of all foreign buying of US securities in the year to June 2026.",
+   "ko": "외국인의 미 국채 순매수는 2025년 3월까지 1년 동안 7,450억 달러로 최근 정점을 찍었다. 그래프는 6월에 끝나는 1년끼리 비교한다. 2026년 6월까지 1년 동안 주식은 외국인의 미국 증권 순매수 전체의 52%였다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of foreign net purchases of US securities, year to June 2025 against year to June 2026: stocks and fund shares rose from $645 billion to $923 billion; corporate bonds from $343 billion to $443 billion; Treasuries fell from $709 billion to $294 billion; agency bonds rose from $63 billion to $125 billion.",
+  "ko": "외국인의 미국 증권 순매수를 2025년 6월까지 1년과 2026년 6월까지 1년으로 비교한 덤벨 그래프: 주식·펀드는 6,450억 달러에서 9,230억 달러로, 회사채는 3,430억 달러에서 4,430억 달러로 늘었고, 미 국채는 7,090억 달러에서 2,940억 달러로 줄었으며, 정부기관채는 630억 달러에서 1,250억 달러로 늘었다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "USD billion",
+    "ko": "10억 달러"
+   },
+   "unit": "USD bn",
+   "domain": [
+    0,
+    1000
+   ],
+   "ticks": [
+    0,
+    250,
+    500,
+    750,
+    1000
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "Year to Jun 2025",
+  "ko": "2025년 6월까지 1년"
+ },
+ "toLabel": {
+  "en": "Year to Jun 2026",
+  "ko": "2026년 6월까지 1년"
+ },
+ "rows": [
+  {
+   "id": "stocks",
+   "label": {
+    "en": "Stocks",
+    "ko": "주식"
+   },
+   "from": 645.014,
+   "to": 923.046,
+   "highlight": true
+  },
+  {
+   "id": "corporate",
+   "label": {
+    "en": "Corporate bonds",
+    "ko": "회사채"
+   },
+   "from": 343.38,
+   "to": 443.265
+  },
+  {
+   "id": "treasuries",
+   "label": {
+    "en": "Treasuries",
+    "ko": "미 국채"
+   },
+   "from": 709.055,
+   "to": 293.76
+  },
+  {
+   "id": "agency",
+   "label": {
+    "en": "Agency bonds",
+    "ko": "정부기관채"
+   },
+   "from": 62.924,
+   "to": 124.987
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S4",
+   "S6",
+   "S5",
+   "S7"
+  ],
+  "provider": "Federal Reserve, Financial Accounts of the United States (Z.1), via FRED",
+  "keys": [
+   "BOGZ1FU263064003Q",
+   "BOGZ1FU263063005Q",
+   "BOGZ1FU263061105Q",
+   "BOGZ1FU263061705Q"
+  ],
+  "definition": {
+   "en": "Rest of the world: net purchases (transactions) of US corporate equities and investment fund shares, US corporate bonds, Treasury securities, and agency and GSE-backed securities.",
+   "ko": "해외 부문: 미국 기업 주식과 투자펀드 지분, 미국 회사채, 미 국채, 정부기관·GSE 채권의 순매수(거래액)."
+  },
+  "calculation": {
+   "en": "Four-quarter sums of quarterly net purchases: Q3 2024–Q2 2025 and Q3 2025–Q2 2026, divided by 1,000 (USD million to billion).",
+   "ko": "분기 순매수의 네 분기 합계(2024년 3분기~2025년 2분기, 2025년 3분기~2026년 2분기)를 1,000으로 나눴다(백만 달러 → 10억 달러)."
+  },
+  "span": [
+   "2024-Q3",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-19",
+  "licence": "Federal Reserve data via FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: Federal Reserve via FRED; datasteg calculation",
+   "ko": "출처: 미 연준(FRED); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "type",
+    "label": {
+     "en": "Security",
+     "ko": "증권"
+    }
+   },
+   {
+    "key": "y2025",
+    "label": {
+     "en": "Year to Jun 2025, USD bn",
+     "ko": "2025년 6월까지 1년, 10억 달러"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "y2026",
+    "label": {
+     "en": "Year to Jun 2026, USD bn",
+     "ko": "2026년 6월까지 1년, 10억 달러"
+    },
+    "align": "right",
+    "decimals": 0
+   }
+  ],
+  "rows": [
+   {
+    "type": {
+     "en": "Stocks and fund shares",
+     "ko": "주식·펀드"
+    },
+    "y2025": 645.014,
+    "y2026": 923.046
+   },
+   {
+    "type": {
+     "en": "Corporate bonds",
+     "ko": "회사채"
+    },
+    "y2025": 343.38,
+    "y2026": 443.265
+   },
+   {
+    "type": {
+     "en": "Treasuries",
+     "ko": "미 국채"
+    },
+    "y2025": 709.055,
+    "y2026": 293.76
+   },
+   {
+    "type": {
+     "en": "Agency bonds",
+     "ko": "정부기관채"
+    },
+    "y2025": 62.924,
+    "y2026": 124.987
+   }
+  ]
+ },
+ "csv": "data/us-asset-mix.csv"
+}

@@ -1,0 +1,106 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "brief",
+ "type": "object",
+ "properties": {
+  "question": {
+   "type": "string",
+   "minLength": 1
+  },
+  "answer_type": {
+   "type": "string",
+   "minLength": 1
+  },
+  "as_of": {
+   "type": "string",
+   "minLength": 1
+  },
+  "premises": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "id",
+     "text"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 1
+  },
+  "subquestions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1
+     },
+     "needs": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 0
+     }
+    },
+    "required": [
+     "id",
+     "text"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 1
+  },
+  "entities": {
+   "type": "object"
+  },
+  "periods": {
+   "type": "object"
+  },
+  "concepts": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 1
+  },
+  "reader": {
+   "type": "string",
+   "minLength": 1
+  }
+ },
+ "required": [
+  "question",
+  "as_of",
+  "premises",
+  "subquestions",
+  "sources",
+  "reader"
+ ],
+ "additionalProperties": true
+}

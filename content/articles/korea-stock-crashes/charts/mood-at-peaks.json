@@ -1,0 +1,465 @@
+{
+ "id": "mood-at-peaks",
+ "form": "dumbbell",
+ "headline": {
+  "en": "In all eight falls since 2007, news mood was above its long-run average of 100 on the day stocks peaked, after dipping below it in the year before; its lowest readings came during or just after each fall",
+  "ko": "2007년 이후 여덟 번의 급락에서 주가 고점 당일 뉴스심리지수는 모두 장기 평균 100을 웃돌았지만 그 전 1년 사이 100 밑으로 내려간 적이 있었고, 가장 낮은 값은 급락 중이나 직후에 나왔다"
+ },
+ "title": {
+  "en": "News mood on the day stocks peaked, and its low during and just after each fall",
+  "ko": "주가 고점 당일과 급락 중·직후 최저 뉴스심리지수"
+ },
+ "subtitle": {
+  "en": "Bank of Korea news sentiment index, daily, 100 = long-run average; eight falls, Oct 2007–Oct 2026",
+  "ko": "한국은행 뉴스심리지수, 일별, 100 = 장기 평균, 여덟 번의 급락, 2007년 10월~2026년 10월"
+ },
+ "howToRead": {
+  "en": "Each row is one fall: the hollow dot is news mood on the day stocks peaked, the filled dot its lowest reading from the peak to three months after the low. Right of 100 is more upbeat than usual.",
+  "ko": "행마다 급락 한 번이다. 속이 빈 점은 주가가 고점을 찍은 날의 뉴스심리지수, 채워진 점은 고점부터 저점 뒤 석 달까지 가장 낮았던 값이다. 100보다 오른쪽이면 평소보다 분위기가 밝다는 뜻이다."
+ },
+ "notes": [
+  {
+   "en": "Peak days are the KOSPI's daily peaks: 31 Oct 2007, 2 May 2011, 29 Jan 2018, 22 Jan 2020, 6 Jul 2021, 11 Jul 2024, 19 Feb 2025 and 22 Jun 2026. The rows for 2024 and Feb–Apr 2025 are the two pieces of the slide from July 2024 to April 2025, as in the table of falls.",
+   "ko": "고점일은 코스피 일별 고점이다. 2007년 10월 31일, 2011년 5월 2일, 2018년 1월 29일, 2020년 1월 22일, 2021년 7월 6일, 2024년 7월 11일, 2025년 2월 19일, 2026년 6월 22일. 2024년 행과 2025년 2~4월 행은 급락 비교 표처럼 2024년 7월부터 2025년 4월까지의 하락을 둘로 나눈 것이다."
+  },
+  {
+   "en": "The index starts in 2005, so falls before 2007 are not shown. The 2026 low (85.0, 18 Oct 2026) is the latest reading and may not be the low of this fall. The index measures the tone of economic news, not views on stock prices.",
+   "ko": "지수가 2005년부터 있어 2007년 이전 급락은 싣지 않았다. 2026년 최저치(85.0, 2026년 10월 18일)는 최신 값으로, 이번 하락의 최저치가 아닐 수 있다. 이 지수는 경제 뉴스의 논조를 잴 뿐, 주가에 대한 인식을 재지는 않는다."
+  },
+  {
+   "en": "The chart shows only the peak day and the low after it, but mood swung widely in the year before too. In all eight falls, it had been higher at some point in the 12 months before the stock peak than on the peak day (for 2026, 125.7 on 3 Nov 2025), and it had also dipped below 100, each time to 93.0 or lower. The low after each peak was lower still, though only a little in 2024 (81.6 against 84.7 on 24 Oct 2023) and 2026 (85.0 against 87.5 on 9 Mar 2026). These prior highs and lows are in the table view. Consumer sentiment, a monthly survey, is in the text.",
+   "ko": "그림에는 고점 당일과 그 뒤 최저치만 있지만, 그 전 1년 동안에도 심리는 크게 출렁였다. 여덟 번 모두 주가 고점 전 12개월 사이에 고점 당일보다 높았던 때가 있었고(2026년은 2025년 11월 3일 125.7), 100 밑으로 내려간 때도 있었으며 매번 93.0 이하까지 떨어졌다. 고점 뒤 최저치는 그보다도 낮았지만, 2024년(81.6, 앞선 최저는 2023년 10월 24일 84.7)과 2026년(85.0, 앞선 최저는 2026년 3월 9일 87.5)에는 차이가 작았다. 앞선 최고·최저치는 표에 있다. 월별 조사인 소비자심리지수는 본문에 있다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of the Bank of Korea news sentiment index (100 = long-run average) on the day stocks peaked and at its lowest from the peak to three months after the stock low. 2007–08: 108.9, then 57.7 (8 Oct 2008). 2011: 116.6, then 72.0. 2018–19: 115.0, then 76.2 (14 Oct 2018). 2020: 104.8, then 59.6 (17 Mar 2020). 2021–22: 111.8, then 70.1. 2024: 107.0, then 81.6. Feb–Apr 2025: 102.0, then 75.3. 2026: 108.1 on 22 Jun 2026, then 85.0 on 18 Oct 2026, the latest reading. Every peak-day reading is above 100 but below the highest reading of the 12 months before (for 2026, 125.7 on 3 Nov 2025); in each of those 12 months mood had also dipped to 93.0 or lower (for 2026, 87.5 on 9 Mar 2026).",
+  "ko": "주가 고점 당일과, 고점부터 주가 저점 뒤 석 달까지 가장 낮았던 시점의 한국은행 뉴스심리지수(100 = 장기 평균)를 비교한 덤벨 그래프. 2007~08년: 108.9에서 57.7(2008년 10월 8일)로. 2011년: 116.6에서 72.0으로. 2018~19년: 115.0에서 76.2(2018년 10월 14일)로. 2020년: 104.8에서 59.6(2020년 3월 17일)으로. 2021~22년: 111.8에서 70.1로. 2024년: 107.0에서 81.6으로. 2025년 2~4월: 102.0에서 75.3으로. 2026년: 6월 22일 108.1에서 최신 값인 10월 18일 85.0으로. 고점 당일 값은 모두 100을 넘지만, 그 전 12개월의 최고치보다는 낮다(2026년은 2025년 11월 3일 125.7). 그 12개월 사이에는 매번 93.0 이하로 내려간 때도 있었다(2026년은 2026년 3월 9일 87.5)."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "News sentiment index (100 = long-run average)",
+    "ko": "뉴스심리지수(100 = 장기 평균)"
+   },
+   "unit": "index",
+   "domain": [
+    25,
+    125
+   ],
+   "ticks": [
+    25,
+    50,
+    75,
+    100,
+    125
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "Day stocks peaked",
+  "ko": "주가 고점일"
+ },
+ "toLabel": {
+  "en": "Lowest from the peak to three months after the low",
+  "ko": "고점부터 저점 뒤 석 달까지 최저"
+ },
+ "rows": [
+  {
+   "id": "2007",
+   "label": {
+    "en": "2007–08",
+    "ko": "2007~08년"
+   },
+   "from": 108.87,
+   "to": 57.72,
+   "highlight": false
+  },
+  {
+   "id": "2011",
+   "label": {
+    "en": "2011",
+    "ko": "2011년"
+   },
+   "from": 116.56,
+   "to": 71.97,
+   "highlight": false
+  },
+  {
+   "id": "2018",
+   "label": {
+    "en": "2018–19",
+    "ko": "2018~19년"
+   },
+   "from": 114.95,
+   "to": 76.17,
+   "highlight": false
+  },
+  {
+   "id": "2020",
+   "label": {
+    "en": "2020",
+    "ko": "2020년"
+   },
+   "from": 104.84,
+   "to": 59.62,
+   "highlight": false
+  },
+  {
+   "id": "2021",
+   "label": {
+    "en": "2021–22",
+    "ko": "2021~22년"
+   },
+   "from": 111.78,
+   "to": 70.07,
+   "highlight": false
+  },
+  {
+   "id": "2024",
+   "label": {
+    "en": "2024",
+    "ko": "2024년"
+   },
+   "from": 106.95,
+   "to": 81.57,
+   "highlight": false
+  },
+  {
+   "id": "2025",
+   "label": {
+    "en": "Feb–Apr 2025",
+    "ko": "2025년 2~4월"
+   },
+   "from": 102.01,
+   "to": 75.27,
+   "highlight": false
+  },
+  {
+   "id": "2026",
+   "label": {
+    "en": "2026",
+    "ko": "2026년"
+   },
+   "from": 108.07,
+   "to": 84.95,
+   "highlight": true
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S4"
+  ],
+  "provider": "Bank of Korea, ECOS",
+  "keys": [
+   "523Y001/D/A001"
+  ],
+  "definition": {
+   "en": "News sentiment index (experimental statistic): a daily reading of the tone of economic news articles, scaled so that 100 is the long-run average.",
+   "ko": "뉴스심리지수(실험적 통계): 경제 기사의 논조를 매일 지수로 나타낸 것으로, 장기 평균이 100이 되도록 맞췄다."
+  },
+  "calculation": {
+   "en": "Prior high and low: the maximum and minimum in the 12 months before the peak day. Peak day: the value on the KOSPI's daily peak. Lowest: the minimum from the peak day to three months after the KOSPI's daily low (for 2026, to 18 Oct 2026).",
+   "ko": "앞선 최고·최저: 고점일 전 12개월 동안의 최고값과 최저값. 고점일 값: 코스피 일별 고점 당일 값. 최저: 고점일부터 코스피 일별 저점 뒤 석 달까지의 최저값(2026년은 10월 18일까지)."
+  },
+  "span": [
+   "2007-07-10",
+   "2026-10-18"
+  ],
+  "lastObservation": "2026-10-18",
+  "retrieved": "2026-10-19",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "fall",
+    "label": {
+     "en": "Fall",
+     "ko": "급락"
+    }
+   },
+   {
+    "key": "priorHigh",
+    "label": {
+     "en": "Prior 12-month high",
+     "ko": "앞선 12개월 최고"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "priorDay",
+    "label": {
+     "en": "High on",
+     "ko": "최고일"
+    }
+   },
+   {
+    "key": "priorLow",
+    "label": {
+     "en": "Prior 12-month low",
+     "ko": "앞선 12개월 최저"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "priorLowDay",
+    "label": {
+     "en": "Low on",
+     "ko": "앞선 최저일"
+    }
+   },
+   {
+    "key": "peakDay",
+    "label": {
+     "en": "Stock peak day",
+     "ko": "주가 고점일"
+    }
+   },
+   {
+    "key": "atPeak",
+    "label": {
+     "en": "Index on peak day",
+     "ko": "고점일 지수"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "lowDay",
+    "label": {
+     "en": "Post-peak low on",
+     "ko": "고점 뒤 최저일"
+    }
+   },
+   {
+    "key": "low",
+    "label": {
+     "en": "Post-peak low",
+     "ko": "고점 뒤 최저"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "fall": {
+     "en": "2007–⁠08",
+     "ko": "2007~08년"
+    },
+    "priorHigh": 122.38,
+    "priorDay": {
+     "en": "10 Jul 2007",
+     "ko": "2007.7.10"
+    },
+    "priorLow": 79.73,
+    "priorLowDay": {
+     "en": "17 Aug 2007",
+     "ko": "2007.8.17"
+    },
+    "peakDay": {
+     "en": "31 Oct 2007",
+     "ko": "2007.10.31"
+    },
+    "atPeak": 108.87,
+    "lowDay": {
+     "en": "8 Oct 2008",
+     "ko": "2008.10.8"
+    },
+    "low": 57.72
+   },
+   {
+    "fall": {
+     "en": "2011",
+     "ko": "2011년"
+    },
+    "priorHigh": 125.32,
+    "priorDay": {
+     "en": "7 Jan 2011",
+     "ko": "2011.1.7"
+    },
+    "priorLow": 84.42,
+    "priorLowDay": {
+     "en": "17 Mar 2011",
+     "ko": "2011.3.17"
+    },
+    "peakDay": {
+     "en": "2 May 2011",
+     "ko": "2011.5.2"
+    },
+    "atPeak": 116.56,
+    "lowDay": {
+     "en": "9 Aug 2011",
+     "ko": "2011.8.9"
+    },
+    "low": 71.97
+   },
+   {
+    "fall": {
+     "en": "2018–⁠19",
+     "ko": "2018~19년"
+    },
+    "priorHigh": 131.82,
+    "priorDay": {
+     "en": "1 Nov 2017",
+     "ko": "2017.11.1"
+    },
+    "priorLow": 92.99,
+    "priorLowDay": {
+     "en": "9 Mar 2017",
+     "ko": "2017.3.9"
+    },
+    "peakDay": {
+     "en": "29 Jan 2018",
+     "ko": "2018.1.29"
+    },
+    "atPeak": 114.95,
+    "lowDay": {
+     "en": "14 Oct 2018",
+     "ko": "2018.10.14"
+    },
+    "low": 76.17
+   },
+   {
+    "fall": {
+     "en": "2020",
+     "ko": "2020년"
+    },
+    "priorHigh": 108.99,
+    "priorDay": {
+     "en": "18 Jan 2020",
+     "ko": "2020.1.18"
+    },
+    "priorLow": 76.49,
+    "priorLowDay": {
+     "en": "6 Aug 2019",
+     "ko": "2019.8.6"
+    },
+    "peakDay": {
+     "en": "22 Jan 2020",
+     "ko": "2020.1.22"
+    },
+    "atPeak": 104.84,
+    "lowDay": {
+     "en": "17 Mar 2020",
+     "ko": "2020.3.17"
+    },
+    "low": 59.62
+   },
+   {
+    "fall": {
+     "en": "2021–⁠22",
+     "ko": "2021~22년"
+    },
+    "priorHigh": 123.13,
+    "priorDay": {
+     "en": "9 Jan 2021",
+     "ko": "2021.1.9"
+    },
+    "priorLow": 87.73,
+    "priorLowDay": {
+     "en": "25 Sep 2020",
+     "ko": "2020.9.25"
+    },
+    "peakDay": {
+     "en": "6 Jul 2021",
+     "ko": "2021.7.6"
+    },
+    "atPeak": 111.78,
+    "lowDay": {
+     "en": "17 Jun 2022",
+     "ko": "2022.6.17"
+    },
+    "low": 70.07
+   },
+   {
+    "fall": {
+     "en": "2024",
+     "ko": "2024년"
+    },
+    "priorHigh": 110.67,
+    "priorDay": {
+     "en": "30 Jul 2023",
+     "ko": "2023.7.30"
+    },
+    "priorLow": 84.72,
+    "priorLowDay": {
+     "en": "24 Oct 2023",
+     "ko": "2023.10.24"
+    },
+    "peakDay": {
+     "en": "11 Jul 2024",
+     "ko": "2024.7.11"
+    },
+    "atPeak": 106.95,
+    "lowDay": {
+     "en": "10 Sep 2024",
+     "ko": "2024.9.10"
+    },
+    "low": 81.57
+   },
+   {
+    "fall": {
+     "en": "Feb–⁠Apr 2025",
+     "ko": "2025년 2~4월"
+    },
+    "priorHigh": 109.81,
+    "priorDay": {
+     "en": "9 Jul 2024",
+     "ko": "2024.7.9"
+    },
+    "priorLow": 81.26,
+    "priorLowDay": {
+     "en": "10 Dec 2024",
+     "ko": "2024.12.10"
+    },
+    "peakDay": {
+     "en": "19 Feb 2025",
+     "ko": "2025.2.19"
+    },
+    "atPeak": 102.01,
+    "lowDay": {
+     "en": "9 Apr 2025",
+     "ko": "2025.4.9"
+    },
+    "low": 75.27
+   },
+   {
+    "fall": {
+     "en": "2026",
+     "ko": "2026년"
+    },
+    "priorHigh": 125.72,
+    "priorDay": {
+     "en": "3 Nov 2025",
+     "ko": "2025.11.3"
+    },
+    "priorLow": 87.47,
+    "priorLowDay": {
+     "en": "9 Mar 2026",
+     "ko": "2026.3.9"
+    },
+    "peakDay": {
+     "en": "22 Jun 2026",
+     "ko": "2026.6.22"
+    },
+    "atPeak": 108.07,
+    "lowDay": {
+     "en": "18 Oct 2026 (latest)",
+     "ko": "2026.10.18(최신)"
+    },
+    "low": 84.95
+   }
+  ]
+ },
+ "csv": "data/mood-at-peaks.csv"
+}

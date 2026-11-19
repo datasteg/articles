@@ -1,0 +1,100 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "US duties reached their highest share of imports since 2000 in late 2025, yet Korea's goods exports set a record that year; the fall came in a tariffed sector, primary steel",
+  "ko": "미국 관세는 2025년 말 2000년 이후 가장 높은 수입액 대비 비율에 이르렀지만 한국 상품 수출은 그해 사상 최대였고, 줄어든 것은 관세를 맞은 철강 일차제품이었다"
+ },
+ "title": {
+  "en": "Three numbers on Korea and the 2025 US tariffs",
+  "ko": "2025년 미국 관세와 한국을 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "US tariff rate to Q2 2026; Korea's goods exports (balance of payments) to Aug 2026; export value indices to Sep 2026",
+  "ko": "미국 관세율은 2026년 2분기, 한국 상품 수출(국제수지)은 2026년 8월, 수출금액지수는 2026년 9월까지"
+ },
+ "tiles": [
+  {
+   "value": "{{F2}}",
+   "label": {
+    "en": "US customs duties as a share of goods imports at their {{F3}} high, against {{F14}} at the first trade war's high in {{F15}} and {{F1}} in Q2 2026",
+    "ko": "미국 상품 수입액 대비 관세 징수액의 {{F3}} 고점. 첫 무역전쟁 고점인 {{F15}}에는 {{F14}}, 2026년 2분기에는 {{F1}}"
+   },
+   "cite": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "value": "{{F151}}",
+   "label": {
+    "en": "Change in Korea's goods exports (balance-of-payments basis) in 2025, a record year; January to August 2026 ran {{F159}} above a year earlier",
+    "ko": "2025년 한국 상품 수출(국제수지 기준) 증가율. 사상 최대였고, 2026년 1월부터 8월까지는 한 해 전보다 {{F159}} 많았다"
+   },
+   "cite": [
+    "S8"
+   ]
+  },
+  {
+   "value": "{{F289}}",
+   "label": {
+    "en": "Change in Korea's export value index for primary steel products in 2025, a sector facing US sectoral tariffs; semiconductors rose {{F265}}",
+    "ko": "2025년 한국 철강 일차제품 수출금액지수 변화. 미국 품목별 관세를 맞은 업종이며, 같은 해 반도체는 {{F265}} 올랐다"
+   },
+   "cite": [
+    "S11",
+    "S12"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "The tariff rate is customs duties collected divided by goods imports (BEA, quarterly, seasonally adjusted annual rates), the rate actually paid rather than the rate announced.",
+   "ko": "관세율은 걷은 관세를 상품 수입액으로 나눈 값(BEA, 분기, 계절조정 연율)으로, 발표된 관세율이 아니라 실제로 낸 관세율이다."
+  },
+  {
+   "en": "Korea's goods exports are the Bank of Korea's balance-of-payments series, which runs above the customs figure. Export value indices are 2020 = 100 in US dollars and are compared as annual averages.",
+   "ko": "한국 상품 수출은 한국은행 국제수지 계열로 통관 수출액보다 크다. 수출금액지수는 2020년 = 100의 달러 기준이며 연평균으로 견줬다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: US customs duties reached 11.3% of goods imports in Q4 2025, against 3.5% at the first trade war's high in Q4 2019 and 8.2% in Q2 2026; Korea's goods exports rose 2.1% in 2025 to a record and were 59% higher in January to August 2026 than a year earlier; Korea's export value index for primary steel products fell 7.6% in 2025 while semiconductors rose 22.4%.",
+  "ko": "세 숫자: 미국 관세 징수액은 2025년 4분기 상품 수입액의 11.3%로, 첫 무역전쟁 고점인 2019년 4분기 3.5%와 2026년 2분기 8.2%에 견준다. 한국 상품 수출은 2025년 2.1% 늘어 사상 최대였고 2026년 1월부터 8월까지는 한 해 전보다 59% 많았다. 한국 철강 일차제품 수출금액지수는 2025년 7.6% 내렸고 반도체는 22.4% 올랐다."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S2",
+   "S8",
+   "S11",
+   "S12"
+  ],
+  "provider": "BEA via FRED, Federal Reserve Bank of St. Louis; Bank of Korea, ECOS",
+  "keys": [
+   "B235RC1Q027SBEA / A255RC1Q027SBEA",
+   "301Y013/M/110000",
+   "403Y001/M/3071AA",
+   "403Y001/M/3091AA"
+  ],
+  "definition": {
+   "en": "US effective tariff rate: federal customs duties divided by imports of goods, both BEA national accounts at seasonally adjusted annual rates, quarterly. Korea's goods exports: balance-of-payments credit (BPM6), US dollars. Export value indices: Bank of Korea trade indices, 2020 = 100, US dollar basis.",
+   "ko": "미국 실효관세율: 연방 관세 수입을 상품 수입액으로 나눈 값, 둘 다 BEA 국민계정의 계절조정 연율, 분기. 한국 상품 수출: 국제수지 수출(BPM6), 달러 기준. 수출금액지수: 한국은행 무역지수, 2020년 = 100, 달러 기준."
+  },
+  "calculation": {
+   "en": "Tariff rate = customs duties ÷ goods imports × 100. Export change = 2025 sum ÷ 2024 sum − 1. Index change = 2025 average ÷ 2024 average − 1.",
+   "ko": "관세율 = 관세 징수액 ÷ 상품 수입액 × 100. 수출 증가율 = 2025년 합계 ÷ 2024년 합계 − 1. 지수 변화 = 2025년 평균 ÷ 2024년 평균 − 1."
+  },
+  "span": [
+   "2000-Q1",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-20",
+  "licence": "FRED: public domain, citation requested; ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: BEA via FRED, Federal Reserve Bank of St. Louis; Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: BEA(FRED); 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "csv": null
+}

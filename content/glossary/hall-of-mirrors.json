@@ -1,0 +1,16 @@
+{
+ "id": "hall-of-mirrors",
+ "term": {
+  "en": "hall of mirrors",
+  "ko": "거울의 방"
+ },
+ "definition": {
+  "en": "A two-way loop in which markets set prices by reading the central bank's guidance while the central bank reads those same market prices as information, so both can miss what is new in the economy.",
+  "ko": "시장은 중앙은행의 가이던스를 읽어 가격을 정하고 중앙은행은 그 시장 가격을 정보로 읽는 양방향 순환으로, 둘 다 경제의 새로운 변화를 놓칠 수 있다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy",
+  "financial-conditions"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "self-fulfilling-crisis",
+ "term": {
+  "en": "self-fulfilling crisis",
+  "ko": "자기실현적 위기"
+ },
+ "definition": {
+  "en": "A debt crisis brought on by fear itself: if lenders expect a default, they demand higher interest, and that higher interest can make a default more likely.",
+  "ko": "두려움 자체가 불러오는 부채 위기다. 대출자들이 부도를 예상해 더 높은 이자를 요구하면, 그 높은 이자가 부도 가능성을 키울 수 있다."
+ },
+ "topics": [
+  "sovereign-debt",
+  "financial-stability"
+ ],
+ "approvedBy": null
+}

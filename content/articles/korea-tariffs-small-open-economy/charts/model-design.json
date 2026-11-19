@@ -1,0 +1,320 @@
+{
+ "id": "model-design",
+ "form": "table",
+ "headline": {
+  "en": "A model of the tariffs' cost to Korea would estimate export responses by product and market from the two targeted episodes and then simulate broader scenarios; the estimated layer can be tested, the simulated one cannot",
+  "ko": "관세가 한국에 미친 비용의 모형은 표적 관세 두 차례에서 품목별·시장별 수출 반응을 추정한 뒤 더 넓은 시나리오를 모의하며, 추정 층은 검증할 수 있지만 모의 층은 그럴 수 없다"
+ },
+ "title": {
+  "en": "A design for a model of what tariffs cost Korea",
+  "ko": "관세가 한국에 미친 비용을 재는 모형 설계안"
+ },
+ "subtitle": {
+  "en": "What each piece measures, which series are in the run or still to fetch, whether they can be published, which layer uses them, and the research behind them",
+  "ko": "각 요소가 재는 것, 이 글에 있거나 더 가져와야 할 계열, 게시 가능 여부, 쓰는 층, 뒷받침하는 연구"
+ },
+ "howToRead": {
+  "en": "Each row is one piece of the model: what it measures, where the data would come from, whether it can be published, which layer uses it, and the research behind it. Layer 1 is estimated from Korea's monthly exports; Layer 2 is a multi-country trade model calibrated to Layer 1.",
+  "ko": "행마다 모형의 한 요소다. 무엇을 재는지, 자료는 어디서 오는지, 게시할 수 있는지, 어느 층이 쓰는지, 뒷받침하는 연구는 무엇인지 적었다. 1층은 한국의 월별 수출로 추정하고, 2층은 1층에 맞춘 다국가 무역 모형이다."
+ },
+ "notes": [
+  {
+   "en": "A design, not an estimated model: no figure here is a result. Layer 1 is a product-by-destination panel with local projections on 2015–2026 monthly exports; Layer 2 a multi-country input-output trade model calibrated to Layer 1's responses. Korea's customs exports by destination can be used in estimation but not published.",
+   "ko": "추정한 모형이 아니라 설계안이며, 여기 있는 어떤 수치도 결과가 아니다. 1층은 2015~2026년 월별 수출의 품목별·상대국별 패널에 국소투영을 적용한 것이고, 2층은 1층의 반응에 맞춘 다국가 산업연관 무역 모형이다. 관세청의 상대국별 수출은 추정에는 쓸 수 있지만 게시할 수 없다."
+  },
+  {
+   "en": "The equations, the validation plan and the alternatives considered (global DSGE, ECB-Global, three-country model, structural gravity, synthetic control, early-warning models) are in the technical appendix.",
+   "ko": "수식, 검증 계획, 검토한 대안(글로벌 DSGE, ECB-Global, 세 나라 모형, 구조적 중력 모형, 합성 통제, 조기경보 모형)은 기술 부록에 있다."
+  }
+ ],
+ "alt": {
+  "en": "Table of a model design in eight rows. Outcome: Korea's goods exports by product and destination, from balance-of-payments exports and export value indices in the run plus customs exports by HS code to fetch; publishable except the destination series; Layer 1, aggregated for Layer 2; research: Bank of Korea speeches. Driver: realized US tariff on Korean goods by product, from the BEA effective rate in the run plus Census duties by product to fetch; publishable; Layer 1 shock and Layer 2 trade-cost change; research: Richmond Fed. Driver: tariffs on Korea's rivals, from rivals' shares of US imports in the run plus realized rates by product to fetch; publishable; Layer 1 diversion term, switched off in the general case; research: World Bank, ECB. Driver: Korean value added inside rivals' exports, from OECD trade-in-value-added shares to fetch; not yet fetched; Layer 1 interaction and Layer 2 input-output table; research: IMF. Driver: trade-policy uncertainty, from the US index in the run; publishable; Layer 1 only; research: Bank of Korea. Regime: breadth of protectionism, from WTO and Global Trade Alert data to fetch; not yet fetched; the switch between layers; research: IMF. Controls: chip cycle, importing-market demand, the won, the base rate and domestic demand, from series in the run; publishable; Layer 1 controls and Layer 2 policy rules; research: Bank of Korea, BIS, ECB. Scenarios S0–S5: no tariffs, 2025 schedule, retaliation, bloc, general, integration; S1 estimated and calibrated, S2–S5 simulated; Layer 2 comparisons; research: BIS, IMF.",
+  "ko": "여덟 행으로 된 모형 설계 표. 결과: 한국의 품목별·상대국별 상품 수출로, 이 글에 있는 국제수지 수출과 수출금액지수에 HS 코드별 통관 수출을 더 가져온다. 상대국별 계열만 빼고 게시 가능. 1층에서 추정해 2층에 합산. 연구: 한국은행 연설. 동인: 한국산에 품목별로 실제 매겨진 미국 관세로, 이 글에 있는 BEA 실효관세율에 품목별 관세 징수액을 더 가져온다. 게시 가능. 1층 충격, 2층 무역비용 변화. 연구: 리치먼드 연준. 동인: 한국 경쟁국이 맞는 관세로, 이 글에 있는 경쟁국의 미국 수입 비중에 품목별 실제 관세율을 더 가져온다. 게시 가능. 1층 무역 전환 항, 일반적 경우에는 끔. 연구: 세계은행, ECB. 동인: 경쟁국 수출품 안의 한국 부가가치로, OECD 부가가치 무역 비중을 가져와야 한다. 아직 없음. 1층 상호작용, 2층 산업연관표. 연구: IMF. 동인: 무역정책 불확실성으로, 이 글에 있는 미국 지수. 게시 가능. 1층만. 연구: 한국은행. 체제: 보호무역의 범위로, WTO와 Global Trade Alert 자료를 가져와야 한다. 아직 없음. 두 층을 가르는 스위치. 연구: IMF. 통제변수: 반도체 경기, 수입국 수요, 환율, 기준금리, 내수로, 이 글에 있는 계열. 게시 가능. 1층 통제변수, 2층 정책 준칙. 연구: 한국은행, BIS, ECB. 시나리오 S0~S5: 관세 없음, 2025년 관세표, 보복, 블록, 일반, 통합. S1은 추정·보정, S2~S5는 모의. 2층 비교. 연구: BIS, IMF."
+ },
+ "meta": {
+  "sources": [
+   "S8",
+   "S12",
+   "S32",
+   "S11",
+   "S31",
+   "S6",
+   "S1",
+   "S2",
+   "S4",
+   "S5",
+   "S19",
+   "S30",
+   "S40",
+   "S10",
+   "S39",
+   "S20",
+   "S28",
+   "S29",
+   "S3",
+   "S7",
+   "S37",
+   "S14",
+   "S15",
+   "S17",
+   "S35",
+   "S36",
+   "S38",
+   "S13",
+   "S18"
+  ],
+  "provider": "datasteg design from published research; data from Bank of Korea, ECOS and from BEA, Census Bureau and Baker, Bloom and Davis via FRED",
+  "keys": [
+   "301Y013/M/110000",
+   "403Y001/M/3091AA",
+   "403Y001/M/31211AA",
+   "403Y001/M/3071AA",
+   "403Y001/M/305AA",
+   "IMPKR",
+   "B235RC1Q027SBEA / A255RC1Q027SBEA",
+   "IMPCH / IMP0015",
+   "EPUTRADE",
+   "731Y004/M/0000001/0000100",
+   "722Y001/M/0101000",
+   "200Y102/Q/10111",
+   "200Y102/Q/10123"
+  ],
+  "definition": {
+   "en": "Rows follow model.json: the outcome, five drivers, the regime switch, the controls and the scenario set; the series column lists what the run holds and what a researcher would still fetch.",
+   "ko": "행은 model.json의 순서를 따른다. 결과, 동인 다섯, 체제 스위치, 통제변수, 시나리오 묶음이며 계열 열은 이 글에 있는 것과 연구자가 더 가져와야 할 것을 적었다."
+  },
+  "calculation": {
+   "en": "No calculation: a design table.",
+   "ko": "계산 없음. 설계 표."
+  },
+  "span": [
+   "2015-01",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-20",
+  "licence": "ECOS Open API terms: reuse allowed with attribution; FRED: public domain, citation requested; research cited under publishers' terms",
+  "attribution": {
+   "en": "Sources: research cited in the references; Bank of Korea, ECOS; BEA, Census Bureau and Baker, Bloom and Davis via FRED; datasteg design",
+   "ko": "출처: 참고문헌의 연구; 한국은행 ECOS; BEA·인구조사국·베이커·블룸·데이비스(FRED); datasteg 설계"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "piece",
+    "label": {
+     "en": "Piece",
+     "ko": "요소"
+    }
+   },
+   {
+    "key": "series",
+    "label": {
+     "en": "Series in the run, or to fetch",
+     "ko": "있는 계열, 가져올 계열"
+    }
+   },
+   {
+    "key": "pub",
+    "label": {
+     "en": "Publishable",
+     "ko": "게시"
+    }
+   },
+   {
+    "key": "layer",
+    "label": {
+     "en": "Layer",
+     "ko": "층"
+    }
+   },
+   {
+    "key": "research",
+    "label": {
+     "en": "From research",
+     "ko": "근거 연구"
+    }
+   }
+  ],
+  "rows": [
+   {
+    "piece": {
+     "en": "Outcome: Korea's goods exports by product and destination",
+     "ko": "결과: 한국의 품목별·상대국별 상품 수출"
+    },
+    "series": {
+     "en": "In the run: goods exports (BoP), export value indices by product; customs exports by destination (not publishable). To fetch: Korea Customs Service exports by HS 6-digit and country",
+     "ko": "있음: 상품 수출(국제수지), 품목별 수출금액지수, 상대국별 통관 수출(게시 불가). 가져올 것: 관세청 HS 6단위·국가별 수출"
+    },
+    "pub": {
+     "en": "Yes, except the destination series",
+     "ko": "상대국별 계열만 빼고 가능"
+    },
+    "layer": {
+     "en": "Layer 1 (estimated), aggregated for Layer 2",
+     "ko": "1층(추정), 2층에 합산"
+    },
+    "research": {
+     "en": "Governor's speeches: reorganisation, not shrinkage; growth without IT; chip-led acceleration (Bank of Korea)",
+     "ko": "총재 연설: 축소가 아닌 재편, IT 제외 성장률, 반도체 주도 가속(한국은행)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Driver: realized US tariff on Korean goods, by product",
+     "ko": "동인: 한국산에 품목별로 실제 매겨진 미국 관세"
+    },
+    "series": {
+     "en": "In the run: all-origin effective rate (BEA). To fetch: Census duties and import value by HS 10-digit and origin",
+     "ko": "있음: 전체 원산지 실효관세율(BEA). 가져올 것: HS 10단위·원산지별 관세 징수액과 수입액"
+    },
+    "pub": {
+     "en": "Yes",
+     "ko": "가능"
+    },
+    "layer": {
+     "en": "Layer 1 shock; Layer 2 trade-cost change",
+     "ko": "1층 충격, 2층 무역비용 변화"
+    },
+    "research": {
+     "en": "Realized rates, Korea's rate, pass-through, sector layering (Richmond Fed)",
+     "ko": "실제 관세율, 한국의 관세율, 가격 전가, 업종별 층(리치먼드 연준)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Driver: tariffs on Korea's rivals in the same product and market",
+     "ko": "동인: 같은 품목·시장에서 한국 경쟁국이 맞는 관세"
+    },
+    "series": {
+     "en": "In the run: rivals' shares of US imports (China, Vietnam, Taiwan, Mexico, Japan). To fetch: realized rates by HS product and origin",
+     "ko": "있음: 경쟁국의 미국 수입 비중(중국·베트남·대만·멕시코·일본). 가져올 것: HS 품목·원산지별 실제 관세율"
+    },
+    "pub": {
+     "en": "Yes",
+     "ko": "가능"
+    },
+    "layer": {
+     "en": "Layer 1 diversion term; switched off in the general case",
+     "ko": "1층 무역 전환 항, 일반적 경우에는 끔"
+    },
+    "research": {
+     "en": "Bystander gains in 2018–19 (World Bank); diversion weakens when several economies are targeted (ECB)",
+     "ko": "2018~19년 제삼국의 이득(세계은행), 여러 경제가 표적이 되면 전환 약화(ECB)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Driver: Korean value added inside rivals' exports",
+     "ko": "동인: 경쟁국 수출품 안의 한국 부가가치"
+    },
+    "series": {
+     "en": "To fetch: OECD Trade in Value Added shares; nothing in the run measures this (the governor's 'roughly 20% each' is export dependence by destination, a different quantity)",
+     "ko": "가져올 것: OECD 부가가치 무역 비중. 이를 재는 자료는 이번 분석에 없음(총재의 '대략 20%씩'은 수출 상대국별 의존도로, 다른 수치)"
+    },
+    "pub": {
+     "en": "Not yet fetched",
+     "ko": "아직 없음"
+    },
+    "layer": {
+     "en": "Layer 1 interaction; Layer 2 input-output table",
+     "ko": "1층 상호작용, 2층 산업연관표"
+    },
+    "research": {
+     "en": "Korea barely gains from reduced Chinese competition; straddles several hubs (IMF)",
+     "ko": "중국 경쟁 완화의 이득이 거의 없음, 여러 축에 걸침(IMF)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Driver: trade-policy uncertainty",
+     "ko": "동인: 무역정책 불확실성"
+    },
+    "series": {
+     "en": "In the run: trade policy uncertainty index (US newspapers), 1985–2026",
+     "ko": "있음: 무역정책 불확실성 지수(미국 신문), 1985~2026년"
+    },
+    "pub": {
+     "en": "Yes",
+     "ko": "가능"
+    },
+    "layer": {
+     "en": "Layer 1 only",
+     "ko": "1층만"
+    },
+    "research": {
+     "en": "Investment-agreement standoff until October 2025; April 2025 deterioration (Bank of Korea)",
+     "ko": "2025년 10월까지 투자협정 교착, 2025년 4월 악화(한국은행)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Regime: breadth of protectionism (targeted, bloc, general)",
+     "ko": "체제: 보호무역의 범위(표적, 블록, 일반)"
+    },
+    "series": {
+     "en": "To fetch: WTO tariff profiles, Global Trade Alert; only one regime (targeted) observed",
+     "ko": "가져올 것: WTO 관세 프로파일, Global Trade Alert. 관측된 체제는 표적 하나뿐"
+    },
+    "pub": {
+     "en": "Not yet fetched",
+     "ko": "아직 없음"
+    },
+    "layer": {
+     "en": "The switch between layers",
+     "ko": "두 층을 가르는 스위치"
+    },
+    "research": {
+     "en": "Third countries do not gain under friend-shoring; open economies lose most; regional medians (IMF)",
+     "ko": "우방국 재편에서 제삼국은 얻지 못함, 개방 경제가 가장 많이 잃음, 지역 중앙값(IMF)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Controls: chip cycle, importing-market demand, the won, the base rate and domestic demand",
+     "ko": "통제변수: 반도체 경기, 수입국 수요, 환율, 기준금리, 내수"
+    },
+    "series": {
+     "en": "In the run: semiconductor export index, US imports from all countries, won per dollar, base rate, GDP and facilities investment. To fetch: world semiconductor sales, partners' total imports",
+     "ko": "있음: 반도체 수출지수, 미국 전체 수입, 원/달러 환율, 기준금리, GDP, 설비투자. 가져올 것: 세계 반도체 매출, 상대국 총수입"
+    },
+    "pub": {
+     "en": "Yes",
+     "ko": "가능"
+    },
+    "layer": {
+     "en": "Layer 1 controls; Layer 2 policy rules for the won and the base rate",
+     "ko": "1층 통제변수, 2층 환율·기준금리 정책 준칙"
+    },
+    "research": {
+     "en": "Chip-led growth, won drivers (Bank of Korea); losses follow US-trade exposure, monetary look-through (BIS); price rule deepens the contraction (ECB)",
+     "ko": "반도체 주도 성장, 환율 요인(한국은행), 대미 무역 노출에 따른 손실, 통화정책의 충격 관통(BIS), 물가 준칙은 위축을 키움(ECB)"
+    }
+   },
+   {
+    "piece": {
+     "en": "Scenarios S0–S5: no tariffs, 2025 schedule, retaliation, bloc, general, integration",
+     "ko": "시나리오 S0~S5: 관세 없음, 2025년 관세표, 보복, 블록, 일반, 통합"
+    },
+    "series": {
+     "en": "S1 estimated and calibrated; S2–S5 simulated only",
+     "ko": "S1은 추정·보정, S2~S5는 모의만"
+    },
+    "pub": {
+     "en": "n/a",
+     "ko": "해당 없음"
+    },
+    "layer": {
+     "en": "Layer 2 comparisons, reported as ratios to the calibrated 2025 case",
+     "ko": "2층 비교, 보정된 2025년 경우 대비 배수로 보고"
+    },
+    "research": {
+     "en": "2025 tariffs (BIS); retaliation, blocs, friend-shoring, integration (IMF)",
+     "ko": "2025년 관세(BIS), 보복·블록·우방국 재편·통합(IMF)"
+    }
+   }
+  ]
+ },
+ "csv": "data/model-design.csv"
+}

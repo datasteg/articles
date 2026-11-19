@@ -1,0 +1,512 @@
+{
+ "id": "flow-vs-cover",
+ "form": "scatter",
+ "headline": {
+  "en": "Across 21 economies, inflows and import cover showed no clear link (rank correlation −0.07)",
+  "ko": "21개국에서 자금 유입과 수입 감당 기간은 관련 안 보여(순위 상관계수 −0.07)"
+ },
+ "title": {
+  "en": "Bank and bond inflows against import cover",
+  "ko": "은행·채권 자금 유입과 수입 감당 기간"
+ },
+ "subtitle": {
+  "en": "Bank and bond funding flow in the quarter to end-June 2026. Net reserves at end-June 2026 divided by an average month of imports over the twelve months to June 2026",
+  "ko": "가로축은 2026년 6월말까지 한 분기 동안 은행 대출과 채권으로 들어온 자금. 세로축은 2026년 6월말 순외환보유액을 2026년 6월까지 12개월의 한 달 평균 수입액으로 나눈 값"
+ },
+ "alt": {
+  "en": "Scatter chart of the bank-and-bond funding flow against import cover for 21 economies. The rank correlation is −0.07, over too few economies to rule out a link. Indonesia combines an inflow of 20.9% with cover of 3.78 months.",
+  "ko": "21개국의 은행·채권 자금 유입과 수입 감당 기간을 점으로 찍은 그래프다. 순위 상관계수는 −0.07이다. 나라 수가 너무 적어 관련이 없다고 잘라 말할 수는 없다. 인도네시아는 자금 유입이 20.9%이고 수입 감당 기간이 3.78개월이다."
+ },
+ "howToRead": {
+  "en": "Each dot is one economy. Further right means a larger inflow; higher means more months of imports covered.",
+  "ko": "점 하나가 한 나라다. 오른쪽에 있을수록 자금 유입이 크다. 위에 있을수록 수입 감당 기간이 길다."
+ },
+ "notes": [
+  {
+   "en": "The flow leaves out foreign investors' purchases of local-currency bonds and shares, and direct investment.",
+   "ko": "여기서 말하는 자금 유입에는 외국인이 그 나라 통화로 된 채권과 주식을 사는 투자가 빠져 있다. 직접투자도 빠져 있다."
+  },
+  {
+   "en": "The periods differ: funding is a flow over one quarter, reserves are a level at the quarter-end, and imports are a twelve-month total.",
+   "ko": "기간이 서로 다르다. 자금 유입은 한 분기 동안 들어온 금액이다. 외환보유액은 분기말 시점의 잔액이다. 수입액은 12개월 합계다."
+  }
+ ],
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Bank and bond inflows, annualised % of stock, quarter to end-June 2026 (BIS, IMF)",
+    "ko": "은행·채권 자금 유입(한 해 치 환산), 2026년 6월말 잔액 대비 % (BIS, IMF)"
+   },
+   "unit": "% per year",
+   "domain": [
+    -20,
+    80
+   ],
+   "ticks": [
+    -20,
+    0,
+    20,
+    40,
+    60,
+    80
+   ],
+   "format": {
+    "decimals": 0
+   }
+  },
+  "y": {
+   "label": {
+    "en": "Import cover from net reserves, months of goods imports (IMF, UN Comtrade)",
+    "ko": "순외환보유액 기준 수입 감당 기간, 개월 (IMF, UN Comtrade)"
+   },
+   "unit": "months",
+   "domain": [
+    0,
+    30
+   ],
+   "ticks": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "points": [
+  {
+   "id": "NOR",
+   "label": {
+    "en": "Norway",
+    "ko": "노르웨이"
+   },
+   "x": 65.6,
+   "y": 9.21,
+   "group": "context"
+  },
+  {
+   "id": "CZE",
+   "label": {
+    "en": "Czechia",
+    "ko": "체코"
+   },
+   "x": 26.94,
+   "y": 7.8,
+   "group": "context"
+  },
+  {
+   "id": "IDN",
+   "label": {
+    "en": "Indonesia",
+    "ko": "인도네시아"
+   },
+   "x": 20.94,
+   "y": 3.78,
+   "group": "focus"
+  },
+  {
+   "id": "THA",
+   "label": {
+    "en": "Thailand",
+    "ko": "태국"
+   },
+   "x": 19.05,
+   "y": 9.42,
+   "group": "focus"
+  },
+  {
+   "id": "POL",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 17.16,
+   "y": 7.13,
+   "group": "context"
+  },
+  {
+   "id": "MYS",
+   "label": {
+    "en": "Malaysia",
+    "ko": "말레이시아"
+   },
+   "x": 15.3,
+   "y": 3.02,
+   "group": "focus"
+  },
+  {
+   "id": "IND",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 14.57,
+   "y": 9.22,
+   "group": "context"
+  },
+  {
+   "id": "ISR",
+   "label": {
+    "en": "Israel",
+    "ko": "이스라엘"
+   },
+   "x": 14.48,
+   "y": 28.92,
+   "group": "context"
+  },
+  {
+   "id": "AUS",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 12.8,
+   "y": 2.87,
+   "group": "context"
+  },
+  {
+   "id": "MEX",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 11.95,
+   "y": 4.16,
+   "group": "context"
+  },
+  {
+   "id": "SWE",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 11.03,
+   "y": 4.1,
+   "group": "context"
+  },
+  {
+   "id": "DNK",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 9.89,
+   "y": 9.31,
+   "group": "context"
+  },
+  {
+   "id": "KOR",
+   "label": {
+    "en": "Korea",
+    "ko": "한국"
+   },
+   "x": 9.84,
+   "y": 7.62,
+   "group": "focus"
+  },
+  {
+   "id": "NZL",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 8.88,
+   "y": 4.91,
+   "group": "context"
+  },
+  {
+   "id": "COL",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 7,
+   "y": 10.25,
+   "group": "context"
+  },
+  {
+   "id": "TUR",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 7,
+   "y": 3.11,
+   "group": "context"
+  },
+  {
+   "id": "SAU",
+   "label": {
+    "en": "Saudi Arabia",
+    "ko": "사우디아라비아"
+   },
+   "x": 6.82,
+   "y": 23.17,
+   "group": "context"
+  },
+  {
+   "id": "BRA",
+   "label": {
+    "en": "Brazil",
+    "ko": "브라질"
+   },
+   "x": 4.61,
+   "y": 14.89,
+   "group": "context"
+  },
+  {
+   "id": "CHL",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 4.3,
+   "y": 5.98,
+   "group": "context"
+  },
+  {
+   "id": "HUN",
+   "label": {
+    "en": "",
+    "ko": ""
+   },
+   "x": 1.83,
+   "y": 4.45,
+   "group": "context"
+  },
+  {
+   "id": "ZAF",
+   "label": {
+    "en": "South Africa",
+    "ko": "남아프리카공화국"
+   },
+   "x": -4.89,
+   "y": 7.75,
+   "group": "context"
+  }
+ ],
+ "table": {
+  "columns": [
+   {
+    "key": "label",
+    "label": {
+     "en": "Economy",
+     "ko": "나라"
+    }
+   },
+   {
+    "key": "flow_pct",
+    "label": {
+     "en": "International bond issuance and cross-border bank lending, annualised % of stock, quarter to end-June 2026 (BIS, IMF)",
+     "ko": "채권·은행 자금 유입(한 해 치 환산), 2026년 6월말 잔액 대비 % (BIS, IMF)"
+    },
+    "align": "right"
+   },
+   {
+    "key": "import_cover_months",
+    "label": {
+     "en": "Import cover from net reserves, months of goods imports (IMF, UN Comtrade)",
+     "ko": "순외환보유액 기준 수입 감당 기간, 개월 (IMF, UN Comtrade)"
+    },
+    "align": "right"
+   }
+  ],
+  "rows": [
+   {
+    "label": {
+     "en": "Norway",
+     "ko": "노르웨이"
+    },
+    "flow_pct": 65.6,
+    "import_cover_months": 9.21
+   },
+   {
+    "label": {
+     "en": "Czechia",
+     "ko": "체코"
+    },
+    "flow_pct": 26.94,
+    "import_cover_months": 7.8
+   },
+   {
+    "label": {
+     "en": "Indonesia",
+     "ko": "인도네시아"
+    },
+    "flow_pct": 20.94,
+    "import_cover_months": 3.78
+   },
+   {
+    "label": {
+     "en": "Thailand",
+     "ko": "태국"
+    },
+    "flow_pct": 19.05,
+    "import_cover_months": 9.42
+   },
+   {
+    "label": {
+     "en": "Poland",
+     "ko": "폴란드"
+    },
+    "flow_pct": 17.16,
+    "import_cover_months": 7.13
+   },
+   {
+    "label": {
+     "en": "Malaysia",
+     "ko": "말레이시아"
+    },
+    "flow_pct": 15.3,
+    "import_cover_months": 3.02
+   },
+   {
+    "label": {
+     "en": "India",
+     "ko": "인도"
+    },
+    "flow_pct": 14.57,
+    "import_cover_months": 9.22
+   },
+   {
+    "label": {
+     "en": "Israel",
+     "ko": "이스라엘"
+    },
+    "flow_pct": 14.48,
+    "import_cover_months": 28.92
+   },
+   {
+    "label": {
+     "en": "Australia",
+     "ko": "호주"
+    },
+    "flow_pct": 12.8,
+    "import_cover_months": 2.87
+   },
+   {
+    "label": {
+     "en": "Mexico",
+     "ko": "멕시코"
+    },
+    "flow_pct": 11.95,
+    "import_cover_months": 4.16
+   },
+   {
+    "label": {
+     "en": "Sweden",
+     "ko": "스웨덴"
+    },
+    "flow_pct": 11.03,
+    "import_cover_months": 4.1
+   },
+   {
+    "label": {
+     "en": "Denmark",
+     "ko": "덴마크"
+    },
+    "flow_pct": 9.89,
+    "import_cover_months": 9.31
+   },
+   {
+    "label": {
+     "en": "Korea",
+     "ko": "한국"
+    },
+    "flow_pct": 9.84,
+    "import_cover_months": 7.62
+   },
+   {
+    "label": {
+     "en": "New Zealand",
+     "ko": "뉴질랜드"
+    },
+    "flow_pct": 8.88,
+    "import_cover_months": 4.91
+   },
+   {
+    "label": {
+     "en": "Colombia",
+     "ko": "콜롬비아"
+    },
+    "flow_pct": 7,
+    "import_cover_months": 10.25
+   },
+   {
+    "label": {
+     "en": "Türkiye",
+     "ko": "튀르키예"
+    },
+    "flow_pct": 7,
+    "import_cover_months": 3.11
+   },
+   {
+    "label": {
+     "en": "Saudi Arabia",
+     "ko": "사우디아라비아"
+    },
+    "flow_pct": 6.82,
+    "import_cover_months": 23.17
+   },
+   {
+    "label": {
+     "en": "Brazil",
+     "ko": "브라질"
+    },
+    "flow_pct": 4.61,
+    "import_cover_months": 14.89
+   },
+   {
+    "label": {
+     "en": "Chile",
+     "ko": "칠레"
+    },
+    "flow_pct": 4.3,
+    "import_cover_months": 5.98
+   },
+   {
+    "label": {
+     "en": "Hungary",
+     "ko": "헝가리"
+    },
+    "flow_pct": 1.83,
+    "import_cover_months": 4.45
+   },
+   {
+    "label": {
+     "en": "South Africa",
+     "ko": "남아프리카공화국"
+    },
+    "flow_pct": -4.89,
+    "import_cover_months": 7.75
+   }
+  ]
+ },
+ "meta": {
+  "sources": [
+   "S2",
+   "S5"
+  ],
+  "provider": "datasteg calculation",
+  "keys": [
+   "desk join of board, sovereign, stress, country"
+  ],
+  "definition": {
+   "en": "Bank and bond funding flow, annualised % of the stock; Import cover: net reserves in months of goods imports (empty when net reserves are not positive)",
+   "ko": "채권·은행 자금 유입(한 해 치 환산), 2026년 6월말 잔액 대비 % (BIS, IMF); 순외환보유액 기준 수입 감당 기간, 개월 (IMF, UN Comtrade)"
+  },
+  "lastObservation": "2026-06-30",
+  "retrieved": "2026-11-18",
+  "licence": "derived views of open statistics; each publisher's terms apply",
+  "attribution": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg money-flow, global-network; datasteg calculation",
+   "ko": "자료: BIS, IMF, 연준, UN Comtrade. 서비스: datasteg money-flow, datasteg global-network. 계산: datasteg"
+  }
+ },
+ "csv": "data/flow-vs-cover.csv"
+}

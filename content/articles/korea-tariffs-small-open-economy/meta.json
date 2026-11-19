@@ -1,0 +1,4070 @@
+{
+ "slug": "korea-tariffs-small-open-economy",
+ "type": "deep-dive",
+ "pipeline": {
+  "id": "deep-dive",
+  "version": "0.3"
+ },
+ "date": "2026-10-27",
+ "updated": "2026-11-03",
+ "editions": [
+  "en",
+  "ko"
+ ],
+ "topics": [
+  {
+   "id": "trade",
+   "label": {
+    "en": "Trade",
+    "ko": "무역"
+   }
+  },
+  {
+   "id": "growth",
+   "label": {
+    "en": "Growth and productivity",
+    "ko": "성장과 생산성"
+   }
+  },
+  {
+   "id": "korean-economy",
+   "label": {
+    "en": "Korea",
+    "ko": "한국"
+   }
+  }
+ ],
+ "jel": [
+  "F13",
+  "F14",
+  "F15",
+  "F41",
+  "F42",
+  "F51",
+  "F62",
+  "F17",
+  "F60",
+  "L62",
+  "L63"
+ ],
+ "countries": [
+  "KR",
+  "US",
+  "CN",
+  "VN",
+  "TW",
+  "MX",
+  "CA",
+  "EU",
+  "DE",
+  "NL",
+  "BE",
+  "IE",
+  "JP"
+ ],
+ "readTime": {
+  "en": 33,
+  "ko": 38
+ },
+ "charts": [
+  "key-numbers",
+  "tariff-rate",
+  "import-shares",
+  "exports-record",
+  "sector-split",
+  "scenario-ladder",
+  "uncertainty",
+  "model-design"
+ ],
+ "cover": {
+  "file": "cover.svg",
+  "alt": {
+   "en": "A lowered customs gate over two crates, beside a tall stack of cargo crates rising to a peak.",
+   "ko": "상자 두 개 위에 내려진 세관 차단기와 그 옆에 봉우리처럼 높이 쌓인 화물 상자 더미."
+  }
+ },
+ "facts": [
+  {
+   "id": "F1",
+   "value": 8.21908,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F2",
+   "value": 11.303021,
+   "unit": "%",
+   "period": "2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F3",
+   "value": "2025-Q4",
+   "unit": "quarter",
+   "period": "2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F4",
+   "value": -3.083941,
+   "unit": "pp",
+   "period": "2025-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F5",
+   "value": 2.848842,
+   "unit": "%",
+   "period": "2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F6",
+   "value": 8.287139,
+   "unit": "%",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F7",
+   "value": 10.306302,
+   "unit": "%",
+   "period": "2025-Q3",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F8",
+   "value": 9.48356,
+   "unit": "%",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F9",
+   "value": 1.625079,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F10",
+   "value": 2.082179,
+   "unit": "%",
+   "period": "2018",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F11",
+   "value": 3.08945,
+   "unit": "%",
+   "period": "2019",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F12",
+   "value": 2.559525,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F13",
+   "value": 8.028176,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F14",
+   "value": 3.479711,
+   "unit": "%",
+   "period": "2019-Q4",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F15",
+   "value": "2019-Q4",
+   "unit": "quarter",
+   "period": "2019-Q4",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F16",
+   "value": 3.248264,
+   "unit": "times",
+   "period": "2019-Q4/2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F17",
+   "value": 2.362001,
+   "unit": "times",
+   "period": "2019-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F18",
+   "value": 1.538589,
+   "unit": "%",
+   "period": "2000-Q1/2017-Q4",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F19",
+   "value": 1.286843,
+   "unit": "%",
+   "period": "2008-Q3",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "F20",
+   "value": 83.58675,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F21",
+   "value": 268.66325,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F22",
+   "value": 306.398,
+   "unit": "USD bn",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F23",
+   "value": 3263.893254,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F24",
+   "value": 3414.510593,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F25",
+   "value": 4.614653,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F26",
+   "value": 2415.230577,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F27",
+   "value": 2319.708405,
+   "unit": "USD bn",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F28",
+   "value": 4.117853,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F29",
+   "value": 21.592023,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F30",
+   "value": 21.233569,
+   "unit": "%",
+   "period": "2018",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F31",
+   "value": 18.024271,
+   "unit": "%",
+   "period": "2019",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F32",
+   "value": 13.490619,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F33",
+   "value": 9.039417,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F34",
+   "value": 7.598612,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F35",
+   "value": 9.45576,
+   "unit": "%",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F36",
+   "value": -5.892007,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F37",
+   "value": -4.451201,
+   "unit": "pp",
+   "period": "2024/2025",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F38",
+   "value": 13.364161,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F39",
+   "value": 15.414417,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F40",
+   "value": 15.64836,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F41",
+   "value": 17.3625,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F42",
+   "value": 15.281117,
+   "unit": "%",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F43",
+   "value": 1.948083,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F44",
+   "value": 0.233943,
+   "unit": "pp",
+   "period": "2024/2025",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S5"
+   ]
+  },
+  {
+   "id": "F45",
+   "value": 1.986559,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F46",
+   "value": 4.176534,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F47",
+   "value": 5.6781,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F48",
+   "value": 7.290719,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F49",
+   "value": 5.290763,
+   "unit": "%",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F50",
+   "value": 3.114185,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F51",
+   "value": 1.501566,
+   "unit": "pp",
+   "period": "2024/2025",
+   "publishable": true,
+   "sources": [
+    "S22",
+    "S5"
+   ]
+  },
+  {
+   "id": "F52",
+   "value": 1.813031,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F53",
+   "value": 3.562767,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F54",
+   "value": 5.897454,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F55",
+   "value": 7.739869,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F56",
+   "value": 5.13812,
+   "unit": "%",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F57",
+   "value": 4.177102,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F58",
+   "value": 2.334687,
+   "unit": "pp",
+   "period": "2024/2025",
+   "publishable": true,
+   "sources": [
+    "S23",
+    "S5"
+   ]
+  },
+  {
+   "id": "F59",
+   "value": 3.052522,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F60",
+   "value": 2.927233,
+   "unit": "%",
+   "period": "2018",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F61",
+   "value": 4.027623,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F62",
+   "value": 3.676836,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F63",
+   "value": 4.557467,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F64",
+   "value": 3.701223,
+   "unit": "%",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F65",
+   "value": 0.529844,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F66",
+   "value": -0.350787,
+   "unit": "pp",
+   "period": "2024/2025",
+   "publishable": true,
+   "sources": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F67",
+   "value": 18.587252,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S5"
+   ]
+  },
+  {
+   "id": "F68",
+   "value": 18.588818,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S5"
+   ]
+  },
+  {
+   "id": "F69",
+   "value": 18.535496,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S5"
+   ]
+  },
+  {
+   "id": "F70",
+   "value": 15.24702,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S5"
+   ]
+  },
+  {
+   "id": "F71",
+   "value": -3.341798,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S5"
+   ]
+  },
+  {
+   "id": "F72",
+   "value": 12.615964,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S25",
+    "S5"
+   ]
+  },
+  {
+   "id": "F73",
+   "value": 11.185265,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S25",
+    "S5"
+   ]
+  },
+  {
+   "id": "F74",
+   "value": 11.164377,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S25",
+    "S5"
+   ]
+  },
+  {
+   "id": "F75",
+   "value": -1.451587,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S25",
+    "S5"
+   ]
+  },
+  {
+   "id": "F76",
+   "value": 4.507394,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S41",
+    "S5"
+   ]
+  },
+  {
+   "id": "F77",
+   "value": 4.271241,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S41",
+    "S5"
+   ]
+  },
+  {
+   "id": "F78",
+   "value": 3.996166,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S41",
+    "S5"
+   ]
+  },
+  {
+   "id": "F79",
+   "value": -0.511228,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S41",
+    "S5"
+   ]
+  },
+  {
+   "id": "F80",
+   "value": -8.101404,
+   "unit": "pp",
+   "period": "2017/2024",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F81",
+   "value": 1.157343,
+   "unit": "pp",
+   "period": "2017/2024",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F82",
+   "value": 21.592023,
+   "unit": "%",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F83",
+   "value": "2017",
+   "unit": "year",
+   "period": "2017",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F84",
+   "value": 35.191756,
+   "unit": "%",
+   "period": "2017/2026-08",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F85",
+   "value": 9.769215,
+   "unit": "pp",
+   "period": "2024/2026-08",
+   "publishable": true,
+   "sources": [
+    "S21",
+    "S22",
+    "S23",
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "F86",
+   "value": 440.319388,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F87",
+   "value": 308.651864,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F88",
+   "value": -29.902731,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F89",
+   "value": -16.331298,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F90",
+   "value": 43.475343,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S22"
+   ]
+  },
+  {
+   "id": "F91",
+   "value": 56.83918,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S23"
+   ]
+  },
+  {
+   "id": "F92",
+   "value": 18.299352,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S21"
+   ]
+  },
+  {
+   "id": "F93",
+   "value": 131.45732,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F94",
+   "value": 125.545945,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F95",
+   "value": -4.496801,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F96",
+   "value": 110.073348,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F97",
+   "value": 85.857577,
+   "unit": "USD bn",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F98",
+   "value": 28.204581,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F99",
+   "value": -14.983337,
+   "unit": "%",
+   "period": "2025-04",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F100",
+   "value": "2025-04",
+   "unit": "month",
+   "period": "2025-04",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F101",
+   "value": 9,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F102",
+   "value": 91.5,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F103",
+   "value": 90.1,
+   "unit": "%",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F104",
+   "value": 105.0,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F105",
+   "value": "2011",
+   "unit": "year",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F106",
+   "value": 68.6,
+   "unit": "%",
+   "period": "2020",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F107",
+   "value": "2020",
+   "unit": "year",
+   "period": "2020",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F108",
+   "value": -13.5,
+   "unit": "pp",
+   "period": "2011/2025",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F109",
+   "value": 87.142857,
+   "unit": "%",
+   "period": "2011/2025",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F110",
+   "value": 22.9,
+   "unit": "pp",
+   "period": "2020/2025",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F111",
+   "value": 35.0,
+   "unit": "%",
+   "period": "1970",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F112",
+   "value": 51.4,
+   "unit": "%",
+   "period": "1990",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F113",
+   "value": 67.6,
+   "unit": "%",
+   "period": "2000",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F114",
+   "value": 96.2,
+   "unit": "%",
+   "period": "2008",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F115",
+   "value": 72.8,
+   "unit": "%",
+   "period": "2016",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F116",
+   "value": 74.9,
+   "unit": "%",
+   "period": "2019",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F117",
+   "value": 95.2,
+   "unit": "%",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F118",
+   "value": 72.8,
+   "unit": "%",
+   "period": "2016",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F119",
+   "value": "2016",
+   "unit": "year",
+   "period": "2016",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F120",
+   "value": "2008",
+   "unit": "year",
+   "period": "2008",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F121",
+   "value": 9,
+   "unit": "years",
+   "period": "1960/2025",
+   "publishable": true,
+   "sources": [
+    "S16"
+   ]
+  },
+  {
+   "id": "F122",
+   "value": 160.325813,
+   "unit": "%",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F123",
+   "value": 152.733818,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F124",
+   "value": 155.068682,
+   "unit": "%",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F125",
+   "value": 152.535092,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F126",
+   "value": 223.832432,
+   "unit": "%",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F127",
+   "value": 256.206692,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F128",
+   "value": 77.637992,
+   "unit": "%",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F129",
+   "value": 77.966249,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F130",
+   "value": 85.646975,
+   "unit": "%",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F131",
+   "value": 93.56444,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S34"
+   ]
+  },
+  {
+   "id": "F132",
+   "value": 13.533751,
+   "unit": "pp",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S16",
+    "S34"
+   ]
+  },
+  {
+   "id": "F133",
+   "value": 61.233818,
+   "unit": "pp",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S16",
+    "S34"
+   ]
+  },
+  {
+   "id": "F134",
+   "value": 12.022613,
+   "unit": "%",
+   "period": "2018",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F135",
+   "value": 26.803747,
+   "unit": "%",
+   "period": "2018",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F136",
+   "value": 18.689233,
+   "unit": "%",
+   "period": "2024",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F137",
+   "value": 19.457218,
+   "unit": "%",
+   "period": "2024",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F138",
+   "value": 17.319288,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F139",
+   "value": 18.437325,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F140",
+   "value": 18.382097,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F141",
+   "value": 20.961074,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F142",
+   "value": 39.343172,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F143",
+   "value": 35.756612,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F144",
+   "value": 26.803747,
+   "unit": "%",
+   "period": "2018",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F145",
+   "value": "2018",
+   "unit": "year",
+   "period": "2018",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F146",
+   "value": 10.123617,
+   "unit": "%",
+   "period": "2011",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F147",
+   "value": "2011",
+   "unit": "year",
+   "period": "2011",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F148",
+   "value": 21.832689,
+   "unit": "%",
+   "period": "2000",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F149",
+   "value": 703.9748,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F150",
+   "value": 718.9425,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F151",
+   "value": 2.12617,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F152",
+   "value": 1,
+   "unit": "rank",
+   "period": "2000/2025",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F153",
+   "value": 703.9748,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F154",
+   "value": "2024",
+   "unit": "year",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F155",
+   "value": 697.7551,
+   "unit": "USD bn",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F156",
+   "value": 642.1172,
+   "unit": "USD bn",
+   "period": "2023",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F157",
+   "value": 733.3291,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F158",
+   "value": 460.4902,
+   "unit": "USD bn",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F159",
+   "value": 59.249665,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F160",
+   "value": 104.8005,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F161",
+   "value": 112.371,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F162",
+   "value": "2026-06",
+   "unit": "month",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F163",
+   "value": 82.114147,
+   "unit": "%",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F164",
+   "value": -9.1093,
+   "unit": "%",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F165",
+   "value": "2025-01",
+   "unit": "month",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F166",
+   "value": 4,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F167",
+   "value": -15.933696,
+   "unit": "%",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F168",
+   "value": -32.647231,
+   "unit": "%",
+   "period": "2009-01",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F169",
+   "value": "2009-01",
+   "unit": "month",
+   "period": "2009-01",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F170",
+   "value": 12,
+   "unit": "months",
+   "period": "2008-11/2009-12",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F171",
+   "value": -6.437608,
+   "unit": "%",
+   "period": "2020",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F172",
+   "value": -7.973844,
+   "unit": "%",
+   "period": "2023",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F173",
+   "value": -11.113256,
+   "unit": "%",
+   "period": "2019",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F174",
+   "value": 7.919265,
+   "unit": "%",
+   "period": "2018",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F175",
+   "value": 683.609488,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F176",
+   "value": 709.330044,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F177",
+   "value": 3.762463,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F178",
+   "value": 1,
+   "unit": "rank",
+   "period": "2000/2025",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F179",
+   "value": 693.587503,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F180",
+   "value": 453.648106,
+   "unit": "USD bn",
+   "period": "2025-01/2025-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F181",
+   "value": 52.891083,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y118/M/T002"
+    }
+   ]
+  },
+  {
+   "id": "F182",
+   "value": 127.761372,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F183",
+   "value": 122.850912,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F184",
+   "value": -3.843462,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F185",
+   "value": 127.495931,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F186",
+   "value": 57.045114,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F187",
+   "value": -16.19059,
+   "unit": "%",
+   "period": "2025-10",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F188",
+   "value": "2025-10",
+   "unit": "month",
+   "period": "2025-10",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F189",
+   "value": 8,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F190",
+   "value": -2.134535,
+   "unit": "%",
+   "period": "2025-01/2025-03",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F191",
+   "value": -4.389613,
+   "unit": "%",
+   "period": "2025-04/2025-12",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F192",
+   "value": 130.781482,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    }
+   ]
+  },
+  {
+   "id": "F193",
+   "value": -1.676476,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    }
+   ]
+  },
+  {
+   "id": "F194",
+   "value": 145.383392,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    }
+   ]
+  },
+  {
+   "id": "F195",
+   "value": 76.12472,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "901Y121/M/T002/CN"
+    }
+   ]
+  },
+  {
+   "id": "F196",
+   "value": 45.112753,
+   "unit": "%",
+   "period": "2026-01/2026-08",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F197",
+   "value": 7.771539,
+   "unit": "%",
+   "period": "2025",
+   "publishable": false,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F198",
+   "value": -0.2,
+   "unit": "%",
+   "period": "2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F199",
+   "value": 0.6,
+   "unit": "%",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F200",
+   "value": 1.4,
+   "unit": "%",
+   "period": "2025-Q3",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F201",
+   "value": -0.1,
+   "unit": "%",
+   "period": "2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F202",
+   "value": 1.8,
+   "unit": "%",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F203",
+   "value": 0.6,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F204",
+   "value": 2,
+   "unit": "quarters",
+   "period": "2025-Q1/2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F205",
+   "value": 1.702579,
+   "unit": "%",
+   "period": "2024-Q4/2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F206",
+   "value": -3.4,
+   "unit": "%",
+   "period": "2008-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F207",
+   "value": "2008-Q4",
+   "unit": "quarter",
+   "period": "2008-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F208",
+   "value": -2.6,
+   "unit": "%",
+   "period": "2020-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F209",
+   "value": "2020-Q2",
+   "unit": "quarter",
+   "period": "2020-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F210",
+   "value": 5.882353,
+   "unit": "%",
+   "period": "2008-Q4/2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F211",
+   "value": 10,
+   "unit": "quarters",
+   "period": "2000-Q1/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F212",
+   "value": "2021-Q4",
+   "unit": "quarter",
+   "period": "2021-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F213",
+   "value": 1.8,
+   "unit": "%",
+   "period": "2021-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F214",
+   "value": 2.4108,
+   "unit": "%",
+   "period": "2025-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F215",
+   "value": 0.0,
+   "unit": "%",
+   "period": "2019-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F216",
+   "value": "2019-Q1",
+   "unit": "quarter",
+   "period": "2019-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F217",
+   "value": 99.9735,
+   "unit": "USD bn",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F218",
+   "value": 123.0538,
+   "unit": "USD bn",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F219",
+   "value": 1,
+   "unit": "rank",
+   "period": "2000/2025",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F220",
+   "value": 105.1186,
+   "unit": "USD bn",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F221",
+   "value": "2015",
+   "unit": "year",
+   "period": "2015",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F222",
+   "value": 279.2013,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F223",
+   "value": 69.6653,
+   "unit": "USD bn",
+   "period": "2025-01/2025-08",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F224",
+   "value": 4.007753,
+   "unit": "times",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F225",
+   "value": 2.268937,
+   "unit": "times",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F226",
+   "value": 49.7304,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F227",
+   "value": "2026-06",
+   "unit": "month",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F228",
+   "value": 46.113,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F229",
+   "value": 0,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F230",
+   "value": 1455.79,
+   "unit": "won per dollar",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F231",
+   "value": 1456.95,
+   "unit": "won per dollar",
+   "period": "2025-03",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F232",
+   "value": 1444.31,
+   "unit": "won per dollar",
+   "period": "2025-04",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F233",
+   "value": 1394.49,
+   "unit": "won per dollar",
+   "period": "2025-05",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F234",
+   "value": 1467.4,
+   "unit": "won per dollar",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F235",
+   "value": 1359.0,
+   "unit": "won per dollar",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F236",
+   "value": -0.867566,
+   "unit": "%",
+   "period": "2025-03/2025-04",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F237",
+   "value": 1467.4,
+   "unit": "won per dollar",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F238",
+   "value": "2025-12",
+   "unit": "month",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F239",
+   "value": 1366.95,
+   "unit": "won per dollar",
+   "period": "2025-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F240",
+   "value": "2025-06",
+   "unit": "month",
+   "period": "2025-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F241",
+   "value": 1527.3,
+   "unit": "won per dollar",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F242",
+   "value": "2026-06",
+   "unit": "month",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F243",
+   "value": 1527.3,
+   "unit": "won per dollar",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F244",
+   "value": "2026-06",
+   "unit": "month",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F245",
+   "value": "2000-01",
+   "unit": "month",
+   "period": "2000-01",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F246",
+   "value": -11.019446,
+   "unit": "%",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F247",
+   "value": -6.648624,
+   "unit": "%",
+   "period": "2025-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F248",
+   "value": 1461.98,
+   "unit": "won per dollar",
+   "period": "2009-03",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F249",
+   "value": "2009-03",
+   "unit": "month",
+   "period": "2009-03",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F250",
+   "value": 40.367149,
+   "unit": "%",
+   "period": "2008-08/2009-03",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F251",
+   "value": 132.9175,
+   "unit": "index",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F252",
+   "value": 136.988333,
+   "unit": "index",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F253",
+   "value": 3.062677,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F254",
+   "value": 5.030415,
+   "unit": "%",
+   "period": "2025-04/2025-12",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F255",
+   "value": 60.045442,
+   "unit": "%",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F256",
+   "value": 287.41,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F257",
+   "value": 2.8741,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F258",
+   "value": 287.41,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F259",
+   "value": "2026-09",
+   "unit": "month",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F260",
+   "value": 3,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F261",
+   "value": -10.838995,
+   "unit": "%",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F262",
+   "value": "2025-01",
+   "unit": "month",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F263",
+   "value": 141.209167,
+   "unit": "index",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F264",
+   "value": 172.870833,
+   "unit": "index",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F265",
+   "value": 22.421821,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F266",
+   "value": 27.348139,
+   "unit": "%",
+   "period": "2025-04/2025-12",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F267",
+   "value": 188.60593,
+   "unit": "%",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F268",
+   "value": 733.03,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F269",
+   "value": 7.3303,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F270",
+   "value": 733.03,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F271",
+   "value": "2026-09",
+   "unit": "month",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F272",
+   "value": 1,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F273",
+   "value": -4.023858,
+   "unit": "%",
+   "period": "2025-02",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F274",
+   "value": "2025-02",
+   "unit": "month",
+   "period": "2025-02",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F275",
+   "value": 189.964167,
+   "unit": "index",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F276",
+   "value": 192.834167,
+   "unit": "index",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F277",
+   "value": 1.510811,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F278",
+   "value": 2.460484,
+   "unit": "%",
+   "period": "2025-04/2025-12",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F279",
+   "value": -3.854152,
+   "unit": "%",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F280",
+   "value": 195.04,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F281",
+   "value": 1.9504,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F282",
+   "value": 218.41,
+   "unit": "index",
+   "period": "2024-04",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F283",
+   "value": "2024-04",
+   "unit": "month",
+   "period": "2024-04",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F284",
+   "value": 5,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F285",
+   "value": -19.63982,
+   "unit": "%",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F286",
+   "value": "2025-01",
+   "unit": "month",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F287",
+   "value": 125.680833,
+   "unit": "index",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F288",
+   "value": 116.124167,
+   "unit": "index",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F289",
+   "value": -7.603917,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F290",
+   "value": -7.553146,
+   "unit": "%",
+   "period": "2025-04/2025-12",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F291",
+   "value": 1.386577,
+   "unit": "%",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F292",
+   "value": 125.94,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F293",
+   "value": 1.2594,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F294",
+   "value": 170.73,
+   "unit": "index",
+   "period": "2022-01",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F295",
+   "value": "2022-01",
+   "unit": "month",
+   "period": "2022-01",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F296",
+   "value": 11,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F297",
+   "value": -18.259518,
+   "unit": "%",
+   "period": "2025-10",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F298",
+   "value": "2025-10",
+   "unit": "month",
+   "period": "2025-10",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F299",
+   "value": 127.019167,
+   "unit": "index",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F300",
+   "value": 121.946667,
+   "unit": "index",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F301",
+   "value": -3.993492,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F302",
+   "value": -4.059359,
+   "unit": "%",
+   "period": "2025-04/2025-12",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F303",
+   "value": 10.23014,
+   "unit": "%",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F304",
+   "value": 141.91,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F305",
+   "value": 1.4191,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F306",
+   "value": 162.0,
+   "unit": "index",
+   "period": "2022-03",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F307",
+   "value": "2022-03",
+   "unit": "month",
+   "period": "2022-03",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F308",
+   "value": 9,
+   "unit": "months",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F309",
+   "value": -14.352254,
+   "unit": "%",
+   "period": "2025-10",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F310",
+   "value": "2025-10",
+   "unit": "month",
+   "period": "2025-10",
+   "publishable": true,
+   "sources": [
+    "S31"
+   ]
+  },
+  {
+   "id": "F311",
+   "value": 128.560488,
+   "unit": "pp",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S33"
+   ]
+  },
+  {
+   "id": "F312",
+   "value": 5.191094,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F313",
+   "value": 1.02672,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F314",
+   "value": 218.41,
+   "unit": "index",
+   "period": "2024-04",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F315",
+   "value": "2024-04",
+   "unit": "month",
+   "period": "2024-04",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F316",
+   "value": 170.73,
+   "unit": "index",
+   "period": "2022-01",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F317",
+   "value": "2022-01",
+   "unit": "month",
+   "period": "2022-01",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F318",
+   "value": 73.765595,
+   "unit": "%",
+   "period": "2022-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F319",
+   "value": 7955.646982,
+   "unit": "index",
+   "period": "2025-04",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F320",
+   "value": "2025-04",
+   "unit": "month",
+   "period": "2025-04",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F321",
+   "value": 1946.683,
+   "unit": "index",
+   "period": "2019-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F322",
+   "value": "2019-08",
+   "unit": "month",
+   "period": "2019-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F323",
+   "value": 4.086771,
+   "unit": "times",
+   "period": "2019-08/2025-04",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F324",
+   "value": 1212.931133,
+   "unit": "index",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F325",
+   "value": -84.753834,
+   "unit": "%",
+   "period": "2025-04/2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F326",
+   "value": 93.519965,
+   "unit": "index",
+   "period": "1985-01/2016-12",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F327",
+   "value": 12.969756,
+   "unit": "times",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F328",
+   "value": 62.307583,
+   "unit": "%",
+   "period": "2019-08/2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F329",
+   "value": 100.0,
+   "unit": "index",
+   "period": "1985-01/2010-12",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F330",
+   "value": 3851.169008,
+   "unit": "index",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F331",
+   "value": 797.122447,
+   "unit": "index",
+   "period": "2019",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F332",
+   "value": 4.831339,
+   "unit": "times",
+   "period": "2019/2025",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F333",
+   "value": 1815.371677,
+   "unit": "index",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F334",
+   "value": 12,
+   "unit": "months",
+   "period": "2025-04/2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F335",
+   "value": 1212.931133,
+   "unit": "index",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F336",
+   "value": "2026-08",
+   "unit": "month",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F337",
+   "value": 0.2,
+   "unit": "%",
+   "period": "2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F338",
+   "value": -1.8,
+   "unit": "%",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F339",
+   "value": 1.3,
+   "unit": "%",
+   "period": "2025-Q3",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F340",
+   "value": -1.6,
+   "unit": "%",
+   "period": "2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F341",
+   "value": 6.6,
+   "unit": "%",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F342",
+   "value": 0.2,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F343",
+   "value": -1.8,
+   "unit": "%",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F344",
+   "value": "2025-Q2",
+   "unit": "quarter",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F345",
+   "value": 2,
+   "unit": "quarters",
+   "period": "2025-Q1/2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F346",
+   "value": -1.919256,
+   "unit": "%",
+   "period": "2024-Q4/2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S39"
+   ]
+  },
+  {
+   "id": "F347",
+   "value": 3.0,
+   "unit": "%",
+   "period": "2024-12",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F348",
+   "value": 2.5,
+   "unit": "%",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F349",
+   "value": 3.0,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F350",
+   "value": 2,
+   "unit": "count",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F351",
+   "value": 50.0,
+   "unit": "bp",
+   "period": "2025-01/2025-12",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F352",
+   "value": "2025-02",
+   "unit": "month",
+   "period": "2025-02",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F353",
+   "value": "2025-05",
+   "unit": "month",
+   "period": "2025-05",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F354",
+   "value": 2,
+   "unit": "count",
+   "period": "2026-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F355",
+   "value": "2026-07",
+   "unit": "month",
+   "period": "2026-07",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F356",
+   "value": 2.5,
+   "unit": "%",
+   "period": "2025-05",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  },
+  {
+   "id": "F357",
+   "value": 100.0,
+   "unit": "bp",
+   "period": "2024-09/2025-05",
+   "publishable": true,
+   "sources": [
+    "S40"
+   ]
+  }
+ ],
+ "run": {
+  "id": "20261020-tariffs-small-open-economies",
+  "skills": {
+   "frame-question": "0.1.0",
+   "scout:fetch-fred": "0.1.0",
+   "scout:fetch-ecos": "0.1.0",
+   "scout:search-jejualps": "0.1.0",
+   "refine-question": "0.1.0",
+   "search-jejualps": "0.1.0",
+   "map-literature": "0.1.0",
+   "fetch-public-data": "0.1.0",
+   "fetch-ecos": "0.1.0",
+   "fetch-fred": "0.1.0",
+   "analyze-data": "0.1.0",
+   "design-model": "0.1.0",
+   "plan-article": "0.1.0",
+   "draft-article": "0.1.0",
+   "make-charts": "0.1.0",
+   "review-article": "0.2.0",
+   "make-cover": "1.2.0",
+   "make-pdf": "1.0.0",
+   "publish-article": null
+  },
+  "models": [
+   "claude-fable-5-1",
+   "claude-sonnet-5-5"
+  ],
+  "runtime": {
+   "model": "claude-fable-5-1",
+   "effort": "medium"
+  },
+  "steps": {
+   "scout": {
+    "docs": 29,
+    "series": 18
+   },
+   "refine": {
+    "premises": 11
+   },
+   "search": {
+    "docs": 15,
+    "quotes": 67
+   },
+   "map": {
+    "mechanisms": 9
+   },
+   "fetch": {
+    "series": 42,
+    "providers": [
+     "Bank of Korea",
+     "Eurostat",
+     "FRED"
+    ]
+   },
+   "analyze": {
+    "facts": 357
+   },
+   "plan": {
+    "sections": 15,
+    "figures": 8
+   },
+   "draft": {
+    "words": 7060
+   },
+   "charts": {
+    "charts": 8
+   },
+   "review": {
+    "rounds": 7
+   },
+   "cover": {
+    "ideas": 3
+   },
+   "pdf": {
+    "pages": {
+     "en": 22,
+     "ko": 21
+    }
+   }
+  },
+  "gates": {
+   "question": {
+    "at": "2026-10-20",
+    "by": "datasteg desk (autonomous agent)"
+   },
+   "model": {
+    "at": "2026-10-27",
+    "by": "datasteg"
+   },
+   "plan": {
+    "at": "2026-10-28",
+    "by": "datasteg"
+   },
+   "publish": {
+    "at": "2026-10-28",
+    "by": "datasteg"
+   }
+  }
+ },
+ "terms": [
+  {
+   "id": "effective-tariff-rate",
+   "context": {
+    "en": "Here: US customs duties divided by US goods imports, quarterly, from national accounts data.",
+    "ko": "이 글에서는 국민계정 자료로 계산한 미국의 분기별 관세 징수액 대비 상품 수입액 비율."
+   }
+  },
+  {
+   "id": "trade-diversion",
+   "context": {
+    "en": "Here: US imports moving from China to Mexico, Vietnam, Taiwan and Korea after the 2018–19 and 2025 tariffs.",
+    "ko": "이 글에서는 2018~19년과 2025년 관세 뒤 미국 수입이 중국에서 멕시코·베트남·대만·한국으로 옮겨 간 일."
+   }
+  },
+  {
+   "id": "bystander-effect",
+   "context": {
+    "en": "Here: Korea and its neighbours during the 2018–19 US tariffs on China; in 2025 Korea was itself tariffed, so the bystander cases are Vietnam under the narrow BIS scenario and the euro area in the ECB model.",
+    "ko": "이 글에서는 2018~19년 미국의 대중국 관세 속의 한국과 이웃 나라들. 2025년에는 한국도 관세를 맞았으므로 제삼국의 예는 BIS의 좁은 시나리오 속 베트남과 ECB 모형 속 유로 지역이다."
+   }
+  },
+  {
+   "id": "trade-openness",
+   "context": {
+    "en": "Here: Korea's ratio uses gross national income as the denominator; the euro-area comparisons use GDP, so the two are not strictly comparable.",
+    "ko": "이 글에서 한국은 국민총소득, 유로 지역 비교국은 GDP를 분모로 써서 두 수치를 그대로 견줄 수는 없다."
+   }
+  },
+  {
+   "id": "small-open-economy",
+   "context": {
+    "en": "Here: used in the everyday sense for Korea; no study in this article tests whether Korea is a price-taker in its export markets.",
+    "ko": "이 글에서는 한국을 가리키는 일상적 뜻으로 쓴다. 한국이 수출시장에서 가격 수용자인지 검증한 연구는 이 글에 없다."
+   }
+  },
+  {
+   "id": "friend-shoring",
+   "context": {
+    "en": "Here: IMF scenarios in which China and the OECD stop buying from each other, with Korea modelled inside the OECD bloc.",
+    "ko": "이 글에서는 중국과 OECD가 서로 사지 않는 IMF 시나리오로, 한국은 OECD 블록 안에 모형화된다."
+   }
+  },
+  {
+   "id": "geoeconomic-fragmentation",
+   "context": null
+  },
+  {
+   "id": "trade-policy-uncertainty",
+   "context": {
+    "en": "Here: the US newspaper-based index of Baker, Bloom and Davis, so it measures US policy noise rather than Korean conditions.",
+    "ko": "이 글에서는 베이커·블룸·데이비스가 미국 신문으로 만든 지수여서 한국의 사정이 아니라 미국 정책의 소음을 나타낸다."
+   }
+  },
+  {
+   "id": "global-value-chain",
+   "context": {
+    "en": "Here: Korean parts inside Chinese electronics sold to the US, which is why the models find Korea gains less from diversion than Malaysia, and the governor says less than Vietnam.",
+    "ko": "이 글에서는 미국으로 팔리는 중국산 전자제품 안의 한국 부품이다. 모형은 그래서 한국이 말레이시아보다, 총재는 베트남보다 무역 전환의 이득을 적게 본다고 한다."
+   }
+  },
+  {
+   "id": "current-account",
+   "context": {
+    "en": "Here: Korea's monthly balance from the Bank of Korea, a record surplus in 2025.",
+    "ko": "이 글에서는 한국은행이 내는 한국의 월별 수지로, 2025년 흑자가 사상 최대였다."
+   }
+  },
+  {
+   "id": "cge-model",
+   "context": {
+    "en": "Here: the multi-country input-output trade models behind the BIS and IMF estimates of what the 2025 tariffs cost each economy.",
+    "ko": "이 글에서는 2025년 관세가 각국에 미친 비용을 추정한 BIS와 IMF 연구가 쓴 다국가 산업연관 무역 모형."
+   }
+  }
+ ],
+ "review": {
+  "editor": "datasteg",
+  "approved": "2026-10-28"
+ },
+ "citation": {
+  "author": {
+   "en": "datasteg",
+   "ko": "datasteg"
+  },
+  "publisher": {
+   "en": "datasteg articles",
+   "ko": "datasteg articles"
+  },
+  "date": "2026-10-27",
+  "title": {
+   "en": "Korea's steel fell and cars stalled in the year of US tariffs, but exports set a record",
+   "ko": "미국 관세 속 철강 줄고 자동차 멈췄지만 수출 전체는 사상 최대"
+  },
+  "url": {
+   "en": "https://articles.datasteg.com/en/a/korea-tariffs-small-open-economy",
+   "ko": "https://articles.datasteg.com/ko/a/korea-tariffs-small-open-economy"
+  }
+ },
+ "pdf": {
+  "en": {
+   "file": "pdf/en.pdf",
+   "pages": 22,
+   "bytes": 786964,
+   "made": "2026-11-03",
+   "source": "7aec095d566f250e"
+  },
+  "ko": {
+   "file": "pdf/ko.pdf",
+   "pages": 21,
+   "bytes": 1579781,
+   "made": "2026-11-03",
+   "source": "ebf202692170cb23"
+  }
+ },
+ "corrections": [],
+ "draws_on": [
+  "open-research"
+ ],
+ "draws_on_evidence": {
+  "open-research": 15
+ },
+ "fetch": {
+  "ecos": {
+   "series": 15,
+   "rows": 3825,
+   "bytes": 59496
+  },
+  "eurostat": {
+   "series": 15,
+   "rows": 165,
+   "bytes": 2555
+  },
+  "fred": {
+   "series": 12,
+   "rows": 1972,
+   "bytes": 49410
+  }
+ }
+}

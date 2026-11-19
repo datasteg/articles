@@ -1,0 +1,19 @@
+{
+ "id": "margin-loan",
+ "term": {
+  "en": "margin loan",
+  "ko": "신용융자"
+ },
+ "definition": {
+  "en": "Money a broker lends an investor to buy shares, with the shares as collateral. If their value falls too far, the broker can demand more collateral or sell the shares.",
+  "ko": "증권사가 투자자에게 주식을 사도록 빌려주는 돈으로, 산 주식이 담보가 된다. 주식 가치가 너무 떨어지면 증권사는 담보를 더 요구하거나 주식을 강제로 판다(반대매매)."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets",
+  "financial-stability"
+ ],
+ "see": [
+  "margin-call"
+ ]
+}

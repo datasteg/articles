@@ -1,0 +1,16 @@
+{
+ "id": "taper-tantrum",
+ "term": {
+  "en": "taper tantrum",
+  "ko": "긴축 발작(테이퍼 탠트럼)"
+ },
+ "definition": {
+  "en": "The sharp rise in bond yields in mid-2013 after the Federal Reserve signalled that it would slow, or taper, its bond purchases. The name has since been used for similar market reactions to a central bank's plan to buy less.",
+  "ko": "2013년 중반 연준이 국채 매입을 줄이겠다(테이퍼링)고 시사한 뒤 국채 금리가 급등한 사건이다. 이후 중앙은행이 매입을 줄이려 할 때 나타나는 비슷한 시장 반응을 가리키는 말로도 쓰인다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "bond-markets",
+  "monetary-policy"
+ ]
+}

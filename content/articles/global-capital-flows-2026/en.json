@@ -1,0 +1,244 @@
+{
+ "kicker": "Global capital",
+ "title": "Foreigners poured money into US stocks, yet buying built little of the rise in their pile",
+ "dek": "In the year to June 2026 foreigners bought $1.79 trillion of US securities and sold a net $104 billion of Korean stocks, yet new buying built only a small part of the rise in their US stock pile.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "$1.79tn",
+   "label": "Foreign net purchases of US securities in the four quarters to Q2 2026, the most in data back to 2006 and 1.4 times the euro area's",
+   "cite": [
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "value": "20%",
+   "label": "of the rise in foreigners' US stock holdings since end-2024 that was new buying; the rest was price changes and other adjustments",
+   "cite": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "value": "50.9%",
+   "label": "of US household-held stocks and funds owned by the richest one per cent of households, Q2 2026",
+   "cite": [
+    "S14"
+   ]
+  }
+ ],
+ "findings": [
+  "Foreigners owned $24.66 trillion of US stocks at the end of June 2026, the most in data back to 2006 and 2.7 times their holdings at end-2019, and at end-March US stocks alone were worth about as much as all the euro-area stocks and bonds foreigners held [[S1,S2,S3]].",
+  "In the year to June 2026 they bought $1.79 trillion of US securities, the most in data back to 2006 but only just above the year before and 1.4 times what went into the euro area; net of each side's own buying abroad, the US took in 3.8 times as much [[S4,S5,S6,S7,S8,S9,S10,S3]].",
+  "Stocks were the market of choice, drawing $923 billion, also the most in data back to 2006, while foreign buying of US Treasuries fell to $294 billion from $745 billion in the year to March 2025, though US interest rates were about the same [[S4,S5,S11]].",
+  "Yet new money built little of the pile: only 20% of the $6.09 trillion rise in foreigners' US stocks since end-2024 was buying, the rest price changes and other adjustments, and research links investors' favour for US assets to company earnings, deep markets and the AI boom [[S1,S4,S12,S13]].",
+  "The gains go to whoever owns the assets, among them the richest one per cent of US households, who hold 50.9% of household-held stocks and funds, while foreigners sold a net $104 billion of Korean stocks in the year to June 2026, the most in data back to 2007, even as Korea's chip exporters gained [[S14,S15,S16]]."
+ ],
+ "question": {
+  "asked": "Where do foreign investors hold the most money, which countries and markets drew the most new foreign money in the year to mid-2026, why, and who has gained and who bears the risks?",
+  "lookedAt": "We measured where foreign investors' money sits and where new money went over the past year, separated fresh buying from price gains, and weighed the research on why it happened and on who gains and who bears the risks.",
+  "premiseNote": "Where money already sits and where new money is going are different questions, so we answer both; none of the sources we used ranks every country's inflows, so we measure the US, the euro area and Korea, leaving gold, crypto, direct investment and bank loans aside; and as no common yardstick says which group gains 'most', we show gains and risks group by group."
+ },
+ "sections": [
+  {
+   "id": "where-money-sits",
+   "heading": "Where foreign money sits",
+   "summary": "Foreigners' US stocks alone match their euro-area stocks and bonds; buying built little of their recent rise.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The question asks two different things: what foreigners already own in a country, a pile built up over years, and what they bought over the past year, the new money. We start with the pile."
+    },
+    {
+     "type": "p",
+     "text": "Foreigners owned $24.66 trillion of US stocks and fund shares at the end of June 2026, the most in data back to 2006 [[S1]]. That is 2.7 times their holdings at end-2019, and equal to 76% of US GDP, a year's output [[S1,S17]]. At end-March 2026, US stocks alone, at $21.17 trillion, were worth about as much as all the euro-area stocks and bonds foreigners held, $21.12 trillion [[S1,S2,S3]]."
+    },
+    {
+     "type": "p",
+     "text": "Research agrees the US pile is outsize [[S12]]. In 2024 what foreigners own in the US exceeded what Americans own abroad by a record, at least since the paper's data begin, a fifth of world output; that gap is the US ((net-international-investment-position|net international investment position)) [[S18]]. Foreigners held less than a fifth of all US stocks in March 2025, but a third of US Treasuries, the government's bonds [[S19]]."
+    },
+    {
+     "type": "p",
+     "text": "Most of the pile's growth, though, was not new money. Since end-2024 foreigners' US stocks rose $6.09 trillion, but their ((net-purchases|net purchases)), what they bought minus what they sold, came to $1.20 trillion, just 20% of the rise [[S1,S4]]. The other $4.89 trillion came from price changes and other adjustments, which these data do not split; the price part is a ((valuation-effect|valuation effect)) [[S1,S4]]. The chart below shows the same split since end-2019."
+    },
+    {
+     "type": "figure",
+     "chart": "us-pile-price"
+    },
+    {
+     "type": "p",
+     "text": "Foreign holdings in the euro area grew differently. From end-2019 to end-March 2026, buying made up 15% of the rise in foreigners' US stocks, but 67% of the rise in their euro-area stocks and bonds, measured in euros [[S1,S4,S2,S10]]. The comparison is rough: the euro-area figure covers bonds as well as stocks, so part of the gap reflects that mix rather than the place."
+    },
+    {
+     "type": "p",
+     "text": "Research finds that year-to-year changes in countries' net foreign positions come mainly from valuation changes, not new money [[S18]]. For the US, an OECD paper finds that this mainly reflects US stocks outrunning others', partly on recent gains in AI-exposed firms [[S20]]. A pile that grew on price can shrink without anyone selling."
+    }
+   ]
+  },
+  {
+   "id": "new-money",
+   "heading": "Where new money went",
+   "summary": "The US drew the most measured new money; euro-area gross inflows also hit a record.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Of the new money we can measure, the US drew the most; none of the sources we used ranks every country's inflows, so we compare it with the euro area and Korea. In the year to June 2026, foreigners' net purchases of US stocks and bonds, the bulk of their ((portfolio-investment|portfolio investment)), came to $1.79 trillion, the most for any four quarters in data back to 2006 [[S4,S5,S6,S7]]. It was a record only just, 1.4% above the year to June 2025 [[S4,S5,S6,S7]]."
+    },
+    {
+     "type": "p",
+     "text": "The euro area drew a record by its own history too. Foreigners bought €1.12 trillion of its securities over the same year, or $1.31 trillion, the most in data going back to 2007 [[S10,S3]]. The second quarter of 2026 alone brought €367 billion, also a record [[S10]]. Even so, the US took in 1.4 times as much [[S4,S5,S6,S7,S10,S3]]."
+    },
+    {
+     "type": "p",
+     "text": "Money runs both ways, so ((gross-and-net-flows|gross and net flows)) tell different stories [[S21]]. Americans bought $462 billion of foreign securities over the year, so the US net inflow was $1.32 trillion, below its record of $1.49 trillion a year earlier [[S8,S9,S4,S5,S6,S7]]. Euro-area residents bought €820 billion abroad, cutting the euro area's net inflow to €303 billion, or $352 billion [[S10,S3]]. Measured in euros, that was its most since Q4 2009 but not a record, and the US net inflow was 3.8 times as large [[S4,S5,S6,S7,S8,S9,S10,S3]]."
+    },
+    {
+     "type": "p",
+     "text": "The chart below tracks both measures for both economies since 2007."
+    },
+    {
+     "type": "figure",
+     "chart": "us-ea-flows"
+    },
+    {
+     "type": "p",
+     "text": "Fund data show the tilt can shift for a while. In the second quarter of 2025, flows into government bond funds targeting the euro area and other advanced economies outpaced those into US funds [[S12]]. Between late November 2025 and early March 2026, stock-fund flows appeared to shift towards Europe and emerging markets [[S22]]."
+    },
+    {
+     "type": "p",
+     "text": "These are shifts in fund flows, not totals of all buying. Research on the months after the April 2025 tariff shock found no material shift away from US assets, at least in the evidence it had, up to mid-2025 [[S12]]."
+    }
+   ]
+  },
+  {
+   "id": "what-they-bought",
+   "heading": "Stocks in America, bonds in Europe",
+   "summary": "Stocks took just over half of foreign buying in the US, bonds over half in the euro area.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In the US, foreigners' market of choice was stocks. They bought $923 billion of US stocks and fund shares in the year to June 2026, 52% of all their US buying and the most for any four quarters in data back to 2006 [[S4,S5,S6,S7]]. A few years earlier they had bought almost none: net sales of $53 billion in 2021, then purchases of just $3 billion in 2022 and $45 billion in 2023 [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "Bonds drew less. Foreigners bought $443 billion of US corporate bonds and $125 billion of bonds issued or backed by US government agencies [[S6,S7]]. Their buying of US Treasuries, short-term bills included, fell to $294 billion, 16% of the total, from $745 billion in the year to March 2025 [[S5]]. The chart below compares each type of security with a year earlier."
+    },
+    {
+     "type": "figure",
+     "chart": "us-asset-mix"
+    },
+    {
+     "type": "p",
+     "text": "The level of US interest rates alone does not account for the drop. The 10-year Treasury rate averaged 4.28% in the year to March 2025 and 4.24% in the year to June 2026, about the same, yet foreign Treasury buying fell [[S11,S5]]. It has since risen: in September 2026, a month the flow data do not yet cover, it averaged 4.99%, the highest since July 2007 [[S11]]. The drop fits a shift in what foreigners want to hold, but does not prove one."
+    },
+    {
+     "type": "p",
+     "text": "In the euro area, bonds led instead. Bonds and other debt securities took 56% of foreign buying over the year, €624 billion against €499 billion for stocks [[S10]]."
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "heading": "Why the money goes there",
+   "summary": "Research links the pull to earnings, deep markets and AI, without weighing each one.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The research points to company earnings, deep markets and the AI boom, but it links investors' favour to these factors rather than measuring how much each matters. The BIS links investors' favour for US assets to resilient US corporate earnings and unmatched market depth [[S12]], and finds they favoured US stocks as their way into AI firms [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "Those firms loom large. AI firms grew from about a quarter to two-fifths of US stock-market value in 2022–25 [[S16]], and the ((magnificent-7|Magnificent 7)) tech giants made up about a sixth of foreigners' US stocks in 2022, the latest figure we found [[S23]]. US business investment in information-processing equipment and software reached 5.1% of GDP in the second quarter of 2026, the highest since at least 1995 and above its dot-com peak of 4.5% in Q4 2000 [[S24,S17,S13]]."
+    },
+    {
+     "type": "p",
+     "text": "The evidence suggests the dollar's fall did not mean money leaving. The dollar fell 7.5% against a broad basket of currencies from its January 2025 peak to September 2026, and the euro rose 11% against it [[S25,S3]]. Research on April 2025 suggests that the dollar's slide was not correlated with selling of US assets, at least not at high frequency and not of Treasuries [[S19]]. In the following months, foreigners by and large held on to US assets but appear to have managed currency risk more cautiously [[S12]]."
+    },
+    {
+     "type": "p",
+     "text": "Many had skipped ((currency-hedging|currency hedging)), protection against a falling dollar, while it rose in 2021–24 [[S19]]. For the months since, the purchases to June 2026 shown above say money kept arriving [[S4,S5,S6,S7]]."
+    },
+    {
+     "type": "p",
+     "text": "Interest rates moved too. Germany's 10-year rate rose 1.29 pp from December 2024 to September 2026, against 0.60 pp for the US's, so the gap between them, measured in ((basis-point|basis points)), narrowed from 221bp to 152bp [[S11,S26]]. That is consistent with Europe's bond inflow, not proof of a cause."
+    },
+    {
+     "type": "p",
+     "text": "Prices also travel further than money. In smaller economies, the global factors behind the ((global-financial-cycle|global financial cycle)) explain far more of the swings in interest rates and asset prices than in capital flows [[S27]]. That is consistent with a pile swelling on price while new money goes its own way."
+    }
+   ]
+  },
+  {
+   "id": "korea",
+   "heading": "Korea: rising prices, departing money",
+   "summary": "Korea's export prices outran its import costs and stocks rallied, yet foreigners sold its stocks.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Korea shows the same gap between price and new money. As an exporter of AI hardware such as chips, it gained as its export prices outpaced its import costs [[S16]]. Its ((terms-of-trade|terms of trade)) rose 38% from a low in July 2022 to September 2026; apart from August 2026, they had not been that high since September 2007 [[S28]]. The gains are concentrated: five firms accounted for more than two-fifths of Korea's export earnings in early 2026, up from about a quarter two years before [[S16]]."
+    },
+    {
+     "type": "p",
+     "text": "Korean stocks rose strongly in late 2025 and early 2026 [[S22]]. Yet foreigners sold a net $104 billion of Korean stocks and fund shares in the twelve months to June 2026, the most for any twelve months in data back to 2007 [[S15]]. They bought $49 billion of Korean bonds, so a net $56 billion left Korean securities [[S29,S30]]. In the twelve months to August 2026, net selling of the two together reached $60 billion, also the most in data back to 2007 [[S30]]."
+    },
+    {
+     "type": "p",
+     "text": "So while money flowed into US stocks, foreign money did not carry Korea's rally. For emerging Asian economies that have become net creditors, the BIS adds, the boost from a weaker dollar may turn into a drag in future; it does not single out Korea [[S31]]. The chart below shows foreigners' net buying of Korean stocks and bonds since 2007."
+    },
+    {
+     "type": "figure",
+     "chart": "korea-flows"
+    }
+   ]
+  },
+  {
+   "id": "who-gains",
+   "heading": "Who gains, and who bears the risk",
+   "summary": "Gains go to asset owners, ownership is concentrated, and the risks sit in the same places.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The gains go to whoever owns the assets, and ownership is concentrated. In the US the richest one per cent of households hold 50.9% of the stocks and fund shares that households own, the next nine per cent 37.2% and the bottom half 0.6% [[S14,S32,S33]]. These are shares of what households hold, not of all US stocks."
+    },
+    {
+     "type": "p",
+     "text": "That top share is below its 2019 peak of 52.3%, the highest in data back to 1989, but it has edged up since a low of 49.3% in Q3 2022 [[S14]]. The chart below shows each group's share in mid-2026."
+    },
+    {
+     "type": "figure",
+     "chart": "who-owns"
+    },
+    {
+     "type": "p",
+     "text": "Higher AI valuations have made asset-owning households richer and supported their spending, mainly in the US [[S16]]. One model finds foreign money can widen US wealth gaps by pushing up asset prices, though it covers 1989–2016, not today, and suggests the effect may partly reverse [[S34]]."
+    },
+    {
+     "type": "p",
+     "text": "Foreign holders shared in the rise: price changes and other adjustments added $4.89 trillion to their US stocks since end-2024 [[S1,S4]]. The mirror-image improvement in other countries' foreign positions has eased financial conditions and lifted growth in many countries outside the US, though it has also left them more exposed, a BIS paper says [[S18]]. Euro-area households alone hold hundreds of billions of euros in US tech firms, ECB President Christine Lagarde said in September 2026 [[S35]]."
+    },
+    {
+     "type": "p",
+     "text": "The risk sits in the same places. The BIS sees overly optimistic expectations of AI as a key risk [[S16]]. It also finds that lenders' pricing of AI firms is at odds with stock valuations: either lenders may be underestimating the risks of AI investments or equity markets may be overestimating the future cash flows AI could generate [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "Of the scenarios one BIS paper studied, a sharp fall in US stocks has the potential to shrink global imbalances the most and fastest [[S18]]. In its scenario of a fall in US stocks, the US net equity position would improve from a quarter of GDP in the red to a small fraction [[S18]]. That position is the equity Americans own abroad minus the US equity foreigners own, so it improves as foreigners' US holdings lose value."
+    },
+    {
+     "type": "p",
+     "text": "European savers hold US tech mostly through funds that would have to sell into a falling market, Lagarde warned [[S35]], and positions built fast can unravel suddenly [[S21]]. For emerging markets, a stronger dollar runs the financial loop in reverse [[S31]]. No yardstick ranks these groups, and these are conditions, not forecasts."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "The US is where much foreign money sits and where most measured new money went in the year to June 2026, just over half of it into stocks. But only 20% of the rise in foreigners' US stocks since end-2024 came from buying, so that pile can shrink without anyone selling. The euro area drew its largest gross inflow in data back to 2007, more than half of it into bonds, while money left Korean stocks even as Korea's chip exporters gained. The gains sit with the wealthiest US households and foreign holders of US stocks, and with the AI firms whose valuations rose; so does the risk if AI earnings or global appetite for risk turn."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

@@ -1,0 +1,106 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "dataset",
+ "type": "object",
+ "properties": {
+  "id": {
+   "type": "string",
+   "minLength": 1
+  },
+  "indicator": {
+   "type": "string",
+   "minLength": 1
+  },
+  "provider": {
+   "type": "string",
+   "minLength": 1
+  },
+  "key": {
+   "type": "string",
+   "minLength": 1
+  },
+  "unit": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "frequency": {
+   "type": "string",
+   "minLength": 1
+  },
+  "span": {
+   "type": [
+    "array",
+    "null"
+   ]
+  },
+  "retrieved": {
+   "type": "string",
+   "minLength": 1
+  },
+  "licence": {
+   "type": "string",
+   "minLength": 1
+  },
+  "attribution": {
+   "type": "string",
+   "minLength": 1
+  },
+  "publishable": {
+   "type": "boolean"
+  },
+  "file": {
+   "type": "string",
+   "minLength": 1
+  },
+  "validation": {
+   "type": "object",
+   "properties": {
+    "verdict": {
+     "enum": [
+      "pass",
+      "warn",
+      "fail"
+     ]
+    }
+   },
+   "required": [
+    "verdict"
+   ],
+   "additionalProperties": true
+  },
+  "locate": {
+   "type": "object",
+   "description": "Optional: how a reader finds this series on the provider's site, one short paragraph per language. Only for providers pipeline/artools/locate.py has no route for; otherwise the build writes it.",
+   "properties": {
+    "en": {
+     "type": "string",
+     "minLength": 1
+    },
+    "ko": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "en",
+    "ko"
+   ]
+  }
+ },
+ "required": [
+  "id",
+  "indicator",
+  "provider",
+  "key",
+  "frequency",
+  "retrieved",
+  "licence",
+  "attribution",
+  "publishable",
+  "file",
+  "validation"
+ ],
+ "additionalProperties": true
+}

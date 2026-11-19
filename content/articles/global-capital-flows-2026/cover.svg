@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <rect x="0" y="266" width="480" height="54" class="f-ice"/>
+  <rect x="356" y="228" width="88" height="34" rx="8" class="f-seq2 s-seq4" stroke-width="8"/>
+  <rect x="356" y="190" width="88" height="34" rx="8" class="f-seq2 s-seq4" stroke-width="8"/>
+  <path d="M64 100 V200 Q64 245 109 245 H182" fill="none" class="s-focus" stroke-width="18"/>
+  <rect x="46" y="88" width="36" height="16" rx="4" class="f-focus"/>
+  <rect x="150" y="229" width="16" height="32" rx="4" class="f-focus"/>
+  <rect x="182" y="226" width="150" height="38" rx="8" class="f-focus s-tarn" stroke-width="8"/>
+  <rect x="182" y="184" width="150" height="38" rx="8" class="f-ice s-seq4" stroke-width="8"/>
+  <rect x="182" y="142" width="150" height="38" rx="8" class="f-ice s-seq4" stroke-width="8"/>
+  <rect x="182" y="100" width="150" height="38" rx="8" class="f-ice s-seq4" stroke-width="8"/>
+  <rect x="182" y="58" width="150" height="38" rx="8" class="f-ice s-seq4" stroke-width="8"/>
+  <line x1="204" y1="70" x2="270" y2="70" class="s-glint" stroke-width="8" stroke-linecap="round"/>
+</svg>

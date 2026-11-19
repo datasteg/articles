@@ -1,0 +1,180 @@
+{
+ "id": "who-owns",
+ "form": "bars",
+ "headline": {
+  "en": "The richest 1% of US households own 50.9% of household-held stocks and funds; the bottom half own 0.6%",
+  "ko": "미국 자산 상위 1% 가구가 가계 보유 주식·펀드의 50.9%를, 하위 절반은 0.6%를 갖고 있다"
+ },
+ "title": {
+  "en": "Share of US household-held stocks and mutual funds, by wealth group",
+  "ko": "자산 계층별 미국 가계 보유 주식·뮤추얼펀드 비중"
+ },
+ "subtitle": {
+  "en": "% of the total held by US households, Q2 2026",
+  "ko": "미국 가계 보유 총액 대비 %, 2026년 2분기"
+ },
+ "howToRead": {
+  "en": "Households are ranked by wealth. 'Next 9%' is the 90th to 99th percentiles; 'Next 40%' the 50th to 90th. The four bars add up to 100%, give or take rounding.",
+  "ko": "가구를 자산 순으로 줄 세웠다. '상위 1~10%'는 90~99백분위, '상위 10~50%'는 50~90백분위다. 네 막대를 더하면 반올림 오차를 빼고 100%다."
+ },
+ "notes": [
+  {
+   "en": "Shares of the corporate equities and mutual fund shares held by US households; stocks held by foreigners, pension funds and other institutions are outside the total.",
+   "ko": "미국 가계가 보유한 주식과 뮤추얼펀드 중 비중이다. 외국인·연기금·기타 기관이 보유한 주식은 총액에 들어 있지 않다."
+  },
+  {
+   "en": "The top 1% share is below its 2019 peak of 52.3%, the highest in data back to 1989, but has edged up since a low of 49.3% in Q3 2022.",
+   "ko": "상위 1%의 비중은 자료가 있는 1989년 이후 가장 높았던 2019년 정점 52.3%보다 낮지만, 2022년 3분기 저점 49.3% 이후 조금씩 늘었다."
+  }
+ ],
+ "alt": {
+  "en": "Bar chart of shares of US household-held stocks and mutual funds in Q2 2026: the top 1% of households by wealth own 50.9%, the next 9% own 37.2%, the next 40% own 11.4% and the bottom 50% own 0.6%.",
+  "ko": "2026년 2분기 미국 가계 보유 주식·뮤추얼펀드의 계층별 비중 막대 그래프: 자산 상위 1% 가구 50.9%, 상위 1~10% 37.2%, 상위 10~50% 11.4%, 하위 50% 0.6%."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "% of household-held stocks and funds",
+    "ko": "가계 보유 주식·펀드 대비 %"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    60
+   ],
+   "ticks": [
+    0,
+    20,
+    40,
+    60
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "valueFormat": {
+  "decimals": 1,
+  "suffix": "%"
+ },
+ "categories": [
+  {
+   "id": "top1",
+   "label": {
+    "en": "Top 1%",
+    "ko": "상위 1%"
+   },
+   "value": 50.9,
+   "highlight": true
+  },
+  {
+   "id": "next9",
+   "label": {
+    "en": "Next 9%",
+    "ko": "상위 1~10%"
+   },
+   "value": 37.2
+  },
+  {
+   "id": "next40",
+   "label": {
+    "en": "Next 40%",
+    "ko": "상위 10~50%"
+   },
+   "value": 11.4
+  },
+  {
+   "id": "bottom50",
+   "label": {
+    "en": "Bottom 50%",
+    "ko": "하위 50%"
+   },
+   "value": 0.6
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S14",
+   "S32",
+   "S36",
+   "S33"
+  ],
+  "provider": "Federal Reserve, Distributional Financial Accounts, via FRED",
+  "keys": [
+   "WFRBST01122",
+   "WFRBSN09149",
+   "WFRBSN40176",
+   "WFRBSB50203"
+  ],
+  "definition": {
+   "en": "Share of corporate equities and mutual fund shares held by each wealth group of US households: top 1%, 90th–99th percentiles, 50th–90th percentiles and bottom 50%.",
+   "ko": "미국 가계의 자산 계층별(상위 1%, 90~99백분위, 50~90백분위, 하위 50%) 주식·뮤추얼펀드 보유 비중."
+  },
+  "calculation": {
+   "en": "As published, Q2 2026.",
+   "ko": "발표값 그대로, 2026년 2분기."
+  },
+  "span": [
+   "2026-Q2",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-19",
+  "licence": "Federal Reserve data via FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: Federal Reserve via FRED",
+   "ko": "출처: 미 연준(FRED)"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "group",
+    "label": {
+     "en": "Wealth group",
+     "ko": "자산 계층"
+    }
+   },
+   {
+    "key": "share",
+    "label": {
+     "en": "Share, %",
+     "ko": "비중, %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "group": {
+     "en": "Top 1%",
+     "ko": "상위 1%"
+    },
+    "share": 50.9
+   },
+   {
+    "group": {
+     "en": "Next 9% (90th–99th percentiles)",
+     "ko": "상위 1~10% (90~99백분위)"
+    },
+    "share": 37.2
+   },
+   {
+    "group": {
+     "en": "Next 40% (50th–90th percentiles)",
+     "ko": "상위 10~50% (50~90백분위)"
+    },
+    "share": 11.4
+   },
+   {
+    "group": {
+     "en": "Bottom 50%",
+     "ko": "하위 50%"
+    },
+    "share": 0.6
+   }
+  ]
+ },
+ "csv": "data/who-owns.csv"
+}

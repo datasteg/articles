@@ -1,0 +1,318 @@
+{
+ "id": "ten-falls",
+ "form": "table",
+ "headline": {
+  "en": "In ten of Korea's eleven big stock falls before 2026 the VIX closed at 36 or higher; in 2004 and in 2026 it stayed near 20",
+  "ko": "2026년 이전 한국 증시의 큰 급락 열한 번 가운데 열 번은 VIX 종가가 36 이상까지 올랐지만, 2004년과 2026년에는 20 안팎에 머물렀다"
+ },
+ "title": {
+  "en": "Korea's twelve big stock falls since 1997, side by side",
+  "ko": "1997년 이후 한국 증시의 큰 급락 열두 번 비교"
+ },
+ "subtitle": {
+  "en": "Changes in % from each fall's high month to its low month (monthly averages); two-year run-up in % to the high month; VIX: highest daily close",
+  "ko": "변화율(%)은 각 급락의 고점 월부터 저점 월까지(월평균), 직전 두 해 상승률(%)은 고점 월까지, VIX는 일별 종가 최고치"
+ },
+ "howToRead": {
+  "en": "One row per fall, newest first. 'Korea' and 'US' are changes in share prices, 'Run-up' the rise in Korean share prices in the two years before the high month. Read across: how far Korean share prices fell, how high Wall Street's fear gauge (the VIX) went, what US shares and the won did over the same months, and how much Korean share prices had risen in the two years before. A positive won change means a weaker won; a negative one, a stronger won.",
+  "ko": "행마다 급락 한 번이며, 최근 것부터 적었다. '한국'과 '미국'은 주가 변화율, '직전 상승'은 고점 월까지 두 해 동안의 한국 주가 상승률이다. 가로로 읽으면 한국 주가가 얼마나 떨어졌는지, 월가의 공포지수 VIX가 어디까지 올랐는지, 같은 기간 미국 주가와 원/달러 환율이 어떻게 움직였는지, 그 전 두 해 동안 한국 주가가 얼마나 올랐는지 알 수 있다. 원/달러 변화가 양수면 원화 약세, 음수면 원화 강세다."
+ },
+ "notes": [
+  {
+   "en": "The falls were picked on KOSPI daily closes: every fall of a fifth or more since 1997 except three short swings in the rebound from the 1998 low. The slide from July 2024 to April 2025, a fall of a fifth on daily closes, appears as two shorter falls, July–August 2024 and February–April 2025. The long slide from 2018 to 2020 counts as two falls, split at its August 2019 low. Korean and US share prices are OECD monthly averages, which smooth daily highs and lows, so the falls shown are shallower than between daily closes, most of all for falls that happen within weeks. The 2026 row stops at the lowest month so far (August 2026); prices fell again in October.",
+   "ko": "급락은 코스피 일별 종가로 골랐다. 1997년 이후 오분의 일 이상 떨어진 경우를 모두 넣되 1998년 바닥 뒤 반등기 안의 짧은 등락 세 번은 뺐다. 2024년 7월부터 2025년 4월까지의 하락은 일별 종가로 오분의 일에 이르렀지만, 2024년 7월부터 8월까지, 2025년 2월부터 4월까지의 짧은 하락 두 번으로 나눠 넣었다. 2018년부터 2020년까지 이어진 긴 하락은 2019년 8월 저점에서 나눠 두 번으로 셌다. 한국과 미국 주가는 OECD 월평균으로, 일별 고점과 저점이 평탄해져 일별 종가 기준 하락보다 얕으며, 몇 주 만에 끝난 급락일수록 더 그렇다. 2026년 행은 지금까지 가장 낮은 달(2026년 8월)까지이며, 10월에 주가는 다시 떨어졌다."
+  },
+  {
+   "en": "In monthly averages the 2024 slide ran from July to December 2024 (−13.1%). The Feb–Apr 2025 row shows only the March–April 2025 dip in monthly averages; its VIX high, 52.3, came on 8 Apr 2025. Korea's political shock of 3 Dec 2024 came with a VIX of only 13.3.",
+   "ko": "월평균으로 보면 2024년 하락은 7월부터 12월까지 이어졌다(−13.1%). 2025년 2~4월 행은 월평균으로 2025년 3~4월 하락만 보여 주며, 이 구간의 VIX 최고치 52.3은 2025년 4월 8일에 나왔다. 2024년 12월 3일 한국의 정치 충격 때 VIX는 13.3에 그쳤다."
+  },
+  {
+   "en": "VIX highs are the highest daily close between the KOSPI's daily peak and low in each fall (for 2026, 22 Jun to 15 Oct 2026). The won is the New York noon rate, monthly averages. Valuations, margin loans and foreign selling are not shown: their producers' terms for republication are not cleared.",
+   "ko": "VIX 최고치는 급락마다 코스피 일별 고점과 저점 사이 일별 종가의 최고값이다(2026년은 6월 22일~10월 15일). 원/달러 환율은 뉴욕 정오 환율의 월평균이다. 주가 수준 지표, 신용융자, 외국인 매도는 작성 기관의 재게시 조건이 확인되지 않아 싣지 않았다."
+  }
+ ],
+ "alt": {
+  "en": "Table of Korea's twelve big stock falls, high month to low month in OECD monthly averages. 1997–98 Asian crisis (Jun 1997–Sep 1998): Korean shares −59.2%, two-year run-up −13%, highest VIX 38.2, US shares +10.8%, won per dollar +54.3%. 2000–01 IT bust: −48.8%, run-up 152%, VIX 41.8, US −13.6%, won +13.8%. 2002–03: −38.5%, 14%, 45.1, −24.0%, −6.1%. 2004 (Apr–Jul 2004): −17.7%, 1%, 20.0, −2.4%, +0.5%. 2007–08 global crisis: −46.4%, 68%, 79.1, −45.6%, +52.9%. 2011: −16.7%, 63%, 48.0, −16.1%, +3.6%. 2018–19 (Jan 2018–Aug 2019): −22.8%, 33%, 37.3, −4.8%, +13.6%. 2020 Covid: −19.0%, −12%, 82.7, −23.3%, +4.3%. 2021–22: −31.7%, 55%, 36.5, −15.0%, +27.0%. Jul–Aug 2024: −7.8%, 19%, 38.6, +4.4%, −3.7%. Feb–Apr 2025: −4.3%, 7%, 52.3, −5.0%, −1.3%. 2026 (Jun–Aug): −21.6%, 209%, 20.7, +4.8%, −8.3%.",
+  "ko": "한국 증시의 큰 급락 열두 번을 OECD 월평균 기준 고점 월부터 저점 월까지 비교한 표. 1997~98년 외환위기(1997.6~1998.9): 한국 주가 −59.2%, 직전 두 해 상승률 −13%, VIX 최고 38.2, 미국 주가 +10.8%, 원/달러 +54.3%. 2000~01년 IT 버블 붕괴: −48.8%, 152%, 41.8, −13.6%, +13.8%. 2002~03년: −38.5%, 14%, 45.1, −24.0%, −6.1%. 2004년(2004.4~7): −17.7%, 1%, 20.0, −2.4%, +0.5%. 2007~08년 글로벌 금융위기: −46.4%, 68%, 79.1, −45.6%, +52.9%. 2011년: −16.7%, 63%, 48.0, −16.1%, +3.6%. 2018~19년(2018.1~2019.8): −22.8%, 33%, 37.3, −4.8%, +13.6%. 2020년 코로나19: −19.0%, −12%, 82.7, −23.3%, +4.3%. 2021~22년: −31.7%, 55%, 36.5, −15.0%, +27.0%. 2024년 7~8월: −7.8%, 19%, 38.6, +4.4%, −3.7%. 2025년 2~4월: −4.3%, 7%, 52.3, −5.0%, −1.3%. 2026년(6~8월): −21.6%, 209%, 20.7, +4.8%, −8.3%."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S2",
+   "S3",
+   "S10"
+  ],
+  "provider": "OECD, Cboe and Federal Reserve Board via FRED",
+  "keys": [
+   "SPASTT01KRM661N",
+   "VIXCLS",
+   "SPASTT01USM661N",
+   "DEXKOUS"
+  ],
+  "definition": {
+   "en": "OECD share price indices for Korea and the United States (all shares, monthly averages of daily prices, 2015 = 100); Cboe Volatility Index (VIX), daily close; won per US dollar, New York noon buying rate (Federal Reserve H.10), averaged by month.",
+   "ko": "OECD 한국·미국 주가지수(전 종목, 일별 주가의 월평균, 2015 = 100), 시카고옵션거래소 변동성지수(VIX) 일별 종가, 원/미국달러 뉴욕 정오 매입률(연준 H.10)의 월평균."
+  },
+  "calculation": {
+   "en": "High and low months: highest and lowest monthly average in a fixed window around each fall. Changes = (low month ÷ high month − 1) × 100. Two-year run-up = (high month ÷ 24 months earlier − 1) × 100. VIX = highest daily close between the KOSPI's daily peak and low.",
+   "ko": "고점·저점 월: 급락마다 정한 기간 안에서 월평균이 가장 높은 달과 가장 낮은 달. 변화율 = (저점 월 ÷ 고점 월 − 1) × 100. 직전 두 해 상승률 = (고점 월 ÷ 24개월 전 − 1) × 100. VIX = 코스피 일별 고점과 저점 사이 일별 종가의 최고값."
+  },
+  "span": [
+   "1995-06",
+   "2026-10-15"
+  ],
+  "lastObservation": "2026-10-16",
+  "retrieved": "2026-10-19",
+  "licence": "FRED: OECD and Cboe series copyrighted, citation required; DEXKOUS public domain, citation requested",
+  "attribution": {
+   "en": "Sources: OECD, Cboe and Federal Reserve Board via FRED, Federal Reserve Bank of St. Louis; datasteg calculation",
+   "ko": "출처: OECD·시카고옵션거래소·미 연준(FRED 경유, 세인트루이스 연방준비은행); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "fall",
+    "label": {
+     "en": "Fall",
+     "ko": "급락"
+    }
+   },
+   {
+    "key": "kr",
+    "label": {
+     "en": "Korea, %",
+     "ko": "한국(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "vix",
+    "label": {
+     "en": "VIX high",
+     "ko": "VIX 최고"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "us",
+    "label": {
+     "en": "US, %",
+     "ko": "미국(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "won",
+    "label": {
+     "en": "Won/$, %",
+     "ko": "원/달러(%)"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "runup",
+    "label": {
+     "en": "Run-up, %",
+     "ko": "직전 상승(%)"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "months",
+    "label": {
+     "en": "High to low",
+     "ko": "고점~저점"
+    }
+   }
+  ],
+  "rows": [
+   {
+    "fall": {
+     "en": "2026",
+     "ko": "2026년"
+    },
+    "months": {
+     "en": "Jun–⁠Aug 2026, so far",
+     "ko": "2026.6~8(현재까지)"
+    },
+    "kr": -21.622683,
+    "runup": 209.042144,
+    "vix": 20.66,
+    "us": 4.835983,
+    "won": -8.254101
+   },
+   {
+    "fall": {
+     "en": "Feb–⁠Apr 2025",
+     "ko": "2025년 2~4월"
+    },
+    "months": {
+     "en": "Mar–⁠Apr 2025",
+     "ko": "2025.3~4"
+    },
+    "kr": -4.306634,
+    "runup": 6.870324,
+    "vix": 52.33,
+    "us": -4.97586,
+    "won": -1.27319
+   },
+   {
+    "fall": {
+     "en": "Jul–⁠Aug 2024",
+     "ko": "2024년 7~8월"
+    },
+    "months": {
+     "en": "Jul–⁠Sep 2024",
+     "ko": "2024.7~9"
+    },
+    "kr": -7.766308,
+    "runup": 18.892953,
+    "vix": 38.57,
+    "us": 4.417247,
+    "won": -3.715414
+   },
+   {
+    "fall": {
+     "en": "2021–⁠22",
+     "ko": "2021~22년"
+    },
+    "months": {
+     "en": "Jun 2021–⁠Oct 2022",
+     "ko": "2021.6~2022.10"
+    },
+    "kr": -31.674318,
+    "runup": 54.939568,
+    "vix": 36.45,
+    "us": -14.972445,
+    "won": 27.031513
+   },
+   {
+    "fall": {
+     "en": "2020 Covid",
+     "ko": "2020년 코로나19"
+    },
+    "months": {
+     "en": "Jan–⁠Mar 2020",
+     "ko": "2020.1~3"
+    },
+    "kr": -19.038028,
+    "runup": -12.376237,
+    "vix": 82.69,
+    "us": -23.258969,
+    "won": 4.345507
+   },
+   {
+    "fall": {
+     "en": "2018–⁠19",
+     "ko": "2018~19년"
+    },
+    "months": {
+     "en": "Jan 2018–⁠Aug 2019",
+     "ko": "2018.1~2019.8"
+    },
+    "kr": -22.815742,
+    "runup": 32.709962,
+    "vix": 37.32,
+    "us": -4.796399,
+    "won": 13.582176
+   },
+   {
+    "fall": {
+     "en": "2011",
+     "ko": "2011년"
+    },
+    "months": {
+     "en": "Apr–⁠Sep 2011",
+     "ko": "2011.4~9"
+    },
+    "kr": -16.72817,
+    "runup": 62.85674,
+    "vix": 48.0,
+    "us": -16.115199,
+    "won": 3.575903
+   },
+   {
+    "fall": {
+     "en": "2007–⁠08 Global crisis",
+     "ko": "2007~08년 금융위기"
+    },
+    "months": {
+     "en": "Oct 2007–⁠Nov 2008",
+     "ko": "2007.10~2008.11"
+    },
+    "kr": -46.436099,
+    "runup": 68.159862,
+    "vix": 79.13,
+    "us": -45.580803,
+    "won": 52.873317
+   },
+   {
+    "fall": {
+     "en": "2004",
+     "ko": "2004년"
+    },
+    "months": {
+     "en": "Apr–⁠Jul 2004",
+     "ko": "2004.4~7"
+    },
+    "kr": -17.696825,
+    "runup": 1.270231,
+    "vix": 19.96,
+    "us": -2.352174,
+    "won": 0.506249
+   },
+   {
+    "fall": {
+     "en": "2002–⁠03",
+     "ko": "2002~03년"
+    },
+    "months": {
+     "en": "Apr 2002–⁠Mar 2003",
+     "ko": "2002.4~2003.3"
+    },
+    "kr": -38.471926,
+    "runup": 14.196779,
+    "vix": 45.08,
+    "us": -23.961349,
+    "won": -6.136975
+   },
+   {
+    "fall": {
+     "en": "2000–⁠01 IT bust",
+     "ko": "2000~01년 IT 버블 붕괴"
+    },
+    "months": {
+     "en": "Dec 1999–⁠Sep 2001",
+     "ko": "1999.12~2001.9"
+    },
+    "kr": -48.802435,
+    "runup": 152.241919,
+    "vix": 41.76,
+    "us": -13.613133,
+    "won": 13.813194
+   },
+   {
+    "fall": {
+     "en": "1997–⁠98 Asian crisis",
+     "ko": "1997~98년 외환위기"
+    },
+    "months": {
+     "en": "Jun 1997–⁠Sep 1998",
+     "ko": "1997.6~1998.9"
+    },
+    "kr": -59.20675,
+    "runup": -13.463395,
+    "vix": 38.2,
+    "us": 10.828295,
+    "won": 54.31128
+   }
+  ]
+ },
+ "csv": "data/ten-falls.csv"
+}

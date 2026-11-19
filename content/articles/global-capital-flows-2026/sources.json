@@ -1,0 +1,1171 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "Foreign holdings of US stocks and fund shares (market value)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FL263064003Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FL263064003Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FL263064003Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FL263064003Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the market value of foreigners' holdings of US stocks and fund shares, quarterly since 2006",
+   "ko": "외국인이 보유한 미국 주식·펀드 지분의 시장가치, 2006년 이후 분기별"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Foreign holdings of US stocks and fund shares (market value). BOGZ1FL263064003Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Foreign holdings of US stocks and fund shares (market value). BOGZ1FL263064003Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "where-money-sits",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "Euro area (21) international investment position: portfolio investment liabilities (non-residents' holdings of euro-area securities), end of quarter, EUR mn",
+  "institution": "Eurostat",
+  "date": "2026-10-19",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/bop_iip6_q/default/table",
+  "dataset": {
+   "provider": "Eurostat",
+   "key": "bop_iip6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=L_LE&partner=EXT_EA21&sector10=S1&sectpart=S1&geo=EA21",
+   "unit": "Million euro",
+   "frequency": "Q",
+   "lastObservation": "2026-Q2",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Eurostat",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens dataset bop_iip6_q in Eurostat's Data Browser. Use the filters above the table (“Customise your dataset”) to select Million euro; Financial account; portfolio investment; Total economy; Liabilities - positions at the end of period; Extra-euro area - 21 countries (from 2026); in codes: freq = Q; currency = MIO_EUR; bop_item = FA__P__F; stk_flow = L_LE; partner = EXT_EA21; sector10 = S1; sectpart = S1; geo = EA21.",
+    "ko": "링크는 Eurostat 데이터 브라우저의 데이터셋 bop_iip6_q를 연다. 표 위의 필터(‘Customise your dataset’)에서 다음을 고른다: Million euro; Financial account; portfolio investment; Total economy; Liabilities - positions at the end of period; Extra-euro area - 21 countries (from 2026). 코드로는 freq = Q; currency = MIO_EUR; bop_item = FA__P__F; stk_flow = L_LE; partner = EXT_EA21; sector10 = S1; sectpart = S1; geo = EA21이다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' holdings of euro-area stocks and bonds, quarterly",
+   "ko": "외국인이 보유한 유로존 주식과 채권, 분기별"
+  },
+  "cite": {
+   "en": "Eurostat. Euro area (21) international investment position: portfolio investment liabilities (non-residents' holdings of euro-area securities), end of quarter, EUR mn. bop_iip6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=L_LE&partner=EXT_EA21&sector10=S1&sectpart=S1&geo=EA21. Retrieved 19 Oct 2026.",
+   "ko": "Eurostat. Euro area (21) international investment position: portfolio investment liabilities (non-residents' holdings of euro-area securities), end of quarter, EUR mn. bop_iip6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=L_LE&partner=EXT_EA21&sector10=S1&sectpart=S1&geo=EA21. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "where-money-sits"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "US dollar/Euro ECB reference exchange rate",
+  "institution": "ECB Data Portal",
+  "date": "2026-10-19",
+  "url": "https://data.ecb.europa.eu/data/datasets/EXR/EXR.M.USD.EUR.SP00.A",
+  "dataset": {
+   "provider": "ECB Data Portal",
+   "key": [
+    "EXR.M.USD.EUR.SP00.A",
+    "EXR.Q.USD.EUR.SP00.A"
+   ],
+   "unit": "USD",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: ECB Data Portal",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens EXR.M.USD.EUR.SP00.A in the ECB Data Portal. The other series (EXR.Q.USD.EUR.SP00.A) are in the same dataset EXR: replace the series key at the end of the link, or type the key in the portal's search box.",
+    "ko": "링크는 ECB 데이터 포털의 EXR.M.USD.EUR.SP00.A를 연다. 나머지 시리즈(EXR.Q.USD.EUR.SP00.A)도 같은 데이터셋 EXR에 있다. 링크 끝의 시리즈 키를 바꾸거나 포털 검색창에 키를 입력하면 된다."
+   }
+  },
+  "usedFor": {
+   "en": "dollars per euro, monthly averages, to convert holdings and track the euro",
+   "ko": "유로당 달러 환율 월평균, 보유액 환산과 유로 가치 추적용"
+  },
+  "cite": {
+   "en": "ECB Data Portal. US dollar/Euro ECB reference exchange rate. EXR.M.USD.EUR.SP00.A, EXR.Q.USD.EUR.SP00.A. Retrieved 19 Oct 2026.",
+   "ko": "ECB Data Portal. US dollar/Euro ECB reference exchange rate. EXR.M.USD.EUR.SP00.A, EXR.Q.USD.EUR.SP00.A. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "where-money-sits",
+   "new-money",
+   "why"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "Foreign net purchases of US stocks and fund shares",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FU263064003Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FU263064003Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FU263064003Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FU263064003Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of US stocks and fund shares, quarterly",
+   "ko": "외국인의 미국 주식·펀드 지분 순매수, 분기별"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US stocks and fund shares. BOGZ1FU263064003Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US stocks and fund shares. BOGZ1FU263064003Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "where-money-sits",
+   "new-money",
+   "what-they-bought",
+   "why",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "Foreign net purchases of US Treasury securities",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FU263061105Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FU263061105Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FU263061105Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FU263061105Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of US Treasuries, bills included",
+   "ko": "외국인의 미 국채 순매수(단기 국채 포함)"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US Treasury securities. BOGZ1FU263061105Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US Treasury securities. BOGZ1FU263061105Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "new-money",
+   "what-they-bought",
+   "why"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "Foreign net purchases of US corporate bonds",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FU263063005Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FU263063005Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FU263063005Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FU263063005Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of US corporate bonds",
+   "ko": "외국인의 미국 회사채 순매수"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US corporate bonds. BOGZ1FU263063005Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US corporate bonds. BOGZ1FU263063005Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "new-money",
+   "what-they-bought",
+   "why"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "dataset",
+  "title": "Foreign net purchases of US agency and GSE-backed securities",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FU263061705Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FU263061705Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FU263061705Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FU263061705Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of bonds issued or backed by US government agencies",
+   "ko": "외국인의 미국 정부기관 발행·보증 채권 순매수"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US agency and GSE-backed securities. BOGZ1FU263061705Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Foreign net purchases of US agency and GSE-backed securities. BOGZ1FU263061705Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "new-money",
+   "what-they-bought",
+   "why"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "dataset",
+  "title": "US investors' net purchases of foreign stocks and fund shares",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FU263164100Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FU263164100Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FU263164100Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FU263164100Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "US residents' net purchases of foreign stocks and fund shares, for the US net inflow",
+   "ko": "미국 거주자의 해외 주식·펀드 지분 순매수, 미국 순유입 계산용"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US investors' net purchases of foreign stocks and fund shares. BOGZ1FU263164100Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US investors' net purchases of foreign stocks and fund shares. BOGZ1FU263164100Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "new-money"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "dataset",
+  "title": "US investors' net purchases of foreign bonds",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/BOGZ1FU263163005Q",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "BOGZ1FU263163005Q",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series BOGZ1FU263163005Q directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 BOGZ1FU263163005Q 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "US residents' net purchases of foreign bonds, for the US net inflow",
+   "ko": "미국 거주자의 해외 채권 순매수, 미국 순유입 계산용"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US investors' net purchases of foreign bonds. BOGZ1FU263163005Q. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US investors' net purchases of foreign bonds. BOGZ1FU263163005Q. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "new-money"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "dataset",
+  "title": "European Union and euro area balance of payments - quarterly data (BPM6) (EA21)",
+  "institution": "Eurostat",
+  "date": "2026-10-19",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/bop_eu6_q/default/table",
+  "dataset": {
+   "provider": "Eurostat",
+   "key": [
+    "bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21",
+    "bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=ASS&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21",
+    "bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F3&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21",
+    "bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F5&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21"
+   ],
+   "unit": "Million euro",
+   "frequency": "Q",
+   "lastObservation": "2026-Q2",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Eurostat",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens dataset bop_eu6_q in Eurostat's Data Browser. Use the filters above the table (“Customise your dataset”) to select the series; in codes: freq = Q; currency = MIO_EUR; bop_item = FA__P__F, FA__P__F3, FA__P__F5; stk_flow = LIAB, ASS; partner = EXT_EA21; sector10 = S1; sectpart = S1; s_adj = NSA; geo = EA21.",
+    "ko": "링크는 Eurostat 데이터 브라우저의 데이터셋 bop_eu6_q를 연다. 표 위의 필터(‘Customise your dataset’)에서 해당 시리즈를 고른다. 코드로는 freq = Q; currency = MIO_EUR; bop_item = FA__P__F, FA__P__F3, FA__P__F5; stk_flow = LIAB, ASS; partner = EXT_EA21; sector10 = S1; sectpart = S1; s_adj = NSA; geo = EA21이다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of euro-area securities, quarterly since 2007",
+   "ko": "외국인의 유로존 증권 순매수, 2007년 이후 분기별"
+  },
+  "cite": {
+   "en": "Eurostat. European Union and euro area balance of payments - quarterly data (BPM6) (EA21). bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21, bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=ASS&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21, bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F3&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21, bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F5&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21. Retrieved 19 Oct 2026.",
+   "ko": "Eurostat. European Union and euro area balance of payments - quarterly data (BPM6) (EA21). bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21, bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F&stk_flow=ASS&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21, bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F3&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21, bop_eu6_q?freq=Q&currency=MIO_EUR&bop_item=FA__P__F5&stk_flow=LIAB&partner=EXT_EA21&sector10=S1&sectpart=S1&s_adj=NSA&geo=EA21. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "where-money-sits",
+   "new-money",
+   "what-they-bought"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "dataset",
+  "title": "US 10-year Treasury yield, monthly average",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/DGS10",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DGS10",
+   "unit": "Percent",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DGS10 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DGS10 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the US 10-year Treasury rate, monthly averages",
+   "ko": "미 국채 10년물 금리, 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury yield, monthly average. DGS10. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury yield, monthly average. DGS10. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "what-they-bought",
+   "why"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "paper",
+  "title": "The safe haven properties of US Treasuries and portfolio flows of global investors",
+  "authors": "Boissay, F., Huang, W.",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "September 2025, Box B",
+  "date": "2025-09-15",
+  "url": "https://www.bis.org/publications/qr-202509/safe-haven-properties-us-treasuries-and-portfolio-flows-global-investors",
+  "quote": {
+   "text": "The favourable sentiment towards US assets aligns with the resilience of US corporate earnings and the unmatched depth of US financial markets.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the BIS link between investors' favour for US assets, US corporate earnings and market depth",
+   "ko": "미국 자산 선호를 미국 기업 이익과 시장 깊이와 연결한 BIS 분석"
+  },
+  "ref": "jejualps:44565",
+  "cite": {
+   "en": "Boissay, F., Huang, W. (2025). The safe haven properties of US Treasuries and portfolio flows of global investors. BIS Quarterly Review September 2025, Box B. BIS",
+   "ko": "Boissay, F., Huang, W. (2025). The safe haven properties of US Treasuries and portfolio flows of global investors. BIS Quarterly Review September 2025, Box B. BIS"
+  },
+  "citedIn": [
+   "where-money-sits",
+   "new-money",
+   "why"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "paper",
+  "title": "Financing the AI boom: from cash flows to debt",
+  "authors": "Aldasoro, I., Doerr, S., Rees, D.",
+  "institution": "BIS",
+  "series": "BIS Bulletin",
+  "number": "120",
+  "date": "2026-01-07",
+  "url": "https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt",
+  "quote": {
+   "text": "Investors have favoured US equities to gain exposure to AI firms and hidden leverage may lead to credit market spillovers.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "investors favouring US stocks to gain exposure to AI firms",
+   "ko": "투자자들이 AI 기업 투자 통로로 미국 주식을 택했다는 점"
+  },
+  "ref": "jejualps:163",
+  "cite": {
+   "en": "Aldasoro, I., Doerr, S., Rees, D. (2026). Financing the AI boom: from cash flows to debt. BIS Bulletin 120. BIS",
+   "ko": "Aldasoro, I., Doerr, S., Rees, D. (2026). Financing the AI boom: from cash flows to debt. BIS Bulletin 120. BIS"
+  },
+  "citedIn": [
+   "why",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "dataset",
+  "title": "Share of US household-held stocks and mutual fund shares owned by the top 1% (by wealth)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/WFRBST01122",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "WFRBST01122",
+   "unit": "Percent of Aggregate",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series WFRBST01122 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 WFRBST01122 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the share of household-held US stocks and funds owned by the richest one per cent",
+   "ko": "미국 가계 보유 주식·펀드 가운데 자산 상위 백분의 일 가구의 몫"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the top 1% (by wealth). WFRBST01122. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the top 1% (by wealth). WFRBST01122. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "dataset",
+  "title": "Korea: foreign investors' net purchases of Korean stocks and fund shares (portfolio investment liabilities, equity)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/BOPF22100000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 주식(부채). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 주식(부채). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of Korean stocks and fund shares, monthly",
+   "ko": "외국인의 한국 주식·펀드 지분 순매수, 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea: foreign investors' net purchases of Korean stocks and fund shares (portfolio investment liabilities, equity). 301Y013/M/BOPF22100000. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea: foreign investors' net purchases of Korean stocks and fund shares (portfolio investment liabilities, equity). 301Y013/M/BOPF22100000. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "korea"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "paper",
+  "title": "AI and the global economy: implications for central banks",
+  "authors": "Aldasoro, I., Gambacorta, L., Kharroubi, E., Rottner, M.",
+  "institution": "BIS",
+  "series": "BIS Bulletin",
+  "number": "130",
+  "date": "2026-07-28",
+  "url": "https://www.bis.org/publications/bulletin-130-ai-and-global-economy-implications-central-banks",
+  "quote": {
+   "text": "Upstream exporters of AI-related goods (eg semiconductors) – such as Korea, Chinese Taipei, Malaysia and Singapore – have seen export prices outpace import costs, delivering sizeable terms-of-trade gains.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korea's terms-of-trade gains as an exporter of AI hardware",
+   "ko": "AI 하드웨어 수출국인 한국의 교역조건 개선"
+  },
+  "ref": "jejualps:285",
+  "cite": {
+   "en": "Aldasoro, I., Gambacorta, L., Kharroubi, E., Rottner, M. (2026). AI and the global economy: implications for central banks. BIS Bulletin 130. BIS",
+   "ko": "Aldasoro, I., Gambacorta, L., Kharroubi, E., Rottner, M. (2026). AI and the global economy: implications for central banks. BIS Bulletin 130. BIS"
+  },
+  "citedIn": [
+   "why",
+   "korea",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "dataset",
+  "title": "US gross domestic product, current dollars, annual rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/GDP",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "GDP",
+   "unit": "Billions of Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: bea, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series GDP directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 GDP 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "US GDP, to scale foreign holdings and business investment",
+   "ko": "미국 GDP, 외국인 보유액과 기업 투자의 규모를 비교하는 기준"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US gross domestic product, current dollars, annual rate. GDP. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US gross domestic product, current dollars, annual rate. GDP. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "where-money-sits",
+   "why"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "paper",
+  "title": "Unraveling the cobweb of global imbalances: drivers, vulnerabilities, and adjustment scenarios",
+  "authors": "Avdjiev, S., Forbes, K., Nenova, T., Santos, M.",
+  "institution": "BIS",
+  "series": "BIS Working Papers",
+  "number": "1379",
+  "date": "2026-09-23",
+  "url": "https://www.bis.org/publications/working-paper-1379-unraveling-cobweb-global-imbalances-drivers-vulnerabilities-and-adjustment-scenarios",
+  "pdfUrl": "https://www.bis.org/publications/working-paper-1379-unraveling-cobweb-global-imbalances-drivers-vulnerabilities-and-adjustment-scenarios.pdf",
+  "quote": {
+   "text": "After 2010, however, the US position deteriorated sharply, peaking at -20% of global GDP in 2024 — a historical record (at least since our data begins) — before falling back slightly to -19% of global GDP in 2025.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the record gap in 2024 between what foreigners own in the US and what Americans own abroad",
+   "ko": "2024년 외국인의 미국 내 자산과 미국인의 해외 자산 차이가 연구 자료가 시작된 이후 최대였다는 점"
+  },
+  "ref": "jejualps:121862",
+  "cite": {
+   "en": "Avdjiev, S., Forbes, K., Nenova, T., Santos, M. (2026). Unraveling the cobweb of global imbalances: drivers, vulnerabilities, and adjustment scenarios. BIS Working Papers 1379. BIS",
+   "ko": "Avdjiev, S., Forbes, K., Nenova, T., Santos, M. (2026). Unraveling the cobweb of global imbalances: drivers, vulnerabilities, and adjustment scenarios. BIS Working Papers 1379. BIS"
+  },
+  "citedIn": [
+   "where-money-sits",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "paper",
+  "title": "US dollar's slide in April 2025: the role of FX hedging",
+  "authors": "Shin, H.S., Wooldridge, P., Xia, D.",
+  "institution": "BIS",
+  "series": "BIS Bulletin",
+  "number": "105",
+  "date": "2025-06-20",
+  "url": "https://www.bis.org/publ/bisbull105.htm",
+  "quote": {
+   "text": "However, they held only 18% of US equities, compared with 33% of US Treasury securities",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "foreigners' shares of all US stocks and US Treasuries in March 2025",
+   "ko": "2025년 3월 외국인의 미국 주식·미 국채 보유 비중"
+  },
+  "ref": "jejualps:178",
+  "cite": {
+   "en": "Shin, H.S., Wooldridge, P., Xia, D. (2025). US dollar's slide in April 2025: the role of FX hedging. BIS Bulletin 105. BIS",
+   "ko": "Shin, H.S., Wooldridge, P., Xia, D. (2025). US dollar's slide in April 2025: the role of FX hedging. BIS Bulletin 105. BIS"
+  },
+  "citedIn": [
+   "where-money-sits",
+   "why"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "paper",
+  "title": "Current account imbalances, facts, drivers, and policy challenges",
+  "authors": "Frohm, E., Hooley, J., Ozturk, F., Rawdanowicz, L., Sivakumar, N.",
+  "institution": "OECD",
+  "series": "OECD Economics Department Working Papers",
+  "number": "1869",
+  "date": "2026-06-30",
+  "url": "https://econpapers.repec.org/paper/oececoaaa/1869-en.htm",
+  "quote": {
+   "text": "In the United States, this mainly reflects stronger increases in US equity prices relative to other countries, partly driven by recent equity gains of AI-exposed companies.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "US stocks outrunning others', partly on gains in AI-exposed firms",
+   "ko": "미국 주가가 다른 나라보다 더 올랐고 AI 관련 기업의 주가 상승이 그 일부를 이끌었다는 분석"
+  },
+  "ref": "jejualps:75757",
+  "cite": {
+   "en": "Frohm, E., Hooley, J., Ozturk, F., Rawdanowicz, L., Sivakumar, N. (2026). Current account imbalances, facts, drivers, and policy challenges. OECD Economics Department Working Papers 1869. OECD",
+   "ko": "Frohm, E., Hooley, J., Ozturk, F., Rawdanowicz, L., Sivakumar, N. (2026). Current account imbalances, facts, drivers, and policy challenges. OECD Economics Department Working Papers 1869. OECD"
+  },
+  "citedIn": [
+   "where-money-sits"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "paper",
+  "title": "II. Financial conditions in a changing global financial system",
+  "institution": "BIS",
+  "series": "BIS Annual Economic Report",
+  "number": "2025, chapter II",
+  "date": "2025-06-29",
+  "url": "https://www.bis.org/publications/aer-2025/financial-conditions-changing-global-financial-system",
+  "pdfUrl": "https://www.bis.org/publ/arpdf/ar2025e2.pdf",
+  "quote": {
+   "text": "Changes in bilateral portfolio (gross) positions are only loosely related to current account imbalances and associated net capital flow positions.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "why two-way (gross) portfolio flows tell a different story from net flows",
+   "ko": "양방향(총) 증권 흐름이 순흐름과 다른 이야기를 하는 이유"
+  },
+  "ref": "jejualps:8",
+  "cite": {
+   "en": "BIS (2025). II. Financial conditions in a changing global financial system. BIS Annual Economic Report 2025, chapter II.",
+   "ko": "BIS (2025). II. Financial conditions in a changing global financial system. BIS Annual Economic Report 2025, chapter II."
+  },
+  "citedIn": [
+   "new-money",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S22",
+  "kind": "paper",
+  "title": "Markets recalibrate amid shifting currents",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "March 2026",
+  "date": "2026-03-16",
+  "url": "https://www.bis.org/publications/qr-202603/markets-recalibrate-amid-shifting-currents",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt2603a.pdf",
+  "quote": {
+   "text": "Equity fund flows appeared to shift from the United States towards EMEs and other AEs, particularly those in Europe",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "stock-fund flows that appeared to shift from the US towards Europe and emerging markets, late 2025 to early 2026",
+   "ko": "2025년 말~2026년 초 주식 펀드 자금이 미국에서 유럽과 신흥국 쪽으로 옮겨 간 것으로 보인 흐름"
+  },
+  "ref": "jejualps:44533",
+  "cite": {
+   "en": "BIS (2026). Markets recalibrate amid shifting currents. BIS Quarterly Review March 2026.",
+   "ko": "BIS (2026). Markets recalibrate amid shifting currents. BIS Quarterly Review March 2026."
+  },
+  "citedIn": [
+   "new-money",
+   "korea"
+  ]
+ },
+ {
+  "id": "S23",
+  "kind": "paper",
+  "title": "New Evidence on the US Excess Return on Foreign Portfolios",
+  "authors": "Bertaut, C., Curcuru, S., Faia, E., Gourinchas, P.-O.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2024/241",
+  "date": "2024-11-22",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2024/241/001.2024.issue-241-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2024/241/001.2024.issue-241-en.pdf",
+  "quote": {
+   "text": "This concentration is much larger in equity liabilities, where the large tech-related US firms known as the Magnificent 7 comprise 16.2% of equity liabilities holdings in 2022.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Magnificent 7's share of foreigners' US stock holdings in 2022",
+   "ko": "2022년 외국인 보유 미국 주식에서 매그니피센트 7의 비중"
+  },
+  "ref": "jejualps:67155",
+  "cite": {
+   "en": "Bertaut, C., Curcuru, S., Faia, E., Gourinchas, P.-O. (2024). New Evidence on the US Excess Return on Foreign Portfolios. IMF Working Papers 2024/241. IMF",
+   "ko": "Bertaut, C., Curcuru, S., Faia, E., Gourinchas, P.-O. (2024). New Evidence on the US Excess Return on Foreign Portfolios. IMF Working Papers 2024/241. IMF"
+  },
+  "citedIn": [
+   "why"
+  ]
+ },
+ {
+  "id": "S24",
+  "kind": "dataset",
+  "title": "US business investment in information processing equipment and software, annual rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/A679RC1Q027SBEA",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "A679RC1Q027SBEA",
+   "unit": "Billions of Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: bea, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series A679RC1Q027SBEA directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 A679RC1Q027SBEA 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "US business investment in information-processing equipment and software",
+   "ko": "미국 기업의 정보처리 장비·소프트웨어 투자"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US business investment in information processing equipment and software, annual rate. A679RC1Q027SBEA. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US business investment in information processing equipment and software, annual rate. A679RC1Q027SBEA. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "why"
+  ]
+ },
+ {
+  "id": "S25",
+  "kind": "dataset",
+  "title": "US dollar against a broad basket of currencies (Federal Reserve index), monthly average",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DTWEXBGS",
+   "unit": "Index Jan 2006=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DTWEXBGS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DTWEXBGS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the dollar against a broad basket of currencies, monthly averages",
+   "ko": "주요 통화 바스켓 대비 달러 가치, 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US dollar against a broad basket of currencies (Federal Reserve index), monthly average. DTWEXBGS. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US dollar against a broad basket of currencies (Federal Reserve index), monthly average. DTWEXBGS. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "why"
+  ]
+ },
+ {
+  "id": "S26",
+  "kind": "dataset",
+  "title": "10-year government bond yield, Germany",
+  "institution": "ECB Data Portal",
+  "date": "2026-10-19",
+  "url": "https://data.ecb.europa.eu/data/datasets/IRS/IRS.M.DE.L.L40.CI.0000.EUR.N.Z",
+  "dataset": {
+   "provider": "ECB Data Portal",
+   "key": "IRS.M.DE.L.L40.CI.0000.EUR.N.Z",
+   "unit": "% per year",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: ECB Data Portal",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the series IRS.M.DE.L.L40.CI.0000.EUR.N.Z directly in the ECB Data Portal (dataset IRS), with a chart, the data table and a download button.",
+    "ko": "링크를 누르면 ECB 데이터 포털의 IRS.M.DE.L.L40.CI.0000.EUR.N.Z 시리즈(데이터셋 IRS)가 차트, 자료표, 내려받기 버튼과 함께 바로 열린다."
+   }
+  },
+  "usedFor": {
+   "en": "Germany's 10-year government bond rate, monthly averages",
+   "ko": "독일 10년물 국채 금리, 월평균"
+  },
+  "cite": {
+   "en": "ECB Data Portal. 10-year government bond yield, Germany. IRS.M.DE.L.L40.CI.0000.EUR.N.Z. Retrieved 19 Oct 2026.",
+   "ko": "ECB Data Portal. 10-year government bond yield, Germany. IRS.M.DE.L.L40.CI.0000.EUR.N.Z. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "why"
+  ]
+ },
+ {
+  "id": "S27",
+  "kind": "paper",
+  "title": "The Global Financial Cycle: Quantities versus Prices",
+  "authors": "Cerutti, E., Claessens, S.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2024/158",
+  "date": "2024-07-19",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2024/158/001.2024.issue-158-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2024/158/001.2024.issue-158-en.pdf",
+  "quote": {
+   "text": "These median estimates much exceed the 25 percent for capital flows.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how much less global factors explain capital flows than interest rates and asset prices in smaller economies",
+   "ko": "규모가 작은 경제에서 글로벌 요인이 금리·자산 가격보다 자본 흐름을 훨씬 덜 설명한다는 결과"
+  },
+  "ref": "jejualps:67235",
+  "cite": {
+   "en": "Cerutti, E., Claessens, S. (2024). The Global Financial Cycle: Quantities versus Prices. IMF Working Papers 2024/158. IMF",
+   "ko": "Cerutti, E., Claessens, S. (2024). The Global Financial Cycle: Quantities versus Prices. IMF Working Papers 2024/158. IMF"
+  },
+  "citedIn": [
+   "why"
+  ]
+ },
+ {
+  "id": "S28",
+  "kind": "dataset",
+  "title": "Korea: net barter terms of trade index",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y005/M/A",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “교역조건지수” or its code 403Y005 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.2. 교역조건지수. In the table, select 교역조건구분: 순상품교역조건지수. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘교역조건지수’ 또는 코드 403Y005를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.2. 교역조건지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 교역조건구분: 순상품교역조건지수. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's terms of trade, monthly index",
+   "ko": "한국의 순상품교역조건지수, 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea: net barter terms of trade index. 403Y005/M/A. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea: net barter terms of trade index. 403Y005/M/A. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "korea"
+  ]
+ },
+ {
+  "id": "S29",
+  "kind": "dataset",
+  "title": "Korea: foreign investors' net purchases of Korean debt securities (portfolio investment liabilities, debt)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/BOPF22200000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 부채성증권(부채). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 부채성증권(부채). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of Korean bonds, monthly",
+   "ko": "외국인의 한국 채권 순매수, 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea: foreign investors' net purchases of Korean debt securities (portfolio investment liabilities, debt). 301Y013/M/BOPF22200000. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea: foreign investors' net purchases of Korean debt securities (portfolio investment liabilities, debt). 301Y013/M/BOPF22200000. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "korea"
+  ]
+ },
+ {
+  "id": "S30",
+  "kind": "dataset",
+  "title": "Korea: foreign investors' net purchases of Korean securities (portfolio investment liabilities, total)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/BOPF22000000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 증권투자(부채). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 증권투자(부채). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "foreigners' net purchases of all Korean securities, monthly",
+   "ko": "외국인의 한국 증권 전체 순매수, 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea: foreign investors' net purchases of Korean securities (portfolio investment liabilities, total). 301Y013/M/BOPF22000000. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea: foreign investors' net purchases of Korean securities (portfolio investment liabilities, total). 301Y013/M/BOPF22000000. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "korea"
+  ]
+ },
+ {
+  "id": "S31",
+  "kind": "paper",
+  "title": "Financial channel implications of a weaker dollar for emerging market economies",
+  "authors": "Juselius, M., Wooldridge, P., Xia, D.",
+  "institution": "BIS",
+  "series": "BIS Bulletin",
+  "number": "114",
+  "date": "2025-10-13",
+  "url": "https://www.bis.org/publications/bulletin-114-financial-channel-implications-weaker-dollar-emerging-market-economies",
+  "quote": {
+   "text": "For such economies, the financial tailwind from dollar depreciation experienced in the past may turn into a headwind in the future.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "why the boost from a weaker dollar may turn into a drag in future for emerging economies that have become net creditors",
+   "ko": "순채권국이 된 신흥국에 달러 약세의 순풍이 앞으로 역풍으로 바뀔 수 있는 이유"
+  },
+  "ref": "jejualps:169",
+  "cite": {
+   "en": "Juselius, M., Wooldridge, P., Xia, D. (2025). Financial channel implications of a weaker dollar for emerging market economies. BIS Bulletin 114. BIS",
+   "ko": "Juselius, M., Wooldridge, P., Xia, D. (2025). Financial channel implications of a weaker dollar for emerging market economies. BIS Bulletin 114. BIS"
+  },
+  "citedIn": [
+   "korea",
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S32",
+  "kind": "dataset",
+  "title": "Share of US household-held stocks and mutual fund shares owned by the next 9% (90th to 99th wealth percentiles)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/WFRBSN09149",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "WFRBSN09149",
+   "unit": "Percent of Aggregate",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series WFRBSN09149 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 WFRBSN09149 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the share owned by the next nine per cent of US households",
+   "ko": "상위 십분의 일 가운데 나머지 가구의 몫"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the next 9% (90th to 99th wealth percentiles). WFRBSN09149. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the next 9% (90th to 99th wealth percentiles). WFRBSN09149. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S33",
+  "kind": "dataset",
+  "title": "Share of US household-held stocks and mutual fund shares owned by the bottom 50% (by wealth)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/WFRBSB50203",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "WFRBSB50203",
+   "unit": "Percent of Aggregate",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series WFRBSB50203 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 WFRBSB50203 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the share owned by the bottom half of US households",
+   "ko": "하위 절반 가구의 몫"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the bottom 50% (by wealth). WFRBSB50203. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the bottom 50% (by wealth). WFRBSB50203. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S34",
+  "kind": "paper",
+  "title": "Safe Asset Demand, Global Capital Flows and Wealth Concentration",
+  "authors": "Kim, T.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2021/254",
+  "date": "2021-10-22",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2021/254/001.2021.issue-254-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2021/254/001.2021.issue-254-en.pdf",
+  "quote": {
+   "text": "1) financial globalization raises wealth inequality in a financially-developed economy initially due to foreign capital pressing up domestic asset prices; 2) much of this increase is transitory and can be reversed as future expected returns on domestic assets fall;",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "a model in which foreign money raises wealth inequality by pushing up asset prices",
+   "ko": "외국 자금이 자산 가격을 밀어 올려 부의 불평등을 키우는 모형"
+  },
+  "ref": "jejualps:67908",
+  "cite": {
+   "en": "Kim, T. (2021). Safe Asset Demand, Global Capital Flows and Wealth Concentration. IMF Working Papers 2021/254. IMF",
+   "ko": "Kim, T. (2021). Safe Asset Demand, Global Capital Flows and Wealth Concentration. IMF Working Papers 2021/254. IMF"
+  },
+  "citedIn": [
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S35",
+  "kind": "speech",
+  "title": "Christine Lagarde: A new age of capital - growth, sovereignty and AI",
+  "authors": "Lagarde, C.",
+  "institution": "European Central Bank",
+  "series": "BIS central bankers' speeches",
+  "number": "20260924",
+  "date": "2026-09-14",
+  "url": "https://www.bis.org/speeches/20260924-new-age-capital-growth-sovereignty-and-ai",
+  "pdfUrl": "https://www.bis.org/speeches/20260924-new-age-capital-growth-sovereignty-and-ai.pdf",
+  "quote": {
+   "text": "Again, most of the money is flowing to the United States. Euro area households hold about €440 billion in US technology firms.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the ECB president on euro-area households' holdings of US tech firms",
+   "ko": "유로존 가계의 미국 기술기업 보유에 관한 ECB 총재의 언급"
+  },
+  "ref": "jejualps:122196",
+  "cite": {
+   "en": "Lagarde, C. (2026). Christine Lagarde: A new age of capital - growth, sovereignty and AI. BIS central bankers' speeches 20260924. European Central Bank",
+   "ko": "Lagarde, C. (2026). Christine Lagarde: A new age of capital - growth, sovereignty and AI. BIS central bankers' speeches 20260924. European Central Bank"
+  },
+  "citedIn": [
+   "who-gains"
+  ]
+ },
+ {
+  "id": "S36",
+  "kind": "dataset",
+  "title": "Share of US household-held stocks and mutual fund shares owned by the 50th to 90th wealth percentiles",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/WFRBSN40176",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "WFRBSN40176",
+   "unit": "Percent of Aggregate",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series WFRBSN40176 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 WFRBSN40176 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": null,
+   "ko": null
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the 50th to 90th wealth percentiles. WFRBSN40176. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Share of US household-held stocks and mutual fund shares owned by the 50th to 90th wealth percentiles. WFRBSN40176. 2026년 10월 19일 조회."
+  },
+  "citedIn": []
+ }
+]

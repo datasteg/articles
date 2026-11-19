@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <line x1="276" y1="63" x2="420" y2="63" stroke-width="8" stroke-linecap="round" class="s-tarn"/>
+  <circle cx="276" cy="63" r="12" class="f-paper s-tarn" stroke-width="8"/>
+  <circle cx="420" cy="63" r="14" class="f-tarn"/>
+  <line x1="276" y1="102" x2="340" y2="102" stroke-width="8" stroke-linecap="round" class="s-tarn"/>
+  <circle cx="276" cy="102" r="12" class="f-paper s-tarn" stroke-width="8"/>
+  <circle cx="340" cy="102" r="14" class="f-tarn"/>
+  <line x1="174" y1="141" x2="174" y2="141" stroke-width="8" stroke-linecap="round" class="s-seq3"/>
+  <circle cx="174" cy="141" r="12" class="f-paper s-seq4" stroke-width="8"/>
+  <circle cx="174" cy="141" r="14" class="f-seq4"/>
+  <line x1="202" y1="179" x2="108" y2="179" stroke-width="8" stroke-linecap="round" class="s-seq3"/>
+  <circle cx="202" cy="179" r="12" class="f-paper s-seq4" stroke-width="8"/>
+  <circle cx="108" cy="179" r="14" class="f-seq4"/>
+  <line x1="195" y1="218" x2="99" y2="218" stroke-width="8" stroke-linecap="round" class="s-seq3"/>
+  <circle cx="195" cy="218" r="12" class="f-paper s-seq4" stroke-width="8"/>
+  <circle cx="99" cy="218" r="14" class="f-seq4"/>
+  <line x1="152" y1="257" x2="60" y2="257" stroke-width="8" stroke-linecap="round" class="s-seq3"/>
+  <circle cx="152" cy="257" r="12" class="f-paper s-seq4" stroke-width="8"/>
+  <circle cx="60" cy="257" r="14" class="f-seq4"/>
+</svg>

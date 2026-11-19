@@ -1,0 +1,238 @@
+{
+ "kicker": "Stock markets",
+ "title": "Korea's stock swings start with two chipmakers and grow with leveraged bets on them",
+ "dek": "Since February Korean share prices have moved 4.6 times as much a month as US ones while world markets stayed calm, and the data and research point less to foreign investors or margin loans than to a real chip boom in two stocks, magnified by products whose hedging buys into rises and sells into falls.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "11.1%",
+   "label": "Korea's average monthly share-price move, Feb–Sep 2026, 4.6 times the US's (OECD, monthly averages)",
+   "cite": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "value": "25.8%",
+   "label": "rise in Korean share prices in May 2026, the largest monthly rise since 1981 (OECD, monthly averages)",
+   "cite": [
+    "S2"
+   ]
+  },
+  {
+   "value": "268%",
+   "label": "Korea's chip export values in September 2026 against a year earlier (Bank of Korea, in dollars)",
+   "cite": [
+    "S6"
+   ]
+  }
+ ],
+ "findings": [
+  "Since February Korean share prices have moved 11.1% a month on average, 4.6 times as much as US prices, while global fear stayed at its norm and the won showed no rout: the storm is Korean [[S1,S2,S3,S4,S5]].",
+  "The swings ran both ways: May 2026 brought the largest monthly rise in Korean share prices since 1981, 25.8%, and July a fall of 17.6%, exceeded only in two months of the 1997–98 crisis [[S2]].",
+  "The spark is real: Korea's chip export values were 268% above a year earlier in September, and Samsung Electronics and SK hynix took more than half of all Korean share trading in mid-2026 [[S6,S1]].",
+  "The wind is products on the same two stocks, from leveraged ETFs to options and structured notes near key price levels, whose hedging must buy into rises and sell into falls, which fits a year whose largest monthly move was a rise of 25.8% [[S1,S2]].",
+  "Foreign investors tracked the market about as closely as in recent years, and margin loans, a record in won, were below their 2015–2025 average relative to the two markets' value in every month of the run-up except March, though households' credit and other non-mortgage loans did rise 4.1 trillion won in May, the most since July 2021 [[S7,S8,S9,S10,S11,S12]]."
+ ],
+ "question": {
+  "asked": "Why have the KOSPI's daily swings since February 2026 been the largest since 1995 and far larger than in other major markets, and how much do two dominant chip stocks, foreign investors, leveraged products and margin loans each explain?",
+  "lookedAt": "Daily KOSPI closes since 1995, monthly share prices for Korea, the US, Japan and Germany since 1981, foreign investors' daily net purchases, margin loans, household loans, chip export values, the won and the VIX, and BIS, IMF and academic research on leveraged ETFs, options, margin debt and foreign investors.",
+  "premiseNote": "The swings are real and unusual, but they began in February 2026: from June 2025 to January 2026 the KOSPI's daily swings were somewhat above normal but nothing like what followed, and monthly prices only rose. No source we could use has single-company share prices, so whether the largest stocks have ever moved this much cannot be checked; their swings come from the BIS. Foreign investors and leveraged ETFs are tested here as two suspects among several."
+ },
+ "sections": [
+  {
+   "id": "how-big",
+   "heading": "The biggest swings in decades, in both directions",
+   "summary": "Korean share prices have swung harder since February than almost ever, up as well as down.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Since February Korean share prices have swung harder than at almost any time on record, up as well as down. Our numbers are the OECD's monthly averages, which track the KOSPI but smooth out daily highs and lows [[S2]]. Daily statistics come from the Korea Exchange, whose terms for republication we have not cleared, so they appear in words."
+    },
+    {
+     "type": "p",
+     "text": "From February to September Korean share prices moved 11.1% a month on average, up or down, 2.5 times their average from 1981 to May 2025: their ((realised-volatility|volatility)) more than doubled [[S2]]. May brought a rise of 25.8%, the largest since 1981, ahead of 23.0% in April 1999. July brought a fall of 17.6%, exceeded only in two months of the 1997–98 crisis, including the record 21.0% of December 1997."
+    },
+    {
+     "type": "p",
+     "text": "Prices moved by double digits in four months of the eight, against 50 months of five hundred and thirty-two months from 1981 to May 2025. In the eight months before February prices had already risen by double digits in three months, but only upwards; from February they swung both ways [[S2]]."
+    },
+    {
+     "type": "p",
+     "text": "On monthly averages, though, the stretch is not Korea's roughest. The eight months to May 1999 averaged 14.7% a month, and every rougher eight-month stretch before this year came in the crisis years of 1997–99 [[S2]]. The chart below shows every monthly move since 1981."
+    },
+    {
+     "type": "figure",
+     "chart": "monthly-moves"
+    },
+    {
+     "type": "p",
+     "text": "The Korea Exchange's daily closes are starker [[S13]]. In data back to 1995, 2026 is the most volatile year and July 2026 the most volatile month, ahead of October 2008. The largest one-day rise since 1995 and the largest one-day fall, just ahead of 12 September 2001, both came in 2026, as did more days with moves of five per cent or more than any earlier year."
+    },
+    {
+     "type": "p",
+     "text": "The BIS ties these swings to the two largest stocks: Samsung Electronics and SK hynix more than tripled in the first half of 2026, then swung violently, with the wider market following [[S1]]. The premise that the index's swings are unusually large holds; is the storm Korea's alone?"
+    }
+   ]
+  },
+  {
+   "id": "korea-alone",
+   "heading": "A Korean storm in calm world markets",
+   "summary": "Other stock markets and global fear stayed calm, and the won had no rout, while Korean shares swung.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The swings are Korea's own. From February to September US share prices moved 2.4% a month on average, Japan's 2.8% and Germany's 2.3%, each less than its average since 1981 [[S3,S14,S15]]. Korea's 11.1% was 4.6 times the US figure and 4.0 times Japan's [[S2]]. The chart below compares each market's usual move with its 2026 move."
+    },
+    {
+     "type": "figure",
+     "chart": "four-markets"
+    },
+    {
+     "type": "p",
+     "text": "Japan's daily swings also rose in 2026 but stayed well below Korea's [[S16,S13]]. Taiwan, the closest chip-heavy market, is in no source we could use."
+    },
+    {
+     "type": "p",
+     "text": "Nor was the world frightened. The ((vix|VIX)), a gauge of expected swings in US shares, averaged 18.3 from February to late October, level with its 2015–2025 average [[S4]]. Its one stretch of fear, in March and early April, peaked at 31.1 on 27 Mar 2026, far below the 48.8 it averaged in the 2008–09 crisis."
+    },
+    {
+     "type": "p",
+     "text": "That stretch began in early March, and on 4 March the KOSPI had its largest one-day fall since 1995. So Korea's worst day came in the one stretch of global fear, but its record monthly rise in May and its fall in July did not [[S4,S13]]."
+    },
+    {
+     "type": "p",
+     "text": "Research on emerging markets finds that when global fear rises it spills into their stock markets, more so where foreign funds matter [[S17]]. Outside March and early April the VIX showed no such rise. It does not catch every shock from abroad, though: the BIS notes that in mid-2026 muted aggregate volatility gauges masked firm-specific uncertainty and divergence across sectors [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "The won moved more than usual but showed no sign of a currency crisis. Its annualised volatility against the dollar since February was 10.8%, above its norm from 2015 to May 2025 of 8.7% and level with 2022, but far below 2008's 27.9% [[S5]]. It rose rather than fell: by 30 Oct it had gained 15.2% since the share-price peak in June. There was no currency rout: the news may have come from abroad, but what magnified it was inside Korea's stock market."
+    }
+   ]
+  },
+  {
+   "id": "trigger",
+   "heading": "The spark: a real chip boom, packed into two stocks",
+   "summary": "A real memory-chip boom set things off, concentrated in two companies that carry the index.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Two things are worth separating. The spark is news that changes what companies are worth; the wind is trading that must follow the price. Here the spark is a real memory-chip boom, packed into two companies that carry the index."
+    },
+    {
+     "type": "p",
+     "text": "Korea's chip export values, in dollars, were 44% above a year earlier in December 2025 and 203% in June 2026 [[S6]]. By September they were 268% higher, at 5.2 times their 2024 average. In June Bank of Korea Governor Hyun Song Shin said growth had accelerated significantly on chip exports fuelled by AI [[S12]]. The chart below shows the climb, which went on, after a dip in July, once share prices had turned."
+    },
+    {
+     "type": "figure",
+     "chart": "chip-exports"
+    },
+    {
+     "type": "p",
+     "text": "Abroad, tech stocks began to falter at the end of June, and US chipmakers' ((price-earnings-ratio|price-earnings ratios)) fell by two-fifths by early September [[S1]]. The BIS says Korean markets plunged because of their greater exposure to AI-linked firms and the turmoil in a few leveraged investment vehicles [[S1]]. Korea's chip exports dipped in July but reached new highs in August and September, so the fall in shares did not follow a collapse in export sales [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "Samsung Electronics and SK hynix make up more than half of Korea's main blue-chip index [[S1]]. In mid-2026 they took more than half of the value of all Korean share trading, up from just over a tenth through 2025 [[S1]]. With this much ((index-concentration|concentration)), their swings become the index's."
+    },
+    {
+     "type": "p",
+     "text": "Concentration alone does not explain the size of the swings. The ((magnificent-7|Magnificent 7)) US tech firms grew to about a third of the main US index by late 2025, and their falls dragged on US indices without Korean-size swings [[S18,S19,S3]]. What sets Korea apart, the BIS says, is concentration in a market where retail participation and leverage are both unusually high [[S1]]. Its summary puts spark and wind together:"
+    },
+    {
+     "type": "quote",
+     "text": "Amid extreme volatility, Korean markets whipsawed due to heavy semiconductor exposure, magnified by leveraged positioning.",
+     "cite": "S1"
+    }
+   ]
+  },
+  {
+   "id": "amplifiers",
+   "heading": "The wind: products that must trade with the price",
+   "summary": "Leveraged ETFs, call-option dealers and, near key prices, autocallable issuers must buy rises and sell falls.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The wind comes from products on the same two stocks. A ((leveraged-etf)) promising twice a stock's daily move must sell after the stock falls, because its leverage has risen above target, and buy after it rises [[S1]]. This ((rebalancing)) grows with the size of the move, which is why such positions are called ((short-gamma|short gamma)) [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "By 2026 these products were big. Leveraged products on the memory-chip stocks Samsung, SK hynix and Micron grew from under a hundred million dollars in mid-2025 to over thirty-eight billion in June 2026 [[S1]]. For SK hynix, the trade needed after a ten per cent move reached almost five billion dollars, against daily turnover under ten billion [[S1]]. The BIS estimates such flows could add roughly two to four percentage points to such a move: a model estimate for one stock, not a measured share of the KOSPI's swings [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Leveraged ETFs are only the visible tip, the BIS argues [[S1]]. Open SK hynix ((call-option|call options)), bets on a rise, grew about thirtyfold relative to puts from March to June, to near a hundred for each put [[S1]]. The dealers who sold those calls hedge by buying high and selling low, like the ETFs [[S1]]. ((autocallable|Autocallables)), widely sold to Korean retail investors, are another channel, and issuance of structured products on the two stocks rose sharply in the first half; hedging near the upper barrier tends to amplify moves [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "These trades push rises up as well as falls down, which fits a year whose biggest month and biggest day were both rises [[S2,S13]]. The timing fits only loosely: daily swings ran somewhat above normal from June 2025 to January 2026 and jumped from February, while the products grew from small beginnings in mid-2025 to a June 2026 peak [[S13,S1]]. The sources we used give no monthly figures for their size, and the swings were larger still after that peak. The wind magnified a spark rather than lighting the fire; the table below sets the five usual suspects side by side."
+    },
+    {
+     "type": "figure",
+     "chart": "amplifier-table"
+    },
+    {
+     "type": "p",
+     "text": "The evidence has limits. In US data for 2006–14 on large index-tracking leveraged ETFs, investors' own trading cut rebalancing by up to almost three-quarters, the top estimate being for triple-leveraged funds [[S20]]. But that offset came from investors who traded against the trend, and the same authors find flows can add to swings when trading frictions are large [[S20]]. None of the sources we found tests this for Korea in 2026."
+    },
+    {
+     "type": "p",
+     "text": "The mechanism is not new: the BIS likens it to portfolio insurance, whose selling fed the 1987 crash [[S1,S21]]. Hedging calms markets when dealers own the options, as the BIS suggests happened with US income-boosting products in 2022–23 [[S22]]; in Korea they had sold calls. Products large relative to a stock's liquidity can amplify moves, whatever the news [[S1]]."
+    }
+   ]
+  },
+  {
+   "id": "foreigners-margin",
+   "heading": "Foreign investors and margin loans: moving with the market",
+   "summary": "Foreign selling was heavy and margin loans hit a record in won, but both moved with the market.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The two usual suspects moved with the market. In the Korea Exchange's data, foreign investors were net sellers on most of 2026's days with falls of five per cent or more [[S7]]. Their daily ((net-purchases|net purchases)) tracked the index about as closely as in recent years: more tightly than in most years since 2009, level with 2017 and less tightly than in 2021, 2024 or 2025. Their 2026 selling is the largest in won in data back to 2003, yet relative to the market's size it is a little below 2008's [[S9]]."
+    },
+    {
+     "type": "p",
+     "text": "Most of that selling came before the June peak, while prices were still rising, and individual investors bought most of it [[S7,S23]]. Trade-level data from Korea in 1997 did not single foreigners out as destabilising [[S24]]."
+    },
+    {
+     "type": "p",
+     "text": "Research on six Asian markets in 1999–2006, Korea among them, found foreign flows move with same-day returns and chase past prices [[S25]]. In the study's model, Korea's foreign buying also went with the next day's moves, which the authors read as positive feedback trading, though they find the flows have limited power to predict later returns [[S25]]. In 2026 their buying no longer followed the previous day's move and lined up slightly with the next day's instead, though both links are weak [[S7,S13]]."
+    },
+    {
+     "type": "p",
+     "text": "((margin-loan|Margin loans)) set a record in won in May 2026 in KOFIA's data, which begin in 1998 [[S8]]. The loans cover the KOSPI and the smaller KOSDAQ market together. Relative to both markets' value, though, they edged above their 2015–2025 average in only one month of the run-up from February to June, March, and stayed well below their 2021 high [[S8,S9,S10]]. Their sharp drop in July, the steepest since March 2020, fits forced sales during the fall."
+    },
+    {
+     "type": "p",
+     "text": "Households' credit loans and other loans not secured on homes rose 4.1 trillion won in May 2026, the most since July 2021, after falling 1.2 trillion won a month on average in 2024–25 [[S11]]. In June Governor Shin said:"
+    },
+    {
+     "type": "quote",
+     "text": "In addition, the surge in stock prices has been accompanied by a significant increase in leveraged equity investment.",
+     "cite": "S12"
+    },
+    {
+     "type": "p",
+     "text": "He warned that excessive leveraged investment could amplify market volatility [[S12]]. The loan data do not show what the money paid for. The chart below shows the May jump beside the 2021 boom."
+    },
+    {
+     "type": "figure",
+     "chart": "household-credit"
+    },
+    {
+     "type": "p",
+     "text": "Margin debt works mainly on the way down. In China's 2015 crash, margin investors sold heavily as they neared their borrowing limits, and the link between nearness to a margin call and selling was two to three times stronger on down days than on up days [[S26]]. The authors caution the market might have corrected anyway [[S26]]."
+    },
+    {
+     "type": "p",
+     "text": "So margin loans mainly deepen falls, and relative to market value they shrank during the rise, which makes them a weak candidate for Korea's record rises. Margin loans belong to the wind on the way down. Foreign flows moved with the market, but the studies we read differ on whether they add to its swings. One of Korea in 1997 found no evidence singling foreigners out as destabilising [[S24]], while one of 1999–2006 read their flows as positive feedback trading, with limited power to predict returns [[S25]]."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "The familiar explanations are not wrong but stop too early. Foreign investors moved with the market much as in recent years, and margin loans were below their 2015–2025 average relative to market value in every month of the rise but March. What was new in 2026 is a real chip boom in two companies that carry the index, plus products on those stocks whose hedging buys rises and sells falls, which would fit swings that ran both ways and stayed Korean. The timing fits only loosely, since swings were larger after the products' June peak; no source we used splits the swings between causes, the products' main evidence is one BIS review, and nothing here forecasts when the swings end."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

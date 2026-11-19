@@ -1,0 +1,16 @@
+{
+ "id": "cge-model",
+ "term": {
+  "en": "computable general equilibrium model",
+  "ko": "연산가능 일반균형 모형"
+ },
+ "definition": {
+  "en": "A numerical model of many countries and industries in which prices, trade and output adjust together until markets clear. It is used to compare what a policy such as a tariff would do against a world without it.",
+  "ko": "여러 나라와 산업의 가격·무역·생산이 시장이 맞아떨어질 때까지 함께 조정되는 수치 모형이다. 관세 같은 정책이 있는 세계와 없는 세계를 견주는 데 쓴다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "growth"
+ ]
+}

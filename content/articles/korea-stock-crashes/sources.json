@@ -1,0 +1,654 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "Korean share prices (OECD index, monthly average)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/SPASTT01KRM661N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "SPASTT01KRM661N",
+   "unit": "Index 2015=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series SPASTT01KRM661N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 SPASTT01KRM661N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Korean share prices (OECD monthly average): each fall's depth and speed, the two-year run-ups and the recoveries",
+   "ko": "한국 주가(OECD 월평균): 급락마다의 깊이와 속도, 두 해 상승 폭, 회복 기간"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Korean share prices (OECD index, monthly average). SPASTT01KRM661N. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Korean share prices (OECD index, monthly average). SPASTT01KRM661N. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "different-falls",
+   "build-up-2026",
+   "amplifiers",
+   "stabilisers",
+   "model"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "US stock market fear gauge (VIX)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/VIXCLS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "VIXCLS",
+   "unit": "Index",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: cboe, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series VIXCLS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 VIXCLS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the VIX, Wall Street's fear gauge: its highest close in each fall and its long-run median",
+   "ko": "월가의 공포지수 VIX: 급락마다의 최고 종가와 장기 중앙값"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US stock market fear gauge (VIX). VIXCLS. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US stock market fear gauge (VIX). VIXCLS. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "different-falls",
+   "stabilisers"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "US share prices (OECD index, 2015=100)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/SPASTT01USM661N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "SPASTT01USM661N",
+   "unit": "Index 2015=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series SPASTT01USM661N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 SPASTT01USM661N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "US share prices (OECD monthly average) over the same months as each Korean fall",
+   "ko": "한국 급락과 같은 기간의 미국 주가(OECD 월평균)"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US share prices (OECD index, 2015=100). SPASTT01USM661N. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US share prices (OECD index, 2015=100). SPASTT01USM661N. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "different-falls"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "Bank of Korea news sentiment index, daily",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "523Y001/D/A001",
+   "unit": "index (100 = long-run average)",
+   "frequency": "D",
+   "lastObservation": "2026-10-18",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “뉴스심리지수(실험적 통계)” or its code 523Y001 in the search box, or follow the statistics list 6. 심리지수 > 6.4. 뉴스심리지수(실험적 통계). In the table, select 계정항목: 뉴스심리지수. Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘뉴스심리지수(실험적 통계)’ 또는 코드 523Y001를 입력하거나, 통계 목록에서 6. 심리지수 > 6.4. 뉴스심리지수(실험적 통계) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 뉴스심리지수. 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the Bank of Korea's daily news sentiment index in the year before each stock peak, on the peak day and during each fall",
+   "ko": "주가 고점 전 한 해, 고점 당일, 하락기의 한국은행 일별 뉴스심리지수"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Bank of Korea news sentiment index, daily. 523Y001/D/A001. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Bank of Korea news sentiment index, daily. 523Y001/D/A001. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "mood"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "paper",
+  "title": "Yields climb, yet risk appetite holds firm",
+  "authors": "Abbassi, Cornelli, Lombardi, Schrimpf, Sushko; Box B by Todorov",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "September 2026",
+  "date": "2026-09-14",
+  "url": "https://www.bis.org/publications/qr-202609/yields-climb-yet-risk-appetite-holds-firm",
+  "pdfUrl": "https://www.bis.org/publications/yields-climb-yet-risk-appetite-holds-firm.pdf",
+  "quote": {
+   "text": "Shares of Samsung Electronics and SK Hynix, Korea’s dominant memory chipmakers, rose more than threefold in the first half of 2026 and then swung violently, with the wider market following them (Graph B1.A).",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Samsung Electronics and SK Hynix shares more than tripling in the first half of 2026, with the wider market following",
+   "ko": "삼성전자와 SK하이닉스 주가가 2026년 상반기 세 배 넘게 오르고 시장이 그 뒤를 따랐다는 사실"
+  },
+  "ref": "jejualps:122096",
+  "cite": {
+   "en": "Abbassi, Cornelli, Lombardi, Schrimpf, Sushko; Box B by Todorov (2026). Yields climb, yet risk appetite holds firm. BIS Quarterly Review September 2026. BIS",
+   "ko": "Abbassi, Cornelli, Lombardi, Schrimpf, Sushko; Box B by Todorov (2026). Yields climb, yet risk appetite holds firm. BIS Quarterly Review September 2026. BIS"
+  },
+  "citedIn": [
+   "different-falls",
+   "build-up-2026",
+   "amplifiers",
+   "model"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "Semiconductor export value index (US dollar basis), monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/3091AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 반도체. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 반도체. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's semiconductor export value index (US dollars)",
+   "ko": "한국 반도체 수출금액지수(달러 기준)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Semiconductor export value index (US dollar basis), monthly. 403Y001/M/3091AA. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Semiconductor export value index (US dollar basis), monthly. 403Y001/M/3091AA. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "build-up-2026"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "dataset",
+  "title": "Bank of Korea base rate",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "722Y001/D/0101000",
+   "unit": "연%",
+   "frequency": "D",
+   "lastObservation": "2026-10-19",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “한국은행 기준금리 및 여수신금리” or its code 722Y001 in the search box, or follow the statistics list 1. 통화/금융 > 1.3. 금리 > 1.3.1. 한국은행 기준금리 및 여수신금리. In the table, select 계정항목: 한국은행 기준금리. Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘한국은행 기준금리 및 여수신금리’ 또는 코드 722Y001를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.3. 금리 > 1.3.1. 한국은행 기준금리 및 여수신금리 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 한국은행 기준금리. 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the Bank of Korea base rate: cuts and rises around each fall",
+   "ko": "한국은행 기준금리: 급락 전후의 인하와 인상"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Bank of Korea base rate. 722Y001/D/0101000. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Bank of Korea base rate. 722Y001/D/0101000. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "stabilisers"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "paper",
+  "title": "Bubbles for Fama",
+  "authors": "Greenwood, R., Shleifer, A., You, Y.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w23191",
+  "date": "2017-02-01",
+  "url": "https://www.nber.org/papers/w23191",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w23191/w23191.pdf",
+  "quote": {
+   "text": "Overall, if we study only the cases in which a crash does occur, the average return experienced between the initial price run-up and the subsequent peak price is 30% (and is as much as 107% in the case of precious metal stocks in the late 1970s).",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "prices rising further after the first warning in run-ups that crashed",
+   "ko": "급락한 급등에서도 첫 경보 뒤 가격이 더 올랐다는 연구"
+  },
+  "ref": "jejualps:100608",
+  "cite": {
+   "en": "Greenwood, R., Shleifer, A., You, Y. (2017). Bubbles for Fama. NBER Working Papers w23191. NBER",
+   "ko": "Greenwood, R., Shleifer, A., You, Y. (2017). Bubbles for Fama. NBER Working Papers w23191. NBER"
+  },
+  "citedIn": [
+   "build-up-2026",
+   "model"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "paper",
+  "title": "Identifying Speculative Bubbles: A Two-Pillar Surveillance Framework",
+  "authors": "Jones, B.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "WP/14/208",
+  "date": "2014-11-19",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2014/208/001.2014.issue-208-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2014/208/001.2014.issue-208-en.pdf",
+  "quote": {
+   "text": "It is unlikely any single variable or model specification will ever be able to offer irrefutable evidence, in real time, that an irrational bubble is in progress—by definition, bubbles can only be identified with complete certainty ex-post.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "why no measure can prove a bubble in real time",
+   "ko": "어떤 지표도 버블을 실시간으로 증명할 수 없는 이유"
+  },
+  "ref": "jejualps:69753",
+  "cite": {
+   "en": "Jones, B. (2014). Identifying Speculative Bubbles: A Two-Pillar Surveillance Framework. IMF Working Papers WP/14/208. IMF",
+   "ko": "Jones, B. (2014). Identifying Speculative Bubbles: A Two-Pillar Surveillance Framework. IMF Working Papers WP/14/208. IMF"
+  },
+  "citedIn": [
+   "mood",
+   "model"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "dataset",
+  "title": "Won per US dollar (New York noon rate)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/DEXKOUS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DEXKOUS",
+   "unit": "South Korean Won to One U.S. Dollar",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DEXKOUS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DEXKOUS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the won against the dollar (New York rate) over each fall",
+   "ko": "급락 기간의 원/달러 환율(뉴욕 기준)"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Won per US dollar (New York noon rate). DEXKOUS. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Won per US dollar (New York noon rate). DEXKOUS. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "different-falls"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "paper",
+  "title": "Portfolio Flows, Global Risk Aversion and Asset Prices in Emerging Markets",
+  "authors": "Ananchotikul, N., Zhang, L.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2014/156",
+  "date": "2014-08-19",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2014/156/001.2014.issue-156-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2014/156/001.2014.issue-156-en.pdf",
+  "quote": {
+   "text": "For the rest of the variance, global factors, particularly the VIX and S&P 500 excess returns, are much more important contributors than domestic factors.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the VIX and US share returns explaining far more of emerging-market fund flows than domestic factors, beyond the flows' own shocks, in a study of seventeen markets without Korea",
+   "ko": "자금 흐름 자체의 충격을 빼면 신흥국 펀드 자금 흐름을 VIX와 미국 주가 수익률이 국내 요인보다 훨씬 많이 설명한다는, 한국을 뺀 열일곱 개 신흥국 연구"
+  },
+  "ref": "jejualps:69803",
+  "cite": {
+   "en": "Ananchotikul, N., Zhang, L. (2014). Portfolio Flows, Global Risk Aversion and Asset Prices in Emerging Markets. IMF Working Papers 2014/156. IMF",
+   "ko": "Ananchotikul, N., Zhang, L. (2014). Portfolio Flows, Global Risk Aversion and Asset Prices in Emerging Markets. IMF Working Papers 2014/156. IMF"
+  },
+  "citedIn": [
+   "different-falls",
+   "model"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "dataset",
+  "title": "Composite consumer sentiment index (CCSI), monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-19",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "511Y002/M/FME/99988",
+   "unit": "index (100 = long-run average)",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “소비자동향조사(전국, 월, 2008.9~)” or its code 511Y002 in the search box, or follow the statistics list 6. 심리지수 > 6.2. 소비자동향조사 > 6.2.1. 소비자동향조사(전국, 월, 2008.9~). In the table, select CSI코드: 소비자심리지수; CSI분류코드: 전체. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘소비자동향조사(전국, 월, 2008.9~)’ 또는 코드 511Y002를 입력하거나, 통계 목록에서 6. 심리지수 > 6.2. 소비자동향조사 > 6.2.1. 소비자동향조사(전국, 월, 2008.9~) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: CSI코드: 소비자심리지수; CSI분류코드: 전체. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the Bank of Korea's monthly consumer sentiment index in 2008 and 2026",
+   "ko": "2008년과 2026년 한국은행 월간 소비자심리지수"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Composite consumer sentiment index (CCSI), monthly. 511Y002/M/FME/99988. Retrieved 19 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Composite consumer sentiment index (CCSI), monthly. 511Y002/M/FME/99988. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "mood"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "paper",
+  "title": "Emotions and Subjective Crash Beliefs",
+  "authors": "Goetzmann, W. N., Kim, D., Shiller, R. J.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w32589",
+  "date": "2024-06-01",
+  "url": "https://www.nber.org/papers/w32589",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w32589/w32589.pdf",
+  "quote": {
+   "text": "The average reported crash probability from the Shiller surveys is thus more than 10 times higher.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "investors putting the chance of a crash far above its historical frequency",
+   "ko": "투자자들이 급락 확률을 역사적 빈도보다 훨씬 높게 본다는 설문 연구"
+  },
+  "ref": "jejualps:81984",
+  "cite": {
+   "en": "Goetzmann, W. N., Kim, D., Shiller, R. J. (2024). Emotions and Subjective Crash Beliefs. NBER Working Papers w32589. NBER",
+   "ko": "Goetzmann, W. N., Kim, D., Shiller, R. J. (2024). Emotions and Subjective Crash Beliefs. NBER Working Papers w32589. NBER"
+  },
+  "citedIn": [
+   "mood"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "speech",
+  "title": "Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea",
+  "authors": "Shin, H. S.",
+  "institution": "Bank of Korea",
+  "series": "BIS central bankers' speeches",
+  "date": "2026-06-16",
+  "url": "https://www.bis.org/review/r260616d.htm",
+  "pdfUrl": "https://www.bis.org/review/r260616d.pdf",
+  "quote": {
+   "text": "In addition, the surge in stock prices has been accompanied by a significant increase in leveraged equity investment.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Bank of Korea Governor on leveraged equity investment during the 2026 surge",
+   "ko": "2026년 급등기 레버리지 주식투자 증가에 대한 한국은행 총재의 발언"
+  },
+  "ref": "jejualps:21814",
+  "cite": {
+   "en": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. BIS central bankers' speeches. Bank of Korea",
+   "ko": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. BIS central bankers' speeches. Bank of Korea"
+  },
+  "citedIn": [
+   "build-up-2026",
+   "stabilisers"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "paper",
+  "title": "Leverage-Induced Fire Sales and Stock Market Crashes",
+  "authors": "Bian, J., He, Z., Shue, K., Zhou, H.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w25040",
+  "date": "2018-09-01",
+  "url": "https://www.nber.org/papers/w25040",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w25040/w25040.pdf",
+  "quote": {
+   "text": "Margin investors heavily sell their holdings when their account-level leverage edges toward their maximum leverage limits, controlling for stock-date and account fixed effects.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "account-level evidence of forced selling by margin investors in China's 2015 crash",
+   "ko": "2015년 중국 폭락 때 신용 투자자의 강제 매도를 보여 준 계좌 단위 증거"
+  },
+  "ref": "jejualps:98762",
+  "cite": {
+   "en": "Bian, J., He, Z., Shue, K., Zhou, H. (2018). Leverage-Induced Fire Sales and Stock Market Crashes. NBER Working Papers w25040. NBER",
+   "ko": "Bian, J., He, Z., Shue, K., Zhou, H. (2018). Leverage-Induced Fire Sales and Stock Market Crashes. NBER Working Papers w25040. NBER"
+  },
+  "citedIn": [
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "paper",
+  "title": "Do Foreign Investors Destabilize Stock Markets? The Korean Experience in 1997",
+  "authors": "Choe, H., Kho, B.-C., Stulz, R. M.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w6661",
+  "date": "1998-07-01",
+  "url": "https://www.nber.org/papers/w6661",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w6661/w6661.pdf",
+  "quote": {
+   "text": "We find evidence of positive feedback trading for foreign investors before the Korean crisis period for the market as a whole and for individual stocks.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "foreign investors chasing returns in Korea before the 1997 crisis",
+   "ko": "1997년 위기 전 한국에서 외국인 투자자의 수익률 추종 매매"
+  },
+  "ref": "jejualps:113485",
+  "cite": {
+   "en": "Choe, H., Kho, B.-C., Stulz, R. M. (1998). Do Foreign Investors Destabilize Stock Markets? The Korean Experience in 1997. NBER Working Papers w6661. NBER",
+   "ko": "Choe, H., Kho, B.-C., Stulz, R. M. (1998). Do Foreign Investors Destabilize Stock Markets? The Korean Experience in 1997. NBER Working Papers w6661. NBER"
+  },
+  "citedIn": [
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "paper",
+  "title": "Foreign Portfolio Investors Before and during a Crisis",
+  "authors": "Kim, W., Wei, S.-J.",
+  "institution": "OECD",
+  "series": "OECD Economics Department Working Papers",
+  "number": "210",
+  "date": "1999-02-10",
+  "url": "https://econpapers.repec.org/paper/oececoaaa/210-en.htm",
+  "pdfUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/1999/02/foreign-portfolio-investors-before-and-during-a-crisis_g17a13fc/522265260065.pdf",
+  "quote": {
+   "text": "As such, they do not by themselves distinguish between two possibilities: that investors intentionally (rationally or not) mimic each other’s trading, versus that investors respond to common information about the fundamentals.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "why herding measures cannot tell copying from reactions to the same news",
+   "ko": "군집행동 지표가 모방과 같은 뉴스에 대한 반응을 구분하지 못하는 이유"
+  },
+  "ref": "jejualps:85653",
+  "cite": {
+   "en": "Kim, W., Wei, S.-J. (1999). Foreign Portfolio Investors Before and during a Crisis. OECD Economics Department Working Papers 210. OECD",
+   "ko": "Kim, W., Wei, S.-J. (1999). Foreign Portfolio Investors Before and during a Crisis. OECD Economics Department Working Papers 210. OECD"
+  },
+  "citedIn": [
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "paper",
+  "title": "Forecasting Crashes: Trading Volume, Past Returns and Conditional Skewness in Stock Prices",
+  "authors": "Chen, J., Hong, H., Stein, J. C.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w7687",
+  "date": "2000-05-01",
+  "url": "https://www.nber.org/papers/w7687",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w7687/w7687.pdf",
+  "quote": {
+   "text": "Thus accumulated hidden information tends to come out during market declines, which is another way of saying that returns are negatively skewed.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "a rational reason falls can be fast, in a well-known model: hidden bad news comes out during declines",
+   "ko": "잘 알려진 한 모형에서 숨은 악재가 하락기에 드러나 하락이 빠를 수 있다는 합리적 설명"
+  },
+  "ref": "jejualps:112709",
+  "cite": {
+   "en": "Chen, J., Hong, H., Stein, J. C. (2000). Forecasting Crashes: Trading Volume, Past Returns and Conditional Skewness in Stock Prices. NBER Working Papers w7687. NBER",
+   "ko": "Chen, J., Hong, H., Stein, J. C. (2000). Forecasting Crashes: Trading Volume, Past Returns and Conditional Skewness in Stock Prices. NBER Working Papers w7687. NBER"
+  },
+  "citedIn": [
+   "amplifiers",
+   "model"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "paper",
+  "title": "The market turbulence and carry trade unwind of August 2024",
+  "authors": "Aquilina, M., Lombardi, M., Schrimpf, A., Sushko, V.",
+  "institution": "BIS",
+  "series": "BIS Bulletin",
+  "number": "90",
+  "date": "2024-08-27",
+  "url": "https://www.bis.org/publ/bisbull90.htm",
+  "quote": {
+   "text": "By the close at the end of the week on Friday 9 August, the S&P 500 had recovered all the losses incurred since Monday, while the TOPIX had recovered most of them, and the VIX receded to much lower, albeit still relatively elevated, levels.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how fast US shares recovered after the August 2024 turmoil",
+   "ko": "2024년 8월 혼란 뒤 미국 주가의 빠른 회복"
+  },
+  "ref": "jejualps:193",
+  "cite": {
+   "en": "Aquilina, M., Lombardi, M., Schrimpf, A., Sushko, V. (2024). The market turbulence and carry trade unwind of August 2024. BIS Bulletin 90. BIS",
+   "ko": "Aquilina, M., Lombardi, M., Schrimpf, A., Sushko, V. (2024). The market turbulence and carry trade unwind of August 2024. BIS Bulletin 90. BIS"
+  },
+  "citedIn": [
+   "stabilisers"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "paper",
+  "title": "Market Declines: Is Banning Short Selling the Solution?",
+  "authors": "Battalio, R., Mehran, H., Schultz, P.",
+  "institution": "Federal Reserve Bank of New York",
+  "series": "Federal Reserve Bank of New York Staff Reports",
+  "number": "518",
+  "date": "2011-09-01",
+  "url": "http://www.newyorkfed.org/research/staff_reports/sr518.pdf",
+  "quote": {
+   "text": "The preponderance of evidence suggests that the short sale ban did little to slow the decline in financial stock prices.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the US short-selling ban of 2008 doing little to slow the fall in financial shares",
+   "ko": "2008년 미국 공매도 금지가 금융주 하락을 늦추는 데 별 효과가 없었다는 연구"
+  },
+  "ref": "jejualps:60524",
+  "cite": {
+   "en": "Battalio, R., Mehran, H., Schultz, P. (2011). Market Declines: Is Banning Short Selling the Solution?. Federal Reserve Bank of New York Staff Reports 518. Federal Reserve Bank of New York",
+   "ko": "Battalio, R., Mehran, H., Schultz, P. (2011). Market Declines: Is Banning Short Selling the Solution?. Federal Reserve Bank of New York Staff Reports 518. Federal Reserve Bank of New York"
+  },
+  "citedIn": [
+   "stabilisers"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "policy-note",
+  "title": "Stock market responses to bank restructuring policies during the East Asian crisis",
+  "authors": "Klingebiel, D., Kroszner, R., Laeven, L. et al.",
+  "institution": "World Bank",
+  "series": "Policy Research Working Papers",
+  "number": "WPS2571",
+  "date": "2001-03-31",
+  "url": "http://documents.worldbank.org/curated/en/588281468746365407/Stock-market-responses-to-bank-restructuring-policies-during-the-East-Asian-crisis",
+  "pdfUrl": "https://documents.worldbank.org/curated/en/588281468746365407/pdf/multi0page.pdf",
+  "quote": {
+   "text": "The return on banks is positive and statistically significant with respect to the announcement of guarantees on banks' liabilities.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "guarantees of bank liabilities lifting bank stocks in four Asian crisis countries in 1997–98 (model-design table)",
+   "ko": "1997~1998년 아시아 위기 네 나라에서 은행 부채 보증 발표가 은행 주가를 끌어올렸다는 연구(모형 설계 표)"
+  },
+  "ref": "jejualps:92653",
+  "cite": {
+   "en": "Klingebiel, D., Kroszner, R., Laeven, L. et al. (2001). Stock market responses to bank restructuring policies during the East Asian crisis. Policy Research Working Papers WPS2571. World Bank",
+   "ko": "Klingebiel, D., Kroszner, R., Laeven, L. et al. (2001). Stock market responses to bank restructuring policies during the East Asian crisis. Policy Research Working Papers WPS2571. World Bank"
+  },
+  "citedIn": []
+ }
+]

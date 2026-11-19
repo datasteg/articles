@@ -1,0 +1,19 @@
+{
+  "name": "datasteg-articles",
+  "private": true,
+  "packageManager": "pnpm@11.18.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "tokens": "node packages/tokens/build.mjs",
+    "index": "node scripts/build-content-index.mjs",
+    "check": "node scripts/check-content.mjs && node scripts/check-colors.mjs",
+    "dev": "pnpm tokens && pnpm index && pnpm --filter @articles/web dev",
+    "build": "pnpm tokens && pnpm check && pnpm index && pnpm --filter @articles/web build",
+    "start": "pnpm --filter @articles/web start"
+  },
+  "devDependencies": {
+    "yaml": "2.9.1"
+  }
+}

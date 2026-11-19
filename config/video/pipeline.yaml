@@ -1,0 +1,55 @@
+# The video explainer: a derived product of a published article. It lives here, not in
+# config/pipelines/, because the site draws every file there; the explainer shows it as its last step (`video`,
+# follows: publish). publish-article starts it after the article is live: `artools video auto <slug>` makes the run
+# and drives these steps in the background.
+id: video
+version: "1.0"
+status: live
+private: true
+name: {en: Video explainer, ko: 영상 해설}
+tagline: {en: "A published article as a ten-minute narrated video, in English and Korean", ko: "게시된 기사를 10분 내레이션 영상으로, 영어와 한국어로"}
+shape: {minutes: "9–15", slides: "16–24", gates: 0}
+guide: guides/video.md
+phases:
+  - {id: script, label: {en: Script, ko: 대본}}
+  - {id: media, label: {en: Slides and voice, ko: 슬라이드와 목소리}}
+  - {id: review, label: {en: Review, ko: 검토}}
+  - {id: publish, label: {en: Publish, ko: 게시}}
+steps:
+  - id: script
+    skill: write-video-script
+    phase: script
+    label: {en: Storyboard and scripts, ko: 스토리보드와 대본}
+    detail: {en: "One storyboard for both languages, then each edition's narration on its beats", ko: "두 언어가 함께 쓰는 스토리보드, 그다음 언어판마다 내레이션"}
+  - id: slides
+    skill: make-slides
+    phase: media
+    label: {en: Slides, ko: 슬라이드}
+    detail: {en: "The article's own components at 1920×1080, rendered and inspected", ko: "기사의 구성 요소를 1920×1080으로 그리고 확인한다"}
+  - id: voice
+    command: voice
+    phase: media
+    label: {en: Voice, ko: 목소리}
+    detail: {en: "Gemini TTS per beat, transcribed and compared with the script", ko: "비트마다 Gemini TTS로 읽고 받아쓰기로 대본과 대조한다"}
+  - id: assemble
+    command: assemble
+    phase: media
+    label: {en: Assemble, ko: 합치기}
+    detail: {en: "Video, loudness, captions, chapters, thumbnail", ko: "영상, 음량, 자막, 챕터, 썸네일"}
+  - id: review
+    skill: review-video
+    phase: review
+    loop: {owners: [write-video-script, make-slides], max: 2}
+    label: {en: Review, ko: 검토}
+    detail: {en: "Fact-checked against the article; eyes-closed and muted tests", ko: "기사와 대조하고, 눈 감고 듣기와 소리 끄고 보기를 검사한다"}
+  - id: upload
+    command: upload
+    phase: publish
+    label: {en: Publish on YouTube, ko: YouTube에 공개}
+    detail: {en: "Both editions uploaded public, with captions, playlists and links to each other", ko: "두 언어판을 공개로 올리고 자막, 재생목록, 서로의 링크를 붙인다"}
+  - id: publish
+    skill: publish-video
+    manual: true
+    phase: publish
+    label: {en: Check and report, ko: 확인과 보고}
+    detail: {en: "The editor checks the public videos; corrections follow D13", ko: "편집자가 공개 영상을 확인하고, 정정은 D13을 따른다"}

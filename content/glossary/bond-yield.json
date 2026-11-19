@@ -1,0 +1,15 @@
+{
+ "id": "bond-yield",
+ "term": {
+  "en": "bond yield",
+  "ko": "국채 금리"
+ },
+ "definition": {
+  "en": "The yearly return an investor gets by buying a government bond at today's market price and holding it until it is repaid. When bond prices fall, yields rise.",
+  "ko": "오늘의 시장 가격에 국채를 사서 만기까지 보유할 때 투자자가 얻는 연간 수익률이다. 채권 가격이 내리면 금리는 오른다."
+ },
+ "topics": [
+  "bond-markets"
+ ],
+ "approvedBy": null
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <line x1="330" y1="174" x2="330" y2="50" class="s-ink2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M340 54 Q436 110 414 162 L340 162 Z" class="f-paper s-seq4" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M320 66 L320 162 L254 162 Z" class="f-seq2 s-seq4" stroke-width="8" stroke-linejoin="round"/>
+  <polygon points="222,170 450,170 412,212 240,212" class="f-tarn"/>
+  <rect x="0" y="198" width="480" height="122" class="f-seq2"/>
+  <rect x="0" y="286" width="480" height="34" class="f-seq3"/>
+  <line x1="232" y1="190" x2="124" y2="214" class="s-focus" stroke-width="12" stroke-dasharray="16 8" stroke-linecap="round"/>
+  <g transform="translate(110 248) scale(1.3) translate(-110 -256)">
+    <circle cx="110" cy="234" r="10" fill="none" class="s-focus" stroke-width="8"/>
+    <line x1="110" y1="244" x2="110" y2="284" class="s-focus" stroke-width="12" stroke-linecap="round"/>
+    <line x1="92" y1="254" x2="128" y2="254" class="s-focus" stroke-width="10" stroke-linecap="round"/>
+    <path d="M78 262 Q82 286 110 286 Q138 286 142 262" fill="none" class="s-focus" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

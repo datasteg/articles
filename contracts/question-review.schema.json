@@ -1,0 +1,171 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "question-review",
+ "type": "object",
+ "properties": {
+  "asked": {
+   "type": "string",
+   "minLength": 1
+  },
+  "verdict": {
+   "enum": [
+    "proceed",
+    "refined",
+    "reframed",
+    "decline"
+   ]
+  },
+  "refined": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "string"
+    },
+    "ko": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "en"
+   ]
+  },
+  "what_we_looked_at": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "string"
+    },
+    "ko": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "en"
+   ]
+  },
+  "premise_note": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "premises": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1
+     },
+     "status": {
+      "enum": [
+       "supported",
+       "partly",
+       "contradicted",
+       "unverifiable"
+      ]
+     },
+     "note": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "id",
+     "status",
+     "note"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 1
+  },
+  "definitions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "term": {
+      "type": "string",
+      "minLength": 1
+     },
+     "criterion": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "term",
+     "criterion"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 0
+  },
+  "comparators": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "added": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "dropped": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "data_as_of": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "glossary_terms": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  },
+  "needs_scout": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  }
+ },
+ "required": [
+  "asked",
+  "verdict",
+  "refined",
+  "what_we_looked_at",
+  "premises",
+  "definitions",
+  "added",
+  "dropped"
+ ],
+ "additionalProperties": true
+}

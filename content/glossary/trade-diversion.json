@@ -1,0 +1,15 @@
+{
+ "id": "trade-diversion",
+ "term": {
+  "en": "trade diversion",
+  "ko": "무역 전환"
+ },
+ "definition": {
+  "en": "The shift of purchases from one supplier country to another because a tariff or other barrier has made the first more expensive. The buyer's total imports may not change; who supplies them does.",
+  "ko": "관세나 다른 장벽 때문에 한 공급국의 상품이 비싸지자 구매가 다른 공급국으로 옮겨 가는 현상이다. 수입 총량은 그대로여도 공급국이 바뀐다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade"
+ ]
+}

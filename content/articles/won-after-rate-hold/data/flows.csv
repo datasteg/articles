@@ -1,0 +1,6 @@
+﻿Flow,USD bn,Direction
+"{'en': 'Current account', 'ko': '경상수지'}",279.2013,"{'en': 'In', 'ko': '유입'}"
+"{'en': 'Foreign stock sales', 'ko': '외국인 주식 순매도'}",100.7665,"{'en': 'Out', 'ko': '유출'}"
+"{'en': ""Residents' buying abroad"", 'ko': '거주자 해외증권 순매수'}",74.293,"{'en': 'Out', 'ko': '유출'}"
+"{'en': 'Foreign bond buying', 'ko': '외국인 채권 순매수'}",15.3371,"{'en': 'In', 'ko': '유입'}"
+"{'en': 'Net of the four', 'ko': '네 흐름 합계'}",119.4789,"{'en': 'In', 'ko': '유입'}"

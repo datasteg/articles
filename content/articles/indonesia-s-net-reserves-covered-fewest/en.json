@@ -1,0 +1,224 @@
+{
+ "kicker": "Reserves and trade",
+ "title": "Indonesia's net reserves covered the fewest months of imports in 20 quarters",
+ "dek": "At end-June 2026, the net reserves of Indonesia's central bank (IMF) could pay for 3.78 months of goods imports (UN Comtrade), less than at any quarter-end since September 2021. In the latest quarter, that cover fell by 8.5% while net reserves fell by only 2.7%. Most of that step therefore reflects a larger twelve-month import bill.",
+ "whyNow": "BIS bank data for end-June 2026 came out at the end of October 2026. At that quarter-end, Indonesia's net reserves covered the fewest months of imports in 20 quarters, while bond and bank money flowed in. IMF reserve data to September are out, but the joined tables end at June.",
+ "keyNumbers": [
+  {
+   "value": "3.78 months",
+   "label": "Months of goods imports that Indonesia's net reserves could pay for at end-June 2026 (IMF, UN Comtrade). The lowest of 20 quarter-ends since September 2021, against its own median of 5.04 months",
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "3",
+   "label": "Indonesia's rank from the lowest import cover among the 13 non-advanced economies with a value at end-June 2026, whose median was 7.1 months. It was fourth lowest of all 21 economies with a value",
+   "cite": [
+    "S5"
+   ]
+  },
+  {
+   "value": "−8.5%",
+   "label": "Change in Indonesia's import cover in the quarter to end-June 2026. Net reserves changed by only −2.7% (IMF), so most of the fall in cover reflects a larger twelve-month import bill (UN Comtrade)",
+   "cite": [
+    "S1",
+    "S2",
+    "S4"
+   ]
+  }
+ ],
+ "findings": [
+  "Indonesia's net reserves could pay for 3.78 months of goods imports at end-June 2026. That was the lowest of 20 quarter-ends since September 2021, against its own median of 5.04 months.",
+  "Over the year to end-June 2026, Indonesia's import cover fell by 22.1%, from 4.85 months. Over the same year, Thailand's cover went from 10.8 months to 9.4 months. Korea's went from 8.4 months to 7.6 months.",
+  "In the latest quarter, Indonesia's net reserves fell by only 2.7%, to USD 82.6 bn. Cover is reserves divided by imports, so most of the quarter's 8.5% fall in cover reflects a larger twelve-month import bill.",
+  "Among the 13 non-advanced economies with a value at end-June 2026, Indonesia's cover was third lowest, against their median of 7.1 months. Across all 21 economies with a value, its rank from the lowest was 4."
+ ],
+ "question": {
+  "asked": "Why could Indonesia's net reserves pay for fewer months of imports in mid-2026 than at any quarter-end since September 2021? Was it the reserves or the import bill that moved?",
+  "lookedAt": "IMF reserve data and BIS banking statistics at end-March and end-June 2026, read from money-flow's Signal Board. We joined them with UN Comtrade goods imports over the twelve months to June 2026 and to June 2025, read from global-network's stress signals and country sheets.",
+  "premiseNote": null
+ },
+ "sections": [
+  {
+   "id": "finding",
+   "heading": "A five-year low for import cover",
+   "summary": "Indonesia's net reserves covered fewer months of imports than at any quarter-end since September 2021.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At end-June 2026, the net reserves of Indonesia's central bank could pay for 3.78 months of goods imports [[S1]]. That was the lowest of 20 quarter-ends since September 2021; the previous low, 4.13 months, came at end-March 2026 [[S1]]. This measure, import cover, counts the months of imports that foreign-currency reserves could pay for. The net version first subtracts the central bank's own foreign-currency payments due within a year."
+    },
+    {
+     "type": "p",
+     "text": "Indonesia's median over those quarters was 5.04 months [[S1]]. The comparable series starts in 2011, and until mid-2021 cover never fell below 5.59 months. It has no values for mid-2013 to mid-2014 or mid-2015, so the low is not checked against the taper tantrum or the rupiah sell-off."
+    },
+    {
+     "type": "figure",
+     "chart": "idn-cover-history"
+    }
+   ]
+  },
+  {
+   "id": "each-side",
+   "heading": "Reserves fell over the year, imports rose in the quarter",
+   "summary": "Lower net reserves did more over the year. A larger import bill made the latest quarter the low.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Over the year to end-June 2026, Indonesia's net reserves fell by 15.0%, to USD 82.6 bn [[S2]] [[S1]] [[S3]]. Its import bill, the cost of goods imported over the previous twelve months, rose by 9.0%, to USD 262 bn [[S3]]. That rise was slower than the median of 11.0% across the 34 economies with import data [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "Lower net reserves alone, with the import bill held at its June 2025 level, would have cut cover by 0.73 months [[S1]] [[S2]] [[S3]]. The larger bill alone, with net reserves held instead, would have cut it by 0.40 months [[S1]] [[S3]]. The two parts overlap, so they do not add exactly to the year's fall."
+    },
+    {
+     "type": "p",
+     "text": "The latest quarter ran the other way, and it set the new low. Cover fell by 8.5%, while net reserves fell by only 2.7% [[S1]] [[S2]] [[S4]]. Cover is net reserves divided by monthly imports, so the rest of the fall reflects a rise in the twelve-month import bill."
+    },
+    {
+     "type": "p",
+     "text": "Gross reserves, the total before the central bank's short-term payments are subtracted, barely moved over the quarter, from USD 148 bn to USD 146 bn [[S2]] [[S4]]. On that measure cover is 6.67 months [[S2]] [[S3]]. These tables cannot say whether the year's fall in net reserves came from lower gross reserves or from larger payments due."
+    }
+   ]
+  },
+  {
+   "id": "why-it-matters",
+   "heading": "Low among peers, with more short-term debt falling due",
+   "summary": "Indonesia's cover was third lowest among non-advanced economies, while its short-term debt to foreign banks rose.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Among the 13 non-advanced economies with a value, only Malaysia and Türkiye had less cover than Indonesia [[S5]]. The median across those 13 non-advanced economies was 7.1 months [[S5]]. Across all 21 economies with a value, Indonesia was fourth lowest [[S5]]. A year earlier it was seventh lowest of 23, a different set of economies [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "Indonesia is above three months of imports on both net and gross reserves. Three months is a convention from IMF reserve-adequacy work for emerging economies, usually read on gross reserves, not a threshold these data set."
+    },
+    {
+     "type": "figure",
+     "chart": "peer-ranking"
+    },
+    {
+     "type": "p",
+     "text": "Cover matters because, if foreign lenders stopped renewing short-term loans, reserves would have to meet those too. What Indonesian borrowers owe within a year to banks reporting to the BIS, known as short-term claims, rose by 18.1% over the quarter, to USD 54.7 bn [[S2]] [[S4]]. Those claims went from 31.3% to 37.6% of gross reserves."
+    },
+    {
+     "type": "p",
+     "text": "Most of the quarter's inflow was bonds: net issuance of international bonds was USD 11.7 bn, against USD 2.3 bn of cross-border bank flows [[S2]]. Together they came to an annualised 20.9% of the amount outstanding, up from 1.8% in the quarter to March [[S2]] [[S4]]. That was the fourth largest inflow of the 36 economies, whose median was 9.1% [[S2]]. A central bank facing inflows usually buys foreign currency and adds to reserves, yet Indonesia's net reserves fell."
+    },
+    {
+     "type": "p",
+     "text": "Across the 21 economies with a cover value, larger inflows did not go together with more or less cover: the rank correlation was −0.07 [[S2]] [[S5]]. That is over too few economies to rule out a link."
+    },
+    {
+     "type": "figure",
+     "chart": "flow-vs-cover"
+    }
+   ]
+  },
+  {
+   "id": "limits",
+   "heading": "What this cannot tell us",
+   "summary": "The periods differ, the year's split rests on a rebuilt starting point, and the ranks use net reserves only.",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "Different periods. Reserves and bank claims are levels at end-June 2026, the newest BIS quarter. Imports are a total over July 2025 to June 2026.",
+      "A rebuilt starting point. Net reserves at end-June 2025, USD 97.2 bn, are implied from that quarter's cover and a rebuilt import bill, so the year's split is approximate [[S1]] [[S3]].",
+      "Net reserves only. Gross reserves are the IMF figure, recovered from the ratio of BIS bank claims to gross reserves, with no history here. The five-year low and the ranks therefore use net reserves only.",
+      "Coverage. Of the 36 economies, 15 have no cover value [[S5]]. They are Argentina, with negative net reserves, China and Russia, with no import figure, and 12 advanced economies for which the tables give no reason [[S2]] [[S3]]. Only Indonesia's own history was checked for a five-year low.",
+      "Inflows alongside falling reserves. Bond proceeds may have paid for a current-account balance of −1.0% of GDP, or stayed abroad with corporate issuers. The central bank may have sold foreign currency against outflows not counted here, or reserves may have lost value on exchange rates. The tables do not show who issued the bonds."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "heading": "How we counted",
+   "summary": "We divided net reserves at each quarter-end by an average month of imports, then split the fall between the two.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Import cover divides net reserves at a quarter-end (IMF reserve template) by the average month of goods imports over the twelve months to that date (UN Comtrade). We read cover from global-network's stress signals, imports from its country sheets, and reserves, flows and bank claims from money-flow's Signal Board."
+    },
+    {
+     "type": "p",
+     "text": "For the year, we recomputed cover twice, holding first the import bill and then net reserves at their June 2025 levels. For the quarter, the change in cover that net reserves do not explain is counted as the import bill. The tables are listed under Get the data."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "Over the year, Indonesia's cover fell mostly through lower net reserves. The step to a new low came through a larger import bill, while bond money flowed in. The next joined reading needs UN Comtrade imports to September and BIS bank data to end-September, due at the end of January 2027. If the June-quarter rise in the import bill is revised down, the low would rest on net reserves alone. If net reserves fall again while the bill grows, cover would move further below anything in its series since 2011."
+ },
+ "byline": "datasteg desk · AI-assisted",
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice. Figures from the data sites linked in this article's sources follow their published aggregation rules, so they can differ from the same statistics published elsewhere.",
+ "whyNowLabel": "Why this note",
+ "reproduce": {
+  "heading": "Get the data",
+  "intro": "Every number in this note was read from datasteg's public pages and its free API. Open a page to explore the data, or run the lines below to fetch the same tables as CSV. Each answer names its release, its period and the statistics it comes from.",
+  "note": "The money-flow lines ask for the release this note used; the other apps answer with their latest data.",
+  "items": [
+   {
+    "label": "Signal Board, Q1 2026",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/world?bq=2026-03-31",
+    "api": "https://api.datasteg.com/v1/money-flow/board?quarter=2026-03-31&release=20261118.2",
+    "release": "20261118.2"
+   },
+   {
+    "label": "Signal Board: funding vulnerability and flows",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/world",
+    "api": "https://api.datasteg.com/v1/money-flow/board?release=20261118.2",
+    "release": "20261118.2"
+   },
+   {
+    "label": "Sovereign stress signals",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/sovereign",
+    "api": "https://api.datasteg.com/v1/money-flow/sovereign?release=20261118.2",
+    "release": "20261118.2"
+   },
+   {
+    "label": "Stress signals for the 36 money-flow board economies, 2025-Q2",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/stress?tab=board&bq=2025-06-30",
+    "api": "https://api.datasteg.com/v1/global-network/stress?quarter=2025-06-30",
+    "release": "20261118.1"
+   },
+   {
+    "label": "Indonesia, 2026-Q2",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/stress?e=IDN",
+    "api": "https://api.datasteg.com/v1/global-network/stress?economy=IDN",
+    "release": "20261118.1"
+   },
+   {
+    "label": "Country sheets: funding and goods trade by economy (Indonesia)",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/c/IDN",
+    "api": "https://api.datasteg.com/v1/global-network/countries/IDN",
+    "release": "20261118.1"
+   },
+   {
+    "label": "Funding-and-trade stress signals",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/stress?tab=board",
+    "api": "https://api.datasteg.com/v1/global-network/stress",
+    "release": "20261118.1"
+   }
+  ],
+  "code": "curl -s \"https://api.datasteg.com/v1/money-flow/board?quarter=2026-03-31&release=20261118.2&format=csv\" -o board-prev.csv\ncurl -s \"https://api.datasteg.com/v1/global-network/stress?quarter=2025-06-30&format=csv\" -o stress-2025q2.csv\ncurl -s \"https://api.datasteg.com/v1/money-flow/board?release=20261118.2&format=csv\" -o board.csv\ncurl -s \"https://api.datasteg.com/v1/global-network/stress?economy=IDN&format=csv\" -o stress-idn.csv",
+  "docs": "https://www.datasteg.com/en/technology/api",
+  "download": {
+   "label": "All the tables, chart data and numbers behind this note, as CSV files in one ZIP",
+   "file": "data.zip",
+   "files": 13,
+   "bytes": 24753
+  }
+ }
+}

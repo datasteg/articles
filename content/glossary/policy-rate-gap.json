@@ -1,0 +1,16 @@
+{
+ "id": "policy-rate-gap",
+ "term": {
+  "en": "policy-rate gap",
+  "ko": "정책금리차"
+ },
+ "definition": {
+  "en": "The difference between the interest rates two central banks have set. It says where policy stands today, not where markets expect it to go.",
+  "ko": "두 중앙은행이 정한 정책금리의 차이다. 지금의 정책 수준을 보여 줄 뿐, 시장이 예상하는 앞으로의 방향은 담지 않는다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy",
+  "exchange-rates"
+ ]
+}

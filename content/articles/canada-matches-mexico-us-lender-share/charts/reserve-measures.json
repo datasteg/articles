@@ -1,0 +1,177 @@
+{
+ "id": "reserve-measures",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Canada's short-term bank debt is large against reserves on either measure: 260% of gross, 294% of net",
+  "ko": "캐나다 단기 은행 부채 총 준비금의 260%, 순 준비금의 294%"
+ },
+ "title": {
+  "en": "Short-term cross-border bank loans owed against gross and net reserves: Canada, Mexico and Colombia",
+  "ko": "총액 및 순액 준비금에 대한 단기 국경 간 은행 대출: 캐나다, 멕시코, 콜롬비아"
+ },
+ "subtitle": {
+  "en": "BIS locational banking statistics and IMF reserves, end-June 2026; %; the economies whose largest lender and largest buyer is the United States, UK left out",
+  "ko": "BIS 지역별 은행 통계 및 IMF 외환보유고, 2026년 6월말; %; 최대 대출국 및 최대 매수국이 미국인 경제; 영국 제외"
+ },
+ "alt": {
+  "en": "The short-term cross-border bank loans Canada owes equal 260% of its gross reserves and 294% of its net reserves, against group medians of 51.5% and 62.9%.",
+  "ko": "캐나다의 단기 대외 차입 은행 대출은 총 준비금의 260%, 순 준비금의 294%에 해당하며, 이는 그룹 중앙값인 51.5%와 62.9%에 비해 높은 수준이다."
+ },
+ "howToRead": {
+  "en": "Each row is an economy. The two markers are the same short-term bank loans owed, divided by reserves before and after the central bank's short-term foreign-currency payments are deducted.",
+  "ko": "각 행은 경제권을 나타낸다. 두 마커는 중앙은행의 단기 외화 지급이 차감되기 전후로 나뉜 동일한 단기 은행 대출 부채를 준비금으로 나눈 값이다."
+ },
+ "notes": [
+  {
+   "en": "Group medians: 51.5% against gross reserves and 62.9% against net reserves.",
+   "ko": "그룹 중앙값은 총 준비금 대비 51.5%, 순 준비금 대비 62.9%다."
+  },
+  {
+   "en": "The UK is left out because banks located there book loans for groups based elsewhere, so its short-term figures reflect booking rather than its own borrowing.",
+   "ko": "영국은 해당 지역에 소재한 은행들이 다른 지역에 기반을 둔 그룹의 대출을 기록하기 때문에 단기 수치는 자체 차입이 아닌 기록(booking)을 반영하므로 제외된다."
+  },
+  {
+   "en": "Canada has a floating exchange rate, so reserves are one buffer among several.",
+   "ko": "캐나다는 변동환율제를 채택하고 있으므로 외환보유액은 여러 완충장치 중 하나이다."
+  }
+ ],
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Short-term cross-border bank loans owed, % of reserves",
+    "ko": "단기 대외 차입 은행대출, 준비금 대비 비율(%)"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    300
+   ],
+   "ticks": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": "CAN",
+   "label": {
+    "en": "Canada",
+    "ko": "캐나다"
+   },
+   "from": 259.58,
+   "to": 293.56,
+   "highlight": true
+  },
+  {
+   "id": "MEX",
+   "label": {
+    "en": "Mexico",
+    "ko": "멕시코"
+   },
+   "from": 27.27,
+   "to": 29.28,
+   "highlight": false
+  },
+  {
+   "id": "COL",
+   "label": {
+    "en": "Colombia",
+    "ko": "콜롬비아"
+   },
+   "from": 22.7,
+   "to": 24.94,
+   "highlight": false
+  }
+ ],
+ "fromLabel": {
+  "en": "Short-term cross-border bank loans owed / gross reserves (%)",
+  "ko": "단기 대외 은행 차입금 / 총 준비금(%)"
+ },
+ "toLabel": {
+  "en": "Short-term cross-border bank loans owed / net reserves (%)",
+  "ko": "단기 대외 은행 차입금 / 순외환보유액(%)"
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "label",
+    "label": {
+     "en": "Economy",
+     "ko": "경제"
+    }
+   },
+   {
+    "key": "a2_gross_pct",
+    "label": {
+     "en": "Short-term cross-border bank loans owed / gross reserves (%)",
+     "ko": "단기 대외 은행 차입금 / 총 준비금(%)"
+    },
+    "align": "right"
+   },
+   {
+    "key": "a2_pct",
+    "label": {
+     "en": "Short-term cross-border bank loans owed / net reserves (%)",
+     "ko": "단기 대외 은행 차입금 / 순외환보유액(%)"
+    },
+    "align": "right"
+   }
+  ],
+  "rows": [
+   {
+    "label": {
+     "en": "Canada",
+     "ko": "캐나다"
+    },
+    "a2_gross_pct": 259.58,
+    "a2_pct": 293.56
+   },
+   {
+    "label": {
+     "en": "Mexico",
+     "ko": "멕시코"
+    },
+    "a2_gross_pct": 27.27,
+    "a2_pct": 29.28
+   },
+   {
+    "label": {
+     "en": "Colombia",
+     "ko": "콜롬비아"
+    },
+    "a2_gross_pct": 22.7,
+    "a2_pct": 24.94
+   }
+  ]
+ },
+ "meta": {
+  "sources": [
+   "S7"
+  ],
+  "provider": "BIS, IMF via datasteg money-flow",
+  "keys": [
+   "api.datasteg.com/v1/money-flow/board"
+  ],
+  "definition": {
+   "en": "On gross reserves (%); BIS banks' claims due within a year ÷ reserve base (%)",
+   "ko": "단기 대외 은행 차입금 / 총 준비금(%); 단기 대외 은행 차입금 / 순외환보유액(%)"
+  },
+  "lastObservation": "2026-06-30",
+  "retrieved": "2026-11-17",
+  "licence": "derived views of open statistics; each publisher's terms apply",
+  "attribution": {
+   "en": "BIS, IMF via datasteg money-flow; datasteg calculation",
+   "ko": "BIS, IMF datasteg 자금흐름; datasteg 계산"
+  }
+ },
+ "csv": "data/reserve-measures.csv"
+}

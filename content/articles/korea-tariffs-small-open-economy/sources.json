@@ -1,0 +1,1396 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "US customs duties (tariff revenue), seasonally adjusted annual rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/B235RC1Q027SBEA",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "B235RC1Q027SBEA",
+   "unit": "Billions of Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series B235RC1Q027SBEA directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 B235RC1Q027SBEA 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the US effective tariff rate, customs duties over goods imports, quarterly since 2000",
+   "ko": "미국 실효관세율, 상품 수입액 대비 관세 징수액, 2000년 이후 분기별"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US customs duties (tariff revenue), seasonally adjusted annual rate. B235RC1Q027SBEA. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US customs duties (tariff revenue), seasonally adjusted annual rate. B235RC1Q027SBEA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "tariff-shock",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "US imports of goods, seasonally adjusted annual rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/A255RC1Q027SBEA",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "A255RC1Q027SBEA",
+   "unit": "Billions of Dollars",
+   "frequency": "Q",
+   "lastObservation": "2026-04-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series A255RC1Q027SBEA directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 A255RC1Q027SBEA 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the US effective tariff rate, customs duties over goods imports, quarterly since 2000",
+   "ko": "미국 실효관세율, 상품 수입액 대비 관세 징수액, 2000년 이후 분기별"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US imports of goods, seasonally adjusted annual rate. A255RC1Q027SBEA. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US imports of goods, seasonally adjusted annual rate. A255RC1Q027SBEA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "tariff-shock",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "paper",
+  "title": "U.S. Import Tariffs in 2025: Realized Tariff Rates, Import Prices, and Local Labor-Market Effects",
+  "authors": "Azzimonti, M., Titcomb, J.",
+  "institution": "Federal Reserve Bank of Richmond",
+  "series": "Federal Reserve Bank of Richmond Working Papers",
+  "number": "26-08",
+  "date": "2026-04-15",
+  "url": "https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/working_papers/2026/wp26-08.pdf",
+  "quote": {
+   "text": "While the statutory AETR reached approximately 17 percent by December, the realized AETR settled at 9.3 percent, indicating a persistent gap between announced and implemented tariff burdens.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the gap between announced and collected tariff rates by December 2025",
+   "ko": "2025년 12월 발표 관세율과 징수 관세율의 차이"
+  },
+  "ref": "jejualps:47124",
+  "cite": {
+   "en": "Azzimonti, M., Titcomb, J. (2026). U.S. Import Tariffs in 2025: Realized Tariff Rates, Import Prices, and Local Labor-Market Effects. Federal Reserve Bank of Richmond Working Papers 26-08. Federal Reserve Bank of Richmond",
+   "ko": "Azzimonti, M., Titcomb, J. (2026). U.S. Import Tariffs in 2025: Realized Tariff Rates, Import Prices, and Local Labor-Market Effects. Federal Reserve Bank of Richmond Working Papers 26-08. Federal Reserve Bank of Richmond"
+  },
+  "citedIn": [
+   "tariff-shock",
+   "sectors",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "US goods imports from China, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMPCH",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMPCH",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMPCH directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMPCH 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "China's share of US goods imports, twelve-month sums",
+   "ko": "미국 상품 수입에서 중국 비중, 열두 달 합계"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from China, customs basis. IMPCH. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from China, customs basis. IMPCH. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "US goods imports from all countries, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMP0015",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMP0015",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMP0015 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMP0015 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "China's share of US goods imports, twelve-month sums",
+   "ko": "미국 상품 수입에서 중국 비중, 열두 달 합계"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from all countries, customs basis. IMP0015. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from all countries, customs basis. IMP0015. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting",
+   "model",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "US goods imports from South Korea, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMPKR",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMPKR",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMPKR directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMPKR 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's share of US goods imports",
+   "ko": "미국 상품 수입에서 한국 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from South Korea, customs basis. IMPKR. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from South Korea, customs basis. IMPKR. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting",
+   "korea-so-far",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "policy-note",
+  "title": "The US-China Trade War and Global Reallocations",
+  "authors": "Fajgelbaum, P., Goldberg, P., Kennedy, P., Khandelwal, A., Taglioni, D.",
+  "institution": "World Bank",
+  "series": "Policy Research Working Papers",
+  "number": "WPS9894",
+  "date": "2022-01-06",
+  "url": "http://documents.worldbank.org/curated/en/735611641482672239/The-US-China-Trade-War-and-Global-Reallocations",
+  "pdfUrl": "https://documents.worldbank.org/curated/en/735611641482672239/pdf/The-US-China-Trade-War-and-Global-Reallocations.pdf",
+  "quote": {
+   "text": "Some countries such as Vietnam, Thailand, Korea, and Mexico were among the largest export “winners”, in the sense that they better exploited trade opportunities in product markets with declining US or Chinese participation.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korea named among the largest export winners of 2018–19",
+   "ko": "2018~2019년 수출 승자에 한국이 꼽힌 점"
+  },
+  "ref": "jejualps:78790",
+  "cite": {
+   "en": "Fajgelbaum, P., Goldberg, P., Kennedy, P., Khandelwal, A., Taglioni, D. (2022). The US-China Trade War and Global Reallocations. Policy Research Working Papers WPS9894. World Bank",
+   "ko": "Fajgelbaum, P., Goldberg, P., Kennedy, P., Khandelwal, A., Taglioni, D. (2022). The US-China Trade War and Global Reallocations. Policy Research Working Papers WPS9894. World Bank"
+  },
+  "citedIn": [
+   "rerouting",
+   "model",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "dataset",
+  "title": "Korea goods exports, balance-of-payments basis, monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/110000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 상품수출. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 상품수출. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's goods exports on a balance-of-payments basis, monthly since 2000",
+   "ko": "한국 상품 수출(국제수지 기준), 2000년 이후 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea goods exports, balance-of-payments basis, monthly. 301Y013/M/110000. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea goods exports, balance-of-payments basis, monthly. 301Y013/M/110000. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "korea-so-far",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "dataset",
+  "title": "Korea current account balance, monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/000000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 경상수지. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 경상수지. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's current account balance, monthly",
+   "ko": "한국 경상수지, 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea current account balance, monthly. 301Y013/M/000000. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea current account balance, monthly. 301Y013/M/000000. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "korea-so-far"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "dataset",
+  "title": "Korea real GDP growth, quarter on quarter, seasonally adjusted",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "200Y102/Q/10111",
+   "unit": "%",
+   "frequency": "Q",
+   "lastObservation": "2026-Q2",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주요지표(분기지표)” or its code 200Y102 in the search box, or follow the statistics list 2. 국민계정 > 2.1. 국민소득통계(2020년 기준년) > 2.1.1. 주요지표 > 2.1.1.2. 주요지표(분기지표). In the table, select 계정항목: 국내총생산(GDP)(실질, 계절조정, 전기비). Set the cycle (주기) to quarterly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주요지표(분기지표)’ 또는 코드 200Y102를 입력하거나, 통계 목록에서 2. 국민계정 > 2.1. 국민소득통계(2020년 기준년) > 2.1.1. 주요지표 > 2.1.1.2. 주요지표(분기지표) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 국내총생산(GDP)(실질, 계절조정, 전기비). 주기를 분기(Q)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's real GDP growth, quarter on quarter, seasonally adjusted",
+   "ko": "한국 실질 GDP 전기 대비 성장률, 계절조정"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea real GDP growth, quarter on quarter, seasonally adjusted. 200Y102/Q/10111. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea real GDP growth, quarter on quarter, seasonally adjusted. 200Y102/Q/10111. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "korea-so-far",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "dataset",
+  "title": "Korea export value index, primary steel products",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/3071AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 철강1차제품. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 철강1차제품. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the export value index for primary steel products",
+   "ko": "철강 일차제품 수출금액지수"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export value index, primary steel products. 403Y001/M/3071AA. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export value index, primary steel products. 403Y001/M/3071AA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "sectors",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "dataset",
+  "title": "Korea export value index, semiconductors",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/3091AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 반도체. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 반도체. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the export value index for semiconductors",
+   "ko": "반도체 수출금액지수"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export value index, semiconductors. 403Y001/M/3091AA. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export value index, semiconductors. 403Y001/M/3091AA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "sectors",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "paper",
+  "title": "Assessing the macroeconomic impacts of the 2025 US tariffs",
+  "authors": "Zhao, H.",
+  "institution": "BIS",
+  "series": "BIS Working Papers",
+  "number": "1316",
+  "date": "2025-12-11",
+  "url": "https://www.bis.org/publications/working-paper-1316-assessing-macroeconomic-impacts-2025-us-tariffs",
+  "pdfUrl": "https://www.bis.org/publ/work1316.pdf",
+  "quote": {
+   "text": "Korea -0.34 -0.32 USA -0.94 -0.72",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korea's modelled output loss under the August 2025 tariffs",
+   "ko": "2025년 8월 관세 아래 모형 속 한국의 생산 손실"
+  },
+  "ref": "jejualps:45586",
+  "cite": {
+   "en": "Zhao, H. (2025). Assessing the macroeconomic impacts of the 2025 US tariffs. BIS Working Papers 1316. BIS",
+   "ko": "Zhao, H. (2025). Assessing the macroeconomic impacts of the 2025 US tariffs. BIS Working Papers 1316. BIS"
+  },
+  "citedIn": [
+   "rerouting",
+   "position",
+   "scenarios",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "paper",
+  "title": "Trade Wars and Trade Deals: Estimated Effects using a Multi-Sector Model",
+  "authors": "Caceres, C., Cerdeiro, D., Mano, R.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2019/143",
+  "date": "2019-07-03",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2019/143/001.2019.issue-143-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2019/143/001.2019.issue-143-en.pdf",
+  "quote": {
+   "text": "However, while Malaysia sees large long-term gains, Korea barely benefits. The reason is that Chinese exports of electronics and other manufacturing going to the U.S. have a large Korean value-added component.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korean value added inside Chinese exports limiting Korea's diversion gains",
+   "ko": "중국 수출품 안의 한국 부가가치가 한국의 무역 전환 이득을 제한하는 점"
+  },
+  "ref": "jejualps:68565",
+  "cite": {
+   "en": "Caceres, C., Cerdeiro, D., Mano, R. (2019). Trade Wars and Trade Deals: Estimated Effects using a Multi-Sector Model. IMF Working Papers 2019/143. IMF",
+   "ko": "Caceres, C., Cerdeiro, D., Mano, R. (2019). Trade Wars and Trade Deals: Estimated Effects using a Multi-Sector Model. IMF Working Papers 2019/143. IMF"
+  },
+  "citedIn": [
+   "position",
+   "scenarios",
+   "model",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "paper",
+  "title": "Sizing Up the Effects of Technological Decoupling",
+  "authors": "Cerdeiro, D., Eugster, J., Mano, R., Muir, D., Peiris, S.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2021/069",
+  "date": "2021-03-12",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2021/069/001.2021.issue-069-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2021/069/001.2021.issue-069-en.pdf",
+  "quote": {
+   "text": "built by straddling different regional value chains then it either benefits marginally or is more likely to lose (e.g., Korea).",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korea as the example of a hub-straddling economy that gains little or loses",
+   "ko": "여러 축에 걸쳐 조금 얻거나 잃는 경제의 예로 든 한국"
+  },
+  "ref": "jejualps:68080",
+  "cite": {
+   "en": "Cerdeiro, D., Eugster, J., Mano, R., Muir, D., Peiris, S. (2021). Sizing Up the Effects of Technological Decoupling. IMF Working Papers 2021/069. IMF",
+   "ko": "Cerdeiro, D., Eugster, J., Mano, R., Muir, D., Peiris, S. (2021). Sizing Up the Effects of Technological Decoupling. IMF Working Papers 2021/069. IMF"
+  },
+  "citedIn": [
+   "position",
+   "scenarios",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "dataset",
+  "title": "Korea exports plus imports as a share of GNI, nominal, annual",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "200Y101/A/901",
+   "unit": "%",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주요지표(연간지표)” or its code 200Y101 in the search box, or follow the statistics list 2. 국민계정 > 2.1. 국민소득통계(2020년 기준년) > 2.1.1. 주요지표 > 2.1.1.1. 주요지표(연간지표). In the table, select 계정항목: 수출입의 대 GNI 비율(명목). Set the cycle (주기) to annual, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주요지표(연간지표)’ 또는 코드 200Y101를 입력하거나, 통계 목록에서 2. 국민계정 > 2.1. 국민소득통계(2020년 기준년) > 2.1.1. 주요지표 > 2.1.1.1. 주요지표(연간지표) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 수출입의 대 GNI 비율(명목). 주기를 연간(A)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's trade openness, exports plus imports as a share of gross national income, annual",
+   "ko": "한국 무역 개방도, 국민총소득 대비 수출입 합계, 연간"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea exports plus imports as a share of GNI, nominal, annual. 200Y101/A/901. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea exports plus imports as a share of GNI, nominal, annual. 200Y101/A/901. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "position"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "paper",
+  "title": "The Price of De-Risking: Reshoring, Friend-Shoring, and Quality Downgrading",
+  "authors": "Cerdeiro, D., Kamali, P., Kothari, S., Muir, D.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2024/122",
+  "date": "2024-06-21",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2024/122/001.2024.issue-122-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2024/122/001.2024.issue-122-en.pdf",
+  "quote": {
+   "text": "Korea observes the largest losses of close to 4 percent of GDP, while the United States sees losses of about 1 percent of GDP.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korea's loss under China–OECD friend-shoring, the largest of any OECD region",
+   "ko": "중국·OECD 우방국 재편에서 OECD 지역 최대인 한국의 손실"
+  },
+  "ref": "jejualps:67269",
+  "cite": {
+   "en": "Cerdeiro, D., Kamali, P., Kothari, S., Muir, D. (2024). The Price of De-Risking: Reshoring, Friend-Shoring, and Quality Downgrading. IMF Working Papers 2024/122. IMF",
+   "ko": "Cerdeiro, D., Kamali, P., Kothari, S., Muir, D. (2024). The Price of De-Risking: Reshoring, Friend-Shoring, and Quality Downgrading. IMF Working Papers 2024/122. IMF"
+  },
+  "citedIn": [
+   "scenarios",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "paper",
+  "title": "Trade Partners’ Responses to US Tariffs",
+  "authors": "Rotunno, L., Ruta, M.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2025/147",
+  "date": "2025-07-18",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2025/147/001.2025.issue-147-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2025/147/001.2025.issue-147-en.pdf",
+  "quote": {
+   "text": "Some large members of RCEP, including Japan and Korea, experience increases in real exports of up to 15 percent, outweighing the export losses caused by US tariffs, whereas China’s goods exports increase only slightly.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Korea's exports rising under deeper integration with other partners",
+   "ko": "다른 나라와의 통합 심화로 늘어나는 한국 수출"
+  },
+  "ref": "jejualps:66991",
+  "cite": {
+   "en": "Rotunno, L., Ruta, M. (2025). Trade Partners’ Responses to US Tariffs. IMF Working Papers 2025/147. IMF",
+   "ko": "Rotunno, L., Ruta, M. (2025). Trade Partners’ Responses to US Tariffs. IMF Working Papers 2025/147. IMF"
+  },
+  "citedIn": [
+   "position",
+   "uncertainty-and-responses",
+   "model",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "dataset",
+  "title": "Trade policy uncertainty index (US newspapers)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/EPUTRADE",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "EPUTRADE",
+   "unit": "Index",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: baker, scott r., davis, stephen j., bloom, nick, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series EPUTRADE directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 EPUTRADE 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the news-based trade policy uncertainty index, monthly since 1985",
+   "ko": "뉴스 기반 무역정책 불확실성 지수, 1985년 이후 월별"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Trade policy uncertainty index (US newspapers). EPUTRADE. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Trade policy uncertainty index (US newspapers). EPUTRADE. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "uncertainty-and-responses",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "speech",
+  "title": "Chang Yong Rhee: The future of Asia - can it remain the engine of global growth?",
+  "authors": "Rhee, C. Y.",
+  "institution": "Bank of Korea",
+  "series": "BIS central bank speeches",
+  "number": "review_r260310a",
+  "date": "2026-03-12",
+  "url": "https://www.bis.org/review/r260310a.htm",
+  "pdfUrl": "https://www.bis.org/review/r260310a.pdf",
+  "quote": {
+   "text": "That said, this is less a shrinkage of global trade than a reorganization.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the governor's view that trade was reorganised rather than shrunk",
+   "ko": "무역이 줄지 않고 재편됐다는 총재의 시각"
+  },
+  "ref": "jejualps:22077",
+  "cite": {
+   "en": "Rhee, C. Y. (2026). Chang Yong Rhee: The future of Asia - can it remain the engine of global growth?. BIS central bank speeches review_r260310a. Bank of Korea",
+   "ko": "Rhee, C. Y. (2026). Chang Yong Rhee: The future of Asia - can it remain the engine of global growth?. BIS central bank speeches review_r260310a. Bank of Korea"
+  },
+  "citedIn": [
+   "rerouting",
+   "korea-so-far",
+   "position",
+   "model",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "dataset",
+  "title": "US goods imports from Mexico, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMPMX",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMPMX",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMPMX directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMPMX 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Mexico's share of US goods imports",
+   "ko": "미국 상품 수입에서 멕시코 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Mexico, customs basis. IMPMX. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Mexico, customs basis. IMPMX. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S22",
+  "kind": "dataset",
+  "title": "US goods imports from Vietnam, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMP5520",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMP5520",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMP5520 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMP5520 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Vietnam's share of US goods imports",
+   "ko": "미국 상품 수입에서 베트남 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Vietnam, customs basis. IMP5520. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Vietnam, customs basis. IMP5520. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S23",
+  "kind": "dataset",
+  "title": "US goods imports from Taiwan, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMP5830",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMP5830",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMP5830 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMP5830 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Taiwan's share of US goods imports",
+   "ko": "미국 상품 수입에서 대만 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Taiwan, customs basis. IMP5830. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Taiwan, customs basis. IMP5830. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S24",
+  "kind": "dataset",
+  "title": "US goods imports from the European Union, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMP0003",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMP0003",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMP0003 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMP0003 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the EU's share of US goods imports",
+   "ko": "미국 상품 수입에서 EU 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from the European Union, customs basis. IMP0003. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from the European Union, customs basis. IMP0003. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting"
+  ]
+ },
+ {
+  "id": "S25",
+  "kind": "dataset",
+  "title": "US goods imports from Canada, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMPCA",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMPCA",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMPCA directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMPCA 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Canada's share of US goods imports",
+   "ko": "미국 상품 수입에서 캐나다 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Canada, customs basis. IMPCA. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Canada, customs basis. IMPCA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "rerouting"
+  ]
+ },
+ {
+  "id": "S26",
+  "kind": "paper",
+  "title": "Demystifying Trade Patterns In A Fragmenting World",
+  "authors": "Schulze, T., Xin, W.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2025/129",
+  "date": "2025-06-27",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2025/129/001.2025.issue-129-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2025/129/001.2025.issue-129-en.pdf",
+  "quote": {
+   "text": "Conversely, there is no evidence of Vietnam facilitating trade rerouting—or transshipment—of Chinese exports on a significant scale, as it has seen a lower share of Chinese value added in its strategic sector exports to the US.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Vietnam's gains as genuine reallocation rather than transshipment",
+   "ko": "베트남의 이득이 우회 수출이 아니라 실제 재배치였다는 점"
+  },
+  "ref": "jejualps:67009",
+  "cite": {
+   "en": "Schulze, T., Xin, W. (2025). Demystifying Trade Patterns In A Fragmenting World. IMF Working Papers 2025/129. IMF",
+   "ko": "Schulze, T., Xin, W. (2025). Demystifying Trade Patterns In A Fragmenting World. IMF Working Papers 2025/129. IMF"
+  },
+  "citedIn": [
+   "rerouting",
+   "scenarios",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S27",
+  "kind": "dataset",
+  "title": "Korea exports to the United States, customs basis, monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "901Y121/M/T002/US",
+   "unit": "천불",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: 관세청, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국가별 수출입” or its code 901Y121 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.2. 통관기준 수출입 > 3.2.3. 국가별 수출입. In the table, select 구분코드: 수출금액; 계정항목: 미국. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국가별 수출입’ 또는 코드 901Y121를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.2. 통관기준 수출입 > 3.2.3. 국가별 수출입 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 구분코드: 수출금액; 계정항목: 미국. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's customs exports to the United States, described in words only because the data are not cleared for republication",
+   "ko": "한국의 대미 통관 수출, 공개 허가가 없어 말로만 적음"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea exports to the United States, customs basis, monthly. 901Y121/M/T002/US. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea exports to the United States, customs basis, monthly. 901Y121/M/T002/US. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "korea-so-far"
+  ]
+ },
+ {
+  "id": "S28",
+  "kind": "speech",
+  "title": "Chang Yong Rhee: New Year Speech",
+  "authors": "Rhee, C. Y.",
+  "institution": "Bank of Korea",
+  "series": "BIS central bank speeches",
+  "number": "review_r260105a",
+  "date": "2026-02-03",
+  "url": "https://www.bis.org/review/r260105a.htm",
+  "pdfUrl": "https://www.bis.org/review/r260105a.pdf",
+  "quote": {
+   "text": "Turning to growth, the growth rate this year is projected at 1.8%, significantly higher than last year's 1.0%, and close to its potential level.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Bank of Korea's growth figures for 2025 and 2026",
+   "ko": "한국은행의 2025년·2026년 성장률 수치"
+  },
+  "ref": "jejualps:22204",
+  "cite": {
+   "en": "Rhee, C. Y. (2026). Chang Yong Rhee: New Year Speech. BIS central bank speeches review_r260105a. Bank of Korea",
+   "ko": "Rhee, C. Y. (2026). Chang Yong Rhee: New Year Speech. BIS central bank speeches review_r260105a. Bank of Korea"
+  },
+  "citedIn": [
+   "korea-so-far",
+   "sectors",
+   "uncertainty-and-responses",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S29",
+  "kind": "speech",
+  "title": "Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea",
+  "authors": "Shin, H. S.",
+  "institution": "Bank of Korea",
+  "series": "BIS central bank speeches",
+  "number": "review_r260616d",
+  "date": "2026-06-16",
+  "url": "https://www.bis.org/review/r260616d.htm",
+  "pdfUrl": "https://www.bis.org/review/r260616d.pdf",
+  "quote": {
+   "text": "Despite heightened uncertainty surrounding developments in the Middle East, our economy has recently seen a significant acceleration in growth, driven by strong semiconductor exports fueled by the global expansion of AI.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the 2026 acceleration as a semiconductor and AI story",
+   "ko": "2026년 가속이 반도체와 AI 이야기라는 점"
+  },
+  "ref": "jejualps:21814",
+  "cite": {
+   "en": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. BIS central bank speeches review_r260616d. Bank of Korea",
+   "ko": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. BIS central bank speeches review_r260616d. Bank of Korea"
+  },
+  "citedIn": [
+   "korea-so-far",
+   "sectors",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S30",
+  "kind": "dataset",
+  "title": "Won per US dollar, monthly average",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "731Y004/M/0000001/0000100",
+   "unit": "원",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주요국 통화의 대원화환율” or its code 731Y004 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.2. 평균환율/기말환율 > 3.1.2.1. 주요국 통화의 대원화환율. In the table, select 계정항목: 원/미국달러(매매기준율); 측정항목: 평균자료. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주요국 통화의 대원화환율’ 또는 코드 731Y004를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.2. 평균환율/기말환율 > 3.1.2.1. 주요국 통화의 대원화환율 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 원/미국달러(매매기준율); 측정항목: 평균자료. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the won per US dollar, monthly averages",
+   "ko": "달러당 원화 환율, 월평균"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Won per US dollar, monthly average. 731Y004/M/0000001/0000100. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Won per US dollar, monthly average. 731Y004/M/0000001/0000100. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "korea-so-far",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S31",
+  "kind": "dataset",
+  "title": "Korea export value index, chemical products",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/305AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 화학제품. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 화학제품. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the export value index for chemical products",
+   "ko": "화학제품 수출금액지수"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export value index, chemical products. 403Y001/M/305AA. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export value index, chemical products. 403Y001/M/305AA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "sectors",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S32",
+  "kind": "dataset",
+  "title": "Korea export value index, motor vehicles",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/31211AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 자동차. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 자동차. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the export value index for motor vehicles",
+   "ko": "자동차 수출금액지수"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export value index, motor vehicles. 403Y001/M/31211AA. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export value index, motor vehicles. 403Y001/M/31211AA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "sectors",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S33",
+  "kind": "dataset",
+  "title": "Korea export value index, all goods",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/*AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 총지수. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 총지수. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the export value index for all goods, base year 2020",
+   "ko": "전체 상품 수출금액지수, 2020년 기준"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export value index, all goods. 403Y001/M/*AA. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export value index, all goods. 403Y001/M/*AA. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "sectors",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S34",
+  "kind": "dataset",
+  "title": "Gross domestic product (GDP) and main components (output, expenditure and income) - annual data (BE, DE, EA20, IE, NL)",
+  "institution": "Eurostat",
+  "date": "2026-10-20",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table",
+  "dataset": {
+   "provider": "Eurostat",
+   "key": [
+    "nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=NL",
+    "nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=NL",
+    "nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=NL",
+    "nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=BE",
+    "nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=BE",
+    "nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=BE",
+    "nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=IE",
+    "nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=IE",
+    "nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=IE",
+    "nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=DE",
+    "nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=DE",
+    "nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=DE",
+    "nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=EA20",
+    "nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=EA20",
+    "nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=EA20"
+   ],
+   "unit": "Current prices, million euro",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Eurostat",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens dataset nama_10_gdp in Eurostat's Data Browser. Use the filters above the table (“Customise your dataset”) to select the series; in codes: na_item = P6, P7, B1GQ; unit = CP_MEUR; freq = A; geo = NL, BE, IE, DE, EA20.",
+    "ko": "링크는 Eurostat 데이터 브라우저의 데이터셋 nama_10_gdp를 연다. 표 위의 필터(‘Customise your dataset’)에서 해당 시리즈를 고른다. 코드로는 na_item = P6, P7, B1GQ; unit = CP_MEUR; freq = A; geo = NL, BE, IE, DE, EA20이다."
+   }
+  },
+  "usedFor": {
+   "en": "the Netherlands' trade openness as a share of GDP",
+   "ko": "네덜란드 무역 개방도, GDP 대비"
+  },
+  "cite": {
+   "en": "Eurostat. Gross domestic product (GDP) and main components (output, expenditure and income) - annual data (BE, DE, EA20, IE, NL). nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=NL, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=NL, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=NL, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=BE, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=BE, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=BE, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=IE, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=IE, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=IE, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=DE, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=DE, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=DE, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=EA20, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=EA20, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=EA20. Retrieved 20 Oct 2026.",
+   "ko": "Eurostat. Gross domestic product (GDP) and main components (output, expenditure and income) - annual data (BE, DE, EA20, IE, NL). nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=NL, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=NL, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=NL, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=BE, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=BE, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=BE, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=IE, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=IE, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=IE, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=DE, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=DE, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=DE, nama_10_gdp?na_item=P6&unit=CP_MEUR&freq=A&geo=EA20, nama_10_gdp?na_item=P7&unit=CP_MEUR&freq=A&geo=EA20, nama_10_gdp?na_item=B1GQ&unit=CP_MEUR&freq=A&geo=EA20. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "position"
+  ]
+ },
+ {
+  "id": "S35",
+  "kind": "paper",
+  "title": "Divided We Fall: Differential Exposure to Geopolitical Fragmentation in Trade",
+  "authors": "Hakobyan, S., Meleshchuk, S., Zymek, R.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2023/270",
+  "date": "2023-12-22",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2023/270/001.2023.issue-270-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2023/270/001.2023.issue-270-en.pdf",
+  "quote": {
+   "text": "This is because, everything else constant, smaller economies rely more on international trade than larger economies—an immediate implication of the “gravity”-patterns of international trade.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "why smaller economies lose more from a uniform rise in barriers; the 'about half' comes from the paper's variance decomposition, not the quote",
+   "ko": "장벽이 똑같이 올라도 작은 경제가 더 잃는 이유. '절반쯤'은 인용문이 아니라 논문의 분산 분해에서 왔다"
+  },
+  "ref": "jejualps:67374",
+  "cite": {
+   "en": "Hakobyan, S., Meleshchuk, S., Zymek, R. (2023). Divided We Fall: Differential Exposure to Geopolitical Fragmentation in Trade. IMF Working Papers 2023/270. IMF",
+   "ko": "Hakobyan, S., Meleshchuk, S., Zymek, R. (2023). Divided We Fall: Differential Exposure to Geopolitical Fragmentation in Trade. IMF Working Papers 2023/270. IMF"
+  },
+  "citedIn": [
+   "position",
+   "scenarios",
+   "uncertainty-and-responses",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S36",
+  "kind": "paper",
+  "title": "A multi-sector assessment of the macroeconomic effects of tariffs",
+  "authors": "Burgert, M., Mojon, B., Rees, D., Rottner, M., Zhao, H.",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "September 2025",
+  "date": "2025-09-15",
+  "url": "https://www.bis.org/publications/qr-202509/multi-sector-assessment-macroeconomic-effects-tariffs",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt2509b.pdf",
+  "quote": {
+   "text": "Cross-country differences largely reflect the importance of trade with the United States (relative to the overall size of the economy) and the tariffs a country faces.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "losses following the size of US trade relative to the economy and the tariff faced",
+   "ko": "손실이 경제 대비 대미 무역 규모와 관세율을 따른다는 점"
+  },
+  "ref": "jejualps:44569",
+  "cite": {
+   "en": "Burgert, M., Mojon, B., Rees, D., Rottner, M., Zhao, H. (2025). A multi-sector assessment of the macroeconomic effects of tariffs. BIS Quarterly Review September 2025. BIS",
+   "ko": "Burgert, M., Mojon, B., Rees, D., Rottner, M., Zhao, H. (2025). A multi-sector assessment of the macroeconomic effects of tariffs. BIS Quarterly Review September 2025. BIS"
+  },
+  "citedIn": [
+   "position",
+   "uncertainty-and-responses",
+   "model",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S37",
+  "kind": "paper",
+  "title": "The third-country effects of trade wars",
+  "authors": "Darracq Pariès, M., Eyquem, A., Jouvanceau, V.",
+  "institution": "European Central Bank",
+  "series": "ECB Working Paper Series",
+  "number": "3213",
+  "date": "2026-04-01",
+  "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3213~3914439802.en.pdf",
+  "quote": {
+   "text": "By contrast, the EA is partly insulated on impact through trade diversion",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "a bystander gaining on impact from diversion",
+   "ko": "제삼국이 무역 전환으로 초기에 얻는 점"
+  },
+  "ref": "jejualps:50358",
+  "cite": {
+   "en": "Darracq Pariès, M., Eyquem, A., Jouvanceau, V. (2026). The third-country effects of trade wars. ECB Working Paper Series 3213. European Central Bank",
+   "ko": "Darracq Pariès, M., Eyquem, A., Jouvanceau, V. (2026). The third-country effects of trade wars. ECB Working Paper Series 3213. European Central Bank"
+  },
+  "citedIn": [
+   "scenarios",
+   "uncertainty-and-responses",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S38",
+  "kind": "paper",
+  "title": "Trade wars and global spillovers. A quantitative assessment with ECB-global",
+  "authors": "Darracq Pariès, M., Dieppe, A., Kockerols, T., Jouvanceau, V.",
+  "institution": "European Central Bank",
+  "series": "ECB Working Paper Series",
+  "number": "3117",
+  "date": "2025-09-01",
+  "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3117~d7d3c84989.en.pdf",
+  "quote": {
+   "text": "peaking at 50% on EU imports and 120% on Chinese goods, and provoking full retaliatory duties by the EU, China and Canada.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "GDP effects of a global trade war with full retaliation",
+   "ko": "전면 보복 세계 무역전쟁의 GDP 효과"
+  },
+  "ref": "jejualps:54329",
+  "cite": {
+   "en": "Darracq Pariès, M., Dieppe, A., Kockerols, T., Jouvanceau, V. (2025). Trade wars and global spillovers. A quantitative assessment with ECB-global. ECB Working Paper Series 3117. European Central Bank",
+   "ko": "Darracq Pariès, M., Dieppe, A., Kockerols, T., Jouvanceau, V. (2025). Trade wars and global spillovers. A quantitative assessment with ECB-global. ECB Working Paper Series 3117. European Central Bank"
+  },
+  "citedIn": [
+   "scenarios",
+   "uncertainty-and-responses",
+   "model",
+   "limits",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S39",
+  "kind": "dataset",
+  "title": "Korea real facilities investment growth, quarter on quarter, seasonally adjusted",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "200Y102/Q/10123",
+   "unit": "%",
+   "frequency": "Q",
+   "lastObservation": "2026-Q2",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주요지표(분기지표)” or its code 200Y102 in the search box, or follow the statistics list 2. 국민계정 > 2.1. 국민소득통계(2020년 기준년) > 2.1.1. 주요지표 > 2.1.1.2. 주요지표(분기지표). In the table, select 계정항목: 설비투자. Set the cycle (주기) to quarterly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주요지표(분기지표)’ 또는 코드 200Y102를 입력하거나, 통계 목록에서 2. 국민계정 > 2.1. 국민소득통계(2020년 기준년) > 2.1.1. 주요지표 > 2.1.1.2. 주요지표(분기지표) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 설비투자. 주기를 분기(Q)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's real facilities investment, quarter on quarter",
+   "ko": "한국 실질 설비투자, 전기 대비"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea real facilities investment growth, quarter on quarter, seasonally adjusted. 200Y102/Q/10123. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea real facilities investment growth, quarter on quarter, seasonally adjusted. 200Y102/Q/10123. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "uncertainty-and-responses",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S40",
+  "kind": "dataset",
+  "title": "Bank of Korea base rate, monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-20",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "722Y001/M/0101000",
+   "unit": "연%",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “한국은행 기준금리 및 여수신금리” or its code 722Y001 in the search box, or follow the statistics list 1. 통화/금융 > 1.3. 금리 > 1.3.1. 한국은행 기준금리 및 여수신금리. In the table, select 계정항목: 한국은행 기준금리. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘한국은행 기준금리 및 여수신금리’ 또는 코드 722Y001를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.3. 금리 > 1.3.1. 한국은행 기준금리 및 여수신금리 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 한국은행 기준금리. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the Bank of Korea base rate",
+   "ko": "한국은행 기준금리"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Bank of Korea base rate, monthly. 722Y001/M/0101000. Retrieved 20 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Bank of Korea base rate, monthly. 722Y001/M/0101000. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "uncertainty-and-responses",
+   "appendix"
+  ]
+ },
+ {
+  "id": "S41",
+  "kind": "dataset",
+  "title": "US goods imports from Japan, customs basis",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/IMPJP",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IMPJP",
+   "unit": "Millions of Dollars",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, census, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IMPJP directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IMPJP 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Japan's share of US goods imports, as a rival's share in the model design",
+   "ko": "모형 설계에서 경쟁국 비중으로 쓰는 일본 비중"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Japan, customs basis. IMPJP. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US goods imports from Japan, customs basis. IMPJP. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "appendix"
+  ]
+ }
+]

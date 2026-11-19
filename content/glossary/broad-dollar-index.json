@@ -1,0 +1,15 @@
+{
+ "id": "broad-dollar-index",
+ "term": {
+  "en": "broad dollar index",
+  "ko": "광의 달러지수"
+ },
+ "definition": {
+  "en": "The US dollar's value against the currencies of many trading partners at once. A rise means the dollar has strengthened against the world as a whole.",
+  "ko": "많은 교역상대국 통화에 대한 미국 달러의 가치를 한꺼번에 나타낸 지수다. 지수가 오르면 달러가 세계 통화 전반에 대해 강해졌다는 뜻이다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates"
+ ]
+}

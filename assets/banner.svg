@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">datasteg articles</title>
+  <desc id="d">From a question to a checked, bilingual article: AI agents research and write, code checks every number, in English and Korean. Drawn in the Glacier design system.</desc>
+  <defs>
+    <clipPath id="deep"><rect x="840" y="32" width="384" height="256" rx="8"/></clipPath>
+  </defs>
+
+  <!-- ground: surface (snow) with the line hairline as its edge -->
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="8" fill="#FFFFFF" stroke="#C4EDF7"/>
+
+  <!-- kicker (glacial), title (ink, serif), dek (ink-secondary) -->
+  <text x="56" y="80" fill="#0081B1" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.2">DATASTEG · ARTICLES</text>
+  <text fill="#022A41" font-family="Georgia, 'Times New Roman', Times, serif" font-size="42" letter-spacing="-0.6">
+    <tspan x="56" y="134">From a question to a checked,</tspan>
+    <tspan x="56" y="184">bilingual article</tspan>
+  </text>
+  <text x="56" y="226" fill="#315B72" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18">AI agents research and write; code checks every number; English and Korean.</text>
+
+  <!-- the pipeline's phases as tags (surface-frost); the last one in the accent fill -->
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">
+    <rect x="56" y="250" width="88" height="30" rx="15" fill="#E9FBFF" stroke="#C4EDF7"/>
+    <text x="100" y="270" fill="#022A41">Question</text>
+    <text x="157" y="270" fill="#496E84">→</text>
+    <rect x="170" y="250" width="88" height="30" rx="15" fill="#E9FBFF" stroke="#C4EDF7"/>
+    <text x="214" y="270" fill="#022A41">Research</text>
+    <text x="271" y="270" fill="#496E84">→</text>
+    <rect x="284" y="250" width="58" height="30" rx="15" fill="#E9FBFF" stroke="#C4EDF7"/>
+    <text x="313" y="270" fill="#022A41">Data</text>
+    <text x="355" y="270" fill="#496E84">→</text>
+    <rect x="368" y="250" width="80" height="30" rx="15" fill="#E9FBFF" stroke="#C4EDF7"/>
+    <text x="408" y="270" fill="#022A41">Writing</text>
+    <text x="461" y="270" fill="#496E84">→</text>
+    <rect x="474" y="250" width="74" height="30" rx="15" fill="#E9FBFF" stroke="#C4EDF7"/>
+    <text x="511" y="270" fill="#022A41">Review</text>
+    <text x="561" y="270" fill="#496E84">→</text>
+    <rect x="574" y="250" width="80" height="30" rx="15" fill="#5BCEF3"/>
+    <text x="614" y="270" fill="#022A41" font-weight="600">Publish</text>
+  </g>
+
+  <!-- a deep block (inside the glacier): deep fill, deep-edge rim, strata and glints -->
+  <rect x="840" y="32" width="384" height="256" rx="8" fill="#B6F4FF"/>
+  <g clip-path="url(#deep)" fill="none">
+    <path d="M840 92 C 940 78, 1040 104, 1224 84" stroke="#7ADAF8" stroke-width="1.5"/>
+    <path d="M840 120 C 960 104, 1060 132, 1224 112" stroke="#7ADAF8" stroke-width="1.5"/>
+    <path d="M840 262 C 950 250, 1070 272, 1224 254" stroke="#7ADAF8" stroke-width="1.5"/>
+    <path d="M840 70 C 930 58, 1050 82, 1224 62" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9"/>
+    <path d="M840 276 C 960 266, 1060 286, 1224 270" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9"/>
+  </g>
+  <rect x="840.5" y="32.5" width="383" height="255" rx="8" fill="none" stroke="#89E0F8"/>
+
+  <!-- a fact token and how it renders (deep-accent, on-deep) -->
+  <text x="868" y="70" fill="#004774" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">EVERY NUMBER IS A FACT</text>
+  <text x="868" y="104" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" fill="#022A41">{{F4}}<tspan fill="#175675">  →  </tspan><tspan font-weight="700" fill="#004774">97bp</tspan></text>
+
+  <!-- a line chart in Glacier's chart anatomy: horizontal grid, zero rule, one focus series, context series -->
+  <g fill="none">
+    <line x1="868" y1="150" x2="1196" y2="150" stroke="#7ADAF8" stroke-width="1"/>
+    <line x1="868" y1="190" x2="1196" y2="190" stroke="#7ADAF8" stroke-width="1"/>
+    <line x1="868" y1="230" x2="1196" y2="230" stroke="#588EA8" stroke-width="1"/>
+    <polyline points="868,214 900,210 932,216 964,204 996,206 1028,198 1060,202 1092,192 1124,196 1156,188 1188,190" stroke="#7A97A6" stroke-width="1.5"/>
+    <polyline points="868,220 900,222 932,212 964,218 996,200 1028,208 1060,186 1092,190 1124,166 1156,172 1188,150" stroke="#004774" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="1188" cy="150" r="5" fill="#5BCEF3" stroke="#004774" stroke-width="2"/>
+  </g>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#175675">
+    <text x="868" y="254">focus series</text>
+    <line x1="950" y1="250" x2="972" y2="250" stroke="#004774" stroke-width="3"/>
+    <text x="992" y="254">context</text>
+    <line x1="1044" y1="250" x2="1066" y2="250" stroke="#7A97A6" stroke-width="1.5"/>
+  </g>
+</svg>

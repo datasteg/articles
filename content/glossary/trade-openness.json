@@ -1,0 +1,16 @@
+{
+ "id": "trade-openness",
+ "term": {
+  "en": "trade openness",
+  "ko": "무역 개방도"
+ },
+ "definition": {
+  "en": "Exports plus imports of goods and services as a share of a country's income or output. A higher ratio means the economy depends more on trade.",
+  "ko": "상품과 서비스의 수출과 수입을 합쳐 한 나라의 소득이나 생산으로 나눈 비율이다. 높을수록 경제가 무역에 더 기댄다는 뜻이다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "growth"
+ ]
+}

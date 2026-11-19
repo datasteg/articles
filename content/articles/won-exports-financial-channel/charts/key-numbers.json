@@ -1,0 +1,98 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "Since 1998, Korea's GDP grew more slowly and investment shrank in quarters when the won was weaker than a year before, and most quarters of falling GDP since 1981 came with a weaker won",
+  "ko": "1998년 이후 원화가 한 해 전보다 약했던 분기에는 GDP 성장이 더 느렸고 투자는 줄었으며, 1981년 이후 GDP가 줄어든 분기도 대부분 원화 약세와 겹쳤다"
+ },
+ "title": {
+  "en": "Three numbers on the weak won and Korea's economy",
+  "ko": "원화 약세와 한국 경제를 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "Real growth from a year earlier, quarterly; weak-won quarters are those in which a dollar cost more won, on average, than a year earlier",
+  "ko": "전년 동기 대비 실질 증감률, 분기. 원화 약세 분기는 달러 1단위에 드는 원화가 평균적으로 한 해 전보다 많았던 분기"
+ },
+ "tiles": [
+  {
+   "value": "{{F39}}",
+   "label": {
+    "en": "average real GDP growth in quarters when the won was weaker against the dollar than a year earlier, 1998–2026 ({{F40}} when it was stronger)",
+    "ko": "1998~2026년 원화가 한 해 전보다 달러 대비 약했던 분기의 평균 실질 GDP 성장률(강했던 분기는 {{F40}})"
+   },
+   "cite": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "value": "{{F42}}",
+   "label": {
+    "en": "average change in real investment in those weak-won quarters ({{F43|signed}} when the won was stronger)",
+    "ko": "같은 원화 약세 분기의 평균 실질 투자 증감률(강했던 분기는 {{F43|signed}})"
+   },
+   "cite": [
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "value": "{{F360|digits}}",
+   "label": {
+    "en": "quarters in which the won was weaker against the dollar than a year before, out of the {{F109}} since 1981 in which GDP shrank",
+    "ko": "1981년 이후 GDP가 한 해 전보다 줄어든 {{F109}} 가운데 원화가 달러 대비 한 해 전보다 약했던 분기의 수"
+   },
+   "cite": [
+    "S1",
+    "S4"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "These averages describe what happened together; they do not show that the weak won caused the slower growth. Weak-won quarters include the 1998 and 2008–09 crises, and the quarters of falling GDP include the 2020 pandemic.",
+   "ko": "이 평균은 함께 일어난 일을 보여 줄 뿐, 원화 약세가 성장 둔화를 일으켰다는 뜻은 아니다. 원화 약세 분기에는 1998년과 2008~09년 위기가, GDP가 줄어든 분기에는 2020년 팬데믹이 포함된다."
+  },
+  {
+   "en": "Investment is gross fixed capital formation: spending on buildings, machinery, equipment and intellectual property such as software.",
+   "ko": "투자는 총고정자본형성, 곧 건물·설비와 소프트웨어 같은 지식재산에 쓰는 돈이다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: from 1998 to mid-2026, Korea's real GDP grew 2.0% a year on average in quarters when the won was weaker against the dollar than a year earlier, against 5.1% when it was stronger; real investment shrank 0.7% on average in those weak-won quarters, against growth of 5.2%; and 8 of the 10 quarters since 1981 in which GDP shrank came when the won was weaker than a year before.",
+  "ko": "세 숫자: 1998년부터 2026년 중반까지 원화가 한 해 전보다 달러 대비 약했던 분기의 실질 GDP 성장률은 평균 2.0%로 강했던 분기(5.1%)보다 낮았다. 같은 원화 약세 분기에 실질 투자는 평균 0.7% 줄었고 강했던 분기에는 5.2% 늘었다. 1981년 이후 GDP가 줄어든 10개 분기 가운데 8개 분기가 원화가 한 해 전보다 약했던 때였다."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S3",
+   "S4"
+  ],
+  "provider": "Bank of Korea, ECOS",
+  "keys": [
+   "200Y102/Q/10211",
+   "200Y110/Q/1020110",
+   "731Y004/M/0000001/0000100"
+  ],
+  "definition": {
+   "en": "Real GDP growth from the same quarter a year earlier (not seasonally adjusted); real gross fixed capital formation; won per US dollar, monthly averages of the trading base rate.",
+   "ko": "실질 GDP 전년 동기 대비 성장률(원계열), 실질 총고정자본형성, 원/달러 매매기준율 월평균."
+  },
+  "calculation": {
+   "en": "A quarter is weak-won when the quarterly average of won per dollar is above its level a year earlier. Investment growth = (quarter ÷ same quarter a year earlier − 1) × 100. Averages are simple means over 1998-Q1 to 2026-Q2 (52 weak-won and 62 strong-won quarters).",
+   "ko": "원/달러 환율의 분기 평균이 한 해 전보다 높으면 원화 약세 분기로 분류했다. 투자 증감률 = (해당 분기 ÷ 전년 동기 − 1) × 100. 평균은 1998년 1분기~2026년 2분기의 단순 평균이다(약세 52개, 강세 62개 분기)."
+  },
+  "span": [
+   "1981-Q1",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-19",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "csv": null
+}

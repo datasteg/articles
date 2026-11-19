@@ -1,0 +1,15 @@
+{
+ "id": "bystander-effect",
+ "term": {
+  "en": "bystander",
+  "ko": "제삼국"
+ },
+ "definition": {
+  "en": "A country that is not a party to a tariff dispute but is affected by it, gaining when buyers switch to its goods or losing when its goods are inputs to the tariffed ones or when demand falls.",
+  "ko": "관세 분쟁의 당사자가 아니면서 그 영향을 받는 나라다. 구매자가 그 나라 상품으로 옮겨 오면 얻고, 그 나라 상품이 관세 대상 상품의 부품이거나 수요가 줄면 잃는다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade"
+ ]
+}

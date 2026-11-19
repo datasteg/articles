@@ -1,0 +1,856 @@
+[
+ {
+  "id": "S1",
+  "kind": "paper",
+  "title": "Yields climb, yet risk appetite holds firm",
+  "institution": "BIS",
+  "series": "quarterly_review_article",
+  "number": "publications_qr-202609_yields-climb-yet-risk-appetite-holds-firm",
+  "date": "2026-09-14",
+  "url": "https://www.bis.org/publications/qr-202609/yields-climb-yet-risk-appetite-holds-firm",
+  "pdfUrl": "https://www.bis.org/publications/yields-climb-yet-risk-appetite-holds-firm.pdf",
+  "quote": {
+   "text": "Amid extreme volatility, Korean markets whipsawed due to heavy semiconductor exposure, magnified by leveraged positioning.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how heavy exposure to chips and leveraged products on two stocks made Korean shares whipsaw in 2026 (BIS Quarterly Review, Box B)",
+   "ko": "반도체 쏠림과 두 종목에 걸린 레버리지 상품이 2026년 한국 증시를 요동치게 한 과정(BIS 계간 보고서 Box B)"
+  },
+  "ref": "jejualps:122096",
+  "cite": {
+   "en": "BIS (2026). Yields climb, yet risk appetite holds firm. quarterly_review_article publications_qr-202609_yields-climb-yet-risk-appetite-holds-firm.",
+   "ko": "BIS (2026). Yields climb, yet risk appetite holds firm. quarterly_review_article publications_qr-202609_yields-climb-yet-risk-appetite-holds-firm."
+  },
+  "citedIn": [
+   "how-big",
+   "korea-alone",
+   "trigger",
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "Korean share prices, monthly average (OECD, 2015=100)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-30",
+  "url": "https://fred.stlouisfed.org/series/SPASTT01KRM661N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "SPASTT01KRM661N",
+   "unit": "Index 2015=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series SPASTT01KRM661N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 SPASTT01KRM661N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Korean share prices, OECD monthly averages, since 1981",
+   "ko": "한국 주가, OECD 월평균, 1981년 이후"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Korean share prices, monthly average (OECD, 2015=100). SPASTT01KRM661N. Retrieved 30 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Korean share prices, monthly average (OECD, 2015=100). SPASTT01KRM661N. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "how-big",
+   "korea-alone",
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "US share prices, monthly average (OECD, 2015=100)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-30",
+  "url": "https://fred.stlouisfed.org/series/SPASTT01USM661N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "SPASTT01USM661N",
+   "unit": "Index 2015=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series SPASTT01USM661N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 SPASTT01USM661N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "US share prices, OECD monthly averages",
+   "ko": "미국 주가, OECD 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US share prices, monthly average (OECD, 2015=100). SPASTT01USM661N. Retrieved 30 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US share prices, monthly average (OECD, 2015=100). SPASTT01USM661N. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "korea-alone",
+   "trigger"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "US stock-market implied volatility (VIX)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-30",
+  "url": "https://fred.stlouisfed.org/series/VIXCLS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "VIXCLS",
+   "unit": "Index",
+   "frequency": "D",
+   "lastObservation": "2026-10-29",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: cboe, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series VIXCLS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 VIXCLS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the VIX, daily close",
+   "ko": "VIX 일별 종가"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US stock-market implied volatility (VIX). VIXCLS. Retrieved 30 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US stock-market implied volatility (VIX). VIXCLS. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "korea-alone"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "Won per US dollar, 15:30 close",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "731Y003/D/0000003",
+   "unit": "원",
+   "frequency": "D",
+   "lastObservation": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “원화의 대미달러, 원화의 대위안/대엔 환율” or its code 731Y003 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율. In the table, select 계정항목: 원/달러(종가 15:30). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘원화의 대미달러, 원화의 대위안/대엔 환율’ 또는 코드 731Y003를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 원/달러(종가 15:30). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "won per dollar at the Bank of Korea's afternoon close, daily",
+   "ko": "한국은행 오후 마감 기준 원/달러 환율, 일별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Won per US dollar, 15:30 close. 731Y003/D/0000003. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Won per US dollar, 15:30 close. 731Y003/D/0000003. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "korea-alone"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "Korea semiconductor export value index (dollar basis)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/3091AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 반도체. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 반도체. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's export value index for semiconductors, in dollars, monthly",
+   "ko": "반도체 수출금액지수, 달러 기준, 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea semiconductor export value index (dollar basis). 403Y001/M/3091AA. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea semiconductor export value index (dollar basis). 403Y001/M/3091AA. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "trigger"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "dataset",
+  "title": "Foreign investors' net purchases on the KOSPI market, daily",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "802Y001/D/0030000",
+   "unit": "억원",
+   "frequency": "D",
+   "lastObservation": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: 한국거래소, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주식시장(일)” or its code 802Y001 in the search box, or follow the statistics list 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.1. 주식시장(일). In the table, select 계정항목: 외국인 순매수(유가증권시장) 1). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주식시장(일)’ 또는 코드 802Y001를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.1. 주식시장(일) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 외국인 순매수(유가증권시장) 1). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "foreign investors' daily net purchases on the KOSPI, described in words",
+   "ko": "코스피 시장 외국인 일별 순매수, 말로만 서술"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Foreign investors' net purchases on the KOSPI market, daily. 802Y001/D/0030000. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Foreign investors' net purchases on the KOSPI market, daily. 802Y001/D/0030000. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "dataset",
+  "title": "Margin loans for stock purchases outstanding, end of month",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "901Y056/M/S23E",
+   "unit": "원",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: 금융투자협회, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “증시주변자금동향” or its code 901Y056 in the search box, or follow the statistics list 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.4. 증시주변자금동향. In the table, select 계정항목: 신용융자 잔고 2). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘증시주변자금동향’ 또는 코드 901Y056를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.4. 증시주변자금동향 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 신용융자 잔고 2). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "margin loans outstanding (KOFIA), described in words",
+   "ko": "신용융자 잔고(금융투자협회), 말로만 서술"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Margin loans for stock purchases outstanding, end of month. 901Y056/M/S23E. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Margin loans for stock purchases outstanding, end of month. 901Y056/M/S23E. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "dataset",
+  "title": "KOSPI market capitalisation, daily",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "802Y001/D/0183000",
+   "unit": "억원",
+   "frequency": "D",
+   "lastObservation": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: 한국거래소, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주식시장(일)” or its code 802Y001 in the search box, or follow the statistics list 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.1. 주식시장(일). In the table, select 계정항목: 시가총액(유가증권시장). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주식시장(일)’ 또는 코드 802Y001를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.1. 주식시장(일) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 시가총액(유가증권시장). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the KOSPI's market value, to scale flows and margin loans, described in words",
+   "ko": "코스피 시가총액, 매매와 신용융자 규모를 견주는 데 사용, 말로만 서술"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. KOSPI market capitalisation, daily. 802Y001/D/0183000. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. KOSPI market capitalisation, daily. 802Y001/D/0183000. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "dataset",
+  "title": "KOSDAQ market capitalisation, month-end",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "901Y014/M/2040000",
+   "unit": "천원",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: 한국거래소, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주식시장(월,년)” or its code 901Y014 in the search box, or follow the statistics list 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.2. 주식시장(월,년). In the table, select 계정항목: KOSDAQ_시가총액. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주식시장(월,년)’ 또는 코드 901Y014를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.2. 주식시장(월,년) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: KOSDAQ_시가총액. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the KOSDAQ's month-end market value, to scale margin loans, described in words",
+   "ko": "코스닥 월말 시가총액, 신용융자 규모를 견주는 데 사용, 말로만 서술"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. KOSDAQ market capitalisation, month-end. 901Y014/M/2040000. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. KOSDAQ market capitalisation, month-end. 901Y014/M/2040000. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "dataset",
+  "title": "Household other loans (incl. credit loans) of depository institutions, outstanding",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "151Y005/M/11100B0",
+   "unit": "십억원",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “예금취급기관 가계대출(용도별, 월)” or its code 151Y005 in the search box, or follow the statistics list 1. 통화/금융 > 1.2. 금융기관 여수신 > 1.2.4. 가계신용 > 1.2.4.2. 예금취급기관 가계대출(월) > 1.2.4.2.2. 예금취급기관 가계대출(용도별, 월). In the table, select 계정항목: 기타대출-예금취급기관. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘예금취급기관 가계대출(용도별, 월)’ 또는 코드 151Y005를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.2. 금융기관 여수신 > 1.2.4. 가계신용 > 1.2.4.2. 예금취급기관 가계대출(월) > 1.2.4.2.2. 예금취급기관 가계대출(용도별, 월) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 기타대출-예금취급기관. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "households' credit and other non-housing loans from deposit-takers, monthly",
+   "ko": "예금취급기관의 가계 기타대출(신용대출 포함), 월별"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Household other loans (incl. credit loans) of depository institutions, outstanding. 151Y005/M/11100B0. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Household other loans (incl. credit loans) of depository institutions, outstanding. 151Y005/M/11100B0. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "speech",
+  "title": "Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea",
+  "authors": "Shin, H. S.",
+  "institution": "Bank of Korea",
+  "series": "cb_speech",
+  "number": "review_r260616d",
+  "date": "2026-06-16",
+  "url": "https://www.bis.org/review/r260616d.htm",
+  "pdfUrl": "https://www.bis.org/review/r260616d.pdf",
+  "quote": {
+   "text": "In addition, the surge in stock prices has been accompanied by a significant increase in leveraged equity investment.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Governor linking the 2026 share surge to more leveraged equity investment",
+   "ko": "한국은행 총재가 2026년 주가 급등과 레버리지 투자 증가를 연결한 발언"
+  },
+  "ref": "jejualps:21814",
+  "cite": {
+   "en": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. cb_speech review_r260616d. Bank of Korea",
+   "ko": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. cb_speech review_r260616d. Bank of Korea"
+  },
+  "citedIn": [
+   "trigger",
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "dataset",
+  "title": "KOSPI index, daily close",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "802Y001/D/0001000",
+   "unit": "1980.01.04=100 ",
+   "frequency": "D",
+   "lastObservation": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: 한국거래소, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “주식시장(일)” or its code 802Y001 in the search box, or follow the statistics list 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.1. 주식시장(일). In the table, select 계정항목: KOSPI지수. Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘주식시장(일)’ 또는 코드 802Y001를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.1. 주식시장(일) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: KOSPI지수. 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the KOSPI's daily closes since 1995, described in words",
+   "ko": "1995년 이후 코스피 일별 종가, 말로만 서술"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. KOSPI index, daily close. 802Y001/D/0001000. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. KOSPI index, daily close. 802Y001/D/0001000. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "how-big",
+   "korea-alone",
+   "amplifiers",
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "dataset",
+  "title": "Japanese share prices, monthly average (OECD, 2015=100)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-30",
+  "url": "https://fred.stlouisfed.org/series/SPASTT01JPM661N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "SPASTT01JPM661N",
+   "unit": "Index 2015=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series SPASTT01JPM661N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 SPASTT01JPM661N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Japanese share prices, OECD monthly averages",
+   "ko": "일본 주가, OECD 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Japanese share prices, monthly average (OECD, 2015=100). SPASTT01JPM661N. Retrieved 30 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Japanese share prices, monthly average (OECD, 2015=100). SPASTT01JPM661N. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "korea-alone"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "dataset",
+  "title": "German share prices, monthly average (OECD, 2015=100)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-30",
+  "url": "https://fred.stlouisfed.org/series/SPASTT01DEM661N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "SPASTT01DEM661N",
+   "unit": "Index 2015=100",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series SPASTT01DEM661N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 SPASTT01DEM661N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "German share prices, OECD monthly averages",
+   "ko": "독일 주가, OECD 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. German share prices, monthly average (OECD, 2015=100). SPASTT01DEM661N. Retrieved 30 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. German share prices, monthly average (OECD, 2015=100). SPASTT01DEM661N. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "korea-alone"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "dataset",
+  "title": "Japan's Nikkei 225 stock index, daily close",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-30",
+  "url": "https://fred.stlouisfed.org/series/NIKKEI225",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "NIKKEI225",
+   "unit": "Index",
+   "frequency": "D",
+   "lastObservation": "2026-10-30",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: nikkei inc., via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": false,
+   "locate": {
+    "en": "The link opens the FRED series NIKKEI225 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 NIKKEI225 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Japan's daily share-price swings, described in words",
+   "ko": "일본 주가의 하루 등락, 말로만 서술"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Japan's Nikkei 225 stock index, daily close. NIKKEI225. Retrieved 30 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Japan's Nikkei 225 stock index, daily close. NIKKEI225. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "korea-alone"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "paper",
+  "title": "Portfolio Flows, Global Risk Aversion and Asset Prices in Emerging Markets",
+  "authors": "Ananchotikul, N., Zhang, L.",
+  "institution": "International Monetary Fund",
+  "series": "IMF Working Papers",
+  "number": "2014/156",
+  "date": "2014-08-19",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2014/156/001.2014.issue-156-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2014/156/001.2014.issue-156-en.pdf",
+  "quote": {
+   "text": "The more exposed a country is to external fund flows, the greater the spillover from higher global risk aversion to the domestic equity market appears to be.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "global fear spilling over into emerging stock markets that rely on foreign funds",
+   "ko": "세계 투자자의 불안이 외국인 자금에 기댄 신흥국 주식시장으로 번지는 경로"
+  },
+  "ref": "jejualps:69803",
+  "cite": {
+   "en": "Ananchotikul, N., Zhang, L. (2014). Portfolio Flows, Global Risk Aversion and Asset Prices in Emerging Markets. IMF Working Papers 2014/156. International Monetary Fund",
+   "ko": "Ananchotikul, N., Zhang, L. (2014). Portfolio Flows, Global Risk Aversion and Asset Prices in Emerging Markets. IMF Working Papers 2014/156. International Monetary Fund"
+  },
+  "citedIn": [
+   "korea-alone"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "paper",
+  "title": "Volatility challenges risk-taking",
+  "institution": "BIS",
+  "series": "quarterly_review_article",
+  "number": "publ_qtrpdf_r_qt2512a",
+  "date": "2025-12-08",
+  "url": "https://www.bis.org/publications/qr-202512/volatility-challenges-risk-taking",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt2512a.pdf",
+  "quote": {
+   "text": "the M7 share in the total index market capitalisation has grown to nearly 35%, from about 20% in November 2022",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Magnificent 7's share of the main US index, 2022 to late 2025",
+   "ko": "매그니피센트 7이 미국 대표 지수에서 차지하는 비중, 2022년부터 2025년 말까지"
+  },
+  "ref": "jejualps:44554",
+  "cite": {
+   "en": "BIS (2025). Volatility challenges risk-taking. quarterly_review_article publ_qtrpdf_r_qt2512a.",
+   "ko": "BIS (2025). Volatility challenges risk-taking. quarterly_review_article publ_qtrpdf_r_qt2512a."
+  },
+  "citedIn": [
+   "trigger"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "paper",
+  "title": "Markets recalibrate amid shifting currents",
+  "institution": "BIS",
+  "series": "quarterly_review_article",
+  "number": "publ_qtrpdf_r_qt2603a",
+  "date": "2026-03-16",
+  "url": "https://www.bis.org/publications/qr-202603/markets-recalibrate-amid-shifting-currents",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt2603a.pdf",
+  "quote": {
+   "text": "As the Magnificent 7 (M7) stocks had driven their share of the S&P 500 index to nearly 35%, declines in these stocks began to drag on market indices.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "falls in the largest US tech stocks dragging on US indices",
+   "ko": "미국 대형 기술주 하락이 미국 지수를 끌어내린 점"
+  },
+  "ref": "jejualps:44533",
+  "cite": {
+   "en": "BIS (2026). Markets recalibrate amid shifting currents. quarterly_review_article publ_qtrpdf_r_qt2603a.",
+   "ko": "BIS (2026). Markets recalibrate amid shifting currents. quarterly_review_article publ_qtrpdf_r_qt2603a."
+  },
+  "citedIn": [
+   "trigger"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "paper",
+  "title": "Are Concerns About Leveraged ETFs Overblown?",
+  "authors": "Ivanov, I. T., Lenkey, S. L.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "Board of Governors of the Federal Reserve System Finance and Economics Discussion Series",
+  "number": "2014-106",
+  "date": "2014-12-01",
+  "url": "http://www.federalreserve.gov/econresdata/feds/2014/files/2014106pap.pdf",
+  "pdfUrl": "http://www.federalreserve.gov/econresdata/feds/2014/files/2014106pap.pdf",
+  "quote": {
+   "text": "By some estimates, returns generate up to 74% less rebalancing by leveraged and inverse ETFs once capital flows are taken into account.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "investor flows offsetting much of large index-tracking leveraged ETFs' rebalancing in the US, 2006–14, most for triple-leveraged funds",
+   "ko": "2006~2014년 미국에서 투자자 자금 흐름이 대형 지수형 레버리지 ETF 리밸런싱을 상당 부분 상쇄한 점, 세 배 레버리지 펀드에서 가장 컸다"
+  },
+  "ref": "jejualps:63250",
+  "cite": {
+   "en": "Ivanov, I. T., Lenkey, S. L. (2014). Are Concerns About Leveraged ETFs Overblown?. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2014-106. Board of Governors of the Federal Reserve System",
+   "ko": "Ivanov, I. T., Lenkey, S. L. (2014). Are Concerns About Leveraged ETFs Overblown?. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2014-106. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "paper",
+  "title": "Are Leveraged and Inverse ETFs the New Portfolio Insurers?",
+  "authors": "Tuzun, T.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "Board of Governors of the Federal Reserve System Finance and Economics Discussion Series",
+  "number": "2013-48",
+  "date": "2013-08-08",
+  "url": "http://www.federalreserve.gov/pubs/feds/2013/201348/201348pap.pdf",
+  "pdfUrl": "http://www.federalreserve.gov/pubs/feds/2013/201348/201348pap.pdf",
+  "quote": {
+   "text": "Price-insensitive and predictable trading of portfolio insurers contributed to the price decline of 29% in S&P 500 futures through a selling “cascade”.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "portfolio insurers' selling in the 1987 crash",
+   "ko": "1987년 폭락 때 포트폴리오 보험의 매도"
+  },
+  "ref": "jejualps:63607",
+  "cite": {
+   "en": "Tuzun, T. (2013). Are Leveraged and Inverse ETFs the New Portfolio Insurers?. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2013-48. Board of Governors of the Federal Reserve System",
+   "ko": "Tuzun, T. (2013). Are Leveraged and Inverse ETFs the New Portfolio Insurers?. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2013-48. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S22",
+  "kind": "paper",
+  "title": "What could explain the recent drop in VIX?",
+  "authors": "Todorov, K., Vilkov, G.",
+  "institution": "BIS",
+  "series": "quarterly_review_article",
+  "number": "publ_qtrpdf_r_qt2403x",
+  "date": "2024-03-04",
+  "url": "https://www.bis.org/publications/what-could-explain-recent-drop-vix",
+  "quote": {
+   "text": "When dealers sell such structured products, they effectively buy an option from their clients.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "dealers owning options when they sell income-boosting products",
+   "ko": "수익 증대형 상품을 팔 때 딜러가 옵션을 보유하게 되는 구조"
+  },
+  "ref": "jejualps:44618",
+  "cite": {
+   "en": "Todorov, K., Vilkov, G. (2024). What could explain the recent drop in VIX?. quarterly_review_article publ_qtrpdf_r_qt2403x. BIS",
+   "ko": "Todorov, K., Vilkov, G. (2024). What could explain the recent drop in VIX?. quarterly_review_article publ_qtrpdf_r_qt2403x. BIS"
+  },
+  "citedIn": [
+   "amplifiers"
+  ]
+ },
+ {
+  "id": "S23",
+  "kind": "dataset",
+  "title": "Individual investors' net purchases of KOSPI stocks, monthly",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "901Y055/M/S22CB/VA",
+   "unit": "백만원",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: 한국거래소, via Bank of Korea ECOS",
+   "publishable": false,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “투자자별 주식거래” or its code 901Y055 in the search box, or follow the statistics list 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.3. 투자자별 주식거래. In the table, select 계정항목: 개인(순매수); 구분코드: 거래대금. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘투자자별 주식거래’ 또는 코드 901Y055를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.5. 주식/채권/재정 > 1.5.1. 주식거래/주가지수 > 1.5.1.3. 투자자별 주식거래 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 개인(순매수); 구분코드: 거래대금. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "individual investors' monthly net purchases on the KOSPI, described in words",
+   "ko": "코스피 시장 개인 월별 순매수, 말로만 서술"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Individual investors' net purchases of KOSPI stocks, monthly. 901Y055/M/S22CB/VA. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Individual investors' net purchases of KOSPI stocks, monthly. 901Y055/M/S22CB/VA. 2026년 10월 30일 조회."
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S24",
+  "kind": "paper",
+  "title": "Do Foreign Investors Destabilize Stock Markets? The Korean Experience in 1997",
+  "authors": "Choe, H., Kho, B. C., Stulz, R. M.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w6661",
+  "date": "1998-07-01",
+  "url": "https://www.nber.org/papers/w6661",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w6661/w6661.pdf",
+  "quote": {
+   "text": "When we investigate the impact of episodes of heavy foreign trading on stock prices during the day or across days, there is no evidence in our study that would make it possible to single out foreign equity investors as playing a destabilizing role on the equity markets.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "trade-level data not singling out foreign investors as destabilising in 1997",
+   "ko": "1997년 체결 자료에서 외국인을 시장 불안 요인으로 지목할 근거가 없었다는 점"
+  },
+  "ref": "jejualps:113485",
+  "cite": {
+   "en": "Choe, H., Kho, B. C., Stulz, R. M. (1998). Do Foreign Investors Destabilize Stock Markets? The Korean Experience in 1997. NBER Working Papers w6661. National Bureau of Economic Research",
+   "ko": "Choe, H., Kho, B. C., Stulz, R. M. (1998). Do Foreign Investors Destabilize Stock Markets? The Korean Experience in 1997. NBER Working Papers w6661. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S25",
+  "kind": "paper",
+  "title": "Understanding Asian equity flows, market returns and exchange rates",
+  "authors": "Chai-Anant, C., Ho, C.",
+  "institution": "BIS",
+  "series": "working_paper",
+  "number": "publ_work245",
+  "date": "2008-02-04",
+  "url": "https://www.bis.org/publ/work245.htm",
+  "pdfUrl": "https://www.bis.org/publ/work245.pdf",
+  "quote": {
+   "text": "Net purchases (scaled by market capitalisation) and local market returns show significant positive correlation in all six markets.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "foreign net purchases going with same-day returns in six Asian markets, 1999–2006",
+   "ko": "아시아 여섯 시장에서 외국인 순매수와 같은 날 수익률이 함께 움직인 점, 1999~2006년"
+  },
+  "ref": "jejualps:46659",
+  "cite": {
+   "en": "Chai-Anant, C., Ho, C. (2008). Understanding Asian equity flows, market returns and exchange rates. working_paper publ_work245. BIS",
+   "ko": "Chai-Anant, C., Ho, C. (2008). Understanding Asian equity flows, market returns and exchange rates. working_paper publ_work245. BIS"
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S26",
+  "kind": "paper",
+  "title": "Leverage-Induced Fire Sales and Stock Market Crashes",
+  "authors": "Bian, J., He, Z. et al.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w25040",
+  "date": "2018-09-01",
+  "url": "https://www.nber.org/papers/w25040",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w25040/w25040.pdf",
+  "quote": {
+   "text": "Margin investors heavily sell their holdings when their account-level leverage edges toward their maximum leverage limits, controlling for stock-date and account fixed effects.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "margin investors selling heavily near their limits in China's 2015 crash",
+   "ko": "2015년 중국 폭락 때 한도에 다가선 신용 투자자의 대량 매도"
+  },
+  "ref": "jejualps:98762",
+  "cite": {
+   "en": "Bian, J., He, Z. et al. (2018). Leverage-Induced Fire Sales and Stock Market Crashes. NBER Working Papers w25040. National Bureau of Economic Research",
+   "ko": "Bian, J., He, Z. et al. (2018). Leverage-Induced Fire Sales and Stock Market Crashes. NBER Working Papers w25040. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "foreigners-margin"
+  ]
+ },
+ {
+  "id": "S27",
+  "kind": "dataset",
+  "title": "Household loans of depository institutions, outstanding",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-30",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "151Y005/M/1110000",
+   "unit": "십억원",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-30",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “예금취급기관 가계대출(용도별, 월)” or its code 151Y005 in the search box, or follow the statistics list 1. 통화/금융 > 1.2. 금융기관 여수신 > 1.2.4. 가계신용 > 1.2.4.2. 예금취급기관 가계대출(월) > 1.2.4.2.2. 예금취급기관 가계대출(용도별, 월). In the table, select 계정항목: 예금취급기관. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘예금취급기관 가계대출(용도별, 월)’ 또는 코드 151Y005를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.2. 금융기관 여수신 > 1.2.4. 가계신용 > 1.2.4.2. 예금취급기관 가계대출(월) > 1.2.4.2.2. 예금취급기관 가계대출(용도별, 월) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 예금취급기관. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": null,
+   "ko": null
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Household loans of depository institutions, outstanding. 151Y005/M/1110000. Retrieved 30 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Household loans of depository institutions, outstanding. 151Y005/M/1110000. 2026년 10월 30일 조회."
+  },
+  "citedIn": []
+ }
+]

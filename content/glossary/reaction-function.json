@@ -1,0 +1,15 @@
+{
+ "id": "reaction-function",
+ "term": {
+  "en": "reaction function",
+  "ko": "반응함수"
+ },
+ "definition": {
+  "en": "The rule, stated or implied, by which a central bank sets its policy rate in response to inflation, employment and other conditions. Markets try to infer it to predict future decisions.",
+  "ko": "중앙은행이 물가·고용 등 여건에 따라 정책금리를 어떻게 정하는지를 나타내는 명시적 또는 암묵적 규칙이다. 시장은 앞으로의 결정을 예측하려고 이를 추론한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy"
+ ]
+}

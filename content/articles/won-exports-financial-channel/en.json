@@ -1,0 +1,243 @@
+{
+ "kicker": "Exchange rates",
+ "title": "Korea's economy grew more slowly, not faster, when the won weakened against the dollar",
+ "dek": "Since 1998, with the won floating, Korea's GDP grew 2.0% a year on average in quarters when the won was weaker than a year earlier, against 5.1% when it was stronger, while Hyun Song Shin's research shows how a weaker currency can also hurt through finance.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "2.0%",
+   "label": "average real GDP growth in quarters when the won was weaker against the dollar than a year earlier, 1998–2026 (5.1% when it was stronger)",
+   "cite": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "value": "−0.7%",
+   "label": "average change in real investment in those weak-won quarters (+5.2% when the won was stronger)",
+   "cite": [
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "value": "8",
+   "label": "quarters in which the won was weaker against the dollar than a year before, out of the 10 quarters since 1981 in which GDP shrank",
+   "cite": [
+    "S1",
+    "S4"
+   ]
+  }
+ ],
+ "findings": [
+  "Since 1998, Korea's GDP grew 2.0% a year on average in quarters when the won was weaker against the dollar than a year earlier, against 5.1% when it was stronger; exports and investment followed the same pattern, and the gaps mostly closed a year later [[S1,S2,S3,S4]].",
+  "Most quarters in which GDP shrank came with a weaker won: eight of the 10 quarters since 1981 came when the won was weaker against the dollar than a year before. The won's biggest falls came mostly in crises, when the same shock hit both the won and growth, so the comparison shows timing, not the won's effect [[S1,S4]].",
+  "In 1997–98 and 2008–09 Korea owed the world more than it owned, and the falling won came with soaring corporate bond ((spread|spreads)) over government bonds, up to roughly 935bp (approximate, as the government rate was then managed), and falling investment [[S5,S6,S4,S7,S8,S3]]. That is consistent with the financial channel, which Shin's BIS research links to a sharp drop in investment [[S9]]. In 1997–98, small firms with more short-term foreign debt fared worse [[S10]].",
+  "From 1981 to 1997 exports grew faster a year after a weaker won (15.4% against 8.5%), but not since 1998 (6.7% against 8.5%) [[S2,S4]]. From February 1985 to April 1987, around the Plaza Accord, the yen came to cost 82.7% more won, while won per dollar, after weakening in 1985, ended about where it started (+0.5%) [[S4,S11]]. In 2025, 84.2% of exports were settled in dollars [[S12,S13]]. From October 1997 to January 1998 and from December 2021 to October 2022, a weaker won showed up mostly as higher won prices, not lower prices abroad [[S14,S15]].",
+  "Korea has been a net creditor since Q3 2014, which Bank of Korea economists, using data to mid-2025, say has weakened the old channel [[S5,S6,S4,S16]]. By mid-2026 the overall position had shrunk to 3.1% of GDP as foreign-held Korean shares rose in value, though debt claims still exceeded foreign debts by 18.0% of GDP (preliminary figures) [[S5,S6,S4,S17,S18]]. In 2022 margin calls on currency hedges tightened Korean money markets, and in September 2022 banks paid far more of them than usual [[S19,S16]]. Over 2022 the corporate spread over government bonds also rose, from 61bp in December 2021 to 167bp in December 2022 [[S7,S8]]."
+ ],
+ "question": {
+  "asked": "Since 1980, did Korea's exports and economy really grow faster when the won weakened against the dollar and all trading partners, and what do Hyun Song Shin's financial-channel studies and Korea's currency episodes say about how a weaker won can also hurt?",
+  "lookedAt": "How Korea's exports and economy grew when the won was weakening and when it was strengthening from 1981 to mid-2026, and what Hyun Song Shin's and other BIS research says about why a weaker currency can tighten a country's financial conditions.",
+  "premiseNote": "History does not show a stronger economy when the won was weak: since 1998 GDP grew 2.0% a year on average in quarters when the won was weaker than a year before, against 5.1% when it was stronger. Most quarters in which GDP shrank came with a weaker won, but the won's biggest falls came mostly in crises, when the same shock hit both the won and growth, so this shows timing, not the won's effect."
+ },
+ "sections": [
+  {
+   "id": "long-record",
+   "heading": "Five episodes of a weak won",
+   "summary": "The won has had five big weak spells since 1980, not always against the dollar.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The won's history since 1980 is a handful of big swings, each with its own cause. We measure it as won per dollar, so a rise means a weaker won; a dollar cost 552.0 won in January 1980 [[S4]]. The rate was managed until the Asian financial crisis: in March 1990 a 'market average rate' system replaced a peg to a basket of currencies [[S13]]. Since that crisis the won has floated."
+    },
+    {
+     "type": "p",
+     "text": "From October 1997 to January 1998, won per dollar rose 85.1%, to 1,706.8 won, still the weakest monthly average on record [[S4]]. It rose 43.5% from July 2008 to March 2009 and 20.5% from December 2021 to October 2022. In June 2026 it reached 1,527.3 won, the weakest since February 1998, then fell back 11.0% to 1,359.0 won in September [[S4]]. The chart below marks five big episodes; in the first, 1985–87, the won ended weaker in real terms against its trading partners, not against the dollar."
+    },
+    {
+     "type": "figure",
+     "chart": "won-history"
+    },
+    {
+     "type": "p",
+     "text": "Weak against the dollar is not always weak against everyone, as the ((real-effective-exchange-rate|real effective exchange rate)) shows: it measures the won against all trading partners at once, allowing for differences in inflation. From February 1985 to April 1987 won per dollar weakened 6.6% by October 1985 and then came back, ending about where it started (+0.5%) [[S4]]. Over the same period the won's real effective value fell 28.0% as the yen soared, so in real terms the won fell far more against its main trading partners taken together than it did against the dollar [[S20]]. From December 2021 to October 2022, while won per dollar rose 20.5%, the real effective value fell only 6.6% [[S4,S21]]. Irwin and Obstfeld note that at the time the won's real effective value was not far below its 2010–12 average, years that were not crisis years for the Korean economy [[S13]]."
+    }
+   ]
+  },
+  {
+   "id": "growth",
+   "heading": "Weak-won quarters were slower quarters",
+   "summary": "Since 1998, quarters when the won weakened saw slower growth, not faster.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Since 1998, with the won floating, a weaker won has gone with slower, not faster, growth. We call a quarter weak-won when a dollar cost more won, on average, than a year earlier, and strong-won otherwise. From 1998 to mid-2026, 52 quarters were weak-won and 62 quarters strong-won [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "In weak-won quarters real GDP grew 2.0% from a year earlier on average, against 5.1% in strong-won quarters [[S1,S4]]. Real goods exports grew 3.6%, against 11.7% [[S2]]. Investment, meaning spending on buildings, machinery, equipment and intellectual property such as software, shrank 0.7%, against growth of 5.2% [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "A year later most of the gaps had closed: four quarters on, GDP grew 3.7% after weak-won quarters against 4.2% after strong ones [[S1]]. Exports grew 6.7% against 8.5%, and investment growth was about even [[S2,S3]]. The chart below shows all six comparisons."
+    },
+    {
+     "type": "figure",
+     "chart": "weak-strong"
+    },
+    {
+     "type": "p",
+     "text": "Before the float, exports grew faster a year after a weak-won quarter: from 1981 to 1997 they grew 15.4% a year later, against 8.5% a year after a strong-won quarter [[S2,S4]]. But in the weak-won quarters themselves GDP grew more slowly, 8.9% against 10.6% [[S1]]. So did investment, 9.8% against 15.0% [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "Measured against all trading partners, the pattern since 1998 is the same: GDP grew 2.2% in weak quarters against 5.0% in strong ones [[S21,S1]]. Since 1998, in the 11 quarters when won per dollar rose more than fifteen per cent over the year, GDP shrank 0.6% on average and investment 6.4% [[S1,S3,S4]]. Since 1998, in the 28 quarters when it fell more than five per cent, GDP grew 6.5% [[S1,S4]]. These averages pool very different shocks, which the next sections take apart."
+    }
+   ]
+  },
+  {
+   "id": "shin",
+   "heading": "What Shin's research says",
+   "summary": "Shin's research argues a weaker currency can hurt through finance, though the evidence has limits.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hyun Song Shin and his co-authors at the Bank for International Settlements (BIS) argue that a weaker currency against the dollar can hurt an economy through finance, the opposite way to trade [[S9]]. Shin, now Governor of the Bank of Korea [[S22]], made this case in BIS studies and speeches before taking office [[S9,S23]]."
+    },
+    {
+     "type": "p",
+     "text": "A chipmaker selling in dollars earns more won when the won weakens, so it can cut prices abroad or keep a fatter margin. That is the ((trade-channel|trade channel)). A firm that borrowed in dollars owes more in won, so lenders see it as riskier and lend less. That is the ((financial-channel|financial channel))."
+    },
+    {
+     "type": "p",
+     "text": "In a 2015 speech in Seoul, Shin described how the links that ease credit when the dollar weakens work in reverse when it strengthens [[S23]]:"
+    },
+    {
+     "type": "quote",
+     "text": "However, when the dollar strengthens, these same relationships go into reverse and conspire to tighten financial conditions.",
+     "cite": "S23"
+    },
+    {
+     "type": "p",
+     "text": "The rate that matters for this channel, he argued, is the one against the dollar, the main borrowing currency, not a currency's average against trading partners [[S23]]."
+    },
+    {
+     "type": "p",
+     "text": "The core study, a 2018 BIS working paper by Avdjiev, Bruno, Koch and Shin, covers dozens of emerging economies, Korea among them [[S9]]. It finds that a large rise in the dollar, of one standard deviation, is followed by investment growth about five percentage points lower the next quarter [[S9]]. Among firms that rely on outside finance, the extra fall in investment is large and significant in emerging Asia but not in emerging Europe [[S9]]. GDP growth contracts too [[S9]], and the ((broad-dollar-index|broad dollar)), the dollar against many currencies at once, is the most relevant exchange rate for investment [[S9]]."
+    },
+    {
+     "type": "p",
+     "text": "The research has limits. The core paper says that in additional tests, which it does not show, the financial channel outweighs the trade channel overall [[S9]], but its conclusion says only that the hit to investment may temper the gains from trade [[S9]]. Firms in tradable sectors invest more after the dollar rises, which is consistent with the trade channel [[S9]]. Another BIS study finds the financial channel only partly offsets the trade channel [[S24]]. No study we read estimates both channels together for Korea alone [[S24,S25]], and Shin himself urged care about causation [[S23]]."
+    }
+   ]
+  },
+  {
+   "id": "crises",
+   "heading": "When the won fell hardest, debt was part of the story",
+   "summary": "In the won's worst falls, heavy short-term foreign debt went with soaring corporate spreads.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Korea's own crises look like the financial channel at work, though they cannot prove it. Of the 10 quarters since 1981 in which GDP shrank from a year earlier, eight came when the won was weaker against the dollar than a year before [[S1,S4]]. The deepest, −7.1% in Q2 1998, came in the Asian crisis; the list also includes the pandemic, and the worst quarter of 2008–09 ranks only 6th lowest [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "In the third quarter of 1997 Korea's ((net-international-investment-position|net international investment position)), what it owns abroad minus what it owes, was −12.5% of GDP [[S5,S6,S4]]. In the second quarter of 1997, foreign debt due within a year equalled 12.4% of GDP, 48% of the total [[S26,S6,S4,S27]]. As the won collapsed, the overnight rate between banks reached 25.3%, and the ((spread)) of corporate over government bonds, measured in ((basis-point|basis points)), hit about 935bp [[S28,S7,S8]]. The three-year government bond rate moved in steps and stood still for months at a time, so it appears to have been administered and that gap is approximate [[S8]]. At its worst, in the third quarter of 1998, investment was 23.1% lower than a year earlier [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "Firm data show this ((balance-sheet-effect|balance-sheet effect)): small firms with more short-term foreign debt before the crisis saw their sales grow more slowly during it [[S10]]. Exports cushioned mainly the largest firms [[S10]]."
+    },
+    {
+     "type": "p",
+     "text": "In mid-2008 Korea was still a net debtor, at −11.4% of GDP, though counting debt alone its debt claims abroad had exceeded its foreign debts since Q1 2000 [[S5,S6,S4,S17]]. The weak spot was short-term foreign debt, which in the third quarter of 2008 reached USD 188bn, 52% of the total [[S26,S27]]. At 15.5% of GDP, that was the highest share in data back to 1994 [[S26,S6,S4]]. This time the dollar itself surged: the broad dollar rose 17.9% between July 2008 and March 2009 [[S29]]."
+    },
+    {
+     "type": "p",
+     "text": "Foreign investors sold a net USD 29bn of Korean shares and bonds between July 2008 and March 2009 [[S30]]. Even as government bond rates fell, the corporate spread widened from 103bp in July 2008 to a peak of 438bp in December 2008 [[S7,S8]]. Exports did not rescue growth: real goods exports fell 4.5% from a year earlier in Q1 2009, and dollar export values fell 15.9% in 2009 as a whole [[S2,S31]]. The table below sets the five episodes side by side."
+    },
+    {
+     "type": "figure",
+     "chart": "episodes"
+    }
+   ]
+  },
+  {
+   "id": "exports",
+   "heading": "Why a cheaper won lifts exports less than expected",
+   "summary": "Exporters barely cut prices abroad when the won falls, and volumes respond slowly.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Before the 1997 float a cheaper won went with faster export growth a year later, but not since [[S2,S4]]. From 1986 to 1988 real goods exports grew 25.2% a year on average, peaking at 52.4% in Q4 1986 [[S2]]. The current account, Korea's balance of trade and income with the world, swung from a deficit of 2.1% of GDP in 1985 to a surplus of 6.2% in 1988 [[S32,S33]]."
+    },
+    {
+     "type": "p",
+     "text": "From February 1985 to April 1987, around the Plaza Accord, won per dollar weakened in 1985 and then came back, ending about where it started (+0.5%) [[S4]]. Over the same period the yen came to cost 82.7% more won [[S11]]. Exports then kept growing fast into early 1988 even as the won strengthened against the dollar [[S2,S4]]."
+    },
+    {
+     "type": "p",
+     "text": "In 2025, 84.2% of Korean exports were settled in dollars, a practice called ((dollar-invoicing|dollar invoicing)) [[S12]], and big exporters set prices market by market [[S13]]. Research across many countries finds that the relative prices of goods traded between two countries, other than commodities, barely move with the exchange rate between their currencies [[S34]]. From October 1997 to January 1998 export prices rose 69.3% in won but fell only 4.8% in the currencies buyers paid [[S14,S15]]. From December 2021 to October 2022 they rose 16.0% in won and fell just 1.6%, as the chart below shows [[S14,S15]]. From July 2008 to March 2009, amid the global slump, prices in buyers' currencies fell 25.0%, so that episode does not isolate exporters' pricing choices [[S15]]."
+    },
+    {
+     "type": "figure",
+     "chart": "export-prices"
+    },
+    {
+     "type": "p",
+     "text": "Volumes respond slowly: Korea's export volumes react little to the exchange rate in the short run [[S35]]. The yen's price in won fell 40% between October 2011 and June 2015; an IMF study of the move up to early 2015 found exporters had passed little of it into prices and volumes barely responded [[S11,S35]]."
+    },
+    {
+     "type": "p",
+     "text": "Another BIS study finds that how much a country invoices in dollars makes little difference to the damage a stronger dollar does [[S36]]. In 2025 Chang Yong Rhee, then Governor of the Bank of Korea, said a weaker won now brings Korea smaller export gains [[S19]]."
+    }
+   ]
+  },
+  {
+   "id": "now",
+   "heading": "A creditor Korea, with a new weak spot",
+   "summary": "Korea is now a net creditor, but a fast-falling won can still tighten its finances.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Korea's foreign debt is now less short-term and more than covered by its debt claims abroad, but a falling won can still tighten its finances. It became a net creditor, owning more abroad than it owes, in Q3 2014 [[S5,S6,S4]]. Counting debt alone, its debt claims on the rest of the world exceeded its foreign debts by 18.0% of GDP in mid-2026. At the end of 1997 its foreign debts exceeded those claims by 10.7% of GDP [[S17,S6,S4]]. Its gross foreign debt is 39.9% of GDP, but less of it is due within a year: 24%, against 48% in the second quarter of 1997 [[S27,S6,S26]]."
+    },
+    {
+     "type": "p",
+     "text": "The wider net position, which includes shares, peaked at 57.8% of GDP at the end of 2024 and was 54.2% in mid-2025, in line with Bank of Korea economists' estimate [[S5,S6,S4,S16]]. It fell to 3.1% by mid-2026, most of it in the second quarter of 2026, from 38.5% at the end of March (preliminary figures) [[S5,S6,S4]]. The reason is that foreign-owned Korean shares, which count as what Korea owes, rose in value: by 82% in that quarter alone, to 4.2 times their end-2024 level, a rise that more than accounts for the fall [[S18]]. That is a paper effect of rising share prices, not new borrowing: in the chart below, net claims in debt barely move while the overall position falls."
+    },
+    {
+     "type": "figure",
+     "chart": "debtor-to-creditor"
+    },
+    {
+     "type": "p",
+     "text": "Bank of Korea economists conclude that the old channel has weakened since Korea became a creditor [[S16]]:"
+    },
+    {
+     "type": "quote",
+     "text": "With this structural shift, the traditional transmission channel of external shocks observed during the net debtor period has notably attenuated.",
+     "cite": "S16"
+    },
+    {
+     "type": "p",
+     "text": "Korean finance remains highly sensitive to global conditions, they add [[S16]]. From December 2021 to October 2022, won per dollar rose 20.5% as the broad dollar climbed 11.2% [[S4,S29]]. Yet Korea's 10-year government bond rate rose less than America's, 208bp against 251bp, and foreigners bought a net USD 32bn of Korean bonds over those months [[S37,S38,S39]]."
+    },
+    {
+     "type": "p",
+     "text": "Part of the strain came through currency hedges: when the won falls fast, holders of currency hedges that lose value must post extra cash, a ((margin-call|margin call)), and in September 2022 Korean banks paid far more than usual [[S16,S19]]. To raise it they sold won securities and issued bonds, adding upward pressure on market interest rates [[S16]]. The corporate spread, which nets out government bond rates, also widened over the year, from 61bp in December 2021 to 167bp in December 2022 [[S7,S8]]. The sources we read do not measure how much of that rise the margin calls caused."
+    },
+    {
+     "type": "p",
+     "text": "The weak won from January 2024 to June 2026 was different again: over those months the broad dollar ended almost where it started (−0.9%), while won per dollar rose 15.4% [[S29,S4]]. The won fell amid political uncertainty around the turn of 2025 [[S19]]. The period also saw an oil price jump of 88% from December 2025 to April 2026 [[S40]]. Growth was 3.7% in Q2 2026, alongside a 186% rise in chip export values from a year earlier [[S1,S41]]. In June 2026 Governor Shin tied the recent pick-up in growth to chip exports driven by AI demand, so the won's own part cannot be separated [[S22]]."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "Korea's record does not show that a weak won made the economy strong: most quarters of falling GDP came with a weaker won. In the two sharpest falls of the won, heavy short-term foreign debts [[S26,S6,S4]] went with soaring corporate bond spreads [[S7,S8]], the tightening of financial conditions Shin describes [[S23]]; in 1997–98 small firms with more short-term foreign debt fared worse [[S10]]. Exports grew faster a year after a weaker won only before 1998. From February 1985 to April 1987 the yen came to cost 82.7% more won while won per dollar, after weakening in 1985, ended about where it started (+0.5%) [[S2,S4,S11]]. Bank of Korea economists found, with data to mid-2025, that being a creditor had blunted the old channel [[S16]], though the overall net position had shrunk to 3.1% of GDP by mid-2026 (preliminary figures) [[S5,S6,S4]]. Yet 2022 showed a fast fall in the won can still tighten Korean finance through hedging [[S16]], and no study we read estimates both channels together for Korea alone [[S24,S25]]."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

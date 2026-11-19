@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <line x1="28" y1="260" x2="452" y2="260" class="s-seq3" stroke-width="8" stroke-linecap="round"/>
+  <rect x="48" y="236" width="84" height="20" rx="8" class="f-context"/>
+  <rect x="144" y="242" width="44" height="14" rx="7" class="f-context"/>
+  <rect x="404" y="240" width="44" height="16" rx="8" class="f-context"/>
+  <path d="M210 222 H224 M210 240 H224 M280 222 H294 M280 240 H294 M306 222 H320 M306 240 H320 M376 222 H390 M376 240 H390" fill="none" class="s-tarn" stroke-width="8"/>
+  <rect x="224" y="208" width="56" height="48" rx="4" class="f-tarn"/>
+  <rect x="320" y="208" width="56" height="48" rx="4" class="f-tarn"/>
+  <rect x="240" y="220" width="24" height="24" rx="2" class="f-seq2"/>
+  <rect x="336" y="220" width="24" height="24" rx="2" class="f-seq2"/>
+  <g transform="rotate(5 350 204)">
+    <rect x="250" y="170" width="100" height="34" rx="6" class="f-focus"/>
+    <rect x="230" y="128" width="140" height="34" rx="6" class="f-focus"/>
+    <rect x="210" y="86" width="180" height="34" rx="6" class="f-focus"/>
+    <rect x="188" y="44" width="224" height="34" rx="6" class="f-focus"/>
+    <line x1="206" y1="61" x2="292" y2="61" class="s-glint" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

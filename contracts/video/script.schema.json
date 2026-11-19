@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Video script, one edition: the slide wording and the narration on the storyboard's beats (guides/video.md)",
+  "type": "object",
+  "required": ["lang", "meta", "slides", "beats"],
+  "additionalProperties": false,
+  "properties": {
+    "lang": {"enum": ["en", "ko"]},
+    "meta": {
+      "type": "object", "required": ["title", "summary"], "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string", "maxLength": 100, "description": "The YouTube title"},
+        "summary": {"type": "string", "description": "The answer in two sentences, for the YouTube description"},
+        "thumbnail": {"type": "string", "maxLength": 40, "description": "Three to five words on the thumbnail"}
+      }
+    },
+    "slides": {
+      "type": "object",
+      "description": "Per storyboard slide id: the words on the slide. Numbers only as fact tokens {{F4}}.",
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "properties": {
+          "kicker": {"type": "string"},
+          "headline": {"type": "string"},
+          "text": {"type": "string"},
+          "label": {"type": "string"},
+          "items": {"type": "array", "items": {"type": "string"}, "maxItems": 4},
+          "source": {"type": "string"}
+        }
+      }
+    },
+    "beats": {
+      "type": "array", "minItems": 20,
+      "items": {
+        "type": "object", "required": ["beat", "spoken"], "additionalProperties": false,
+        "properties": {
+          "beat": {"type": "string", "pattern": "^b\\d{2,3}$"},
+          "spoken": {"type": "string", "minLength": 1, "description": "What the narrator says, verbatim. Numbers as {{F4:spoken}}"},
+          "cues": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["step", "at"], "additionalProperties": false,
+              "properties": {
+                "step": {"type": "integer", "minimum": 2},
+                "at": {"type": "string", "description": "The words in `spoken` on which the build step appears"}
+              }
+            }
+          },
+          "pause_after": {"type": "number", "minimum": 0, "maximum": 3}
+        }
+      }
+    }
+  }
+}

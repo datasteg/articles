@@ -1,0 +1,111 @@
+# The live pipeline. The driver (artools drive) follows `steps` in order; the site draws them (scripts/build-content-index.mjs reads this file).
+id: explainer
+version: "1.3"
+status: live
+name: {en: Explainer, ko: 해설}
+tagline: {en: "One reader question, answered with research and data", ko: "독자의 질문 하나에 연구와 데이터로 답합니다"}
+shape: {words: {en: "1,200–1,800 words", ko: "약 4,000–6,000자"}, figures: "3–6", gates: 3}
+template: guides/templates/explainer.md
+phases:
+  - {id: question, label: {en: Question, ko: 질문}}
+  - {id: research, label: {en: Research, ko: 연구}}
+  - {id: data, label: {en: Data, ko: 데이터}}
+  - {id: writing, label: {en: Writing, ko: 집필}}
+  - {id: review, label: {en: Review, ko: 검토}}
+  - {id: publish, label: {en: Publish, ko: 게시}}
+steps:
+  - id: frame
+    skill: frame-question
+    phase: question
+    label: {en: Frame, ko: 질문 정리}
+    detail: {en: "The question and every premise it takes for granted", ko: "질문과 그 전제를 모두 적습니다."}
+  - id: scout
+    sources: scout
+    phase: question
+    label: {en: Scout, ko: 사전 조사}
+    detail: {en: "Quick archive search and reality-check data", ko: "아카이브를 훑고 데이터로 사실을 확인합니다."}
+    branches: [{en: Archive, ko: 아카이브}, {en: Statistics, ko: 통계}]
+  - id: refine
+    skill: refine-question
+    phase: question
+    extra_scout: true
+    decline_stops: true
+    label: {en: Critical review, ko: 질문 검토}
+    detail: {en: "Premises tested, vague words defined, missing angles added", ko: "전제를 검증하고, 모호한 말을 정의하고, 빠진 관점을 더합니다."}
+  - id: gate-question
+    gate: question
+    phase: question
+    label: {en: Editor approves the question, ko: 편집자가 질문을 승인}
+  - id: search
+    skill: search-jejualps
+    mode: deep
+    phase: research
+    label: {en: Read the research, ko: 연구 읽기}
+    detail: {en: "8–15 papers read in depth; every quote checked word for word", ko: "논문 8~15편을 깊이 읽고 인용을 원문과 대조합니다."}
+  - id: map
+    skill: map-literature
+    phase: research
+    label: {en: Map mechanisms, ko: 메커니즘 정리}
+    detail: {en: "What explains it, where studies disagree, what to measure", ko: "무엇이 설명하는지, 연구가 어디서 갈리는지, 무엇을 측정할지"}
+  - id: fetch
+    fetch: routed
+    phase: data
+    label: {en: Fetch data, ko: 데이터 수집}
+    detail: {en: "Only the series readers need, each validated", ko: "독자에게 필요한 시계열만, 검증 후 수집"}
+    branches: [{en: ECB · Eurostat, ko: ECB · Eurostat}, {en: FRED, ko: FRED}, {en: Bank of Korea, ko: 한국은행}]
+  - id: analyze
+    skill: analyze-data
+    phase: data
+    label: {en: Compute facts, ko: 수치 계산}
+    detail: {en: "Every number computed once, by a script", ko: "모든 수치는 스크립트로 한 번만 계산합니다."}
+  - id: plan
+    skill: plan-article
+    phase: writing
+    label: {en: Plan, ko: 기획}
+    detail: {en: "The answer, the sections, the figures", ko: "답, 구성, 그림"}
+  - id: gate-plan
+    gate: plan
+    phase: writing
+    label: {en: Editor approves the plan, ko: 편집자가 기획을 승인}
+  - id: draft
+    skill: draft-article
+    phase: writing
+    label: {en: Draft EN · KO, ko: 영문 · 국문 집필}
+    detail: {en: "Plain language; numbers only from computed facts", ko: "쉬운 말로, 수치는 계산된 사실에서만"}
+  - id: charts
+    skill: make-charts
+    phase: writing
+    label: {en: Charts, ko: 차트}
+    detail: {en: "Built from the data, rendered and inspected", ko: "데이터로 그리고 화면으로 확인합니다"}
+  - id: review
+    skill: review-article
+    phase: review
+    loop: {owners: [analyze-data, draft-article, make-charts], max: 2}
+    label: {en: Review and fact-check, ko: 검토와 사실 확인}
+    detail: {en: "Checks plus an independent fact-checker; fixes go back", ko: "자동 검사와 독립 사실 확인, 수정은 해당 단계로"}
+  - id: cover
+    skill: make-cover
+    phase: publish
+    label: {en: Cover image, ko: 표지 그림}
+    detail: {en: "A small picture of the subject for the article lists, drawn from the final text and checked in both themes", ko: "최종 원고를 읽고 목록에 실릴 작은 그림을 그려 두 테마에서 확인합니다."}
+  - id: pdf
+    skill: make-pdf
+    phase: publish
+    label: {en: PDF edition, ko: PDF판}
+    detail: {en: "Each edition set as a journal-style PDF for download, checked page by page", ko: "언어판마다 내려받을 수 있는 학술지 형식의 PDF로 짜고 쪽마다 확인합니다."}
+  - id: gate-publish
+    gate: publish
+    phase: publish
+    label: {en: Editor approves the article, ko: 편집자가 기사를 승인}
+  - id: publish
+    skill: publish-article
+    manual: true
+    phase: publish
+    label: {en: Publish, ko: 게시}
+    detail: {en: "Committed, deployed, checked live", ko: "커밋, 배포, 게시 확인"}
+  - id: video
+    skill: make-video
+    follows: publish
+    phase: publish
+    label: {en: Video on YouTube, ko: YouTube 영상}
+    detail: {en: "The published article as a narrated video in English and Korean, on the datasteg YouTube channel", ko: "게시된 기사를 영어·한국어 내레이션 영상으로 만들어 datasteg YouTube 채널에 올립니다."}

@@ -1,0 +1,16 @@
+{
+ "id": "consumer-sentiment-index",
+ "term": {
+  "en": "consumer sentiment index",
+  "ko": "소비자심리지수"
+ },
+ "definition": {
+  "en": "A monthly Bank of Korea index, built from a household survey, of how people see the economy, their own finances and prices. Readings above its long-run average mean households are more optimistic than usual.",
+  "ko": "한국은행이 가계 설문으로 매달 내는 지수로, 사람들이 경기와 자기 살림살이, 물가를 어떻게 보는지 나타낸다. 장기 평균보다 높으면 가계가 평소보다 낙관적이라는 뜻이다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "korean-economy",
+  "growth"
+ ]
+}

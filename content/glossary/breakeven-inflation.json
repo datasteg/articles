@@ -1,0 +1,16 @@
+{
+ "id": "breakeven-inflation",
+ "term": {
+  "en": "breakeven inflation",
+  "ko": "기대인플레이션(BEI)"
+ },
+ "definition": {
+  "en": "The inflation rate at which an ordinary government bond and an inflation-protected bond of the same maturity would pay the same return, read as the market's expected inflation plus a risk premium.",
+  "ko": "같은 만기의 일반 국채와 물가연동국채의 수익이 같아지는 물가 상승률로, 시장이 예상하는 물가에 위험 프리미엄을 더한 값으로 읽는다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "inflation",
+  "bond-markets"
+ ]
+}

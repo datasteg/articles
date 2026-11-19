@@ -1,0 +1,224 @@
+{
+ "kicker": "Funding and trade",
+ "title": "Canada matches Mexico on its US lender share but borrows far more against its exports",
+ "dek": "Banks located in the United States hold about half the cross-border bank loans owed by Canada and by Mexico, and the United States buys most of both economies' goods. At end-June 2026, the cross-border bank loans Canada owes equalled 142% of a year's goods exports. The loans Mexico owes equalled 13.4%. The data are from the BIS, the IMF and UN Comtrade for 36 economies.",
+ "whyNow": "The newest BIS bank data run to end-June 2026 and came out at the end of October 2026, after the usual four-month lag. Canada ranks in the top five of the 36 economies on lender, buyer and supplier shares, and the United States leads all three.",
+ "keyNumbers": [
+  {
+   "value": "142%",
+   "label": "Canada: cross-border bank loans owed to all lenders, % of goods exports (BIS stock at end-June 2026 over UN Comtrade, twelve months to June 2026)",
+   "cite": [
+    "S2"
+   ]
+  },
+  {
+   "value": "60.6%",
+   "label": "Median of the same ratio across the group, end-June 2026",
+   "cite": [
+    "S2"
+   ]
+  },
+  {
+   "value": "13.4%",
+   "label": "Mexico: the same ratio, with about the same share of its loans held by US-located banks",
+   "cite": [
+    "S2"
+   ]
+  }
+ ],
+ "findings": [
+  "At end-June 2026, the cross-border bank loans Canada owed to all lenders equalled 142% of its goods exports over the twelve months to June. Canada ranks 5 of the 36 economies on this ratio, counting from the highest, against a median of 60.6%.",
+  "Banks located in the United States hold about half the loans owed by Canada (49.5%) and by Mexico (49.5%). Yet Canada's ratio is 10.6 times Mexico's.",
+  "In Q2 2026 Canada owed 59.1% of its bank loans to banking systems that are also among its five largest export markets. That is the highest in the group, but close to Canada's own median of 61.2% since Q4 2010."
+ ],
+ "question": {
+  "asked": "How much of Canada's bank funding and export income runs through the United States, and how does that compare with Mexico and the rest of the group?",
+  "lookedAt": "BIS locational banking statistics and IMF reserves at end-June 2026, set beside UN Comtrade goods trade over the twelve months to June 2026 (to July 2026 for the bilateral Canada–US and Mexico–US figures). The group is 36 economies, and Canada's history runs back to 2005.",
+  "premiseNote": null
+ },
+ "sections": [
+  {
+   "id": "finding",
+   "heading": "Same lender share, very different scale",
+   "summary": "Canada and Mexico owe about half their bank loans to US-located banks, but Canada borrows far more against its exports.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At end-June 2026, banks located in the United States held 49.5% of the cross-border bank loans Canada owed [[S1]]. They held 49.5% of the loans Mexico owed [[S2]]. In the twelve months to June 2026, the United States bought 60.7% of Canada's goods exports and 74.6% of Mexico's. The chart shows the eight economies whose largest lender is also their largest buyer."
+    },
+    {
+     "type": "figure",
+     "chart": "lender-and-buyer"
+    },
+    {
+     "type": "p",
+     "text": "Joining the two sides gives a partner ratio: the stock of loans owed to US-located banks, set against a year's flow of goods exports to the United States. At end-June 2026, against exports in the twelve months to June 2026, it is 114% for Canada and 9% for Mexico [[S2]]. The lender share is about half for both, so most of the gap is in the loans themselves. Mexico owes US-located banks USD 51.1 bn, while Canada owes them USD 452 bn [[S3]] [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "Against all lenders, Canada's cross-border bank loans equal 142% of a year's goods exports. Canada ranks 5 of the 36 economies on this ratio, counting from the highest, against a median of 60.6% [[S2]]. Banks located in the UK, France and Belgium book loans for groups based elsewhere. Without those three, the median is 52.2%. Mexico's ratio of 13.4% ranks 2 of the 36, counting from the lowest."
+    },
+    {
+     "type": "figure",
+     "chart": "scale"
+    }
+   ]
+  },
+  {
+   "id": "each-side",
+   "heading": "What each source measures",
+   "summary": "Bank loans are counted where the lending office sits and trade at customs value; across the group the two rarely line up.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The funding side is the BIS locational banking statistics. They record cross-border loans and deposits, including those between banks and within banking groups. Each claim is counted by where the lending office sits, not by who owns the bank. Canada owed USD 913 bn at end-June 2026, and banks located in the United States held USD 452 bn of it [[S2]] [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "The trade side is UN Comtrade goods trade at customs value. Canada exported USD 644 bn in the twelve months to June 2026 [[S2]]. In those twelve months the United States took 60.7% of those exports, against a group median of 20.1%. That share ranks 2 in the group, counting from the highest [[S2]]."
+    },
+    {
+     "type": "p",
+     "text": "Across the group, depending on one buyer barely goes with depending on one lender. A rank (Spearman) correlation measures how far economies keep the same order on two measures; zero means no shared order. For the largest-buyer and largest-lender shares it is 0.17 across 35 economies, and 0.03 without Canada and Mexico [[S2]]."
+    }
+   ]
+  },
+  {
+   "id": "why-it-matters",
+   "heading": "Why scale matters beside overlap",
+   "summary": "A shared lender and buyer could pass one shock through twice; how much is at stake depends on the stock of loans.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If one economy is both the main lender and the main buyer, a shock there could cut funding and export income together. The overlap signal counts this: the share of bank loans owed to banking systems that are also among the five largest export markets. Canada's reading of 59.1% in Q2 2026 is the highest in the group, against a median of 21.1% [[S5]] [[S6]]. For Canada it is not new: the reading ranks 41 of its 63 quarters since Q4 2010."
+    },
+    {
+     "type": "figure",
+     "chart": "overlap-history"
+    },
+    {
+     "type": "p",
+     "text": "The overlap says who lends; the scale says how much could be withdrawn. Suppose banks located in the United States withdrew 25% of their loans and deposits to Canada. The first-round loss, the cut times their share times all claims, would be USD 113 bn [[S1]]. That equals 17.5% of a year's goods exports and 101% of net reserves, as arithmetic on today's stock, not a forecast."
+    },
+    {
+     "type": "p",
+     "text": "Net reserves are the central bank's foreign-currency reserves minus the foreign-currency payments it must make soon (IMF); gross reserves are the amount before that deduction. At end-June 2026, the short-term loans and deposits Canada owes to banks located abroad equal 294% of its net reserves, against a group median of 62.9% [[S7]]. That ratio ranks 3 in the group, counting from the highest. Against gross reserves the same short-term loans equal 260%, against a median of 51.5%, and rank 2 [[S7]]."
+    },
+    {
+     "type": "figure",
+     "chart": "reserve-measures"
+    },
+    {
+     "type": "p",
+     "text": "Canada has a floating exchange rate, so reserves are not its main line of defence. These tables do not measure how much of a withdrawal the currency would absorb."
+    }
+   ]
+  },
+  {
+   "id": "limits",
+   "heading": "What this cannot tell us",
+   "summary": "Location is not nationality, gross claims are not net, stocks are set against flows, and proximity fits both ties.",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "Location is not nationality. US-located offices may belong to groups based elsewhere, including the US arms of Canadian banks. UK-located lenders largely book loans for other groups.",
+      "Gross claims run both ways. Banks located in Canada held USD 761 bn of claims on US residents, against USD 452 bn held by US-located banks on Canadian residents, so Canada-located banks hold the larger claim in this pair [[S8]]. Both are gross bank positions between these two economies only; they leave out Canada's other lenders and its portfolio and direct-investment positions. Whether the gross loans Canada owes or the net position matters more in a withdrawal depends on how quickly Canada-located banks could recall their claims on US residents. These data do not show that.",
+      "The ratios set stocks against twelve-month flows, so they measure scale, not the ability to repay.",
+      "Cross-border statistics leave out what foreign-owned banks lend from inside Mexico, so Mexico's low figure may understate foreign bank funding there.",
+      "Proximity is the leading rival reading. Geography, a long-standing trade agreement and banks working on both sides of the border fit both ties. Data at one date cannot show one channel moving with the other."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "heading": "How we counted",
+   "summary": "Funding and trade tables were joined by economy; the partner ratio splits into borrowing, lender share and export share.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "We joined the BIS and IMF funding tables from money-flow's Signal Board, bank and lender-cut pages to the UN Comtrade tables from global-network's country sheets and pair pages, by economy code [[S7]] [[S2]]. The partner ratio multiplies loans owed by the largest lender's share, then divides by exports to that lender's economy. The overlap history is from global-network's joint-stress page, and Saudi Arabia, whose largest buyer is unverified, is left out of the correlation [[S5]]. The tables and the calls that fetch them are listed under Get the data."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "The BIS consolidated statistics, which assign a loan to the lending bank's head-office country, would test this reading. If US-headquartered banks hold much less of the cross-border bank loans Canada owes than the 49.5% held by US-located offices, part of that share is booking by foreign groups, and the overlap is weaker than it looks. The next locational quarter, to September 2026, normally appears at the end of January. If the cross-border bank loans Canada owes again exceed a year of its goods exports, the scale reading holds. If the claims of US-located banks on Canada fall while Canada's exports to the United States hold, the two channels are moving apart."
+ },
+ "byline": "datasteg desk · AI-assisted",
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice. Figures from the data sites linked in this article's sources follow their published aggregation rules, so they can differ from the same statistics published elsewhere.",
+ "whyNowLabel": "Why this note",
+ "reproduce": {
+  "heading": "Get the data",
+  "intro": "Every number in this note was read from datasteg's public pages and its free API. Open a page to explore the data, or run the lines below to fetch the same tables as CSV. Each answer names its release, its period and the statistics it comes from.",
+  "note": "The money-flow lines ask for the release this note used; the other apps answer with their latest data.",
+  "items": [
+   {
+    "label": "Bank loans and deposits, Q2 2026 positions (Canada)",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/m/bank",
+    "api": "https://api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN&release=20261117.2",
+    "release": "20261117.2"
+   },
+   {
+    "label": "Cut a lender, Q2 2026 BIS LBS positions (Canada)",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/m/bank?cut=1&by=debtor&e=CAN&pct=25",
+    "api": "https://api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25&release=20261117.2",
+    "release": "20261117.2"
+   },
+   {
+    "label": "Signal Board: funding vulnerability and flows",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/world",
+    "api": "https://api.datasteg.com/v1/money-flow/board?release=20261117.2",
+    "release": "20261117.2"
+   },
+   {
+    "label": "Sovereign stress signals",
+    "app": "money-flow",
+    "page": "https://money-flow.datasteg.com/en/sovereign",
+    "api": "https://api.datasteg.com/v1/money-flow/sovereign?release=20261117.2",
+    "release": "20261117.2"
+   },
+   {
+    "label": "Canada, 2026-Q2",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/stress?e=CAN",
+    "api": "https://api.datasteg.com/v1/global-network/stress?economy=CAN",
+    "release": "20261117.1"
+   },
+   {
+    "label": "Country sheets: funding and goods trade by economy (Canada)",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/c/CAN",
+    "api": "https://api.datasteg.com/v1/global-network/countries/CAN",
+    "release": "20261117.1"
+   },
+   {
+    "label": "Canada and United States",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/c/CAN/with/USA",
+    "api": "https://api.datasteg.com/v1/global-network/pairs/CAN/USA",
+    "release": "20261117.1"
+   },
+   {
+    "label": "Mexico and United States",
+    "app": "global-network",
+    "page": "https://global-network.datasteg.com/en/c/MEX/with/USA",
+    "api": "https://api.datasteg.com/v1/global-network/pairs/MEX/USA",
+    "release": "20261117.1"
+   }
+  ],
+  "code": "curl -s \"https://api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN&release=20261117.2&format=csv\" -o bank-can.csv\ncurl -s \"https://api.datasteg.com/v1/global-network/stress?economy=CAN&format=csv\" -o stress-can.csv\ncurl -s \"https://api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25&release=20261117.2&format=csv\" -o cut-can.csv\ncurl -s \"https://api.datasteg.com/v1/global-network/countries/CAN?format=csv\" -o country-can.csv",
+  "docs": "https://www.datasteg.com/en/technology/api",
+  "download": {
+   "label": "All the tables, chart data and numbers behind this note, as CSV files in one ZIP",
+   "file": "data.zip",
+   "files": 16,
+   "bytes": 21332
+  }
+ }
+}

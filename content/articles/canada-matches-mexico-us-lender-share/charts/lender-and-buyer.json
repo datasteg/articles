@@ -1,0 +1,261 @@
+{
+ "id": "lender-and-buyer",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Where one partner both lends and buys most, Canada and Mexico lean on it hardest on both sides",
+  "ko": "캐나다와 멕시코는 최대 대출-매입 기관에 가장 크게 의존"
+ },
+ "title": {
+  "en": "Economies whose largest lending banking system is also their largest export market",
+  "ko": "최대 대출 은행 시스템이 최대 수출 시장이기도 한 경제"
+ },
+ "subtitle": {
+  "en": "Bank loans owed at end-June 2026, counted by where the lending office sits (BIS); goods exports over the twelve months to June 2026 (UN Comtrade); %",
+  "ko": "2026년 6월말 은행 대출 잔액(대출 취급 지점 소재지 기준, BIS); 2026년 6월까지 12개월간 상품 수출(UN Comtrade); %"
+ },
+ "alt": {
+  "en": "US-located banks hold 49.5% of Canada's bank loans and 49.5% of Mexico's, while the United States takes 60.7% of Canada's exports and 74.6% of Mexico's. The other economies sit lower on both shares.",
+  "ko": "미국 소재 은행은 캐나다 은행 대출의 49.5%와 멕시코 은행 대출의 49.5%를 보유하고 있으며, 미국은 캐나다 수출의 60.7%와 멕시코 수출의 74.6%를 차지한다. 다른 경제권은 두 비율 모두에서 더 낮은 수준이다."
+ },
+ "howToRead": {
+  "en": "Each row is an economy. The left marker is the largest lender's share of its bank loans, and the right marker is the share of its exports that the same economy buys.",
+  "ko": "각 행은 경제권을 나타낸다. 왼쪽 마커는 해당 경제권의 은행 대출 잔액 중 최대 대출 기관의 점유율이다. 오른쪽 마커는 최대 대출 기관이 소재한 경제권이 해당 행의 경제권의 상품 수출에서 차지하는 비중이다."
+ },
+ "notes": [
+  {
+   "en": "The partner is the United States for Canada, Mexico, Colombia and the UK; Spain for Portugal; the UK for Norway; Sweden for Finland; France for Spain.",
+   "ko": "캐나다, 멕시코, 콜롬비아, 영국의 상대국은 미국이며, 포르투갈은 스페인, 노르웨이는 영국, 핀란드는 스웨덴, 스페인은 프랑스이다."
+  },
+  {
+   "en": "UK-located banks book loans for groups based elsewhere, so the UK's and Norway's lender shares reflect booking as well as lending.",
+   "ko": "영국 소재 은행은 다른 지역에 본사를 둔 그룹에 대한 대출을 기록하므로, 영국과 노르웨이의 대출 기관 점유율은 대출뿐만 아니라 기록(booking)도 반영한다."
+  }
+ ],
+ "axes": {
+  "x": {
+   "label": {
+    "en": "%",
+    "ko": "%"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    80
+   ],
+   "ticks": [
+    0,
+    20,
+    40,
+    60,
+    80
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": "MEX",
+   "label": {
+    "en": "Mexico",
+    "ko": "멕시코"
+   },
+   "from": 49.5,
+   "to": 74.6,
+   "highlight": true
+  },
+  {
+   "id": "CAN",
+   "label": {
+    "en": "Canada",
+    "ko": "캐나다"
+   },
+   "from": 49.5,
+   "to": 60.7,
+   "highlight": true
+  },
+  {
+   "id": "COL",
+   "label": {
+    "en": "Colombia",
+    "ko": "콜롬비아"
+   },
+   "from": 31.8,
+   "to": 31.8,
+   "highlight": false
+  },
+  {
+   "id": "PRT",
+   "label": {
+    "en": "Portugal",
+    "ko": "포르투갈"
+   },
+   "from": 36.7,
+   "to": 20.2,
+   "highlight": false
+  },
+  {
+   "id": "NOR",
+   "label": {
+    "en": "Norway",
+    "ko": "노르웨이"
+   },
+   "from": 35.4,
+   "to": 18.7,
+   "highlight": false
+  },
+  {
+   "id": "FIN",
+   "label": {
+    "en": "Finland",
+    "ko": "핀란드"
+   },
+   "from": 27.9,
+   "to": 11.9,
+   "highlight": false
+  },
+  {
+   "id": "ESP",
+   "label": {
+    "en": "Spain",
+    "ko": "스페인"
+   },
+   "from": 30.6,
+   "to": 12.6,
+   "highlight": false
+  },
+  {
+   "id": "GBR",
+   "label": {
+    "en": "UK",
+    "ko": "영국"
+   },
+   "from": 32.5,
+   "to": 14.5,
+   "highlight": false
+  }
+ ],
+ "fromLabel": {
+  "en": "Largest lender's share of bank loans owed",
+  "ko": "은행 대출 잔액 중 최대 대출기관 점유율"
+ },
+ "toLabel": {
+  "en": "Same economy's share of goods exports",
+  "ko": "동일 경제권의 상품 수출 비중"
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "label",
+    "label": {
+     "en": "Economy",
+     "ko": "경제"
+    }
+   },
+   {
+    "key": "top_lender_share_pct",
+    "label": {
+     "en": "Largest lender's share of bank loans owed",
+     "ko": "은행 대출 잔액 중 최대 대출기관 점유율"
+    },
+    "align": "right"
+   },
+   {
+    "key": "top_dest_share_pct",
+    "label": {
+     "en": "Same economy's share of goods exports",
+     "ko": "동일 경제권의 상품 수출 비중"
+    },
+    "align": "right"
+   }
+  ],
+  "rows": [
+   {
+    "label": {
+     "en": "Mexico",
+     "ko": "멕시코"
+    },
+    "top_lender_share_pct": 49.5,
+    "top_dest_share_pct": 74.6
+   },
+   {
+    "label": {
+     "en": "Canada",
+     "ko": "캐나다"
+    },
+    "top_lender_share_pct": 49.5,
+    "top_dest_share_pct": 60.7
+   },
+   {
+    "label": {
+     "en": "Colombia",
+     "ko": "콜롬비아"
+    },
+    "top_lender_share_pct": 31.8,
+    "top_dest_share_pct": 31.8
+   },
+   {
+    "label": {
+     "en": "Portugal",
+     "ko": "포르투갈"
+    },
+    "top_lender_share_pct": 36.7,
+    "top_dest_share_pct": 20.2
+   },
+   {
+    "label": {
+     "en": "Norway",
+     "ko": "노르웨이"
+    },
+    "top_lender_share_pct": 35.4,
+    "top_dest_share_pct": 18.7
+   },
+   {
+    "label": {
+     "en": "Finland",
+     "ko": "핀란드"
+    },
+    "top_lender_share_pct": 27.9,
+    "top_dest_share_pct": 11.9
+   },
+   {
+    "label": {
+     "en": "Spain",
+     "ko": "스페인"
+    },
+    "top_lender_share_pct": 30.6,
+    "top_dest_share_pct": 12.6
+   },
+   {
+    "label": {
+     "en": "UK",
+     "ko": "영국"
+    },
+    "top_lender_share_pct": 32.5,
+    "top_dest_share_pct": 14.5
+   }
+  ]
+ },
+ "meta": {
+  "sources": [
+   "S2"
+  ],
+  "provider": "datasteg calculation",
+  "keys": [
+   "desk join of board, sovereign, stress, country"
+  ],
+  "definition": {
+   "en": "Largest lending banking system, % of those bank loans and deposits; Largest export destination, % of goods exports",
+   "ko": "은행 대출 잔액 중 최대 대출기관 점유율; 동일 경제권의 상품 수출 비중"
+  },
+  "lastObservation": "2026-06-30",
+  "retrieved": "2026-11-17",
+  "licence": "derived views of open statistics; each publisher's terms apply",
+  "attribution": {
+   "en": "BIS, IMF, UN Comtrade via datasteg global-network; datasteg calculation",
+   "ko": "BIS, IMF, UN Comtrade, datasteg global-network를 통해; datasteg 계산"
+  }
+ },
+ "csv": "data/lender-and-buyer.csv"
+}

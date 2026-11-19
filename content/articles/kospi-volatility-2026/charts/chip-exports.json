@@ -1,0 +1,357 @@
+{
+ "id": "chip-exports",
+ "form": "line",
+ "headline": {
+  "en": "Korea's chip export values were 203% above a year earlier in June 2026 and 268% in September: the boom kept going after share prices turned",
+  "ko": "반도체 수출액은 2026년 6월 한 해 전보다 203%, 9월에는 268% 늘었다. 주가가 꺾인 뒤에도 호황은 이어졌다"
+ },
+ "title": {
+  "en": "Korea's semiconductor export values against a year earlier",
+  "ko": "반도체 수출액의 한 해 전 대비 증가율"
+ },
+ "subtitle": {
+  "en": "% change from the same month a year earlier, export value index in US dollars, monthly, Jan 2024–Sep 2026",
+  "ko": "전년 같은 달 대비 증가율(%), 달러 기준 수출금액지수, 월별, 2024년 1월~2026년 9월"
+ },
+ "howToRead": {
+  "en": "The line shows how much higher chip export values were than in the same month a year before. The shaded strip is February to September 2026, the turbulent months for Korean shares; the vertical line marks June 2026, when global tech-stock momentum started to falter and Korean share prices peaked.",
+  "ko": "선은 반도체 수출액이 한 해 전 같은 달보다 얼마나 많았는지를 보여 준다. 음영은 한국 주가가 크게 출렁인 2026년 2~9월이며, 세로선은 세계 기술주의 상승세가 꺾이기 시작하고 한국 주가가 고점을 찍은 2026년 6월이다."
+ },
+ "notes": [
+  {
+   "en": "Bank of Korea export value index for semiconductors, in US dollars: export values, not company earnings or volumes. In September 2026 the index was 5.2 times its 2024 average.",
+   "ko": "한국은행의 달러 기준 반도체 수출금액지수다. 기업 이익이나 수출 물량이 아니라 수출 금액이다. 2026년 9월 지수는 2024년 평균의 5.2배였다."
+  },
+  {
+   "en": "Korean share prices peaked in June 2026 on OECD monthly averages. Samsung Electronics and SK hynix share prices are not shown: no source available to us has them.",
+   "ko": "한국 주가는 OECD 월평균으로 2026년 6월에 고점을 찍었다. 삼성전자와 SK하이닉스 주가는 우리가 쓸 수 있는 자료에 없어 싣지 않았다."
+  }
+ ],
+ "alt": {
+  "en": "Line chart of the change in Korea's semiconductor export values from a year earlier, monthly from January 2024 to September 2026. Growth slowed from 55% in January 2024 to −4% in February 2025, picked up to 44% in December 2025, then jumped to 166% in February 2026, 203% in June, eased to 182% in July, then rose to 268% in September, the highest in the period. After global tech stocks faltered and Korean share prices peaked in June 2026, growth stayed far above its 2024–25 rates.",
+  "ko": "2024년 1월부터 2026년 9월까지 반도체 수출액의 한 해 전 대비 증가율을 나타낸 월별 선 그래프. 증가율은 2024년 1월 55%에서 2025년 2월 −4%까지 낮아졌다가 2025년 12월 44%로 올랐고, 2026년 2월 166%, 6월 203%로 뛰었다. 7월에는 182%로 주춤했다가 9월 268%로 올라 기간 중 가장 높았다. 세계 기술주가 흔들리고 한국 주가가 고점을 찍은 2026년 6월 이후에도 증가율은 2024~2025년보다 훨씬 높았다."
+ },
+ "axes": {
+  "x": {
+   "type": "time",
+   "format": "month",
+   "ticks": [
+    "2024-07",
+    "2025-07",
+    "2026-07"
+   ],
+   "label": {
+    "en": "Month",
+    "ko": "월"
+   },
+   "unit": "month"
+  },
+  "y": {
+   "label": {
+    "en": "% change from a year earlier",
+    "ko": "전년 같은 달 대비 증가율(%)"
+   },
+   "unit": "%",
+   "domain": [
+    -50,
+    350
+   ],
+   "ticks": [
+    0,
+    100,
+    200,
+    300
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "x": [
+  "2024-01",
+  "2024-02",
+  "2024-03",
+  "2024-04",
+  "2024-05",
+  "2024-06",
+  "2024-07",
+  "2024-08",
+  "2024-09",
+  "2024-10",
+  "2024-11",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-07",
+  "2025-08",
+  "2025-09",
+  "2025-10",
+  "2025-11",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08",
+  "2026-09"
+ ],
+ "series": [
+  {
+   "id": "chip",
+   "label": {
+    "en": "Chip exports",
+    "ko": "반도체 수출"
+   },
+   "dataset": "derived-chip-export-yoy-m",
+   "color": "focus",
+   "endLabel": true,
+   "values": [
+    55.49,
+    65.22,
+    35.4,
+    54.66,
+    53.18,
+    50.31,
+    47.81,
+    36.54,
+    35.73,
+    39.12,
+    29.83,
+    30.64,
+    6.55,
+    -4.02,
+    11.18,
+    17.27,
+    21.26,
+    11.39,
+    32.05,
+    28.57,
+    22.59,
+    26.27,
+    39.19,
+    44.47,
+    105.75,
+    165.94,
+    155.25,
+    178.69,
+    172.76,
+    203.03,
+    182.03,
+    213.44,
+    268.08
+   ]
+  }
+ ],
+ "bands": [
+  {
+   "from": "2026-02",
+   "to": "2026-09",
+   "label": {
+    "en": "Shares turbulent",
+    "ko": "주가 급등락"
+   }
+  }
+ ],
+ "annotations": [
+  {
+   "x": "2026-06",
+   "label": {
+    "en": "Tech stocks falter",
+    "ko": "기술주 흔들림"
+   },
+   "evidence": "jejualps-E3"
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S6",
+   "S2",
+   "S1"
+  ],
+  "provider": "Bank of Korea, ECOS; datasteg calculation",
+  "keys": [
+   "403Y001/M/3091AA"
+  ],
+  "definition": {
+   "en": "Bank of Korea export value index for semiconductors, US dollar basis, 2020 = 100.",
+   "ko": "한국은행 반도체 수출금액지수, 달러 기준, 2020 = 100."
+  },
+  "calculation": {
+   "en": "Change = (index ÷ index in the same month a year earlier − 1) × 100.",
+   "ko": "증가율 = (해당 월 지수 ÷ 전년 같은 달 지수 − 1) × 100."
+  },
+  "span": [
+   "2024-01",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-30",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; BIS Quarterly Review, September 2026 (annotation); datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; BIS 분기 보고서 2026년 9월호(주석); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "x",
+    "label": {
+     "en": "Month",
+     "ko": "월"
+    }
+   },
+   {
+    "key": "chip",
+    "label": {
+     "en": "Chip export values, % from a year earlier",
+     "ko": "반도체 수출액, 전년 대비 %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "x": "2024-01",
+    "chip": 55.49
+   },
+   {
+    "x": "2024-02",
+    "chip": 65.22
+   },
+   {
+    "x": "2024-03",
+    "chip": 35.4
+   },
+   {
+    "x": "2024-04",
+    "chip": 54.66
+   },
+   {
+    "x": "2024-05",
+    "chip": 53.18
+   },
+   {
+    "x": "2024-06",
+    "chip": 50.31
+   },
+   {
+    "x": "2024-07",
+    "chip": 47.81
+   },
+   {
+    "x": "2024-08",
+    "chip": 36.54
+   },
+   {
+    "x": "2024-09",
+    "chip": 35.73
+   },
+   {
+    "x": "2024-10",
+    "chip": 39.12
+   },
+   {
+    "x": "2024-11",
+    "chip": 29.83
+   },
+   {
+    "x": "2024-12",
+    "chip": 30.64
+   },
+   {
+    "x": "2025-01",
+    "chip": 6.55
+   },
+   {
+    "x": "2025-02",
+    "chip": -4.02
+   },
+   {
+    "x": "2025-03",
+    "chip": 11.18
+   },
+   {
+    "x": "2025-04",
+    "chip": 17.27
+   },
+   {
+    "x": "2025-05",
+    "chip": 21.26
+   },
+   {
+    "x": "2025-06",
+    "chip": 11.39
+   },
+   {
+    "x": "2025-07",
+    "chip": 32.05
+   },
+   {
+    "x": "2025-08",
+    "chip": 28.57
+   },
+   {
+    "x": "2025-09",
+    "chip": 22.59
+   },
+   {
+    "x": "2025-10",
+    "chip": 26.27
+   },
+   {
+    "x": "2025-11",
+    "chip": 39.19
+   },
+   {
+    "x": "2025-12",
+    "chip": 44.47
+   },
+   {
+    "x": "2026-01",
+    "chip": 105.75
+   },
+   {
+    "x": "2026-02",
+    "chip": 165.94
+   },
+   {
+    "x": "2026-03",
+    "chip": 155.25
+   },
+   {
+    "x": "2026-04",
+    "chip": 178.69
+   },
+   {
+    "x": "2026-05",
+    "chip": 172.76
+   },
+   {
+    "x": "2026-06",
+    "chip": 203.03
+   },
+   {
+    "x": "2026-07",
+    "chip": 182.03
+   },
+   {
+    "x": "2026-08",
+    "chip": 213.44
+   },
+   {
+    "x": "2026-09",
+    "chip": 268.08
+   }
+  ]
+ },
+ "csv": "data/chip-exports.csv"
+}

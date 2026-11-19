@@ -1,0 +1,15 @@
+{
+ "id": "real-effective-exchange-rate",
+ "term": {
+  "en": "real effective exchange rate",
+  "ko": "실질실효환율"
+ },
+ "definition": {
+  "en": "A currency's value against a basket of trading partners' currencies, weighted by trade and adjusted for differences in inflation. A fall means the currency has become cheaper against partners as a whole.",
+  "ko": "교역 비중으로 가중한 교역상대국 통화 전체에 대한 한 통화의 가치를 물가 차이까지 반영해 나타낸 지수다. 지수가 내리면 상대국 전체에 대해 통화가 싸졌다는 뜻이다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates"
+ ]
+}

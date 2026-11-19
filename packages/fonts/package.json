@@ -1,0 +1,21 @@
+{
+  "name": "@glacier/fonts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted Glacier fonts (all SIL OFL 1.1): one place to change font loading",
+  "exports": {
+    ".": "./index.ts",
+    "./fonts.css": "./fonts.css"
+  },
+  "dependencies": {
+    "@fontsource-variable/hanken-grotesk": "5.3.0",
+    "@fontsource-variable/jetbrains-mono": "5.3.0",
+    "@fontsource-variable/source-serif-4": "5.3.0",
+    "@fontsource/noto-serif-kr": "5.3.0",
+    "pretendard": "1.3.9"
+  },
+  "sideEffects": [
+    "*.css",
+    "./index.ts"
+  ]
+}

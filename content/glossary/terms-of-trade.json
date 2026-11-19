@@ -1,0 +1,12 @@
+{
+ "id": "terms-of-trade",
+ "term": {
+  "en": "terms of trade",
+  "ko": "교역조건"
+ },
+ "definition": {
+  "en": "The price of a country's exports relative to the price of its imports. When it rises, the same exports pay for more imports.",
+  "ko": "한 나라의 수출 가격을 수입 가격과 비교한 지표다. 오르면 같은 양을 수출해 더 많이 수입할 수 있다."
+ },
+ "approvedBy": null
+}

@@ -1,0 +1,767 @@
+{
+ "id": "late-liftoff",
+ "form": "line",
+ "headline": {
+  "en": "Core PCE inflation passed 2% in March 2021 and CPI inflation 4% in April, but the funds rate stayed near zero until March 2022",
+  "ko": "근원 PCE 물가 상승률은 2021년 3월 2%를, 소비자물가 상승률은 4월 4%를 넘었지만 기준금리는 2022년 3월까지 0% 가까이에 머물렀다"
+ },
+ "title": {
+  "en": "US inflation and the federal funds rate, 2019–2023",
+  "ko": "미국 물가 상승률과 연방기금금리, 2019~2023년"
+ },
+ "subtitle": {
+  "en": "Percent; CPI and core PCE inflation year on year, funds rate monthly average; Jan 2019–Jun 2023",
+  "ko": "%, 소비자물가·근원 PCE는 전년 동월 대비, 연방기금금리는 월평균, 2019년 1월~2023년 6월"
+ },
+ "howToRead": {
+  "en": "Vertical lines mark the September 2020 liftoff guidance ('Guidance'), the September 2021 tightening signal ('Hint') and the March 2022 first hike ('Hike'). The horizontal line is the Fed's 2% inflation target, which applies to PCE inflation.",
+  "ko": "세로선은 2020년 9월의 금리 인상 조건 제시('가이던스'), 2021년 9월의 긴축 신호('신호'), 2022년 3월의 첫 인상('인상')이다. 가로선은 연준의 물가 목표 2%로, PCE 물가 기준이다."
+ },
+ "notes": [
+  {
+   "en": "The funds rate is the monthly average of the effective rate, so the 16 March 2022 hike lifts the March average only partly (0.20%); the April average was 0.33%.",
+   "ko": "연방기금금리는 실효금리의 월평균이므로 2022년 3월 16일 인상은 3월 평균(0.20%)에 부분만 반영됐고, 4월 평균은 0.33%였다."
+  },
+  {
+   "en": "The September 2020 condition was inflation at 2% and on track to exceed it moderately. Core PCE inflation, which leaves out food and energy, is the underlying measure shown; headline PCE inflation (not shown, to keep three lines) also passed 2% in March 2021.",
+   "ko": "2020년 9월의 조건은 물가 상승률이 2%에 이르고 완만하게 이를 넘어설 궤도에 오르는 것이었다. 식료품과 에너지를 뺀 근원 PCE를 기조적 지표로 보였고, 헤드라인 PCE 상승률(선을 셋으로 유지하려고 뺐다)도 2021년 3월 2%를 넘었다."
+  },
+  {
+   "en": "Left out: unemployment and the Fed's balance sheet over the same period, which are in the text and in the balance-sheet chart; a fourth line would crowd the picture.",
+   "ko": "같은 기간의 실업률과 연준 총자산은 본문과 총자산 차트에서 다루며, 넷째 선은 그림을 어지럽혀 뺐다."
+  }
+ ],
+ "alt": {
+  "en": "Line chart of US CPI inflation, core PCE inflation and the effective federal funds rate, monthly, January 2019 to June 2023. The funds rate fell from 1.58% in February 2020 to 0.05% in April 2020 and stayed at or below 0.1% through 2021. Core PCE inflation passed 2% in March 2021 (2.1%) and CPI inflation passed 4% in April 2021 (4.2%), reaching 7.0% in December 2021 and a peak of 9.1% in June 2022. The funds rate first rose in March 2022 (0.20% monthly average) and reached 5.08% by June 2023.",
+  "ko": "2019년 1월부터 2023년 6월까지 미국 소비자물가 상승률, 근원 PCE 상승률, 실효 연방기금금리의 월별 선 그래프. 연방기금금리는 2020년 2월 1.58%에서 4월 0.05%로 내려가 2021년 내내 0.1% 이하에 머물렀다. 근원 PCE 상승률은 2021년 3월 2%(2.1%)를, 소비자물가 상승률은 2021년 4월 4%(4.2%)를 넘어 2021년 12월 7.0%, 2022년 6월 정점 9.1%에 이르렀다. 연방기금금리는 2022년 3월(월평균 0.20%) 처음 오르기 시작해 2023년 6월 5.08%가 됐다."
+ },
+ "axes": {
+  "x": {
+   "type": "time",
+   "format": "year",
+   "ticks": [
+    "2019-01-01",
+    "2020-01-01",
+    "2021-01-01",
+    "2022-01-01",
+    "2023-01-01"
+   ],
+   "label": {
+    "en": "Month",
+    "ko": "월"
+   }
+  },
+  "y": {
+   "label": {
+    "en": "Percent",
+    "ko": "%"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    10
+   ],
+   "ticks": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "x": [
+  "2019-01-01",
+  "2019-02-01",
+  "2019-03-01",
+  "2019-04-01",
+  "2019-05-01",
+  "2019-06-01",
+  "2019-07-01",
+  "2019-08-01",
+  "2019-09-01",
+  "2019-10-01",
+  "2019-11-01",
+  "2019-12-01",
+  "2020-01-01",
+  "2020-02-01",
+  "2020-03-01",
+  "2020-04-01",
+  "2020-05-01",
+  "2020-06-01",
+  "2020-07-01",
+  "2020-08-01",
+  "2020-09-01",
+  "2020-10-01",
+  "2020-11-01",
+  "2020-12-01",
+  "2021-01-01",
+  "2021-02-01",
+  "2021-03-01",
+  "2021-04-01",
+  "2021-05-01",
+  "2021-06-01",
+  "2021-07-01",
+  "2021-08-01",
+  "2021-09-01",
+  "2021-10-01",
+  "2021-11-01",
+  "2021-12-01",
+  "2022-01-01",
+  "2022-02-01",
+  "2022-03-01",
+  "2022-04-01",
+  "2022-05-01",
+  "2022-06-01",
+  "2022-07-01",
+  "2022-08-01",
+  "2022-09-01",
+  "2022-10-01",
+  "2022-11-01",
+  "2022-12-01",
+  "2023-01-01",
+  "2023-02-01",
+  "2023-03-01",
+  "2023-04-01",
+  "2023-05-01",
+  "2023-06-01"
+ ],
+ "series": [
+  {
+   "id": "ff",
+   "label": {
+    "en": "Funds rate",
+    "ko": "연방기금금리"
+   },
+   "dataset": "fred-fedfunds",
+   "color": "focus",
+   "endLabel": true,
+   "values": [
+    2.4,
+    2.4,
+    2.41,
+    2.42,
+    2.39,
+    2.38,
+    2.4,
+    2.13,
+    2.04,
+    1.83,
+    1.55,
+    1.55,
+    1.55,
+    1.58,
+    0.65,
+    0.05,
+    0.05,
+    0.08,
+    0.09,
+    0.1,
+    0.09,
+    0.09,
+    0.09,
+    0.09,
+    0.09,
+    0.08,
+    0.07,
+    0.07,
+    0.06,
+    0.08,
+    0.1,
+    0.09,
+    0.08,
+    0.08,
+    0.08,
+    0.08,
+    0.08,
+    0.08,
+    0.2,
+    0.33,
+    0.77,
+    1.21,
+    1.68,
+    2.33,
+    2.56,
+    3.08,
+    3.78,
+    4.1,
+    4.33,
+    4.57,
+    4.65,
+    4.83,
+    5.06,
+    5.08
+   ]
+  },
+  {
+   "id": "cpi",
+   "label": {
+    "en": "CPI inflation",
+    "ko": "소비자물가 상승률"
+   },
+   "dataset": "fred-cpiaucns-yoy",
+   "color": 2,
+   "endLabel": true,
+   "values": [
+    1.55124,
+    1.52014,
+    1.86252,
+    1.99644,
+    1.79023,
+    1.64848,
+    1.81146,
+    1.74978,
+    1.7113,
+    1.76404,
+    2.05128,
+    2.28513,
+    2.48657,
+    2.33487,
+    1.53933,
+    0.3291,
+    0.11793,
+    0.64573,
+    0.98608,
+    1.30965,
+    1.37132,
+    1.18207,
+    1.17454,
+    1.36201,
+    1.39977,
+    1.67622,
+    2.61976,
+    4.15969,
+    4.99271,
+    5.39145,
+    5.36548,
+    5.25127,
+    5.39035,
+    6.22187,
+    6.809,
+    7.0364,
+    7.47987,
+    7.87106,
+    8.54246,
+    8.25863,
+    8.58151,
+    9.05976,
+    8.52481,
+    8.26269,
+    8.20167,
+    7.74543,
+    7.11032,
+    6.4544,
+    6.41015,
+    6.03561,
+    4.98497,
+    4.93032,
+    4.04761,
+    2.96918
+   ]
+  },
+  {
+   "id": "pce",
+   "label": {
+    "en": "Core PCE inflation",
+    "ko": "근원 PCE 상승률"
+   },
+   "dataset": "fred-pcepilfe-yoy",
+   "color": "context",
+   "endLabel": true,
+   "values": [
+    1.84443,
+    1.74411,
+    1.61607,
+    1.63678,
+    1.56318,
+    1.65698,
+    1.63912,
+    1.7458,
+    1.63201,
+    1.62359,
+    1.49772,
+    1.54475,
+    1.59133,
+    1.6977,
+    1.5273,
+    0.9955,
+    0.99738,
+    0.97045,
+    1.21434,
+    1.3931,
+    1.47969,
+    1.42173,
+    1.45352,
+    1.50879,
+    1.58937,
+    1.64644,
+    2.13415,
+    3.06828,
+    3.43576,
+    3.78425,
+    3.84421,
+    3.8929,
+    3.92562,
+    4.37127,
+    4.79712,
+    5.08423,
+    5.32552,
+    5.56866,
+    5.56029,
+    5.28872,
+    5.16904,
+    5.29939,
+    5.21882,
+    5.40333,
+    5.64045,
+    5.50949,
+    5.28503,
+    5.07099,
+    5.0017,
+    4.86196,
+    4.86495,
+    4.85342,
+    4.83398,
+    4.44287
+   ]
+  }
+ ],
+ "referenceLines": [
+  {
+   "axis": "y",
+   "value": 2,
+   "label": {
+    "en": "2% target",
+    "ko": "물가 목표 2%"
+   }
+  }
+ ],
+ "annotations": [
+  {
+   "x": "2020-09-01",
+   "label": {
+    "en": "Guidance",
+    "ko": "가이던스"
+   },
+   "evidence": "jejualps-E19"
+  },
+  {
+   "x": "2021-09-01",
+   "label": {
+    "en": "Hint",
+    "ko": "신호"
+   },
+   "evidence": "jejualps-E22"
+  },
+  {
+   "x": "2022-03-01",
+   "label": {
+    "en": "Hike",
+    "ko": "인상"
+   },
+   "evidence": "jejualps-E22"
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S3",
+   "S5",
+   "S4",
+   "S6"
+  ],
+  "provider": "FRED, Federal Reserve Bank of St. Louis (Federal Reserve Board, BLS, BEA)",
+  "keys": [
+   "FEDFUNDS",
+   "CPIAUCNS",
+   "PCEPILFE"
+  ],
+  "definition": {
+   "en": "Effective federal funds rate, monthly average; consumer price index for all urban consumers, all items, not seasonally adjusted; PCE price index excluding food and energy, seasonally adjusted.",
+   "ko": "실효 연방기금금리 월평균, 도시 소비자물가지수 총지수(원계열), 식료품·에너지 제외 PCE 물가지수(계절조정)."
+  },
+  "calculation": {
+   "en": "CPI and core PCE inflation: percentage change from the same month a year earlier (FRED transformation pc1). Funds rate as published.",
+   "ko": "소비자물가·근원 PCE 상승률은 전년 동월 대비 변화율(FRED pc1 변환). 연방기금금리는 발표값 그대로."
+  },
+  "span": [
+   "2019-01",
+   "2023-06"
+  ],
+  "lastObservation": "2023-06",
+  "retrieved": "2026-10-20",
+  "licence": "FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: Federal Reserve Board, BLS and BEA, via FRED, Federal Reserve Bank of St. Louis",
+   "ko": "출처: 연준 이사회·미국 노동통계국·경제분석국, FRED(세인트루이스 연방준비은행) 경유"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "x",
+    "label": {
+     "en": "Month",
+     "ko": "월"
+    }
+   },
+   {
+    "key": "ff",
+    "label": {
+     "en": "Funds rate, %",
+     "ko": "연방기금금리, %"
+    },
+    "align": "right",
+    "decimals": 2
+   },
+   {
+    "key": "cpi",
+    "label": {
+     "en": "CPI inflation, % y/y",
+     "ko": "소비자물가, 전년 대비 %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "pce",
+    "label": {
+     "en": "Core PCE inflation, % y/y",
+     "ko": "근원 PCE, 전년 대비 %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "x": "2019-01",
+    "ff": 2.4,
+    "cpi": 1.55,
+    "pce": 1.84
+   },
+   {
+    "x": "2019-02",
+    "ff": 2.4,
+    "cpi": 1.52,
+    "pce": 1.74
+   },
+   {
+    "x": "2019-03",
+    "ff": 2.41,
+    "cpi": 1.86,
+    "pce": 1.62
+   },
+   {
+    "x": "2019-04",
+    "ff": 2.42,
+    "cpi": 2.0,
+    "pce": 1.64
+   },
+   {
+    "x": "2019-05",
+    "ff": 2.39,
+    "cpi": 1.79,
+    "pce": 1.56
+   },
+   {
+    "x": "2019-06",
+    "ff": 2.38,
+    "cpi": 1.65,
+    "pce": 1.66
+   },
+   {
+    "x": "2019-07",
+    "ff": 2.4,
+    "cpi": 1.81,
+    "pce": 1.64
+   },
+   {
+    "x": "2019-08",
+    "ff": 2.13,
+    "cpi": 1.75,
+    "pce": 1.75
+   },
+   {
+    "x": "2019-09",
+    "ff": 2.04,
+    "cpi": 1.71,
+    "pce": 1.63
+   },
+   {
+    "x": "2019-10",
+    "ff": 1.83,
+    "cpi": 1.76,
+    "pce": 1.62
+   },
+   {
+    "x": "2019-11",
+    "ff": 1.55,
+    "cpi": 2.05,
+    "pce": 1.5
+   },
+   {
+    "x": "2019-12",
+    "ff": 1.55,
+    "cpi": 2.29,
+    "pce": 1.54
+   },
+   {
+    "x": "2020-01",
+    "ff": 1.55,
+    "cpi": 2.49,
+    "pce": 1.59
+   },
+   {
+    "x": "2020-02",
+    "ff": 1.58,
+    "cpi": 2.33,
+    "pce": 1.7
+   },
+   {
+    "x": "2020-03",
+    "ff": 0.65,
+    "cpi": 1.54,
+    "pce": 1.53
+   },
+   {
+    "x": "2020-04",
+    "ff": 0.05,
+    "cpi": 0.33,
+    "pce": 1.0
+   },
+   {
+    "x": "2020-05",
+    "ff": 0.05,
+    "cpi": 0.12,
+    "pce": 1.0
+   },
+   {
+    "x": "2020-06",
+    "ff": 0.08,
+    "cpi": 0.65,
+    "pce": 0.97
+   },
+   {
+    "x": "2020-07",
+    "ff": 0.09,
+    "cpi": 0.99,
+    "pce": 1.21
+   },
+   {
+    "x": "2020-08",
+    "ff": 0.1,
+    "cpi": 1.31,
+    "pce": 1.39
+   },
+   {
+    "x": "2020-09",
+    "ff": 0.09,
+    "cpi": 1.37,
+    "pce": 1.48
+   },
+   {
+    "x": "2020-10",
+    "ff": 0.09,
+    "cpi": 1.18,
+    "pce": 1.42
+   },
+   {
+    "x": "2020-11",
+    "ff": 0.09,
+    "cpi": 1.17,
+    "pce": 1.45
+   },
+   {
+    "x": "2020-12",
+    "ff": 0.09,
+    "cpi": 1.36,
+    "pce": 1.51
+   },
+   {
+    "x": "2021-01",
+    "ff": 0.09,
+    "cpi": 1.4,
+    "pce": 1.59
+   },
+   {
+    "x": "2021-02",
+    "ff": 0.08,
+    "cpi": 1.68,
+    "pce": 1.65
+   },
+   {
+    "x": "2021-03",
+    "ff": 0.07,
+    "cpi": 2.62,
+    "pce": 2.13
+   },
+   {
+    "x": "2021-04",
+    "ff": 0.07,
+    "cpi": 4.16,
+    "pce": 3.07
+   },
+   {
+    "x": "2021-05",
+    "ff": 0.06,
+    "cpi": 4.99,
+    "pce": 3.44
+   },
+   {
+    "x": "2021-06",
+    "ff": 0.08,
+    "cpi": 5.39,
+    "pce": 3.78
+   },
+   {
+    "x": "2021-07",
+    "ff": 0.1,
+    "cpi": 5.37,
+    "pce": 3.84
+   },
+   {
+    "x": "2021-08",
+    "ff": 0.09,
+    "cpi": 5.25,
+    "pce": 3.89
+   },
+   {
+    "x": "2021-09",
+    "ff": 0.08,
+    "cpi": 5.39,
+    "pce": 3.93
+   },
+   {
+    "x": "2021-10",
+    "ff": 0.08,
+    "cpi": 6.22,
+    "pce": 4.37
+   },
+   {
+    "x": "2021-11",
+    "ff": 0.08,
+    "cpi": 6.81,
+    "pce": 4.8
+   },
+   {
+    "x": "2021-12",
+    "ff": 0.08,
+    "cpi": 7.04,
+    "pce": 5.08
+   },
+   {
+    "x": "2022-01",
+    "ff": 0.08,
+    "cpi": 7.48,
+    "pce": 5.33
+   },
+   {
+    "x": "2022-02",
+    "ff": 0.08,
+    "cpi": 7.87,
+    "pce": 5.57
+   },
+   {
+    "x": "2022-03",
+    "ff": 0.2,
+    "cpi": 8.54,
+    "pce": 5.56
+   },
+   {
+    "x": "2022-04",
+    "ff": 0.33,
+    "cpi": 8.26,
+    "pce": 5.29
+   },
+   {
+    "x": "2022-05",
+    "ff": 0.77,
+    "cpi": 8.58,
+    "pce": 5.17
+   },
+   {
+    "x": "2022-06",
+    "ff": 1.21,
+    "cpi": 9.06,
+    "pce": 5.3
+   },
+   {
+    "x": "2022-07",
+    "ff": 1.68,
+    "cpi": 8.52,
+    "pce": 5.22
+   },
+   {
+    "x": "2022-08",
+    "ff": 2.33,
+    "cpi": 8.26,
+    "pce": 5.4
+   },
+   {
+    "x": "2022-09",
+    "ff": 2.56,
+    "cpi": 8.2,
+    "pce": 5.64
+   },
+   {
+    "x": "2022-10",
+    "ff": 3.08,
+    "cpi": 7.75,
+    "pce": 5.51
+   },
+   {
+    "x": "2022-11",
+    "ff": 3.78,
+    "cpi": 7.11,
+    "pce": 5.29
+   },
+   {
+    "x": "2022-12",
+    "ff": 4.1,
+    "cpi": 6.45,
+    "pce": 5.07
+   },
+   {
+    "x": "2023-01",
+    "ff": 4.33,
+    "cpi": 6.41,
+    "pce": 5.0
+   },
+   {
+    "x": "2023-02",
+    "ff": 4.57,
+    "cpi": 6.04,
+    "pce": 4.86
+   },
+   {
+    "x": "2023-03",
+    "ff": 4.65,
+    "cpi": 4.98,
+    "pce": 4.86
+   },
+   {
+    "x": "2023-04",
+    "ff": 4.83,
+    "cpi": 4.93,
+    "pce": 4.85
+   },
+   {
+    "x": "2023-05",
+    "ff": 5.06,
+    "cpi": 4.05,
+    "pce": 4.83
+   },
+   {
+    "x": "2023-06",
+    "ff": 5.08,
+    "cpi": 2.97,
+    "pce": 4.44
+   }
+  ]
+ },
+ "csv": "data/late-liftoff.csv"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "trade-channel",
+ "term": {
+  "en": "trade channel",
+  "ko": "무역경로"
+ },
+ "definition": {
+  "en": "The way a weaker currency can help an economy through trade: exporters earn more in local currency or can cut their prices abroad, and imports become dearer.",
+  "ko": "통화 약세가 무역을 통해 경제를 돕는 경로다. 수출기업은 자국 통화로 더 많이 벌거나 해외 가격을 낮출 수 있고, 수입품은 비싸진다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates",
+  "trade"
+ ]
+}

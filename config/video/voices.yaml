@@ -1,0 +1,22 @@
+# The narrator's voice per edition. Chosen by ear in the pilot's audition
+# (`artools video audition --lang en|ko`), then fixed: the channel keeps one voice per language, never one per video.
+# Gemini's docs: long style notes make the voice drift, so `style` stays short or empty; accent comes from the voice.
+model: gemini-3.8-flash-tts
+en:
+  voice: Sulafat       # chosen by the editor in the audition of 26 Oct 2026 (Google: "Warm")
+  style: ""
+  audition: [Charon, Sadaltager, Schedar, Iapetus, Gacrux, Sulafat, Rasalgethi]
+ko:
+  voice: Iapetus       # chosen by the editor in the audition of 26 Oct 2026 (Google: "Clear")
+  style: ""
+  # Prebuilt voices speak Korean too; add Korean voices from the Extended Voice Library (filter: Korean) here.
+  audition: [Charon, Sadaltager, Schedar, Iapetus, Gacrux, Sulafat, Rasalgethi]
+# Never audition these for the narrator (their own descriptions): Puck, Laomedeia (Upbeat), Fenrir (Excitable),
+# Sadachbia (Lively), Zubenelgenubi (Casual), Enceladus (Breathy).
+avoid: [Puck, Laomedeia, Fenrir, Sadachbia, Zubenelgenubi, Enceladus]
+
+# Each take is transcribed and compared with the script (artools video voice): numbers must match and the word error
+# rate (numbers excluded) stay at or under 5%, else the beat is recorded again (three takes at most). The prompt
+# forbids "correcting" years: in context, transcribers wrote 2024 for a clearly spoken 2026. No Claude tokens.
+asr:
+  model: gemini-3.5-flash

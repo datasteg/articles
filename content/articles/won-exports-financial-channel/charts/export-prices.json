@@ -1,0 +1,261 @@
+{
+ "id": "export-prices",
+ "form": "dumbbell",
+ "headline": {
+  "en": "From October 1997 to January 1998 and from December 2021 to October 2022, Korean export prices jumped in won but barely fell in the currencies buyers pay: up 69.3% against down 4.8%, and up 16.0% against down 1.6%",
+  "ko": "1997년 10월~1998년 1월과 2021년 12월~2022년 10월에 한국 수출 가격은 원화로는 크게 올랐지만 바이어가 내는 통화로는 거의 내리지 않았다. 각각 69.3% 상승 대 4.8% 하락, 16.0% 상승 대 1.6% 하락"
+ },
+ "title": {
+  "en": "Change in Korea's export prices in won and in contract currency, by episode",
+  "ko": "시기별 한국 수출물가 변화: 원화 기준과 계약통화 기준"
+ },
+ "subtitle": {
+  "en": "Export price index, % change from each episode's start month to the won's weakest month against the dollar (1985–87: to the end of the won's real effective fall, Apr 1987)",
+  "ko": "수출물가지수, 각 시기 시작 월부터 원화가 달러 대비 가장 약했던 달까지의 변화율(%)(1985~87년은 실질실효환율 하락이 끝난 1987년 4월까지)"
+ },
+ "howToRead": {
+  "en": "The filled dot is the change in export prices measured in won, the hollow dot the change in the currency of the contract, mostly dollars. The gap between them is roughly the won's fall: the wider it is, the more of the weaker won exporters kept as higher won revenue instead of cutting prices abroad.",
+  "ko": "채운 점은 원화로 잰 수출물가 변화, 빈 점은 주로 달러인 계약통화로 잰 변화다. 두 점 사이의 간격은 대략 원화 하락폭이다. 간격이 넓을수록 수출기업이 해외 판매 가격을 내리지 않고 원화 약세분을 원화 수입 증가로 더 많이 가져갔다는 뜻이다."
+ },
+ "notes": [
+  {
+   "en": "Contract-currency prices also move with world prices: they fell from July 2008 to March 2009 with the global slump and rose from January 2024 to June 2026, so those rows don't isolate pricing choices. From February 1985 to April 1987 won per dollar ended about where it started, so the dots sit close.",
+   "ko": "계약통화 기준 가격은 세계 가격에 따라서도 움직인다. 2008년 7월~2009년 3월에는 세계 경기 침체로 내렸고 2024년 1월~2026년 6월에는 올랐으므로, 이 두 행만으로는 가격 결정 방식을 가려낼 수 없다. 1985년 2월~1987년 4월에는 원/달러 환율이 처음과 거의 같은 수준에서 끝나 두 점이 가깝다."
+  },
+  {
+   "en": "Episodes run from the start month to the won's weakest monthly average against the dollar (1985–87: to the end of the won's real effective fall): Feb 1985–Apr 1987, Oct 1997–Jan 1998, Jul 2008–Mar 2009, Dec 2021–Oct 2022 and Jan 2024–Jun 2026. The change in won per dollar over each episode is in the table view.",
+   "ko": "각 시기는 시작 월부터 원화가 달러 대비 가장 약했던 월평균까지다(1985~87년은 실질실효환율 하락이 끝난 달까지). 1985년 2월~1987년 4월, 1997년 10월~1998년 1월, 2008년 7월~2009년 3월, 2021년 12월~2022년 10월, 2024년 1월~2026년 6월. 시기별 원/달러 환율 변화는 표 보기에 있다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of the change in Korea's export price index over five episodes, in won and in contract currency. Feb 1985–Apr 1987: up 6.8% in won, up 4.0% in contract currency. Oct 1997–Jan 1998: up 69.3% in won, down 4.8% in contract currency. Jul 2008–Mar 2009: up 5.6% in won, down 25.0% in contract currency. Dec 2021–Oct 2022: up 16.0% in won, down 1.6% in contract currency. Jan 2024–Jun 2026: up 51.4% in won, up 31.8% in contract currency.",
+  "ko": "다섯 시기 동안 한국 수출물가지수의 변화를 원화 기준과 계약통화 기준으로 비교한 덤벨 그래프. 1985년 2월~1987년 4월 원화 기준 6.8% 상승, 계약통화 기준 4.0% 상승. 1997년 10월~1998년 1월 원화 기준 69.3% 상승, 계약통화 기준 4.8% 하락. 2008년 7월~2009년 3월 원화 기준 5.6% 상승, 계약통화 기준 25.0% 하락. 2021년 12월~2022년 10월 원화 기준 16.0% 상승, 계약통화 기준 1.6% 하락. 2024년 1월~2026년 6월 원화 기준 51.4% 상승, 계약통화 기준 31.8% 상승."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Change in export prices, %",
+    "ko": "수출물가 변화, %"
+   },
+   "unit": "%",
+   "domain": [
+    -40,
+    80
+   ],
+   "ticks": [
+    -40,
+    -20,
+    0,
+    20,
+    40,
+    60,
+    80
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "In contract currency",
+  "ko": "계약통화 기준"
+ },
+ "toLabel": {
+  "en": "In won",
+  "ko": "원화 기준"
+ },
+ "rows": [
+  {
+   "id": "1985-87",
+   "label": {
+    "en": "Feb 1985–Apr 1987",
+    "ko": "1985.2~1987.4"
+   },
+   "from": 4.023194,
+   "to": 6.765927
+  },
+  {
+   "id": "1997-98",
+   "label": {
+    "en": "Oct 1997–Jan 1998",
+    "ko": "1997.10~1998.1"
+   },
+   "from": -4.846596,
+   "to": 69.306459,
+   "highlight": true
+  },
+  {
+   "id": "2008-09",
+   "label": {
+    "en": "Jul 2008–Mar 2009",
+    "ko": "2008.7~2009.3"
+   },
+   "from": -25.035124,
+   "to": 5.618568
+  },
+  {
+   "id": "2022",
+   "label": {
+    "en": "Dec 2021–Oct 2022",
+    "ko": "2021.12~2022.10"
+   },
+   "from": -1.59389,
+   "to": 16.012585,
+   "highlight": true
+  },
+  {
+   "id": "2024-26",
+   "label": {
+    "en": "Jan 2024–Jun 2026",
+    "ko": "2024.1~2026.6"
+   },
+   "from": 31.82342,
+   "to": 51.440726
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S14",
+   "S15",
+   "S4"
+  ],
+  "provider": "Bank of Korea, ECOS",
+  "keys": [
+   "402Y014/M/*AA/W",
+   "402Y014/M/*AA/C",
+   "731Y004/M/0000001/0000100"
+  ],
+  "definition": {
+   "en": "Export price index, all items (2020 = 100), on a won basis and on a contract-currency basis; won per US dollar, monthly averages.",
+   "ko": "수출물가지수 총지수(2020 = 100)의 원화 기준과 계약통화 기준, 원/달러 환율 월평균."
+  },
+  "calculation": {
+   "en": "Change = (index in the end month ÷ index in the start month − 1) × 100, for each basis. End month = the month of the won's weakest monthly average against the dollar in each episode (1985–87: Apr 1987, the end of the won's real effective fall).",
+   "ko": "변화율 = (종료 월 지수 ÷ 시작 월 지수 − 1) × 100, 기준별로 계산. 종료 월은 각 시기에 원화가 달러 대비 가장 약했던 월평균의 달이다(1985~87년은 실질실효환율 하락이 끝난 1987년 4월)."
+  },
+  "span": [
+   "1985-02",
+   "2026-06"
+  ],
+  "lastObservation": "2026-06",
+  "retrieved": "2026-10-19",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "episode",
+    "label": {
+     "en": "Episode",
+     "ko": "시기"
+    }
+   },
+   {
+    "key": "months",
+    "label": {
+     "en": "Months",
+     "ko": "기간"
+    }
+   },
+   {
+    "key": "won",
+    "label": {
+     "en": "Export prices in won, %",
+     "ko": "원화 기준 수출물가, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "contract",
+    "label": {
+     "en": "Export prices in contract currency, %",
+     "ko": "계약통화 기준 수출물가, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "krw",
+    "label": {
+     "en": "Won per dollar, %",
+     "ko": "원/달러 환율, %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "episode": {
+     "en": "1985–87: Plaza Accord and the yen's rise",
+     "ko": "1985~87년: 플라자 합의와 엔화 강세"
+    },
+    "months": {
+     "en": "Feb 1985–Apr 1987",
+     "ko": "1985.2~1987.4"
+    },
+    "won": 6.765927,
+    "contract": 4.023194,
+    "krw": 0.473175
+   },
+   {
+    "episode": {
+     "en": "1997–98: Asian financial crisis",
+     "ko": "1997~98년: 아시아 외환위기"
+    },
+    "months": {
+     "en": "Oct 1997–Jan 1998",
+     "ko": "1997.10~1998.1"
+    },
+    "won": 69.306459,
+    "contract": -4.846596,
+    "krw": 85.149428
+   },
+   {
+    "episode": {
+     "en": "2008–09: global financial crisis",
+     "ko": "2008~09년: 글로벌 금융위기"
+    },
+    "months": {
+     "en": "Jul 2008–Mar 2009",
+     "ko": "2008.7~2009.3"
+    },
+    "won": 5.618568,
+    "contract": -25.035124,
+    "krw": 43.455138
+   },
+   {
+    "episode": {
+     "en": "2022: strong dollar",
+     "ko": "2022년: 달러 강세"
+    },
+    "months": {
+     "en": "Dec 2021–Oct 2022",
+     "ko": "2021.12~2022.10"
+    },
+    "won": 16.012585,
+    "contract": -1.59389,
+    "krw": 20.525471
+   },
+   {
+    "episode": {
+     "en": "2024–26: weak won",
+     "ko": "2024~26년: 원화 약세"
+    },
+    "months": {
+     "en": "Jan 2024–Jun 2026",
+     "ko": "2024.1~2026.6"
+    },
+    "won": 51.440726,
+    "contract": 31.82342,
+    "krw": 15.392461
+   }
+  ]
+ },
+ "csv": "data/export-prices.csv"
+}

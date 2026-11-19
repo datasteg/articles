@@ -1,0 +1,94 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "The funds rate stayed near zero for 11 months after CPI inflation passed 4% in 2021 while the 2020 guidance stood, an unintended market reaction moved the 10-year yield 104bp in 2013, and the 2-year yield rose 160bp between the September 2021 signal and the 2022 hikes, the rise Waller cites as the market moving before the Fed did",
+  "ko": "2021년 물가 상승률이 4%를 넘은 뒤에도 2020년 가이던스가 유지된 채 기준금리는 11개월 동안 제로 근처에 머물렀고, 2013년에는 연준이 의도하지 않은 시장 반응이 10년물 금리를 104bp 움직였으며, 2021년 9월 신호부터 2022년 인상 전까지 2년물 금리는 160bp 올랐고 월러는 이를 연준보다 시장이 먼저 움직인 사례로 든다"
+ },
+ "title": {
+  "en": "Three numbers on forward guidance, for and against",
+  "ko": "포워드 가이던스의 찬반을 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "Months and basis points; CPI inflation year on year, Treasury yields daily closes, funds rate monthly average",
+  "ko": "개월 수와 bp. 소비자물가는 전년 동월 대비, 국채 금리는 일별 종가, 연방기금금리는 월평균"
+ },
+ "tiles": [
+  {
+   "value": "{{F191}}",
+   "label": {
+    "en": "months from CPI inflation passing four percent (April 2021) to the first rate hike (March 2022); the 2020 liftoff guidance was unchanged through 2021",
+    "ko": "소비자물가 상승률이 네 퍼센트를 넘은 2021년 4월부터 첫 금리 인상(2022년 3월)까지의 개월 수. 2020년의 가이던스는 2021년 내내 그대로였다"
+   },
+   "cite": [
+    "S5",
+    "S3"
+   ]
+  },
+  {
+   "value": "{{F73}}",
+   "label": {
+    "en": "rise in the 10-year Treasury yield, 21 May to 5 Sep 2013, after a taper signal whose market reaction the Fed did not intend",
+    "ko": "연준이 의도하지 않은 시장 반응을 부른 긴축 신호 뒤 미국 10년물 국채 금리 상승 폭, 2013년 5월 21일부터 9월 5일까지"
+   },
+   "cite": [
+    "S8"
+   ]
+  },
+  {
+   "value": "{{F155}}",
+   "label": {
+    "en": "rise in the 2-year yield from the September 2021 tightening signal to the eve of the first hike, the rise Waller cites as the market moving before the Fed did",
+    "ko": "2021년 9월 긴축 신호부터 첫 인상 전날까지 2년물 금리 상승 폭. 월러는 이를 연준보다 시장이 먼저 움직인 사례로 든다"
+   },
+   "cite": [
+    "S13"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "The first two numbers count against forward guidance as the Fed practised it; the third counts for it. The 2021 figure dates the gap between inflation crossing a level and the first hike; it does not say how much of the gap the guidance caused.",
+   "ko": "앞의 두 숫자는 연준이 실제로 운용한 포워드 가이던스에 불리한 증거이고, 세 번째 숫자는 유리한 증거다. 2021년 숫자는 물가가 기준을 넘은 때와 첫 인상 사이의 간격을 잴 뿐, 그 간격 가운데 얼마가 가이던스 때문인지는 말하지 않는다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: 11 months passed between CPI inflation first exceeding 4% (April 2021, 4.2%) and the first rate hike (March 2022) while the September 2020 guidance stood through 2021; the 10-year Treasury yield rose 104bp, from 1.94% to 2.98%, between 21 May and 5 September 2013 after a taper signal whose market reaction the Fed did not intend; and the 2-year yield rose 160bp, from 0.25% to 1.85%, between the 22 September 2021 tightening signal and 15 March 2022, the eve of the first hike.",
+  "ko": "세 숫자: 소비자물가 상승률이 처음 4%를 넘은 2021년 4월(4.2%)부터 첫 금리 인상(2022년 3월)까지 11개월이 지났고, 2020년 9월의 가이던스는 2021년 내내 그대로였다. 연준이 의도하지 않은 시장 반응을 부른 긴축 신호 뒤 10년물 국채 금리는 2013년 5월 21일 1.94%에서 9월 5일 2.98%로 104bp 올랐다. 2021년 9월 22일 긴축 신호부터 첫 인상 전날인 2022년 3월 15일까지 2년물 금리는 0.25%에서 1.85%로 160bp 올랐다."
+ },
+ "meta": {
+  "sources": [
+   "S5",
+   "S3",
+   "S8",
+   "S13"
+  ],
+  "provider": "FRED, Federal Reserve Bank of St. Louis",
+  "keys": [
+   "CPIAUCNS",
+   "FEDFUNDS",
+   "DGS10",
+   "DGS2"
+  ],
+  "definition": {
+   "en": "CPI inflation: consumer price index for all urban consumers, all items, percentage change from a year earlier. Funds rate: effective federal funds rate, monthly average. Yields: market yields on US Treasury securities at 2-year and 10-year constant maturity, daily closes.",
+   "ko": "소비자물가 상승률: 도시 소비자물가지수 총지수의 전년 동월 대비 변화율. 연방기금금리: 실효 연방기금금리 월평균. 국채 금리: 미국 2년물·10년물 국채 만기수익률 일별 종가."
+  },
+  "calculation": {
+   "en": "Months counted from the first month at or above 4% (April 2021) to the month of the first hike (March 2022). Yield changes are the close on the end date minus the close on the start date, in basis points.",
+   "ko": "개월 수는 처음 4% 이상이 된 달(2021년 4월)부터 첫 인상이 있던 달(2022년 3월)까지 센 값. 금리 변화는 종료일 종가에서 시작일 종가를 뺀 값(bp)."
+  },
+  "span": [
+   "2013-05-21",
+   "2022-03-16"
+  ],
+  "lastObservation": "2022-03-16",
+  "retrieved": "2026-10-20",
+  "licence": "FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: BLS and Federal Reserve Board, via FRED, Federal Reserve Bank of St. Louis; datasteg calculation",
+   "ko": "출처: 미국 노동통계국·연준 이사회, FRED(세인트루이스 연방준비은행) 경유; datasteg 계산"
+  }
+ },
+ "csv": null
+}

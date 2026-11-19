@@ -1,0 +1,16 @@
+{
+ "id": "bund",
+ "term": {
+  "en": "Bund",
+  "ko": "분트"
+ },
+ "definition": {
+  "en": "A bond issued by Germany's federal government. Investors treat the 10-year Bund as the euro area's safest benchmark.",
+  "ko": "독일 연방정부가 발행한 국채다. 투자자들은 10년물 분트를 유로 지역에서 가장 안전한 기준 채권으로 여긴다."
+ },
+ "topics": [
+  "bond-markets",
+  "euro-area"
+ ],
+ "approvedBy": null
+}

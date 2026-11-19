@@ -1,0 +1,2931 @@
+{
+ "slug": "france-spread-2026",
+ "type": "explainer",
+ "pipeline": {
+  "id": "explainer",
+  "version": "1.3"
+ },
+ "date": "2026-10-20",
+ "updated": "2026-11-03",
+ "editions": [
+  "en",
+  "ko"
+ ],
+ "topics": [
+  {
+   "id": "sovereign-debt",
+   "label": {
+    "en": "Sovereign debt",
+    "ko": "국가채무"
+   }
+  },
+  {
+   "id": "euro-area",
+   "label": {
+    "en": "Euro area",
+    "ko": "유로 지역"
+   }
+  },
+  {
+   "id": "bond-markets",
+   "label": {
+    "en": "Bond markets",
+    "ko": "채권시장"
+   }
+  }
+ ],
+ "jel": [
+  "E62",
+  "H63",
+  "G12",
+  "E44",
+  "F34",
+  "F36",
+  "E58",
+  "G01",
+  "F45"
+ ],
+ "countries": [
+  "FR",
+  "DE",
+  "IT",
+  "ES",
+  "GR",
+  "PT",
+  "US",
+  "GB",
+  "JP"
+ ],
+ "readTime": {
+  "en": 11,
+  "ko": 14
+ },
+ "charts": [
+  "key-numbers",
+  "spread-history",
+  "euro-spread-changes",
+  "global-yields",
+  "then-vs-now",
+  "bank-holdings"
+ ],
+ "cover": {
+  "file": "cover.svg",
+  "alt": {
+   "en": "Ice-blue mountain ridge: a tall snow-capped peak on the left, a trail climbing a lower shoulder to an orange dot.",
+   "ko": "얼음빛 산등성이. 왼쪽에 눈 덮인 높은 봉우리가 있고, 오솔길이 그보다 낮은 오른쪽 능선을 따라 주황색 점까지 오른다."
+  }
+ },
+ "facts": [
+  {
+   "id": "F1",
+   "value": 96.7,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F2",
+   "value": 4.44,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F3",
+   "value": 3.473,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F4",
+   "value": 74.7,
+   "unit": "bp",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F5",
+   "value": 22.0,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F6",
+   "value": 81.5,
+   "unit": "bp",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F7",
+   "value": 15.2,
+   "unit": "bp",
+   "period": "2026-08/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F8",
+   "value": 11,
+   "unit": "rank",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F9",
+   "value": 333,
+   "unit": "months",
+   "period": "1999-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F10",
+   "value": 10,
+   "unit": "months",
+   "period": "1999-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F11",
+   "value": "2011-10",
+   "unit": "month",
+   "period": "2011-10",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F12",
+   "value": "2012-07",
+   "unit": "month",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F13",
+   "value": 104.0,
+   "unit": "bp",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F14",
+   "value": 154.0,
+   "unit": "bp",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F15",
+   "value": "2011-11",
+   "unit": "month",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F16",
+   "value": 62.792208,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F17",
+   "value": 57.3,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F18",
+   "value": 71.166667,
+   "unit": "bp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F19",
+   "value": 45.334091,
+   "unit": "bp",
+   "period": "2013/2023",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F20",
+   "value": 77.0,
+   "unit": "bp",
+   "period": "2017-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F21",
+   "value": "2017-02",
+   "unit": "month",
+   "period": "2017-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F22",
+   "value": 8.638889,
+   "unit": "bp",
+   "period": "1999/2007",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F23",
+   "value": 8,
+   "unit": "rank",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F24",
+   "value": 332,
+   "unit": "months",
+   "period": "1999-02/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F25",
+   "value": 55.0,
+   "unit": "bp",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F26",
+   "value": "2011-11",
+   "unit": "month",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F27",
+   "value": 15.4,
+   "unit": "bp",
+   "period": "2024-05/2024-06",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F28",
+   "value": 66.6,
+   "unit": "bp",
+   "period": "2024-06",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F29",
+   "value": 51.2,
+   "unit": "bp",
+   "period": "2024-05",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F30",
+   "value": 83.6,
+   "unit": "bp",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F31",
+   "value": "2025-01",
+   "unit": "month",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F32",
+   "value": 72.3,
+   "unit": "bp",
+   "period": "2026-01",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F33",
+   "value": 65.6,
+   "unit": "bp",
+   "period": "2026-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F34",
+   "value": -6.7,
+   "unit": "bp",
+   "period": "2026-01/2026-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F35",
+   "value": 16.0,
+   "unit": "bp",
+   "period": "2017-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F36",
+   "value": "2017-02",
+   "unit": "month",
+   "period": "2017-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F37",
+   "value": 2,
+   "unit": "rank",
+   "period": "2026",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F38",
+   "value": 27,
+   "unit": "years",
+   "period": "2000/2026",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F39",
+   "value": 38.0,
+   "unit": "bp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F40",
+   "value": "2011",
+   "unit": "year",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F41",
+   "value": 88.9,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F42",
+   "value": 45.4,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F43",
+   "value": 37.3,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F44",
+   "value": 74.7,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F45",
+   "value": 4,
+   "unit": "countries",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F46",
+   "value": 7.8,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F47",
+   "value": 5,
+   "unit": "months",
+   "period": "1999-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F48",
+   "value": "2025-12",
+   "unit": "month",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F49",
+   "value": "2026-09",
+   "unit": "month",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F50",
+   "value": 4.362,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F51",
+   "value": 64.7,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F52",
+   "value": 9.1,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F53",
+   "value": 21.37,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F54",
+   "value": 32.7,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F55",
+   "value": 11.81,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F56",
+   "value": 15.0,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F57",
+   "value": -0.4,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F58",
+   "value": 4.0,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F59",
+   "value": 12.0,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F60",
+   "value": 14.0,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F61",
+   "value": -6.4,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F62",
+   "value": -7.07,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F63",
+   "value": -2.5,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F64",
+   "value": -8.21,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F65",
+   "value": 4,
+   "unit": "countries",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F66",
+   "value": -0.4,
+   "unit": "bp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F67",
+   "value": 1,
+   "unit": "rank",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F68",
+   "value": 0.4,
+   "unit": "bp",
+   "period": "2026-08/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F69",
+   "value": 8.8,
+   "unit": "bp",
+   "period": "2026-08/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F70",
+   "value": 518.7,
+   "unit": "bp",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F71",
+   "value": "2011-11",
+   "unit": "month",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F72",
+   "value": 555.4,
+   "unit": "bp",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F73",
+   "value": "2012-07",
+   "unit": "month",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F74",
+   "value": 1202.9,
+   "unit": "bp",
+   "period": "2012-01",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F75",
+   "value": "2012-01",
+   "unit": "month",
+   "period": "2012-01",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F76",
+   "value": 2739.0,
+   "unit": "bp",
+   "period": "2012-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F77",
+   "value": "2012-02",
+   "unit": "month",
+   "period": "2012-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F78",
+   "value": 281.45,
+   "unit": "bp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F79",
+   "value": 283.241667,
+   "unit": "bp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F80",
+   "value": 763.091667,
+   "unit": "bp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F81",
+   "value": 1314.083333,
+   "unit": "bp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F82",
+   "value": 17.139001,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F83",
+   "value": 8.174289,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F84",
+   "value": 3.10084,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F85",
+   "value": 2.727273,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F86",
+   "value": 93.6,
+   "unit": "bp",
+   "period": "2010-04",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F87",
+   "value": 84.3,
+   "unit": "bp",
+   "period": "2010-04",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F88",
+   "value": 477.0,
+   "unit": "bp",
+   "period": "2010-04",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F89",
+   "value": 19,
+   "unit": "months",
+   "period": "2010-04/2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F90",
+   "value": 27,
+   "unit": "months",
+   "period": "2010-04/2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F91",
+   "value": 0.88,
+   "unit": "pp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F92",
+   "value": 0.66,
+   "unit": "pp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F93",
+   "value": 0.22,
+   "unit": "pp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F94",
+   "value": 75.0,
+   "unit": "%",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F95",
+   "value": "2008-11",
+   "unit": "month",
+   "period": "2008-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F96",
+   "value": 3.56,
+   "unit": "%",
+   "period": "2008-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F97",
+   "value": "2008-07",
+   "unit": "month",
+   "period": "2008-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F98",
+   "value": 4.69,
+   "unit": "%",
+   "period": "2008-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F99",
+   "value": 4.99,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F100",
+   "value": 5.2421,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F101",
+   "value": 3.05,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F102",
+   "value": 0.85,
+   "unit": "pp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F103",
+   "value": 0.7595,
+   "unit": "pp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F104",
+   "value": 0.99,
+   "unit": "pp",
+   "period": "2025-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F105",
+   "value": "1996-08",
+   "unit": "month",
+   "period": "1996-08",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F106",
+   "value": 3.41,
+   "unit": "%",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F107",
+   "value": 1.87,
+   "unit": "%",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F108",
+   "value": 2.01,
+   "unit": "%",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F109",
+   "value": 2.2917,
+   "unit": "%",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F110",
+   "value": 1.062,
+   "unit": "%",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F111",
+   "value": 15.78,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F112",
+   "value": 31.94,
+   "unit": "index",
+   "period": "2011-11",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F113",
+   "value": 36.53,
+   "unit": "index",
+   "period": "2011-09",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F114",
+   "value": "2011-09",
+   "unit": "month",
+   "period": "2011-09",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F115",
+   "value": 25.6,
+   "unit": "index",
+   "period": "2026-03",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F116",
+   "value": "2026-03",
+   "unit": "month",
+   "period": "2026-03",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F117",
+   "value": 83,
+   "unit": "months",
+   "period": "2007-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F118",
+   "value": 237,
+   "unit": "months",
+   "period": "2007-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F119",
+   "value": 19.99,
+   "unit": "index",
+   "period": "2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F120",
+   "value": "2026-10-16",
+   "unit": "date",
+   "period": "2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F121",
+   "value": 15.946667,
+   "unit": "index",
+   "period": "2026-10-01/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F122",
+   "value": 48.0,
+   "unit": "index",
+   "period": "2011-08-08",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F123",
+   "value": "2011-08-08",
+   "unit": "date",
+   "period": "2011-08-08",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F124",
+   "value": 83.76,
+   "unit": "USD per barrel",
+   "period": "2026-07",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "MCOILBRENTEU"
+    }
+   ]
+  },
+  {
+   "id": "F125",
+   "value": 114.16,
+   "unit": "USD per barrel",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "MCOILBRENTEU"
+    }
+   ]
+  },
+  {
+   "id": "F126",
+   "value": 36.294174,
+   "unit": "%",
+   "period": "2026-07/2026-09",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "MCOILBRENTEU"
+    }
+   ]
+  },
+  {
+   "id": "F127",
+   "value": 115.6,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F128",
+   "value": 88.7,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F129",
+   "value": 119.1,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F130",
+   "value": 69.5,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F131",
+   "value": 114.0,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F132",
+   "value": 175.1,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F133",
+   "value": 137.1,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F134",
+   "value": 100.7,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F135",
+   "value": 89.7,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F136",
+   "value": 146.1,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F137",
+   "value": 63.5,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F138",
+   "value": 26.9,
+   "unit": "pp",
+   "period": "2011/2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F139",
+   "value": "2025",
+   "unit": "year",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F140",
+   "value": -5.1,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F141",
+   "value": -5.3,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F142",
+   "value": -3.5,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F143",
+   "value": -9.7,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F144",
+   "value": -7.7,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F145",
+   "value": -10.5,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F146",
+   "value": -3.1,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F147",
+   "value": -2.4,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F148",
+   "value": 0.7,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F149",
+   "value": 1.7,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F150",
+   "value": -2.7,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F151",
+   "value": 5,
+   "unit": "countries",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F152",
+   "value": -5.1,
+   "unit": "% of GDP",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F153",
+   "value": "2009",
+   "unit": "year",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F154",
+   "value": -11.2,
+   "unit": "% of GDP",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F155",
+   "value": "2009",
+   "unit": "year",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F156",
+   "value": -11.4,
+   "unit": "% of GDP",
+   "period": "2010",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F157",
+   "value": "2010",
+   "unit": "year",
+   "period": "2010",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F158",
+   "value": -15.4,
+   "unit": "% of GDP",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F159",
+   "value": "2009",
+   "unit": "year",
+   "period": "2009",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F160",
+   "value": 2.2,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F161",
+   "value": 2.7,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F162",
+   "value": 4.6,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F163",
+   "value": 2.5,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F164",
+   "value": 4.3,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F165",
+   "value": 7.7,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F166",
+   "value": 3.9,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F167",
+   "value": 2.4,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F168",
+   "value": 1.9,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F169",
+   "value": 3.2,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F170",
+   "value": 1.1,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F171",
+   "value": 0.8,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F172",
+   "value": 2.4,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F173",
+   "value": 0.7,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F174",
+   "value": -0.6,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F175",
+   "value": -1.7,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F176",
+   "value": -9.9,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F177",
+   "value": 0.6,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F178",
+   "value": 2.6,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F179",
+   "value": 1.9,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F180",
+   "value": 2.1,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F181",
+   "value": 0.2,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F182",
+   "value": 3,
+   "unit": "countries",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F183",
+   "value": 4,
+   "unit": "countries",
+   "period": "2012",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F184",
+   "value": -0.4,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F185",
+   "value": -0.1,
+   "unit": "% of GDP",
+   "period": "2007",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F186",
+   "value": -1.4,
+   "unit": "% of GDP",
+   "period": "2007",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Eurostat",
+     "key": "bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=IT"
+    }
+   ]
+  },
+  {
+   "id": "F187",
+   "value": -9.4,
+   "unit": "% of GDP",
+   "period": "2007",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F188",
+   "value": -9.6,
+   "unit": "% of GDP",
+   "period": "2007",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F189",
+   "value": -15.4,
+   "unit": "% of GDP",
+   "period": "2007",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F190",
+   "value": 0.7,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Eurostat",
+     "key": "bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=IT"
+    }
+   ]
+  },
+  {
+   "id": "F191",
+   "value": 3.2,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F192",
+   "value": 1.2,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F193",
+   "value": -5.6,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F194",
+   "value": -2.9,
+   "unit": "% of GDP",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F195",
+   "value": -3.8,
+   "unit": "% of GDP",
+   "period": "2024",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F196",
+   "value": -3.5,
+   "unit": "% of GDP",
+   "period": "2023",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F197",
+   "value": 0.6,
+   "unit": "pp",
+   "period": "2023/2025",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F198",
+   "value": -2.6,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F199",
+   "value": 1.1,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F200",
+   "value": -7.2,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F201",
+   "value": -3.4,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F202",
+   "value": -2.8,
+   "unit": "% of GDP",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F203",
+   "value": 1.991974,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7",
+    "S20"
+   ]
+  },
+  {
+   "id": "F204",
+   "value": 1.952863,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7",
+    "S20"
+   ]
+  },
+  {
+   "id": "F205",
+   "value": 0.039111,
+   "unit": "pp",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S7",
+    "S20"
+   ]
+  },
+  {
+   "id": "F206",
+   "value": -0.158896,
+   "unit": "pp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7",
+    "S20"
+   ]
+  },
+  {
+   "id": "F207",
+   "value": 1.471128,
+   "unit": "pp",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S7",
+    "S20"
+   ]
+  },
+  {
+   "id": "F208",
+   "value": 21.047912,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F209",
+   "value": 16.749945,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F210",
+   "value": 25.983434,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F211",
+   "value": 29.974609,
+   "unit": "%",
+   "period": "2012",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F212",
+   "value": 19.964094,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F213",
+   "value": 28.748807,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F214",
+   "value": 20.172062,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F215",
+   "value": 20.698015,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F216",
+   "value": 10.289432,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F217",
+   "value": 53.984899,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F218",
+   "value": 54.33264,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F219",
+   "value": 2.416162,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F220",
+   "value": 16.51726,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F221",
+   "value": 22.591291,
+   "unit": "%",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F222",
+   "value": "2022",
+   "unit": "year",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F223",
+   "value": 21.195606,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F224",
+   "value": 11.284611,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F225",
+   "value": 1.355421,
+   "unit": "%",
+   "period": "2011",
+   "publishable": true,
+   "sources": [
+    "S20",
+    "S19"
+   ]
+  },
+  {
+   "id": "F226",
+   "value": 1.115544,
+   "unit": "%",
+   "period": "2025",
+   "publishable": true,
+   "sources": [
+    "S20",
+    "S19"
+   ]
+  },
+  {
+   "id": "F227",
+   "value": 273.854,
+   "unit": "EUR bn",
+   "period": "2011-12-26",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F228",
+   "value": "2011-12-26",
+   "unit": "date",
+   "period": "2011-12-26",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F229",
+   "value": 4.963708,
+   "unit": "EUR tn",
+   "period": "2022-06-20",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F230",
+   "value": "2022-06-20",
+   "unit": "date",
+   "period": "2022-06-20",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F231",
+   "value": 3.316305,
+   "unit": "EUR tn",
+   "period": "2026-10-05",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F232",
+   "value": "2026-10-05",
+   "unit": "date",
+   "period": "2026-10-05",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F233",
+   "value": 33.188959,
+   "unit": "%",
+   "period": "2022-06-20/2026-10-05",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F234",
+   "value": 12.109756,
+   "unit": "times",
+   "period": "2011-12-26/2026-10-05",
+   "publishable": true,
+   "sources": [
+    "S18"
+   ]
+  },
+  {
+   "id": "F235",
+   "value": 475.6,
+   "unit": "bp",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F236",
+   "value": 324.2,
+   "unit": "bp",
+   "period": "2012-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F237",
+   "value": -151.4,
+   "unit": "bp",
+   "period": "2012-07/2012-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F238",
+   "value": 555.4,
+   "unit": "bp",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F239",
+   "value": 404.3,
+   "unit": "bp",
+   "period": "2012-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F240",
+   "value": -151.1,
+   "unit": "bp",
+   "period": "2012-07/2012-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F241",
+   "value": 104.0,
+   "unit": "bp",
+   "period": "2012-07",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F242",
+   "value": 71.0,
+   "unit": "bp",
+   "period": "2012-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F243",
+   "value": -33.0,
+   "unit": "bp",
+   "period": "2012-07/2012-12",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F244",
+   "value": 25.1,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F245",
+   "value": 11.9,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F246",
+   "value": 0.5,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F247",
+   "value": 0.9,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F248",
+   "value": 7.1,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F249",
+   "value": 10.1,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F250",
+   "value": -2.2,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F251",
+   "value": -2.97,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F252",
+   "value": -1.9,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F253",
+   "value": -4.43,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F254",
+   "value": 1,
+   "unit": "rank",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F255",
+   "value": 0.5,
+   "unit": "bp",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F256",
+   "value": 2.109244,
+   "unit": "times",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F257",
+   "value": 2.485149,
+   "unit": "times",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F258",
+   "value": 14.76997,
+   "unit": "%",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F259",
+   "value": "2022",
+   "unit": "year",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F260",
+   "value": 1.979975,
+   "unit": "pp",
+   "period": "2022/2025",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  },
+  {
+   "id": "F261",
+   "value": 3,
+   "unit": "years",
+   "period": "2022/2025",
+   "publishable": true,
+   "sources": [
+    "S19",
+    "S20"
+   ]
+  }
+ ],
+ "run": {
+  "id": "20261020-france-spread",
+  "skills": {
+   "frame-question": "0.1.0",
+   "scout:fetch-public-data": "0.1.0",
+   "scout:search-jejualps": "0.1.0",
+   "scout:fetch-fred": "0.1.0",
+   "refine-question": "0.1.0",
+   "search-jejualps": "0.1.0",
+   "map-literature": "0.1.0",
+   "fetch-public-data": "0.1.0",
+   "fetch-fred": "0.1.0",
+   "analyze-data": "0.1.0",
+   "plan-article": "0.1.0",
+   "draft-article": "0.1.0",
+   "make-charts": "0.1.0",
+   "review-article": "0.2.0",
+   "publish-article": null,
+   "make-cover": "1.0.0",
+   "make-pdf": "1.0.0"
+  },
+  "models": [
+   "claude-opus-5-5",
+   "claude-sonnet-5-5"
+  ],
+  "runtime": {
+   "model": "claude-opus-5-5",
+   "effort": "high"
+  },
+  "steps": {
+   "scout": {
+    "docs": 23,
+    "series": 22
+   },
+   "refine": {
+    "premises": 10
+   },
+   "search": {
+    "docs": 16,
+    "quotes": 60
+   },
+   "map": {
+    "mechanisms": 9
+   },
+   "fetch": {
+    "series": 59,
+    "providers": [
+     "ECB",
+     "Eurostat",
+     "FRED"
+    ]
+   },
+   "analyze": {
+    "facts": 261
+   },
+   "plan": {
+    "sections": 11,
+    "figures": 6
+   },
+   "draft": {
+    "words": 2219
+   },
+   "charts": {
+    "charts": 6
+   },
+   "review": {
+    "rounds": 7
+   },
+   "cover": {
+    "ideas": 3
+   },
+   "pdf": {
+    "pages": {
+     "en": 11,
+     "ko": 11
+    }
+   }
+  },
+  "gates": {
+   "question": {
+    "at": "2026-10-20",
+    "by": "datasteg desk"
+   },
+   "plan": {
+    "at": "2026-10-20",
+    "by": "datasteg desk"
+   },
+   "publish": {
+    "at": "2026-10-20",
+    "by": "datasteg desk (autonomous agent)"
+   }
+  }
+ },
+ "terms": [
+  {
+   "id": "spread",
+   "context": {
+    "en": "Here: the gap between France's 10-year government bond yield and Germany's.",
+    "ko": "이 글에서는 프랑스 10년 만기 국채 금리와 독일 국채 금리의 차이를 말한다."
+   }
+  },
+  {
+   "id": "basis-point",
+   "context": null
+  },
+  {
+   "id": "bond-yield",
+   "context": null
+  },
+  {
+   "id": "bund",
+   "context": null
+  },
+  {
+   "id": "omt",
+   "context": null
+  },
+  {
+   "id": "vix",
+   "context": null
+  },
+  {
+   "id": "primary-balance",
+   "context": null
+  },
+  {
+   "id": "tpi",
+   "context": null
+  },
+  {
+   "id": "doom-loop",
+   "context": null
+  },
+  {
+   "id": "self-fulfilling-crisis",
+   "context": null
+  }
+ ],
+ "review": {
+  "editor": "datasteg desk (autonomous agent)",
+  "approved": "2026-10-20"
+ },
+ "citation": {
+  "author": {
+   "en": "datasteg",
+   "ko": "datasteg"
+  },
+  "publisher": {
+   "en": "datasteg articles",
+   "ko": "datasteg articles"
+  },
+  "date": "2026-10-20",
+  "title": {
+   "en": "France's borrowing premium over Germany is its widest since 2012, but this is not 2011",
+   "ko": "프랑스 국채 가산금리 2012년 이후 최고, 2011년 위기와는 달라"
+  },
+  "url": {
+   "en": "https://articles.datasteg.com/en/a/france-spread-2026",
+   "ko": "https://articles.datasteg.com/ko/a/france-spread-2026"
+  }
+ },
+ "pdf": {
+  "en": {
+   "file": "pdf/en.pdf",
+   "pages": 11,
+   "bytes": 413196,
+   "made": "2026-11-03",
+   "source": "ad620ffc570514f6"
+  },
+  "ko": {
+   "file": "pdf/ko.pdf",
+   "pages": 11,
+   "bytes": 794524,
+   "made": "2026-11-03",
+   "source": "ac58a27fe8139d8f"
+  }
+ },
+ "corrections": [],
+ "draws_on": [
+  "open-research"
+ ],
+ "draws_on_evidence": {
+  "open-research": 16
+ },
+ "fetch": {
+  "ecb": {
+   "series": 23,
+   "rows": 3247,
+   "bytes": 48761
+  },
+  "eurostat": {
+   "series": 29,
+   "rows": 586,
+   "bytes": 5994
+  },
+  "fred": {
+   "series": 7,
+   "rows": 6369,
+   "bytes": 106881
+  }
+ }
+}

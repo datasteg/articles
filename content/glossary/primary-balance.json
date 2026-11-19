@@ -1,0 +1,16 @@
+{
+ "id": "primary-balance",
+ "term": {
+  "en": "primary balance",
+  "ko": "기초재정수지"
+ },
+ "definition": {
+  "en": "A government's budget balance leaving aside the interest it pays on its debt. A primary deficit means the government spends more than it collects even before paying interest.",
+  "ko": "부채 이자 지출을 제외하고 계산한 정부의 재정수지다. 기초재정적자는 이자를 내기 전에도 정부가 거둔 것보다 더 많이 쓴다는 뜻이다."
+ },
+ "topics": [
+  "fiscal-policy",
+  "sovereign-debt"
+ ],
+ "approvedBy": null
+}

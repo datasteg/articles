@@ -1,0 +1,45 @@
+/* Article charts. Glacier tokens only; the gl-chart__* classes come from @glacier/ui/glacier.css. */
+.ac-chart { position: relative; }
+.ac-chart .gl-chart > svg { max-width: 100%; height: auto; }
+.ac-chart__legend { margin: 0 0 var(--space-3); }
+.ac-axis-label { font: 500 12px/16px var(--font-sans); fill: var(--ink-secondary); }
+.ac-axis-label--x { fill: var(--ink-muted); }
+.ac-axis-line { stroke: var(--viz-axis); stroke-width: 1; }
+.ac-ref { stroke: var(--ink-muted); stroke-width: 1; stroke-dasharray: 5 4; }
+.ac-ref-label { font: 500 12px/16px var(--font-sans); fill: var(--ink-secondary); paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.ac-annot { stroke: var(--ink-muted); stroke-width: 1; }
+.ac-annot-label { font: 400 12px/16px var(--font-sans); fill: var(--ink-secondary); }
+.ac-bandlabel { paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.ac-endlabel { font: 500 12px/16px var(--font-sans); fill: var(--ink-secondary); }
+.ac-endlabel.is-focus { font-weight: 600; fill: var(--ink); }
+.gl-chart__line.ac-line--focus { stroke-width: 2.5px; }
+.gl-chart__cat.is-focus, .gl-chart__value.is-focus { fill: var(--ink); font-weight: 600; }
+.ac-row-rule { stroke: var(--viz-grid); stroke-width: 1; }
+.ac-dumbbell__bar { stroke-width: 2; }
+.ac-dumbbell__from { fill: var(--surface); stroke-width: 2; }
+.ac-dumbbell__from.is-ring { fill: none; }
+.ac-point { cursor: default; }
+.ac-point:focus { outline: none; }
+.ac-point:focus-visible { stroke: var(--focus); stroke-width: 3; }
+.ac-point-label { font: 500 13px/16px var(--font-sans); fill: var(--ink-secondary); }
+.ac-point-label.is-focus { font-weight: 600; fill: var(--ink); }
+.ac-key { display: inline-block; width: 10px; height: 10px; border-radius: 50%; box-sizing: border-box; }
+.ac-key--from { border: 2px solid var(--viz-context); background: var(--surface); }
+.ac-key--to { background: var(--viz-context); }
+.gl-bar:focus { outline: none; }
+.gl-bar:focus-visible .gl-chart__cat { text-decoration: underline; }
+
+/* chart / table toggle: floated right, so a legend sits beside it on the same row */
+.ac-view { position: relative; }
+.ac-view__tools { float: right; margin: 0 0 var(--space-2) var(--space-4); }
+.ac-view .ac-chart__legend { display: flow-root; min-height: 32px; margin-bottom: var(--space-2); }
+.ac-view .ac-chart__legend .gl-legend { padding-top: 6px; }
+.ac-view .gl-chart, .ac-view .ac-table { clear: both; }
+.ac-table { max-height: 420px; overflow: auto; }
+
+/* stat tiles */
+.ac-tiles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0 var(--space-5); border-top: 1px solid var(--line); }
+.ac-tile { border-bottom: 1px solid var(--line); }
+.ac-tile .gl-stat__value { font-size: 36px; line-height: 40px; letter-spacing: -0.02em; }
+.ac-tile .gl-stat__value sup { font-size: 13px; letter-spacing: 0; vertical-align: top; position: relative; top: 2px; margin-left: 2px; }
+@media (max-width: 559px) { .ac-tiles { grid-template-columns: minmax(0, 1fr); } .ac-tile .gl-stat__value { font-size: 32px; line-height: 36px; } }

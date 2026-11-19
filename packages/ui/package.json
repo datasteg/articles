@@ -1,0 +1,20 @@
+{
+  "name": "@glacier/ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Glacier React components, ported from the design system's reference bundle (same class names, props and behaviour)",
+  "exports": {
+    ".": "./src/index.ts",
+    "./glacier.css": "./glacier.css"
+  },
+  "dependencies": {
+    "@glacier/i18n": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "react": "19.3.0"
+  }
+}

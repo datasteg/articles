@@ -1,0 +1,229 @@
+{
+ "kicker": "Monetary policy",
+ "title": "The record backs Warsh on 2021 and 2013 but not against forward guidance as such",
+ "dek": "Fed Chair Kevin Warsh says forward guidance outside a crisis can lead markets astray and bond-buying should be kept for genuine crises. The 2021 delay and the 2013 taper tantrum bear him out, while the 2022 liftoff, the research on guidance design and the dot plot still published under him cut the other way.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "11",
+   "label": "months from CPI inflation passing four percent (April 2021) to the first rate hike (March 2022); the 2020 liftoff guidance was unchanged through 2021",
+   "cite": [
+    "S5",
+    "S3"
+   ]
+  },
+  {
+   "value": "104bp",
+   "label": "rise in the 10-year Treasury yield, 21 May to 5 Sep 2013, after a taper signal whose market reaction the Fed did not intend",
+   "cite": [
+    "S8"
+   ]
+  },
+  {
+   "value": "160bp",
+   "label": "rise in the 2-year yield from the September 2021 tightening signal to the eve of the first hike, the rise Waller cites as the market moving before the Fed did",
+   "cite": [
+    "S13"
+   ]
+  }
+ ],
+ "findings": [
+  "Warsh names five faults in ((forward-guidance|forward guidance)) and limits it rather than abolishing it: the Fed's core, as he defines it, is a firm two percent inflation target and maximum employment delivered through short-term rates, unconventional tools are for genuine crises, and under him the ((fomc|FOMC)) has raised rates once, in September 2026, taking the monthly-average funds rate to 3.75%, while the ((dot-plot|dot plot)) is still published [[S1,S2,S3]].",
+  "In 2021 the guidance outlived its conditions: core PCE inflation passed two percent in March 2021, at 2.1%, CPI inflation passed four percent in April 2021, at 4.2%, the funds rate averaged 0.08% through the year, and the first hike came 11 months after CPI passed four percent; a Fed governor says the guidance tied the FOMC's hands, an insider estimate puts the delay at several months to half a year, and the survey that reports it says the view is not universal [[S4,S5,S3,S6,S7]].",
+  "In 2013 a market reaction the Fed did not intend raised the 10-year Treasury ((bond-yield|yield)) 104bp in under four months, 60% of it ((term-premium|term premium)), and the 30-year mortgage rate 106bp; Fed research finds no observable harm to US output, jobs or inflation, but housing fell, and an IMF study uses the shock to test how eighteen emerging markets reacted [[S8,S9,S10,S11,S12]].",
+  "The same record cuts the other way: after the September 2021 signal the 2-year yield rose 160bp before the first hike, a rise Waller cites as the market moving before the Fed did, across seven countries guidance as a whole did not change how yields react to news and long-horizon guidance muted it, and the median dot is the most accurate one-quarter forecast of the funds rate [[S13,S6,S14,S15]].",
+  "On buying bonds the research draws Warsh's own line: the March 2020 purchases communicated as market repair narrowed price dislocations without stimulus, the Treasuries bought after the goal changed in September 2020 cut the 10-year-equivalent yield by about seventy-eight ((basis-point|basis points)), and the Fed's total assets grew USD 4.71 trillion over the programme; under Warsh, 2-year yield volatility since June 2026 is 0.8 times its 2023–25 average and ((breakeven-inflation|breakeven inflation)) stayed within a 22bp band [[S16,S17,S13,S18,S19]]."
+ ],
+ "question": {
+  "asked": "Fed Chair Kevin Warsh says forward guidance and market intervention outside a crisis lead markets astray: what exactly does he say is wrong, which past Fed episodes bear him out or contradict him, and did measurable side effects occur?",
+  "lookedAt": "Warsh's August 2026 Jackson Hole speech and his 2010 and 2016 remarks, Governor Waller's replies, the research Warsh cites and the research that tests it, and Fed data since 2006 on rates, yields, the term premium, inflation and the balance sheet in the 2010, 2013, 2019, 2020 and 2021 episodes.",
+  "premiseNote": "Warsh does not say the Fed should never use forward guidance or market intervention: he calls them crisis tools to be limited in normal times, and the Fed still publishes its rate-path projections under him. 'Wrong signals' is the reader's paraphrase; his words are that guidance can 'lead markets, businesses, and households astray' and creates 'ambiguity in the name of clarity'. Guidance and bond-buying are two instruments with separate critiques and separate episodes, and this article treats them separately."
+ },
+ "sections": [
+  {
+   "id": "what-he-said",
+   "heading": "What Warsh says is wrong",
+   "summary": "Five named faults in forward guidance, an older critique of bond-buying, and limits rather than abolition.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Warsh's critique has two parts: five named faults in forward guidance, and an older, separate critique of buying bonds. At Jackson Hole on 28 August 2026, his hundredth day as Chair, he said he had set out to change the form and function of the Chairman's forward guidance [[S1]]. The practice was essential in the 2008 crisis, he said, but 'has overstayed its welcome' [[S1]]. The faults, in his order:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "*Ambiguity.* In normal times guidance 'risks creating ambiguity in the name of clarity', a line he was already using as an academic in 2016 [[S1,S20]].",
+      "*Leading astray.* 'Oversharing policy deliberations and overcommitting to future decisions can lead markets, businesses, and households astray.' This is the closest he comes to the reader's 'wrong signals' [[S1]].",
+      "*Tied hands.* Quasi-commitments on rates through the cycle mean, in his words, that 'we inhibit our own freedom to make the right calls' [[S1]].",
+      "*The ((hall-of-mirrors|hall of mirrors)).* If markets rely on the Fed's guidance and the Fed on market prices, both are 'more likely to be blinded to new developments' [[S1]].",
+      "*Forecasts as guidance.* Publishing forecasts to illustrate the Fed's ((reaction-function|reaction function)) works 'better in the lab than in the field', and he cites one study for it [[S1]]."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "His one named example is 2021, hedged: guidance that year 'might well have' slowed the response to inflation, a view he backs with a Romer and Romer retrospective not in our archive [[S1]]. On buying bonds the 2026 speech says only that unconventional policies 'may suit genuine crises but should otherwise be used sparingly, if at all' [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "The fuller version is his November 2010 speech as a governor, days after the second round of ((quantitative-easing|quantitative easing)) was announced [[S21]]. Expanding the balance sheet 'is not a free option', he said then; it makes the Fed 'more of a price maker than a price taker' in Treasuries and obscures price signals about US indebtedness [[S21]]. A 2025 lecture, known here only through the Riksbank governor's summary, argued for a permanently smaller balance sheet and a higher bar for future purchases [[S22]]."
+    },
+    {
+     "type": "p",
+     "text": "The core he defines is a firm two percent target for PCE inflation, maximum employment, short-term rates as the predominant tool, and 'a quieter Fed, more purposeful in its communications' [[S1]]. What has changed so far is modest: a task force is reviewing FOMC communications, and the FOMC has raised rates once, in September 2026 after nine months on hold, taking the monthly-average funds rate from 3.63% to 3.75% [[S23,S2,S3]]. The dot plot is still published and, in Governor Waller's words, still 'serving that signaling role' [[S2]]."
+    },
+    {
+     "type": "p",
+     "text": "The hall of mirrors has a Fed side too. Over 1994–2008 a ten percent fall in stocks between meetings predicted a cut of roughly a third of a point at the next one, the pattern Warsh called 'asset price dependent' in 2016 [[S24]]. In 2020 the Fed's Vice Chair called it an affliction the Fed 'guards against and does not suffer from' [[S25]]."
+    }
+   ]
+  },
+  {
+   "id": "late-liftoff",
+   "heading": "2021: a promise that outlived its conditions",
+   "summary": "Inflation passed the guidance's conditions a year before the first hike; how much was the guidance is contested.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The 2021 episode is Warsh's one named example and the strongest case for him. In September 2020 CPI inflation was 1.4% and unemployment 7.8% [[S5,S26]]. The FOMC promised rates near zero until maximum employment and inflation at two percent and on track to exceed it moderately for some time [[S6]]. It also signalled that hikes waited until the tapering of bond purchases was well under way [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "The conditions were met far sooner than the promise allowed. Core PCE inflation passed two percent in March 2021, at 2.1%, and CPI inflation passed four percent in April 2021, at 4.2%, reaching 7.0% in December as unemployment fell to 3.9% [[S4,S5,S26]]. The guidance did not change through 2021, leaving the public to wonder what 'for some time' meant, and the funds rate averaged 0.08% over the year [[S6,S3]]."
+    },
+    {
+     "type": "p",
+     "text": "The first hike came in March 2022, with CPI inflation at 8.5% and core PCE inflation at 5.6%, 11 months after CPI passed four percent [[S5,S4,S3]]. From the September 2020 change of purchase goal to the first hike the Fed's assets grew another USD 1.89 trillion as purchases ran on [[S17]]. Hikes were tied to the end of tapering, a tie Kiley and Mishkin say 'may have created inertia' [[S7]]. The chart below shows inflation and the funds rate across the episode, with the guidance, the September 2021 signal and the first hike marked."
+    },
+    {
+     "type": "figure",
+     "chart": "late-liftoff"
+    },
+    {
+     "type": "p",
+     "text": "How much of the delay was the guidance is contested. Governor Waller says it 'tied the hands of the FOMC in 2021 and unnecessarily delayed rate increases', and agrees that locking in a long policy path is unlikely to end well [[S6,S2]]. The only size in the archive is Kohn's estimate, reported second-hand, of at least several months and perhaps half a year [[S7]]. Kiley and Mishkin say that assessment 'is not universally shared' [[S7]]."
+    },
+    {
+     "type": "p",
+     "text": "The data date the gap, not its cause: the delay is tangled with that year's diagnosis that inflation was transitory. An IMF paper on the cost of falling behind the curve starts from the observation that major central banks 'were slow to react' to the 2021 surge [[S27]]."
+    }
+   ]
+  },
+  {
+   "id": "taper-tantrum",
+   "heading": "2013: the reaction nobody meant to cause",
+   "summary": "An unintended reaction to a taper signal lifted the 10-year yield about a point, mostly term premium.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The cleanest measured case of a market move policymakers did not intend is one Warsh's speech never mentions. On 22 May 2013 Bernanke first signalled the end of asset purchases in testimony to Congress, and the 19 June press conference reinforced it [[S11,S8]]. Fed staff call the move that followed, the ((taper-tantrum|taper tantrum)), 'unintentionally induced by policymakers' [[S11]]."
+    },
+    {
+     "type": "p",
+     "text": "The 10-year Treasury yield rose from 1.94% on 21 May to 2.98% on 5 September, a rise of 104bp, while the 2-year yield rose only 26bp [[S8,S13]]. The term premium rose from −0.02% to 0.60% on the Federal Reserve Board's Kim-Wright estimate, 60% of the yield rise: the spike was mostly compensation for holding bonds rather than a repricing of near-term policy [[S9,S8]]. The BIS reading is that markets had fixated on one aspect of the guidance and a recalibration triggered a disruptive reaction, amplified by the unwinding of leveraged bets on low rates [[S28]]. The chart below shows the 10-year and 2-year yields and the term premium through 2013, with the taper hint and the September delay marked and the 21 May to 5 September window shaded."
+    },
+    {
+     "type": "figure",
+     "chart": "taper-tantrum"
+    },
+    {
+     "type": "p",
+     "text": "The side effect reached households: the 30-year mortgage rate rose from 3.51% to 4.57%, a rise of 106bp [[S10,S11]]. Fed research comparing outcomes with pre-shock forecasts finds 'no observable negative effect on the aggregate economy', though residential investment clearly fell [[S11]]. An IMF study uses the shock to test how eighteen large emerging markets reacted, depending on how well their inflation expectations were anchored [[S12]]. On 18 September the FOMC surprised markets by delaying the taper, and the 10-year yield fell 17bp that day [[S11,S8]]."
+    },
+    {
+     "type": "p",
+     "text": "One caveat: the no-harm result starts from a yield below two percent, and today's 10-year yield is 2.6 times that level [[S8]]. The authors warn that a similar rise from a higher starting point could be more contractionary [[S11]]."
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "heading": "Design decides: the lower-bound years",
+   "summary": "Guidance moved yields most when new; the 2012 threshold was outrun by the data, and design decides side effects.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The era Warsh calls essential tests his first fault: the design of guidance, not guidance as such, decided the side effects. The funds rate averaged 0.13% over the 85 months from December 2008 to December 2015 [[S1,S3]]. The Fed moved from qualitative guidance in December 2008 to calendar dates from August 2011, 'at least through mid-2013' [[S28,S14]]. From December 2012 it used a threshold: no hike while unemployment stayed above six and a half percent and projected inflation stayed below two and a half [[S28,S29]]."
+    },
+    {
+     "type": "p",
+     "text": "Guidance moved yields most when it was new. The 10-year yield fell 16bp on 16 December 2008 and 20bp on 9 August 2011, then moved only 7bp, 2bp and 6bp on the two 2012 extensions and the threshold [[S8]]. The 16 December 2008 statement also cut the funds rate to its zero range [[S3]]. The BIS found the same diminishing returns in futures, though the December 2012 day also carried asset-purchase news, and the September 2012 extension was announced alongside the third round of purchases [[S28,S8]]. The table below lists the moves on the guidance, purchase and speech days compared in this article."
+    },
+    {
+     "type": "figure",
+     "chart": "guidance-days"
+    },
+    {
+     "type": "p",
+     "text": "The threshold was outrun by the data. Unemployment was 7.9% when it was set and fell below six and a half percent in April 2014, 16 months later; the first hike came 20 months after that, with unemployment at 5.0% [[S26,S3,S29]]. Doh, Gruber and Song find that after the threshold the Fed's own words changed: policymakers' speech tone stopped responding to unemployment-forecast revisions as they started to 'lean against the data' [[S29]]. Their lesson is that the threshold may have been too precise, the opposite of Warsh's objection [[S29]]."
+    },
+    {
+     "type": "p",
+     "text": "The cross-country test by Ehrmann and co-authors on seven economies gives the design verdict. Pooled, guidance did not change how 2-year yields react to news [[S14]]. Calendar guidance with a year and a half or less to run more than doubled the reaction; long-horizon calendar guidance eliminated it [[S14]]. The BIS asked already in 2014 whether guidance is a crisis tool only, which is Warsh's question, and the survey literature reads guidance as generally effective [[S28,S7]]."
+    }
+   ]
+  },
+  {
+   "id": "intervention",
+   "heading": "Buying bonds: repair or stimulus",
+   "summary": "Crisis purchases repaired prices without stimulus; the stimulus phase moved yields; withdrawing had costs too.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Warsh's critique of buying bonds is older, and the research draws his dividing line for him. The second round of quantitative easing was announced on 3 November 2010, days before a speech in which he set out his reservations [[S21]]. It added USD 565bn to the Fed's assets by June 2011, while the 10-year yield rose from 2.67% to a peak of 3.75% [[S17,S8]]. His claims were never tested in the archive; the survey's deeper point is that QE began as market stabilisation and shifted to demand stimulus, one tool for two aims [[S7]]."
+    },
+    {
+     "type": "p",
+     "text": "Withdrawing intervention had its own side effect. Between their 2015 peak and the August 2019 trough the Fed's assets fell USD 756bn to USD 3.76 trillion, most of it in the 2017–19 runoff [[S17]]. The authors find that runoff 'increased repo rate distortions, the severity of rate spikes', and it ended in the September 2019 repo spike [[S30,S31]]. That day the effective funds rate printed 5bp above the top of its target range; from the August trough the Fed's assets grew USD 406bn by year-end [[S30,S17]]."
+    },
+    {
+     "type": "p",
+     "text": "March 2020 was a genuine crisis by any measure. The 10-year yield rose 64bp in seven trading days while the Fed cut to zero, breakeven inflation fell 115bp from mid-February to 0.50%, and the VIX closed at 82.69 [[S8,S18,S32]]. D'Amico and co-authors find that while the stated goal was market functioning, purchases narrowed price dislocations without lowering the yield curve [[S16]]. After the goal changed to accommodation on 16 September 2020, the Treasuries bought cut the 10-year-equivalent yield by about seventy-eight basis points [[S16]]."
+    },
+    {
+     "type": "p",
+     "text": "Over the whole programme the Fed's assets grew USD 4.71 trillion by the first hike and peaked at USD 8.97 trillion in April 2022, ending only as hikes began; today they are USD 6.76 trillion, 75% of the peak [[S17]]. The lesson the authors draw is that the communicated purpose decides whether purchases repair or stimulate, and that changing it works as long as the flexibility does not cost purchase predictability [[S16]]. The chart below shows total assets since 2006; they include lending facilities and mortgage bonds, so they are not the Treasury purchases the research measures."
+    },
+    {
+     "type": "figure",
+     "chart": "fed-balance-sheet"
+    }
+   ]
+  },
+  {
+   "id": "other-side",
+   "heading": "Where the evidence cuts the other way, and the 2026 test",
+   "summary": "Guidance moved yields before the 2022 hikes, silence has costs, and 2026 volatility is below its recent average.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The question asks only whether side effects occurred; a fair test needs what the tools achieved. In the same cycle, by Waller's account, the market tightened before the Fed did [[S6]]. After the September 2021 signal the 2-year yield rose from 0.25% to 1.85% on the eve of the first hike, a rise of 160bp, and the 10-year yield rose 83bp [[S13,S8]]. Waller puts the rise at nearly two hundred basis points by mid-February, a larger figure than this series shows [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "The dot plot he criticises is read two ways by the one study he cites. Engstrom finds that private forecasts anchor to stale dots, which predicts forecast errors three and four quarters ahead, and that reliance on the December 2021 dots 'materially slowed' the rise in forward rates in 2022 [[S15]]. But the median dot is the most accurate one-quarter forecast of the funds rate, and the author writes that the results 'do not imply that the SEP is harmful overall' [[S15]]."
+    },
+    {
+     "type": "p",
+     "text": "Silence has a price too. Waller says saying nothing about the path 'could surprise markets and create volatility', and in early October 2026 futures priced an eighty-five percent chance of another hike by December [[S2]]. Since the 2022 liftoff the size of statement surprises, measured by their standard deviation, has almost doubled and that of press-conference surprises more than tripled, which the authors link, untested, to uncertainty about the reaction function [[S33]]. Data-based guidance can act as an automatic stabiliser, and a euro-area model predicts that projections seen as precise anchor expectations [[S7,S34]]."
+    },
+    {
+     "type": "p",
+     "text": "The 2026 record is a set of conditions to watch, not effects. The BIS says uncertainty about the reaction function and 'more concise communication' were reflected in higher bond volatility over June to September, and in July especially at the front end [[S19]]. The Jackson Hole speech was read as hawkish, and the 2-year yield rose 14bp that day [[S19,S13]]. In this article's data, 2-year realised volatility since June averages 5.3bp, 1.3 times the quiet first five months of the year but 0.8 times the 2023–25 average of 6.7bp, and below 2022's 7.7bp [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "Breakeven inflation stayed within 22bp over June to September, which the BIS calls remarkably stable [[S18,S19]]. The 10-year yield hit 5.31% on 5 Oct 2026, the highest in data back to 2006, and the Kim-Wright term premium reached 1.10% on 5 October, the highest since 14 Apr 2010 [[S8,S9]]. The BIS puts about forty percent of the summer's rise in the 10-year yield in the term premium; this article does not attribute the October highs to the communication change [[S19]]. The chart below shows 2-year and 10-year realised volatility since 2022."
+    },
+    {
+     "type": "figure",
+     "chart": "front-end-volatility"
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "Warsh is right about the two things the record can test, and wrong, or at least unproven, about the general verdict. In 2021 guidance was a promise held past its conditions, in Waller's judgement that it 'tied the hands of the FOMC in 2021', a reading of the delay that Kiley and Mishkin say 'is not universally shared' [[S6,S7]]. In 2013 it was a recalibration whose reaction Fed staff call 'unintentionally induced by policymakers', and in 2012–14 a threshold the data outran; in each case the research blames the design, not guidance itself [[S11,S28,S6,S14]]. The 2-year yield's 160bp climb before the 2022 hike shows what a signal can do, and the dot plot he criticises is still published under him [[S13,S2]]. On bonds the evidence draws his own line: crisis repair worked, the measured yield effects lie in the stimulus purchases his objection targets, and withdrawing had costs too in 2019 [[S16,S31]]. The quieter Fed's test is now: front-end volatility below its 2023–25 average, breakeven inflation anchored, and a next decision that does not surprise markets."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

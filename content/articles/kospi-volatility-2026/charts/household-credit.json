@@ -1,0 +1,908 @@
+{
+ "id": "household-credit",
+ "form": "line",
+ "headline": {
+  "en": "Households' credit and other non-mortgage loans rose 4.1 trillion won in May 2026, the most since July 2021, as the Bank of Korea Governor warned of leveraged stock buying",
+  "ko": "가계 기타대출은 2026년 5월 4.1조 원 늘어 2021년 7월 이후 가장 많이 증가했고, 한국은행 총재는 레버리지 주식 투자 증가를 경고했다"
+ },
+ "title": {
+  "en": "Monthly change in household loans of Korean banks and other deposit-takers",
+  "ko": "예금취급기관 가계대출의 월간 증감"
+ },
+ "subtitle": {
+  "en": "Trillion won, change from the previous month, Jan 2019–Aug 2026",
+  "ko": "조 원, 전월 대비 증감, 2019년 1월~2026년 8월"
+ },
+ "howToRead": {
+  "en": "Each point is how much household borrowing grew (above zero) or shrank (below zero) that month. The focus line is credit and other loans not secured on homes; the context line is all household loans, including mortgages. The vertical line marks June 2026, when Governor Hyun Song Shin said the surge in stock prices had come with a significant increase in leveraged equity investment.",
+  "ko": "점마다 그달 가계대출이 얼마나 늘었는지(0 위) 또는 줄었는지(0 아래)를 나타낸다. 강조한 선은 주택담보대출을 뺀 기타대출(신용대출 포함), 다른 선은 주택담보대출을 포함한 전체 가계대출이다. 세로선은 신현송 총재가 주가 급등과 함께 레버리지 주식 투자가 크게 늘었다고 말한 2026년 6월이다."
+ },
+ "notes": [
+  {
+   "en": "Bank of Korea, loans of depository institutions to households. 'Other loans' include unsecured credit loans, the kind that can fund stock buying, but the data do not show what the loans were used for. In 2024–25 other loans fell 1.2 trillion won a month on average. Latest month August 2026.",
+   "ko": "한국은행의 예금취급기관 가계대출이다. 기타대출에는 주식 매수 자금이 될 수 있는 신용대출이 들어 있지만, 대출이 어디에 쓰였는지는 자료로 알 수 없다. 2024~2025년 기타대출은 한 달 평균 1.2조 원씩 줄었다. 마지막 달은 2026년 8월이다."
+  },
+  {
+   "en": "Margin loans from securities firms are not shown: KOFIA's terms for republishing its data are not cleared, so the text describes them in words.",
+   "ko": "증권사 신용융자는 금융투자협회 자료의 재게시 조건이 확인되지 않아 그래프에 넣지 않고 본문에서 말로 다뤘다."
+  }
+ ],
+ "alt": {
+  "en": "Line chart of the monthly change in household loans of Korean depository institutions, January 2019 to August 2026, in trillion won. Credit and other non-mortgage loans rose strongly in 2020–21, by up to 17.1 trillion won in April 2021, then fell in most months from 2022 to early 2026. In May 2026 they rose 4.1 trillion won, the most since July 2021's 6.3 trillion, then 3.1 trillion in June and 2.2 trillion in July, and fell 1.0 trillion in August. All household loans rose 6.6 trillion won in May 2026.",
+  "ko": "2019년 1월부터 2026년 8월까지 예금취급기관 가계대출의 월간 증감을 조 원 단위로 나타낸 선 그래프. 기타대출(신용대출 포함)은 2020~2021년 크게 늘어 2021년 4월에는 17.1조 원 증가했고, 2022년부터 2026년 초까지는 대부분의 달에 줄었다. 2026년 5월에는 4.1조 원 늘어 2021년 7월(6.3조 원) 이후 가장 많이 증가했으며, 6월 3.1조 원, 7월 2.2조 원 늘었다가 8월에는 1.0조 원 줄었다. 전체 가계대출은 2026년 5월 6.6조 원 늘었다."
+ },
+ "axes": {
+  "x": {
+   "type": "time",
+   "format": "year",
+   "ticks": [
+    "2020-01",
+    "2022-01",
+    "2024-01",
+    "2026-01"
+   ],
+   "label": {
+    "en": "Month",
+    "ko": "월"
+   },
+   "unit": "month"
+  },
+  "y": {
+   "label": {
+    "en": "Trillion won, change from the previous month",
+    "ko": "전월 대비 증감, 조 원"
+   },
+   "unit": "trillion won",
+   "domain": [
+    -10,
+    20
+   ],
+   "ticks": [
+    -10,
+    0,
+    10,
+    20
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "x": [
+  "2019-01",
+  "2019-02",
+  "2019-03",
+  "2019-04",
+  "2019-05",
+  "2019-06",
+  "2019-07",
+  "2019-08",
+  "2019-09",
+  "2019-10",
+  "2019-11",
+  "2019-12",
+  "2020-01",
+  "2020-02",
+  "2020-03",
+  "2020-04",
+  "2020-05",
+  "2020-06",
+  "2020-07",
+  "2020-08",
+  "2020-09",
+  "2020-10",
+  "2020-11",
+  "2020-12",
+  "2021-01",
+  "2021-02",
+  "2021-03",
+  "2021-04",
+  "2021-05",
+  "2021-06",
+  "2021-07",
+  "2021-08",
+  "2021-09",
+  "2021-10",
+  "2021-11",
+  "2021-12",
+  "2022-01",
+  "2022-02",
+  "2022-03",
+  "2022-04",
+  "2022-05",
+  "2022-06",
+  "2022-07",
+  "2022-08",
+  "2022-09",
+  "2022-10",
+  "2022-11",
+  "2022-12",
+  "2023-01",
+  "2023-02",
+  "2023-03",
+  "2023-04",
+  "2023-05",
+  "2023-06",
+  "2023-07",
+  "2023-08",
+  "2023-09",
+  "2023-10",
+  "2023-11",
+  "2023-12",
+  "2024-01",
+  "2024-02",
+  "2024-03",
+  "2024-04",
+  "2024-05",
+  "2024-06",
+  "2024-07",
+  "2024-08",
+  "2024-09",
+  "2024-10",
+  "2024-11",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-07",
+  "2025-08",
+  "2025-09",
+  "2025-10",
+  "2025-11",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08"
+ ],
+ "series": [
+  {
+   "id": "other",
+   "label": {
+    "en": "Credit and other loans",
+    "ko": "기타대출"
+   },
+   "dataset": "derived-hh-other-loans-chg-m",
+   "color": "focus",
+   "endLabel": false,
+   "values": [
+    -1.4,
+    0.16,
+    -0.25,
+    1.87,
+    2.83,
+    2.12,
+    2.4,
+    2.8,
+    0.78,
+    3.76,
+    2.4,
+    2.94,
+    -1.06,
+    1.81,
+    3.66,
+    0.14,
+    1.32,
+    3.99,
+    5.02,
+    6.93,
+    4.14,
+    5.28,
+    10.19,
+    1.63,
+    3.75,
+    1.17,
+    2.52,
+    17.15,
+    -5.98,
+    3.64,
+    6.3,
+    1.44,
+    2.04,
+    0.68,
+    1.54,
+    -2.06,
+    -3.82,
+    -2.5,
+    -5.18,
+    -2.33,
+    -0.25,
+    -1.93,
+    -3.45,
+    -2.12,
+    -3.07,
+    -2.6,
+    -3.27,
+    -4.51,
+    -6.86,
+    -4.54,
+    -6.12,
+    -2.33,
+    -1.94,
+    -2.75,
+    -1.3,
+    -1.64,
+    -3.07,
+    -0.2,
+    -2.77,
+    -4.59,
+    -3.98,
+    -5.08,
+    -4.26,
+    -0.51,
+    -1.04,
+    -1.52,
+    -1.16,
+    0.32,
+    -1.25,
+    -0.13,
+    0.02,
+    -1.5,
+    -3.75,
+    -0.99,
+    -1.99,
+    0.6,
+    0.62,
+    0.67,
+    -1.49,
+    -0.5,
+    -1.6,
+    1.03,
+    0.55,
+    -2.79,
+    -1.22,
+    -1.52,
+    -0.32,
+    -1.13,
+    4.07,
+    3.08,
+    2.16,
+    -1.03
+   ]
+  },
+  {
+   "id": "all",
+   "label": {
+    "en": "All household loans",
+    "ko": "전체 가계대출"
+   },
+   "dataset": "derived-hh-loans-chg-m",
+   "color": "context",
+   "endLabel": false,
+   "values": [
+    -0.63,
+    1.32,
+    1.38,
+    4.24,
+    4.8,
+    4.67,
+    5.79,
+    6.85,
+    4.04,
+    8.01,
+    5.86,
+    3.61,
+    -0.51,
+    2.91,
+    8.08,
+    4.98,
+    3.51,
+    6.01,
+    6.89,
+    11.99,
+    10.05,
+    11.48,
+    16.23,
+    7.6,
+    8.08,
+    8.22,
+    7.79,
+    18.76,
+    -4.19,
+    6.65,
+    12.82,
+    7.82,
+    8.46,
+    6.14,
+    5.79,
+    0.81,
+    -1.66,
+    -1.38,
+    -4.09,
+    0.11,
+    -0.08,
+    0.61,
+    -2.12,
+    -0.11,
+    -1.02,
+    -0.37,
+    -1.99,
+    -1.92,
+    -7.34,
+    -5.57,
+    -9.2,
+    -4.56,
+    0.04,
+    1.39,
+    2.2,
+    1.98,
+    0.88,
+    3.65,
+    2.28,
+    -0.56,
+    1.21,
+    -1.25,
+    -4.9,
+    3.93,
+    4.91,
+    4.45,
+    5.28,
+    9.67,
+    5.94,
+    4.35,
+    5.19,
+    3.33,
+    0.64,
+    5.58,
+    3.1,
+    6.82,
+    6.77,
+    8.56,
+    4.17,
+    5.57,
+    2.26,
+    5.06,
+    4.2,
+    0.81,
+    1.19,
+    3.72,
+    3.02,
+    4.02,
+    6.56,
+    5.81,
+    5.65,
+    3.65
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "x": "2026-06",
+   "label": {
+    "en": "Governor's warning",
+    "ko": "총재 경고"
+   },
+   "evidence": "jejualps-E39"
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S11",
+   "S27",
+   "S12"
+  ],
+  "provider": "Bank of Korea, ECOS; datasteg calculation",
+  "keys": [
+   "151Y005/M/11100B0",
+   "151Y005/M/1110000"
+  ],
+  "definition": {
+   "en": "Household loans of depository institutions (banks and non-bank deposit-takers), outstanding at the end of the month: other loans (including credit loans, excluding mortgages) and all household loans.",
+   "ko": "예금취급기관(은행과 비은행 예금취급기관)의 월말 가계대출 잔액. 기타대출(신용대출 포함, 주택담보대출 제외)과 전체 가계대출."
+  },
+  "calculation": {
+   "en": "Monthly change = end-of-month balance − previous end-of-month balance (billion won) ÷ 1,000.",
+   "ko": "월간 증감 = 월말 잔액 − 전월 말 잔액(십억 원) ÷ 1,000."
+  },
+  "span": [
+   "2019-01",
+   "2026-08"
+  ],
+  "lastObservation": "2026-08",
+  "retrieved": "2026-10-30",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; Bank of Korea speech, 12 June 2026 (annotation); datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; 한국은행 총재 연설, 2026년 6월 12일(주석); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "x",
+    "label": {
+     "en": "Month",
+     "ko": "월"
+    }
+   },
+   {
+    "key": "other",
+    "label": {
+     "en": "Credit and other loans, tn won",
+     "ko": "기타대출, 조 원"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "all",
+    "label": {
+     "en": "All household loans, tn won",
+     "ko": "전체 가계대출, 조 원"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "x": "2019-01",
+    "other": -1.4,
+    "all": -0.63
+   },
+   {
+    "x": "2019-02",
+    "other": 0.16,
+    "all": 1.32
+   },
+   {
+    "x": "2019-03",
+    "other": -0.25,
+    "all": 1.38
+   },
+   {
+    "x": "2019-04",
+    "other": 1.87,
+    "all": 4.24
+   },
+   {
+    "x": "2019-05",
+    "other": 2.83,
+    "all": 4.8
+   },
+   {
+    "x": "2019-06",
+    "other": 2.12,
+    "all": 4.67
+   },
+   {
+    "x": "2019-07",
+    "other": 2.4,
+    "all": 5.79
+   },
+   {
+    "x": "2019-08",
+    "other": 2.8,
+    "all": 6.85
+   },
+   {
+    "x": "2019-09",
+    "other": 0.78,
+    "all": 4.04
+   },
+   {
+    "x": "2019-10",
+    "other": 3.76,
+    "all": 8.01
+   },
+   {
+    "x": "2019-11",
+    "other": 2.4,
+    "all": 5.86
+   },
+   {
+    "x": "2019-12",
+    "other": 2.94,
+    "all": 3.61
+   },
+   {
+    "x": "2020-01",
+    "other": -1.06,
+    "all": -0.51
+   },
+   {
+    "x": "2020-02",
+    "other": 1.81,
+    "all": 2.91
+   },
+   {
+    "x": "2020-03",
+    "other": 3.66,
+    "all": 8.08
+   },
+   {
+    "x": "2020-04",
+    "other": 0.14,
+    "all": 4.98
+   },
+   {
+    "x": "2020-05",
+    "other": 1.32,
+    "all": 3.51
+   },
+   {
+    "x": "2020-06",
+    "other": 3.99,
+    "all": 6.01
+   },
+   {
+    "x": "2020-07",
+    "other": 5.02,
+    "all": 6.89
+   },
+   {
+    "x": "2020-08",
+    "other": 6.93,
+    "all": 11.99
+   },
+   {
+    "x": "2020-09",
+    "other": 4.14,
+    "all": 10.05
+   },
+   {
+    "x": "2020-10",
+    "other": 5.28,
+    "all": 11.48
+   },
+   {
+    "x": "2020-11",
+    "other": 10.19,
+    "all": 16.23
+   },
+   {
+    "x": "2020-12",
+    "other": 1.63,
+    "all": 7.6
+   },
+   {
+    "x": "2021-01",
+    "other": 3.75,
+    "all": 8.08
+   },
+   {
+    "x": "2021-02",
+    "other": 1.17,
+    "all": 8.22
+   },
+   {
+    "x": "2021-03",
+    "other": 2.52,
+    "all": 7.79
+   },
+   {
+    "x": "2021-04",
+    "other": 17.15,
+    "all": 18.76
+   },
+   {
+    "x": "2021-05",
+    "other": -5.98,
+    "all": -4.19
+   },
+   {
+    "x": "2021-06",
+    "other": 3.64,
+    "all": 6.65
+   },
+   {
+    "x": "2021-07",
+    "other": 6.3,
+    "all": 12.82
+   },
+   {
+    "x": "2021-08",
+    "other": 1.44,
+    "all": 7.82
+   },
+   {
+    "x": "2021-09",
+    "other": 2.04,
+    "all": 8.46
+   },
+   {
+    "x": "2021-10",
+    "other": 0.68,
+    "all": 6.14
+   },
+   {
+    "x": "2021-11",
+    "other": 1.54,
+    "all": 5.79
+   },
+   {
+    "x": "2021-12",
+    "other": -2.06,
+    "all": 0.81
+   },
+   {
+    "x": "2022-01",
+    "other": -3.82,
+    "all": -1.66
+   },
+   {
+    "x": "2022-02",
+    "other": -2.5,
+    "all": -1.38
+   },
+   {
+    "x": "2022-03",
+    "other": -5.18,
+    "all": -4.09
+   },
+   {
+    "x": "2022-04",
+    "other": -2.33,
+    "all": 0.11
+   },
+   {
+    "x": "2022-05",
+    "other": -0.25,
+    "all": -0.08
+   },
+   {
+    "x": "2022-06",
+    "other": -1.93,
+    "all": 0.61
+   },
+   {
+    "x": "2022-07",
+    "other": -3.45,
+    "all": -2.12
+   },
+   {
+    "x": "2022-08",
+    "other": -2.12,
+    "all": -0.11
+   },
+   {
+    "x": "2022-09",
+    "other": -3.07,
+    "all": -1.02
+   },
+   {
+    "x": "2022-10",
+    "other": -2.6,
+    "all": -0.37
+   },
+   {
+    "x": "2022-11",
+    "other": -3.27,
+    "all": -1.99
+   },
+   {
+    "x": "2022-12",
+    "other": -4.51,
+    "all": -1.92
+   },
+   {
+    "x": "2023-01",
+    "other": -6.86,
+    "all": -7.34
+   },
+   {
+    "x": "2023-02",
+    "other": -4.54,
+    "all": -5.57
+   },
+   {
+    "x": "2023-03",
+    "other": -6.12,
+    "all": -9.2
+   },
+   {
+    "x": "2023-04",
+    "other": -2.33,
+    "all": -4.56
+   },
+   {
+    "x": "2023-05",
+    "other": -1.94,
+    "all": 0.04
+   },
+   {
+    "x": "2023-06",
+    "other": -2.75,
+    "all": 1.39
+   },
+   {
+    "x": "2023-07",
+    "other": -1.3,
+    "all": 2.2
+   },
+   {
+    "x": "2023-08",
+    "other": -1.64,
+    "all": 1.98
+   },
+   {
+    "x": "2023-09",
+    "other": -3.07,
+    "all": 0.88
+   },
+   {
+    "x": "2023-10",
+    "other": -0.2,
+    "all": 3.65
+   },
+   {
+    "x": "2023-11",
+    "other": -2.77,
+    "all": 2.28
+   },
+   {
+    "x": "2023-12",
+    "other": -4.59,
+    "all": -0.56
+   },
+   {
+    "x": "2024-01",
+    "other": -3.98,
+    "all": 1.21
+   },
+   {
+    "x": "2024-02",
+    "other": -5.08,
+    "all": -1.25
+   },
+   {
+    "x": "2024-03",
+    "other": -4.26,
+    "all": -4.9
+   },
+   {
+    "x": "2024-04",
+    "other": -0.51,
+    "all": 3.93
+   },
+   {
+    "x": "2024-05",
+    "other": -1.04,
+    "all": 4.91
+   },
+   {
+    "x": "2024-06",
+    "other": -1.52,
+    "all": 4.45
+   },
+   {
+    "x": "2024-07",
+    "other": -1.16,
+    "all": 5.28
+   },
+   {
+    "x": "2024-08",
+    "other": 0.32,
+    "all": 9.67
+   },
+   {
+    "x": "2024-09",
+    "other": -1.25,
+    "all": 5.94
+   },
+   {
+    "x": "2024-10",
+    "other": -0.13,
+    "all": 4.35
+   },
+   {
+    "x": "2024-11",
+    "other": 0.02,
+    "all": 5.19
+   },
+   {
+    "x": "2024-12",
+    "other": -1.5,
+    "all": 3.33
+   },
+   {
+    "x": "2025-01",
+    "other": -3.75,
+    "all": 0.64
+   },
+   {
+    "x": "2025-02",
+    "other": -0.99,
+    "all": 5.58
+   },
+   {
+    "x": "2025-03",
+    "other": -1.99,
+    "all": 3.1
+   },
+   {
+    "x": "2025-04",
+    "other": 0.6,
+    "all": 6.82
+   },
+   {
+    "x": "2025-05",
+    "other": 0.62,
+    "all": 6.77
+   },
+   {
+    "x": "2025-06",
+    "other": 0.67,
+    "all": 8.56
+   },
+   {
+    "x": "2025-07",
+    "other": -1.49,
+    "all": 4.17
+   },
+   {
+    "x": "2025-08",
+    "other": -0.5,
+    "all": 5.57
+   },
+   {
+    "x": "2025-09",
+    "other": -1.6,
+    "all": 2.26
+   },
+   {
+    "x": "2025-10",
+    "other": 1.03,
+    "all": 5.06
+   },
+   {
+    "x": "2025-11",
+    "other": 0.55,
+    "all": 4.2
+   },
+   {
+    "x": "2025-12",
+    "other": -2.79,
+    "all": 0.81
+   },
+   {
+    "x": "2026-01",
+    "other": -1.22,
+    "all": 1.19
+   },
+   {
+    "x": "2026-02",
+    "other": -1.52,
+    "all": 3.72
+   },
+   {
+    "x": "2026-03",
+    "other": -0.32,
+    "all": 3.02
+   },
+   {
+    "x": "2026-04",
+    "other": -1.13,
+    "all": 4.02
+   },
+   {
+    "x": "2026-05",
+    "other": 4.07,
+    "all": 6.56
+   },
+   {
+    "x": "2026-06",
+    "other": 3.08,
+    "all": 5.81
+   },
+   {
+    "x": "2026-07",
+    "other": 2.16,
+    "all": 5.65
+   },
+   {
+    "x": "2026-08",
+    "other": -1.03,
+    "all": 3.65
+   }
+  ]
+ },
+ "csv": "data/household-credit.csv"
+}

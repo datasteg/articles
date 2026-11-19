@@ -1,0 +1,214 @@
+{
+ "id": "bank-holdings",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Home banks hold a smaller share of their government's debt than in 2011 in all four countries; in France, 17% against 21%",
+  "ko": "네 나라 모두 자국 은행이 보유한 정부 부채 비중이 2011년보다 낮아졌고, 프랑스는 21%에서 17%로 내려갔다"
+ },
+ "title": {
+  "en": "Share of government debt held by the country's own banks, 2011 and 2025",
+  "ko": "자국 은행이 보유한 정부 부채 비중, 2011년과 2025년"
+ },
+ "subtitle": {
+  "en": "% of general government debt, end of year; banks exclude the central bank",
+  "ko": "일반정부 부채 대비 %, 연말 기준, 중앙은행 제외"
+ },
+ "howToRead": {
+  "en": "The hollow dot is 2011, the filled dot 2025. A filled dot to the left of the hollow one means banks now hold a smaller share.",
+  "ko": "빈 점은 2011년, 채운 점은 2025년이다. 채운 점이 빈 점보다 왼쪽에 있으면 지금 은행이 보유한 비중이 더 작다는 뜻이다."
+ },
+ "notes": [
+  {
+   "en": "Greece is left out: its figures are suppressed in the ECB data. Italy's share rose after 2011, to 30% in 2012; the table view gives 2012 for all four.",
+   "ko": "그리스는 ECB 자료에서 수치가 공개되지 않아 뺐다. 이탈리아의 비중은 2011년 뒤 더 올라 2012년 30%였다. 표 보기에 네 나라의 2012년 값이 있다."
+  },
+  {
+   "en": "France's share has risen each year since its low of 15% in 2022.",
+   "ko": "프랑스의 비중은 2022년 15%로 가장 낮았다가 이후 해마다 올랐다."
+  },
+  {
+   "en": "Year-end shares; they do not show how much banks bought or sold during the crisis.",
+   "ko": "연말 기준 비중이어서 위기 중 은행들이 얼마나 사고팔았는지는 보여 주지 않는다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart: the share of government debt held by the country's own banks fell between 2011 and 2025 in Spain (29% to 20%), Italy (26% to 20%), France (21% to 17%) and Portugal (21% to 10%).",
+  "ko": "덤벨 그래프: 자국 은행이 보유한 정부 부채 비중은 2011년에서 2025년 사이 스페인(29%→20%), 이탈리아(26%→20%), 프랑스(21%→17%), 포르투갈(21%→10%)에서 모두 낮아졌다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "% of government debt",
+    "ko": "정부 부채 대비 %"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    30
+   ],
+   "ticks": [
+    0,
+    10,
+    20,
+    30
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "2011",
+  "ko": "2011년"
+ },
+ "toLabel": {
+  "en": "2025",
+  "ko": "2025년"
+ },
+ "rows": [
+  {
+   "id": "ES",
+   "label": {
+    "en": "Spain",
+    "ko": "스페인"
+   },
+   "from": 28.748807,
+   "to": 20.172062
+  },
+  {
+   "id": "IT",
+   "label": {
+    "en": "Italy",
+    "ko": "이탈리아"
+   },
+   "from": 25.983434,
+   "to": 19.964094
+  },
+  {
+   "id": "FR",
+   "label": {
+    "en": "France",
+    "ko": "프랑스"
+   },
+   "from": 21.047912,
+   "to": 16.749945,
+   "highlight": true
+  },
+  {
+   "id": "PT",
+   "label": {
+    "en": "Portugal",
+    "ko": "포르투갈"
+   },
+   "from": 20.698015,
+   "to": 10.289432
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S19",
+   "S20"
+  ],
+  "provider": "ECB Data Portal",
+  "keys": [
+   "GFS.A.N.{FR,IT,ES,PT}.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+   "GFS.A.N.{FR,IT,ES,PT}.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T"
+  ],
+  "definition": {
+   "en": "Government debt held by resident monetary financial institutions other than the central bank (banks), as a share of consolidated general government gross debt, end of year (ECB government finance statistics).",
+   "ko": "중앙은행을 제외한 국내 통화금융기관(은행)이 보유한 정부 부채가 연결 기준 일반정부 총부채에서 차지하는 비중, 연말 기준(ECB 정부재정통계)."
+  },
+  "calculation": {
+   "en": "Share = debt held by resident banks ÷ total government debt × 100.",
+   "ko": "비중 = 국내 은행 보유 정부 부채 ÷ 정부 총부채 × 100."
+  },
+  "span": [
+   "2011",
+   "2025"
+  ],
+  "lastObservation": "2025",
+  "retrieved": "2026-10-19",
+  "licence": "ECB: reuse with attribution (ECB statistics reuse policy)",
+  "attribution": {
+   "en": "Source: ECB Data Portal; datasteg calculation",
+   "ko": "출처: ECB 데이터 포털; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "country",
+    "label": {
+     "en": "Country",
+     "ko": "국가"
+    }
+   },
+   {
+    "key": "y2011",
+    "label": {
+     "en": "2011, %",
+     "ko": "2011년, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "y2012",
+    "label": {
+     "en": "2012, %",
+     "ko": "2012년, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "y2025",
+    "label": {
+     "en": "2025, %",
+     "ko": "2025년, %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "country": {
+     "en": "Spain",
+     "ko": "스페인"
+    },
+    "y2011": 28.748807,
+    "y2012": 26.531101,
+    "y2025": 20.172062
+   },
+   {
+    "country": {
+     "en": "Italy",
+     "ko": "이탈리아"
+    },
+    "y2011": 25.983434,
+    "y2012": 29.974609,
+    "y2025": 19.964094
+   },
+   {
+    "country": {
+     "en": "France",
+     "ko": "프랑스"
+    },
+    "y2011": 21.047912,
+    "y2012": 21.948614,
+    "y2025": 16.749945
+   },
+   {
+    "country": {
+     "en": "Portugal",
+     "ko": "포르투갈"
+    },
+    "y2011": 20.698015,
+    "y2012": 20.97476,
+    "y2025": 10.289432
+   }
+  ]
+ },
+ "csv": "data/bank-holdings.csv"
+}

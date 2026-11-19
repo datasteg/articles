@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <polygon points="0,232 60,210 112,224 168,204 236,230 300,210 360,220 420,200 480,212 480,320 0,320" class="f-seq1"/>
+  <polygon points="0,254 44,244 84,250 128,240 168,196 190,128 210,66 230,128 250,180 284,206 360,202 384,176 404,150 432,138 480,138 480,320 0,320" class="f-seq3"/>
+  <polygon points="210,66 230,128 218,118 206,128 196,112 190,128" class="f-glint"/>
+  <polyline points="284,206 360,202 384,176 404,150 432,138" fill="none" class="s-focus" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="432" cy="138" r="13" class="f-warm s-paper" stroke-width="8"/>
+</svg>

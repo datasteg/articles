@@ -1,0 +1,2367 @@
+{
+ "slug": "won-after-rate-hold",
+ "type": "explainer",
+ "pipeline": {
+  "id": "explainer",
+  "version": "1.2"
+ },
+ "date": "2026-10-23",
+ "updated": null,
+ "editions": [
+  "en",
+  "ko"
+ ],
+ "topics": [
+  {
+   "id": "exchange-rates",
+   "label": {
+    "en": "Exchange rates",
+    "ko": "환율"
+   }
+  },
+  {
+   "id": "monetary-policy",
+   "label": {
+    "en": "Monetary policy",
+    "ko": "통화정책"
+   }
+  },
+  {
+   "id": "capital-flows",
+   "label": {
+    "en": "Capital flows",
+    "ko": "자본 흐름"
+   }
+  },
+  {
+   "id": "korean-economy",
+   "label": {
+    "en": "Korea",
+    "ko": "한국"
+   }
+  }
+ ],
+ "jel": [
+  "F31",
+  "E52",
+  "E58",
+  "F32",
+  "G15",
+  "E43"
+ ],
+ "countries": [
+  "KR",
+  "US",
+  "TW",
+  "JP"
+ ],
+ "readTime": {
+  "en": 12,
+  "ko": 14
+ },
+ "charts": [
+  "key-numbers",
+  "won-2026",
+  "decision-days",
+  "rate-gaps",
+  "peers",
+  "flows"
+ ],
+ "cover": {
+  "file": "cover.svg",
+  "alt": {
+   "en": "A blue hill dips, climbs steeply, then flattens into a plateau with a small columned bank building at its far end.",
+   "ko": "푸른 언덕이 살짝 꺼졌다가 가파르게 오른 뒤 평평한 고원이 되고, 그 끝에 기둥이 있는 작은 은행 건물이 서 있다."
+  }
+ },
+ "facts": [
+  {
+   "id": "F1",
+   "value": 1555.8,
+   "unit": "won per dollar",
+   "period": "2026-07-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F2",
+   "value": "2026-07-02",
+   "unit": "date",
+   "period": "2026-07-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F3",
+   "value": 1555.96,
+   "unit": "won per dollar",
+   "period": "2026-06-05",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F4",
+   "value": "2009-03-05",
+   "unit": "date",
+   "period": "2009-03-05",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F5",
+   "value": 1325.2,
+   "unit": "won per dollar",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F6",
+   "value": 1324.2,
+   "unit": "won per dollar",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F7",
+   "value": 1324.6,
+   "unit": "won per dollar",
+   "period": "2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F8",
+   "value": "2024-10-02",
+   "unit": "date",
+   "period": "2024-10-02",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F9",
+   "value": -231.2,
+   "unit": "won per dollar",
+   "period": "2026-07-02/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F10",
+   "value": -14.860522,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F11",
+   "value": 17.454326,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F12",
+   "value": 97.058824,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F13",
+   "value": 1331.4,
+   "unit": "won per dollar",
+   "period": "2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F14",
+   "value": -7.2,
+   "unit": "won per dollar",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F15",
+   "value": -6.8,
+   "unit": "won per dollar",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F16",
+   "value": -0.510741,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F17",
+   "value": -1.8,
+   "unit": "won per dollar",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F18",
+   "value": 22,
+   "unit": "days",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F19",
+   "value": -37.2,
+   "unit": "won per dollar",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F20",
+   "value": -2.718106,
+   "unit": "%",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F21",
+   "value": -1.690909,
+   "unit": "won per dollar",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F22",
+   "value": 0.501721,
+   "unit": "%",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F23",
+   "value": -13.2,
+   "unit": "won per dollar",
+   "period": "2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F24",
+   "value": -1.1,
+   "unit": "won per dollar",
+   "period": "2026-10-19",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F25",
+   "value": -2.2,
+   "unit": "won per dollar",
+   "period": "2026-10-20",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F26",
+   "value": -2.9,
+   "unit": "won per dollar",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F27",
+   "value": -1.0,
+   "unit": "won per dollar",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F28",
+   "value": 0.4,
+   "unit": "won per dollar",
+   "period": "2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F29",
+   "value": -0.07546,
+   "unit": "%",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F30",
+   "value": 20,
+   "unit": "count",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F31",
+   "value": 17,
+   "unit": "count",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F32",
+   "value": -22.8,
+   "unit": "won per dollar",
+   "period": "2026-09-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F33",
+   "value": "2026-09-22",
+   "unit": "date",
+   "period": "2026-09-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F34",
+   "value": "2026-07-16",
+   "unit": "date",
+   "period": "2026-07-16",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F35",
+   "value": -4.3,
+   "unit": "won per dollar",
+   "period": "2026-07-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F36",
+   "value": -0.289621,
+   "unit": "%",
+   "period": "2026-07-16",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F37",
+   "value": "2026-08-27",
+   "unit": "date",
+   "period": "2026-08-27",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F38",
+   "value": -3.9,
+   "unit": "won per dollar",
+   "period": "2026-08-27",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F39",
+   "value": -0.281629,
+   "unit": "%",
+   "period": "2026-08-27",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F40",
+   "value": 1326.5,
+   "unit": "won per dollar",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S15"
+   ]
+  },
+  {
+   "id": "F41",
+   "value": 0.3,
+   "unit": "won per dollar",
+   "period": "2026-10-21/2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S15"
+   ]
+  },
+  {
+   "id": "F42",
+   "value": 2.3,
+   "unit": "won per dollar",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S15",
+    "S1"
+   ]
+  },
+  {
+   "id": "F43",
+   "value": 2.088957,
+   "unit": "%",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F44",
+   "value": -2.458231,
+   "unit": "%",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F45",
+   "value": 1.882899,
+   "unit": "%",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F46",
+   "value": 1.886792,
+   "unit": "%",
+   "period": "2026-09-16/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F47",
+   "value": 0.592094,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F48",
+   "value": -13.264848,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F49",
+   "value": -1.802362,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S19"
+   ]
+  },
+  {
+   "id": "F50",
+   "value": 1.694915,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F51",
+   "value": -0.109397,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S20"
+   ]
+  },
+  {
+   "id": "F52",
+   "value": -0.431857,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F53",
+   "value": -0.540784,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F54",
+   "value": 0.025303,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "731Y002/D/0000002"
+    }
+   ]
+  },
+  {
+   "id": "F55",
+   "value": 0.123579,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "731Y002/D/0000031"
+    }
+   ]
+  },
+  {
+   "id": "F56",
+   "value": 0.151603,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "731Y002/D/0000003"
+    }
+   ]
+  },
+  {
+   "id": "F57",
+   "value": -0.230176,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S20"
+   ]
+  },
+  {
+   "id": "F58",
+   "value": -0.281209,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S20"
+   ]
+  },
+  {
+   "id": "F59",
+   "value": -0.510741,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F60",
+   "value": -0.970997,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "731Y002/D/0000002"
+    }
+   ]
+  },
+  {
+   "id": "F61",
+   "value": 0.75692,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "731Y002/D/0000031"
+    }
+   ]
+  },
+  {
+   "id": "F62",
+   "value": 0.071343,
+   "unit": "%",
+   "period": "2026-10-16/2026-10-23",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "731Y002/D/0000003"
+    }
+   ]
+  },
+  {
+   "id": "F63",
+   "value": 14.84,
+   "unit": "index",
+   "period": "2026-10-09",
+   "publishable": true,
+   "sources": [
+    "S21"
+   ]
+  },
+  {
+   "id": "F64",
+   "value": 19.99,
+   "unit": "index",
+   "period": "2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S21"
+   ]
+  },
+  {
+   "id": "F65",
+   "value": 16.68,
+   "unit": "index",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S21"
+   ]
+  },
+  {
+   "id": "F66",
+   "value": 19.03,
+   "unit": "index",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S21"
+   ]
+  },
+  {
+   "id": "F67",
+   "value": 3.0,
+   "unit": "%",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F68",
+   "value": 2.5,
+   "unit": "%",
+   "period": "2026-07-15",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F69",
+   "value": "2026-09-17",
+   "unit": "date",
+   "period": "2026-09-17",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F70",
+   "value": 4.0,
+   "unit": "%",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F71",
+   "value": -125.0,
+   "unit": "bp",
+   "period": "2026-07-02",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F72",
+   "value": -125.0,
+   "unit": "bp",
+   "period": "2026-07-15",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F73",
+   "value": -75.0,
+   "unit": "bp",
+   "period": "2026-08-27",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F74",
+   "value": -100.0,
+   "unit": "bp",
+   "period": "2026-09-17",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F75",
+   "value": -100.0,
+   "unit": "bp",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5"
+   ]
+  },
+  {
+   "id": "F76",
+   "value": -39.3,
+   "unit": "bp",
+   "period": "2026-07-02",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F77",
+   "value": -98.8,
+   "unit": "bp",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F78",
+   "value": -59.5,
+   "unit": "bp",
+   "period": "2026-07-02/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F79",
+   "value": -98.8,
+   "unit": "bp",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F80",
+   "value": "2026-10-21",
+   "unit": "date",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F81",
+   "value": "2025-09-30",
+   "unit": "date",
+   "period": "2025-09-30",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F82",
+   "value": 67.0,
+   "unit": "bp",
+   "period": "2026-07-02/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F83",
+   "value": 7.5,
+   "unit": "bp",
+   "period": "2026-07-02/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F84",
+   "value": 4.81,
+   "unit": "%",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F85",
+   "value": 4.119,
+   "unit": "%",
+   "period": "2026-09-28",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F86",
+   "value": "2026-09-28",
+   "unit": "date",
+   "period": "2026-09-28",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F87",
+   "value": "2024-01",
+   "unit": "month",
+   "period": "2024-01",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F88",
+   "value": 3.822,
+   "unit": "%",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F89",
+   "value": -29.7,
+   "unit": "bp",
+   "period": "2026-09-28/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F90",
+   "value": 1.8,
+   "unit": "bp",
+   "period": "2026-10-22",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F91",
+   "value": -3.7,
+   "unit": "bp",
+   "period": "2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F92",
+   "value": 3.803,
+   "unit": "%",
+   "period": "2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F93",
+   "value": 111.9,
+   "unit": "bp",
+   "period": "2026-09-28",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S4"
+   ]
+  },
+  {
+   "id": "F94",
+   "value": 80.3,
+   "unit": "bp",
+   "period": "2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S4"
+   ]
+  },
+  {
+   "id": "F95",
+   "value": -30.7,
+   "unit": "bp",
+   "period": "2026-07-02",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "817Y002/D/010210000"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "DGS10"
+    }
+   ]
+  },
+  {
+   "id": "F96",
+   "value": -97.0,
+   "unit": "bp",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "817Y002/D/010210000"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "DGS10"
+    }
+   ]
+  },
+  {
+   "id": "F97",
+   "value": 70,
+   "unit": "count",
+   "period": "2026-07-02/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F98",
+   "value": 0.049956,
+   "unit": "index",
+   "period": "2026-07-02/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F99",
+   "value": 47.142857,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F100",
+   "value": 279.2013,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F101",
+   "value": -100.7665,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F102",
+   "value": 15.3371,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S24"
+   ]
+  },
+  {
+   "id": "F103",
+   "value": 74.293,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F104",
+   "value": 2.770775,
+   "unit": "times",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13"
+   ]
+  },
+  {
+   "id": "F105",
+   "value": 119.4789,
+   "unit": "USD bn",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13",
+    "S24",
+    "S25"
+   ]
+  },
+  {
+   "id": "F106",
+   "value": -31.6123,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F107",
+   "value": 3,
+   "unit": "months",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F108",
+   "value": -93.2323,
+   "unit": "USD bn",
+   "period": "2026-03/2026-06",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F109",
+   "value": 5.5136,
+   "unit": "USD bn",
+   "period": "2026-07/2026-08",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F110",
+   "value": 5.982,
+   "unit": "USD bn",
+   "period": "2026-07",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F111",
+   "value": -0.4684,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S13"
+   ]
+  },
+  {
+   "id": "F112",
+   "value": 49.7304,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F113",
+   "value": 28.2923,
+   "unit": "USD bn",
+   "period": "2026-04",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F114",
+   "value": 49.7304,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F115",
+   "value": 3.945421,
+   "unit": "times",
+   "period": "2026-03/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F116",
+   "value": 88.191,
+   "unit": "USD bn",
+   "period": "2026-07/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12"
+   ]
+  },
+  {
+   "id": "F117",
+   "value": 12.2477,
+   "unit": "USD bn",
+   "period": "2025-11",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F118",
+   "value": 17.2921,
+   "unit": "USD bn",
+   "period": "2025-10",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F119",
+   "value": 3.5569,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F120",
+   "value": 8.2192,
+   "unit": "USD bn",
+   "period": "2026-04",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F121",
+   "value": 13.5703,
+   "unit": "USD bn",
+   "period": "2026-07",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F122",
+   "value": 16.595,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F123",
+   "value": 14.133067,
+   "unit": "USD bn",
+   "period": "2025-10/2025-12",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "301Y013/M/BOPF21100000"
+    }
+   ]
+  },
+  {
+   "id": "F124",
+   "value": 6.2423,
+   "unit": "USD bn",
+   "period": "2026-03/2026-06",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "301Y013/M/BOPF21100000"
+    }
+   ]
+  },
+  {
+   "id": "F125",
+   "value": -0.736875,
+   "unit": "USD bn",
+   "period": "2026-03/2026-06",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "301Y013/M/BOPF21200000"
+    }
+   ]
+  },
+  {
+   "id": "F126",
+   "value": 61.3514,
+   "unit": "USD bn",
+   "period": "2026-07/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13",
+    "S24",
+    "S25"
+   ]
+  },
+  {
+   "id": "F127",
+   "value": 6,
+   "unit": "months",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S24"
+   ]
+  },
+  {
+   "id": "F128",
+   "value": -48.6249,
+   "unit": "KRW tn",
+   "period": "2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F129",
+   "value": 7,
+   "unit": "count",
+   "period": "2003-01/2026-10",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F130",
+   "value": -208.0447,
+   "unit": "KRW tn",
+   "period": "2026-01-01/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F131",
+   "value": -18.03,
+   "unit": "KRW tn",
+   "period": "2026-10-06/2026-10-15",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F132",
+   "value": 0.6029,
+   "unit": "KRW tn",
+   "period": "2026-10-16/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F133",
+   "value": 5.98201,
+   "unit": "%",
+   "period": "2026-01-01/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    },
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0183000"
+    }
+   ]
+  },
+  {
+   "id": "F134",
+   "value": 13.197394,
+   "unit": "USD bn",
+   "period": "2026-06/2026-09",
+   "publishable": true,
+   "sources": [
+    "S35"
+   ]
+  },
+  {
+   "id": "F135",
+   "value": 14.332953,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S35"
+   ]
+  },
+  {
+   "id": "F136",
+   "value": 440.556657,
+   "unit": "USD bn",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S35"
+   ]
+  },
+  {
+   "id": "F137",
+   "value": 109.646143,
+   "unit": "USD bn",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S33",
+    "S1"
+   ]
+  },
+  {
+   "id": "F138",
+   "value": 98.953272,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S33",
+    "S1"
+   ]
+  },
+  {
+   "id": "F139",
+   "value": 128.390034,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S33",
+    "S1"
+   ]
+  },
+  {
+   "id": "F140",
+   "value": 29.436762,
+   "unit": "USD bn",
+   "period": "2026-06/2026-08",
+   "publishable": true,
+   "sources": [
+    "S33",
+    "S1"
+   ]
+  },
+  {
+   "id": "F141",
+   "value": 29.748144,
+   "unit": "%",
+   "period": "2026-06/2026-08",
+   "publishable": true,
+   "sources": [
+    "S33",
+    "S1"
+   ]
+  },
+  {
+   "id": "F142",
+   "value": 14.72753,
+   "unit": "%",
+   "period": "2025-12",
+   "publishable": true,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F143",
+   "value": 37.072479,
+   "unit": "%",
+   "period": "2026-01",
+   "publishable": true,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F144",
+   "value": 89.222464,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F145",
+   "value": 1.859251,
+   "unit": "%",
+   "period": "2025-01/2025-11",
+   "publishable": true,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F146",
+   "value": 11.963733,
+   "unit": "%",
+   "period": "2025-09",
+   "publishable": true,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F147",
+   "value": 287.41,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S27"
+   ]
+  },
+  {
+   "id": "F148",
+   "value": 44.315693,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F149",
+   "value": 32.140515,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S29"
+   ]
+  },
+  {
+   "id": "F150",
+   "value": 57.519591,
+   "unit": "%",
+   "period": "2025-09/2026-09",
+   "publishable": true,
+   "sources": [
+    "S28",
+    "S27"
+   ]
+  },
+  {
+   "id": "F151",
+   "value": 268.079337,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "403Y001/M/3091AA"
+    }
+   ]
+  },
+  {
+   "id": "F152",
+   "value": 5.191094,
+   "unit": "times",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "403Y001/M/3091AA"
+    }
+   ]
+  },
+  {
+   "id": "F153",
+   "value": 3.184713,
+   "unit": "%",
+   "period": "2026-01-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F154",
+   "value": -7.644432,
+   "unit": "%",
+   "period": "2026-01-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F155",
+   "value": -6.109449,
+   "unit": "%",
+   "period": "2025-04-01/2025-05-30",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F156",
+   "value": -10.057212,
+   "unit": "%",
+   "period": "2025-04-01/2025-05-30",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F157",
+   "value": -14.710435,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-16",
+   "publishable": true,
+   "sources": [
+    "S9",
+    "S11"
+   ]
+  },
+  {
+   "id": "F158",
+   "value": -37.4,
+   "unit": "bp",
+   "period": "2026-08-26",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F159",
+   "value": 73.961938,
+   "unit": "%",
+   "period": "2026-07-02/2026-10-23",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F160",
+   "value": 0.993716,
+   "unit": "%",
+   "period": "2026-09-17",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F161",
+   "value": 13.6,
+   "unit": "won per dollar",
+   "period": "2026-09-17",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F162",
+   "value": 1336.1,
+   "unit": "won per dollar",
+   "period": "2026-09-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F163",
+   "value": "2026-09-09",
+   "unit": "date",
+   "period": "2026-09-09",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F164",
+   "value": 1383.3,
+   "unit": "won per dollar",
+   "period": "2026-09-18",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F165",
+   "value": "2026-09-18",
+   "unit": "date",
+   "period": "2026-09-18",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F166",
+   "value": 3.53267,
+   "unit": "%",
+   "period": "2026-09-09/2026-09-18",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F167",
+   "value": 47.2,
+   "unit": "won per dollar",
+   "period": "2026-09-09/2026-09-18",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F168",
+   "value": -9.8937,
+   "unit": "KRW tn",
+   "period": "2026-07-01/2026-07-31",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F169",
+   "value": -10.1757,
+   "unit": "KRW tn",
+   "period": "2026-08-01/2026-08-31",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F170",
+   "value": -21.5249,
+   "unit": "KRW tn",
+   "period": "2026-09-01/2026-09-30",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F171",
+   "value": -17.4039,
+   "unit": "KRW tn",
+   "period": "2026-10-01/2026-10-22",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F172",
+   "value": 16.46,
+   "unit": "index",
+   "period": "2026-10-15",
+   "publishable": true,
+   "sources": [
+    "S21"
+   ]
+  },
+  {
+   "id": "F173",
+   "value": 82.2,
+   "unit": "bp",
+   "period": "2026-10-21",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S4"
+   ]
+  },
+  {
+   "id": "F174",
+   "value": 51.0307,
+   "unit": "USD bn",
+   "period": "2026-03/2026-06",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13",
+    "S24",
+    "S25"
+   ]
+  },
+  {
+   "id": "F175",
+   "value": 12.757675,
+   "unit": "USD bn",
+   "period": "2026-03/2026-06",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13",
+    "S24",
+    "S25"
+   ]
+  },
+  {
+   "id": "F176",
+   "value": 30.6757,
+   "unit": "USD bn",
+   "period": "2026-07/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13",
+    "S24",
+    "S25"
+   ]
+  },
+  {
+   "id": "F177",
+   "value": -26.4,
+   "unit": "bp",
+   "period": "2026-07-15",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F178",
+   "value": "2026-07-15",
+   "unit": "date",
+   "period": "2026-07-15",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F179",
+   "value": -52.2,
+   "unit": "bp",
+   "period": "2026-07-31",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F180",
+   "value": "2026-07-31",
+   "unit": "date",
+   "period": "2026-07-31",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F181",
+   "value": -44.5,
+   "unit": "bp",
+   "period": "2026-08-27",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F182",
+   "value": 3.2863,
+   "unit": "KRW tn",
+   "period": "2026-07-14/2026-07-15",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F183",
+   "value": 5.6145,
+   "unit": "KRW tn",
+   "period": "2026-07-20/2026-07-23",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F184",
+   "value": 8.6083,
+   "unit": "KRW tn",
+   "period": "2026-07-30/2026-07-31",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F185",
+   "value": 8.1561,
+   "unit": "KRW tn",
+   "period": "2026-08-11/2026-08-18",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F186",
+   "value": 3.7839,
+   "unit": "KRW tn",
+   "period": "2026-09-03/2026-09-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F187",
+   "value": 5,
+   "unit": "count",
+   "period": "2026-07-01/2026-10-15",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F188",
+   "value": 7.2773,
+   "unit": "KRW tn",
+   "period": "2026-07-31",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F189",
+   "value": 2.770775,
+   "unit": "times",
+   "period": "2026-01/2026-08",
+   "publishable": true,
+   "sources": [
+    "S12",
+    "S13"
+   ]
+  }
+ ],
+ "run": {
+  "id": "20261023-krw-after-rate-hold",
+  "skills": {
+   "frame-question": "0.1.0",
+   "scout:fetch-ecos": "0.1.0",
+   "scout:search-jejualps": "0.1.0",
+   "scout:fetch-fred": "0.1.0",
+   "refine-question": "0.1.0",
+   "search-jejualps": "0.1.0",
+   "map-literature": "0.1.0",
+   "fetch-ecos": "0.1.0",
+   "fetch-fred": "0.1.0",
+   "analyze-data": "0.1.0",
+   "plan-article": "0.1.0",
+   "draft-article": "0.1.0",
+   "make-charts": "0.1.0",
+   "review-article": "0.1.0",
+   "make-cover": "1.2.0",
+   "make-pdf": "1.0.0"
+  },
+  "models": [
+   "claude-opus-5-5",
+   "claude-sonnet-5-5"
+  ],
+  "runtime": {
+   "model": "claude-opus-5-5",
+   "effort": "high"
+  },
+  "steps": {
+   "scout": {
+    "docs": 35,
+    "series": 17
+   },
+   "refine": {
+    "premises": 15
+   },
+   "search": {
+    "docs": 17,
+    "quotes": 96
+   },
+   "map": {
+    "mechanisms": 8
+   },
+   "fetch": {
+    "series": 32,
+    "providers": [
+     "Bank of Korea",
+     "FRED"
+    ]
+   },
+   "analyze": {
+    "facts": 189
+   },
+   "plan": {
+    "sections": 11,
+    "figures": 6
+   },
+   "draft": {
+    "words": 2343
+   },
+   "charts": {
+    "charts": 6
+   },
+   "review": {
+    "rounds": 8
+   },
+   "cover": {
+    "ideas": 3
+   },
+   "pdf": {
+    "pages": {
+     "en": 12,
+     "ko": 11
+    }
+   }
+  },
+  "gates": {
+   "question": {
+    "at": "2026-10-23",
+    "by": "datasteg desk (agent, decision day confirmed by the editor)"
+   },
+   "plan": {
+    "at": "2026-10-23",
+    "by": "datasteg desk (agent)"
+   },
+   "publish": {
+    "at": "2026-10-24",
+    "by": "datasteg desk"
+   }
+  }
+ },
+ "terms": [
+  {
+   "id": "base-rate",
+   "context": {
+    "en": "Here: the Bank of Korea's base rate, raised twice in 2026 and then held in October.",
+    "ko": "이 글에서는 2026년 두 차례 인상된 뒤 10월에 동결된 한국은행 기준금리."
+   }
+  },
+  {
+   "id": "broad-dollar-index",
+   "context": {
+    "en": "Here: the Federal Reserve's nominal broad index, used to test whether the won's rise was just dollar weakness.",
+    "ko": "이 글에서는 원화 강세가 단순한 달러 약세였는지 점검하는 데 쓴 연준의 명목 광의 달러지수."
+   }
+  },
+  {
+   "id": "current-account",
+   "context": null
+  },
+  {
+   "id": "basis-point",
+   "context": null
+  },
+  {
+   "id": "bond-yield",
+   "context": {
+    "en": "Here: the yields on Korea's 3-year government bonds and US 2-year Treasuries, compared day by day.",
+    "ko": "이 글에서는 날마다 견준 한국 국고채 3년물과 미국 국채 2년물 금리."
+   }
+  },
+  {
+   "id": "policy-rate-gap",
+   "context": {
+    "en": "Here: the Bank of Korea's base rate minus the top of the US Federal Reserve's target range.",
+    "ko": "이 글에서는 한국은행 기준금리에서 미국 연준 목표 범위 상단을 뺀 값(한미 정책금리차)."
+   }
+  },
+  {
+   "id": "uncovered-interest-parity",
+   "context": null
+  },
+  {
+   "id": "expected-policy-path",
+   "context": null
+  },
+  {
+   "id": "order-flow",
+   "context": null
+  },
+  {
+   "id": "balance-of-payments",
+   "context": {
+    "en": "Here: the Bank of Korea's monthly figures in dollars, to August 2026.",
+    "ko": "이 글에서는 2026년 8월까지의 한국은행 월별 달러 기준 국제수지."
+   }
+  },
+  {
+   "id": "currency-hedging",
+   "context": {
+    "en": "Here: how much of their foreign bonds Korean and Taiwanese life insurers protect against currency moves.",
+    "ko": "이 글에서는 한국과 대만 생명보험사가 해외 채권의 환위험을 얼마나 덜어 두는지."
+   }
+  }
+ ],
+ "review": {
+  "editor": "datasteg desk",
+  "approved": "2026-10-24"
+ },
+ "citation": {
+  "author": {
+   "en": "datasteg",
+   "ko": "datasteg"
+  },
+  "publisher": {
+   "en": "datasteg articles",
+   "ko": "datasteg articles"
+  },
+  "date": "2026-10-23",
+  "title": {
+   "en": "The won's rise came before the rate hold, not after it",
+   "ko": "원화 강세는 동결 뒤가 아니라 그 전에 왔다"
+  },
+  "url": {
+   "en": "https://articles.datasteg.com/en/a/won-after-rate-hold",
+   "ko": "https://articles.datasteg.com/ko/a/won-after-rate-hold"
+  }
+ },
+ "pdf": {
+  "en": {
+   "file": "pdf/en.pdf",
+   "pages": 11,
+   "bytes": 371358,
+   "made": "2026-10-25",
+   "source": "884cffd76fc46f73"
+  },
+  "ko": {
+   "file": "pdf/ko.pdf",
+   "pages": 10,
+   "bytes": 736622,
+   "made": "2026-10-25",
+   "source": "8f5e15ca648cb5e0"
+  }
+ },
+ "corrections": [],
+ "draws_on": [
+  "open-research"
+ ],
+ "draws_on_evidence": {
+  "open-research": 14
+ },
+ "fetch": {
+  "ecos": {
+   "series": 24,
+   "rows": 18499,
+   "bytes": 346908
+  },
+  "fred": {
+   "series": 8,
+   "rows": 50956,
+   "bytes": 863391
+  }
+ }
+}

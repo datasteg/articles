@@ -1,0 +1,197 @@
+{
+ "id": "amplifier-table",
+ "form": "table",
+ "headline": {
+  "en": "Three of the five usual suspects must trade with the price of the same two chip stocks; margin loans mainly deepen falls, and foreign investors tracked the market about as closely as in recent years",
+  "ko": "다섯 용의자 가운데 셋은 같은 두 반도체 종목의 가격을 따라 사고팔아야 한다. 신용융자는 주로 하락을 키우고, 외국인이 시장을 따라간 정도는 최근 몇 해와 비슷했다"
+ },
+ "title": {
+  "en": "Five suspects behind Korea's 2026 stock swings",
+  "ko": "2026년 한국 주가 급등락의 다섯 용의자"
+ },
+ "subtitle": {
+  "en": "How each trades, which moves it adds to, and how large it was in 2026",
+  "ko": "어떻게 매매하는지, 어느 쪽 등락을 키우는지, 2026년 규모는 어땠는지"
+ },
+ "howToRead": {
+  "en": "One row per suspect. The first three rows are products on Samsung Electronics and SK hynix that must buy as prices rise and sell as they fall; the last two are the usual explanations. 'Adds to' says whether it pushes rises, falls or both.",
+  "ko": "행마다 용의자 하나다. 위의 세 행은 삼성전자와 SK하이닉스에 걸린 상품으로, 오르면 사고 내리면 팔아야 한다. 아래 두 행은 흔히 거론되는 설명이다. '키우는 쪽'은 상승과 하락 가운데 어느 쪽을 미는지를 뜻한다."
+ },
+ "notes": [
+  {
+   "en": "Sizes for the first three rows are from the BIS Quarterly Review, September 2026 (Box B). Leveraged products on the memory stocks grew from under $100 million in mid-2025 to above $38 billion in June 2026; they are listed in Korea, Hong Kong and the US and include products on Micron. SK hynix's call-to-put open interest rose about thirtyfold from March to June 2026, to near 100. Autocallable issuance on the two stocks rose sharply in the first half of 2026; no size is published. For SK hynix, the trade leveraged funds needed after a 10% move reached almost $5 billion at the June peak, against daily turnover under $10 billion; the BIS estimates such flows could add roughly 2 to 4 percentage points to a 10% move, a model estimate for one stock, not a measured share of the KOSPI's swings.",
+   "ko": "위 세 행의 규모는 BIS 분기 보고서 2026년 9월호(Box B)에서 가져왔다. 메모리 종목 레버리지 상품은 2025년 중반 1억 달러 미만에서 2026년 6월 380억 달러 이상으로 불었다. 한국·홍콩·미국에 상장된 상품이며 마이크론 상품도 들어 있다. SK하이닉스의 콜/풋 미결제약정 비율은 2026년 3월부터 6월까지 서른 배가량 뛰어 백 가까이 됐다. 두 종목을 기초로 한 자동조기상환형 구조화상품 발행은 2026년 상반기에 크게 늘었지만 규모는 공개되지 않았다. SK하이닉스의 경우 주가가 10% 움직인 뒤 레버리지 펀드가 사고팔아야 하는 물량이 6월 고점에 50억 달러 가까이 됐고, 하루 거래대금은 100억 달러에 못 미쳤다. BIS는 이 매매가 10% 등락에 2~4%포인트가량을 더할 수 있다고 추정했다. 한 종목에 대한 모형 추정치이며, 코스피 등락에서 차지하는 몫을 잰 것은 아니다."
+  },
+  {
+   "en": "The margin-loan and foreign-investor rows describe Korea Exchange and KOFIA data in words; their producers' terms for republishing figures are not cleared. Margin loans cover the KOSPI and KOSDAQ together. They set a record in won in May 2026; relative to both markets' value they were above their 2015–25 average only in March and stayed well below their 2021 high, and their July drop was the sharpest since March 2020. Foreign investors' 2026 selling is the largest in won in data back to 2003, yet relative to the market's size it is a little below 2008's. Research behind the last two rows: a study of China's 2015 crash (margin loans), and a 1997 trade-level study of Korea and a 1999–2006 study of six Asian markets, which found foreign flows move with same-day returns; in that study's VAR, Korea's foreign buying also went with the next day's moves, though the same study finds the flows have limited power to predict later returns. Households' credit and other non-mortgage loans at banks and other deposit-takers rose 4.1 trillion won in May 2026 (Bank of Korea); the data do not show what the loans paid for.",
+   "ko": "신용융자와 외국인 행은 한국거래소와 금융투자협회 자료를 말로만 옮겼다. 작성 기관의 수치 재게시 조건이 확인되지 않았기 때문이다. 신용융자는 코스피와 코스닥을 합친 잔고다. 2026년 5월 원화 기준 최대였고, 두 시장 시가총액 대비로는 3월에만 2015~2025년 평균을 넘었으며 2021년 고점에는 한참 못 미쳤다. 7월 감소 폭은 2020년 3월 이후 가장 컸다. 외국인의 2026년 매도는 원화 기준으로 2003년 자료 시작 이후 가장 컸지만, 시장 규모에 견주면 2008년보다 조금 작다. 아래 두 행의 근거는 2015년 중국 폭락 연구(신용융자), 그리고 1997년 한국 거래 자료 연구와 1999~2006년 아시아 여섯 시장 연구다. 아시아 연구에서 외국인 자금은 같은 날 수익률과 함께 움직였고, 연구진의 모형에서 한국 외국인 매수는 다음 날 등락과도 함께 움직였다. 다만 같은 연구는 외국인 매매가 이후 수익률을 예측하는 힘은 크지 않다고 봤다. 예금취급기관의 가계 기타대출(신용대출 포함)은 2026년 5월 4.1조 원 늘었다(한국은행). 대출이 어디에 쓰였는지는 자료로 알 수 없다."
+  },
+  {
+   "en": "None of the sources we used splits the volatility between these suspects. In US data for 2006–14 on index-tracking leveraged ETFs, investors' own trading cut rebalancing by up to 74%, the top estimate being for triple-leveraged funds; none we found tests this for Korea in 2026.",
+   "ko": "인용한 자료 가운데 변동성을 용의자별로 나눈 것은 없다. 2006~2014년 미국 지수형 레버리지 ETF 자료에서 투자자 매매는 리밸런싱을 최대 74% 상쇄했다. 이 상한은 세 배 레버리지 펀드의 수치이며, 2026년 한국을 검증한 연구는 찾지 못했다."
+  }
+ ],
+ "alt": {
+  "en": "Table of five suspects behind Korea's 2026 stock swings. Leveraged single-stock ETFs buy after rises and sell after falls by rule and add to both; products on the memory stocks grew from under $100 million in mid-2025 to above $38 billion in June 2026. Dealers who sold call options hedge by buying high and selling low and add to both; SK hynix's call-to-put open interest rose about thirtyfold from March to June, to near 100. Autocallable structured products are hedged near their barriers and add to moves there; issuance on the two stocks rose sharply in the first half, size not published. Margin loans force sales in falls and mainly add to falls; they set a record in won in May, and their July drop was the sharpest since March 2020. Foreign investors trade by choice and move with the day's returns; in a 1999–2006 study, Korea's foreign buying also went with the next day's moves, which the authors read as positive feedback trading, though they found the flows have limited power to predict later returns; a 1997 study of Korea found no evidence singling foreigners out as destabilising. In 2026 they tracked the market about as closely as in recent years, and their selling was the largest in won in data back to 2003, yet a little below 2008's relative to market size.",
+  "ko": "2026년 한국 주가 급등락의 다섯 용의자를 정리한 표. 레버리지 단일종목 ETF는 규칙에 따라 오르면 사고 내리면 팔아 상승과 하락을 모두 키우며, 메모리 종목 상품은 2025년 중반 1억 달러 미만에서 2026년 6월 380억 달러 이상으로 불었다. 콜옵션을 판 딜러는 비쌀 때 사고 쌀 때 팔며 헤지해 양쪽을 모두 키우며, SK하이닉스의 콜/풋 미결제약정 비율은 3월부터 6월까지 서른 배가량 뛰어 백 가까이 됐다. 자동조기상환형 구조화상품은 배리어 근처에서 헤지하며 그 부근 등락을 키우고, 두 종목 기초 발행은 상반기에 크게 늘었다(규모 미공개). 신용융자는 하락 때 반대매매로 주로 하락을 키우며, 5월 원화 기준 최대였고 7월 감소 폭은 2020년 3월 이후 가장 컸다. 외국인은 스스로 판단해 매매하며 그날 등락과 함께 움직인다. 1999~2006년 연구의 모형에서 한국 외국인 매수는 다음 날 등락과도 함께 움직였다. 연구진은 이를 추세 추종 매매로 읽었지만, 이후 수익률을 예측하는 힘은 크지 않다고 봤다. 1997년 한국 연구는 외국인을 시장 불안 요인으로 따로 지목할 증거를 찾지 못했다. 2026년에 시장을 따라간 정도는 최근 몇 해와 비슷했고, 매도는 원화 기준으로 2003년 자료 시작 이후 가장 컸지만 시장 규모에 견주면 2008년보다 조금 작았다."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S12",
+   "S26",
+   "S24",
+   "S25",
+   "S20",
+   "S11"
+  ],
+  "provider": "BIS Quarterly Review, September 2026; research cited in the text; Bank of Korea, ECOS",
+  "keys": [
+   "151Y005/M/11100B0"
+  ],
+  "definition": {
+   "en": "Qualitative comparison of five channels, with sizes as reported by the BIS (first three rows) and described in words from Korea Exchange and KOFIA data (last two rows).",
+   "ko": "다섯 경로를 질적으로 비교했다. 위 세 행의 규모는 BIS가 보고한 값이고, 아래 두 행은 한국거래소와 금융투자협회 자료를 말로 옮겼다."
+  },
+  "calculation": {
+   "en": "No calculation; household other loans: change in the end-of-month balance, May 2026 (trillion won).",
+   "ko": "계산 없음. 가계 기타대출: 2026년 5월 월말 잔액 증감(조 원)."
+  },
+  "span": [
+   "2025-06",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-30",
+  "licence": "Evidence quoted from the cited documents; ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: BIS Quarterly Review, September 2026; Bank of Korea; studies cited in the text; datasteg summary",
+   "ko": "출처: BIS 분기 보고서 2026년 9월호; 한국은행; 본문에 인용한 연구; datasteg 정리"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "who",
+    "label": {
+     "en": "Suspect",
+     "ko": "용의자"
+    }
+   },
+   {
+    "key": "adds",
+    "label": {
+     "en": "Adds to",
+     "ko": "키우는 쪽"
+    }
+   },
+   {
+    "key": "how",
+    "label": {
+     "en": "How it trades",
+     "ko": "매매 방식"
+    }
+   },
+   {
+    "key": "size",
+    "label": {
+     "en": "Size in 2026",
+     "ko": "2026년 규모"
+    }
+   }
+  ],
+  "rows": [
+   {
+    "who": {
+     "en": "Leveraged ETFs",
+     "ko": "레버리지 ETF"
+    },
+    "adds": {
+     "en": "Rises and falls",
+     "ko": "상승과 하락"
+    },
+    "how": {
+     "en": "By rule: buy rises, sell falls",
+     "ko": "규칙대로 추종 매매"
+    },
+    "size": {
+     "en": "Under $100m to above $38bn",
+     "ko": "1억 달러 미만→380억 달러 이상"
+    }
+   },
+   {
+    "who": {
+     "en": "Dealers who sold calls",
+     "ko": "콜옵션을 판 딜러"
+    },
+    "adds": {
+     "en": "Rises and falls",
+     "ko": "상승과 하락"
+    },
+    "how": {
+     "en": "Hedging: buy high, sell low",
+     "ko": "헤지: 고가 매수·저가 매도"
+    },
+    "size": {
+     "en": "Calls per put up about thirtyfold",
+     "ko": "콜/풋 비율 약 서른 배로"
+    }
+   },
+   {
+    "who": {
+     "en": "Autocallables",
+     "ko": "자동조기상환형 상품"
+    },
+    "adds": {
+     "en": "Moves near barriers",
+     "ko": "배리어 근처 등락"
+    },
+    "how": {
+     "en": "Hedging near barriers",
+     "ko": "배리어 근처 헤지"
+    },
+    "size": {
+     "en": "Issuance up sharply in H1",
+     "ko": "상반기 발행 급증"
+    }
+   },
+   {
+    "who": {
+     "en": "Margin loans",
+     "ko": "신용융자"
+    },
+    "adds": {
+     "en": "Mainly falls",
+     "ko": "주로 하락"
+    },
+    "how": {
+     "en": "Forced sales in falls",
+     "ko": "하락 때 반대매매"
+    },
+    "size": {
+     "en": "Record in won in May; sharpest drop since 2020 in July",
+     "ko": "5월 원화로 최대, 7월 2020년 이후 최대 감소"
+    }
+   },
+   {
+    "who": {
+     "en": "Foreign investors",
+     "ko": "외국인 투자자"
+    },
+    "adds": {
+     "en": "Moves with big days; studies differ on whether it adds to them",
+     "ko": "큰 등락과 함께 움직임, 키우는지는 연구마다 다름"
+    },
+    "how": {
+     "en": "By choice, with the day",
+     "ko": "자기 판단, 그날 등락 따라"
+    },
+    "size": {
+     "en": "Most selling in won in data back to 2003; a little below 2008 against market value",
+     "ko": "2003년 자료 시작 이후 최대 매도, 시총 대비 2008년보다 조금 작음"
+    }
+   }
+  ]
+ },
+ "csv": "data/amplifier-table.csv"
+}

@@ -1,0 +1,1116 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "Won per US dollar, 15:30 close",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "731Y003/D/0000003",
+   "unit": "원",
+   "frequency": "D",
+   "lastObservation": "2026-10-23",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “원화의 대미달러, 원화의 대위안/대엔 환율” or its code 731Y003 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율. In the table, select 계정항목: 원/달러(종가 15:30). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘원화의 대미달러, 원화의 대위안/대엔 환율’ 또는 코드 731Y003를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 원/달러(종가 15:30). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "won per dollar at the Bank of Korea's afternoon close, daily, and the size and timing of the won's rise",
+   "ko": "한국은행 오후 종가 기준 원/달러 환율(일별)과 원화 상승의 크기·시점"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Won per US dollar, 15:30 close. 731Y003/D/0000003. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Won per US dollar, 15:30 close. 731Y003/D/0000003. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "timing",
+   "decision-day",
+   "rates",
+   "exports"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "Korea 3-year government bond yield",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "817Y002/D/010200000",
+   "unit": "연%",
+   "frequency": "D",
+   "lastObservation": "2026-10-23",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “시장금리(일별)” or its code 817Y002 in the search box, or follow the statistics list 1. 통화/금융 > 1.3. 금리 > 1.3.2. 시장금리 > 1.3.2.1. 시장금리(일별). In the table, select 계정항목: 국고채(3년). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘시장금리(일별)’ 또는 코드 817Y002를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.3. 금리 > 1.3.2. 시장금리 > 1.3.2.1. 시장금리(일별) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 국고채(3년). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the market-rate gap: Korea's 3-year yield minus the US 2-year yield, our calculation",
+   "ko": "한미 시장금리차: 국고채 3년물에서 미국 국채 2년물을 뺀 값(자체 계산)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea 3-year government bond yield. 817Y002/D/010200000. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea 3-year government bond yield. 817Y002/D/010200000. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "rates"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "US 2-year Treasury yield",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/DGS2",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DGS2",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2026-10-21",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DGS2 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DGS2 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the market-rate gap: Korea's 3-year yield minus the US 2-year yield, our calculation",
+   "ko": "한미 시장금리차: 국고채 3년물에서 미국 국채 2년물을 뺀 값(자체 계산)"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 2-year Treasury yield. DGS2. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 2-year Treasury yield. DGS2. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "rates"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "Bank of Korea base rate",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "722Y001/D/0101000",
+   "unit": "연%",
+   "frequency": "D",
+   "lastObservation": "2026-10-22",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “한국은행 기준금리 및 여수신금리” or its code 722Y001 in the search box, or follow the statistics list 1. 통화/금융 > 1.3. 금리 > 1.3.1. 한국은행 기준금리 및 여수신금리. In the table, select 계정항목: 한국은행 기준금리. Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘한국은행 기준금리 및 여수신금리’ 또는 코드 722Y001를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.3. 금리 > 1.3.1. 한국은행 기준금리 및 여수신금리 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 한국은행 기준금리. 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "the policy-rate gap: Korea's base rate minus the top of the Fed's target range, our calculation",
+   "ko": "한미 정책금리차: 한국 기준금리에서 연준 목표 범위 상단을 뺀 값(자체 계산)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Bank of Korea base rate. 722Y001/D/0101000. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Bank of Korea base rate. 722Y001/D/0101000. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "timing",
+   "rates"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "US federal funds target range, upper limit",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/DFEDTARU",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DFEDTARU",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2026-10-23",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DFEDTARU directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DFEDTARU 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the policy-rate gap: Korea's base rate minus the top of the Fed's target range, our calculation",
+   "ko": "한미 정책금리차: 한국 기준금리에서 연준 목표 범위 상단을 뺀 값(자체 계산)"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US federal funds target range, upper limit. DFEDTARU. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US federal funds target range, upper limit. DFEDTARU. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "rates"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "paper",
+  "title": "Still Packing a Punch: Monetary Policy Transmission in a New Cross-Country High-Frequency Dataset",
+  "authors": "Emeksiz, E. O., Kamber, G., Otten, J., Pasricha, G. K.",
+  "institution": "International Monetary Fund",
+  "series": "IMF Working Papers",
+  "number": "2026/018",
+  "date": "2026-01-30",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2026/018/001.2026.issue-018-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2026/018/001.2026.issue-018-en.pdf",
+  "quote": {
+   "text": "A 100-basis-point target factor shock leads to a median equity price decline of 1.83 percent and a 2.45-percent appreciation of the exchange rate against the USD.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how far a surprise rise in the policy rate strengthens a currency",
+   "ko": "정책금리의 뜻밖의 인상이 통화를 얼마나 강하게 하는지"
+  },
+  "ref": "jejualps:66859",
+  "cite": {
+   "en": "Emeksiz, E. O., Kamber, G., Otten, J., Pasricha, G. K. (2026). Still Packing a Punch: Monetary Policy Transmission in a New Cross-Country High-Frequency Dataset. IMF Working Papers 2026/018. International Monetary Fund",
+   "ko": "Emeksiz, E. O., Kamber, G., Otten, J., Pasricha, G. K. (2026). Still Packing a Punch: Monetary Policy Transmission in a New Cross-Country High-Frequency Dataset. IMF Working Papers 2026/018. International Monetary Fund"
+  },
+  "citedIn": [
+   "rates"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "paper",
+  "title": "Monetary Policy Surprises and Exchange Rate Behavior",
+  "authors": "Gürkaynak, R. S., Kara, A. H., Kısacıkoğlu, B., Lee, S. S.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w27819",
+  "date": "2020-09-01",
+  "url": "https://www.nber.org/papers/w27819",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w27819/w27819.pdf",
+  "quote": {
+   "text": "Table 6 and Figures 12 and 13 show the result and make it clear that the path surprise is responsible for most of the policy-related signals in this sample, as well as driving the exchange rate responses.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "why currencies react to news about the future path of rates on decision days",
+   "ko": "결정일 환율이 앞으로의 금리 경로에 관한 소식에 반응하는 이유"
+  },
+  "ref": "jejualps:95174",
+  "cite": {
+   "en": "Gürkaynak, R. S., Kara, A. H., Kısacıkoğlu, B., Lee, S. S. (2020). Monetary Policy Surprises and Exchange Rate Behavior. NBER Working Papers w27819. National Bureau of Economic Research",
+   "ko": "Gürkaynak, R. S., Kara, A. H., Kısacıkoğlu, B., Lee, S. S. (2020). Monetary Policy Surprises and Exchange Rate Behavior. NBER Working Papers w27819. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "rates"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "paper",
+  "title": "Order Flow and Exchange Rate Dynamics",
+  "authors": "Evans, M. D. D., Lyons, R. K.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w7317",
+  "date": "1999-08-01",
+  "url": "https://www.nber.org/papers/w7317",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w7317/w7317.pdf",
+  "quote": {
+   "text": "It accounts for more than 50 percent of daily changes in the DM/$ rate, and more than 30 percent of daily changes in the Yen/$ rate.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how much of daily mark-dollar moves a model with order flow explained in 1996",
+   "ko": "1996년 주문 흐름을 넣은 모형이 마르크-달러 하루 변화를 얼마나 설명했는지"
+  },
+  "ref": "jejualps:113059",
+  "cite": {
+   "en": "Evans, M. D. D., Lyons, R. K. (1999). Order Flow and Exchange Rate Dynamics. NBER Working Papers w7317. National Bureau of Economic Research",
+   "ko": "Evans, M. D. D., Lyons, R. K. (1999). Order Flow and Exchange Rate Dynamics. NBER Working Papers w7317. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "flows"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "dataset",
+  "title": "Korean won per US dollar (New York noon rate)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/DEXKOUS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DEXKOUS",
+   "unit": "South Korean Won to One U.S. Dollar",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DEXKOUS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DEXKOUS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "won per dollar at New York noon, for comparison with other currencies",
+   "ko": "다른 통화와 견주기 위한 뉴욕 정오 원/달러 환율"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Korean won per US dollar (New York noon rate). DEXKOUS. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Korean won per US dollar (New York noon rate). DEXKOUS. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "won-alone",
+   "exports"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "dataset",
+  "title": "Broad US dollar index (Federal Reserve)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DTWEXBGS",
+   "unit": "Index Jan 2006=100",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DTWEXBGS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DTWEXBGS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the broad dollar index, the dollar against many currencies at once",
+   "ko": "여러 통화에 대한 달러 가치를 한꺼번에 보여 주는 광의 달러지수"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Broad US dollar index (Federal Reserve). DTWEXBGS. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Broad US dollar index (Federal Reserve). DTWEXBGS. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "won-alone"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "dataset",
+  "title": "Taiwan dollars per US dollar (New York noon rate)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/DEXTAUS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DEXTAUS",
+   "unit": "Taiwan Dollars to One U.S. Dollar",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DEXTAUS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DEXTAUS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Taiwan dollars per dollar at New York noon",
+   "ko": "뉴욕 정오 대만달러/달러 환율"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Taiwan dollars per US dollar (New York noon rate). DEXTAUS. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Taiwan dollars per US dollar (New York noon rate). DEXTAUS. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "won-alone",
+   "exports"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "dataset",
+  "title": "Korea current account balance",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/000000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 경상수지. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 경상수지. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's current account balance, monthly, in dollars",
+   "ko": "경상수지(월별, 달러 기준)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea current account balance. 301Y013/M/000000. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea current account balance. 301Y013/M/000000. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "flows"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "dataset",
+  "title": "Foreign investors' portfolio equity investment in Korea (BoP equity liabilities)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/BOPF22100000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 주식(부채). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 주식(부채). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "foreign investors' net purchases of Korean shares, monthly, in dollars",
+   "ko": "외국인의 한국 주식 순매수(월별, 달러 기준)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Foreign investors' portfolio equity investment in Korea (BoP equity liabilities). 301Y013/M/BOPF22100000. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Foreign investors' portfolio equity investment in Korea (BoP equity liabilities). 301Y013/M/BOPF22100000. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "flows"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "speech",
+  "title": "Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea",
+  "authors": "Shin, H. S.",
+  "institution": "Bank of Korea",
+  "series": "cb_speech",
+  "number": "review_r260616d",
+  "date": "2026-06-16",
+  "url": "https://www.bis.org/review/r260616d.htm",
+  "pdfUrl": "https://www.bis.org/review/r260616d.pdf",
+  "quote": {
+   "text": "We will work in cooperation with relevant institutions to implement policies aimed at enhancing foreign investors' access to the Korean won market and absorbing NDF trading demand onshore through the 24-hour foreign exchange market opening scheduled for next month, and the subsequent planned establishment of an offshore KRW settlement system.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Bank of Korea's June plan for round-the-clock onshore currency trading from July",
+   "ko": "7월부터 국내 외환시장을 밤낮없이 열겠다는 한국은행의 6월 계획"
+  },
+  "ref": "jejualps:21814",
+  "cite": {
+   "en": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. cb_speech review_r260616d. Bank of Korea",
+   "ko": "Shin, H. S. (2026). Hyun Song Shin: Speech - 76th Anniversary of the Bank of Korea. cb_speech review_r260616d. Bank of Korea"
+  },
+  "citedIn": [
+   "decision-day",
+   "flows"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "dataset",
+  "title": "Won per US dollar, extended-session close",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "731Y003/D/0000013",
+   "unit": "원",
+   "frequency": "D",
+   "lastObservation": "2026-10-22",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “원화의 대미달러, 원화의 대위안/대엔 환율” or its code 731Y003 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율. In the table, select 계정항목: 원/달러(종가). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘원화의 대미달러, 원화의 대위안/대엔 환율’ 또는 코드 731Y003를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 원/달러(종가). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "won per dollar at the extended-session close, a check on decision day",
+   "ko": "연장 거래 종가 기준 원/달러 환율, 결정일 점검용"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Won per US dollar, extended-session close. 731Y003/D/0000013. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Won per US dollar, extended-session close. 731Y003/D/0000013. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "decision-day"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "paper",
+  "title": "Uncovered Interest Parity, Forward Guidance, and the Exchange Rate",
+  "authors": "Galí, J.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w26797",
+  "date": "2020-03-01",
+  "url": "https://www.nber.org/papers/w26797",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w26797/w26797.pdf",
+  "quote": {
+   "text": "Under uncovered interest parity (UIP), the size of the effect on the real exchange rate of an anticipated change in real interest rate differentials is invariant to the horizon at which the change is expected.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "what uncovered interest parity says about expected rate gaps and the currency",
+   "ko": "유위험 이자율 평가가 예상 금리차와 환율에 관해 말하는 것"
+  },
+  "ref": "jejualps:97014",
+  "cite": {
+   "en": "Galí, J. (2020). Uncovered Interest Parity, Forward Guidance, and the Exchange Rate. NBER Working Papers w26797. National Bureau of Economic Research",
+   "ko": "Galí, J. (2020). Uncovered Interest Parity, Forward Guidance, and the Exchange Rate. NBER Working Papers w26797. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "rates"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "paper",
+  "title": "Resolving Puzzles of Monetary Policy Transmission in Emerging Markets",
+  "authors": "Ha, J., Kim, D., Kose, M. A., Prasad, E. S.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w33133",
+  "date": "2024-11-01",
+  "url": "https://www.nber.org/papers/w33133",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w33133/w33133.pdf",
+  "quote": {
+   "text": "Another curious empirical feature in many EMEs is that monetary policy tightening leads to domestic currency depreciation (foreign exchange rate puzzle or FX puzzle) or gradual appreciation over a prolonged period (delayed overshooting).",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the tendency in many emerging economies for rate rises to be followed by a weaker currency",
+   "ko": "많은 신흥국에서 금리 인상 뒤 통화가 약해지는 현상"
+  },
+  "ref": "jejualps:79855",
+  "cite": {
+   "en": "Ha, J., Kim, D., Kose, M. A., Prasad, E. S. (2024). Resolving Puzzles of Monetary Policy Transmission in Emerging Markets. NBER Working Papers w33133. National Bureau of Economic Research",
+   "ko": "Ha, J., Kim, D., Kose, M. A., Prasad, E. S. (2024). Resolving Puzzles of Monetary Policy Transmission in Emerging Markets. NBER Working Papers w33133. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "rates"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "paper",
+  "title": "Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system",
+  "authors": "Cavallino, P., Ehlers, T., Gamboa, F., Guerra, R., Martinez, B., Shim, I. (overview); Kim, J., Kim, M. (Bank of Korea chapter); Central Bank of Chile",
+  "institution": "BIS",
+  "series": "BIS Papers",
+  "number": "171",
+  "date": "2026-05-26",
+  "url": "https://www.bis.org/publications/paper-171-capital-flows-exchange-rates-and-financial-conditions-emes-evolving-international-monetary-system",
+  "pdfUrl": "https://www.bis.org/publ/bppdf/bispap171.pdf",
+  "quote": {
+   "text": "This suggests that global factors, in particular changes in the value of the US dollar, remain important.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the US dollar remaining an important global factor for emerging economies",
+   "ko": "신흥국에 여전히 중요한 글로벌 요인인 미국 달러"
+  },
+  "ref": "jejualps:44357",
+  "cite": {
+   "en": "Cavallino, P., Ehlers, T., Gamboa, F., Guerra, R., Martinez, B., Shim, I. (overview); Kim, J., Kim, M. (Bank of Korea chapter); Central Bank of Chile (2026). Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system. BIS Papers 171. BIS",
+   "ko": "Cavallino, P., Ehlers, T., Gamboa, F., Guerra, R., Martinez, B., Shim, I. (overview); Kim, J., Kim, M. (Bank of Korea chapter); Central Bank of Chile (2026). Capital flows, exchange rates and financial conditions in EMEs in an evolving international monetary system. BIS Papers 171. BIS"
+  },
+  "citedIn": [
+   "won-alone",
+   "exports"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "dataset",
+  "title": "Japanese yen per US dollar (New York noon rate)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/DEXJPUS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DEXJPUS",
+   "unit": "Japanese Yen to One U.S. Dollar",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DEXJPUS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DEXJPUS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "yen per dollar at New York noon",
+   "ko": "뉴욕 정오 엔/달러 환율"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Japanese yen per US dollar (New York noon rate). DEXJPUS. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Japanese yen per US dollar (New York noon rate). DEXJPUS. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "won-alone"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "dataset",
+  "title": "Won per Chinese yuan, Seoul direct market close",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "731Y003/D/0000010",
+   "unit": "원",
+   "frequency": "D",
+   "lastObservation": "2026-10-23",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “원화의 대미달러, 원화의 대위안/대엔 환율” or its code 731Y003 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율. In the table, select 계정항목: 원/위안(종가). Set the cycle (주기) to daily, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘원화의 대미달러, 원화의 대위안/대엔 환율’ 또는 코드 731Y003를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.1. 환율 > 3.1.1. 일일환율 > 3.1.1.3. 원화의 대미달러, 원화의 대위안/대엔 환율 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 원/위안(종가). 주기를 일(D)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "won per yuan at the Seoul close, for the meeting week",
+   "ko": "서울 종가 기준 원/위안 환율, 회의 주간 비교용"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Won per Chinese yuan, Seoul direct market close. 731Y003/D/0000010. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Won per Chinese yuan, Seoul direct market close. 731Y003/D/0000010. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "won-alone"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "dataset",
+  "title": "VIX, US stock-market volatility index",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-23",
+  "url": "https://fred.stlouisfed.org/series/VIXCLS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "VIXCLS",
+   "unit": "Index",
+   "frequency": "D",
+   "lastObservation": "2026-10-22",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: cboe, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series VIXCLS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 VIXCLS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the VIX, a gauge of expected swings in US stocks",
+   "ko": "미국 주식시장의 예상 변동성 지표 VIX"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. VIX, US stock-market volatility index. VIXCLS. Retrieved 23 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. VIX, US stock-market volatility index. VIXCLS. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "won-alone"
+  ]
+ },
+ {
+  "id": "S22",
+  "kind": "paper",
+  "title": "Breaking Parity: Equilibrium Exchange Rates and Currency Premia",
+  "authors": "Dao, M., Gourinchas, P.-O., Itskhoki, O.",
+  "institution": "International Monetary Fund",
+  "series": "IMF Working Papers",
+  "number": "2025/153",
+  "date": "2025-08-01",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2025/153/001.2025.issue-153-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2025/153/001.2025.issue-153-en.pdf",
+  "quote": {
+   "text": "Changes in net futures positions of dealer banks account for most of the variation in the spot exchange rate for every currency.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "changes in dealer banks' currency positions accounting for most monthly exchange-rate moves, 2006–24",
+   "ko": "2006~24년 딜러 은행의 통화 포지션 변화가 환율의 월별 변동 대부분을 설명한 점"
+  },
+  "ref": "jejualps:66985",
+  "cite": {
+   "en": "Dao, M., Gourinchas, P.-O., Itskhoki, O. (2025). Breaking Parity: Equilibrium Exchange Rates and Currency Premia. IMF Working Papers 2025/153. International Monetary Fund",
+   "ko": "Dao, M., Gourinchas, P.-O., Itskhoki, O. (2025). Breaking Parity: Equilibrium Exchange Rates and Currency Premia. IMF Working Papers 2025/153. International Monetary Fund"
+  },
+  "citedIn": [
+   "flows"
+  ]
+ },
+ {
+  "id": "S23",
+  "kind": "paper",
+  "title": "Exchange Rate Fluctuations and International Portfolio Rebalancing in Thailand",
+  "authors": "Gyntelberg, J., Loretan, M., Subhanij, T.",
+  "institution": "International Monetary Fund",
+  "series": "IMF Working Papers",
+  "number": "2012/214",
+  "date": "2012-08-01",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2012/214/001.2012.issue-214-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2012/214/001.2012.issue-214-en.pdf",
+  "quote": {
+   "text": "Net purchases of Thai equities lead to an appreciation of the Thai baht.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "foreign net purchases of Thai shares going with a stronger baht",
+   "ko": "외국인의 태국 주식 순매수가 바트화 강세와 함께 나타난 점"
+  },
+  "ref": "jejualps:70278",
+  "cite": {
+   "en": "Gyntelberg, J., Loretan, M., Subhanij, T. (2012). Exchange Rate Fluctuations and International Portfolio Rebalancing in Thailand. IMF Working Papers 2012/214. International Monetary Fund",
+   "ko": "Gyntelberg, J., Loretan, M., Subhanij, T. (2012). Exchange Rate Fluctuations and International Portfolio Rebalancing in Thailand. IMF Working Papers 2012/214. International Monetary Fund"
+  },
+  "citedIn": [
+   "flows"
+  ]
+ },
+ {
+  "id": "S24",
+  "kind": "dataset",
+  "title": "Foreign investors' portfolio debt-securities investment in Korea (BoP debt liabilities)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/BOPF22200000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 부채성증권(부채). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 부채성증권(부채). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "foreign investors' net purchases of Korean bonds, monthly, in dollars",
+   "ko": "외국인의 한국 채권 순매수(월별, 달러 기준)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Foreign investors' portfolio debt-securities investment in Korea (BoP debt liabilities). 301Y013/M/BOPF22200000. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Foreign investors' portfolio debt-securities investment in Korea (BoP debt liabilities). 301Y013/M/BOPF22200000. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "flows"
+  ]
+ },
+ {
+  "id": "S25",
+  "kind": "dataset",
+  "title": "Korean residents' portfolio investment abroad (BoP portfolio assets)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "301Y013/M/BOPF21000000",
+   "unit": "백만달러",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “국제수지” or its code 301Y013 in the search box, or follow the statistics list 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지. In the table, select 국제수지(BPM6): 증권투자(자산). Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘국제수지’ 또는 코드 301Y013를 입력하거나, 통계 목록에서 2. 국민계정 > 2.5. 국제수지표 > 2.5.1. 국제수지 > 2.5.1.1. 국제수지 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 국제수지(BPM6): 증권투자(자산). 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korean residents' net purchases of foreign securities, monthly, in dollars",
+   "ko": "한국 거주자의 해외 증권 순매수(월별, 달러 기준)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korean residents' portfolio investment abroad (BoP portfolio assets). 301Y013/M/BOPF21000000. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korean residents' portfolio investment abroad (BoP portfolio assets). 301Y013/M/BOPF21000000. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "flows"
+  ]
+ },
+ {
+  "id": "S26",
+  "kind": "speech",
+  "title": "Chang Yong Rhee: New Year Speech",
+  "authors": "Rhee, C. Y.",
+  "institution": "Bank of Korea",
+  "series": "cb_speech",
+  "number": "review_r260105a",
+  "date": "2026-02-03",
+  "url": "https://www.bis.org/review/r260105a.htm",
+  "pdfUrl": "https://www.bis.org/review/r260105a.pdf",
+  "quote": {
+   "text": "Meanwhile, the relatively larger depreciation of the won since last October, compared with the US dollar, also reflects persistently rising residents' overseas securities investment, which has created supply-demand imbalances in the foreign exchange market and, in turn, exerted substantial short-term upward pressure on the exchange rate.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "residents' foreign securities purchases weighing on the won in late 2025",
+   "ko": "2025년 말 거주자 해외 증권 투자가 원화를 누른 점"
+  },
+  "ref": "jejualps:22204",
+  "cite": {
+   "en": "Rhee, C. Y. (2026). Chang Yong Rhee: New Year Speech. cb_speech review_r260105a. Bank of Korea",
+   "ko": "Rhee, C. Y. (2026). Chang Yong Rhee: New Year Speech. cb_speech review_r260105a. Bank of Korea"
+  },
+  "citedIn": [
+   "flows"
+  ]
+ },
+ {
+  "id": "S27",
+  "kind": "dataset",
+  "title": "Korea export value index (customs, US dollars)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y001/M/*AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출금액지수” or its code 403Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수. In the table, select 계정코드: 총지수. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출금액지수’ 또는 코드 403Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.1. 수출금액지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 총지수. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "export values compared with a year earlier, monthly, our calculation",
+   "ko": "한 해 전과 견준 수출금액 변화(월별, 자체 계산)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export value index (customs, US dollars). 403Y001/M/*AA. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export value index (customs, US dollars). 403Y001/M/*AA. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S28",
+  "kind": "dataset",
+  "title": "Korea export price index, US dollar basis",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "402Y014/M/*AA/D",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출물가지수(기본분류)” or its code 402Y014 in the search box, or follow the statistics list 4. 물가 > 4.3. 수출/수입물가지수(2020=100) > 4.3.1. 수출물가지수 > 4.3.1.1. 수출물가지수(기본분류). In the table, select 계정코드: 총지수; 통화계약구분코드: 달러기준. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출물가지수(기본분류)’ 또는 코드 402Y014를 입력하거나, 통계 목록에서 4. 물가 > 4.3. 수출/수입물가지수(2020=100) > 4.3.1. 수출물가지수 > 4.3.1.1. 수출물가지수(기본분류) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 총지수; 통화계약구분코드: 달러기준. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's export price index in dollars, monthly, for the price share of the rise",
+   "ko": "달러 기준 수출물가지수(월별), 상승분 가운데 가격 몫 계산용"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export price index, US dollar basis. 402Y014/M/*AA/D. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export price index, US dollar basis. 402Y014/M/*AA/D. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S29",
+  "kind": "dataset",
+  "title": "Korea export volume index",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "403Y002/M/*AA",
+   "unit": "2020=100",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “수출물량지수” or its code 403Y002 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.2. 수출물량지수. In the table, select 계정코드: 총지수. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘수출물량지수’ 또는 코드 403Y002를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.3. 무역지수/교역조건지수(2020=100) > 3.3.1. 수출입 금액/물량지수 > 3.3.1.1. 수출 금액/물량지수 > 3.3.1.1.2. 수출물량지수 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정코드: 총지수. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's export volume index, monthly, for the volume share of the rise",
+   "ko": "수출물량지수(월별), 상승분 가운데 물량 몫 계산용"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea export volume index. 403Y002/M/*AA. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea export volume index. 403Y002/M/*AA. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S30",
+  "kind": "speech",
+  "title": "Chang Yong Rhee: Farewell address",
+  "authors": "Rhee, C. Y.",
+  "institution": "Bank of Korea",
+  "series": "cb_speech",
+  "number": "review_r260505m",
+  "date": "2026-05-05",
+  "url": "https://www.bis.org/speeches/20260505-farewell-address",
+  "pdfUrl": "https://www.bis.org/review/r260505m.pdf",
+  "quote": {
+   "text": "While it is reassuring that the semiconductor boom has helped maintain a degree of stability in the economy and the foreign exchange market, this also reflects our economy's excessive reliance on specific industries.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the chip boom helping steady the currency market",
+   "ko": "반도체 호황이 외환시장 안정에 도움이 된 점"
+  },
+  "ref": "jejualps:21944",
+  "cite": {
+   "en": "Rhee, C. Y. (2026). Chang Yong Rhee: Farewell address. cb_speech review_r260505m. Bank of Korea",
+   "ko": "Rhee, C. Y. (2026). Chang Yong Rhee: Farewell address. cb_speech review_r260505m. Bank of Korea"
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S31",
+  "kind": "paper",
+  "title": "Financial channel implications of a weaker dollar for emerging market economies",
+  "authors": "Juselius, M., Xia, D., Wooldridge, P.",
+  "institution": "BIS",
+  "series": "BIS Bulletin",
+  "number": "114",
+  "date": "2025-10-13",
+  "url": "https://www.bis.org/publications/bulletin-114-financial-channel-implications-weaker-dollar-emerging-market-economies",
+  "quote": {
+   "text": "such as banks and other financial institutions investing in US bonds and\nequities as well as exporters holding onto US dollars instead of converting them, the impact is the opposite\nof that on foreign investors’ balance sheets.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "exporters holding dollars instead of converting them",
+   "ko": "수출기업이 달러를 바꾸지 않고 보유하는 경우"
+  },
+  "ref": "jejualps:169",
+  "cite": {
+   "en": "Juselius, M., Xia, D., Wooldridge, P. (2025). Financial channel implications of a weaker dollar for emerging market economies. BIS Bulletin 114. BIS",
+   "ko": "Juselius, M., Xia, D., Wooldridge, P. (2025). Financial channel implications of a weaker dollar for emerging market economies. BIS Bulletin 114. BIS"
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S32",
+  "kind": "paper",
+  "title": "Order flow and the real: indirect evidence of the effectiveness of sterilized interventions",
+  "authors": "Kohlscheen, E.",
+  "institution": "BIS",
+  "series": "BIS Working Papers",
+  "number": "426",
+  "date": "2013-09-17",
+  "url": "https://www.bis.org/publ/work426.htm",
+  "pdfUrl": "https://www.bis.org/publ/work426.pdf",
+  "quote": {
+   "text": "When both flows are included separately, the effect of non-financial (i.e., mostly trade) flows comes out much stronger than the effect of financial customers.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "daily flows from non-financial customers, mostly trade, in Brazil from 2002 to 2011 linked more strongly to the real than financial flows",
+   "ko": "2002년부터 2011년까지 브라질에서 주로 무역 거래인 비금융 고객의 흐름이 금융 흐름보다 헤알화와 더 강하게 연결됐다는 점"
+  },
+  "ref": "jejualps:46472",
+  "cite": {
+   "en": "Kohlscheen, E. (2013). Order flow and the real: indirect evidence of the effectiveness of sterilized interventions. BIS Working Papers 426. BIS",
+   "ko": "Kohlscheen, E. (2013). Order flow and the real: indirect evidence of the effectiveness of sterilized interventions. BIS Working Papers 426. BIS"
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S33",
+  "kind": "dataset",
+  "title": "1.2.1.1.2. 예금은행 총수신(말잔): 외화예금 (KR)",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": [
+    "104Y013/M/BCB2",
+    "104Y013/M/BCB902"
+   ],
+   "unit": "십억원",
+   "frequency": "M",
+   "lastObservation": "2026-08",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “예금은행 총수신(말잔)” or its code 104Y013 in the search box, or follow the statistics list 1. 통화/금융 > 1.2. 금융기관 여수신 > 1.2.1. 수신 > 1.2.1.1. 예금은행 수신 > 1.2.1.1.2. 예금은행 총수신(말잔). In the table, select 계정항목: 외화예금. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘예금은행 총수신(말잔)’ 또는 코드 104Y013를 입력하거나, 통계 목록에서 1. 통화/금융 > 1.2. 금융기관 여수신 > 1.2.1. 수신 > 1.2.1.1. 예금은행 수신 > 1.2.1.1.2. 예금은행 총수신(말잔) 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 외화예금. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "residents' foreign-currency deposits in approximate dollars, our calculation",
+   "ko": "달러로 환산한 거주자 외화예금 근삿값(자체 계산)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. 1.2.1.1.2. 예금은행 총수신(말잔): 외화예금 (KR). 104Y013/M/BCB2, 104Y013/M/BCB902. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. 1.2.1.1.2. 예금은행 총수신(말잔): 외화예금 (KR). 104Y013/M/BCB2, 104Y013/M/BCB902. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S34",
+  "kind": "paper",
+  "title": "Outward portfolio investment and dollar funding in emerging Asia",
+  "authors": "McGuire, P., Shim, I., Shin, H. S., Sushko, V.",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "December 2021",
+  "date": "2021-12-06",
+  "url": "https://www.bis.org/publications/qr-202112/outward-portfolio-investment-and-dollar-funding-emerging-asia",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt2112d.pdf",
+  "quote": {
+   "text": "Those in Korea and Thailand, for example, hedge close to 100% of their foreign currency bond portfolios to avoid additional capital charges.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the BIS finding in 2021 that Korean life insurers hedged close to all of their foreign-currency bonds",
+   "ko": "한국 생명보험사가 외화 채권을 거의 전부 헤지한다는 2021년 BIS의 판단"
+  },
+  "ref": "jejualps:44710",
+  "cite": {
+   "en": "McGuire, P., Shim, I., Shin, H. S., Sushko, V. (2021). Outward portfolio investment and dollar funding in emerging Asia. BIS Quarterly Review December 2021. BIS",
+   "ko": "McGuire, P., Shim, I., Shin, H. S., Sushko, V. (2021). Outward portfolio investment and dollar funding in emerging Asia. BIS Quarterly Review December 2021. BIS"
+  },
+  "citedIn": [
+   "exports"
+  ]
+ },
+ {
+  "id": "S35",
+  "kind": "dataset",
+  "title": "Korea official foreign-exchange reserves",
+  "institution": "Bank of Korea, ECOS",
+  "date": "2026-10-23",
+  "url": "https://ecos.bok.or.kr/",
+  "dataset": {
+   "provider": "Bank of Korea, ECOS",
+   "key": "732Y001/M/99",
+   "unit": "천달러",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-23",
+   "attribution": "Source: Bank of Korea, ECOS",
+   "publishable": true,
+   "locate": {
+    "en": "On ECOS (ecos.bok.or.kr), open 통계검색 (Statistics search) and type the table name “외환보유액” or its code 732Y001 in the search box, or follow the statistics list 3. 환율/통관수출입/외환보유액 > 3.5. 외환보유액. In the table, select 계정항목: 합계. Set the cycle (주기) to monthly, choose the period, and click 조회 (Search).",
+    "ko": "한국은행 경제통계시스템(ECOS, ecos.bok.or.kr)에서 ‘통계검색’을 열고 검색창에 통계표 이름 ‘외환보유액’ 또는 코드 732Y001를 입력하거나, 통계 목록에서 3. 환율/통관수출입/외환보유액 > 3.5. 외환보유액 순서로 찾아 들어간다. 통계표에서 항목을 다음과 같이 고른다: 계정항목: 합계. 주기를 월(M)로 정하고 기간을 고른 뒤 ‘조회’를 누른다."
+   }
+  },
+  "usedFor": {
+   "en": "Korea's official foreign-exchange reserves, end of month",
+   "ko": "외환보유액(월말)"
+  },
+  "cite": {
+   "en": "Bank of Korea, ECOS. Korea official foreign-exchange reserves. 732Y001/M/99. Retrieved 23 Oct 2026.",
+   "ko": "Bank of Korea, ECOS. Korea official foreign-exchange reserves. 732Y001/M/99. 2026년 10월 23일 조회."
+  },
+  "citedIn": [
+   "exports"
+  ]
+ }
+]

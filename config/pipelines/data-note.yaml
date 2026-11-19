@@ -1,0 +1,37 @@
+# The data desk's note: one finding that only joined sources show, written from datasteg's own apps through the API.
+# The steps are run by `artools desk note` (pipeline/artools/desk/run.py), not by `artools drive`: code does the
+# watching, the data, the numbers and the checks; a model is called once per role (config/desk.yaml). The editor
+# approves the finished note in the admin site. The site draws these steps like any pipeline's.
+id: data-note
+version: "0.2"
+status: sample
+name: {en: Data note, ko: "데이터 노트"}
+tagline: {en: "One finding that only joined sources show, from datasteg's own data", ko: "datasteg 자체 데이터에서 합친 자료에서만 나타나는 결과 하나입니다."}
+shape: {words: {en: "650–1,100 English words", ko: "영어 650–1,100단어"}, figures: "2–3", gates: 1}
+template: guides/templates/data-note.md
+phases:
+  - {id: data, label: {en: Data, ko: "데이터"}}
+  - {id: writing, label: {en: Writing, ko: "집필"}}
+  - {id: review, label: {en: Review, ko: "검토"}}
+  - {id: publish, label: {en: Publish, ko: "게시"}}
+steps:
+  - {id: watch, desk: watch, phase: data, label: {en: Check the apps for new data, ko: "앱의 새 데이터 확인"},
+     detail: {en: "What changed in money-flow, trade-flow, global-network and the research archive since the previous data note", ko: "이전 데이터 노트 이후 money-flow, trade-flow, global-network 및 연구 아카이브의 변경 사항"}}
+  - {id: leads, desk: leads, phase: data, label: {en: Screen for stories, ko: "기사 후보 선별"},
+     detail: {en: "Funding and trade measures joined for 36 economies and screened for readings no single page shows", ko: "자금·교역 지표를 36개 경제 기준으로 결합하고, 어느 한 페이지에도 표시되지 않는 값을 선별합니다."}}
+  - {id: editor, desk: editor, phase: data, label: {en: Choose the story, ko: "기사 선택"},
+     detail: {en: "One story to pursue, the question it answers, and the rival explanations it must face", ko: "다룰 이야기 하나, 그 이야기가 답하는 질문, 경쟁 설명을 준비합니다."}}
+  - {id: tables, desk: data, phase: data, label: {en: Pull the tables, ko: "표 추출"},
+     detail: {en: "Each table kept with its page, release, period and publishers", ko: "각 표와 함께 페이지, 릴리스, 기간, 공표 기관을 기록"}}
+  - {id: analyst, desk: analyst, phase: data, label: {en: Compute facts, ko: "수치 산출"},
+     detail: {en: "Every number is a formula over the tables, and code computes it", ko: "모든 숫자는 표를 바탕으로 한 공식이며, 코드가 계산합니다."}}
+  - {id: writer, desk: writer, phase: writing, label: {en: Draft, ko: "초안"},
+     detail: {en: "The text holds no typed numbers, only references to computed facts; code draws the figures from the tables", ko: "본문에는 직접 입력한 숫자가 없고, 산출된 값에 대한 참조만 포함합니다. 코드가 표에서 숫자를 가져와 그림을 그립니다."}}
+  - {id: review, desk: review, phase: review, loop: {owners: [], max: 3}, label: {en: Three reviewers, ko: "검토자 세 명"},
+     detail: {en: "An economist referee, a fact-checker who reads every sentence, and a student reader who tests clarity", ko: "경제학자 심사관, 모든 문장을 읽는 사실 확인자, 명확성을 점검하는 학생 독자"}}
+  - {id: judge, desk: judge, phase: review, label: {en: Score against institutions' articles, ko: "기관 기사 대비 점수"},
+     detail: {en: "Eight dimensions, on the same scale that is used to score short articles published by the BIS, central banks and research institutes", ko: "여덟 가지 차원(BIS, 중앙은행, 연구기관이 발표한 짧은 글을 평가하는 것과 같은 척도)"}}
+  - {id: korean, desk: korean, phase: review, label: {en: Korean edition, ko: "국문판"},
+     detail: {en: "The Korean edition is drafted from the finished English by datasteg's Korean language model; code checks every number against the English, and a second reader compares the two editions", ko: "한국어판은 완성된 영어 원고를 datasteg의 한국어 언어모델로 작성합니다. 코드가 영어 원고와 모든 숫자를 대조하고, 두 번째 검토자가 두 언어판을 비교합니다."}}
+  - {id: gate-publish, gate: publish, phase: publish, label: {en: Editor approves the note, ko: "편집자가 노트를 승인"}}
+  - {id: publish, desk: publish, manual: true, phase: publish, label: {en: Publish, ko: "게시"}}

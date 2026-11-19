@@ -1,0 +1,303 @@
+{
+ "id": "weak-strong",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Since 1998, exports, GDP and investment all grew more slowly in quarters when the won was weaker than a year before; a year later the gaps had mostly closed",
+  "ko": "1998년 이후 원화가 한 해 전보다 약했던 분기에는 수출·GDP·투자가 모두 더 느리게 성장했고, 한 해 뒤에는 그 격차가 대부분 좁혀졌다"
+ },
+ "title": {
+  "en": "Average growth in weak-won and strong-won quarters, 1998–2026",
+  "ko": "원화 약세 분기와 강세 분기의 평균 성장률, 1998~2026년"
+ },
+ "subtitle": {
+  "en": "Real growth from a year earlier, %, average over Q1 1998–Q2 2026; in the same quarter and four quarters later",
+  "ko": "전년 동기 대비 실질 증감률(%), 1998년 1분기~2026년 2분기 평균, 당기와 4분기 뒤"
+ },
+ "howToRead": {
+  "en": "Each row compares average growth in quarters when the won was weaker against the dollar than a year earlier (filled dot) with quarters when it was stronger (hollow dot). Each 'a year on' row, under its measure, shows growth four quarters later. A filled dot to the left means slower growth in weak-won quarters.",
+  "ko": "각 행은 원화가 한 해 전보다 달러 대비 약했던 분기(채운 점)와 강했던 분기(빈 점)의 평균 성장률을 비교한다. '1년 뒤' 행은 4분기 뒤의 성장률이다. 채운 점이 왼쪽에 있으면 원화 약세 분기의 성장이 더 느렸다는 뜻이다."
+ },
+ "notes": [
+  {
+   "en": "52 weak-won and 62 strong-won quarters in the same-quarter rows; 48 and 62 in the 'a year on' rows, because the last four quarters have no growth figure four quarters later yet.",
+   "ko": "당기 행은 원화 약세 52개, 강세 62개 분기이고, '1년 뒤' 행은 48개, 62개 분기다. 최근 4개 분기는 아직 4분기 뒤의 성장률이 없기 때문이다."
+  },
+  {
+   "en": "These are descriptive averages, not the won's effect: weak-won quarters include the 1998 and 2008–09 crises. Before the float (1981–97) exports grew faster in the year after a weak-won quarter; that period is in the text, to keep one exchange-rate regime per chart.",
+   "ko": "이는 원화의 효과가 아니라 단순 평균이다. 원화 약세 분기에는 1998년과 2008~09년 위기가 들어 있다. 변동환율제 이전(1981~97년)에는 원화 약세 분기 1년 뒤 수출이 더 빨리 늘었는데, 한 그래프에 한 가지 환율 제도만 담기 위해 본문에서 다룬다."
+  },
+  {
+   "en": "Exports are real goods exports; investment is real gross fixed capital formation.",
+   "ko": "수출은 실질 재화수출, 투자는 실질 총고정자본형성이다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of average real growth from 1998 to mid-2026 in weak-won and strong-won quarters. In the same quarter, goods exports grew 3.6% against 11.7%, GDP 2.0% against 5.1%, and investment shrank 0.7% against growth of 5.2%. Four quarters later the gaps were smaller: exports 6.7% against 8.5%, GDP 3.7% against 4.2%, and investment 3.6% against 3.3%.",
+  "ko": "1998년부터 2026년 중반까지 원화 약세 분기와 강세 분기의 평균 실질 성장률을 비교한 덤벨 그래프. 당기에는 재화수출이 3.6% 대 11.7%, GDP가 2.0% 대 5.1% 늘었고, 투자는 0.7% 줄어 강세 분기의 5.2% 증가와 대비됐다. 4분기 뒤에는 격차가 작아져 수출 6.7% 대 8.5%, GDP 3.7% 대 4.2%, 투자 3.6% 대 3.3%였다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Growth from a year earlier, %",
+    "ko": "전년 동기 대비, %"
+   },
+   "unit": "%",
+   "domain": [
+    -4,
+    12
+   ],
+   "ticks": [
+    -4,
+    0,
+    4,
+    8,
+    12
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "Strong-won quarters",
+  "ko": "원화 강세 분기"
+ },
+ "toLabel": {
+  "en": "Weak-won quarters",
+  "ko": "원화 약세 분기"
+ },
+ "rows": [
+  {
+   "id": "exp-0",
+   "label": {
+    "en": "Exports",
+    "ko": "수출"
+   },
+   "from": 11.712903,
+   "to": 3.646154,
+   "highlight": true
+  },
+  {
+   "id": "exp-4",
+   "label": {
+    "en": "a year on",
+    "ko": "수출, 1년 뒤"
+   },
+   "from": 8.535484,
+   "to": 6.658333
+  },
+  {
+   "id": "gdp-0",
+   "label": {
+    "en": "GDP",
+    "ko": "GDP"
+   },
+   "from": 5.08871,
+   "to": 1.975,
+   "highlight": true
+  },
+  {
+   "id": "gdp-4",
+   "label": {
+    "en": "a year on",
+    "ko": "GDP, 1년 뒤"
+   },
+   "from": 4.187097,
+   "to": 3.714583
+  },
+  {
+   "id": "inv-0",
+   "label": {
+    "en": "Investment",
+    "ko": "투자"
+   },
+   "from": 5.23912,
+   "to": -0.656907,
+   "highlight": true
+  },
+  {
+   "id": "inv-4",
+   "label": {
+    "en": "a year on",
+    "ko": "투자, 1년 뒤"
+   },
+   "from": 3.266489,
+   "to": 3.552593
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S4",
+   "S2",
+   "S1",
+   "S3"
+  ],
+  "provider": "Bank of Korea, ECOS",
+  "keys": [
+   "731Y004/M/0000001/0000100",
+   "200Y102/Q/10225",
+   "200Y102/Q/10211",
+   "200Y110/Q/1020110"
+  ],
+  "definition": {
+   "en": "Real goods exports and real GDP, growth from the same quarter a year earlier (not seasonally adjusted); real gross fixed capital formation; won per US dollar, monthly averages.",
+   "ko": "실질 재화수출과 실질 GDP의 전년 동기 대비 증감률(원계열), 실질 총고정자본형성, 원/달러 환율 월평균."
+  },
+  "calculation": {
+   "en": "A quarter is weak-won when the quarterly average of won per dollar is above its level a year earlier, strong-won otherwise. Each dot is the simple mean of growth over those quarters (same quarter) or over the quarters four later ('a year on'), 1998-Q1 to 2026-Q2. Investment growth = (quarter ÷ same quarter a year earlier − 1) × 100.",
+   "ko": "원/달러 환율의 분기 평균이 한 해 전보다 높으면 원화 약세 분기, 아니면 강세 분기로 분류했다. 각 점은 해당 분기(당기) 또는 4분기 뒤('1년 뒤') 성장률의 단순 평균이며 기간은 1998년 1분기~2026년 2분기다. 투자 증감률 = (해당 분기 ÷ 전년 동기 − 1) × 100."
+  },
+  "span": [
+   "1998-Q1",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-19",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "measure",
+    "label": {
+     "en": "Measure",
+     "ko": "지표"
+    }
+   },
+   {
+    "key": "timing",
+    "label": {
+     "en": "Growth measured",
+     "ko": "성장률 시점"
+    }
+   },
+   {
+    "key": "weak",
+    "label": {
+     "en": "Weak-won quarters, %",
+     "ko": "원화 약세 분기, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "strong",
+    "label": {
+     "en": "Strong-won quarters, %",
+     "ko": "원화 강세 분기, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "nweak",
+    "label": {
+     "en": "Weak-won quarters, number",
+     "ko": "약세 분기 수"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "nstrong",
+    "label": {
+     "en": "Strong-won quarters, number",
+     "ko": "강세 분기 수"
+    },
+    "align": "right",
+    "decimals": 0
+   }
+  ],
+  "rows": [
+   {
+    "measure": {
+     "en": "Real goods exports",
+     "ko": "실질 재화수출"
+    },
+    "timing": {
+     "en": "Same quarter",
+     "ko": "당기"
+    },
+    "weak": 3.646154,
+    "strong": 11.712903,
+    "nweak": 52,
+    "nstrong": 62
+   },
+   {
+    "measure": {
+     "en": "Real goods exports",
+     "ko": "실질 재화수출"
+    },
+    "timing": {
+     "en": "Four quarters later",
+     "ko": "4분기 뒤"
+    },
+    "weak": 6.658333,
+    "strong": 8.535484,
+    "nweak": 48,
+    "nstrong": 62
+   },
+   {
+    "measure": {
+     "en": "Real GDP",
+     "ko": "실질 GDP"
+    },
+    "timing": {
+     "en": "Same quarter",
+     "ko": "당기"
+    },
+    "weak": 1.975,
+    "strong": 5.08871,
+    "nweak": 52,
+    "nstrong": 62
+   },
+   {
+    "measure": {
+     "en": "Real GDP",
+     "ko": "실질 GDP"
+    },
+    "timing": {
+     "en": "Four quarters later",
+     "ko": "4분기 뒤"
+    },
+    "weak": 3.714583,
+    "strong": 4.187097,
+    "nweak": 48,
+    "nstrong": 62
+   },
+   {
+    "measure": {
+     "en": "Real investment",
+     "ko": "실질 투자"
+    },
+    "timing": {
+     "en": "Same quarter",
+     "ko": "당기"
+    },
+    "weak": -0.656907,
+    "strong": 5.23912,
+    "nweak": 52,
+    "nstrong": 62
+   },
+   {
+    "measure": {
+     "en": "Real investment",
+     "ko": "실질 투자"
+    },
+    "timing": {
+     "en": "Four quarters later",
+     "ko": "4분기 뒤"
+    },
+    "weak": 3.552593,
+    "strong": 3.266489,
+    "nweak": 48,
+    "nstrong": 62
+   }
+  ]
+ },
+ "csv": "data/weak-strong.csv"
+}

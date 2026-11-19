@@ -1,0 +1,16 @@
+{
+ "id": "margin-call",
+ "term": {
+  "en": "margin call",
+  "ko": "마진콜"
+ },
+ "definition": {
+  "en": "A broker's demand for more cash or collateral when shares bought with borrowed money have fallen too far in value. If the investor cannot pay, the broker sells the shares, a forced sale.",
+  "ko": "차입해 매수한 주식의 가치가 크게 떨어졌을 때 증권사가 현금이나 담보를 추가로 요구하는 것이다. 투자자가 이를 채우지 못하면 증권사가 주식을 강제로 매도하는데, 한국에서는 이를 반대매매라고 한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets",
+  "financial-stability"
+ ]
+}

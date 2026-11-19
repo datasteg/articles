@@ -1,0 +1,35 @@
+{
+  "name": "@articles/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 8080"
+  },
+  "dependencies": {
+    "@articles/charts": "workspace:*",
+    "@fontsource-variable/jetbrains-mono": "5.2.8",
+    "@fontsource-variable/libre-franklin": "5.3.0",
+    "@fontsource-variable/newsreader": "5.3.0",
+    "@fontsource-variable/noto-serif-kr": "5.3.1",
+    "@fontsource/hanken-grotesk": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/source-serif-4": "5.3.0",
+    "@glacier/fonts": "workspace:*",
+    "@glacier/i18n": "workspace:*",
+    "@glacier/tokens": "workspace:*",
+    "@glacier/ui": "workspace:*",
+    "lucide-react": "1.52.0",
+    "next": "16.3.8",
+    "pretendard": "1.3.9",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,37 @@
+# How numbers are said and timed in the video (guides/video.md § Numbers). The slide and the captions use the same
+# rounding as the voice, so what is heard is what is shown.
+
+# Decimals for the ear, per fact unit: a fact's own display.decimals is lowered to this, never raised.
+round:
+  bp: 0
+  "%": 1
+  "% of GDP": 1
+  "% per year": 1
+  pp: 1
+  index: 1
+  times: 1
+  default: 1
+
+# Words a minute (English) and syllables a minute (Korean). Starting values: the pilot replaces them with the chosen
+# voices' measured rates (`artools video voice` records them in voice.json).
+rate:
+  en: 149       # Sulafat, measured on the pilot (26 Oct 2026)
+  ko: 276       # Iapetus, measured on the pilot (26 Oct 2026): the Korean pilot ran 12:30 at a 320 budget
+
+# Silence added between beats, in seconds (guides/video.md § Pauses).
+pause:
+  beat: 0.4
+  part: 1.0
+  before_number: 0.25
+
+# The ten-minute budget per part: English words / Korean syllables.
+budget:
+  open: {en: 70, ko: 160}
+  answer: {en: 110, ko: 240}
+  part: {en: 320, ko: 690}
+  limits: {en: 150, ko: 320}
+  recap: {en: 140, ko: 300}
+  end: {en: 40, ko: 90}
+  # About ten minutes, longer when the article needs it (the editor, 26 Oct 2026: long is fine): 9 to 15 minutes of
+  # speech at the measured rates
+  total: {en: [1300, 2200], ko: [2450, 4100]}

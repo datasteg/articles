@@ -1,0 +1,15 @@
+{
+ "id": "dot-plot",
+ "term": {
+  "en": "dot plot",
+  "ko": "점도표"
+ },
+ "definition": {
+  "en": "A chart the Federal Reserve publishes four times a year in its Summary of Economic Projections, in which each policymaker's expected policy rate for coming years appears as a dot.",
+  "ko": "연준이 경제전망요약(SEP)에서 한 해 네 번 내놓는 그림으로, 정책 위원 각자가 예상하는 향후 정책금리를 점 하나로 나타낸다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy"
+ ]
+}

@@ -1,0 +1,211 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "Indonesia, 2026-Q2",
+  "institution": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+  "date": "2026-11-18",
+  "url": "https://global-network.datasteg.com/en/stress?e=IDN",
+  "dataset": {
+   "provider": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/stress?economy=IDN",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-18",
+   "attribution": "Source: BIS, IMF, Federal Reserve, UN Comtrade, via datasteg global-network (release 20261118.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Search there for “Indonesia, 2026-Q2” (series api.datasteg.com/v1/global-network/stress?economy=IDN).",
+    "ko": "링크는 BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Indonesia, 2026-Q2’(시리즈 api.datasteg.com/v1/global-network/stress?economy=IDN)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Indonesia's import cover at each quarter-end since 2011, its lows, median and changes, and the year's split",
+   "ko": "2011년 이후 분기말 인도네시아의 수입 감당 기간과 그 최저치·중앙값·변화. 한 해 감소분을 순외환보유액 몫과 수입액 몫으로 나눈 계산"
+  },
+  "cite": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Indonesia, 2026-Q2. api.datasteg.com/v1/global-network/stress?economy=IDN. Retrieved 18 Nov 2026.",
+   "ko": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Indonesia, 2026-Q2. api.datasteg.com/v1/global-network/stress?economy=IDN. 2026년 11월 18일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "finding",
+   "each-side",
+   "limits"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "Signal Board: funding vulnerability and flows",
+  "institution": "BIS, IMF via datasteg money-flow",
+  "date": "2026-11-18",
+  "url": "https://money-flow.datasteg.com/en/world",
+  "dataset": {
+   "provider": "BIS, IMF via datasteg money-flow",
+   "key": "api.datasteg.com/v1/money-flow/board",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-18",
+   "attribution": "Source: BIS, IMF, via datasteg money-flow (release 20261118.2); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF via datasteg money-flow. Search there for “Signal Board: funding vulnerability and flows” (series api.datasteg.com/v1/money-flow/board).",
+    "ko": "링크는 BIS, IMF via datasteg money-flow를 연다. 그곳에서 ‘Signal Board: funding vulnerability and flows’(시리즈 api.datasteg.com/v1/money-flow/board)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Net and gross reserves, short-term drains, bank and bond flows and short-term bank claims at end-June 2026",
+   "ko": "2026년 6월말 순외환보유액과 총외환보유액, 중앙은행이 곧 내줘야 할 외화, 은행·채권 자금 유입, 은행 단기 차입금"
+  },
+  "cite": {
+   "en": "BIS, IMF via datasteg money-flow. Signal Board: funding vulnerability and flows. api.datasteg.com/v1/money-flow/board. Retrieved 18 Nov 2026.",
+   "ko": "BIS, IMF via datasteg money-flow. Signal Board: funding vulnerability and flows. api.datasteg.com/v1/money-flow/board. 2026년 11월 18일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "each-side",
+   "why-it-matters",
+   "limits"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "Country sheets: funding and goods trade by economy",
+  "institution": "BIS, IMF, UN Comtrade via datasteg global-network",
+  "date": "2026-11-18",
+  "url": "https://global-network.datasteg.com/en",
+  "dataset": {
+   "provider": "BIS, IMF, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/countries/{iso3}",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-18",
+   "attribution": "Source: BIS, IMF, UN Comtrade, via datasteg global-network (release 20261118.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, UN Comtrade via datasteg global-network. Search there for “Country sheets: funding and goods trade by economy” (series api.datasteg.com/v1/global-network/countries/{iso3}).",
+    "ko": "링크는 BIS, IMF, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Country sheets: funding and goods trade by economy’(시리즈 api.datasteg.com/v1/global-network/countries/{iso3})를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Indonesia's twelve-month import bills to June 2026 and June 2025, the median import growth and gross-reserve cover",
+   "ko": "인도네시아의 2026년 6월까지와 2025년 6월까지 각 12개월 수입액, 나라들의 수입 증가율 중앙값, 총외환보유액으로 따진 수입 감당 기간"
+  },
+  "cite": {
+   "en": "BIS, IMF, UN Comtrade via datasteg global-network. Country sheets: funding and goods trade by economy. api.datasteg.com/v1/global-network/countries/{iso3}. Retrieved 18 Nov 2026.",
+   "ko": "BIS, IMF, UN Comtrade via datasteg global-network. Country sheets: funding and goods trade by economy. api.datasteg.com/v1/global-network/countries/{iso3}. 2026년 11월 18일 조회."
+  },
+  "citedIn": [
+   "each-side",
+   "limits"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "Signal Board, Q1 2026",
+  "institution": "BIS, IMF via datasteg money-flow",
+  "date": "2026-11-18",
+  "url": "https://money-flow.datasteg.com/en/world?bq=2026-03-31",
+  "dataset": {
+   "provider": "BIS, IMF via datasteg money-flow",
+   "key": "api.datasteg.com/v1/money-flow/board?quarter=2026-03-31",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-03-31",
+   "retrieved": "2026-11-18",
+   "attribution": "Source: BIS, IMF, via datasteg money-flow (release 20261118.2); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF via datasteg money-flow. Search there for “Signal Board, Q1 2026” (series api.datasteg.com/v1/money-flow/board?quarter=2026-03-31).",
+    "ko": "링크는 BIS, IMF via datasteg money-flow를 연다. 그곳에서 ‘Signal Board, Q1 2026’(시리즈 api.datasteg.com/v1/money-flow/board?quarter=2026-03-31)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "The same funding measures at end-March 2026",
+   "ko": "2026년 3월말의 같은 항목들"
+  },
+  "cite": {
+   "en": "BIS, IMF via datasteg money-flow. Signal Board, Q1 2026. api.datasteg.com/v1/money-flow/board?quarter=2026-03-31. Retrieved 18 Nov 2026.",
+   "ko": "BIS, IMF via datasteg money-flow. Signal Board, Q1 2026. api.datasteg.com/v1/money-flow/board?quarter=2026-03-31. 2026년 11월 18일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "each-side",
+   "why-it-matters"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "Funding-and-trade stress signals",
+  "institution": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+  "date": "2026-11-18",
+  "url": "https://global-network.datasteg.com/en/stress?tab=board",
+  "dataset": {
+   "provider": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/stress",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-18",
+   "attribution": "Source: BIS, IMF, Federal Reserve, UN Comtrade, via datasteg global-network (release 20261118.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Search there for “Funding-and-trade stress signals” (series api.datasteg.com/v1/global-network/stress).",
+    "ko": "링크는 BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Funding-and-trade stress signals’(시리즈 api.datasteg.com/v1/global-network/stress)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Import cover for all economies at end-June 2026: medians, Indonesia's ranks, coverage counts and the cover side of the correlation",
+   "ko": "2026년 6월말 나라별 수입 감당 기간. 중앙값, 인도네시아 순위, 수치가 있는 나라 수, 상관관계 계산에 쓴 수입 감당 기간"
+  },
+  "cite": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Funding-and-trade stress signals. api.datasteg.com/v1/global-network/stress. Retrieved 18 Nov 2026.",
+   "ko": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Funding-and-trade stress signals. api.datasteg.com/v1/global-network/stress. 2026년 11월 18일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "why-it-matters",
+   "limits"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "Stress signals for the 36 money-flow board economies, 2025-Q2",
+  "institution": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+  "date": "2026-11-18",
+  "url": "https://global-network.datasteg.com/en/stress?tab=board&bq=2025-06-30",
+  "dataset": {
+   "provider": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/stress?quarter=2025-06-30",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2025-06-30",
+   "retrieved": "2026-11-18",
+   "attribution": "Source: BIS, IMF, Federal Reserve, UN Comtrade, via datasteg global-network (release 20261118.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Search there for “Stress signals for the 36 money-flow board economies, 2025-Q2” (series api.datasteg.com/v1/global-network/stress?quarter=2025-06-30).",
+    "ko": "링크는 BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Stress signals for the 36 money-flow board economies, 2025-Q2’(시리즈 api.datasteg.com/v1/global-network/stress?quarter=2025-06-30)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Import cover rank, count and median at end-June 2025",
+   "ko": "2025년 6월말 수입 감당 기간의 순위, 수치가 있는 나라 수, 중앙값"
+  },
+  "cite": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Stress signals for the 36 money-flow board economies, 2025-Q2. api.datasteg.com/v1/global-network/stress?quarter=2025-06-30. Retrieved 18 Nov 2026.",
+   "ko": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Stress signals for the 36 money-flow board economies, 2025-Q2. api.datasteg.com/v1/global-network/stress?quarter=2025-06-30. 2026년 11월 18일 조회."
+  },
+  "citedIn": [
+   "why-it-matters"
+  ]
+ }
+]

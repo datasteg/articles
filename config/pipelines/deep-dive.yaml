@@ -1,0 +1,41 @@
+# Sample: a long explainer that also designs a model of the question (e.g. "how could crashes be modelled?").
+id: deep-dive
+version: "0.3"
+status: sample
+name: {en: Deep dive, ko: 심층 분석}
+tagline: {en: "An explainer plus a model design: how one could measure and forecast it", ko: "해설에 더해 모형 설계: 어떻게 재고 예측할 수 있는가"}
+shape: {words: {en: "2,000–3,000 words + technical appendix", ko: "약 7,000–10,000자 + 기술 부록"}, figures: "5–8", gates: 4}
+template: guides/templates/deep-dive.md
+phases:
+  - {id: question, label: {en: Question, ko: 질문}}
+  - {id: research, label: {en: Research, ko: 연구}}
+  - {id: data, label: {en: Data, ko: 데이터}}
+  - {id: model, label: {en: Model, ko: 모형}}
+  - {id: writing, label: {en: Writing, ko: 집필}}
+  - {id: review, label: {en: Review, ko: 검토}}
+  - {id: publish, label: {en: Publish, ko: 게시}}
+steps:
+  - {id: frame, skill: frame-question, phase: question, label: {en: Frame, ko: 질문 정리}}
+  - {id: scout, sources: scout, phase: question, label: {en: Scout, ko: 사전 조사}, branches: [{en: Archive, ko: 아카이브}, {en: Statistics, ko: 통계}]}
+  - {id: refine, skill: refine-question, phase: question, extra_scout: true, decline_stops: true, label: {en: Critical review, ko: 질문 검토}}
+  - {id: gate-question, gate: question, phase: question, label: {en: Editor approves the question, ko: 편집자가 질문을 승인}}
+  - {id: search, skill: search-jejualps, mode: deep, phase: research, label: {en: Read the research, ko: 연구 읽기}}
+  - {id: map, skill: map-literature, phase: research, label: {en: Map mechanisms, ko: 메커니즘 정리}}
+  - {id: fetch, fetch: routed, phase: data, label: {en: Fetch data, ko: 데이터 수집},
+     branches: [{en: ECB · Eurostat, ko: ECB · Eurostat}, {en: FRED, ko: FRED}, {en: Bank of Korea, ko: 한국은행}]}
+  - {id: analyze, skill: analyze-data, phase: data, label: {en: Compute facts, ko: 수치 계산}}
+  - {id: model, skill: design-model, phase: model, label: {en: Design a model, ko: 모형 설계},
+     detail: {en: "Variables, structure, data, how to test it; a design, not a forecast", ko: "변수, 구조, 데이터, 검증 방법; 예측이 아닌 설계"}}
+  - {id: gate-model, gate: model, phase: model, label: {en: Editor approves the model design, ko: 편집자가 모형 설계를 승인}}
+  - {id: plan, skill: plan-article, phase: writing, label: {en: Plan, ko: 기획}}
+  - {id: gate-plan, gate: plan, phase: writing, label: {en: Editor approves the plan, ko: 편집자가 기획을 승인}}
+  - {id: draft, skill: draft-article, phase: writing, label: {en: Draft EN · KO + appendix, ko: 영문 · 국문 집필 + 부록}}
+  - {id: charts, skill: make-charts, phase: writing, label: {en: Charts, ko: 차트}}
+  - {id: review, skill: review-article, phase: review, loop: {owners: [analyze-data, design-model, draft-article, make-charts], max: 3},
+     label: {en: Review and methods check, ko: 검토와 방법론 확인}}
+  - {id: cover, skill: make-cover, phase: publish, label: {en: Cover image, ko: 표지 그림},
+     detail: {en: "A small picture of the subject for the article lists, drawn from the final text", ko: "최종 원고를 읽고 목록에 실릴 작은 그림을 그립니다."}}
+  - {id: pdf, skill: make-pdf, phase: publish, label: {en: PDF edition, ko: PDF판},
+     detail: {en: "Each edition as a journal-style PDF for download, checked page by page", ko: "언어판마다 내려받을 수 있는 학술지 형식의 PDF로 만들어 쪽마다 확인합니다."}}
+  - {id: gate-publish, gate: publish, phase: publish, label: {en: Editor approves the article, ko: 편집자가 기사를 승인}}
+  - {id: publish, skill: publish-article, manual: true, phase: publish, label: {en: Publish, ko: 게시}}

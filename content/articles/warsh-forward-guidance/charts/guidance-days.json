@@ -1,0 +1,363 @@
+{
+ "id": "guidance-days",
+ "form": "table",
+ "headline": {
+  "en": "Guidance moved yields most when it was new: the 10-year yield fell 16bp and 20bp on the first two announcements, then moved only 7bp, 2bp and 6bp on the 2012 extensions and the threshold",
+  "ko": "가이던스는 새로울 때 금리를 가장 크게 움직였다. 10년물 금리는 처음 두 발표일에 16bp와 20bp 내렸지만, 2012년의 두 차례 연장과 실업률 기준 제시일에는 7bp, 2bp, 6bp 움직이는 데 그쳤다"
+ },
+ "title": {
+  "en": "Yield moves on Fed guidance, purchase and speech days, 2008–2026",
+  "ko": "연준의 가이던스·매입·연설이 있던 날의 금리 변동, 2008~2026년"
+ },
+ "subtitle": {
+  "en": "Basis points, close minus previous close, 2-year and 10-year Treasury yields",
+  "ko": "bp, 당일 종가 − 전일 종가, 2년물·10년물 국채 금리"
+ },
+ "howToRead": {
+  "en": "One row per day. A negative number means the yield fell that day. The first five rows are the lower-bound guidance announcements the text compares; the rest are the other days the article discusses. The table scrolls; the 2020–26 rows, including the 2026 FOMC days and Jackson Hole, are below. On a phone the last column, what the Fed said or did, may need a sideways scroll.",
+  "ko": "하루에 한 행이다. 음수는 그날 금리가 내렸다는 뜻이다. 처음 다섯 행이 본문에서 비교하는 제로금리 시기의 가이던스 발표일이고, 나머지는 기사에서 다루는 다른 날들이다. 표는 스크롤되며 2026년 FOMC와 잭슨홀을 포함한 2020~2026년 행은 아래에 있다. 휴대전화에서는 마지막 열(연준이 말하거나 한 것)을 옆으로 밀어서 봐야 할 수 있다."
+ },
+ "notes": [
+  {
+   "en": "The FOMC statement comes at 2pm Eastern time, so a same-day close also carries that morning's news. The 16 December 2008 statement also cut the funds rate to its zero range, and the 13 September 2012 and 12 December 2012 days carried asset-purchase announcements as well as guidance.",
+   "ko": "FOMC 성명은 미국 동부 시간 오후 2시에 나오므로 당일 종가에는 그날 오전의 뉴스도 섞여 있다. 2008년 12월 16일 성명은 기준금리를 제로 범위로 내린 결정도 담고 있었고, 2012년 9월 13일과 12월 12일에는 가이던스와 함께 자산 매입 발표도 있었다."
+  },
+  {
+   "en": "The 2008–15 moves are small partly because the 2-year yield itself was near zero. The 16 March 2020 row is the Monday close against the previous Friday: the cut to zero was announced on Sunday 15 March.",
+   "ko": "2008~15년의 변동이 작은 데는 2년물 금리 자체가 0에 가까웠던 탓도 있다. 2020년 3월 16일 행은 월요일 종가를 직전 금요일과 비교한 값으로, 제로금리 인하는 일요일인 3월 15일에 발표됐다."
+  },
+  {
+   "en": "Shown as a table rather than bars because many values are negative. Futures-implied moves cited in the text (the BIS's 'more than 20bp' and 'about 5bp') are not series in this article's data.",
+   "ko": "음수가 많아 막대 대신 표로 보였다. 본문에서 인용한 선물시장 기준 변동(BIS의 '20bp 이상'과 '약 5bp')은 이 기사의 데이터에 없는 수치다."
+  }
+ ],
+ "alt": {
+  "en": "Table of one-day changes in the 2-year and 10-year Treasury yields on 21 Fed guidance, purchase and speech days from December 2008 to September 2026. The 10-year yield fell 16bp on 16 December 2008 and 20bp on 9 August 2011, then moved −7bp, −2bp and +6bp on 25 January, 13 September and 12 December 2012. The largest 10-year moves are −21bp on 16 March 2020, −20bp on 9 August 2011 and −17bp on 18 September 2013; the largest 2-year moves are +15bp on 17 June 2026 and +14bp on 28 August 2026. In 2026 the 2-year yield also rose 7bp on 16 September.",
+  "ko": "2008년 12월부터 2026년 9월까지 연준의 가이던스·매입·연설이 있던 21일의 2년물·10년물 국채 금리 하루 변동 표. 10년물 금리는 2008년 12월 16일 16bp, 2011년 8월 9일 20bp 내렸고, 2012년 1월 25일, 9월 13일, 12월 12일에는 각각 −7bp, −2bp, +6bp 움직였다. 10년물의 가장 큰 변동은 2020년 3월 16일 −21bp, 2011년 8월 9일 −20bp, 2013년 9월 18일 −17bp이고, 2년물의 가장 큰 변동은 2026년 6월 17일 +15bp와 8월 28일 +14bp다. 2026년 9월 16일에는 2년물이 7bp 올랐다."
+ },
+ "meta": {
+  "sources": [
+   "S13",
+   "S8",
+   "S11",
+   "S6",
+   "S16",
+   "S19"
+  ],
+  "provider": "Federal Reserve Board, via FRED; datasteg calculation",
+  "keys": [
+   "DGS2",
+   "DGS10"
+  ],
+  "definition": {
+   "en": "Market yields on US Treasury securities at 2-year and 10-year constant maturity, daily closes.",
+   "ko": "미국 2년물·10년물 국채 만기수익률 일별 종가."
+  },
+  "calculation": {
+   "en": "Change on the day = (close − previous trading day's close) × 100, in basis points, rounded to whole numbers.",
+   "ko": "당일 변동 = (당일 종가 − 직전 거래일 종가) × 100(bp), 정수로 반올림."
+  },
+  "span": [
+   "2008-12-16",
+   "2026-09-16"
+  ],
+  "lastObservation": "2026-09-16",
+  "retrieved": "2026-10-20",
+  "licence": "FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: Federal Reserve Board, via FRED, Federal Reserve Bank of St. Louis; datasteg calculation",
+   "ko": "출처: 연준 이사회, FRED(세인트루이스 연방준비은행) 경유; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "date",
+    "label": {
+     "en": "Date",
+     "ko": "날짜"
+    }
+   },
+   {
+    "key": "y10",
+    "label": {
+     "en": "10-year, bp",
+     "ko": "10년물, bp"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "y2",
+    "label": {
+     "en": "2-year, bp",
+     "ko": "2년물, bp"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "event",
+    "label": {
+     "en": "What the Fed said or did",
+     "ko": "연준이 말하거나 한 것"
+    }
+   }
+  ],
+  "rows": [
+   {
+    "date": {
+     "en": "16 Dec 2008",
+     "ko": "2008.12.16"
+    },
+    "event": {
+     "en": "First guidance: low rates 'for some time'",
+     "ko": "첫 가이던스('당분간' 저금리)"
+    },
+    "y2": -10,
+    "y10": -16
+   },
+   {
+    "date": {
+     "en": "9 Aug 2011",
+     "ko": "2011.8.9"
+    },
+    "event": {
+     "en": "Calendar guidance to mid-2013",
+     "ko": "기간 명시 가이던스(2013년 중반까지)"
+    },
+    "y2": -8,
+    "y10": -20
+   },
+   {
+    "date": {
+     "en": "25 Jan 2012",
+     "ko": "2012.1.25"
+    },
+    "event": {
+     "en": "Extended to late 2014",
+     "ko": "2014년 말까지 연장"
+    },
+    "y2": -2,
+    "y10": -7
+   },
+   {
+    "date": {
+     "en": "13 Sep 2012",
+     "ko": "2012.9.13"
+    },
+    "event": {
+     "en": "Extended to mid-2015; QE3 announced",
+     "ko": "2015년 중반까지 연장, QE3 발표"
+    },
+    "y2": -1,
+    "y10": -2
+   },
+   {
+    "date": {
+     "en": "12 Dec 2012",
+     "ko": "2012.12.12"
+    },
+    "event": {
+     "en": "6.5% unemployment threshold",
+     "ko": "실업률 6.5% 기준 제시"
+    },
+    "y2": 1,
+    "y10": 6
+   },
+   {
+    "date": {
+     "en": "22 May 2013",
+     "ko": "2013.5.22"
+    },
+    "event": {
+     "en": "Bernanke's taper testimony",
+     "ko": "버냉키의 테이퍼링 시사 증언"
+    },
+    "y2": 0,
+    "y10": 9
+   },
+   {
+    "date": {
+     "en": "19 Jun 2013",
+     "ko": "2013.6.19"
+    },
+    "event": {
+     "en": "June 2013 press conference",
+     "ko": "2013년 6월 기자회견"
+    },
+    "y2": 4,
+    "y10": 13
+   },
+   {
+    "date": {
+     "en": "18 Sep 2013",
+     "ko": "2013.9.18"
+    },
+    "event": {
+     "en": "Taper delayed",
+     "ko": "테이퍼링 연기"
+    },
+    "y2": -5,
+    "y10": -17
+   },
+   {
+    "date": {
+     "en": "19 Mar 2014",
+     "ko": "2014.3.19"
+    },
+    "event": {
+     "en": "Unemployment threshold dropped",
+     "ko": "실업률 기준 폐기"
+    },
+    "y2": 11,
+    "y10": 10
+   },
+   {
+    "date": {
+     "en": "3 Mar 2020",
+     "ko": "2020.3.3"
+    },
+    "event": {
+     "en": "Emergency cut",
+     "ko": "긴급 금리 인하"
+    },
+    "y2": -13,
+    "y10": -8
+   },
+   {
+    "date": {
+     "en": "16 Mar 2020",
+     "ko": "2020.3.16"
+    },
+    "event": {
+     "en": "Cut to zero (announced Sunday)",
+     "ko": "제로금리로 인하(일요일 발표)"
+    },
+    "y2": -13,
+    "y10": -21
+   },
+   {
+    "date": {
+     "en": "23 Mar 2020",
+     "ko": "2020.3.23"
+    },
+    "event": {
+     "en": "Unlimited purchases announced",
+     "ko": "무제한 매입 발표"
+    },
+    "y2": -9,
+    "y10": -16
+   },
+   {
+    "date": {
+     "en": "16 Sep 2020",
+     "ko": "2020.9.16"
+    },
+    "event": {
+     "en": "Purchase goal: accommodation",
+     "ko": "매입 목적을 완화로"
+    },
+    "y2": 0,
+    "y10": 1
+   },
+   {
+    "date": {
+     "en": "22 Sep 2021",
+     "ko": "2021.9.22"
+    },
+    "event": {
+     "en": "Tightening signal",
+     "ko": "긴축 신호"
+    },
+    "y2": 3,
+    "y10": -1
+   },
+   {
+    "date": {
+     "en": "3 Nov 2021",
+     "ko": "2021.11.3"
+    },
+    "event": {
+     "en": "Taper announced",
+     "ko": "테이퍼링 발표"
+    },
+    "y2": 1,
+    "y10": 4
+   },
+   {
+    "date": {
+     "en": "15 Dec 2021",
+     "ko": "2021.12.15"
+    },
+    "event": {
+     "en": "Taper pace doubled",
+     "ko": "테이퍼링 속도 두 배로"
+    },
+    "y2": 2,
+    "y10": 3
+   },
+   {
+    "date": {
+     "en": "16 Mar 2022",
+     "ko": "2022.3.16"
+    },
+    "event": {
+     "en": "First hike of the cycle",
+     "ko": "이번 사이클 첫 금리 인상"
+    },
+    "y2": 10,
+    "y10": 4
+   },
+   {
+    "date": {
+     "en": "17 Jun 2026",
+     "ko": "2026.6.17"
+    },
+    "event": {
+     "en": "June 2026 FOMC",
+     "ko": "2026년 6월 FOMC"
+    },
+    "y2": 15,
+    "y10": 6
+   },
+   {
+    "date": {
+     "en": "29 Jul 2026",
+     "ko": "2026.7.29"
+    },
+    "event": {
+     "en": "July 2026 FOMC (hold)",
+     "ko": "2026년 7월 FOMC(동결)"
+    },
+    "y2": -4,
+    "y10": 6
+   },
+   {
+    "date": {
+     "en": "28 Aug 2026",
+     "ko": "2026.8.28"
+    },
+    "event": {
+     "en": "Warsh's Jackson Hole speech",
+     "ko": "워시의 잭슨홀 연설"
+    },
+    "y2": 14,
+    "y10": 6
+   },
+   {
+    "date": {
+     "en": "16 Sep 2026",
+     "ko": "2026.9.16"
+    },
+    "event": {
+     "en": "September 2026 FOMC (hike)",
+     "ko": "2026년 9월 FOMC(인상)"
+    },
+    "y2": 7,
+    "y10": 1
+   }
+  ]
+ },
+ "csv": "data/guidance-days.csv"
+}

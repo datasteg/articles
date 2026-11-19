@@ -1,0 +1,15 @@
+{
+ "id": "herding",
+ "term": {
+  "en": "herding",
+  "ko": "군집행동"
+ },
+ "definition": {
+  "en": "Investors copying one another's trades rather than acting on their own information. It can push prices further than news justifies, though measured herding can also reflect many investors reacting to the same news.",
+  "ko": "투자자들이 자기 정보보다 남의 매매를 따라 하는 것이다. 가격을 소식이 정당화하는 것보다 더 밀어붙일 수 있지만, 측정된 군집행동은 많은 투자자가 같은 소식에 함께 반응한 결과일 수도 있다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets"
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "id": "decision-days",
+ "form": "bars",
+ "headline": {
+  "en": "On the day of the hold the won moved 0.08%, less than on either hike day and less than on 20 of the 22 trading days in the month before",
+  "ko": "동결 당일 원화는 0.08% 움직여, 두 번의 인상일보다도, 직전 한 달 22거래일 가운데 20일보다도 덜 움직였다"
+ },
+ "title": {
+  "en": "How far the won moved against the dollar on decision days, and on an average day",
+  "ko": "통화정책 결정일과 평균 거래일의 원/달러 환율 변동 폭"
+ },
+ "subtitle": {
+  "en": "Change in won per dollar from the previous 15:30 close, %, whichever the direction, 2026",
+  "ko": "직전 15:30 종가 대비 원/달러 환율 변동률, %, 방향과 무관한 크기, 2026년"
+ },
+ "howToRead": {
+  "en": "Each bar is how far the won moved against the dollar in one day, whichever the direction; on all three decision days it strengthened. The average day is the mean size of the 22 daily moves from the 16 Sep close to the 16 Oct close, gains and losses alike.",
+  "ko": "막대는 하루 동안 원화가 달러 대비 움직인 크기로, 방향은 따지지 않았다. 세 결정일 모두 원화는 강해졌다. 평균 거래일은 9월 16일 종가부터 10월 16일 종가까지 22번의 하루 변동 크기를 오르내림과 상관없이 평균한 값이다."
+ },
+ "notes": [
+  {
+   "en": "In won, a dollar got 1.0 won cheaper on decision day, against 4.3 won on 16 Jul and 3.9 won on 27 Aug; percent keeps days at different levels comparable. The month's biggest day was 22 Sep, when a dollar got 22.8 won cheaper.",
+   "ko": "원 단위로는 동결 당일 1달러가 1.0원 싸졌고, 7월 16일에는 4.3원, 8월 27일에는 3.9원 싸졌다. 환율 수준이 다른 날끼리 비교하려고 %로 나타냈다. 그 한 달 가운데 가장 크게 움직인 날은 9월 22일로, 1달러가 22.8원 싸졌다."
+  },
+  {
+   "en": "On 23 Oct, the day after the hold, the won slipped 0.4 won. In the table, a negative change means fewer won per dollar, a stronger won; the close is won per dollar.",
+   "ko": "동결 다음 날인 10월 23일 원화는 0.4원 약해졌다. 표에서 변동이 음수면 1달러에 드는 원화가 줄었다는 뜻, 곧 원화 강세다. 종가는 달러당 원이다."
+  }
+ ],
+ "alt": {
+  "en": "Bar chart of the size of the won's daily move against the dollar at the 15:30 close: 0.50% on an average day from 16 Sep to 16 Oct, 0.29% on the 16 Jul rate rise, 0.28% on the 27 Aug rate rise and 0.08% on the 22 Oct hold. On all three decision days the won strengthened; the hold-day move was smaller than on 20 of the 22 trading days in the month before.",
+  "ko": "15:30 종가 기준 원화의 하루 변동 폭을 나타낸 막대 그래프: 9월 16일~10월 16일 평균 거래일 0.50%, 7월 16일 금리 인상일 0.29%, 8월 27일 금리 인상일 0.28%, 10월 22일 동결일 0.08%. 세 결정일 모두 원화가 강해졌고, 동결일 변동 폭은 직전 한 달 22거래일 가운데 20일보다 작았다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Size of the daily move, %",
+    "ko": "하루 변동 폭, %"
+   },
+   "unit": "%",
+   "domain": [
+    0,
+    0.6
+   ],
+   "ticks": [
+    0,
+    0.2,
+    0.4,
+    0.6
+   ],
+   "format": {
+    "decimals": 1
+   }
+  }
+ },
+ "valueFormat": {
+  "decimals": 2,
+  "suffix": "%"
+ },
+ "categories": [
+  {
+   "id": "average",
+   "label": {
+    "en": "Average day",
+    "ko": "평균 거래일"
+   },
+   "value": 0.501721
+  },
+  {
+   "id": "hike1",
+   "label": {
+    "en": "Hike, 16 Jul",
+    "ko": "7월 16일 인상"
+   },
+   "value": 0.289621
+  },
+  {
+   "id": "hike2",
+   "label": {
+    "en": "Hike, 27 Aug",
+    "ko": "8월 27일 인상"
+   },
+   "value": 0.281629
+  },
+  {
+   "id": "hold",
+   "label": {
+    "en": "Hold, 22 Oct",
+    "ko": "10월 22일 동결"
+   },
+   "value": 0.07546,
+   "highlight": true
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S1",
+   "S4"
+  ],
+  "provider": "Bank of Korea, ECOS; datasteg calculation",
+  "keys": [
+   "731Y003/D/0000003",
+   "722Y001/D/0101000"
+  ],
+  "definition": {
+   "en": "Won per US dollar, Bank of Korea 15:30 close; daily % change from the previous published close.",
+   "ko": "한국은행 15:30 종가 기준 원/달러 환율, 직전 발표 종가 대비 하루 변동률(%)."
+  },
+  "calculation": {
+   "en": "Daily move = (close ÷ previous close − 1) × 100, shown as a size (absolute value). Average day = mean size of the 22 daily moves from the 16 Sep close to the 16 Oct close.",
+   "ko": "하루 변동률 = (종가 ÷ 직전 종가 − 1) × 100, 크기(절댓값)로 표시. 평균 거래일 = 9월 16일 종가부터 10월 16일 종가까지 22번의 하루 변동 크기 평균."
+  },
+  "span": [
+   "2026-07-16",
+   "2026-10-23"
+  ],
+  "lastObservation": "2026-10-23",
+  "retrieved": "2026-10-23",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "day",
+    "label": {
+     "en": "Day",
+     "ko": "날"
+    }
+   },
+   {
+    "key": "size",
+    "label": {
+     "en": "Move, %",
+     "ko": "변동 폭, %"
+    },
+    "align": "right",
+    "decimals": 2
+   },
+   {
+    "key": "chg",
+    "label": {
+     "en": "Change, won",
+     "ko": "변동, 원"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "close",
+    "label": {
+     "en": "Close",
+     "ko": "종가"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "day": {
+     "en": "Average day, 16 Sep–16 Oct",
+     "ko": "평균 거래일, 9.16~10.16"
+    },
+    "size": 0.501721,
+    "chg": null,
+    "close": null
+   },
+   {
+    "day": {
+     "en": "Hike, 16 Jul",
+     "ko": "7월 16일 인상"
+    },
+    "size": 0.289621,
+    "chg": -4.3,
+    "close": 1480.4
+   },
+   {
+    "day": {
+     "en": "Hike, 27 Aug",
+     "ko": "8월 27일 인상"
+    },
+    "size": 0.281629,
+    "chg": -3.9,
+    "close": 1380.9
+   },
+   {
+    "day": {
+     "en": "Hold, 22 Oct",
+     "ko": "10월 22일 동결"
+    },
+    "size": 0.07546,
+    "chg": -1.0,
+    "close": 1324.2
+   }
+  ]
+ },
+ "csv": "data/decision-days.csv"
+}

@@ -1,0 +1,7 @@
+﻿Measure,Growth measured,"Weak-won quarters, %","Strong-won quarters, %","Weak-won quarters, number","Strong-won quarters, number"
+"{'en': 'Real goods exports', 'ko': '실질 재화수출'}","{'en': 'Same quarter', 'ko': '당기'}",3.646154,11.712903,52,62
+"{'en': 'Real goods exports', 'ko': '실질 재화수출'}","{'en': 'Four quarters later', 'ko': '4분기 뒤'}",6.658333,8.535484,48,62
+"{'en': 'Real GDP', 'ko': '실질 GDP'}","{'en': 'Same quarter', 'ko': '당기'}",1.975,5.08871,52,62
+"{'en': 'Real GDP', 'ko': '실질 GDP'}","{'en': 'Four quarters later', 'ko': '4분기 뒤'}",3.714583,4.187097,48,62
+"{'en': 'Real investment', 'ko': '실질 투자'}","{'en': 'Same quarter', 'ko': '당기'}",-0.656907,5.23912,52,62
+"{'en': 'Real investment', 'ko': '실질 투자'}","{'en': 'Four quarters later', 'ko': '4분기 뒤'}",3.552593,3.266489,48,62

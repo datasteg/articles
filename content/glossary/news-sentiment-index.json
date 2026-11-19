@@ -1,0 +1,16 @@
+{
+ "id": "news-sentiment-index",
+ "term": {
+  "en": "news sentiment index",
+  "ko": "뉴스심리지수"
+ },
+ "definition": {
+  "en": "A daily Bank of Korea index of how upbeat or gloomy economic news articles are, worked out from their wording. Readings above its long-run average mean news is more upbeat than usual.",
+  "ko": "한국은행이 경제 기사의 문장을 분석해 매일 내는 지수로, 경제 뉴스가 얼마나 낙관적인지 비관적인지를 나타낸다. 장기 평균보다 높으면 뉴스 분위기가 평소보다 밝다는 뜻이다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "korean-economy",
+  "financial-conditions"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "autocallable",
+ "term": {
+  "en": "autocallable",
+  "ko": "자동조기상환형 구조화상품"
+ },
+ "definition": {
+  "en": "A structured note linked to a stock or index that repays early with a fixed return if the price is at or above a set level on check dates, and can lose the investor money if the price falls below a lower barrier. The banks that sell them hedge by trading the linked shares.",
+  "ko": "주식이나 지수에 연계된 구조화 증권으로, 정해진 날에 가격이 일정 수준 이상이면 약정 수익과 함께 조기 상환되고, 가격이 하한선 아래로 떨어지면 원금 손실이 날 수 있다(흔히 '오토콜'이라 부른다). 이를 판 금융회사는 연계 주식을 사고팔아 위험을 헤지한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets",
+  "financial-stability"
+ ]
+}

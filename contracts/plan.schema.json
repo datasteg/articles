@@ -1,0 +1,170 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "plan",
+ "type": "object",
+ "properties": {
+  "answer": {
+   "type": "string",
+   "minLength": 1
+  },
+  "headline": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "string"
+    },
+    "ko": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "en"
+   ]
+  },
+  "kicker": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "string"
+    },
+    "ko": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "en"
+   ]
+  },
+  "dek": {
+   "type": "object",
+   "properties": {
+    "en": {
+     "type": "string"
+    },
+    "ko": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "en"
+   ]
+  },
+  "type": {
+   "type": "string",
+   "minLength": 1
+  },
+  "key_numbers": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  },
+  "sections": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "heading": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "uses": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 0
+     },
+     "figure": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    },
+    "required": [
+     "id"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 3
+  },
+  "figures": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "form": {
+      "enum": [
+       "line",
+       "bars",
+       "dumbbell",
+       "scatter",
+       "stat-tiles",
+       "table"
+      ]
+     },
+     "takeaway": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "id",
+     "form",
+     "takeaway"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 1
+  },
+  "glossary": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 0
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "length": {
+   "type": "object"
+  }
+ },
+ "required": [
+  "answer",
+  "headline",
+  "kicker",
+  "sections",
+  "figures"
+ ],
+ "additionalProperties": true
+}

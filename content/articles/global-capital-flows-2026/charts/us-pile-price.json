@@ -1,0 +1,420 @@
+{
+ "id": "us-pile-price",
+ "form": "line",
+ "headline": {
+  "en": "Foreigners' US stock holdings rose $15.37 trillion from end-2019 to mid-2026, but their net buying added only $2.19 trillion; the rest was price changes and other adjustments",
+  "ko": "외국인 보유 미국 주식은 2019년 말부터 2026년 중반까지 15.37조 달러 늘었지만 순매수는 2.19조 달러에 그쳤고, 나머지는 가격 변동과 기타 조정분이다"
+ },
+ "title": {
+  "en": "Rise in foreign holdings of US stocks since end-2019, and how much foreigners bought",
+  "ko": "2019년 말 이후 외국인 보유 미국 주식 증가분과 순매수 누적액"
+ },
+ "subtitle": {
+  "en": "USD billion, change since end-2019, quarterly, Q4 2019–Q2 2026",
+  "ko": "10억 달러, 2019년 말 대비 변화, 분기, 2019년 4분기~2026년 2분기"
+ },
+ "howToRead": {
+  "en": "The top line is how much more foreigners' US stocks were worth than at end-2019; the lower line is how much they had bought, net, since then. The gap between them is price changes and other adjustments.",
+  "ko": "위쪽 선은 외국인 보유 미국 주식의 가치가 2019년 말보다 얼마나 늘었는지, 아래쪽 선은 그 뒤 외국인이 순매수한 누적액이다. 두 선의 차이가 가격 변화와 기타 조정분이다."
+ },
+ "notes": [
+  {
+   "en": "The gap between the lines, $13.18 trillion by mid-2026, is in the table view. It includes price changes, revisions and other statistical adjustments, which the data do not separate.",
+   "ko": "두 선의 차이(2026년 중반 13.18조 달러)는 표 보기에 있다. 가격 변동, 통계 수정, 기타 조정분이 함께 들어 있으며 자료는 이를 따로 나누지 않는다."
+  },
+  {
+   "en": "Stocks include investment fund shares, at market value at the end of each quarter. Net buying is purchases minus sales, added up from Q1 2020.",
+   "ko": "주식에는 투자펀드 지분이 포함되며 각 분기 말 시가 기준이다. 순매수는 매수에서 매도를 뺀 값을 2020년 1분기부터 누적한 것이다."
+  },
+  {
+   "en": "Since end-2024 alone, buying was a fifth of the rise; over end-2019 to end-March 2026 it was 15% for US stocks against 67% for euro-area stocks and bonds, which are measured in euros: both comparisons are in the text.",
+   "ko": "2024년 말 이후만 보면 순매수는 증가분의 5분의 1이었다. 2019년 말~2026년 3월 말에는 미국 주식이 15%, 유로 기준으로 잰 유로존 주식·채권이 67%였다. 두 비교는 본문에 있다."
+  }
+ ],
+ "alt": {
+  "en": "Line chart, end-2019 to mid-2026. The value of foreigners' US stocks fell about $1.5 trillion below its end-2019 level in early 2020, then climbed to $15.37 trillion above it by Q2 2026. Their cumulative net purchases rose slowly, to $2.19 trillion. The widening gap, $13.18 trillion, is price changes and other adjustments.",
+  "ko": "2019년 말~2026년 중반 선 그래프. 외국인 보유 미국 주식의 가치는 2020년 초 2019년 말보다 약 1.5조 달러 줄었다가 2026년 2분기에는 15.37조 달러 많아졌다. 같은 기간 순매수 누적액은 2.19조 달러로 완만하게 늘었다. 벌어진 차이 13.18조 달러는 가격 변화와 기타 조정분이다."
+ },
+ "axes": {
+  "x": {
+   "type": "time",
+   "format": "year",
+   "ticks": [
+    "2020-Q1",
+    "2021-Q1",
+    "2022-Q1",
+    "2023-Q1",
+    "2024-Q1",
+    "2025-Q1",
+    "2026-Q1"
+   ],
+   "label": {
+    "en": "Quarter",
+    "ko": "분기"
+   }
+  },
+  "y": {
+   "label": {
+    "en": "USD billion",
+    "ko": "10억 달러"
+   },
+   "unit": "USD bn",
+   "domain": [
+    -2000,
+    16000
+   ],
+   "ticks": [
+    0,
+    4000,
+    8000,
+    12000,
+    16000
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "x": [
+  "2019-Q4",
+  "2020-Q1",
+  "2020-Q2",
+  "2020-Q3",
+  "2020-Q4",
+  "2021-Q1",
+  "2021-Q2",
+  "2021-Q3",
+  "2021-Q4",
+  "2022-Q1",
+  "2022-Q2",
+  "2022-Q3",
+  "2022-Q4",
+  "2023-Q1",
+  "2023-Q2",
+  "2023-Q3",
+  "2023-Q4",
+  "2024-Q1",
+  "2024-Q2",
+  "2024-Q3",
+  "2024-Q4",
+  "2025-Q1",
+  "2025-Q2",
+  "2025-Q3",
+  "2025-Q4",
+  "2026-Q1",
+  "2026-Q2"
+ ],
+ "series": [
+  {
+   "id": "holdings",
+   "label": {
+    "en": "Rise in holdings",
+    "ko": "보유액 증가"
+   },
+   "dataset": "derived-us-z1-hold-change-2019",
+   "color": "focus",
+   "endLabel": true,
+   "values": [
+    0.0,
+    -1524.106,
+    24.499,
+    939.279,
+    2538.387,
+    3325.646,
+    4415.551,
+    4479.397,
+    5954.374,
+    5051.09,
+    2889.713,
+    2236.643,
+    2756.956,
+    3516.414,
+    4438.659,
+    4108.79,
+    5522.255,
+    6905.769,
+    7568.025,
+    8604.663,
+    9273.036,
+    8575.965,
+    10366.956,
+    11973.048,
+    12817.167,
+    11876.381,
+    15367.967
+   ]
+  },
+  {
+   "id": "bought",
+   "label": {
+    "en": "Net buying",
+    "ko": "순매수 누적"
+   },
+   "dataset": "derived-us-z1-cumnet-2019",
+   "color": "context",
+   "endLabel": true,
+   "values": [
+    0.0,
+    274.967,
+    300.402,
+    423.75,
+    687.416,
+    790.022,
+    824.259,
+    953.874,
+    634.348,
+    517.763,
+    816.281,
+    810.645,
+    636.934,
+    722.627,
+    769.956,
+    768.645,
+    682.393,
+    583.104,
+    622.224,
+    821.33,
+    989.885,
+    1004.686,
+    1267.238,
+    1464.704,
+    1738.646,
+    1764.662,
+    2190.284
+   ]
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S1",
+   "S4"
+  ],
+  "provider": "Federal Reserve, Financial Accounts of the United States (Z.1), via FRED",
+  "keys": [
+   "BOGZ1FL263064003Q",
+   "BOGZ1FU263064003Q"
+  ],
+  "definition": {
+   "en": "Rest of the world: corporate equities and investment fund shares, US issues; holdings at market value (level) and net purchases (transactions).",
+   "ko": "해외 부문: 미국 기업 주식과 투자펀드 지분. 보유액은 시가 기준 잔액, 순매수는 거래액."
+  },
+  "calculation": {
+   "en": "Rise in holdings = holdings at each quarter-end − holdings at end-Q4 2019. Net buying = net purchases added up from Q1 2020. Gap = rise in holdings − net buying.",
+   "ko": "보유액 증가 = 각 분기 말 보유액 − 2019년 4분기 말 보유액. 순매수 누적 = 2020년 1분기부터의 순매수 합계. 차이 = 보유액 증가 − 순매수 누적."
+  },
+  "span": [
+   "2019-Q4",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-19",
+  "licence": "Federal Reserve data via FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: Federal Reserve via FRED; datasteg calculation",
+   "ko": "출처: 미 연준(FRED); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "x",
+    "label": {
+     "en": "Quarter",
+     "ko": "분기"
+    }
+   },
+   {
+    "key": "hold",
+    "label": {
+     "en": "Rise in holdings, USD bn",
+     "ko": "보유액 증가, 10억 달러"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "cum",
+    "label": {
+     "en": "Net buying, USD bn",
+     "ko": "순매수 누적, 10억 달러"
+    },
+    "align": "right",
+    "decimals": 0
+   },
+   {
+    "key": "val",
+    "label": {
+     "en": "Price and other, USD bn",
+     "ko": "가격·기타, 10억 달러"
+    },
+    "align": "right",
+    "decimals": 0
+   }
+  ],
+  "rows": [
+   {
+    "x": "2019-Q4",
+    "hold": 0.0,
+    "cum": 0.0,
+    "val": 0.0
+   },
+   {
+    "x": "2020-Q1",
+    "hold": -1524.106,
+    "cum": 274.967,
+    "val": -1799.073
+   },
+   {
+    "x": "2020-Q2",
+    "hold": 24.499,
+    "cum": 300.402,
+    "val": -275.903
+   },
+   {
+    "x": "2020-Q3",
+    "hold": 939.279,
+    "cum": 423.75,
+    "val": 515.529
+   },
+   {
+    "x": "2020-Q4",
+    "hold": 2538.387,
+    "cum": 687.416,
+    "val": 1850.971
+   },
+   {
+    "x": "2021-Q1",
+    "hold": 3325.646,
+    "cum": 790.022,
+    "val": 2535.624
+   },
+   {
+    "x": "2021-Q2",
+    "hold": 4415.551,
+    "cum": 824.259,
+    "val": 3591.292
+   },
+   {
+    "x": "2021-Q3",
+    "hold": 4479.397,
+    "cum": 953.874,
+    "val": 3525.523
+   },
+   {
+    "x": "2021-Q4",
+    "hold": 5954.374,
+    "cum": 634.348,
+    "val": 5320.026
+   },
+   {
+    "x": "2022-Q1",
+    "hold": 5051.09,
+    "cum": 517.763,
+    "val": 4533.327
+   },
+   {
+    "x": "2022-Q2",
+    "hold": 2889.713,
+    "cum": 816.281,
+    "val": 2073.432
+   },
+   {
+    "x": "2022-Q3",
+    "hold": 2236.643,
+    "cum": 810.645,
+    "val": 1425.998
+   },
+   {
+    "x": "2022-Q4",
+    "hold": 2756.956,
+    "cum": 636.934,
+    "val": 2120.022
+   },
+   {
+    "x": "2023-Q1",
+    "hold": 3516.414,
+    "cum": 722.627,
+    "val": 2793.787
+   },
+   {
+    "x": "2023-Q2",
+    "hold": 4438.659,
+    "cum": 769.956,
+    "val": 3668.703
+   },
+   {
+    "x": "2023-Q3",
+    "hold": 4108.79,
+    "cum": 768.645,
+    "val": 3340.145
+   },
+   {
+    "x": "2023-Q4",
+    "hold": 5522.255,
+    "cum": 682.393,
+    "val": 4839.862
+   },
+   {
+    "x": "2024-Q1",
+    "hold": 6905.769,
+    "cum": 583.104,
+    "val": 6322.665
+   },
+   {
+    "x": "2024-Q2",
+    "hold": 7568.025,
+    "cum": 622.224,
+    "val": 6945.801
+   },
+   {
+    "x": "2024-Q3",
+    "hold": 8604.663,
+    "cum": 821.33,
+    "val": 7783.333
+   },
+   {
+    "x": "2024-Q4",
+    "hold": 9273.036,
+    "cum": 989.885,
+    "val": 8283.151
+   },
+   {
+    "x": "2025-Q1",
+    "hold": 8575.965,
+    "cum": 1004.686,
+    "val": 7571.279
+   },
+   {
+    "x": "2025-Q2",
+    "hold": 10366.956,
+    "cum": 1267.238,
+    "val": 9099.718
+   },
+   {
+    "x": "2025-Q3",
+    "hold": 11973.048,
+    "cum": 1464.704,
+    "val": 10508.344
+   },
+   {
+    "x": "2025-Q4",
+    "hold": 12817.167,
+    "cum": 1738.646,
+    "val": 11078.521
+   },
+   {
+    "x": "2026-Q1",
+    "hold": 11876.381,
+    "cum": 1764.662,
+    "val": 10111.719
+   },
+   {
+    "x": "2026-Q2",
+    "hold": 15367.967,
+    "cum": 2190.284,
+    "val": 13177.683
+   }
+  ]
+ },
+ "csv": "data/us-pile-price.csv"
+}

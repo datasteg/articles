@@ -1,0 +1,16 @@
+{
+ "id": "dollar-invoicing",
+ "term": {
+  "en": "dollar invoicing",
+  "ko": "달러 표시 결제"
+ },
+ "definition": {
+  "en": "Setting the price of traded goods in US dollars, even when neither trading partner is the United States. Prices abroad then move little when the exporter's own currency changes.",
+  "ko": "교역 당사국이 미국이 아니더라도 수출입 상품의 가격을 미국 달러로 정하고 결제하는 관행이다. 이 경우 수출국 통화가 변해도 해외 판매 가격은 잘 바뀌지 않는다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "exchange-rates"
+ ]
+}

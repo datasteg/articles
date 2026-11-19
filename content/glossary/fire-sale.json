@@ -1,0 +1,15 @@
+{
+ "id": "fire-sale",
+ "term": {
+  "en": "fire sale",
+  "ko": "헐값 매각"
+ },
+ "definition": {
+  "en": "Selling assets quickly, below what they are worth, because the seller is forced to, for example to repay debt or meet margin calls, rather than because the news about the assets has changed. Prices hit this way tend to recover once the selling stops.",
+  "ko": "자산에 관한 정보가 바뀌어서가 아니라 부채를 상환하거나 마진콜에 응하려고 어쩔 수 없이 제값보다 싸게 서둘러 매도하는 것이다. 이렇게 떨어진 가격은 매도가 멈추면 회복되는 경향이 있다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "financial-stability"
+ ]
+}

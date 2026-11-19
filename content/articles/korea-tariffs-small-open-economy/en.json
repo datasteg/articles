@@ -1,0 +1,602 @@
+{
+ "kicker": "Trade",
+ "title": "Korea's steel fell and cars stalled in the year of US tariffs, but exports set a record",
+ "dek": "US duties reached 11.3% of goods imports in late 2025, yet Korea's goods exports rose 2.1% to a record while steel export values fell 7.6%; the research finds a bystander loses little from one country's tariffs and far more once every country raises them.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "11.3%",
+   "label": "US customs duties as a share of goods imports at their Q4 2025 high, against 3.5% at the first trade war's high in Q4 2019 and 8.2% in Q2 2026",
+   "cite": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "value": "2.1%",
+   "label": "Change in Korea's goods exports (balance-of-payments basis) in 2025, a record year; January to August 2026 ran 59% above a year earlier",
+   "cite": [
+    "S8"
+   ]
+  },
+  {
+   "value": "−7.6%",
+   "label": "Change in Korea's export value index for primary steel products in 2025, a sector facing US sectoral tariffs; semiconductors rose 22.4%",
+   "cite": [
+    "S11",
+    "S12"
+   ]
+  }
+ ],
+ "findings": [
+  "The US tariffs collected in 2025 were the highest since 2000 but far below those announced: the rate on all goods imports peaked at 11.3% in Q4 2025, 3.2 times the first trade war's high, and eased to 8.2% in Q2 2026; the rate on Korean goods rose from near zero to about nine per cent [[S1,S2,S3]].",
+  "US imports were rerouted rather than cut: China's share fell from 13.5% in 2024 to 7.6% in January to August 2026 while Mexico, Vietnam, Taiwan and Korea gained 9.8 pp between them and total imports kept growing; in the 2018–19 trade war Korea was named among the largest export winners from the same diversion [[S4,S5,S6,S7]].",
+  "Korea's totals show no damage so far: goods exports set a record in 2025 and were 59% higher in January to August 2026, the ((current-account)) surplus was a record USD 123bn in 2025, and GDP dipped only 0.2% and 0.1% in two quarters of 2025 against a 3.4% fall in Q4 2008; the split showed in the tariffed sectors, with steel export values down 7.6% in 2025 while semiconductors rose 22.4% [[S8,S9,S10,S11,S12]].",
+  "The BIS model puts Korea's loss from the 2025 tariffs at about a third of a per cent of output, far below Canada's and Mexico's, because under targeted tariffs position in supply chains matters more than size: Korea, with trade worth 91.5% of its national income, gains little from diversion because its value added travels inside Chinese exports and its trade straddles several hubs [[S13,S14,S15,S16]].",
+  "If protectionism reached every country, the diversion gains would vanish and Korea's modelled loss grows six- to twelvefold: two per cent of potential output or more in technology-bloc scenarios and close to four per cent of GDP, the largest of any OECD region, under China–OECD friend-shoring, a long-run figure its authors treat as an upper bound; deepening trade with other partners, not retaliation, is the response the models find offsets the loss, and the live indicator, US trade-policy uncertainty, was still 13 times its pre-2017 average in August 2026 [[S15,S17,S18,S19]]."
+ ],
+ "question": {
+  "asked": "How have the 2025 US tariffs changed Korea's trade so far, and how much would a trade-dependent economy like Korea lose, according to research and data, if protectionism stays aimed at a few countries or spreads everywhere and favours neighbours?",
+  "lookedAt": "How far US tariffs have actually risen since 2025 and where US imports have moved, how Korea's exports, growth, current account and currency have fared since then, and what studies of trade wars and fragmentation say a trade-dependent economy loses or gains when protectionism stays targeted or reaches every country.",
+  "premiseNote": "Korea's exports have not fallen under the 2025 US tariffs so far: 2025 was a record year and 2026 is running far above it, with shipments to the US dipping and those to China slipping slightly in 2025, so whether Korea loses depends on whether protectionism reaches beyond the US."
+ },
+ "sections": [
+  {
+   "id": "tariff-shock",
+   "heading": "The tariffs that bit were about half of those announced",
+   "summary": "The collected US tariff rate more than tripled in 2025, stayed well below announced rates, and is receding.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The tariff the US actually collected more than tripled in 2025, to the highest share of imports since 2000, yet it stayed far below the rates announced. The ((effective-tariff-rate)) is customs duties collected divided by the value of goods imports: the tariff that bit, not the one in the headlines. It was 2.6% in 2024, 8.3% in Q2 2025 and reached 11.3% in Q4 2025 [[S1,S2]]."
+    },
+    {
+     "type": "p",
+     "text": "Since then it has come down. The rate was 9.5% in Q1 2026 and 8.2% in Q2 2026, 3.1 pp below its high [[S1,S2]]. The chart below shows the whole path since 2000, with the first US–China trade war of 2018–19 marked for scale."
+    },
+    {
+     "type": "figure",
+     "chart": "tariff-rate"
+    },
+    {
+     "type": "p",
+     "text": "That first trade war now looks small. Its high was 3.5% in Q4 2019; the 2025 high was 3.2 times that, and the latest quarter is still 2.4 times it [[S1,S2]]. Over 2000–17 the rate averaged 1.5% [[S1,S2]]. Duties collected rose from USD 84bn in 2024 to USD 269bn in 2025 [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "The announced rates ran far higher. Economists at the Federal Reserve Bank of Richmond put the collected rate at just under eight per cent for 2025 and eleven per cent in October, a level not seen in the US since the mid-twentieth century [[S3]]. By December the statutory rate was about seventeen per cent while a little over nine per cent was collected [[S3]]. Part of the gap is firms moving their sourcing away from China towards lower-tariff suppliers such as Vietnam [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "For Korea the shock was real but middling. The same study puts the realized tariff on Korean goods at about nine per cent in 2025, up from near zero in 2024 [[S3]]. In the paper's table that is below Japan's eleven per cent and far below China's roughly thirty-two per cent [[S3]]. About ninety-eight per cent of the increase was passed into the prices US importers paid, so foreign exporters did not cut their prices to absorb it [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "The tariffs were also layered by sector. Per the paper's table, realized rates on transportation equipment rose from under two per cent to over eleven, and on primary metals to over nine, while computers and electronics rose only to about three per cent [[S3]]. That is why Korea's cars and steel faced one shock and its chips another. The shock is the largest in the data, smaller than the headlines, and already receding; the next section shows where the imports went."
+    }
+   ]
+  },
+  {
+   "id": "rerouting",
+   "heading": "US imports moved to Mexico, Vietnam and Taiwan, and Korea's share rose too",
+   "summary": "China's share of US imports fell to a third of its peak; the bystanders gained, as in 2018–19.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The targeted tariffs rerouted US imports rather than cutting them. US goods imports were USD 3,264bn in 2024 and USD 3,415bn in 2025, a rise of 4.6%, and January to August 2026 ran 4.1% above a year earlier [[S5]]. What changed is who supplies them. As the Bank of Korea's governor put it, this is \"less a shrinkage of global trade than a reorganization\" [[S20]]."
+    },
+    {
+     "type": "p",
+     "text": "China lost most. Its share of US goods imports was 21.6% in 2017, 13.5% in 2024, 9.0% in 2025 and 7.6% in January to August 2026, 35% of its peak [[S4,S5]]. The fall of 4.5 pp in 2025 alone was well over three times the average yearly fall of 1.2 pp over 2017–24, a tariff-shaped acceleration of a trend that predates 2025 [[S4,S5]]. The chart below shows each origin's share as a twelve-month sum."
+    },
+    {
+     "type": "figure",
+     "chart": "import-shares"
+    },
+    {
+     "type": "p",
+     "text": "The gainers were the economies next in line. Mexico's share rose from 15.4% in 2024 to 17.4% in the first eight months of 2026 [[S21,S5]]."
+    },
+    {
+     "type": "p",
+     "text": "Vietnam's rose from 4.2% to 7.3% and Taiwan's from 3.6% to 7.7% [[S22,S5,S23]]. Korea's rose from 4.0% to 4.6%, after a dip in 2025 that the next section returns to [[S6,S5]]. Between them the four added 9.8 pp [[S21,S5,S22,S23,S6]]."
+    },
+    {
+     "type": "p",
+     "text": "In dollars, US imports from Vietnam, Taiwan and Mexico rose 43.5%, 56.8% and 18.3% in January to August 2026 against a year earlier [[S22,S23,S21]]. Imports from China fell 29.9% in 2025 and a further 16.3% in 2026 so far [[S4]]. The EU's share fell from 18.6% to 15.2% and Canada's from 12.6% to 11.2% [[S24,S5,S25]]."
+    },
+    {
+     "type": "p",
+     "text": "This is what research on the first trade war would predict. ((trade-diversion|Trade diversion)) is what happens when a tariff hits one supplier and buyers switch to others, so a ((bystander-effect|bystander)) outside the tariff can gain. In 2018–19 the average bystander raised its exports of the tariffed products, relative to other products, to the whole world and not only to the US [[S7]]. Korea was named with Vietnam, Thailand and Mexico among the largest export winners, though the paper gives Korea's figure only in a chart [[S7]]."
+    },
+    {
+     "type": "p",
+     "text": "Who gained depended on what a country sells. Economies whose goods substitute for Chinese goods in the US market gained; those whose goods complement US or Chinese exports lost [[S7]]. Vietnam's gains were genuine reallocation of production, not Chinese goods passing through [[S26]]. The IMF's study of 'connector' countries covers India, Indonesia, Malaysia, the Philippines, Thailand and Vietnam, not Korea, so its results cannot be read as describing Korea [[S26]]."
+    },
+    {
+     "type": "p",
+     "text": "The BIS model of the 2025 tariffs makes the same point: narrowing the tariffs to China and a few sectors turns Vietnam's modelled result from a small loss to a gain, as US imports pivot away from China [[S13]]. This is the targeted case, the one in the data, and it is the case in which bystanders gain. The question is what Korea's own numbers show."
+    }
+   ]
+  },
+  {
+   "id": "korea-so-far",
+   "heading": "Korea's totals show no damage; shipments to the US fell and those to China slipped",
+   "summary": "Exports set records, GDP dipped slightly twice, and shipments to the US fell while those to China slipped.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Korea's totals show no damage so far. Goods exports were USD 719bn in 2025, 2.1% above 2024, which was itself the previous record [[S8]]. These are the balance-of-payments figures the Bank of Korea publishes; they run above the customs count and are the series this article can chart. In the first eight months of 2026 exports reached USD 733bn, 59% above a year earlier [[S8]]."
+    },
+    {
+     "type": "p",
+     "text": "June 2026 was the strongest month since 2000 at USD 112bn, and August ran 82% above a year earlier [[S8]]. Within 2025, four months were below a year earlier, the weakest being January 2025 at −9.1% [[S8]]. The chart below shows exports as a twelve-month sum, with earlier downturns marked for scale."
+    },
+    {
+     "type": "figure",
+     "chart": "exports-record"
+    },
+    {
+     "type": "p",
+     "text": "A real fall looks different. In 2009 exports fell 15.9% over the year and 33% in the worst month, with 12 months of decline in a row from November 2008 [[S8]]. In 2019, during the first trade war, they fell 11.1%; in 2023, in the chip downturn, 8.0% [[S8]]."
+    },
+    {
+     "type": "p",
+     "text": "The aggregate that fell most was shipments to the US. US imports from Korea, the publishable mirror of that trade, fell 4.5% in 2025, were below a year earlier in nine months of that year, and dropped 15.0% in April 2025 [[S6]]. In January to August 2026 they rose 28.2% [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "Korea Customs Service figures, which cannot be charted here, tell the same story in words. Customs exports also set a record in 2025, while shipments to the US fell by about four per cent, more after April than before [[S27]]. Shipments to China slipped slightly and shipments elsewhere rose. The US and China take roughly a fifth of Korea's exports each, as the governor says [[S20]]."
+    },
+    {
+     "type": "p",
+     "text": "Growth dipped but did not fall away. Real GDP shrank 0.2% in Q1 2025 and 0.1% in Q4 2025, with growth of 0.6% and 1.4% in between [[S10]]. From the last quarter of 2024 to the last quarter of 2025 it grew 1.7% [[S10]]; the Bank of Korea's figure for 2025 as a whole is one per cent [[S28]]."
+    },
+    {
+     "type": "p",
+     "text": "The Q1 2025 dip was 6% of the 3.4% fall of Q4 2008, the deepest since 2000, and the weakest quarter of the first trade war was 0.0% in Q1 2019 [[S10]]. Then came 1.8% in Q1 2026, the strongest since Q4 2021, and 0.6% in Q2 [[S10]]."
+    },
+    {
+     "type": "p",
+     "text": "The Bank of Korea's own account fits. Governor Chang Yong Rhee dated the sharp deterioration in the trade environment to the April 2025 tariffs, alongside a first-quarter contraction from a domestic political shock [[S28]]. He put 2025 growth at one per cent and projected close to two per cent for 2026 [[S28]], but only one point four per cent without the IT sector [[S28]]. By June 2026 his successor, Governor Hyun Song Shin, spoke of a sharp acceleration driven by semiconductor exports and the AI expansion, and did not dwell on tariffs [[S29]]."
+    },
+    {
+     "type": "p",
+     "text": "The ((current-account)) surplus was a record USD 123bn in 2025, against USD 100bn in 2024 and the previous record of USD 105bn in 2015 [[S9]]. In January to August 2026 it was USD 279bn, 4.0 times the same months of 2025, and 2025 had no deficit month [[S9]]."
+    },
+    {
+     "type": "p",
+     "text": "The won did not collapse when the tariffs came. It averaged 1,457.0 won to the dollar in March 2025 and 1,444.3 won in April [[S30]]. It was 1,467.4 won in December 2025, a level the governor called misaligned with fundamentals and blamed on interest-rate and growth gaps, the 'Korea discount' and outflows, and did not attribute it to tariffs [[S28]]. It reached 1,527.3 won in June 2026, the weakest monthly average in data back to 2000, and recovered to 1,359.0 won in September [[S30]]."
+    },
+    {
+     "type": "p",
+     "text": "On the totals, Korea has not been hurt. The next section turns to the sectors the tariffs named."
+    }
+   ]
+  },
+  {
+   "id": "sectors",
+   "heading": "The tariffed sectors: steel down, cars stalled, chips up",
+   "summary": "Steel and chemicals export values fell and cars stalled in 2025, while exempt semiconductors soared.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The record totals hide a split. Export values of primary steel, a sector under US sectoral tariffs, and of chemicals fell in 2025 [[S11,S31,S3]]. Cars, in a transport-equipment group whose realized rate rose to over eleven per cent, barely grew, while semiconductors, largely exempt, rose by more than a fifth [[S32,S12,S3]]."
+    },
+    {
+     "type": "p",
+     "text": "The figures are the Bank of Korea's export value indices, which track each product's dollar export value against its 2020 average. They show each product's own path, not its share of exports, and cannot be added up."
+    },
+    {
+     "type": "p",
+     "text": "Comparing 2025 with 2024 on annual averages, all goods rose 3.1%, semiconductors 22.4% and motor vehicles 1.5% [[S33,S12,S32]]. Primary steel fell 7.6% and chemicals 4.0% [[S11,S31]]. After the April tariffs the pattern was the same: from April to December 2025, chips were 27.3% above a year earlier and steel 7.6% below [[S12,S11]]. The chart below shows the five product groups."
+    },
+    {
+     "type": "figure",
+     "chart": "sector-split"
+    },
+    {
+     "type": "p",
+     "text": "The monthly detail sharpens it. Steel was below a year earlier in 11 months of 2025 and chemicals in nine months, against five months for cars and one months for chips [[S11,S31,S32,S12]]. Steel's worst month was October 2025 at −18.3% [[S11]]. Cars' worst was January 2025 at −19.6%, before the tariffs took effect [[S32]]."
+    },
+    {
+     "type": "p",
+     "text": "In 2026 the chip boom took over. The semiconductor index was 189% above a year earlier in January to September 2026 and hit 733 in September, a record and 7.3 times its 2020 average [[S12]]. All goods rose 60% to a record 287 [[S33]]."
+    },
+    {
+     "type": "p",
+     "text": "The tariffed sectors did not share in it. Cars fell 4%, steel edged up 1% and chemicals rose 10% [[S32,S11,S31]]. Steel in September 2026 stood at 74% of its January 2022 record [[S11]]."
+    },
+    {
+     "type": "p",
+     "text": "The pattern fits the tariff layering: transportation equipment and primary metals faced realized rates near ten per cent or more, computers and electronics about three [[S3]]. The governor's figures tell the same story from the other side: growth without IT would be one point four per cent instead of one point eight, with a widening gap between headline numbers and how the economy feels [[S28]]. The 2026 acceleration is a semiconductor and AI story, in the central bank's words [[S29]]."
+    },
+    {
+     "type": "p",
+     "text": "Two cautions. The indices do not split by destination, so they cannot say how much of the steel fall was US-bound. And no study separates the tariff from what came with it: shipments pulled forward early in 2025, the chip cycle, and the uncertainty of that year. The sector pattern fits the tariffs; it does not measure their cost."
+    },
+    {
+     "type": "p",
+     "text": "Both readings are true, no damage in the totals and damage in the tariffed sectors, and what the models add is how large the cost could be in different worlds."
+    }
+   ]
+  },
+  {
+   "id": "position",
+   "heading": "Position beats size: why Korea gains less from diversion than Vietnam",
+   "summary": "Korea is open but its exposure comes from where it sits in supply chains, not from size.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Under one country's tariffs, where an economy sits in supply chains decides its exposure more than its size; in a general fragmentation one IMF model gives size about half the explanation. Start with ((trade-openness)): Korea's exports plus imports of goods and services were 91.5% of its gross national income in 2025, up from 90.1% in 2024 [[S16]]. The peak was 105.0% in 2011; the low since then was 68.6% in 2020, and the pre-pandemic low 72.8% in 2016 [[S16]]. In nine years since 1960 the ratio has been at or above ninety per cent [[S16]]."
+    },
+    {
+     "type": "p",
+     "text": "Open, then, but not the most open. Against GDP, the Netherlands was at 152.7% in 2025 and Belgium at 152.5% [[S34]]. Ireland was at 256.2%, Germany 78.0% and the euro area 93.6% [[S34]]."
+    },
+    {
+     "type": "p",
+     "text": "The denominators differ, national income for Korea and GDP for the others, and the European ratios include trade within the euro area. So this is a rough placing, not a league table."
+    },
+    {
+     "type": "p",
+     "text": "On those measures Korea is 13.5 pp above Germany and 61.2 pp below the Netherlands [[S16,S34]]."
+    },
+    {
+     "type": "p",
+     "text": "The ((small-open-economy)) of the reader's question is used here in its everyday sense, a trade-dependent economy, since no study in the run tests whether Korea takes world prices as given. Two more measures of dependence come from the governor. Manufacturing is about twenty-seven per cent of GDP, roughly double the OECD average by his footnote [[S20]], and export dependence on the US and on China is roughly twenty per cent each [[S20]]. The customs data say the same in words: about a fifth each in the first eight months of 2026, about two fifths together."
+    },
+    {
+     "type": "p",
+     "text": "Size and openness do matter in the models. Smaller economies rely more on trade, so a uniform rise in barriers everywhere costs them more; in one IMF study's variance decomposition, economy size explains about half of the differences in fragmentation losses across countries [[S35]]. In every decoupling scenario of another, more open economies with small shares of the world economy lose more, partly because monetary stimulus leaks abroad through trade [[S15]]."
+    },
+    {
+     "type": "p",
+     "text": "But when one country raises tariffs, position matters more. In the BIS model of the August 2025 tariffs, per the paper's table of country results, Canada loses about one and a half per cent of output and Mexico nearly as much [[S13]]. Ireland loses about one per cent, Korea a third of a per cent, Taiwan and China about a fifth, Vietnam less, and Germany and Japan under a tenth [[S13]]. In the BIS Quarterly Review's companion model, the losses follow how large trade with the US is relative to the economy and the tariff each faces [[S36]]."
+    },
+    {
+     "type": "p",
+     "text": "Economies with limited exposure to the highest rates, or with diversified markets, fare better [[S13]]. An IMF model of the April 2025 package finds the same: the larger losses fall on smaller economies facing high rates, such as East Asian ones, and on those most exposed to the US market, Canada and Mexico [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "Korea has two particulars. First, Chinese electronics shipped to the US carry a lot of Korean value added, so in an IMF model of a US–China escalation Korea barely benefits from reduced Chinese competition while Malaysia gains a lot [[S14]]. If it were as easy for the US to make those goods at home, diversion would be more muted [[S14]], and Korea's small gains could turn into losses [[S14]]."
+    },
+    {
+     "type": "p",
+     "text": "Second, its ((global-value-chain|value chains)) straddle China, the US and Europe. The IMF names Korea as the example of a country that \"either benefits marginally or is more likely to lose\" when the world splits into technology blocs, while single-hub Mexico gains [[S15]]."
+    },
+    {
+     "type": "p",
+     "text": "Exposure also depends on alignment and on what a country imports [[S35]], and economies aligned with one major hub lose less than those distant from all of them [[S35]]. The governor's framing is the same: Vietnam, India and Indonesia gain from 'China plus one' diversification, while Korea and Japan, embedded in existing supply chains, face adjustment pressures [[S20]]. This is why Korea's answer differs from Vietnam's, and why the general case, next, is where Korea's number grows."
+    }
+   ]
+  },
+  {
+   "id": "scenarios",
+   "heading": "A third of a per cent under one country's tariffs, two to four if the world splits",
+   "summary": "Korea's modelled loss grows from a third of a per cent to two to four per cent as protectionism widens.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Korea's modelled loss scales with how far protectionism reaches. The numbers in this section are not data. Each is a model's deviation from a world without the tariff change, for a named scenario and horizon, and 'short run' and 'long run' are stages of adjustment, not years. None is a forecast."
+    },
+    {
+     "type": "p",
+     "text": "The table below walks up the ladder from the narrowest scenario to the broadest."
+    },
+    {
+     "type": "figure",
+     "chart": "scenario-ladder"
+    },
+    {
+     "type": "p",
+     "text": "On the bottom rung sit the tariffs in force on 25 August 2025, with Korea at fifteen per cent. In the BIS model Korea's output is about a third of a per cent lower in both the short and the long run, against roughly one per cent and three quarters of a per cent for the US [[S13]]. Narrowing the tariffs to China and some sectors roughly halves the modelled world loss and turns Vietnam's loss into a gain [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "In the IMF's model of the 2019 trade-war scenarios, aggregate GDP effects are small but mostly negative, while sectoral spillovers to highly exposed bystanders can be large [[S14]]."
+    },
+    {
+     "type": "p",
+     "text": "An ECB model of the 2025 escalation shows the sign flipping. The euro area, as a bystander, gains output on impact from diversion and ends with a marginal welfare gain [[S37]]. Once a ten-point US tariff hits its own goods, that turns into a welfare loss of about one per cent [[S37]]. Diversion weakens once several large economies are targeted at the same time [[S37]]."
+    },
+    {
+     "type": "p",
+     "text": "The next rung is a global trade war with full retaliation by the EU, China and Canada, in the ECB's global model. It cuts US GDP by close to two per cent, China's by nearly three and the euro area's by under one at the trough; Emerging Asia's GDP is not reported [[S38]]. Trade shifts towards the least-tariffed regions [[S38]], but that does not stop world trade from contracting [[S38]]."
+    },
+    {
+     "type": "p",
+     "text": "In a world of technology blocs, the IMF puts Korea's long-run potential output two per cent lower if every country must align with one hub in a US–China split [[S15]]. The loss is a little larger in a three-bloc version and close to three per cent in a China–OECD split even without forced alignment [[S15]]. Korea gains slightly only when the split is US–China or three-way and it stays open to all hubs [[S15]]. Most countries lose, and losses scale with the degree of fragmentation [[S15]]."
+    },
+    {
+     "type": "p",
+     "text": "The top rungs are ((friend-shoring)) and reshoring. Unwinding trade integration to its 2000 level costs the world four and a half per cent of long-run GDP if China and the OECD reshore, and up to about two per cent if they friend-shore [[S17]]. Under China–OECD friend-shoring Korea, modelled as a member of the OECD bloc that itself de-risks, has the largest loss of any OECD region, close to four per cent of GDP, against about one per cent for the US [[S17]]. Under full reshoring OECD regions lose between about four and ten per cent, with the larger losses in open economies with strong China links, Korea being the paper's example [[S17]]."
+    },
+    {
+     "type": "p",
+     "text": "Third countries do not gain from that world: the trade diverted to them is more than offset by weaker demand from China and the OECD [[S17]]. In a broader IMF study of ((geoeconomic-fragmentation)), the median emerging Asian economy loses eighty per cent more real income per head than the median advanced economy [[S35]]."
+    },
+    {
+     "type": "p",
+     "text": "Two cautions before reading these as one scale. The figures differ by six to twelve times because the shocks do: the 2025 schedule against the unwinding of two decades of integration. The models also differ in class and horizon, and the authors of the largest numbers describe their scenarios as an upper bound on trade-channel losses [[S17]]. And short-term gains from reallocation can raise long-run vulnerability, a claim the IMF makes for its connector countries, not for Korea [[S26]]."
+    },
+    {
+     "type": "p",
+     "text": "The reader's scenario, every country protectionist and favouring neighbours, sits between the retaliation and friend-shoring rungs and is modelled by none of them exactly. What the models agree on is the direction: bystander gains vanish once barriers rise everywhere."
+    }
+   ]
+  },
+  {
+   "id": "uncertainty-and-responses",
+   "heading": "The Bank of Korea's account of 2025 dwells on uncertainty, and the response that pays is integration",
+   "summary": "The Bank of Korea's account of 2025 dwells on uncertainty; models favour integration over retaliation.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Bank of Korea's account of 2025 dwells on the uncertainty around the investment agreement, not on the tariff rate, and the research ranks Korea's own options by what they do to real income. ((trade-policy-uncertainty|Trade-policy uncertainty)) is measured here by an index that counts how often US newspapers discuss it, scaled so that its 1985–2010 average is 100; it captures US policy noise, not Korean conditions [[S19]]."
+    },
+    {
+     "type": "p",
+     "text": "The index hit a record 7,956 in April 2025, 4.1 times its 2018–19 high of 1,947 in August 2019 [[S19]]. The 2025 average was 4.8 times the 2019 average [[S19]]. Of the seventeen months from April 2025 to August 2026, 12 months stayed above the 2018–19 high [[S19]]. The chart below shows the index since 2015."
+    },
+    {
+     "type": "figure",
+     "chart": "uncertainty"
+    },
+    {
+     "type": "p",
+     "text": "By August 2026 the index had fallen to 1,213, the lowest since January 2025 and 85% below the record, yet still 13 times its 1985–2016 average of 94 [[S19]]."
+    },
+    {
+     "type": "p",
+     "text": "Governor Rhee's account of 2025 is about this channel. The trade conflict around the Korea–US investment agreement persisted until the APEC leaders' meeting at the end of October 2025 and made the pace of recovery hard to judge [[S28]]. The deal's US-bound investment of up to twenty billion dollars a year is a ceiling that the memorandum ties to exchange-rate stability, and he acknowledged market concern that such flows could weaken the won [[S28]]."
+    },
+    {
+     "type": "p",
+     "text": "Korean facilities investment fell 1.8% in Q2 2025 and 1.6% in Q4, 1.9% over the year, then jumped 6.6% in Q1 2026 [[S39]]. That is the pattern the uncertainty channel predicts, not proof of it."
+    },
+    {
+     "type": "p",
+     "text": "What about Korea's own response? The models report findings, not advice. If every partner retaliates against the US with matching tariffs, the IMF finds the US loss doubles, from a fifth to two fifths of a per cent of real income [[S18]]. Most partners end no better off and world income falls further [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "In the ECB's three-country model a bystander's best retaliatory tariff raises its own welfare by under a fifth of a per cent [[S37]]. It costs the bystander's partners half to four fifths of a per cent and brings a temporary recession at home [[S37]]. Non-aligned economies can offset only a small part of fragmentation losses through regional trade [[S35]]."
+    },
+    {
+     "type": "p",
+     "text": "Integration is the response the models find pays. If partners deepen trade with each other, through RCEP deepening and an EU–CPTPP deal, Korea's and Japan's real exports rise by up to fifteen per cent in the long run, more than offsetting the exports lost to US tariffs [[S18]]. Japan, the EU and the smaller East Asian economies gain the most in real income, between half and one and a fifth per cent, and world income rises even with the US tariffs in place [[S18]]. The IMF authors conclude that \"further economic integration emerges as the dominant policy response to the US tariffs\" [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "Monetary policy can soften the blow but not undo it. In the BIS counterfactual for the US, a central bank that looks through the tariff shock cuts the three-year output loss from one point six per cent of GDP to a tenth of a per cent [[S36]]. The cost is higher inflation [[S36]]."
+    },
+    {
+     "type": "p",
+     "text": "In the ECB's global model a standard consumer-price rule tightens into the shock and deepens the contraction [[S38]], and the dollar pricing of most of Emerging Asia's exports matters more for outcomes than diversion does [[S38]]. These are US or generic model results, not Bank of Korea findings."
+    },
+    {
+     "type": "p",
+     "text": "The Bank of Korea cut its base rate twice in early 2025, from 3.00% to 2.50% by May 2025, and raised it twice from July 2026 back to 3.00% [[S40]]."
+    }
+   ]
+  },
+  {
+   "id": "model",
+   "heading": "How one could measure the cost, and model the world of tariffs",
+   "summary": "Estimate what targeted tariffs cost Korea's exports, then simulate broader scenarios from that.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A model of what the tariffs cost Korea would have two layers, one that can be tested and one that cannot. The first estimates, from Korea's monthly exports by product and market, how much the targeted tariffs of 2018–19 and 2025 cost, with controls for the chip cycle and uncertainty. The second feeds those responses into a multi-country trade model to compare scenarios against a world without tariffs. The outcome is the shortfall in Korea's goods exports by product and destination, four and twelve months after a tariff change, with the models' real-income figures alongside as a second, non-comparable scale."
+    },
+    {
+     "type": "p",
+     "text": "Five drivers, each with its evidence:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The tariff actually collected on Korean goods, by product, is the shock that bit, since realized rates ran far below announced ones [[S3]]; about ninety-eight per cent of it passed into US import prices, which leaves volumes rather than exporter prices to carry any adjustment [[S3]].",
+      "The tariff on Korea's rivals in the same product and market is the diversion term, positive where Korean goods substitute for the tariffed ones [[S7]]; it weakens once several rivals are tariffed at the same time [[S37]], while the bystander's own gain turns into a loss once it is tariffed itself [[S37]].",
+      "Korean value added inside rivals' exports is why diversion helps Korea less than it helps Malaysia in the models, and less than Vietnam in the governor's account [[S14,S20]]; nothing in the run measures it.",
+      "Trade-policy uncertainty is the channel the governor describes [[S28]]; the index was 13 times its pre-2017 average even in August 2026 [[S19]].",
+      "The breadth of protectionism, targeted or general, is the switch between the estimated case and the simulated one, and it has only one observed value [[S17,S15,S35]]."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The table below sets out each piece: what it measures, where the data would come from, whether it can be published, which layer uses it, and the research behind it."
+    },
+    {
+     "type": "figure",
+     "chart": "model-design"
+    },
+    {
+     "type": "p",
+     "text": "The controls are what could be mistaken for a tariff effect. Semiconductor export values rose 27.3% from April to December 2025 while primary steel fell 7.6%, so a chip-cycle control is essential, but one built from Korea's own chip exports would remove part of the effect being sought [[S12,S11,S29]]. US imports from all countries rose 4.6% in 2025, so the market did not shrink in the first year [[S5]]. The won and the base rate enter as controls in the first layer and as policy rules in the second [[S28,S38,S36]]."
+    },
+    {
+     "type": "p",
+     "text": "The first layer is a product-by-destination panel with local projections, in the design of the World Bank study of the first trade war, which identifies the tariff effect from tariffed against untariffed products in the same market and month [[S7]]. That is exactly the split 2025 offers, cars and steel against chips. It has nothing to say when every product is tariffed, because the comparison group disappears."
+    },
+    {
+     "type": "p",
+     "text": "The second layer is a multi-country input-output trade model, a ((cge-model|computable general equilibrium model)) of the kind behind the BIS estimate of the 2025 tariffs [[S13]]. It can simulate any schedule and carries supply-chain position, but it is static and needs its elasticities from somewhere. A global model with value chains, the family in which Korea loses most under friend-shoring, is kept as the comparison for the monetary and exchange-rate questions [[S17,S15,S38]]."
+    },
+    {
+     "type": "p",
+     "text": "How it would be tested. Pre-trends must be parallel in 2015–17 and 2022–24. Estimate on 2015–19, when Korea was a bystander, and test on 2025–26, when it was targeted; a placebo on 2020–21 must find no tariff effect. Compare with three benchmarks: no effect, a random walk, and simple share arithmetic."
+    },
+    {
+     "type": "p",
+     "text": "The published Korea rows are the external checks, each with its scenario. A third of a per cent in the BIS model [[S13]]; two per cent or more in bloc scenarios [[S15]]; close to four under friend-shoring [[S17]]; exports up to fifteen per cent higher under integration [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "Six scenarios would be run. No tariff change; the 2025 schedule as collected; the same with retaliation by all partners [[S18]]; and blocs, with barriers between treaty-aligned groups [[S15]]. Then the general case, every country raising tariffs with a discount for neighbours, which no document models exactly [[S17,S37]]; and the integration response [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "The first layer can be validated. The second produces scenario arithmetic whose answer is a multiple of an estimated quantity, not an estimate itself."
+    }
+   ]
+  },
+  {
+   "id": "limits",
+   "heading": "What such a model cannot do",
+   "summary": "The general scenario has never happened, so no model of it can be validated; the limits come first.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The scenario the reader asks about has never happened in the data, so no model can be validated against it. The design can estimate what targeted tariffs did to Korea's exports, and then only compare hypothetical worlds under assumptions the data cannot pin down. The limits, in order of weight:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "One observed regime. Only targeted protectionism has occurred since 2000, so the general case is scenario arithmetic whose answer depends on how easily buyers switch suppliers and how far barriers travel [[S17,S15,S35]]. The authors of the largest numbers describe their scenarios as an upper bound on trade-channel losses [[S17]].",
+      "Two episodes. Korea's own tariff was near zero in 2024, on the eve of the 2025 rise, and about nine per cent in 2025 [[S3]]; the run holds no Korea rate for 2018–19, when Korea was a bystander, so the own-tariff response rests on one episode that is not over.",
+      "Confounders. The data cannot separate the tariff from the investment-agreement standoff and record uncertainty from April to October 2025 [[S28]], from shipments front-loaded early in 2025 that no study measures for Korea, or from the chip upturn [[S29]]. Chips rose 27.3% after the April tariffs while steel fell 7.6%, and controlling for the chip cycle with Korea's own chip exports removes part of the effect [[S12,S11]].",
+      "Thin Korea rows. Korea's figures in the multi-country models are single table rows, with short and long run as adjustment stages, not years, and the run has no input-output data for a Korea calibration [[S13,S17]].",
+      "Publication. Korea's customs exports by destination are not cleared for publication, and exports by product and destination together are in no source this article can use, so results by market can be described only in words, and the publishable mirror covers one destination [[S6]].",
+      "The biggest uncertainty is outside the model: what tariff rates will be. The design takes tariff paths as inputs and never says which will occur.",
+      "The uncertainty index is built from US newspapers and measures US policy noise, not Korean conditions [[S19]].",
+      "Monetary policy and the won are absent from the estimated layer and simplified in the simulated one, and the literature disagrees on whether diversion or dollar pricing and the monetary rule matter more [[S37,S38]]."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "This is a design, not a forecast. No probability is attached to any scenario."
+    }
+   ]
+  },
+  {
+   "id": "appendix",
+   "heading": "Technical appendix: the model design",
+   "summary": "The variables, the two layers, the validation plan and the scenario set, written for researchers.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Target. The shortfall in Korea's goods exports attributable to tariffs, against a counterfactual without the tariff change, split by product group (semiconductors, motor vehicles, primary steel, chemicals, other) and destination (United States, China, other), at horizons of four and twelve months. The measure is the percentage difference between the twelve-month sum of exports and its counterfactual, in US dollars. For the simulated general case, the percentage change in Korea's real exports and real income against a no-tariff baseline, reported with its scenario and the model's adjustment horizon, never averaged with the estimated figures."
+    },
+    {
+     "type": "p",
+     "text": "Outcome data. Korea's goods exports, balance-of-payments basis, monthly from 2000 [[S8]]. Export value indices, base year 2020, monthly to September 2026 for all goods, semiconductors, motor vehicles, primary steel and chemicals [[S33,S12,S32,S11,S31]]. US imports from Korea, customs basis, as the publishable mirror [[S6]]."
+    },
+    {
+     "type": "p",
+     "text": "Korea's customs exports by destination are in the run but not cleared for publication. They can be used in estimation and described in words: they show US-bound exports about two per cent below a year earlier before April 2025 and about four per cent below after. To fetch: Korea Customs Service exports by six-digit HS product and country, and US imports and duties by ten-digit HS product and origin."
+    },
+    {
+     "type": "p",
+     "text": "Drivers and controls:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Realized US tariff on Korean goods by product (driver): duties over import value by product and origin, to fetch from the Census Bureau; in the run only the all-origin rate [[S1,S2]]; the Korea rate and the sector rates come from the Richmond Fed study [[S3]], with near-complete pass-through [[S3]].",
+      "Tariffs on rivals in the same product and market (driver): realized rates on the same product from China, Vietnam, Taiwan, Mexico and Japan, weighted by each rival's pre-shock share of US imports of that product; in the run, the rivals' aggregate shares [[S4,S5,S22,S23,S21,S41]]; evidence on diversion and its sign [[S7,S13,S37]].",
+      "Korean value added in rivals' exports (driver): shares from the OECD Trade in Value Added tables, to fetch, as a fixed exposure; in the run nothing measures this, and the governor's roughly twenty per cent each [[S20]] is export dependence by destination, a different quantity; evidence [[S14,S15]].",
+      "Trade-policy uncertainty (driver): the news-based index, monthly from 1985 [[S19]], interacted with each product's exposure; evidence [[S28]].",
+      "Breadth of protectionism (regime): the share of world imports entering under tariffs raised since a base date, from WTO tariff profiles and the Global Trade Alert database, to fetch; evidence [[S17,S15,S37,S35]].",
+      "Controls: the chip cycle, with a demand-side proxy outside Korea's own exports such as world semiconductor sales, to fetch [[S29]]; importing-market demand, absorbed by destination-by-month effects, with US imports from all countries in the run [[S5]]; the won [[S30,S28,S38]]; the base rate, GDP and facilities investment [[S40,S10,S39,S36,S38]]."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Layer one, estimated. A product-by-destination panel difference-in-differences with local projections on monthly exports from 2015 to 2026. For each horizon h from zero to twelve months, the outcome is the cumulative change in log exports of product p to destination d from the month before the shock. It is regressed on a product-by-destination effect, a destination-by-month effect and the controls, plus four shock terms:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "the change in the realized tariff on Korean goods in that cell, whose coefficient is the own-tariff elasticity path;",
+      "the change in the share-weighted tariff on rivals in that cell, whose coefficient is the diversion elasticity when rivals are tariffed and Korea is not;",
+      "the rivals' tariff change interacted with the Korean value-added share, which measures the reduction in that gain when Korean inputs sit inside the rivals' goods;",
+      "the change in log uncertainty interacted with the cell's exposure, whose coefficient is the uncertainty response."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The counterfactual path is the fitted path with the three shocks set to zero from the shock month. The target shortfall is the difference, aggregated over cells with pre-shock export weights."
+    },
+    {
+     "type": "p",
+     "text": "Layer two, simulated. A multi-country, multi-sector input-output trade model of the Caliendo–Parro family, solved in changes (hat algebra). For each sector and country pair, the change in a trade share is built from three pieces:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "the change in the exporter's cost bundle, which moves through the input-output table;",
+      "the change in trade costs, the ratio of one plus the scenario tariff to one plus the baseline tariff;",
+      "their product raised to minus the sector's trade elasticity, divided by the share-weighted sum of the same across all suppliers."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Korea's real-income change follows from its expenditure shares and tariff revenue. The scenario schedule is the regime variable: the 2025 schedule (targeted), tariffs between treaty blocs only (bloc), tariffs raised by every country on every partner with a discount for neighbours (general)."
+    },
+    {
+     "type": "p",
+     "text": "Link between layers. The sectoral trade elasticities in layer two are set so that the model's one-year response of Korea's exports to the 2025 schedule matches the layer-one twelve-month own-tariff estimate for the tariffed sectors and the diversion estimate for 2018–19. Layer-two scenarios are reported only as ratios to that calibrated targeted case, so that the general-case figure is read as a multiple of an estimated quantity."
+    },
+    {
+     "type": "p",
+     "text": "Why this family. The reduced-form panel identifies the tariff effect from tariffed against untariffed products within destination and month, needs no assumptions about substitution and can be validated, but has nothing to say when every product is tariffed [[S7]]. The input-output model can simulate any schedule and carries supply-chain position [[S13,S36]], but is static, has no uncertainty, exchange rate or monetary policy, and rests on elasticities that must come from somewhere. A global DSGE with a value-chain sector adds the monetary and exchange-rate channels but needs a calibration the run cannot discipline and reports long-run steady states [[S15]]; the de-risking paper's authors treat theirs as upper bounds [[S17]]."
+    },
+    {
+     "type": "p",
+     "text": "Alternatives considered:"
+    },
+    {
+     "type": "list",
+     "items": [
+      "The ECB's semi-structural global model with dollar pricing, kept for the monetary-rule question [[S38]].",
+      "The ECB's three-country model, the cleanest statement of a bystander gaining then losing, too stylised for Korea's product mix [[S37]].",
+      "Structural gravity with geopolitical alignment, which would supply the bloc scenario's trade-cost changes rather than replace layer two [[S35]].",
+      "Synthetic control on value-added shares, a check on reallocation against transshipment for connector countries, not Korea [[S26]].",
+      "Realized-tariff accounting with pass-through regressions, which supplies the shock rather than a model of Korea's exports [[S3]].",
+      "Early-warning or regime-switching models, rejected because the outcome is a continuous shortfall and the general regime has no observations."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Validation. Backtest: estimate on the panel from 2015 to 2026 with two episodes. In 2018–19 Korea was a bystander, with rivals' tariffs rising; the run holds no Korea rate for those years. In 2025–26 Korea was targeted at about nine per cent, up from near zero in 2024, with autos and steel tariffed and semiconductors largely exempt [[S3]]. Check parallel pre-trends over 2015–17 and 2022–24, and report every elasticity by horizon with standard errors clustered by product and by month."
+    },
+    {
+     "type": "p",
+     "text": "External checks. Compare the diversion estimate with the World Bank study, which places Korea among the export winners on sign and rank only [[S7]], and the one-year export response with the BIS Korea row as a sign and order-of-magnitude check [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "Out of sample: estimate on 2015–19 and test on 2025–26, which must reproduce the sector pattern of steel down, autos flat and semiconductors up; a placebo on 2020–21 must attribute no shortfall to tariffs. Benchmarks: no effect; a random walk with drift per cell; share arithmetic, the realized tariff change times a fixed elasticity times the cell's pre-shock export share; and the published Korea rows with their scenarios [[S13,S15,S17,S18]]."
+    },
+    {
+     "type": "p",
+     "text": "Failure modes. Front-loading before April 2025, tested by starting the shock in January and in April. The chip cycle swamping the tariff: chips rose 27.3% in April to December 2025 while steel fell 7.6% [[S12,S11]]. Selection of the untariffed group, since electronics were largely exempted [[S3]]."
+    },
+    {
+     "type": "p",
+     "text": "Announced against collected rates shifting the timing of the shock [[S3]]. Rerouting changing the destination label. Uncertainty and the tariff moving together, since the index peaked in the month the tariffs were announced [[S19]]."
+    },
+    {
+     "type": "p",
+     "text": "Two episodes giving wide intervals. Layer two having no observations of its regime. Publication limits on the destination panel. Monetary and exchange-rate responses absent from layer one and simplified in layer two [[S38]]."
+    },
+    {
+     "type": "p",
+     "text": "Scenarios. No tariff change, the baseline. The 2025 schedule as collected, estimated in layer one and the calibration case in layer two [[S13,S3]]. Targeted with retaliation by all partners, layer two only [[S18,S35]]. Bloc, with trade-cost changes from alignment elasticities [[S35,S15]]."
+    },
+    {
+     "type": "p",
+     "text": "General, every country raising tariffs with a neighbour discount, the diversion term switched off; nearest proxies friend-shoring and reshoring and the targeted bystander [[S17,S37]]. Integration, RCEP deepening and an EU–CPTPP deal with the US tariffs in place [[S18]]. Numbers that live only in reading notes, such as the BIS model's price effects and the Richmond Fed quantity elasticity, are named here and not cited as evidence."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "The question assumes the tariffs have already hurt Korea and asks how much worse a protectionist world would be. The record says the first half is true only in parts: steel and chemicals fell, cars stalled, shipments to the US dipped 4.5% for a year, and the drag the governor describes ran through uncertainty [[S6,S28]]. The totals set records on chips, with the semiconductor index up 189% this year against a steel fall of 7.6% in 2025 [[S12,S11]]. On the second half the research is unanimous in direction and divided on size. One country's tariffs hand bystanders market share, and Korea gets less of it than Malaysia in the models, because its parts ride inside Chinese goods, and less than Vietnam in the governor's account [[S13,S14,S20]]. Every country's tariffs take that away [[S37]]. Korea, open and hub-straddling, loses two to three per cent of potential output in bloc worlds and close to four per cent under friend-shoring, the largest of any OECD region, in long-run model worlds nobody can validate [[S15,S17]]. The models also rank Korea's own options: deepening trade with others offsets the loss, retaliation does not [[S18]]. The collected US rate of 11.3% at its high and Korea's export growth of 2.1% in 2025 are both facts [[S1,S2,S8]]. What a world of tariffs would cost is a scenario, and no forecast of tariffs, exports or the won is made here."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

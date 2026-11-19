@@ -1,0 +1,19 @@
+{
+ "id": "spread",
+ "term": {
+  "en": "spread",
+  "ko": "가산금리"
+ },
+ "definition": {
+  "en": "The extra interest one borrower pays over a benchmark borrower on debt of the same maturity, usually measured in basis points.",
+  "ko": "같은 만기의 채무에 대해 한 차입자가 기준 차입자보다 더 내는 이자다. 보통 베이시스포인트(bp)로 나타내며 스프레드라고도 한다."
+ },
+ "topics": [
+  "bond-markets"
+ ],
+ "see": [
+  "basis-point",
+  "bond-yield"
+ ],
+ "approvedBy": null
+}

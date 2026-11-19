@@ -1,0 +1,15 @@
+{
+ "id": "price-earnings-ratio",
+ "term": {
+  "en": "price-earnings ratio",
+  "ko": "주가수익비율"
+ },
+ "definition": {
+  "en": "A company's share price divided by its earnings per share, or a market's total value divided by its total profits. A high ratio means investors pay more for each unit of profit, often because they expect profits to grow.",
+  "ko": "주가를 주당 순이익으로 나눈 값, 또는 시장 전체의 시가총액을 전체 이익으로 나눈 값이다(PER). 이 비율이 높으면 투자자들이 이익 한 단위에 더 많은 값을 치른다는 뜻으로, 대개 이익이 늘 것으로 기대할 때 높아진다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets"
+ ]
+}

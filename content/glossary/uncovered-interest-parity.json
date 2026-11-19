@@ -1,0 +1,15 @@
+{
+ "id": "uncovered-interest-parity",
+ "term": {
+  "en": "uncovered interest parity",
+  "ko": "유위험 이자율 평가"
+ },
+ "definition": {
+  "en": "The textbook idea that investors expect a higher-interest currency to lose value by just enough to offset its extra interest. It implies that a currency reflects the whole path of interest-rate gaps investors expect.",
+  "ko": "금리가 높은 통화는 그 추가 이자를 상쇄할 만큼 가치가 떨어질 것으로 예상된다는 교과서의 이론이다. 이에 따르면 환율에는 투자자가 예상하는 금리차의 경로 전체가 담긴다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates"
+ ]
+}

@@ -1,0 +1,72 @@
+# The podcast video (pipeline video-podcast, config/video/podcast-pipeline.yaml): NotebookLM ("Gemini Notebook",
+# notebook.google.com) makes a two-host Audio Overview from a source and a focus prompt built here; the slides are
+# then cut to the audio (guides/video-podcast.md). The editor chose this over the solo Gemini TTS narrator on
+# 29 Oct 2026, after an open-weights test.
+default_mode: podcast          # what `artools video auto` makes: podcast, or narrated (pipeline video)
+
+notebooklm:
+  url: https://notebook.google.com/
+  browser: "<device id>"     # the Claude in Chrome device that drives NotebookLM (its display name changes, the id does not)
+  format: Deep dive            # Deep dive, Brief, Critique, Debate
+  length: Default              # Short, Default, Long; Default ran 20 min on a 2,800-word source (29 Oct 2026)
+  language: {en: English, ko: 한국어}
+  notebook_title: "datasteg · {slug} · {lang}"
+  takes: 2                     # one take per edition; a second only when the review blocks it (the editor, 29 Oct 2026)
+
+# Speech to text on this machine (chosen 29 Oct 2026 over Gemini): VibeVoice-ASR in
+# its own environment (transformers >= 5.3 and a ROCm build of PyTorch), run by podcast.py through
+# vibevoice_asr.py. Whole files fail on this GPU, so the audio is cut at pauses; the token cap stops a loop early.
+asr:
+  model: microsoft/VibeVoice-ASR-HF
+  python: /data/huggingface/envs/vibevoice-asr/bin/python
+  hf_home: /data/huggingface
+  piece_seconds: 300           # about five minutes per piece, cut at the longest pause near each mark
+  tokens_per_second: 12        # the token cap per piece: about three times what a fast talker needs, plus 256
+  caption: {en: 16, ko: 40}    # one sentence per segment; split at a comma past this many words (en) or characters (ko)
+  context:                     # the hotword prompt: the topic and the publisher's name, nothing from the source
+    en: "A two-host podcast about an economics article. The publisher is datasteg (articles dot datasteg dot com)."
+    ko: "경제 기사를 다루는 두 진행자 팟캐스트. 발행처는 데이터스테그(datasteg)."
+
+length: {min_seconds: 480, max_seconds: 1800}    # 8 to 30 minutes
+
+# Blocking issues still in review.json after the review loop (2 takes, 2 slide fixes): publish (the editor's choice of
+# 29 Oct 2026: the run never waits for a person; youtube/<lang>.json → steps.review lists what was left) or stop.
+on_blocking: publish
+
+# The focus prompt ("What should the AI hosts focus on in this episode?"). {question}, {answer}, {parts}, {title}, {keynumbers}
+# come from the article and podcast/plan.json.
+prompt:
+  en: |-
+    Audience: curious college students and young professionals. They watch on YouTube with summary slides, or listen on earphones while walking. They are smart but not economists.
+
+    Discuss only the source "{title}", published by datasteg. Use only its facts, names, dates and numbers; add nothing from outside. Keep its hedges and caveats. Model results are scenarios, not forecasts; say so.
+
+    Shape:
+    1. Open with the question in plain words: {question}
+    2. Give the short answer early: {answer}
+    3. Then take these parts in this order, announcing each by name ("Part one: ..."):
+    {parts}
+    4. Close with "our read" and three things to remember, then say the full article is at articles dot datasteg dot com.
+
+    For the ear: explain each term in one plain sentence the first time (the source's glossary). Say these key numbers digit for digit as the source gives them: {keynumbers}. Say every number exactly as the source gives it, with what it measures and when; at most one number per sentence; give other sizes in words ("twice", "three times"), never rounding a number the source gives exactly. Tell one concrete example in each part. Never point at a screen or a chart. No investment advice. About fifteen minutes.
+
+    Keep the source's causal care: where it says a pattern "fits" a cause or is "not proof", say exactly that, never "proves" or "shows the damage". Say "the models find", not "the data proves", and never "the only" answer. Use the source's own sense of each term (its glossary), not the textbook one when they differ.
+  ko: |-
+    듣는 사람: 호기심 많은 대학생과 사회초년생. 유튜브에서 요약 슬라이드와 함께 보거나, 걸으면서 이어폰으로 듣습니다. 똑똑하지만 경제학자는 아닙니다.
+
+    datasteg가 펴낸 자료 「{title}」만 다루세요. 자료에 있는 사실, 이름, 날짜, 숫자만 쓰고 밖의 것은 보태지 마세요. 자료의 단서와 유보를 지키세요. 모형 결과는 전망이 아니라 시나리오라고 분명히 말하세요.
+
+    순서:
+    1. 질문을 쉬운 말로 꺼냅니다: {question}
+    2. 짧은 답을 일찍 말합니다: {answer}
+    3. 다음 부분을 이 순서대로, 이름을 밝히며("첫째, …") 다룹니다:
+    {parts}
+    4. "우리의 판단"과 기억할 세 가지로 마무리하고, 기사 전문은 아티클스 닷 데이터스테그 닷 컴에 있다고 말합니다.
+
+    귀로 듣는 사람을 위해: 용어는 처음 나올 때 쉬운 한 문장으로 풀어 주세요(자료의 용어 풀이). 다음 핵심 숫자는 자료와 한 자리도 다르지 않게 말하세요: {keynumbers}. 모든 숫자는 자료 그대로, 무엇을 언제 측정한 값인지 함께 말하고, 한 문장에 숫자는 하나만 씁니다. 나머지 크기는 "두 배", "세 배"처럼 말로 전하되, 자료에 정확히 나온 숫자는 어림하지 마세요. 부분마다 구체적인 예를 하나 드세요. 화면이나 그래프를 가리키지 마세요. 투자 권유는 하지 않습니다. 두 진행자는 존댓말로 자연스럽게 대화합니다. 15분 안팎.
+
+    자료의 인과 표현을 그대로 지키세요. 자료가 어떤 흐름이 원인과 "맞는 모양"이라거나 "증거는 아니다"라고 쓴 곳은 그대로 말하고, "보여 준다", "증명한다", "생생한 사례"로 바꾸지 마세요. "데이터가 증명한다"가 아니라 "모형은 이렇게 본다"로, "유일한 대응"이 아니라 "모형이 효과가 있다고 보는 대응"으로 말하세요. 용어는 자료의 용어 풀이에 적힌 뜻으로 쓰세요.
+
+disclosure:
+  en: "Audio: a two-host conversation generated by Google NotebookLM (Gemini Notebook) from the published article; the voices are synthetic. Slides and checks by datasteg, with AI assistance."
+  ko: "음성: 게시된 기사를 바탕으로 Google NotebookLM(Gemini Notebook)이 만든 두 진행자의 대화이며, 목소리는 합성 음성입니다. 슬라이드와 검증은 datasteg가 AI의 도움을 받아 만들었습니다."

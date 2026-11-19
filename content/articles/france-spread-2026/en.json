@@ -1,0 +1,230 @@
+{
+ "kicker": "Sovereign debt",
+ "title": "France's borrowing premium over Germany is its widest since 2012, but this is not 2011",
+ "dek": "In September France paid 97bp more than Germany to borrow for ten years, the widest gap since 2012, yet most of its higher borrowing cost is shared with Germany, as long-term borrowing costs rose across rich economies.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "97bp",
+   "label": "France's 10-year spread over Germany in September 2026, the widest since July 2012",
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "63%",
+   "label": "of France's own November 2011 peak of 154bp",
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "75%",
+   "label": "of the rise in France's 10-year yield since December 2025 that was Germany's own yield rising",
+   "cite": [
+    "S1"
+   ]
+  }
+ ],
+ "findings": [
+  "France's spread over Germany averaged 97bp in September 2026, the widest since July 2012, yet that is 63% of its own November 2011 peak and far below the 2010–12 peaks of Italy, Spain, Portugal and Greece [[S1]].",
+  "France's spread rose 22bp from December to September, the most of the ten euro countries compared; four countries among the other nine, led by Italy, Belgium and Greece, also widened, but the median change for the nine was close to zero [[S1]].",
+  "Most of the higher borrowing cost is shared with Germany: Germany's own ((bond-yield|yield)) rise accounts for 0.66 pp of France's 0.88 pp, as long-term rates also climbed in other rich economies, and the ((vix|VIX)) fear gauge averaged 15.8 in September, against 31.9 in November 2011 [[S1,S2,S3,S4,S5]].",
+  "Unlike the crisis countries, which all shrank in 2012, France's economy grew 0.8% in 2025 and its interest bill is lighter than in 2011, but its debt, 115.6% of GDP, nears Italy's and Portugal's in 2011 [[S6,S7]].",
+  "Its deficit, 5.1% of GDP, was the largest of the six countries compared in 2025, though smaller than Spain's, Portugal's or Greece's in 2011, and the ECB's ((tpi|TPI)) backstop is not meant for tensions it judges fundamental [[S7,S8]]."
+ ],
+ "question": {
+  "asked": "How unusual is France's bond spread over Germany as of September 2026, how does today differ from the 2010–12 crisis in Italy, Spain, Greece and Portugal, and what would it take for France to face a similar crisis?",
+  "lookedAt": "How high France's spread is against its own past and its neighbours, how much of its rising borrowing cost is global, how today's France and euro area differ from 2010–12, and what would have to go wrong for that crisis to repeat.",
+  "premiseNote": "Official October 2026 yields are not out yet, so 'now' here means September 2026; the measure is France's premium over Germany, which carries more than default risk; and the crisis ran from 2010 to 2012, not only in 2011."
+ },
+ "sections": [
+  {
+   "id": "now",
+   "heading": "The widest gap since 2012",
+   "summary": "France's premium over Germany is the widest since 2012, but below its 2011 peak.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Measured in ((basis-point|basis points)), France's premium over Germany, its ((spread)), averaged 97bp in September 2026, the latest full month of data [[S1]]. It is the extra interest France pays to borrow for ten years compared with Germany, the euro area's benchmark. As the gap between two yields, it also moves with demand for safe German bonds, so it is not a pure gauge of default risk."
+    },
+    {
+     "type": "p",
+     "text": "By France's standards that is unusual. Only 10 months since January 1999 were wider, all of them between October 2011 and July 2012 [[S1]]. The gap averaged 9bp from 1999 to 2007 and 45bp from 2013 to 2023, and September topped the later highs of February 2017 and January 2025 [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "It has also widened fast. The gap rose 22bp from December to September, and since 2000 only 2011 saw a larger rise over those months [[S1]]. September alone added 15bp, among the largest monthly rises since 1999 and about as much as in June 2024, when a snap election was called [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Politics has moved the gap before. After the June 2024 snap election, French uncertainty weighed on other euro countries too, and the cost of insuring against a French default stayed high after Italy's and Germany's had eased [[S9]]. By February 2026, after the budget was adopted, the spread's monthly average was 7bp below January's, though it rose again in March [[S1]]; a Banque de France deputy governor said easing political uncertainty after the adoption helped lower yields [[S10]]. No source we read explains September's jump, so we do not assign it a cause."
+    },
+    {
+     "type": "p",
+     "text": "Even so, the gap is 57bp below France's peak of 154bp in November 2011, when the selling reached even the euro area's core countries [[S1,S11]]. The chart below shows the whole history, including the step up since mid-2024."
+    },
+    {
+     "type": "figure",
+     "chart": "spread-history"
+    }
+   ]
+  },
+  {
+   "id": "france-alone",
+   "heading": "France widened the most; the typical euro spread barely moved",
+   "summary": "France's spread rose the most of the euro countries compared; the typical one barely moved.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Of the ten euro countries we compared, France's spread rose the most since December, ahead of Italy (+15bp), Belgium (+14bp) and Greece (+12bp) [[S1]]. The median change for the other nine was close to zero, both since December and in September, when France's spread jumped 15bp. Even so, Italy's also rose 9bp that month, and Belgium's and Greece's rose too [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Italy, Spain, Portugal and Greece, the four crisis countries in the question, all now pay a narrower spread than France: Italy 89bp and Greece 75bp, with Spain and Portugal lower still [[S1]]. France's 10-year yield has been above Italy's in only five months since 1999, all since December 2025 [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "An IMF study of data to September 2024 found euro-area fragmentation still low by historical standards [[S12]]. But the same study's analysis of recent years suggested French yields had begun moving away from Germany's and the Netherlands' towards Italy's and Spain's [[S12]]."
+    },
+    {
+     "type": "p",
+     "text": "The BIS links this summer's wider euro spreads to swings in energy prices and does not single out France [[S13]]. In our data, though, France's spread widened most over the summer, rising 25bp from June to September, 2.1 times as much as Italy's and 2.5 times as much as Belgium's [[S1]]. The chart below compares each country's change since December."
+    },
+    {
+     "type": "figure",
+     "chart": "euro-spread-changes"
+    }
+   ]
+  },
+  {
+   "id": "global",
+   "heading": "Most of the higher borrowing cost is shared with Germany",
+   "summary": "Most of France's higher borrowing cost is Germany's yield rising too; global markets stay calm.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Most of this year's rise in France's borrowing cost is shared with Germany. Its 10-year yield rose 0.88 pp from December to September, to 4.44%, the highest since July 2008 [[S1]]. Germany's rose 0.66 pp, to 3.47% [[S1]]. So 75% of France's rise was Germany's own, and only 0.22 pp came from the wider spread [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Long-term yields rose across rich economies over the same months: by 0.85 pp in the US, 0.76 pp in the UK and 0.99 pp in Japan [[S2,S3,S4]]. The BIS ties part of the summer's rise to investors demanding more to hold long-term bonds amid fiscal pressures [[S13]]. Since late 2024 ((bund|Bunds)), Germany's government bonds, have traded “cheap” relative to interest-rate swaps, which markets read as pricing in more German borrowing [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "The ranking has flipped since 2011. In November 2011 France's 10-year yield, 3.41%, was above those of the US, the UK and Japan [[S1,S2,S3,S4]]. Now it is below the US's 4.99% and the UK's 5.24%, though above Japan's [[S2,S3,S4]]. The chart below tracks France, Germany, the US, the UK and Japan since 2007."
+    },
+    {
+     "type": "figure",
+     "chart": "global-yields"
+    },
+    {
+     "type": "p",
+     "text": "Nor do global markets show the stress of 2011. The VIX, a gauge of expected swings in US shares, averaged 15.8 in September, against 31.9 in November 2011; of the 237 months since January 2007, only 83 months had a lower average [[S5]]. Its daily close jumped to 20.0 on 16 Oct 2026, but one day is not a trend: October's average to that date was 15.9 [[S5]]. The BIS says investors' appetite for risk, though it ebbed and flowed, held up on the whole over the summer [[S13]]."
+    },
+    {
+     "type": "p",
+     "text": "No study we read measures spillovers from France itself; the June 2024 episode is the closest evidence [[S9]]."
+    }
+   ]
+  },
+  {
+   "id": "then-and-now",
+   "heading": "Debt and deficit like the crisis countries', not their other troubles",
+   "summary": "France's debt and deficit resemble the crisis countries', but its growth and interest bill don't.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "On debt, France now looks like the crisis countries did. Its government debt reached 115.6% of GDP in 2025, the highest in data going back to 2007 [[S7]]. That is close to Portugal's 114.0% in 2011, below Italy's 119.1% and far above Spain's 69.5% [[S7]]. Its deficit, 5.1% of GDP, was larger in 2025 than Germany's or any crisis country's that year, but France's own deficit was about the same in 2011, at 5.3% [[S7]]."
+    },
+    {
+     "type": "p",
+     "text": "On the rest, France differs. Its interest bill, 2.2% of GDP in 2025, is lighter than its own in 2011 and than Italy's (4.6%) or Greece's (7.7%) then [[S7]]. Its economy grew 0.8% in 2025, while Spain, Portugal and Greece shrank in 2011 and all four in 2012 [[S6]]. Its current account is near balance, at −0.4% of GDP, whereas Spain, Portugal and Greece ran deficits of 9.4% to 15.4% of GDP in 2007 [[S14]]."
+    },
+    {
+     "type": "p",
+     "text": "The crisis countries did not share one problem either. An IMF study of countries including Greece, Portugal and Spain finds that before the crisis the trouble was mostly borrowing by whole economies, not just by governments, though Greece's government overspending played a part [[S15]]. In late 2011, Greece and Portugal were struggling to meet fiscal targets in recession, while Italy and Spain faced rating downgrades and political uncertainty [[S11]]."
+    },
+    {
+     "type": "p",
+     "text": "Debt alone does not rank today's spreads: Italy (137.1%) and Greece (146.1%) owe more than France relative to GDP, yet pay a narrower spread [[S7,S1]]. And spreads in the crisis, which ran from 2010 to 2012, were of another order: in 2011 they averaged 281bp for Italy and 1,314bp for Greece, against 71bp for France [[S1]]. The table below sets France today beside the crisis countries in 2011."
+    },
+    {
+     "type": "figure",
+     "chart": "then-vs-now"
+    }
+   ]
+  },
+  {
+   "id": "defences",
+   "heading": "The euro area's defences have changed",
+   "summary": "The ECB has added backstops and home banks hold less of the debt, but risks remain.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The machinery of 2010–12 has changed, in both directions. Then, the ((doom-loop|doom loop)) between banks and their governments amplified fiscal worries into wider financial stress [[S16]]. In 2011 French banks replaced some lost market funding with central-bank loans [[S11]], and the Eurosystem, the euro area's central banks, bought only limited amounts of government bonds [[S11]]."
+    },
+    {
+     "type": "p",
+     "text": "In 2012 the ECB added a promise. An ECB study finds that announcing ((omt|Outright Monetary Transactions)) (OMT) cut Italian and Spanish two-year yields sharply while leaving French yields largely unchanged [[S17]]. OMT offered to buy a country's short-term bonds with no limit set in advance, but only under conditions [[S17]]. Between July and December 2012, around the announcement, Italy's and Spain's 10-year spreads each narrowed by about 151bp and France's by 33bp [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Since 2022 the ECB has had a standing tool, the TPI, against unwarranted, disorderly market moves that threaten how its policy reaches each country [[S8]]. In early October 2026 the Eurosystem held €3.32 trillion of securities for monetary policy, 12.1 times its end-2011 holdings, though 33% below the 2022 peak [[S18]]."
+    },
+    {
+     "type": "p",
+     "text": "Home banks also hold a smaller share of their government's debt than in 2011: in France it fell from 21% in 2011 to 17% in 2025, though it is up from 15% in 2022 [[S19,S20]]. The BIS cites evidence that this direct link may have weakened [[S16]]. The chart below compares France with Italy, Spain and Portugal."
+    },
+    {
+     "type": "figure",
+     "chart": "bank-holdings"
+    },
+    {
+     "type": "p",
+     "text": "But TPI purchases would stop if the ECB judged persistent tensions to reflect a country's fundamentals, and the tool had not been used as of 2024 [[S8]]. In May 2026, ECB President Christine Lagarde said monetary policy's room for manoeuvre, a condition for the central bank's independence, depends first on fiscal responsibility [[S21]]."
+    },
+    {
+     "type": "p",
+     "text": "Risk has also moved rather than vanished. Non-bank financial institutions have become the largest holders of rich countries' government debt, as central banks' share fell [[S16]]. In EU data, banks' ties to these non-banks now link bank and government risks more than direct holdings of government bonds do [[S22]]."
+    }
+   ]
+  },
+  {
+   "id": "what-it-would-take",
+   "heading": "What it would take to repeat 2011",
+   "summary": "Spreads can feed on themselves; France meets some conditions, but the amplifiers are weak for now.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Research describes how a spread can feed on itself. Fear of default raises the interest rate, which makes debt grow faster and so validates the fear [[S23]]. In their model, whether such a ((self-fulfilling-crisis|self-fulfilling crisis)) is possible depends on the debt level, how long the debt runs and how firmly the budget responds [[S23]]. The authors find the risk hard to dismiss, and the BIS warns that borrowing costs can spike well before any long-run debt limit [[S23,S16]]."
+    },
+    {
+     "type": "p",
+     "text": "Studies differ on how much fundamentals explain. A Banco de España study finds that economic fundamentals explain at most about a quarter of the peaks in non-core spreads, and that at the height of the crisis spreads in Italy, Spain, Portugal and Ireland reached two to six times the levels their fundamentals justified [[S24]]. A model of Italy puts only a small share of its spread down to self-fulfilling fear [[S25]]. The two also use different methods: the first measures fundamentals with debt, deficits, growth and inflation, the second uses a model of government default."
+    },
+    {
+     "type": "p",
+     "text": "On those conditions, France's debt is high and at its peak in our data [[S7]]. Its budget is tightening slowly: the ((primary-balance|primary deficit)), the deficit leaving aside interest payments, widened in 2024 and was 2.9% of GDP in 2025, only a little smaller than the 3.5% of 2023 [[S7]]. A Banque de France deputy governor said the 2026 budget cuts the deficit less than the bank had assumed in December 2025 [[S10]]. We found no figure for how long French debt runs, so that condition stays open."
+    },
+    {
+     "type": "p",
+     "text": "The amplifiers of 2010–12 are weak for now: global markets are calm, and Italy's and Spain's spreads sit below France's [[S5,S1]]. French banks hold less of their government's debt than in 2011, though their share has risen every year since 2022 [[S19,S20]]. An IMF study finds that global risk shocks raise euro-area default-insurance costs when euro markets are fragmented, and finds no significant effect when they are not [[S12]]. Its fragmentation gauge was low in 2024 compared with past episodes [[S12]]."
+    },
+    {
+     "type": "p",
+     "text": "In theory a promise like OMT rules out a bad outcome at no cost when a crisis is all fear [[S26]], while the TPI is not meant for tensions judged fundamental [[S8]]. OMT remained available as of 2024, at the ECB's discretion, for countries that meet its conditions [[S8]]. BIS research also warns that selling by leveraged non-banks could turn a jump in yields into a spiral [[S22,S27]]."
+    },
+    {
+     "type": "p",
+     "text": "History shows how far a spread of France's size can travel under 2010–12 conditions. In April 2010 Italy's spread was 94bp and Spain's 84bp, close to France's now [[S1]]. As the crisis spread, they rose to peaks of 519bp and 555bp [[S1]]. That was the path under those conditions, not a forecast for France."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "France's premium over Germany has widened more than any other euro spread we compared: the median barely moved and several narrowed, though Italy's, Belgium's and Greece's rose by roughly half to two-thirds as much. France's widening stands out in a calm market; it is not a euro-area crisis. France has debt like the crisis countries' and the largest deficit in 2025 of the six countries we compared, but not their recessions or global panic. Its weak spot is where the ECB's backstop helps least: if France's premium came to be judged a verdict on its budget, the TPI is not designed to cap it, and OMT would come with conditions. Worth watching, as conditions rather than predictions: other euro spreads following France's, global fear gauges rising, and whether the deficit narrows."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

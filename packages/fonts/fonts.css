@@ -1,0 +1,8 @@
+/* Glacier font stacks. The font files themselves are loaded by index.ts. */
+
+/* Fontsource's "… Variable" names go first; the rest of each stack is the token stack as written. */
+:root {
+  --font-sans: "Hanken Grotesk Variable", "Hanken Grotesk", "Pretendard Variable", Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", "Noto Serif KR", "Nanum Myeongjo", AppleMyungjo, Georgia, serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, Menlo, Consolas, D2Coding, "Pretendard Variable", monospace;
+}

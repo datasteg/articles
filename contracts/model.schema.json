@@ -1,0 +1,169 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "model",
+ "type": "object",
+ "properties": {
+  "question": {
+   "type": "string",
+   "minLength": 1
+  },
+  "target": {
+   "type": "object",
+   "properties": {
+    "what": {
+     "type": "string",
+     "minLength": 1
+    },
+    "measure": {
+     "type": "string",
+     "minLength": 1
+    },
+    "data": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "what",
+    "measure",
+    "data"
+   ]
+  },
+  "variables": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "minLength": 1
+     },
+     "name": {
+      "type": "string",
+      "minLength": 1
+     },
+     "role": {
+      "enum": [
+       "outcome",
+       "driver",
+       "control",
+       "regime"
+      ]
+     },
+     "data": {
+      "type": "string",
+      "minLength": 1
+     },
+     "why": {
+      "type": "string",
+      "minLength": 1
+     },
+     "evidence": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 0
+     }
+    },
+    "required": [
+     "id",
+     "name",
+     "role",
+     "data",
+     "why"
+    ]
+   },
+   "minItems": 3
+  },
+  "structure": {
+   "type": "object",
+   "properties": {
+    "family": {
+     "type": "string",
+     "minLength": 1
+    },
+    "equations": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     },
+     "minItems": 0
+    },
+    "why_this_family": {
+     "type": "string",
+     "minLength": 1
+    },
+    "alternatives": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "family",
+    "why_this_family",
+    "alternatives"
+   ]
+  },
+  "validation": {
+   "type": "object",
+   "properties": {
+    "backtest": {
+     "type": "string",
+     "minLength": 1
+    },
+    "out_of_sample": {
+     "type": "string",
+     "minLength": 1
+    },
+    "benchmarks": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     },
+     "minItems": 1
+    },
+    "failure_modes": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     },
+     "minItems": 1
+    }
+   },
+   "required": [
+    "backtest",
+    "benchmarks",
+    "failure_modes"
+   ]
+  },
+  "limits": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 2
+  },
+  "not_a_forecast": {
+   "const": true
+  }
+ },
+ "required": [
+  "question",
+  "target",
+  "variables",
+  "structure",
+  "validation",
+  "limits",
+  "not_a_forecast"
+ ]
+}

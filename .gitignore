@@ -1,0 +1,34 @@
+# Run folders live outside the repository (ARTICLES_DATA); these catch one written here by mistake
+runs/
+readings/
+cache/
+data/
+!content/articles/*/data/
+.preview/
+.preview-server.log
+
+# Secrets and local settings
+.env*
+!.env.example
+
+# Python (pipeline/)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Node (apps/, packages/)
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+packages/tokens/tokens.css
+
+# Build outputs (scripts/build-content-index.mjs regenerates them from content/)
+apps/web/generated/
+apps/web/public/data/
+apps/web/public/pdf/
+
+.DS_Store

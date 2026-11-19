@@ -1,0 +1,532 @@
+{
+ "id": "boom-and-bust-2026",
+ "form": "line",
+ "headline": {
+  "en": "Korean share prices rose to 3.5 times their December 2024 level by June 2026, then fell 21.6% by August, while chip export values and US share prices ended September above their June level",
+  "ko": "한국 주가는 2026년 6월까지 2024년 12월의 3.5배로 오른 뒤 8월까지 21.6% 떨어졌지만, 반도체 수출액과 미국 주가는 9월에 6월보다 높았다"
+ },
+ "title": {
+  "en": "Korean share prices, chip export values and US share prices, 2024–26",
+  "ko": "한국 주가, 반도체 수출액, 미국 주가(2024~26년)"
+ },
+ "subtitle": {
+  "en": "Index, June 2026 = 100, monthly, Jan 2024–Sep 2026",
+  "ko": "지수(2026년 6월 = 100), 월별, 2024년 1월~2026년 9월"
+ },
+ "howToRead": {
+  "en": "All three lines are set to 100 in June 2026, the month Korean share prices peaked; above 100 means higher than then. The shaded months are the 2026 fall so far.",
+  "ko": "세 선 모두 한국 주가가 정점을 찍은 2026년 6월을 100으로 맞췄다. 100보다 높으면 그때보다 높다는 뜻이다. 음영은 지금까지의 2026년 하락기다."
+ },
+ "notes": [
+  {
+   "en": "Korean and US share prices are OECD monthly averages, not daily closes or the KOSPI itself. Chip exports are export values in US dollars (Bank of Korea export value index for semiconductors), not company earnings or volumes; the series swings from month to month.",
+   "ko": "한국과 미국 주가는 OECD 월평균으로, 일별 종가나 코스피 자체가 아니다. 반도체 수출액은 달러 기준 수출금액(한국은행 반도체 수출금액지수)으로 기업 이익이나 물량이 아니며, 달마다 출렁임이 크다."
+  },
+  {
+   "en": "The latest month is September 2026; Korean prices fell again in October. Samsung Electronics and SK Hynix share prices, and a chip-sector share index, are not in the article's publishable data.",
+   "ko": "가장 최근 달은 2026년 9월이며, 10월에 한국 주가는 다시 떨어졌다. 삼성전자·SK하이닉스 주가와 반도체 업종 주가지수는 이 글의 게시 가능한 자료에 없다."
+  }
+ ],
+ "alt": {
+  "en": "Line chart, January 2024 to September 2026, with all three series at 100 in June 2026. Korean share prices climbed from 28.8 in December 2024 to 100 in June 2026, fell to 78.4 in August and stood at 81.0 in September. Chip export values rose from 31.8 in December 2024 to 100 in June, dipped to 91.4 in July and reached 134.8 in September. US share prices rose from 83.4 in December 2024 to 100 in June and 102.7 in September.",
+  "ko": "2024년 1월부터 2026년 9월까지의 선 그래프로, 세 계열 모두 2026년 6월이 100이다. 한국 주가는 2024년 12월 28.8에서 2026년 6월 100으로 올랐다가 8월 78.4로 떨어졌고 9월에는 81.0이었다. 반도체 수출액은 2024년 12월 31.8에서 6월 100으로 올랐다가 7월 91.4로 주춤한 뒤 9월 134.8에 이르렀다. 미국 주가는 2024년 12월 83.4에서 6월 100, 9월 102.7로 올랐다."
+ },
+ "axes": {
+  "x": {
+   "type": "time",
+   "format": "month",
+   "ticks": [
+    "2024-01",
+    "2024-07",
+    "2025-01",
+    "2025-07",
+    "2026-01",
+    "2026-07"
+   ],
+   "label": {
+    "en": "Month",
+    "ko": "월"
+   }
+  },
+  "y": {
+   "label": {
+    "en": "Index, June 2026 = 100",
+    "ko": "지수(2026년 6월 = 100)"
+   },
+   "unit": "index",
+   "domain": [
+    0,
+    150
+   ],
+   "ticks": [
+    0,
+    50,
+    100,
+    150
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "x": [
+  "2024-01",
+  "2024-02",
+  "2024-03",
+  "2024-04",
+  "2024-05",
+  "2024-06",
+  "2024-07",
+  "2024-08",
+  "2024-09",
+  "2024-10",
+  "2024-11",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-07",
+  "2025-08",
+  "2025-09",
+  "2025-10",
+  "2025-11",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08",
+  "2026-09"
+ ],
+ "series": [
+  {
+   "id": "kr",
+   "label": {
+    "en": "Korean shares",
+    "ko": "한국 주가"
+   },
+   "dataset": "derived-kr-shares-idx-2026-06",
+   "color": "focus",
+   "endLabel": true,
+   "values": [
+    29.756649,
+    30.993341,
+    31.787894,
+    31.537891,
+    31.931458,
+    32.358046,
+    33.111943,
+    31.20999,
+    30.540368,
+    30.580312,
+    29.516887,
+    28.777853,
+    29.52727,
+    30.395738,
+    30.45102,
+    29.139606,
+    30.784231,
+    34.544044,
+    37.348175,
+    37.55079,
+    39.516631,
+    44.227314,
+    47.294889,
+    48.260954,
+    56.346821,
+    65.596319,
+    65.500381,
+    71.446808,
+    89.847732,
+    100.0,
+    82.423214,
+    78.377317,
+    80.964349
+   ]
+  },
+  {
+   "id": "chip",
+   "label": {
+    "en": "Chip exports",
+    "ko": "반도체 수출액"
+   },
+   "dataset": "derived-chip-exports-idx-2026-06",
+   "color": 3,
+   "endLabel": true,
+   "values": [
+    20.771792,
+    21.895635,
+    25.771148,
+    21.722736,
+    25.042765,
+    29.624588,
+    24.531425,
+    25.852079,
+    29.880258,
+    27.426564,
+    27.314363,
+    31.846525,
+    22.132912,
+    21.014586,
+    28.653411,
+    25.475012,
+    30.367686,
+    32.999798,
+    32.394651,
+    33.237074,
+    36.630677,
+    34.631302,
+    38.019387,
+    46.007688,
+    45.538654,
+    55.886843,
+    73.138117,
+    70.995273,
+    82.831497,
+    100.0,
+    91.362407,
+    104.179006,
+    134.829952
+   ]
+  },
+  {
+   "id": "us",
+   "label": {
+    "en": "US shares",
+    "ko": "미국 주가"
+   },
+   "dataset": "derived-us-shares-idx-2026-06",
+   "color": "context",
+   "endLabel": true,
+   "values": [
+    71.510965,
+    73.814723,
+    76.53911,
+    75.762194,
+    76.908529,
+    76.55983,
+    78.184275,
+    79.198429,
+    81.637867,
+    83.302389,
+    84.527289,
+    83.374683,
+    83.174342,
+    85.327606,
+    82.727631,
+    78.61122,
+    83.333515,
+    85.321926,
+    87.825616,
+    88.430909,
+    90.864259,
+    91.763134,
+    91.193556,
+    93.407799,
+    96.335707,
+    99.021198,
+    94.769697,
+    96.94459,
+    98.184711,
+    100.0,
+    101.874814,
+    104.835983,
+    102.737746
+   ]
+  }
+ ],
+ "bands": [
+  {
+   "from": "2026-06",
+   "to": "2026-09"
+  }
+ ],
+ "annotations": [
+  {
+   "x": "2026-06",
+   "label": {
+    "en": "Tech stocks falter",
+    "ko": "기술주 흔들림"
+   },
+   "evidence": "jejualps-E1"
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S1",
+   "S6",
+   "S3",
+   "S5"
+  ],
+  "provider": "OECD via FRED; Bank of Korea, ECOS",
+  "keys": [
+   "SPASTT01KRM661N",
+   "403Y001/M/3091AA",
+   "SPASTT01USM661N"
+  ],
+  "definition": {
+   "en": "OECD share price indices for Korea and the United States (monthly averages of daily prices); Bank of Korea export value index for semiconductors (US dollars, 2020 = 100). Each rebased to June 2026 = 100.",
+   "ko": "OECD 한국·미국 주가지수(일별 주가의 월평균), 한국은행 반도체 수출금액지수(달러 기준, 2020 = 100). 모두 2026년 6월 = 100으로 다시 맞췄다."
+  },
+  "calculation": {
+   "en": "Each series ÷ its June 2026 value × 100. Annotation: the BIS dates the faltering of global tech stocks to the end of June 2026.",
+   "ko": "각 계열 ÷ 2026년 6월 값 × 100. 표시: BIS는 세계 기술주가 흔들리기 시작한 때를 2026년 6월 말로 본다."
+  },
+  "span": [
+   "2024-01",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-19",
+  "licence": "FRED (OECD): copyrighted, citation required; ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Sources: OECD via FRED, Federal Reserve Bank of St. Louis; Bank of Korea, ECOS; BIS; datasteg calculation",
+   "ko": "출처: OECD(FRED 경유, 세인트루이스 연방준비은행); 한국은행 ECOS; BIS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "x",
+    "label": {
+     "en": "Month",
+     "ko": "월"
+    }
+   },
+   {
+    "key": "kr",
+    "label": {
+     "en": "Korean shares",
+     "ko": "한국 주가"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "chip",
+    "label": {
+     "en": "Chip exports",
+     "ko": "반도체 수출액"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "us",
+    "label": {
+     "en": "US shares",
+     "ko": "미국 주가"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "x": "2024-01",
+    "kr": 29.756649,
+    "chip": 20.771792,
+    "us": 71.510965
+   },
+   {
+    "x": "2024-02",
+    "kr": 30.993341,
+    "chip": 21.895635,
+    "us": 73.814723
+   },
+   {
+    "x": "2024-03",
+    "kr": 31.787894,
+    "chip": 25.771148,
+    "us": 76.53911
+   },
+   {
+    "x": "2024-04",
+    "kr": 31.537891,
+    "chip": 21.722736,
+    "us": 75.762194
+   },
+   {
+    "x": "2024-05",
+    "kr": 31.931458,
+    "chip": 25.042765,
+    "us": 76.908529
+   },
+   {
+    "x": "2024-06",
+    "kr": 32.358046,
+    "chip": 29.624588,
+    "us": 76.55983
+   },
+   {
+    "x": "2024-07",
+    "kr": 33.111943,
+    "chip": 24.531425,
+    "us": 78.184275
+   },
+   {
+    "x": "2024-08",
+    "kr": 31.20999,
+    "chip": 25.852079,
+    "us": 79.198429
+   },
+   {
+    "x": "2024-09",
+    "kr": 30.540368,
+    "chip": 29.880258,
+    "us": 81.637867
+   },
+   {
+    "x": "2024-10",
+    "kr": 30.580312,
+    "chip": 27.426564,
+    "us": 83.302389
+   },
+   {
+    "x": "2024-11",
+    "kr": 29.516887,
+    "chip": 27.314363,
+    "us": 84.527289
+   },
+   {
+    "x": "2024-12",
+    "kr": 28.777853,
+    "chip": 31.846525,
+    "us": 83.374683
+   },
+   {
+    "x": "2025-01",
+    "kr": 29.52727,
+    "chip": 22.132912,
+    "us": 83.174342
+   },
+   {
+    "x": "2025-02",
+    "kr": 30.395738,
+    "chip": 21.014586,
+    "us": 85.327606
+   },
+   {
+    "x": "2025-03",
+    "kr": 30.45102,
+    "chip": 28.653411,
+    "us": 82.727631
+   },
+   {
+    "x": "2025-04",
+    "kr": 29.139606,
+    "chip": 25.475012,
+    "us": 78.61122
+   },
+   {
+    "x": "2025-05",
+    "kr": 30.784231,
+    "chip": 30.367686,
+    "us": 83.333515
+   },
+   {
+    "x": "2025-06",
+    "kr": 34.544044,
+    "chip": 32.999798,
+    "us": 85.321926
+   },
+   {
+    "x": "2025-07",
+    "kr": 37.348175,
+    "chip": 32.394651,
+    "us": 87.825616
+   },
+   {
+    "x": "2025-08",
+    "kr": 37.55079,
+    "chip": 33.237074,
+    "us": 88.430909
+   },
+   {
+    "x": "2025-09",
+    "kr": 39.516631,
+    "chip": 36.630677,
+    "us": 90.864259
+   },
+   {
+    "x": "2025-10",
+    "kr": 44.227314,
+    "chip": 34.631302,
+    "us": 91.763134
+   },
+   {
+    "x": "2025-11",
+    "kr": 47.294889,
+    "chip": 38.019387,
+    "us": 91.193556
+   },
+   {
+    "x": "2025-12",
+    "kr": 48.260954,
+    "chip": 46.007688,
+    "us": 93.407799
+   },
+   {
+    "x": "2026-01",
+    "kr": 56.346821,
+    "chip": 45.538654,
+    "us": 96.335707
+   },
+   {
+    "x": "2026-02",
+    "kr": 65.596319,
+    "chip": 55.886843,
+    "us": 99.021198
+   },
+   {
+    "x": "2026-03",
+    "kr": 65.500381,
+    "chip": 73.138117,
+    "us": 94.769697
+   },
+   {
+    "x": "2026-04",
+    "kr": 71.446808,
+    "chip": 70.995273,
+    "us": 96.94459
+   },
+   {
+    "x": "2026-05",
+    "kr": 89.847732,
+    "chip": 82.831497,
+    "us": 98.184711
+   },
+   {
+    "x": "2026-06",
+    "kr": 100.0,
+    "chip": 100.0,
+    "us": 100.0
+   },
+   {
+    "x": "2026-07",
+    "kr": 82.423214,
+    "chip": 91.362407,
+    "us": 101.874814
+   },
+   {
+    "x": "2026-08",
+    "kr": 78.377317,
+    "chip": 104.179006,
+    "us": 104.835983
+   },
+   {
+    "x": "2026-09",
+    "kr": 80.964349,
+    "chip": 134.829952,
+    "us": 102.737746
+   }
+  ]
+ },
+ "csv": "data/boom-and-bust-2026.csv"
+}

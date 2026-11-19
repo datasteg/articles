@@ -1,0 +1,263 @@
+{
+ "id": "episodes",
+ "form": "table",
+ "headline": {
+  "en": "In 1997–98 and 2008–09 corporate bond spreads soared and investment fell; from February 1985 to April 1987 the won fell 28.0% in real terms against its main trading partners, not against the dollar, and exports boomed",
+  "ko": "1997~98년과 2008~09년에는 회사채 스프레드가 치솟고 투자가 줄었다. 1985년 2월~1987년 4월에는 원화가 실질 기준으로 달러가 아닌 주요 교역상대국 통화에 대해 28.0% 떨어졌고 수출이 급증했다"
+ },
+ "title": {
+  "en": "Five episodes of a weak won, side by side",
+  "ko": "다섯 차례 원화 약세기 비교"
+ },
+ "subtitle": {
+  "en": "Changes in % from each episode's start month to the won's weakest month; growth in % from a year earlier; foreign purchases in USD bn; spread in basis points",
+  "ko": "변화율(%)은 각 시기 시작 월부터 원화가 가장 약했던 달까지, 성장률은 전년 동기 대비(%), 외국인 순매수는 10억 달러, 스프레드는 bp"
+ },
+ "howToRead": {
+  "en": "One row per episode. A positive change in won per dollar means a weaker won; a negative change in the won's real effective value (against all trading partners) also means a weaker won. 'Broad $' is the dollar against many currencies. Growth columns show the worst (or, for exports, the best) real growth from a year earlier, from the start of the episode to four quarters after it. 'Foreign buying' is foreign investors' net purchases of Korean shares and bonds; a negative value is a net sale. 'Widest spread' is the corporate bond spread over government bonds.",
+  "ko": "행마다 한 시기다. 원/달러 환율 변화가 양수면 원화 약세, 실질실효환율 변화가 음수면 역시 원화 약세다. '광의 달러'는 여러 통화 대비 달러 가치다. 성장률 열은 시기 시작부터 끝난 뒤 4분기까지 전년 동기 대비 실질 성장률이 가장 나빴던(수출은 가장 좋았던) 분기 값이다. '외국인 순매수'는 외국인의 국내 주식·채권 순매수로, 음수면 순매도다. '최대 스프레드'는 국고채 대비 회사채 금리 차다."
+ },
+ "notes": [
+  {
+   "en": "Episodes: Feb 1985–Apr 1987, Oct 1997–Jan 1998, Jul 2008–Mar 2009, Dec 2021–Oct 2022 and Jan 2024–Jun 2026. Changes run from the start month to the won's weakest month (1985–87: to the end of the won's real effective fall, Apr 1987). Foreign purchases are sums of monthly balance-of-payments flows into Korean shares and bonds over the same months.",
+   "ko": "시기: 1985.2~1987.4, 1997.10~1998.1, 2008.7~2009.3, 2021.12~2022.10, 2024.1~2026.6. 변화율은 시작 월부터 원화가 가장 약했던 달까지다(1985~87년은 실질실효환율 하락이 끝난 1987년 4월까지). 외국인 순매수는 같은 기간 국제수지상 국내 주식·채권 증권투자(부채) 월별 흐름의 합이다."
+  },
+  {
+   "en": "The broad dollar index starts in 1994, the foreign-purchase comparison is shown from 1997 and the corporate spread series starts in 1995, so those cells are blank for the Plaza Accord. Real effective value: BIS narrow index for the Plaza Accord, broad index from 1997.",
+   "ko": "광의 달러지수는 1994년, 회사채 스프레드 자료는 1995년부터 있고 외국인 순매수 비교는 1997년부터 보여 주므로 플라자 합의 칸은 비웠다. 실질실효환율은 플라자 합의 때 BIS 협의 지수, 1997년부터 광의 지수를 썼다."
+  },
+  {
+   "en": "Background, as set out in the text: 1985–87, the yen's rise against the dollar; 1997–98, heavy short-term foreign debt and an overnight call rate of up to 25.3% (Jan 1998 monthly average); 2008–09, a surging dollar and short-term foreign debt at its highest share of GDP in data back to 1994; 2022, a strong dollar and margin calls on currency hedges; 2024–26, political uncertainty, an oil price jump and a chip-export boom.",
+   "ko": "배경(본문 참고): 1985~87년 엔화의 달러 대비 강세, 1997~98년 많은 단기외채와 최고 25.3%의 콜금리(1998년 1월 월평균), 2008~09년 달러 급등과 1994년 이후 자료에서 GDP 대비 가장 높은 단기외채, 2022년 달러 강세와 환헤지 마진콜, 2024~26년 정치 불확실성, 유가 급등, 반도체 수출 호황."
+  },
+  {
+   "en": "In 1997–98 the three-year government bond yield looks administered: it stood at 11.65% from July to October 1997 and at about 15.0% from December 1997 to February 1998, and the spread over it was at times negative in 1996–97. The Asian-crisis widest spread, 935bp (Oct 1997–Dec 1998), is therefore approximate.",
+   "ko": "1997~98년 3년 만기 국고채 금리는 관리된 것으로 보인다. 1997년 7~10월 11.65%, 1997년 12월~1998년 2월 약 15.0%에 머물렀고, 1996~97년에는 회사채 스프레드가 음수인 달도 있었다. 따라서 외환위기 때의 최대 스프레드 935bp(1997.10~1998.12)는 근사치다."
+  },
+  {
+   "en": "The weak-won episode's widest spread, 74.7bp, is the window's first month (Jan 2024); spreads were lower at the end of the period than at its start, though they widened again in 2026, so it is no spike.",
+   "ko": "원화 약세기(2024.1~2026.6)의 최대 스프레드 74.7bp는 기간 첫 달(2024년 1월) 값이다. 2026년에 다시 벌어지긴 했지만 기간 말 스프레드는 시작 때보다 낮았으므로 급등이 아니다."
+  },
+  {
+   "en": "Korean government bond yields are left out: they fell in 2008–09 and rose with US yields in 2022, so they are a poor gauge of Korea-specific stress here.",
+   "ko": "국고채 금리는 뺐다. 2008~09년에는 내렸고 2022년에는 미국 금리를 따라 올라, 여기서는 한국 고유의 금융 스트레스를 재는 지표로 적합하지 않다."
+  }
+ ],
+ "alt": {
+  "en": "Table of five weak-won episodes. Growth columns run to four quarters after each episode, and the widest spread to Dec 1998, Jun 2009, Dec 2022 and Jun 2026. Plaza Accord, Feb 1985–Apr 1987: won per dollar up 0.5%, the won's real effective value down 28.0%, lowest GDP growth 6.8%, lowest investment growth −2.7%, fastest export growth 52.4%. Asian crisis, Oct 1997–Jan 1998: won per dollar up 85.1%, real value down 39.2%, broad dollar up 8.5%, GDP −7.1%, investment −23.1%, exports up to 27.6%, foreign net sales of USD 1.4bn, corporate spread up to 935bp. Global crisis, Jul 2008–Mar 2009: won per dollar up 43.5%, real value down 22.9%, broad dollar up 17.9%, GDP −2.1%, investment −6.9%, exports up to 9.3%, foreign net sales of USD 29.0bn, spread up to 438bp. Strong dollar, Dec 2021–Oct 2022: won per dollar up 20.5%, real value down 6.6%, broad dollar up 11.2%, GDP 0.7%, investment −2.5%, exports up to 10.8%, foreign net purchases of USD 27.6bn, spread up to 167bp. Weak won, Jan 2024–Jun 2026: won per dollar up 15.4%, real value down 14.5%, broad dollar down 0.9%, GDP 0.2%, investment −4.2%, exports up to 12.6%, foreign net sales of USD 14.9bn, spread at most 75bp.",
+  "ko": "다섯 차례 원화 약세기를 비교한 표. 성장률 열은 각 시기가 끝난 뒤 4분기까지, 최대 스프레드는 각각 1998년 12월, 2009년 6월, 2022년 12월, 2026년 6월까지의 값이다. 플라자 합의(1985.2~1987.4): 원/달러 환율 0.5% 상승, 실질실효환율 28.0% 하락, 최저 GDP 성장률 6.8%, 최저 투자 증감률 −2.7%, 최고 수출 증가율 52.4%. 외환위기(1997.10~1998.1): 원/달러 환율 85.1% 상승, 실질실효환율 39.2% 하락, 광의 달러 8.5% 상승, GDP −7.1%, 투자 −23.1%, 수출 최고 27.6%, 외국인 순매도 14억 달러, 회사채 스프레드 최대 935bp. 금융위기(2008.7~2009.3): 원/달러 환율 43.5% 상승, 실질실효환율 22.9% 하락, 광의 달러 17.9% 상승, GDP −2.1%, 투자 −6.9%, 수출 최고 9.3%, 외국인 순매도 290억 달러, 스프레드 최대 438bp. 달러 강세(2021.12~2022.10): 원/달러 환율 20.5% 상승, 실질실효환율 6.6% 하락, 광의 달러 11.2% 상승, GDP 0.7%, 투자 −2.5%, 수출 최고 10.8%, 외국인 순매수 276억 달러, 스프레드 최대 167bp. 원화 약세(2024.1~2026.6): 원/달러 환율 15.4% 상승, 실질실효환율 14.5% 하락, 광의 달러 0.9% 하락, GDP 0.2%, 투자 −4.2%, 수출 최고 12.6%, 외국인 순매도 149억 달러, 스프레드 최대 75bp."
+ },
+ "meta": {
+  "sources": [
+   "S4",
+   "S20",
+   "S21",
+   "S29",
+   "S1",
+   "S2",
+   "S3",
+   "S30",
+   "S7",
+   "S8",
+   "S26",
+   "S11",
+   "S28",
+   "S41",
+   "S40",
+   "S19",
+   "S22"
+  ],
+  "provider": "Bank of Korea, ECOS; BIS via FRED",
+  "keys": [
+   "731Y004/M/0000001/0000100",
+   "731Y004/M/0000002/0000100",
+   "RNKRBIS",
+   "RBKRBIS",
+   "NBUSBIS",
+   "200Y102/Q/10211",
+   "200Y102/Q/10225",
+   "200Y110/Q/1020110",
+   "301Y013/M/BOPF22000000",
+   "721Y001/M/7020000",
+   "721Y001/M/5020000",
+   "721Y001/M/1010000",
+   "403Y001/M/3091AA",
+   "MCOILBRENTEU"
+  ],
+  "definition": {
+   "en": "Won per US dollar, monthly averages; the won's real effective exchange rate (BIS narrow and broad indices) and the dollar's nominal broad effective rate (BIS), via FRED; real GDP and real goods exports, growth from a year earlier; real gross fixed capital formation; foreign investors' net purchases of Korean securities (balance of payments, portfolio investment liabilities); corporate bond spread = three-year AA− corporate bond rate minus three-year government bond rate.",
+   "ko": "원/달러 환율 월평균, FRED를 통한 원화 실질실효환율(BIS 협의·광의 지수)과 달러 명목 광의 실효환율(BIS), 실질 GDP·실질 재화수출의 전년 동기 대비 증감률, 실질 총고정자본형성, 외국인 국내 증권 순매수(국제수지 증권투자 부채), 회사채 스프레드 = 3년 만기 AA− 회사채 금리 − 3년 만기 국고채 금리."
+  },
+  "calculation": {
+   "en": "Changes = (end month ÷ start month − 1) × 100. Lowest and fastest growth are the extremes from the start quarter to four quarters after the end. Foreign purchases = sum of monthly flows ÷ 1,000. Widest spread = highest monthly average from the start month to Dec 1998, Jun 2009, Dec 2022 and Jun 2026 respectively. Spread = (corporate rate − government rate) × 100.",
+   "ko": "변화율 = (종료 월 ÷ 시작 월 − 1) × 100. 최저·최고 성장률은 시작 분기부터 종료 후 4분기까지의 극값. 외국인 순매수 = 월별 흐름의 합 ÷ 1,000. 최대 스프레드 = 시작 월부터 각각 1998년 12월, 2009년 6월, 2022년 12월, 2026년 6월까지의 월평균 최고치. 스프레드 = (회사채 금리 − 국고채 금리) × 100."
+  },
+  "span": [
+   "1985-01",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-19",
+  "licence": "ECOS Open API terms: reuse allowed with attribution; BIS via FRED: citation required",
+  "attribution": {
+   "en": "Sources: Bank of Korea, ECOS; BIS via FRED, Federal Reserve Bank of St. Louis; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; BIS(FRED 경유, 세인트루이스 연방준비은행); datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "episode",
+    "label": {
+     "en": "Episode",
+     "ko": "시기"
+    }
+   },
+   {
+    "key": "krw",
+    "label": {
+     "en": "Won per $, %",
+     "ko": "원/달러, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "reer",
+    "label": {
+     "en": "Real effective, %",
+     "ko": "실질실효, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "dollar",
+    "label": {
+     "en": "Broad $, %",
+     "ko": "광의 달러, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "gdp",
+    "label": {
+     "en": "Lowest GDP, %",
+     "ko": "최저 GDP, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "inv",
+    "label": {
+     "en": "Lowest investment, %",
+     "ko": "최저 투자, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "exp",
+    "label": {
+     "en": "Best exports, %",
+     "ko": "최고 수출, %"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "flows",
+    "label": {
+     "en": "Foreign buying, USD bn",
+     "ko": "외국인 순매수, 10억 달러"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "spread",
+    "label": {
+     "en": "Widest spread, bp",
+     "ko": "최대 스프레드, bp"
+    },
+    "align": "right",
+    "decimals": 0
+   }
+  ],
+  "rows": [
+   {
+    "episode": {
+     "en": "Plaza Accord, Feb 1985–Apr 1987",
+     "ko": "플라자 합의 1985.2~1987.4"
+    },
+    "krw": 0.473175,
+    "reer": -27.986893,
+    "dollar": null,
+    "gdp": 6.8,
+    "inv": -2.733879,
+    "exp": 52.4,
+    "flows": null,
+    "spread": null
+   },
+   {
+    "episode": {
+     "en": "Asian crisis, Oct 1997–Jan 1998",
+     "ko": "외환위기 1997.10~1998.1"
+    },
+    "krw": 85.149428,
+    "reer": -39.176544,
+    "dollar": 8.501066,
+    "gdp": -7.1,
+    "inv": -23.12934,
+    "exp": 27.6,
+    "flows": -1.4299,
+    "spread": 935.0
+   },
+   {
+    "episode": {
+     "en": "Global crisis, Jul 2008–Mar 2009",
+     "ko": "금융위기 2008.7~2009.3"
+    },
+    "krw": 43.455138,
+    "reer": -22.880202,
+    "dollar": 17.885204,
+    "gdp": -2.1,
+    "inv": -6.93358,
+    "exp": 9.3,
+    "flows": -28.9911,
+    "spread": 438.0
+   },
+   {
+    "episode": {
+     "en": "Strong dollar, Dec 2021–Oct 2022",
+     "ko": "달러 강세 2021.12~2022.10"
+    },
+    "krw": 20.525471,
+    "reer": -6.576402,
+    "dollar": 11.218274,
+    "gdp": 0.7,
+    "inv": -2.503699,
+    "exp": 10.8,
+    "flows": 27.5979,
+    "spread": 167.2
+   },
+   {
+    "episode": {
+     "en": "Weak won, Jan 2024–Jun 2026",
+     "ko": "원화 약세 2024.1~2026.6"
+    },
+    "krw": 15.392461,
+    "reer": -14.46081,
+    "dollar": -0.898117,
+    "gdp": 0.2,
+    "inv": -4.18447,
+    "exp": 12.6,
+    "flows": -14.8527,
+    "spread": 74.7
+   }
+  ]
+ },
+ "csv": "data/episodes.csv"
+}

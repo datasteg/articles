@@ -1,0 +1,262 @@
+{
+ "kicker": "Stock markets",
+ "title": "Korea's 2026 stock plunge came after its biggest boom in decades, not a global panic",
+ "dek": "After rising 209% in two years, the most since December 1988, Korean share prices fell 21.6% by August in monthly averages, and again in October; the BIS ties the fall to early September to exposure to AI-linked firms and turmoil in a few leveraged vehicles, crowded into two chipmakers, while world markets stayed calm and news mood was upbeat at the peak.",
+ "byline": "datasteg desk · AI-assisted",
+ "keyNumbers": [
+  {
+   "value": "209%",
+   "label": "Rise in Korean share prices in the two years to June 2026 (OECD monthly average), the most since December 1988; the record, 282%, came in the two years to February 1988",
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "20.7",
+   "label": "Highest VIX close during Korea's 2026 fall, against 79.1 during the 2007–08 fall and 82.7 in 2020",
+   "cite": [
+    "S2"
+   ]
+  },
+  {
+   "value": "108.1",
+   "label": "Bank of Korea news sentiment on 22 Jun 2026, the day stocks peaked; readings above the long-run average mean upbeat news",
+   "cite": [
+    "S4"
+   ]
+  }
+ ],
+ "findings": [
+  "Korea's twelve sharp falls since 1997 had no single cause: in ten of the eleven before 2026 the ((vix|VIX)), Wall Street's fear gauge, closed at about double its median or more, but in 2004 it never closed above 20.0, and in 2026 it peaked at 20.7 and US shares rose 4.8% from June to August [[S1,S2,S3]].",
+  "In all eight falls since 2007, news mood about the economy was above its long-run average on the day stocks peaked, but in each it had also dipped below that average in the year before; in 2026 it went from 87.5 on 9 Mar 2026 to 108.1 at the peak and 85.0 on 18 Oct [[S4]].",
+  "Korean share prices rose 209% in the two years to June 2026, the most since December 1988, as bets piled onto two chipmakers; the fall coincided with a global slide in tech shares that the BIS dates to the end of June, while Korea's chip export values, after a dip in July, were well above their June level by September [[S1,S5,S6]].",
+  "The fall of 21.6% to August took two months. Timed from each fall's high month to its low month, only 2020's 19.0%, also in two months, came close to that pace. Every earlier fall of a fifth or more in monthly averages took at least 11 months. Steeper two-month drops came inside the 1997–98, 2000–01 and 2007–08 falls. That speed fits selling forced by leveraged funds, but 2020's came in a global panic, and the data we can use include no daily figures on forced sales [[S1,S5]].",
+  "Recoveries took from two months to 72 months; most followed rate cuts, but the 2007 high was regained in 2011 as rates rose, and in 2026 the Bank of Korea raised its rate 0.50 pp during the fall; a model can gauge fragility, not date a crash [[S1,S7,S8,S9]]."
+ ],
+ "question": {
+  "asked": "What built up before Korea's big stock-market falls, what set them off and deepened them, what came before the market steadied, and how could a model of these stages be designed and tested on past falls, including the 2026 fall?",
+  "lookedAt": "We looked at what came before, during and after Korea's big stock-market falls, from the 1997 crisis to the fall under way since June 2026, using market data and research by central banks and economists.",
+  "premiseNote": "The data do not show one root cause: the 1997 fall came with a currency collapse, 2008 and 2020 with global panic, and the 2026 fall with a huge run-up and leveraged bets on two chipmakers while world markets stayed calm, as they had in 2004. None of the surveys we could use asks whether people think stocks are overpriced, so we look at mood about the economy instead, and we split 'panic selling' into selling forced by borrowing or fund rules and herd behaviour, including by foreign investors in 1997; foreign flows themselves cannot be shown."
+ },
+ "sections": [
+  {
+   "id": "different-falls",
+   "heading": "Every fall had its own mix of causes",
+   "summary": "Most falls came with a jump in Wall Street's fear gauge, two with a won collapse, two with neither.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Korea's twelve sharp falls since 1997 share no single cause. Most came with a jump in Wall Street's fear gauge to about double its usual level. Two came with a collapse of the won, when the dollar rose by more than half against it, and two, in 2004 and 2026, with neither [[S1,S2,S10]]."
+    },
+    {
+     "type": "p",
+     "text": "It helps to picture four stages: the fuel that built up, the spark that set a fall off, the wind that made it worse, and what came before calm. What follows shows timing, not proof of cause."
+    },
+    {
+     "type": "p",
+     "text": "We picked the falls on daily closes of the KOSPI: every fall of a fifth or more since 1997, except three short swings in the rebound from the 1998 low. The slide from July 2024 to April 2025, a fall of a fifth on daily closes, appears as two shorter falls, July–August 2024 and February–April 2025. The long slide from 2018 to 2020 counts as two falls, split at its August 2019 low."
+    },
+    {
+     "type": "p",
+     "text": "To measure them we use the OECD's monthly average of Korean share prices, which smooths daily swings and so makes falls look shallower, most of all falls that happen within weeks [[S1]]. The deepest were 59.2% in 1997–98 and 48.8% in the 2000–01 IT bust; 2007–08 fell 46.4% [[S1]]. The 2026 fall, 21.6% from June to August so far, ranks mid-sized for now in monthly averages: six of the eleven earlier falls were deeper [[S1]]. On daily closes, though, it is already deeper than the 2018–19, 2020 and 2021–22 falls; only the 1997–98, 2000–01, 2002–03 and 2007–08 falls went deeper."
+    },
+    {
+     "type": "p",
+     "text": "In ten of the eleven earlier falls the VIX, an index of how much US shares are expected to swing, closed at about double its median of 18.1 or more [[S2]]. It reached 79.1 during the 2007–08 fall and 82.7 in 2020 [[S2]]. The exception was 2004: Korean share prices fell 17.7% from April to July in monthly averages, yet the VIX never closed above 20.0, US shares slipped 2.4% and won per dollar rose only 0.5% [[S1,S2,S3,S10]]. The won collapsed twice, when the dollar rose by more than half against it: by 54.3% in 1997–98 and 52.9% in 2007–08 [[S10]]."
+    },
+    {
+     "type": "p",
+     "text": "Some sparks were regional. US shares rose 10.8% during the 1997–98 fall, an Asian crisis rather than a global one [[S3]]. Korea's political shock on 3 Dec 2024 came with a VIX of only 13.3; the fall in our table began in February 2025, and its VIX high, 52.3, came on 8 Apr 2025 [[S2]]."
+    },
+    {
+     "type": "p",
+     "text": "Like 2004, the 2026 fall came without a global panic: the VIX closed no higher than 20.7, US shares rose 4.8% from June to August, and won per dollar fell 8.3%, a stronger won [[S2,S3,S10]]. Apart from swings in the flows themselves, global fear and US share returns explain far more of the money moving into and out of emerging-market funds than domestic factors do, in an IMF study that does not include Korea [[S11]]. Yet from June to early September 2026 emerging-market shares as a group gained [[S5]]. The table below sets the twelve falls side by side."
+    },
+    {
+     "type": "figure",
+     "chart": "ten-falls"
+    }
+   ]
+  },
+  {
+   "id": "mood",
+   "heading": "The mood was upbeat at the top",
+   "summary": "Since 2007, news mood was upbeat on each peak day, after dipping the year before.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "None of the data we could use measures whether people felt a bubble: no survey among them asks whether people think stocks are overpriced. News mood about the economy, the closest measure, swings widely. In the year before each peak it dipped below its long-run average at some point, yet on each peak day it was above it [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "The Bank of Korea's ((news-sentiment-index|news sentiment index)) reads the tone of economic news each day. In all eight falls since 2007 it was above its long-run average on the day stocks peaked. In the year before each peak it had been higher at some point, and also lower: every time it fell to 93.0 or below, and before the 2020 peak to 76.5 [[S4]]. In 2026, mood went from 125.7 on 3 Nov 2025 down to 87.5 on 9 Mar 2026, then back up to 108.1 on 22 Jun 2026, the day stocks peaked [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "In each fall, counting up to three months after the low, mood sank below its dip of the year before, sometimes far below. In 2024 it did so only after stocks had hit their low, and in 2026 only after their lowest close so far, in mid-October. In the global financial crisis it fell to 57.7 on 8 Oct 2008, against 79.7 in the year before the peak [[S4]]."
+    },
+    {
+     "type": "p",
+     "text": "In 2026 the gap is small: mood reached 85.0 on 18 Oct, its lowest since 11 Apr 2025, against 87.5 in March [[S4]]. The chart below compares mood on each peak day with its lowest reading from the peak to three months after the low."
+    },
+    {
+     "type": "figure",
+     "chart": "mood-at-peaks"
+    },
+    {
+     "type": "p",
+     "text": "The ((consumer-sentiment-index|consumer sentiment index)), a monthly survey of households, fell to 67.7 in December 2008 but barely moved during the 2026 fall, with a low of 104.5 in August 2026 [[S12]]."
+    },
+    {
+     "type": "p",
+     "text": "Sensing a crash is common, so it is no warning by itself: US investors in long-running surveys put the chance of a crash at more than ten times its historical frequency [[S13]]. In an IMF study, fund flows appear to have peaked just before past large falls in asset prices, a quantity worth watching alongside mood [[S9]]. In Korea's data, mood was above average on each peak day; its lowest readings came during or just after the falls, though in 2024 and 2026 only a little below its dips of the year before."
+    }
+   ]
+  },
+  {
+   "id": "build-up-2026",
+   "heading": "2026: a run-up resting on two chipmakers",
+   "summary": "The 2026 fall came after a huge run-up in two chipmakers, as tech stocks faltered and US chipmakers' price-earnings ratios fell.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Before the 2026 fall, Korean share prices had their biggest two-year rise since the boom of 1987–89, resting on two chip stocks and leveraged bets [[S1,S5]]. The fall came with a repricing of chip shares, not a fall in Korea's chip exports [[S5,S6]]."
+    },
+    {
+     "type": "p",
+     "text": "Prices rose 209% in the two years to June 2026, the most since December 1988 but short of the record: 282% in the two years to February 1988 [[S1]]. In data back to 1981, only two earlier run-ups doubled prices in two years: the boom of 1987–89, and the run-up of 1998–99, when prices rose 152% in the two years to December 1999 [[S1]]. Each ended in a fall of almost half: 48.6% from March 1989 to August 1992, though the first took more than three years, and 48.8% in the IT bust that followed [[S1]]. Two cases are a reason for caution, not a rule."
+    },
+    {
+     "type": "p",
+     "text": "Shares of Samsung Electronics and SK Hynix, Korea's dominant memory chipmakers, more than tripled in the first half of 2026, and the wider market followed them [[S5]]. Bets piled up on top: assets of leveraged products on the major memory-chip stocks, Samsung, SK Hynix and the US firm Micron, rose from under a hundred million dollars in mid-2025 to more than thirty-eight billion in June 2026 [[S5]]. In June the Bank of Korea Governor said the surge had come with \"a significant increase in leveraged equity investment\" [[S14]]."
+    },
+    {
+     "type": "p",
+     "text": "Research shows why such a run-up matters but cannot time a fall. In US industries, the chance of a fall of two-fifths or more within two years rises from one in five to more than half as a two-year gain over the market goes from fifty to a hundred per cent [[S8]]. Yet in run-ups that did crash, prices rose about another thirty per cent on average before the peak [[S8]]."
+    },
+    {
+     "type": "p",
+     "text": "The fall coincided with a global turn in tech stocks, which the BIS dates to the end of June, days after Korean shares peaked on 22 June. Tech stocks began to falter amid the strain of a prolonged conflict in Iran, and by early September the ((price-earnings-ratio|price-earnings ratios)) of US-listed semiconductor makers had fallen by two-fifths [[S5]]. The BIS says Korea plunged furthest because of its exposure to AI-linked firms and turmoil in a few leveraged investment vehicles [[S5]]. The BIS review covers June to early September; no study we found covers the further fall to mid-October."
+    },
+    {
+     "type": "p",
+     "text": "The chart below shows that chip export values, after a dip in July, were well above their June level by September and 268% up on a year earlier, while Korean share prices were 19.0% below June [[S6,S1]]. The fall came with a repricing of chip shares, not a fall in chip exports."
+    },
+    {
+     "type": "figure",
+     "chart": "boom-and-bust-2026"
+    }
+   ]
+  },
+  {
+   "id": "amplifiers",
+   "heading": "Forced selling or panic? The data cannot tell",
+   "summary": "The fall's speed fits selling forced by leverage, but the data we can use cannot confirm it.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The 2026 fall was among the fastest in the data [[S1]]. Some of what looks like panic may be selling that borrowing or fund rules force on investors [[S5]]. The data we can use include no daily figures on forced sales, so they cannot tell the two apart."
+    },
+    {
+     "type": "p",
+     "text": "Prices fell 21.6% in two months, by August. July 2026 alone was 17.6% below June [[S1]]. Timed from each fall's high month to its low month, only 2020's 19.0%, also in two months, came close to that pace [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "Every earlier fall of a fifth or more in monthly averages took at least 11 months to reach its low [[S1]]. Steeper two-month drops did come inside the 1997–98, 2000–01 and 2007–08 falls [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "When the stock behind a ((leveraged-etf|leveraged ETF)) falls, the fund's leverage rises above its target, so it must sell [[S5]]. For SK Hynix, the trading such funds needed after a ten per cent move reached almost five billion dollars by the June peak [[S5]]. Against daily turnover of under ten billion, the BIS author estimates from a model, not observed trades, that this could add two to four points to such a move [[S5]]."
+    },
+    {
+     "type": "p",
+     "text": "Hedging ((autocallable|autocallable)) notes can add large trades near their barrier prices [[S5]]. The author stresses concentration: \"a handful of instruments referencing two stocks that dominate an index, in a market where retail participation and leverage are both unusually high\" [[S5]]."
+    },
+    {
+     "type": "p",
+     "text": "Borrowed money works the same way, through the ((margin-call|margin call)). In China's 2015 crash, margin investors sold heavily as their leverage neared its limit, and the stocks they held fell abnormally and later recovered, the mark of a ((fire-sale|fire sale)) [[S15]]. The authors add that the market might have corrected eventually even without that trigger [[S15]]."
+    },
+    {
+     "type": "p",
+     "text": "((herding|Herding)), investors copying each other, is the other suspect. Before Korea's 1997 crisis foreign investors chased recent returns, but over a day or a few days the authors find nothing that singles them out as destabilising [[S16]]. Herding measures also cannot tell copying from reactions to the same news [[S17]]."
+    },
+    {
+     "type": "p",
+     "text": "A fast fall need not be irrational: in one well-known model, when investors expecting bad news cannot sell short, their information comes out during declines [[S18]]. The speed of 2026 fits forced selling but does not prove it: 2020 was nearly as fast, in a global panic."
+    }
+   ]
+  },
+  {
+   "id": "stabilisers",
+   "heading": "What came before the market steadied",
+   "summary": "Most recoveries followed rate cuts, but not all, and the 2026 fall is still open.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Recoveries took from two months to 72 months. Most followed rate cuts, but the 2007 high was regained in 2011 as rates rose, and the 2022 low turned while the rate was still rising [[S1,S7]]."
+    },
+    {
+     "type": "p",
+     "text": "Prices took seven months to regain their earlier high after the 2020 peak, 39 months after 2007 and 72 months after 2011 [[S1]]. Three months after the low, the 2020 market had regained 83% of its fall, the 2008 market only 7% [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "The Bank of Korea cut its ((base-rate|base rate)) during or near several falls' lows; the first cuts came on 8 Feb 2001, 9 Oct 2008 and 17 Mar 2020 [[S7]]. But the rate rose 2.00 pp from the 2021 peak to the 2022 low, and that market still turned, if slowly [[S7,S1]]. Cuts are neither the only route to calm nor a guarantee of it."
+    },
+    {
+     "type": "p",
+     "text": "In June 2026 the Governor said the Bank needed to raise its rate before it was too late, to keep prices stable [[S14]]. It did so on 16 Jul 2026 and 27 Aug 2026. By 15 Oct the rate was 0.50 pp higher than at the June peak [[S7]]. The chart below shows the base rate through each fall."
+    },
+    {
+     "type": "figure",
+     "chart": "base-rate"
+    },
+    {
+     "type": "p",
+     "text": "Research on other falls shows what else came before calm. In August 2024 US shares had regained by Friday 9 August all they lost from Monday 5 August, and authorities did not need to intervene [[S19]]. In 2008 a US ban on short selling did little to slow the fall in financial shares [[S20]]."
+    },
+    {
+     "type": "p",
+     "text": "The 2026 fall is still open: monthly average prices edged up 3.3% from August to September [[S1]]. But prices fell again in October, and the October average is not out yet. The VIX was 20.0 on 16 Oct [[S2]]. We declare no low and make no forecast."
+    }
+   ]
+  },
+  {
+   "id": "model",
+   "heading": "How a crash-risk model for Korea could work",
+   "summary": "A model could gauge how fragile the market is, but not date the next crash.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A useful model would estimate how fragile the market is, as a probability or a state, from measures of fuel, spark and wind, tested on Korea's twelve falls; it cannot date the next crash [[S8,S9]]."
+    },
+    {
+     "type": "p",
+     "text": "For the fuel, the US industry study turns a two-year run-up into a crash probability, and rising volatility and share issuance set apart the run-ups that crashed [[S8]]. An IMF framework adds quantities, such as trading and fund flows, to prices [[S9]]. The table below sets out the design."
+    },
+    {
+     "type": "figure",
+     "chart": "model-design"
+    },
+    {
+     "type": "p",
+     "text": "For the spark, it would track the won, global fear and US share returns. In an IMF study that does not include Korea, the last two explain far more of the money moving into and out of emerging-market funds than domestic factors do, apart from swings in the flows themselves [[S11]]. For the wind, it would measure borrowing, leveraged-fund trades against turnover and one-sided option bets [[S5]]. Korea's own record is thin: only two earlier run-ups doubled prices in two years, too few cases to estimate from Korea alone [[S1]]."
+    },
+    {
+     "type": "p",
+     "text": "The output would be a probability of a large fall, a forecast of how lopsided returns will be, or a state such as calm, fragile, falling or recovering [[S18]]. It would be fitted on some falls and checked on others, knowing that any warning threshold trades missed falls against false alarms [[S9]]."
+    },
+    {
+     "type": "p",
+     "text": "Much of the data such a model needs is not cleared for republication, known only from BIS estimates, or not in the data this article can use, as the table shows. And as an IMF paper puts it, \"bubbles can only be identified with complete certainty ex-post\" [[S9]]."
+    }
+   ]
+  }
+ ],
+ "insight": {
+  "label": "Our read",
+  "text": "The question assumes a felt bubble, then irrational selling, yet in the eight falls since 2007 news mood was above average on each peak day, despite dips below it the year before, and sank lowest during or just after them. The sparks differed: global panics, two won collapses, and in 2026 a repricing of chip shares after a rise of 209%, amid calm world markets, as in 2004 [[S4,S2,S10,S1,S5]]. The wind may tie the 2026 fall together, at least to early September: a BIS author's model estimate says leveraged funds' trades could have amplified moves in a market crowded into two stocks, though Korean data cannot confirm it [[S5]]. A model can track that fragility as a probability; it cannot tell anyone when to sell."
+ },
+ "disclaimer": "This article is general information about the economy and financial markets. It is not investment advice."
+}

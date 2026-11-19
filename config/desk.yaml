@@ -1,0 +1,147 @@
+# The data desk: a daily note written from datasteg's own apps through api.datasteg.com.
+# Read by pipeline/artools/desk/config.py; every value here has a default there.
+pipeline: data-note
+
+# One model per role, one call per role per round (guides/desk/roles/<role>.md is the role's brief). Fable is not
+# used: on 14 Nov 2026 the editor asked for the desk to run on Opus and Sonnet. Judgement that shapes the note
+# (editor, writer, referee, judge) is on Opus; work a brief can pin down (writing expressions, checking sentences
+# against a fact sheet, reading as a student) is on Sonnet. The editor moved to Opus on 15 Nov 2026: choosing what is
+# new is judgement, and it is one call a run (Sonnet cost two or three cents).
+roles:
+  editor:  {model: claude-opus-5-5, effort: high}
+  analyst: {model: claude-sonnet-5-5, effort: medium}
+  writer:  {model: claude-opus-5-5, effort: high}
+  referee: {model: claude-opus-5-5, effort: medium}
+  # reader: retired on 18 Nov 2026 (rule R5); the inference test reads what a skimming reader sees instead
+  reader:  {model: claude-sonnet-5-5, effort: low}
+  # inference: sees only the title, dek, key numbers and chart headlines and says what a reader concludes (R4); in a
+  # second task it matches the conclusions code could not tie to a claim
+  inference: {model: claude-sonnet-5-5, effort: low}
+  checker: {model: claude-sonnet-5-5, effort: medium}
+  verifier: {model: claude-sonnet-5-5, effort: medium}
+  judge:   {model: claude-opus-5-5, effort: medium}
+  # the Korean edition (see `korean` below): both roles write English only; qkr writes the Korean
+  ko-source:  {model: claude-sonnet-5-5, effort: low}
+  ko-checker: {model: claude-sonnet-5-5, effort: high}
+  # the Korean title (see `korean.title`): writes English headline angles, then picks among qkr's Korean drafts.
+  # Opus: the title is what most readers see, and choosing it is judgement (16 Nov 2026, the editor)
+  ko-title:   {model: claude-opus-5-5, effort: medium}
+  # the polish (19 Nov 2026, the owner: Fable's rewrite of 20261118-desk-r6 was "much nicer and easy to understand"):
+  # Fable refines the expression of each finished edition, separately, with claude -p. The English after the review
+  # loop and before the judge; the Korean after qkr drafted it and the side-by-side reader checked it, from
+  # the Korean alone. Both for adults who never studied economics, with the owner's short brief of 20 Nov 2026
+  # ("keep the content, change only the expression"; the title written last). These are the
+  # desk's only Fable roles; every other role stays on Opus or Sonnet (14 Nov 2026).
+  polish-en: {model: claude-fable-5-2, effort: high}
+  polish-ko: {model: claude-fable-5-2, effort: high}
+  # the Korean polish sees no English since 19 Nov 2026 (the owner: "focus only on Korean"); this fact editor compares
+  # each rewrite with qkr's draft, which was checked against the English, and a string whose facts changed keeps qkr's
+  polish-ko-facts: {model: claude-opus-5-5, effort: medium}
+  # the Korean title is written anew from the whole note (20 Nov 2026): this editor reads it against the note
+  polish-ko-title: {model: claude-opus-5-5, effort: medium}
+  # the ideas preview (20 Nov 2026, desk/ideas.py): questions from what is new, scored by three lay readers
+  ideas:          {model: claude-opus-5-5, effort: high}
+  ideas-readers:  {model: claude-sonnet-5-5, effort: medium}
+  # ko-writer drafts the Korean when korean.engine is claude (while qkr is training)
+  ko-writer:  {model: claude-opus-5-5, effort: medium}
+
+# List-price USD (Claude Code's figure, a yardstick: the desk runs under the claude.ai login). A note that reaches
+# its budget stops revising and goes to the judge as it is. usd_per_note is the note's whole English spend, its
+# rewrites after a return included (USD 20 from 16 Nov 2026, the editor's limit). The Korean edition is not counted:
+# qkr is datasteg's own model, and the editor asked that its time and cost never cut the Korean short.
+# soft_usd_first_queue: a warning in the daily log when a note's English passes it before its first queueing
+# (the money goes on rewrites after a return; catching framing faults before the queue is the saving)
+budget: {usd_per_note: 20.0, usd_per_day: 20.0, soft_usd_first_queue: 10.0}
+# max_rounds: full review rounds (referee, checker, reader). If the last one still has blocking issues, the writer
+# revises once more and a verifier checks only whether each listed issue is fixed: reviewers find something new in
+# every draft, so without a closing pass a note would never finish.
+# closing_passes: how many times the writer may fix what a closing check still found (the second looks only at those).
+# converge (R6): in a later round a reviewer may raise a new blocking issue only on a string that changed, or as an
+# error of fact; anything else is kept as advisory. scoped_closing: a closing pass takes the writer's new wording only
+# for the strings its must-fix list names (the --only machinery of updates), the rest of the draft stays as it was.
+loop: {max_rounds: 2, closing_passes: 2, converge: true, scoped_closing: true}
+
+# The bar (guides/desk/standard.md). A note passes with no blocking issue left, no dimension under min_dimension, and
+# a mean at or above a quantile of the benchmark set's means (benchmark: q1 | median | q3) + benchmark_margin, never
+# under min_overall. q3 is where the best quarter of the institutional articles starts (3.59 on 14 Nov 2026, when
+# their median was 3.28). judges: how many times the judge scores each text; the scores are averaged.
+# judges: 1 since 18 Nov 2026 (R7); second_judge: a second score is taken, and the two averaged, only when the first
+# mean is within near_bar of the bar or a dimension is within near_floor of min_dimension.
+quality: {min_overall: 3.3, min_dimension: 3.0, benchmark: q3, benchmark_margin: 0.0, judges: 1,
+          second_judge: {near_bar: 0.15, near_floor: 0.25}}
+
+# The refined pipeline (18 Nov 2026). required: the analyst writes a claim ledger
+# (analysis/claims.json) and the writer cites a claim for the title, dek, key numbers, findings and chart headlines.
+# inference / inference_korean: the inference test on the English draft and on the Korean edition's surface.
+# preflight: before the editor role is paid for, the apps' latest consistency checks must have passed
+# (global-network K1–K3, K8; trade-flow consistency.json; money-flow V27), every panel column must have a period
+# and each app's registry copy must equal family/measures.json; otherwise no note today, with the reason.
+claims: {required: true, inference: true, inference_korean: true, preflight: true}
+
+# figures: how many a note has, and at least that many must be drawn charts (a table never counts). forms: how many
+# different chart forms they use; max_same: no form more often than this (one scatter at most); history_line: a run
+# that pulled a time series must draw it as a line. require_hook: the editor names what makes the note timely (a data
+# change, an event, an economy at an extreme of its own past, a research narrative this month) and why these
+# economies; with none, there is no note that day (16 Nov 2026, after the Canada note said "nothing changed").
+# chart_headline: a figure's headline is one point at a glance, and qkr drafts it as a one-line Korean headline; t8's
+# two with three or more numbers, or over 110 characters, came back too long or on two lines.
+note: {words: [650, 1100], figures: [3, 4], forms: 2, max_same: {scatter: 1, default: 2}, history_line: true,
+       require_hook: true, min_apps: 2, min_publishers: 2, chart_headline: {max_chars: 110, max_numbers: 2}}
+
+# The editor approves in the private admin site ("Waiting for your decision"). source: how the decision reaches the desk
+# (ssh-logs: the decision lines are read back from the admin site's log, read-only). by: the name written on the gate and in meta.json.
+approval: {source: ssh-logs, by: datasteg}
+
+# `artools desk daily` runs every hour (cron, from 16 Nov 2026, the editor's request), so a decision made in the admin
+# site is applied within the hour. A new note is still written once a day at most (notes_per_day: desk runs whose id
+# starts with today's date), and not before note_from_hour (KST), after money-flow (07:30) and global-network (08:15)
+# have published the day's data. One daily at a time (a lock); the admin site is redeployed only when the queue changed.
+schedule: {note_from_hour: 9, notes_per_day: 1}
+
+# cooldown_days: a lead used for a note is not offered again. entity_cooldown_days / entity_penalty: a lead whose
+# first economies a queued, approved or published note was about (its brief's `focus`) loses this much of its score
+# (scores run about 0.3–1.0), so a new quarter can still bring Canada back, but not by default.
+leads: {shortlist: 8, cooldown_days: 45, entity_cooldown_days: 35, entity_penalty: 0.3}
+
+# The Korean edition. Every Korean string is drafted by qkr (live guide $QKR_URL/llm.txt) from
+# the finished English, never by the desk's models (the repository's rule). required: a note is never published without a
+# Korean edition. The edition is always written once qkr has answered (16 Nov 2026, the editor reviews it in the
+# admin site): a string whose answer failed a check carries qkr's own refused draft, or the English when qkr gave
+# none, and is listed beside the note with the check that failed and what qkr should learn from it.
+# rewrites: how many times an English string that qkr's checks refused is reworded (by ko-source, in English) and
+# drafted again. check_rounds: how many times ko-checker's findings (meaning, terms) are sent back to qkr. workers:
+# strings sent at a time (the server works on four). style: the qkr style version this code was written for; qkr
+# answers 409 when it has moved on, and the step stops.
+# title: the Korean title is tuned after the edition is checked (16 Nov 2026: t8's qkr title read as a translation and
+# ended on a dangling modifier). ko-title writes `angles` English headlines shaped for a Korean news headline (topic
+# first, a two-part contrast, a verdict word); qkr drafts each in every one of `modes`; ko-title ranks qkr's drafts
+# and the first draft for meaning, form and pull, and the best faithful one becomes the title. The other drafts are
+# shown in the admin site, where the editor can pick one or write the title (the editor's own words are used as
+# written and sent to qkr as an edit). examples: how many of the editor's earlier Korean titles ko-title reads.
+# rounds: while the best faithful draft is under 4 of 5 for form, ko-title writes new angles from what was wrong.
+# engine: qkr (back on 18 Nov 2026, model qks-v2), or claude while qkr is training (17 Nov 2026, the owner). With claude the ko-writer role drafts each string (claude -p, tools/ko-refine/claude-brief.md), the desk's
+# checks and ko-checker run as for qkr, qkr's feedback is not sent, and the ledger records the engine. Set back to qkr
+# when qkr is back.
+korean: {required: true, rewrites: 3, check_rounds: 3, workers: 4, service: articles, style: "1.3", engine: qkr,
+         title: {angles: 5, modes: [fast, careful], examples: 12, rounds: 2}}
+
+# polish (desk/polish.py): en, ko switch each edition's Fable step. Fable's text is used only when it passes what the
+# note had to pass (shape, build, mechanical checks and claim lints, the inference test, the verifier; for the Korean,
+# the desk's checks against the English and the side-by-side reader); otherwise the text stays as it was. With the
+# Korean polish on, the title tuning (korean.title) and the term rounds of the side-by-side check do not run: Fable
+# rewrites the title and makes the wording consistent. qkr's draft stays in the ledger (ko_qkr) and every accepted
+# edit goes to qkr's feedback endpoint.
+polish: {en: true, ko: true}
+
+# What the desk must know about the data before it reads them. Every role that weighs a claim gets this list. Add a
+# line when a note or a review turns up a trap; say what the data show and what they must not be read as.
+caveats:
+  - "UN Comtrade partner code 490 (Other Asia, not elsewhere specified) appears in these tables as Taiwan. Gulf oil exporters (Saudi Arabia, the UAE, Qatar, Kuwait, Iraq) report little or nothing by destination, so 'Taiwan' as their largest buyer means 'Asia, destination not specified'. Never report it as Taiwan; treat such an economy's largest-buyer share as unverified or leave the economy out, and say so."
+  - "Gulf exporters do not file monthly with UN Comtrade: their recent flows are their importers' reports. China had filed no 2026 months on 14 Nov 2026, so 12-month windows to mid-2026 miss part of China's purchases and sales; a partner share that involves China is marked 'spliced' or estimated in the tables."
+  - "Korea's newest months come from the Korea Customs Service, spliced onto UN Comtrade; they are derived values, not Comtrade records."
+  - "BIS locational banking statistics record a claim by where the lending office is (residence), not by the bank's nationality, and include loans between banks. The UK, Hong Kong SAR, Belgium, the Netherlands and Ireland book loans for groups based elsewhere: write 'banks located in', never the nationality, and treat a financial centre's shares as booking, not exposure."
+  - "BIS banking statistics appear about four months after the quarter ends (end-June data at the end of October, end-September at the end of January), so a note in November reads the newest quarter there is. Say so when the period looks old next to the note's date."
+  - "Trade is a 12-month sum of gross customs values in US dollars; bank positions are stocks at a quarter end; portfolio and direct-investment positions are older (end-2025 and 2024). The two sides of any join have different periods: state both."
+  - "The funding vulnerability score is a ranking device built from four ratios; in back-tests it separated funding episodes from calm quarters with an AUROC of 0.69. It is not a probability. The sovereign rule count did no better than chance (AUROC 0.49), and no composite of the seven joint stress signals is published because none beat its better single side. Describe each as what it counts."
+  - "Net reserves are reserves minus the central bank's short-term foreign-currency drains (IMF). For a few economies they are very small (Argentina), so ratios to net reserves explode; give the gross-reserve ratio beside it. For euro-area members national reserves are not the only buffer."
+  - "A net international investment position can move by tens of points of GDP in a quarter on valuation alone (share prices, exchange rates). Korea's fell from about 41% to 4% of GDP between March and June 2026 in these tables: check a jump against the quarter before, and call it a valuation or data change, not a deterioration, unless the flows show one."

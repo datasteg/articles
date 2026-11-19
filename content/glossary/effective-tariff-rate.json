@@ -1,0 +1,16 @@
+{
+ "id": "effective-tariff-rate",
+ "term": {
+  "en": "effective tariff rate",
+  "ko": "실효관세율"
+ },
+ "definition": {
+  "en": "Customs duties actually collected divided by the value of goods imported, as a percentage. It is the tariff that was paid, which can be far below the rates announced because of exemptions, delays and shifts in where goods are bought.",
+  "ko": "실제로 걷은 관세를 상품 수입액으로 나눈 비율이다. 면제와 시행 지연, 조달처 이동 때문에 발표된 관세율보다 훨씬 낮을 수 있는, 실제로 낸 관세다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "united-states"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "id": "index-concentration",
+ "term": {
+  "en": "index concentration",
+  "ko": "쏠림(지수 집중도)"
+ },
+ "definition": {
+  "en": "How much of a stock index's value sits in its few largest companies. The more concentrated an index, the more its moves follow those few stocks.",
+  "ko": "주가지수의 가치가 소수의 대형 기업에 얼마나 몰려 있는지를 말한다. 쏠림이 클수록 지수는 그 몇 종목을 따라 움직인다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets"
+ ]
+}

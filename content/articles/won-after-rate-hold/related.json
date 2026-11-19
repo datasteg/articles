@@ -1,0 +1,35 @@
+[
+ {
+  "ref": "jejualps:121642",
+  "title": "Demand for Dollars: Evidence from Survey Expectations",
+  "institution": "IMF Working Paper 2026/186",
+  "date": "2026-09-04",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2026/186/001.2026.issue-186-en.xml",
+  "why": {
+   "en": "Why currency moves can feed on themselves: firms and households buy more dollars when they expect the dollar to rise, and fewer when they expect it to fall.",
+   "ko": "환율 움직임이 스스로를 키우는 이유를 다룬다. 기업과 가계는 달러가 오를 것으로 예상하면 달러를 더 사고, 내릴 것으로 예상하면 덜 산다."
+  }
+ },
+ {
+  "ref": "jejualps:86844",
+  "title": "The Global Dollar Cycle",
+  "institution": "NBER Working Paper w31004 (Obstfeld and Zhou)",
+  "date": "2023-03-01",
+  "url": "https://www.nber.org/papers/w31004",
+  "why": {
+   "en": "The background to this article's dollar test: why emerging-market currencies usually rise and fall together with the broad dollar and global financial conditions.",
+   "ko": "이 글의 달러 점검의 배경으로, 신흥국 통화가 왜 대개 광의 달러지수와 글로벌 금융 여건에 따라 함께 오르내리는지 설명한다."
+  }
+ },
+ {
+  "ref": "jejualps:109927",
+  "title": "Can Portfolio Rebalancing Explain the Dynamics of Equity Returns, Equity Flows, and Exchange Rates?",
+  "institution": "NBER Working Paper w10476 (Hau and Rey)",
+  "date": "2004-05-01",
+  "url": "https://www.nber.org/papers/w10476",
+  "why": {
+   "en": "Why foreign investors sell into a stock rally, and how that selling links rising share prices, equity outflows and the currency.",
+   "ko": "외국인이 주가 상승기에 주식을 파는 이유와, 그 매도가 주가 상승·주식 자금 유출·환율을 어떻게 잇는지 설명한다."
+  }
+ }
+]

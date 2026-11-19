@@ -1,0 +1,35 @@
+[
+ {
+  "ref": "jejualps:45950",
+  "title": "Passive funds affect prices: evidence from the most ETF-dominated asset classes",
+  "institution": "BIS Working Papers 952 (Todorov)",
+  "date": "2021-07-02",
+  "url": "https://www.bis.org/publ/work952.htm",
+  "why": {
+   "en": "The method behind the BIS estimate for SK hynix: how the daily rebalancing of passive and leveraged funds moves prices where those funds are large.",
+   "ko": "SK하이닉스에 대한 BIS 추정의 바탕이 된 연구로, 수동형·레버리지 펀드의 일일 재조정이 펀드 규모가 큰 시장에서 가격을 어떻게 움직이는지 보여준다."
+  }
+ },
+ {
+  "ref": "jejualps:85653",
+  "title": "Foreign Portfolio Investors Before and during a Crisis",
+  "institution": "OECD Economics Department Working Papers 210 (Kim and Wei)",
+  "date": "1999-02-10",
+  "url": "https://econpapers.repec.org/paper/oececoaaa/210-en.htm",
+  "why": {
+   "en": "For readers who want more on foreign investors in Korea: how foreign and domestic investors traded differently before and during the 1997 crisis.",
+   "ko": "한국의 외국인 투자자에 대해 더 알고 싶은 독자를 위해, 1997년 위기 전후 외국인과 국내 투자자의 매매 방식이 어떻게 달랐는지 분석한다."
+  }
+ },
+ {
+  "ref": "jejualps:94001",
+  "title": "Passive Investing and the Rise of Mega-Firms",
+  "institution": "NBER Working Paper 28253 (Jiang, Vayanos and Zheng)",
+  "date": "2020-12-01",
+  "url": "https://www.nber.org/papers/w28253",
+  "why": {
+   "en": "Background on concentration: why money flowing into index funds lifts the largest firms most, the way two companies came to carry Korea's index.",
+   "ko": "쏠림의 배경을 다룬 연구로, 지수펀드로 들어오는 돈이 왜 가장 큰 기업을 가장 많이 끌어올리는지 설명한다. 두 기업이 지수를 떠받치게 된 과정을 이해하는 데 도움이 된다."
+  }
+ }
+]

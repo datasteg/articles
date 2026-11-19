@@ -1,0 +1,30 @@
+# The topics articles are filed under: the home page's topic filter, the Topics tree and the glossary's topic filter.
+# plan-article picks one to three subject topics (the main one first) and at most one region; a new topic is proposed
+# at gate 2 ("new": true in plan.json) and added here, with its group, when the editor agrees.
+# Labels here win over the labels in a plan. Each topic belongs to one group; the site lists groups and topics in this order.
+groups:
+  - {id: markets, label: {en: Markets, ko: 금융시장}}
+  - {id: policy, label: {en: Policy, ko: 정책}}
+  - {id: economy, label: {en: Economy and society, ko: 경제와 사회}}
+  - {id: regions, label: {en: Regions, ko: 지역}}
+topics:
+  - {id: bond-markets, group: markets, label: {en: Bond markets, ko: 채권시장}}
+  - {id: stock-markets, group: markets, label: {en: Stock markets, ko: 주식시장}}
+  - {id: exchange-rates, group: markets, label: {en: Exchange rates, ko: 환율}}
+  - {id: capital-flows, group: markets, label: {en: Capital flows, ko: 자본유출입}}
+  - {id: financial-conditions, group: markets, label: {en: Financial conditions, ko: 금융 여건}}
+  - {id: monetary-policy, group: policy, label: {en: Monetary policy, ko: 통화정책}}
+  - {id: fiscal-policy, group: policy, label: {en: Fiscal policy, ko: 재정정책}}
+  - {id: sovereign-debt, group: policy, label: {en: Sovereign debt, ko: 국가채무}}
+  - {id: financial-stability, group: policy, label: {en: Financial stability, ko: 금융안정}}
+  - {id: growth, group: economy, label: {en: Growth and productivity, ko: 성장과 생산성}}
+  - {id: inflation, group: economy, label: {en: Inflation, ko: 물가}}
+  - {id: labour, group: economy, label: {en: Jobs and wages, ko: 고용과 임금}}
+  - {id: trade, group: economy, label: {en: Trade, ko: 무역}}
+  - {id: housing, group: economy, label: {en: Housing, ko: 주택}}
+  - {id: inequality, group: economy, label: {en: Wealth and inequality, ko: 자산과 불평등}}
+  - {id: artificial-intelligence, group: economy, label: {en: Artificial intelligence, ko: 인공지능}}
+  - {id: korean-economy, group: regions, label: {en: Korea, ko: 한국}}
+  - {id: united-states, group: regions, label: {en: United States, ko: 미국}}
+  - {id: euro-area, group: regions, label: {en: Euro area, ko: 유로 지역}}
+  - {id: global-economy, group: regions, label: {en: World, ko: 세계}}

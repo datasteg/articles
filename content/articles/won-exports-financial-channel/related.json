@@ -1,0 +1,35 @@
+[
+ {
+  "ref": "jejualps:70230",
+  "title": "FX Funding Risks and Exchange Rate Volatility - Korea's Case",
+  "institution": "IMF Working Paper 2012/268 (Ree, Yoon and Park)",
+  "date": "2012-11-07",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2012/268/001.2012.issue-268-en.xml",
+  "why": {
+   "en": "For readers who want the 2008 won collapse in detail: how Korean banks' foreign-currency funding gaps and the won's swings fed on each other.",
+   "ko": "2008년 원화 급락을 더 자세히 알고 싶은 독자를 위해, 한국 은행들의 외화 조달 불일치와 환율 변동이 어떻게 서로를 키웠는지 분석한다."
+  }
+ },
+ {
+  "ref": "jejualps:46588",
+  "title": "Chronicle of currency collapses: re-examining the effects on output",
+  "institution": "BIS Working Papers 314 (Bussière, Saxena and Tovar)",
+  "date": "2010-07-06",
+  "url": "https://www.bis.org/publ/work314.htm",
+  "why": {
+   "en": "The cross-country long view: output falls around currency collapses, but much of the loss comes from the slowdown that came before them.",
+   "ko": "여러 나라의 장기 자료로 본 통화 폭락과 생산의 관계로, 폭락 전후 생산이 줄지만 그 손실의 상당 부분은 폭락에 앞선 경기 둔화에서 온다고 본다."
+  }
+ },
+ {
+  "ref": "jejualps:75371",
+  "title": "What Happened to Asian Exports During the Crisis?",
+  "institution": "IMF Working Paper 2000/200 (Duttagupta and Spilimbergo)",
+  "date": "2000-12-01",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2000/200/001.2000.issue-200-en.xml",
+  "why": {
+   "en": "Why East Asian exports, Korea's included, picked up only slowly after the huge 1997 depreciations.",
+   "ko": "1997년 대폭의 통화가치 하락 이후 한국을 포함한 동아시아 수출이 왜 더디게 늘었는지 살펴본다."
+  }
+ }
+]

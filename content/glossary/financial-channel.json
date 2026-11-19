@@ -1,0 +1,16 @@
+{
+ "id": "financial-channel",
+ "term": {
+  "en": "financial channel",
+  "ko": "금융경로"
+ },
+ "definition": {
+  "en": "The way a weaker currency against the dollar can hurt an economy through finance: borrowers with dollar debts look less creditworthy, so lenders lend less and financial conditions tighten.",
+  "ko": "통화가 달러 대비 약세일 때 금융 부문을 거쳐 경제에 부정적 영향을 미치는 경로다. 달러 부채가 있는 차입자의 신용도가 낮아 보여 대출이 줄고 금융 여건이 긴축된다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates",
+  "financial-conditions"
+ ]
+}

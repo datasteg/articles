@@ -1,0 +1,214 @@
+{
+ "id": "flows",
+ "form": "bars",
+ "headline": {
+  "en": "From January to August 2026 the current account brought in USD 279bn, nearly three times the USD 101bn foreigners took out of Korean stocks",
+  "ko": "2026년 1~8월 경상수지로 들어온 달러는 2790억 달러로, 외국인이 한국 주식에서 빼 간 1010억 달러의 세 배 가까이 됐다"
+ },
+ "title": {
+  "en": "Dollars into and out of Korea through four flows, January–August 2026",
+  "ko": "네 가지 경로로 한국에 드나든 달러, 2026년 1~8월"
+ },
+ "subtitle": {
+  "en": "USD billion, sum of monthly balance-of-payments flows, size of each flow",
+  "ko": "10억 달러, 국제수지 월별 흐름 합계, 각 흐름의 크기"
+ },
+ "howToRead": {
+  "en": "Each bar is a total for January–August 2026, whichever the direction; blue bars brought dollars into Korea, grey bars took them out. Stock outflow: foreigners' net sales of Korean shares. Buying abroad: Korean residents' net purchases of foreign shares and bonds. Bond inflow: foreigners' net purchases of Korean bonds.",
+  "ko": "막대는 2026년 1~8월 합계로, 방향과 상관없이 크기를 나타냈다. 파란 막대는 한국으로 달러가 들어온 흐름, 회색 막대는 나간 흐름이다. 외국인 주식 순매도는 외국인이 한국 주식을 판 것, 거주자 해외증권은 한국 거주자가 해외 주식·채권을 순매수한 것, 외국인 채권 순매수는 외국인이 한국 채권을 산 것이다."
+ },
+ "notes": [
+  {
+   "en": "These four flows net to USD 119bn into Korea. Direct investment, derivatives, other investment and reserves are left out, so this is not the whole balance of payments.",
+   "ko": "네 흐름을 합하면 1190억 달러가 순유입됐다. 직접투자·파생금융상품·기타투자·준비자산은 빠져 있어 국제수지 전체는 아니다."
+  },
+  {
+   "en": "Left out: the monthly timing. Foreign stock selling was heaviest in March–June (USD 93bn) and turned to net buying of USD 6bn in July–August; this is in the text. Daily exchange data on foreign stock trades for October cannot be republished. Balance-of-payments data end in August.",
+   "ko": "월별 흐름은 본문에서 다뤘다. 외국인 주식 매도는 3~6월에 가장 컸고(930억 달러) 7~8월에는 60억 달러 순매수로 바뀌었다. 10월 외국인 주식 거래 일별 자료는 재게시할 수 없다. 국제수지 자료는 8월까지다."
+  }
+ ],
+ "alt": {
+  "en": "Bar chart of four balance-of-payments flows summed over January–August 2026, in USD billion: the current account surplus brought in 279; foreigners' net sales of Korean stocks took out 101; Korean residents' net purchases of foreign securities took out 74; foreigners' net purchases of Korean bonds brought in 15. The current account was 2.8 times the foreign stock selling, and the four flows net to 119 in.",
+  "ko": "2026년 1~8월 국제수지 네 가지 흐름의 합계를 10억 달러 단위로 나타낸 막대 그래프: 경상수지 흑자로 279 유입, 외국인의 한국 주식 순매도로 101 유출, 거주자의 해외 증권 순매수로 74 유출, 외국인의 한국 채권 순매수로 15 유입. 경상수지는 외국인 주식 매도의 2.8배였고, 네 흐름을 합하면 119 순유입이다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "USD billion, January–August 2026",
+    "ko": "10억 달러, 2026년 1~8월"
+   },
+   "unit": "USD bn",
+   "domain": [
+    0,
+    300
+   ],
+   "ticks": [
+    0,
+    100,
+    200,
+    300
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "valueFormat": {
+  "decimals": 0
+ },
+ "categories": [
+  {
+   "id": "ca",
+   "label": {
+    "en": "Current account",
+    "ko": "경상수지"
+   },
+   "value": 279.2013,
+   "highlight": true
+  },
+  {
+   "id": "eql",
+   "label": {
+    "en": "Stock outflow",
+    "ko": "외국인 주식 순매도"
+   },
+   "value": 100.7665
+  },
+  {
+   "id": "pa",
+   "label": {
+    "en": "Buying abroad",
+    "ko": "거주자 해외증권"
+   },
+   "value": 74.293
+  },
+  {
+   "id": "dbl",
+   "label": {
+    "en": "Bond inflow",
+    "ko": "외국인 채권 순매수"
+   },
+   "value": 15.3371,
+   "highlight": true
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S12",
+   "S13",
+   "S25",
+   "S24"
+  ],
+  "provider": "Bank of Korea, ECOS; datasteg calculation",
+  "keys": [
+   "301Y013/M/000000",
+   "301Y013/M/BOPF22100000",
+   "301Y013/M/BOPF21000000",
+   "301Y013/M/BOPF22200000"
+  ],
+  "definition": {
+   "en": "Balance of payments, monthly, USD: current account; equity liabilities (foreign investors' net purchases of Korean shares); portfolio investment assets (Korean residents' net purchases of foreign securities); debt-securities liabilities (foreign investors' net purchases of Korean bonds).",
+   "ko": "국제수지(월별, 달러): 경상수지, 주식 부채(외국인의 한국 주식 순매수), 증권투자 자산(거주자의 해외 증권 순매수), 부채성증권 부채(외국인의 한국 채권 순매수)."
+  },
+  "calculation": {
+   "en": "Sum of monthly values, January–August 2026, USD million ÷ 1,000, shown as sizes. Net of the four = current account + foreign purchases of Korean shares and bonds − residents' purchases of foreign securities.",
+   "ko": "2026년 1~8월 월별 값의 합계(백만 달러 ÷ 1,000), 크기로 표시. 네 흐름 합계 = 경상수지 + 외국인의 한국 주식·채권 순매수 − 거주자의 해외 증권 순매수."
+  },
+  "span": [
+   "2026-01",
+   "2026-08"
+  ],
+  "lastObservation": "2026-08",
+  "retrieved": "2026-10-23",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "flow",
+    "label": {
+     "en": "Flow",
+     "ko": "흐름"
+    }
+   },
+   {
+    "key": "usd",
+    "label": {
+     "en": "USD bn",
+     "ko": "10억 달러"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "dir",
+    "label": {
+     "en": "Direction",
+     "ko": "방향"
+    }
+   }
+  ],
+  "rows": [
+   {
+    "flow": {
+     "en": "Current account",
+     "ko": "경상수지"
+    },
+    "usd": 279.2013,
+    "dir": {
+     "en": "In",
+     "ko": "유입"
+    }
+   },
+   {
+    "flow": {
+     "en": "Foreign stock sales",
+     "ko": "외국인 주식 순매도"
+    },
+    "usd": 100.7665,
+    "dir": {
+     "en": "Out",
+     "ko": "유출"
+    }
+   },
+   {
+    "flow": {
+     "en": "Residents' buying abroad",
+     "ko": "거주자 해외증권 순매수"
+    },
+    "usd": 74.293,
+    "dir": {
+     "en": "Out",
+     "ko": "유출"
+    }
+   },
+   {
+    "flow": {
+     "en": "Foreign bond buying",
+     "ko": "외국인 채권 순매수"
+    },
+    "usd": 15.3371,
+    "dir": {
+     "en": "In",
+     "ko": "유입"
+    }
+   },
+   {
+    "flow": {
+     "en": "Net of the four",
+     "ko": "네 흐름 합계"
+    },
+    "usd": 119.4789,
+    "dir": {
+     "en": "In",
+     "ko": "유입"
+    }
+   }
+  ]
+ },
+ "csv": "data/flows.csv"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "quantitative-easing",
+ "term": {
+  "en": "quantitative easing",
+  "ko": "양적완화"
+ },
+ "definition": {
+  "en": "Large-scale purchases of government bonds and other assets by a central bank, paid for with newly created reserves, to push down long-term interest rates when the policy rate is already near zero.",
+  "ko": "정책금리가 이미 제로 근처일 때 장기금리를 낮추려고 중앙은행이 새로 만든 지급준비금으로 국채 등 자산을 대규모로 사들이는 것이다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy"
+ ]
+}

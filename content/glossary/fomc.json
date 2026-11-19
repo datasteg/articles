@@ -1,0 +1,16 @@
+{
+ "id": "fomc",
+ "term": {
+  "en": "FOMC",
+  "ko": "FOMC"
+ },
+ "definition": {
+  "en": "The Federal Open Market Committee, the Federal Reserve body that sets the US policy interest rate and decides on bond purchases. It meets eight times a year.",
+  "ko": "연방공개시장위원회. 미국의 정책금리와 국채 매입을 결정하는 연준의 기구로, 한 해 여덟 번 회의를 연다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy",
+  "united-states"
+ ]
+}

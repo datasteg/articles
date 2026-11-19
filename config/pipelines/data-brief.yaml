@@ -1,0 +1,38 @@
+# Sample: a short, chart-led note on a data release or an indicator that moved.
+id: data-brief
+version: "0.3"
+status: sample
+name: {en: Data brief, ko: 데이터 브리프}
+tagline: {en: "A number that moved, what it means, in three charts or fewer", ko: "움직인 숫자 하나와 그 의미, 차트 세 개 이내로"}
+shape: {words: {en: "400–700 words", ko: "약 1,500–2,500자"}, figures: "1–3", gates: 2}
+template: guides/templates/data-brief.md
+phases:
+  - {id: question, label: {en: Question, ko: 질문}}
+  - {id: data, label: {en: Data, ko: 데이터}}
+  - {id: writing, label: {en: Writing, ko: 집필}}
+  - {id: review, label: {en: Review, ko: 검토}}
+  - {id: publish, label: {en: Publish, ko: 게시}}
+steps:
+  - {id: frame, skill: frame-question, phase: question, label: {en: Frame, ko: 질문 정리},
+     detail: {en: "Which number, which period, compared with what", ko: "어떤 숫자를 어느 기간, 무엇과 비교할지"}}
+  - {id: select, skill: select-indicators, phase: data, label: {en: Pick indicators, ko: 지표 선택},
+     detail: {en: "Two to five series, each with the sentence it serves", ko: "시계열 2~5개, 각각이 뒷받침할 문장과 함께"}}
+  - {id: fetch, fetch: routed, phase: data, label: {en: Fetch data, ko: 데이터 수집},
+     detail: {en: "Validated against a published value", ko: "공표 값과 대조해 검증"},
+     branches: [{en: ECB · Eurostat, ko: ECB · Eurostat}, {en: FRED, ko: FRED}, {en: Bank of Korea, ko: 한국은행}]}
+  - {id: context, skill: search-jejualps, mode: scout, phase: data, label: {en: Context, ko: 맥락},
+     detail: {en: "One to three documents that explain the move", ko: "움직임을 설명하는 문서 1~3편"}}
+  - {id: analyze, skill: analyze-data, phase: data, label: {en: Compute facts, ko: 수치 계산},
+     detail: {en: "Level, change, and the last time it was this high", ko: "수준, 변화, 마지막으로 이만큼 높았던 때"}}
+  - {id: plan, skill: plan-article, phase: writing, label: {en: Plan, ko: 기획}}
+  - {id: gate-plan, gate: plan, phase: writing, label: {en: Editor approves the plan, ko: 편집자가 기획을 승인}}
+  - {id: draft, skill: draft-article, phase: writing, label: {en: Draft EN · KO, ko: 영문 · 국문 집필}}
+  - {id: charts, skill: make-charts, phase: writing, label: {en: Charts, ko: 차트}}
+  - {id: review, skill: review-article, phase: review, loop: {owners: [analyze-data, draft-article, make-charts], max: 1},
+     label: {en: Review, ko: 검토}}
+  - {id: cover, skill: make-cover, phase: publish, label: {en: Cover image, ko: 표지 그림},
+     detail: {en: "A small picture of the subject for the article lists, drawn from the final text", ko: "최종 원고를 읽고 목록에 실릴 작은 그림을 그립니다."}}
+  - {id: pdf, skill: make-pdf, phase: publish, label: {en: PDF edition, ko: PDF판},
+     detail: {en: "Each edition as a journal-style PDF for download, checked page by page", ko: "언어판마다 내려받을 수 있는 학술지 형식의 PDF로 만들어 쪽마다 확인합니다."}}
+  - {id: gate-publish, gate: publish, phase: publish, label: {en: Editor approves the brief, ko: 편집자가 브리프를 승인}}
+  - {id: publish, skill: publish-article, manual: true, phase: publish, label: {en: Publish, ko: 게시}}

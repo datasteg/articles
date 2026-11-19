@@ -1,0 +1,101 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "Almost all of the won's rise came before the hold, the gap with US market rates moved 60bp against Korea from 2 Jul to 21 Oct, on balance all of it after late August, and dollars from the current account far outweighed foreign stock selling",
+  "ko": "원화 상승은 거의 모두 동결 전에 나왔고, 한미 시장금리차는 7월 2일~10월 21일 60bp, 전체로 보면 모두 8월 말 이후 한국에 불리하게 움직였으며, 경상수지로 들어온 달러가 외국인 주식 매도로 나간 달러보다 훨씬 많았다"
+ },
+ "title": {
+  "en": "Three numbers on the won after the rate hold",
+  "ko": "금리 동결 뒤 원화를 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "Won per dollar and Korean yields to 23 Oct 2026, US yields to 21 Oct, balance of payments to Aug 2026",
+  "ko": "원/달러 환율과 한국 금리는 2026년 10월 23일, 미국 금리는 10월 21일, 국제수지는 2026년 8월까지"
+ },
+ "tiles": [
+  {
+   "value": "{{F12}}",
+   "label": {
+    "en": "of the won's rise since its 2 Jul low had come by 16 Oct, before the meeting week",
+    "ko": "7월 2일 저점 이후 원화 상승분 가운데 회의 주간 전인 10월 16일까지 나온 몫"
+   },
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "{{F78}}",
+   "label": {
+    "en": "change in the gap between Korea's 3-year and the US 2-year government bond rates, 2 Jul–21 Oct, all of the net change after late August (negative = against Korea)",
+    "ko": "7월 2일부터 10월 21일까지 한국 국고채 3년물과 미국 국채 2년물 금리차의 변화, 순변화는 모두 8월 말 이후(음수 = 한국에 불리)"
+   },
+   "cite": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "value": "{{F189}}",
+   "label": {
+    "en": "the dollars the current account brought in, against those foreigners took out of Korean stocks, January–August 2026",
+    "ko": "2026년 1월부터 8월까지 경상수지로 들어온 달러를 외국인이 한국 주식에서 빼 간 달러와 견준 크기"
+   },
+   "cite": [
+    "S12",
+    "S13"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "The won's rise is measured at the Bank of Korea's 15:30 close: a dollar cost 1,555.8 won on 2 Jul, 1,331.4 won on 16 Oct and 1,324.6 won on 23 Oct.",
+   "ko": "원화 상승은 한국은행 15:30 종가로 쟀다. 달러당 7월 2일 1,555.8원, 10월 16일 1,331.4원, 10월 23일 1,324.6원이었다."
+  },
+  {
+   "en": "Foreign stock selling is foreigners' net sales of Korean shares in the balance of payments, not redemptions from funds.",
+   "ko": "외국인 주식 매도는 국제수지상 외국인의 한국 주식 순매도로, 펀드 환매가 아니다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: 97% of the won's rise from its 2 Jul low to 23 Oct 2026 had come by 16 Oct, before the meeting week; the gap between Korea's 3-year and the US 2-year government bond yields moved -60bp, against Korea, from 2 Jul to 21 Oct, on balance all of it after late August; and in January–August 2026 the current account brought in 2.8 times as many dollars as foreigners took out of Korean stocks.",
+  "ko": "세 숫자: 7월 2일 저점부터 2026년 10월 23일까지 원화 상승분의 97%가 회의 주간 전인 10월 16일까지 나왔다. 7월 2일부터 10월 21일까지 한국 국고채 3년물과 미국 국채 2년물 금리차는 -60bp 움직여 한국에 불리해졌는데, 전체로 보면 모두 8월 말 이후였다. 2026년 1~8월 경상수지로 들어온 달러는 외국인이 한국 주식에서 빼 간 달러의 2.8배였다."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S2",
+   "S3",
+   "S12",
+   "S13"
+  ],
+  "provider": "Bank of Korea, ECOS; Federal Reserve Board via FRED",
+  "keys": [
+   "731Y003/D/0000003",
+   "817Y002/D/010200000",
+   "DGS2",
+   "301Y013/M/000000",
+   "301Y013/M/BOPF22100000"
+  ],
+  "definition": {
+   "en": "Won per US dollar, Bank of Korea 15:30 close; Korea 3-year government bond yield; US 2-year Treasury yield (constant maturity); current account and equity liabilities (foreign investors' net purchases of Korean shares) in the balance of payments, USD.",
+   "ko": "원/달러 환율(한국은행 15:30 종가), 국고채 3년물 금리, 미국 국채 2년물 금리(만기 고정), 국제수지의 경상수지와 주식 부채(외국인의 한국 주식 순매수), 달러 기준."
+  },
+  "calculation": {
+   "en": "Share of the rise = (close 2 Jul − close 16 Oct) ÷ (close 2 Jul − close 23 Oct) × 100. Gap = (Korea 3-year − US 2-year) × 100, change from 2 Jul to 21 Oct. Multiple = sum of monthly current account balances ÷ minus the sum of monthly equity liabilities, January–August 2026.",
+   "ko": "상승분 몫 = (7월 2일 종가 − 10월 16일 종가) ÷ (7월 2일 종가 − 10월 23일 종가) × 100. 금리차 = (한국 3년물 − 미국 2년물) × 100, 7월 2일부터 10월 21일까지의 변화. 배수 = 2026년 1~8월 월별 경상수지 합계 ÷ 같은 기간 월별 주식 부채 합계의 부호를 바꾼 값."
+  },
+  "span": [
+   "2026-01",
+   "2026-10-23"
+  ],
+  "lastObservation": "2026-10-23",
+  "retrieved": "2026-10-23",
+  "licence": "ECOS Open API terms: reuse allowed with attribution; FRED: public domain, citation requested",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; Federal Reserve via FRED; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; 미 연준(FRED); datasteg 계산"
+  }
+ },
+ "csv": null
+}

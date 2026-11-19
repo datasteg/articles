@@ -1,0 +1,15 @@
+{
+ "id": "rebalancing",
+ "term": {
+  "en": "rebalancing",
+  "ko": "리밸런싱(재조정)"
+ },
+ "definition": {
+  "en": "Buying or selling to bring a fund's holdings back to its target, for example after prices move. For funds that promise a multiple of a daily return, rebalancing always goes in the same direction as the market's move.",
+  "ko": "가격이 움직인 뒤 펀드의 보유 자산을 목표 비중으로 되돌리려고 사고파는 일이다. 하루 수익률의 몇 배를 약속한 펀드는 늘 시장이 움직인 방향으로 리밸런싱한다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "stock-markets"
+ ]
+}

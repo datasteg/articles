@@ -1,0 +1,12 @@
+{
+ "id": "net-purchases",
+ "term": {
+  "en": "net purchases",
+  "ko": "순매수"
+ },
+ "definition": {
+  "en": "What investors bought of an asset over a period minus what they sold. A negative figure means they sold more than they bought (net sales).",
+  "ko": "일정 기간 투자자가 산 금액에서 판 금액을 뺀 값이다. 음수면 판 금액이 더 많다는 뜻으로, 순매도라고 한다."
+ },
+ "approvedBy": null
+}

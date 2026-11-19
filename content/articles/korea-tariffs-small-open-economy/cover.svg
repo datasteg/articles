@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <rect x="0" y="258" width="480" height="62" class="f-seq2"/>
+  <rect x="236" y="218" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="304" y="218" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="372" y="218" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="270" y="174" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="338" y="174" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="236" y="130" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="304" y="130" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="372" y="130" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="270" y="86" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="338" y="86" width="64" height="40" rx="4" class="f-seq3 s-paper" stroke-width="8"/>
+  <rect x="304" y="42" width="64" height="40" rx="4" class="f-seq4 s-paper" stroke-width="8"/>
+  <line x1="320" y1="54" x2="352" y2="54" class="s-glint" stroke-width="8" stroke-linecap="round"/>
+  <rect x="36" y="212" width="66" height="46" rx="4" class="f-focus s-paper" stroke-width="8"/>
+  <rect x="108" y="212" width="66" height="46" rx="4" class="f-focus s-paper" stroke-width="8"/>
+  <rect x="40" y="170" width="176" height="16" rx="8" class="f-warm"/>
+  <rect x="180" y="134" width="18" height="124" rx="4" class="f-ink2"/>
+</svg>

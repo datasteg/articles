@@ -1,0 +1,1043 @@
+[
+ {
+  "id": "S1",
+  "kind": "speech",
+  "title": "Kevin Warsh: In our time",
+  "authors": "Warsh, K.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "cb_speech",
+  "date": "2026-09-15",
+  "url": "https://www.bis.org/speeches/20260915-our-time",
+  "pdfUrl": "https://www.bis.org/speeches/20260915-our-time.pdf",
+  "quote": {
+   "text": "Oversharing policy deliberations and overcommitting to future decisions can lead markets, businesses, and households astray.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the second fault: oversharing and overcommitting can lead markets, businesses and households astray",
+   "ko": "두 번째 결함, 지나친 공개와 약속은 시장·기업·가계를 잘못된 길로 이끈다"
+  },
+  "ref": "jejualps:122226",
+  "cite": {
+   "en": "Warsh, K. (2026). Kevin Warsh: In our time. cb_speech. Board of Governors of the Federal Reserve System",
+   "ko": "Warsh, K. (2026). Kevin Warsh: In our time. cb_speech. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "what-he-said",
+   "design"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "speech",
+  "title": "Christopher J Waller: The signaling value of the summary of economic projections",
+  "authors": "Waller, C. J.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "cb_speech",
+  "date": "2026-10-13",
+  "url": "https://www.bis.org/speeches/20261013-signaling-value-summary-economic-projections",
+  "quote": {
+   "text": "As you know, in September the Federal Open Market Committee (FOMC) voted to raise our policy rate 25 basis points to 3.75 percent to 4 percent after nine months during which we held it steady.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the September 2026 hike after nine months on hold",
+   "ko": "아홉 달 동결 뒤 2026년 9월의 인상"
+  },
+  "ref": "jejualps:122115",
+  "cite": {
+   "en": "Waller, C. J. (2026). Christopher J Waller: The signaling value of the summary of economic projections. cb_speech. Board of Governors of the Federal Reserve System",
+   "ko": "Waller, C. J. (2026). Christopher J Waller: The signaling value of the summary of economic projections. cb_speech. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "what-he-said",
+   "late-liftoff",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "Effective federal funds rate, monthly average",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "FEDFUNDS",
+   "unit": "Percent",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series FEDFUNDS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 FEDFUNDS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the effective federal funds rate, monthly averages",
+   "ko": "실효 연방기금금리, 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Effective federal funds rate, monthly average. FEDFUNDS. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Effective federal funds rate, monthly average. FEDFUNDS. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "what-he-said",
+   "late-liftoff",
+   "design"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "US core PCE inflation, year on year",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/PCEPILFE",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "PCEPILFE",
+   "unit": "Percent, change from a year earlier (FRED pc1 of the index 2017=100)",
+   "frequency": "M",
+   "lastObservation": "2026-08-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bea, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series PCEPILFE directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 PCEPILFE 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "core PCE inflation, year on year",
+   "ko": "근원 PCE 물가 상승률, 전년 동월 대비"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US core PCE inflation, year on year. PCEPILFE. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US core PCE inflation, year on year. PCEPILFE. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "late-liftoff"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "US consumer price inflation, year on year",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/CPIAUCNS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "CPIAUCNS",
+   "unit": "Percent, change from a year earlier (FRED pc1 of the index 1982-1984=100)",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bls, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series CPIAUCNS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 CPIAUCNS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "CPI inflation, year on year",
+   "ko": "소비자물가 상승률, 전년 동월 대비"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US consumer price inflation, year on year. CPIAUCNS. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US consumer price inflation, year on year. CPIAUCNS. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "late-liftoff"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "speech",
+  "title": "Christopher J Waller: Two thoughts on the transmission of monetary policy",
+  "authors": "Waller, C. J.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "cb_speech",
+  "date": "2026-07-30",
+  "url": "https://www.bis.org/speeches/20260730-two-thoughts-transmission-monetary-policy",
+  "pdfUrl": "https://www.bis.org/review/r260730e.pdf",
+  "quote": {
+   "text": "In the end, this restrictive guidance tied the hands of the FOMC in 2021 and unnecessarily delayed rate increases.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Waller's judgement that the guidance tied the FOMC's hands in 2021",
+   "ko": "가이던스가 2021년 FOMC의 손을 묶었다는 월러의 판단"
+  },
+  "ref": "jejualps:43235",
+  "cite": {
+   "en": "Waller, C. J. (2026). Christopher J Waller: Two thoughts on the transmission of monetary policy. cb_speech. Board of Governors of the Federal Reserve System",
+   "ko": "Waller, C. J. (2026). Christopher J Waller: Two thoughts on the transmission of monetary policy. cb_speech. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "late-liftoff",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "paper",
+  "title": "The Evolution of Inflation Targeting from the 1990s to 2020s: Developments and New Challenges",
+  "authors": "Kiley, M. T., Mishkin, F. S.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "Board of Governors of the Federal Reserve System Finance and Economics Discussion Series",
+  "number": "2025-025",
+  "date": "2025-03-31",
+  "url": "https://www.federalreserve.gov/econres/feds/files/2025025pap.pdf",
+  "quote": {
+   "text": "For example, Kohn (2025) argues that it is likely that poor communications about forward guidance might have delayed interest rate lift-off by when inflation surged in 2021 by at least several months and perhaps by as much as half a year.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Kohn's estimate of the 2021 delay, several months to half a year",
+   "ko": "2021년 지연에 대한 Kohn의 추정, 몇 달에서 반년"
+  },
+  "ref": "jejualps:54174",
+  "cite": {
+   "en": "Kiley, M. T., Mishkin, F. S. (2025). The Evolution of Inflation Targeting from the 1990s to 2020s: Developments and New Challenges. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2025-025. Board of Governors of the Federal Reserve System",
+   "ko": "Kiley, M. T., Mishkin, F. S. (2025). The Evolution of Inflation Targeting from the 1990s to 2020s: Developments and New Challenges. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2025-025. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "late-liftoff",
+   "design",
+   "intervention",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "dataset",
+  "title": "US 10-year Treasury yield",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/DGS10",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DGS10",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DGS10 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DGS10 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the 10-year Treasury yield, daily closes",
+   "ko": "미국 10년물 국채 금리, 일별 종가"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury yield. DGS10. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury yield. DGS10. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "taper-tantrum",
+   "design",
+   "intervention",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "dataset",
+  "title": "US 10-year Treasury term premium (Kim-Wright model)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/THREEFYTP10",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "THREEFYTP10",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2026-10-09",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series THREEFYTP10 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 THREEFYTP10 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the Federal Reserve Board's Kim-Wright 10-year term premium",
+   "ko": "연준 이사회의 Kim-Wright 10년물 기간프리미엄"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury term premium (Kim-Wright model). THREEFYTP10. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury term premium (Kim-Wright model). THREEFYTP10. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "taper-tantrum",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "dataset",
+  "title": "US 30-year fixed mortgage rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "MORTGAGE30US",
+   "unit": "Percent",
+   "frequency": "W",
+   "lastObservation": "2026-10-15",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: freddie mac, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series MORTGAGE30US directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 MORTGAGE30US 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the 30-year fixed mortgage rate, weekly",
+   "ko": "30년 만기 고정 주택담보대출 금리, 주간"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 30-year fixed mortgage rate. MORTGAGE30US. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 30-year fixed mortgage rate. MORTGAGE30US. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "taper-tantrum"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "paper",
+  "title": "How sensitive is the economy to large interest rate increases? Evidence from the taper tantrum",
+  "authors": "Sinha, N. R., Smolyansky, M.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "Board of Governors of the Federal Reserve System Finance and Economics Discussion Series",
+  "number": "2022-085",
+  "date": "2022-12-01",
+  "url": "https://www.federalreserve.gov/econres/feds/files/2022085pap.pdf",
+  "quote": {
+   "text": "During this episode, long-term interest rates spiked 100 basis points—a move unintentionally induced by policymakers.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Fed staff calling the 2013 yield spike unintentionally induced by policymakers",
+   "ko": "2013년 금리 급등을 정책 당국이 의도치 않게 유발했다는 연준 연구진의 표현"
+  },
+  "ref": "jejualps:58331",
+  "cite": {
+   "en": "Sinha, N. R., Smolyansky, M. (2022). How sensitive is the economy to large interest rate increases? Evidence from the taper tantrum. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2022-085. Board of Governors of the Federal Reserve System",
+   "ko": "Sinha, N. R., Smolyansky, M. (2022). How sensitive is the economy to large interest rate increases? Evidence from the taper tantrum. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2022-085. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "taper-tantrum"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "paper",
+  "title": "Gains from Anchoring Inflation Expectations: Evidence from the Taper Tantrum Shock",
+  "authors": "Bems, R., Caselli, F., Grigoli, F., Gruss, B.",
+  "institution": "International Monetary Fund",
+  "series": "IMF Working Papers",
+  "number": "2019/075",
+  "date": "2019-03-28",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2019/075/001.2019.issue-075-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2019/075/001.2019.issue-075-en.pdf",
+  "quote": {
+   "text": "This paper exploits the May 2013 taper tantrum in the United States to study the reaction of 18 large emerging markets to an external shock, conditioning on their degree of inflation expectations’ anchoring.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the IMF test of eighteen emerging markets' reaction to the 2013 shock",
+   "ko": "2013년 충격에 대한 신흥국 열여덟 곳의 반응을 시험한 IMF 연구"
+  },
+  "ref": "jejualps:68623",
+  "cite": {
+   "en": "Bems, R., Caselli, F., Grigoli, F., Gruss, B. (2019). Gains from Anchoring Inflation Expectations: Evidence from the Taper Tantrum Shock. IMF Working Papers 2019/075. International Monetary Fund",
+   "ko": "Bems, R., Caselli, F., Grigoli, F., Gruss, B. (2019). Gains from Anchoring Inflation Expectations: Evidence from the Taper Tantrum Shock. IMF Working Papers 2019/075. International Monetary Fund"
+  },
+  "citedIn": [
+   "taper-tantrum"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "dataset",
+  "title": "US 2-year Treasury yield",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/DGS2",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DGS2",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DGS2 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DGS2 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the 2-year Treasury yield, daily closes",
+   "ko": "미국 2년물 국채 금리, 일별 종가"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 2-year Treasury yield. DGS2. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 2-year Treasury yield. DGS2. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "taper-tantrum",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "paper",
+  "title": "Can more public information raise uncertainty? The international evidence on forward guidance",
+  "authors": "Ehrmann, M., Gaballo, G., Hoffmann, P., Strasser, G.",
+  "institution": "European Central Bank",
+  "series": "European Central Bank Working Papers",
+  "number": "2263",
+  "date": "2019-04-01",
+  "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp2263~d433238380.en.pdf",
+  "quote": {
+   "text": "More surprisingly, time-contingent FG over a short horizon (below or equal to 1.5 years) shows a perverse effect, in that it more than doubles the responsiveness to news.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "short-horizon calendar guidance more than doubling the yield response to news",
+   "ko": "단기 날짜 가이던스가 뉴스에 대한 금리 반응을 두 배 넘게 키운다"
+  },
+  "ref": "jejualps:62759",
+  "cite": {
+   "en": "Ehrmann, M., Gaballo, G., Hoffmann, P., Strasser, G. (2019). Can more public information raise uncertainty? The international evidence on forward guidance. European Central Bank Working Papers 2263. European Central Bank",
+   "ko": "Ehrmann, M., Gaballo, G., Hoffmann, P., Strasser, G. (2019). Can more public information raise uncertainty? The international evidence on forward guidance. European Central Bank Working Papers 2263. European Central Bank"
+  },
+  "citedIn": [
+   "design"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "paper",
+  "title": "Anchored to the Dot Plot: Central Bank Projections and Interest Rate Expectations",
+  "authors": "Engstrom, E.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "Board of Governors of the Federal Reserve System Finance and Economics Discussion Series",
+  "number": "2026-026",
+  "date": "2026-05-14",
+  "url": "https://www.federalreserve.gov/econres/feds/files/2026026pap.pdf",
+  "quote": {
+   "text": "At the one-quarter horizon, the median SEP projection achieves the lowest RMSE among all methods considered.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the median dot as the most accurate one-quarter forecast of the funds rate",
+   "ko": "한 분기 앞 기준금리 예측으로 가장 정확한 점도표 중앙값"
+  },
+  "ref": "jejualps:48478",
+  "cite": {
+   "en": "Engstrom, E. (2026). Anchored to the Dot Plot: Central Bank Projections and Interest Rate Expectations. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2026-026. Board of Governors of the Federal Reserve System",
+   "ko": "Engstrom, E. (2026). Anchored to the Dot Plot: Central Bank Projections and Interest Rate Expectations. Board of Governors of the Federal Reserve System Finance and Economics Discussion Series 2026-026. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "other-side"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "paper",
+  "title": "Open-Ended Treasury Purchases: From Market Functioning to Financial Easing",
+  "authors": "D'Amico, S., Gillet, M., Schulhofer-Wohl, S., Seida, T.",
+  "institution": "Federal Reserve Bank of New York",
+  "series": "Federal Reserve Bank of New York Staff Reports",
+  "number": "1183",
+  "date": "2026-02-01",
+  "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1183.pdf",
+  "quote": {
+   "text": "When the communicated goal is restoring market functioning and purchases’ implementation is flexible, flow effects are significant: relative price deviations narrow. However, stock effects remain near zero and hence not stimulative.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "market-functioning purchases narrowing dislocations without stimulus",
+   "ko": "부양 없이 왜곡을 좁힌 시장 기능 회복 매입"
+  },
+  "ref": "jejualps:47969",
+  "cite": {
+   "en": "D'Amico, S., Gillet, M., Schulhofer-Wohl, S., Seida, T. (2026). Open-Ended Treasury Purchases: From Market Functioning to Financial Easing. Federal Reserve Bank of New York Staff Reports 1183. Federal Reserve Bank of New York",
+   "ko": "D'Amico, S., Gillet, M., Schulhofer-Wohl, S., Seida, T. (2026). Open-Ended Treasury Purchases: From Market Functioning to Financial Easing. Federal Reserve Bank of New York Staff Reports 1183. Federal Reserve Bank of New York"
+  },
+  "citedIn": [
+   "intervention"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "dataset",
+  "title": "Federal Reserve total assets",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/WALCL",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "WALCL",
+   "unit": "Millions of U.S. Dollars",
+   "frequency": "W",
+   "lastObservation": "2026-10-14",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series WALCL directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 WALCL 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the Fed's total assets, weekly, in trillions of dollars",
+   "ko": "연준 총자산, 주간, 조 달러"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Federal Reserve total assets. WALCL. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Federal Reserve total assets. WALCL. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "late-liftoff",
+   "intervention"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "dataset",
+  "title": "US 10-year breakeven inflation rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/T10YIE",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "T10YIE",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2026-10-19",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb stl, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series T10YIE directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 T10YIE 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "10-year breakeven inflation, daily",
+   "ko": "10년물 기대인플레이션(BEI), 일별"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 10-year breakeven inflation rate. T10YIE. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 10-year breakeven inflation rate. T10YIE. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "intervention",
+   "other-side"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "paper",
+  "title": "Yields climb, yet risk appetite holds firm",
+  "authors": "BIS Monetary and Economic Department",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "September 2026",
+  "date": "2026-09-14",
+  "url": "https://www.bis.org/publications/qr-202609/yields-climb-yet-risk-appetite-holds-firm",
+  "pdfUrl": "https://www.bis.org/publications/yields-climb-yet-risk-appetite-holds-firm.pdf",
+  "quote": {
+   "text": "However, despite the uncertainties over the course of monetary policy, market-based measures of inflation compensation remained remarkably stable.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "inflation compensation remarkably stable through summer 2026",
+   "ko": "2026년 여름 내내 놀랍도록 안정적이었던 기대인플레이션"
+  },
+  "ref": "jejualps:122096",
+  "cite": {
+   "en": "BIS Monetary and Economic Department (2026). Yields climb, yet risk appetite holds firm. BIS Quarterly Review September 2026. BIS",
+   "ko": "BIS Monetary and Economic Department (2026). Yields climb, yet risk appetite holds firm. BIS Quarterly Review September 2026. BIS"
+  },
+  "citedIn": [
+   "other-side"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "paper",
+  "title": "Long-term issues for central banks",
+  "authors": "Caruana, J., Warsh, K. M.",
+  "institution": "BIS",
+  "series": "BIS Papers",
+  "number": "92",
+  "date": "2017-08-07",
+  "url": "https://www.bis.org/publ/bppdf/bispap92.htm",
+  "pdfUrl": "https://www.bis.org/publ/bppdf/bispap92.pdf",
+  "quote": {
+   "text": "Its forward guidance begets ambiguity in the name of clarity. It licenses a cacophony of communications in the name of transparency.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the 'ambiguity in the name of clarity' line in his 2016 remarks",
+   "ko": "2016년 발언의 '명확성의 이름으로 모호함' 표현"
+  },
+  "ref": "jejualps:44436",
+  "cite": {
+   "en": "Caruana, J., Warsh, K. M. (2017). Long-term issues for central banks. BIS Papers 92. BIS",
+   "ko": "Caruana, J., Warsh, K. M. (2017). Long-term issues for central banks. BIS Papers 92. BIS"
+  },
+  "citedIn": [
+   "what-he-said"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "speech",
+  "title": "Kevin Warsh: Rejecting the requiem",
+  "authors": "Warsh, K. M.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "cb_speech",
+  "date": "2010-11-11",
+  "url": "https://www.bis.org/review/r101111d.htm",
+  "pdfUrl": "https://www.bis.org/review/r101111d.pdf",
+  "quote": {
+   "text": "But, expanding the Fed’s balance sheet is not a free option.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Warsh's 2010 statement that expanding the balance sheet is not a free option",
+   "ko": "자산 확대는 공짜 선택지가 아니라는 워시의 2010년 발언"
+  },
+  "ref": "jejualps:35993",
+  "cite": {
+   "en": "Warsh, K. M. (2010). Kevin Warsh: Rejecting the requiem. cb_speech. Board of Governors of the Federal Reserve System",
+   "ko": "Warsh, K. M. (2010). Kevin Warsh: Rejecting the requiem. cb_speech. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "what-he-said",
+   "intervention"
+  ]
+ },
+ {
+  "id": "S22",
+  "kind": "speech",
+  "title": "Erik Thedéen: On the Sveriges Riksbank's high threshold for asset purchases",
+  "authors": "Thedéen, E.",
+  "institution": "Sveriges Riksbank",
+  "series": "cb_speech",
+  "date": "2026-06-09",
+  "url": "https://www.bis.org/review/r260609a.htm",
+  "pdfUrl": "https://www.bis.org/review/r260609a.pdf",
+  "quote": {
+   "text": "Newly appointed Fed Chair Kevin Warsh (2025) criticises this pattern and advocates a strategy similar to that of the Riksbank (without explicitly mentioning the Riksbank): a permanently smaller balance sheet, a higher threshold for future QE and a return to the policy rate as the central instrument.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "Warsh's 2025 lecture on a smaller balance sheet, summarised second-hand",
+   "ko": "더 작은 자산에 관한 워시의 2025년 강연, 간접 요약"
+  },
+  "ref": "jejualps:21818",
+  "cite": {
+   "en": "Thedéen, E. (2026). Erik Thedéen: On the Sveriges Riksbank's high threshold for asset purchases. cb_speech. Sveriges Riksbank",
+   "ko": "Thedéen, E. (2026). Erik Thedéen: On the Sveriges Riksbank's high threshold for asset purchases. cb_speech. Sveriges Riksbank"
+  },
+  "citedIn": [
+   "what-he-said"
+  ]
+ },
+ {
+  "id": "S23",
+  "kind": "paper",
+  "title": "The Tradition of Federal Reserve Independence",
+  "authors": "Wheelock, D. C., Rose, J. D.",
+  "institution": "Federal Reserve Bank of St Louis",
+  "series": "Federal Reserve Bank of St Louis Working Papers",
+  "number": "2026-013",
+  "date": "2026-07-06",
+  "url": "https://doi.org/10.20955/wp.2026.013",
+  "quote": {
+   "text": "More recently, in 2026, Federal Reserve Chairman Kevin Warsh announced the formation of a task force to review FOMC communications practices.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the 2026 task force to review FOMC communications",
+   "ko": "FOMC 소통을 검토할 2026년 태스크포스"
+  },
+  "ref": "jejualps:46997",
+  "cite": {
+   "en": "Wheelock, D. C., Rose, J. D. (2026). The Tradition of Federal Reserve Independence. Federal Reserve Bank of St Louis Working Papers 2026-013. Federal Reserve Bank of St Louis",
+   "ko": "Wheelock, D. C., Rose, J. D. (2026). The Tradition of Federal Reserve Independence. Federal Reserve Bank of St Louis Working Papers 2026-013. Federal Reserve Bank of St Louis"
+  },
+  "citedIn": [
+   "what-he-said"
+  ]
+ },
+ {
+  "id": "S24",
+  "kind": "paper",
+  "title": "The Economics of the Fed Put",
+  "authors": "Cieslak, A., Vissing-Jorgensen, A.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w26894",
+  "date": "2020-03-01",
+  "url": "https://www.nber.org/papers/w26894",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w26894/w26894.pdf",
+  "quote": {
+   "text": "A 10% stock market decline predicts a reduction in the FFR target of 32 bps at the next meeting and 127 bps after one year.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "a stock-market fall predicting a rate cut at the next meeting over 1994–2008",
+   "ko": "1994년부터 2008년까지 주가 하락이 다음 회의의 인하를 예측한다"
+  },
+  "ref": "jejualps:96917",
+  "cite": {
+   "en": "Cieslak, A., Vissing-Jorgensen, A. (2020). The Economics of the Fed Put. NBER Working Papers w26894. National Bureau of Economic Research",
+   "ko": "Cieslak, A., Vissing-Jorgensen, A. (2020). The Economics of the Fed Put. NBER Working Papers w26894. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "what-he-said"
+  ]
+ },
+ {
+  "id": "S25",
+  "kind": "speech",
+  "title": "Richard H Clarida: Financial markets and monetary policy - is there a hall of mirrors problem?",
+  "authors": "Clarida, R. H.",
+  "institution": "Board of Governors of the Federal Reserve System",
+  "series": "cb_speech",
+  "date": "2020-02-23",
+  "url": "https://www.bis.org/review/r200223b.htm",
+  "pdfUrl": "https://www.bis.org/review/r200223b.pdf",
+  "quote": {
+   "text": "In conclusion, while my colleagues and I are attuned to the potential for a hall of mirrors problem, in my experience this affliction is one the Federal Reserve guards against and does not suffer from.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the Vice Chair's 2020 view that the Fed guards against the hall of mirrors",
+   "ko": "연준이 거울의 방을 경계한다는 부의장의 2020년 견해"
+  },
+  "ref": "jejualps:27189",
+  "cite": {
+   "en": "Clarida, R. H. (2020). Richard H Clarida: Financial markets and monetary policy - is there a hall of mirrors problem?. cb_speech. Board of Governors of the Federal Reserve System",
+   "ko": "Clarida, R. H. (2020). Richard H Clarida: Financial markets and monetary policy - is there a hall of mirrors problem?. cb_speech. Board of Governors of the Federal Reserve System"
+  },
+  "citedIn": [
+   "what-he-said"
+  ]
+ },
+ {
+  "id": "S26",
+  "kind": "dataset",
+  "title": "US unemployment rate",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/UNRATE",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "UNRATE",
+   "unit": "Percent",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: bls, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series UNRATE directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 UNRATE 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the unemployment rate",
+   "ko": "실업률"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US unemployment rate. UNRATE. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US unemployment rate. UNRATE. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "late-liftoff",
+   "design"
+  ]
+ },
+ {
+  "id": "S27",
+  "kind": "paper",
+  "title": "The Consequences of Falling Behind the Curve: Inflation Shocks and Policy Delays Under Rational and Behavioral Expectations",
+  "authors": "Hakamada, M., Walsh, C.",
+  "institution": "International Monetary Fund",
+  "series": "IMF Working Papers",
+  "number": "2024/042",
+  "date": "2024-03-01",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2024/042/001.2024.issue-042-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2024/042/001.2024.issue-042-en.pdf",
+  "quote": {
+   "text": "Central banks in major industrialized economies were slow to react to the surge in inflation that began in early 2021.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "major central banks slow to react to the 2021 surge, the starting point of a paper on the cost of delay",
+   "ko": "2021년 물가 급등에 느리게 반응한 주요 중앙은행, 지연 비용을 다룬 논문의 출발점"
+  },
+  "ref": "jejualps:67340",
+  "cite": {
+   "en": "Hakamada, M., Walsh, C. (2024). The Consequences of Falling Behind the Curve: Inflation Shocks and Policy Delays Under Rational and Behavioral Expectations. IMF Working Papers 2024/042. International Monetary Fund",
+   "ko": "Hakamada, M., Walsh, C. (2024). The Consequences of Falling Behind the Curve: Inflation Shocks and Policy Delays Under Rational and Behavioral Expectations. IMF Working Papers 2024/042. International Monetary Fund"
+  },
+  "citedIn": [
+   "late-liftoff"
+  ]
+ },
+ {
+  "id": "S28",
+  "kind": "paper",
+  "title": "Forward guidance at the zero lower bound",
+  "authors": "Filardo, A., Hofmann, B.",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "number": "March 2014",
+  "date": "2014-03-09",
+  "url": "https://www.bis.org/publ/qtrpdf/r_qt1403f.htm",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt1403f.pdf",
+  "quote": {
+   "text": "First, if financial markets become narrowly focused on certain aspects of a central bank's forward guidance, a broader interpretation or recalibration of the guidance could lead to disruptive market reactions.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the BIS mechanism: a recalibration after markets fixate on one aspect of guidance",
+   "ko": "BIS의 메커니즘, 시장이 가이던스의 한 측면에 매달린 뒤의 재조정"
+  },
+  "ref": "jejualps:45041",
+  "cite": {
+   "en": "Filardo, A., Hofmann, B. (2014). Forward guidance at the zero lower bound. BIS Quarterly Review March 2014. BIS",
+   "ko": "Filardo, A., Hofmann, B. (2014). Forward guidance at the zero lower bound. BIS Quarterly Review March 2014. BIS"
+  },
+  "citedIn": [
+   "taper-tantrum",
+   "design"
+  ]
+ },
+ {
+  "id": "S29",
+  "kind": "paper",
+  "title": "Leaning Against the Data: Policymaker Communications under State-Based Forward Guidance",
+  "authors": "Doh, T., Gruber, J. W., Song, D.",
+  "institution": "Federal Reserve Bank of Kansas City",
+  "series": "Federal Reserve Bank of Kansas City Research Working Papers",
+  "number": "RWP 22-11",
+  "date": "2022-09-08",
+  "url": "https://www.kansascityfed.org/Research%20Working%20Papers/documents/9091/rwp22-11dohgrubersong.pdf",
+  "quote": {
+   "text": "This was the first time that the FOMC provided forward guidance explicitly based on numeric values of economic indicators.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the first numeric-threshold guidance of December 2012 and its end",
+   "ko": "2012년 12월 최초의 숫자 기준선 가이던스와 그 종료"
+  },
+  "ref": "jejualps:50229",
+  "cite": {
+   "en": "Doh, T., Gruber, J. W., Song, D. (2022). Leaning Against the Data: Policymaker Communications under State-Based Forward Guidance. Federal Reserve Bank of Kansas City Research Working Papers RWP 22-11. Federal Reserve Bank of Kansas City",
+   "ko": "Doh, T., Gruber, J. W., Song, D. (2022). Leaning Against the Data: Policymaker Communications under State-Based Forward Guidance. Federal Reserve Bank of Kansas City Research Working Papers RWP 22-11. Federal Reserve Bank of Kansas City"
+  },
+  "citedIn": [
+   "design"
+  ]
+ },
+ {
+  "id": "S30",
+  "kind": "dataset",
+  "title": "Effective federal funds rate, daily, August to December 2019",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/DFF",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "DFF",
+   "unit": "Percent",
+   "frequency": "D",
+   "lastObservation": "2019-12-31",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series DFF directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 DFF 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the daily effective funds rate around the September 2019 repo spike",
+   "ko": "2019년 9월 레포 급등 전후의 일별 실효 기준금리"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Effective federal funds rate, daily, August to December 2019. DFF. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Effective federal funds rate, daily, August to December 2019. DFF. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "intervention"
+  ]
+ },
+ {
+  "id": "S31",
+  "kind": "paper",
+  "title": "Reserves Were Not So Ample After All",
+  "authors": "Copeland, A., Duffie, D., Yang, Y.",
+  "institution": "National Bureau of Economic Research",
+  "series": "NBER Working Papers",
+  "number": "w29090",
+  "date": "2021-08-01",
+  "url": "https://www.nber.org/papers/w29090",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w29090/w29090.pdf",
+  "quote": {
+   "text": "increased repo rate distortions, the severity of rate spikes, and intraday payment timing stresses",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the 2017–19 runoff increasing repo distortions and rate spikes",
+   "ko": "레포 왜곡과 금리 급등을 키운 2017~2019년 자산 축소"
+  },
+  "ref": "jejualps:91527",
+  "cite": {
+   "en": "Copeland, A., Duffie, D., Yang, Y. (2021). Reserves Were Not So Ample After All. NBER Working Papers w29090. National Bureau of Economic Research",
+   "ko": "Copeland, A., Duffie, D., Yang, Y. (2021). Reserves Were Not So Ample After All. NBER Working Papers w29090. National Bureau of Economic Research"
+  },
+  "citedIn": [
+   "intervention"
+  ]
+ },
+ {
+  "id": "S32",
+  "kind": "dataset",
+  "title": "VIX equity volatility index",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-20",
+  "url": "https://fred.stlouisfed.org/series/VIXCLS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "VIXCLS",
+   "unit": "Index",
+   "frequency": "D",
+   "lastObservation": "2026-10-16",
+   "retrieved": "2026-10-20",
+   "attribution": "Source: cboe, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series VIXCLS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 VIXCLS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the VIX, daily closes",
+   "ko": "VIX, 일별 종가"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. VIX equity volatility index. VIXCLS. Retrieved 20 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. VIX equity volatility index. VIXCLS. 2026년 10월 20일 조회."
+  },
+  "citedIn": [
+   "intervention"
+  ]
+ },
+ {
+  "id": "S33",
+  "kind": "paper",
+  "title": "Financial Market Effects of FOMC Communication: Evidence from a New Event-Study Database",
+  "authors": "Acosta, M., Ajello, A., Bauer, M. D., Loria, F., Miranda-Agrippino, S.",
+  "institution": "Federal Reserve Bank of San Francisco",
+  "series": "Federal Reserve Bank of San Francisco Working Papers",
+  "number": "2025-30",
+  "date": "2025-12-15",
+  "url": "https://www.frbsf.org/wp-content/uploads/wp2025-30.pdf",
+  "quote": {
+   "text": "Table 1 shows that the volatility of statement surprises (labeled STMT in the table) almost doubled, and the volatility of press conference surprises (labeled PC in the table) more than tripled in the period since the 2022 liftoff relative to the earlier period.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the volatility of statement surprises almost doubling and of press-conference surprises more than tripling since 2022",
+   "ko": "2022년 이후 거의 두 배가 된 성명 서프라이즈의 변동성과 세 배 넘게 커진 기자회견 서프라이즈의 변동성"
+  },
+  "ref": "jejualps:47898",
+  "cite": {
+   "en": "Acosta, M., Ajello, A., Bauer, M. D., Loria, F., Miranda-Agrippino, S. (2025). Financial Market Effects of FOMC Communication: Evidence from a New Event-Study Database. Federal Reserve Bank of San Francisco Working Papers 2025-30. Federal Reserve Bank of San Francisco",
+   "ko": "Acosta, M., Ajello, A., Bauer, M. D., Loria, F., Miranda-Agrippino, S. (2025). Financial Market Effects of FOMC Communication: Evidence from a New Event-Study Database. Federal Reserve Bank of San Francisco Working Papers 2025-30. Federal Reserve Bank of San Francisco"
+  },
+  "citedIn": [
+   "other-side"
+  ]
+ },
+ {
+  "id": "S34",
+  "kind": "paper",
+  "title": "Uncertainty, data dependence and interest rate volatility",
+  "authors": "Cuciniello, V., Ferrero, G., Notarpietro, A., Santoro, S.",
+  "institution": "Bank of Italy",
+  "series": "Bank of Italy Working Papers",
+  "number": "1513",
+  "date": "2025-12-01",
+  "url": "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2025/2025-1513/en_tema_1513.pdf",
+  "quote": {
+   "text": "The model predicts that when projections are viewed as more precise, expectations become more anchored and interest rates respond less to news.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "precise projections anchoring expectations in the euro area",
+   "ko": "유로 지역에서 기대를 붙들어 매는 정밀한 전망"
+  },
+  "ref": "jejualps:48792",
+  "cite": {
+   "en": "Cuciniello, V., Ferrero, G., Notarpietro, A., Santoro, S. (2025). Uncertainty, data dependence and interest rate volatility. Bank of Italy Working Papers 1513. Bank of Italy",
+   "ko": "Cuciniello, V., Ferrero, G., Notarpietro, A., Santoro, S. (2025). Uncertainty, data dependence and interest rate volatility. Bank of Italy Working Papers 1513. Bank of Italy"
+  },
+  "citedIn": [
+   "other-side"
+  ]
+ }
+]

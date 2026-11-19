@@ -1,0 +1,72 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "pdf",
+ "description": "pdf/pdf.json, the record of make-pdf: what the look at each edition's proof found. The proofs are pdf/<lang>.pdf, printed by `artools render pdf` (which writes pdf/proof.json); `artools ship` prints the published PDFs again from content/.",
+ "type": "object",
+ "required": [
+  "editions",
+  "checked"
+ ],
+ "properties": {
+  "editions": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "lang",
+     "pages",
+     "verdict"
+    ],
+    "properties": {
+     "lang": {
+      "enum": [
+       "en",
+       "ko"
+      ]
+     },
+     "pages": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "verdict": {
+      "enum": [
+       "ok",
+       "issues"
+      ],
+      "description": "issues: something prints wrong that the stage can't fix (a site bug), described in notes for the editor"
+     },
+     "notes": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      }
+     }
+    }
+   }
+  },
+  "rounds": {
+   "type": "integer",
+   "minimum": 1,
+   "description": "how many times the proof was printed"
+  },
+  "checked": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "description": "what each look covered and found"
+  },
+  "for_editor": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "description": "anything the editor should see at gate 3, by page"
+  }
+ }
+}

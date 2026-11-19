@@ -1,0 +1,16 @@
+{
+ "id": "tpi",
+ "term": {
+  "en": "TPI",
+  "ko": "TPI(전달보호수단)"
+ },
+ "definition": {
+  "en": "The ECB's Transmission Protection Instrument, created in 2022: a backstop, meaning a central bank's promise to buy a country's bonds if its market turns disorderly. The ECB can use it when such moves threaten how its policy reaches a country, but not for tensions it judges to reflect that country's fundamentals.",
+  "ko": "ECB가 2022년에 만든 전달보호수단으로, 시장이 무질서해지면 중앙은행이 한 나라의 국채를 사들이겠다고 약속하는 안전판이다. 그런 움직임이 통화정책의 전달을 위협할 때 쓸 수 있지만, 그 나라의 기초여건을 반영한다고 판단되는 긴장에는 쓰지 않는다."
+ },
+ "topics": [
+  "monetary-policy",
+  "euro-area"
+ ],
+ "approvedBy": null
+}

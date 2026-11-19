@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect x="0" y="0" width="480" height="320" class="f-frost"/>
+  <path d="M0 232 C44 238 84 258 122 258 C170 258 206 200 246 162 C270 140 290 131 318 130 H480 V320 H0 Z" class="f-seq3"/>
+  <path d="M0 270 C60 272 110 284 160 280 C230 274 300 262 480 262 V320 H0 Z" class="f-seq2"/>
+  <rect x="0" y="296" width="480" height="24" class="f-seq4"/>
+  <rect x="326" y="116" width="128" height="14" rx="2" class="f-tarn"/>
+  <rect x="340" y="76" width="20" height="40" class="f-tarn"/>
+  <rect x="380" y="76" width="20" height="40" class="f-tarn"/>
+  <rect x="420" y="76" width="20" height="40" class="f-tarn"/>
+  <rect x="326" y="62" width="128" height="14" rx="2" class="f-tarn"/>
+  <polygon points="324,62 390,30 456,62" class="f-tarn"/>
+</svg>

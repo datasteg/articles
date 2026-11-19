@@ -1,0 +1,327 @@
+{
+ "id": "euro-spread-changes",
+ "form": "dumbbell",
+ "headline": {
+  "en": "France's spread rose 22bp from December to September, more than any of the nine other euro countries compared, while their median barely moved",
+  "ko": "프랑스 가산금리는 12월부터 9월까지 22bp 올라 비교한 유로 국가 중 가장 많이 올랐고, 나머지 아홉 나라의 중간값은 거의 변하지 않았다"
+ },
+ "title": {
+  "en": "Spread over Germany in ten euro countries, December 2025 and September 2026",
+  "ko": "유로 10개국의 대독일 가산금리, 2025년 12월과 2026년 9월"
+ },
+ "subtitle": {
+  "en": "10-year government bonds, basis points, monthly averages; sorted by change",
+  "ko": "10년물 국채, bp, 월평균, 변화폭 순"
+ },
+ "howToRead": {
+  "en": "Each row is a country: the hollow dot is December 2025, the filled dot September 2026. The longer the line, the bigger the change; a filled dot left of the hollow one means the spread narrowed. Where the two almost coincide, as for Spain, the hollow ring circles the filled dot.",
+  "ko": "각 행은 한 나라다. 빈 점은 2025년 12월, 채운 점은 2026년 9월이다. 선이 길수록 변화가 크고, 채운 점이 빈 점보다 왼쪽에 있으면 가산금리가 좁혀졌다는 뜻이다. 스페인처럼 두 점이 거의 겹치면 빈 원이 채운 점을 둘러싼다."
+ },
+ "notes": [
+  {
+   "en": "The median change for the nine countries other than France was close to zero (−0.4bp). Each country's change is in the table view.",
+   "ko": "프랑스를 뺀 아홉 나라의 변화폭 중간값은 0에 가깝다(−0.4bp). 나라별 변화폭은 표 보기에 있다."
+  },
+  {
+   "en": "Germany is the benchmark, so its spread is zero by definition. Other euro members (Luxembourg, Slovakia, Slovenia, the Baltic states, Cyprus, Malta and Croatia) were not compared.",
+   "ko": "독일은 기준 국가여서 가산금리가 정의상 0이다. 다른 유로 회원국(룩셈부르크·슬로바키아·슬로베니아·발트 3국·키프로스·몰타·크로아티아)은 비교하지 않았다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of ten euro countries' 10-year spreads over Germany in December 2025 and September 2026. France's rose most, by 22bp to 97bp, ahead of Italy (up 15bp to 89bp), Belgium (up 14bp) and Greece (up 12bp). Portugal's rose 4bp; Spain's, Finland's, the Netherlands', Austria's and Ireland's narrowed, by up to 8bp.",
+  "ko": "유로 10개국의 10년물 국채 대독일 가산금리를 2025년 12월과 2026년 9월로 비교한 덤벨 그래프. 프랑스가 22bp 올라 97bp로 가장 많이 올랐고, 이탈리아(15bp 상승, 89bp), 벨기에(14bp 상승), 그리스(12bp 상승)가 뒤를 이었다. 포르투갈은 4bp 올랐고 스페인·핀란드·네덜란드·오스트리아·아일랜드는 최대 8bp 좁혀졌다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Basis points",
+    "ko": "bp"
+   },
+   "unit": "bp",
+   "domain": [
+    0,
+    100
+   ],
+   "ticks": [
+    0,
+    25,
+    50,
+    75,
+    100
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "Dec 2025",
+  "ko": "2025년 12월"
+ },
+ "toLabel": {
+  "en": "Sep 2026",
+  "ko": "2026년 9월"
+ },
+ "rows": [
+  {
+   "id": "FR",
+   "label": {
+    "en": "France",
+    "ko": "프랑스"
+   },
+   "from": 74.7,
+   "to": 96.7,
+   "highlight": true
+  },
+  {
+   "id": "IT",
+   "label": {
+    "en": "Italy",
+    "ko": "이탈리아"
+   },
+   "from": 73.9,
+   "to": 88.9
+  },
+  {
+   "id": "BE",
+   "label": {
+    "en": "Belgium",
+    "ko": "벨기에"
+   },
+   "from": 50.7,
+   "to": 64.7
+  },
+  {
+   "id": "GR",
+   "label": {
+    "en": "Greece",
+    "ko": "그리스"
+   },
+   "from": 62.7,
+   "to": 74.7
+  },
+  {
+   "id": "PT",
+   "label": {
+    "en": "Portugal",
+    "ko": "포르투갈"
+   },
+   "from": 33.3,
+   "to": 37.3
+  },
+  {
+   "id": "ES",
+   "label": {
+    "en": "Spain",
+    "ko": "스페인"
+   },
+   "from": 45.8,
+   "to": 45.4
+  },
+  {
+   "id": "FI",
+   "label": {
+    "en": "Finland",
+    "ko": "핀란드"
+   },
+   "from": 35.2,
+   "to": 32.7
+  },
+  {
+   "id": "NL",
+   "label": {
+    "en": "Netherlands",
+    "ko": "네덜란드"
+   },
+   "from": 15.5,
+   "to": 9.1
+  },
+  {
+   "id": "AT",
+   "label": {
+    "en": "Austria",
+    "ko": "오스트리아"
+   },
+   "from": 28.44,
+   "to": 21.37
+  },
+  {
+   "id": "IE",
+   "label": {
+    "en": "Ireland",
+    "ko": "아일랜드"
+   },
+   "from": 20.02,
+   "to": 11.81
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S1"
+  ],
+  "provider": "ECB Data Portal",
+  "keys": [
+   "IRS.M.FR.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.DE.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.IT.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.BE.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.GR.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.PT.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.ES.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.FI.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.NL.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.AT.L.L40.CI.0000.EUR.N.Z",
+   "IRS.M.IE.L.L40.CI.0000.EUR.N.Z"
+  ],
+  "definition": {
+   "en": "Long-term interest rates for convergence purposes: 10-year government bond yields, monthly averages. Each spread is the country's yield minus Germany's.",
+   "ko": "수렴 기준 장기 금리(10년 만기 국채 금리)의 월평균. 가산금리는 각국 금리에서 독일 금리를 뺀 값이다."
+  },
+  "calculation": {
+   "en": "Spread = (country yield − Germany yield) × 100, in basis points; change = September 2026 spread − December 2025 spread.",
+   "ko": "가산금리 = (각국 금리 − 독일 금리) × 100, 단위 bp. 변화폭 = 2026년 9월 가산금리 − 2025년 12월 가산금리."
+  },
+  "span": [
+   "2025-12",
+   "2026-09"
+  ],
+  "lastObservation": "2026-09",
+  "retrieved": "2026-10-19",
+  "licence": "ECB: reuse with attribution (ECB statistics reuse policy)",
+  "attribution": {
+   "en": "Source: ECB Data Portal; datasteg calculation",
+   "ko": "출처: ECB 데이터 포털; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "country",
+    "label": {
+     "en": "Country",
+     "ko": "국가"
+    }
+   },
+   {
+    "key": "dec2025",
+    "label": {
+     "en": "Dec 2025, bp",
+     "ko": "2025년 12월, bp"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "sep2026",
+    "label": {
+     "en": "Sep 2026, bp",
+     "ko": "2026년 9월, bp"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "change",
+    "label": {
+     "en": "Change, bp",
+     "ko": "변화폭, bp"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "country": {
+     "en": "France",
+     "ko": "프랑스"
+    },
+    "dec2025": 74.7,
+    "sep2026": 96.7,
+    "change": 22.0
+   },
+   {
+    "country": {
+     "en": "Italy",
+     "ko": "이탈리아"
+    },
+    "dec2025": 73.9,
+    "sep2026": 88.9,
+    "change": 15.0
+   },
+   {
+    "country": {
+     "en": "Belgium",
+     "ko": "벨기에"
+    },
+    "dec2025": 50.7,
+    "sep2026": 64.7,
+    "change": 14.0
+   },
+   {
+    "country": {
+     "en": "Greece",
+     "ko": "그리스"
+    },
+    "dec2025": 62.7,
+    "sep2026": 74.7,
+    "change": 12.0
+   },
+   {
+    "country": {
+     "en": "Portugal",
+     "ko": "포르투갈"
+    },
+    "dec2025": 33.3,
+    "sep2026": 37.3,
+    "change": 4.0
+   },
+   {
+    "country": {
+     "en": "Spain",
+     "ko": "스페인"
+    },
+    "dec2025": 45.8,
+    "sep2026": 45.4,
+    "change": -0.4
+   },
+   {
+    "country": {
+     "en": "Finland",
+     "ko": "핀란드"
+    },
+    "dec2025": 35.2,
+    "sep2026": 32.7,
+    "change": -2.5
+   },
+   {
+    "country": {
+     "en": "Netherlands",
+     "ko": "네덜란드"
+    },
+    "dec2025": 15.5,
+    "sep2026": 9.1,
+    "change": -6.4
+   },
+   {
+    "country": {
+     "en": "Austria",
+     "ko": "오스트리아"
+    },
+    "dec2025": 28.44,
+    "sep2026": 21.37,
+    "change": -7.07
+   },
+   {
+    "country": {
+     "en": "Ireland",
+     "ko": "아일랜드"
+    },
+    "dec2025": 20.02,
+    "sep2026": 11.81,
+    "change": -8.21
+   }
+  ]
+ },
+ "csv": "data/euro-spread-changes.csv"
+}

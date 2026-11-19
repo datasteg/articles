@@ -1,0 +1,29 @@
+# Sample: what central bankers said over a period, by theme, in their own words.
+id: speech-roundup
+version: "0.3"
+status: sample
+name: {en: Speech roundup, ko: 연설 모음}
+tagline: {en: "What central bankers said this month, theme by theme, in their own words", ko: "이번 달 중앙은행가들이 한 말, 주제별로, 그들의 말 그대로"}
+shape: {words: {en: "900–1,400 words", ko: "약 3,000–4,500자"}, figures: "0–1", gates: 2}
+template: guides/templates/speech-roundup.md
+phases:
+  - {id: research, label: {en: Collection, ko: 수집}}
+  - {id: selection, label: {en: Themes, ko: 주제}}
+  - {id: writing, label: {en: Writing, ko: 집필}}
+  - {id: review, label: {en: Review, ko: 검토}}
+  - {id: publish, label: {en: Publish, ko: 게시}}
+steps:
+  - {id: collect, skill: collect-speeches, phase: research, label: {en: Collect speeches, ko: 연설 수집},
+     detail: {en: "Every speech in the period, with verified quotes", ko: "기간 내 모든 연설, 인용은 원문 대조"}}
+  - {id: themes, skill: cluster-themes, phase: selection, label: {en: Find the themes, ko: 주제 정리},
+     detail: {en: "Three to five themes, who said what, where they disagree", ko: "주제 3~5개, 누가 무엇을 말했고 어디서 갈리는지"}}
+  - {id: gate-themes, gate: themes, phase: selection, label: {en: Editor approves the themes, ko: 편집자가 주제를 승인}}
+  - {id: plan, skill: plan-article, phase: writing, label: {en: Plan, ko: 기획}}
+  - {id: draft, skill: draft-article, phase: writing, label: {en: Draft EN · KO, ko: 영문 · 국문 집필}}
+  - {id: review, skill: review-article, phase: review, loop: {owners: [draft-article], max: 1}, label: {en: Review, ko: 검토}}
+  - {id: cover, skill: make-cover, phase: publish, label: {en: Cover image, ko: 표지 그림},
+     detail: {en: "A small picture of the subject for the article lists, drawn from the final text", ko: "최종 원고를 읽고 목록에 실릴 작은 그림을 그립니다."}}
+  - {id: pdf, skill: make-pdf, phase: publish, label: {en: PDF edition, ko: PDF판},
+     detail: {en: "Each edition as a journal-style PDF for download, checked page by page", ko: "언어판마다 내려받을 수 있는 학술지 형식의 PDF로 만들어 쪽마다 확인합니다."}}
+  - {id: gate-publish, gate: publish, phase: publish, label: {en: Editor approves the roundup, ko: 편집자가 모음을 승인}}
+  - {id: publish, skill: publish-article, manual: true, phase: publish, label: {en: Publish, ko: 게시}}

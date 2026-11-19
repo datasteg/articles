@@ -1,0 +1,12 @@
+{
+ "id": "valuation-effect",
+ "term": {
+  "en": "valuation effect",
+  "ko": "평가 효과"
+ },
+ "definition": {
+  "en": "The change in the value of assets investors already hold that comes from prices or exchange rates moving, not from buying or selling.",
+  "ko": "투자자가 이미 가진 자산의 가치가 사고팔아서가 아니라 가격이나 환율이 움직여서 달라진 부분이다. 가격이 내리면 마이너스가 된다."
+ },
+ "approvedBy": null
+}

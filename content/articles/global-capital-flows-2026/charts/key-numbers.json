@@ -1,0 +1,107 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "Foreigners bought $1.79 trillion of US securities, the most in data back to 2006, yet only 20% of the rise in their US stock holdings since end-2024 was new money, and the richest one per cent of US households own half of household-held stocks",
+  "ko": "외국인은 미국 증권을 자료가 있는 2006년 이후 최대인 1.79조 달러어치 사들였지만, 2024년 말 이후 이들의 미국 주식 보유액 증가분 가운데 새 돈은 20%에 그쳤고, 가계가 보유한 미국 주식의 절반은 자산 상위 1% 가구의 몫이다"
+ },
+ "title": {
+  "en": "Three numbers on where foreign money goes and who gains",
+  "ko": "외국 자금의 행방과 수혜자를 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "US securities, four quarters to Q2 2026; holdings end-2024 to end-Q2 2026; household wealth shares, Q2 2026",
+  "ko": "미국 증권, 2026년 2분기까지 네 분기; 보유액 2024년 말~2026년 2분기 말; 가계 자산 비중, 2026년 2분기"
+ },
+ "tiles": [
+  {
+   "value": "{{F154}}",
+   "label": {
+    "en": "Foreign net purchases of US securities in the four quarters to Q2 2026, the most in data back to 2006 and {{F180}} the euro area's",
+    "ko": "2026년 2분기까지 네 분기 동안 외국인의 미국 증권 순매수, 자료가 있는 2006년 이후 최대이자 유로존의 {{F180}}"
+   },
+   "cite": [
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "value": "{{F138}}",
+   "label": {
+    "en": "of the rise in foreigners' US stock holdings since end-2024 that was new buying; the rest was price changes and other adjustments",
+    "ko": "2024년 말 이후 외국인 보유 미국 주식 증가분 가운데 새로 사들인 몫, 나머지는 가격 변동과 기타 조정분"
+   },
+   "cite": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "value": "{{F114}}",
+   "label": {
+    "en": "of US household-held stocks and funds owned by the richest one per cent of households, Q2 2026",
+    "ko": "미국 가계 보유 주식·펀드 가운데 자산 상위 백분의 일 가구의 몫, 2026년 2분기"
+   },
+   "cite": [
+    "S14"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "US securities are stocks and fund shares, Treasuries (bills included), and agency and corporate bonds, from the Federal Reserve's Financial Accounts; municipal bonds are not included. Net purchases are purchases minus sales.",
+   "ko": "미국 증권은 연준 금융계정 기준 주식·펀드, 미 국채(단기채 포함), 정부기관채, 회사채이며 지방채는 빠졌다. 순매수는 매수에서 매도를 뺀 값이다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: foreigners bought a net $1.79 trillion of US securities in the four quarters to Q2 2026, the most in data back to 2006 and 1.4 times what they bought in the euro area; only 20% of the rise in their US stock holdings since end-2024 was new buying, the rest price changes and other adjustments; and the richest one per cent of US households owned 50.9% of household-held stocks and funds in Q2 2026.",
+  "ko": "세 숫자: 외국인은 2026년 2분기까지 네 분기 동안 미국 증권을 1.79조 달러 순매수해 자료가 있는 2006년 이후 최대를 기록했고 이는 유로존 순매수의 1.4배다. 2024년 말 이후 이들의 미국 주식 보유액 증가분 가운데 새로 사들인 몫은 20%뿐이고 나머지는 가격 변동과 기타 조정분이다. 2026년 2분기 미국 가계 보유 주식·펀드의 50.9%는 자산 상위 1% 가구의 몫이다."
+ },
+ "meta": {
+  "sources": [
+   "S4",
+   "S5",
+   "S6",
+   "S7",
+   "S1",
+   "S14",
+   "S10",
+   "S3"
+  ],
+  "provider": "Federal Reserve via FRED; Eurostat; ECB Data Portal",
+  "keys": [
+   "BOGZ1FU263064003Q",
+   "BOGZ1FU263061105Q",
+   "BOGZ1FU263063005Q",
+   "BOGZ1FU263061705Q",
+   "BOGZ1FL263064003Q",
+   "WFRBST01122",
+   "bop_eu6_q FA__P__F LIAB EA21",
+   "EXR.Q.USD.EUR.SP00.A"
+  ],
+  "definition": {
+   "en": "Foreign net purchases and holdings of US securities: Federal Reserve Financial Accounts (Z.1), rest-of-the-world sector. Wealth share: Federal Reserve Distributional Financial Accounts, corporate equities and mutual fund shares held by households.",
+   "ko": "외국인의 미국 증권 순매수와 보유액: 연준 금융계정(Z.1)의 해외 부문. 자산 비중: 연준 분배금융계정의 가계 보유 주식·뮤추얼펀드."
+  },
+  "calculation": {
+   "en": "Purchases: sum of the four quarters Q3 2025 to Q2 2026 across stocks, Treasuries, agency and corporate bonds; the euro-area multiple uses Eurostat's portfolio liabilities converted at quarterly ECB dollar rates. Share of new buying: net purchases of US stocks Q1 2025–Q2 2026 ÷ rise in holdings from end-2024 to end-Q2 2026.",
+   "ko": "순매수: 2025년 3분기~2026년 2분기 네 분기의 주식·국채·정부기관채·회사채 합계. 유로존 대비 배수는 Eurostat 증권투자 부채를 분기 평균 ECB 달러 환율로 환산해 계산. 새 매수 비중: 2025년 1분기~2026년 2분기 미국 주식 순매수 ÷ 2024년 말~2026년 2분기 말 보유액 증가분."
+  },
+  "span": [
+   "2006-Q1",
+   "2026-Q2"
+  ],
+  "lastObservation": "2026-Q2",
+  "retrieved": "2026-10-19",
+  "licence": "Federal Reserve data via FRED: public domain, citation requested; Eurostat: CC BY 4.0; ECB: reuse with attribution",
+  "attribution": {
+   "en": "Sources: Federal Reserve via FRED; Eurostat; ECB Data Portal; datasteg calculation",
+   "ko": "출처: 미 연준(FRED); Eurostat; ECB 데이터 포털; datasteg 계산"
+  }
+ },
+ "csv": null
+}

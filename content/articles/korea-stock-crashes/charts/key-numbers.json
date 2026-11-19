@@ -1,0 +1,95 @@
+{
+ "id": "key-numbers",
+ "form": "stat-tiles",
+ "headline": {
+  "en": "Korean share prices rose 209% in the two years to June 2026, the most since Dec 1988, yet the VIX closed no higher than 20.7 in the fall that followed and news mood stood at 108.1 on the day stocks peaked",
+  "ko": "한국 주가는 2026년 6월까지 두 해 동안 209% 올라 1988년 12월 이후 최대 상승을 기록했지만, 뒤이은 하락기에 VIX 종가는 20.7을 넘지 않았고 주가 고점 당일 뉴스심리지수는 108.1이었다"
+ },
+ "title": {
+  "en": "Three numbers on Korea's 2026 stock fall",
+  "ko": "2026년 한국 증시 급락을 보여 주는 세 숫자"
+ },
+ "subtitle": {
+  "en": "Korean share prices: OECD monthly averages; VIX: daily close; news sentiment: daily index, 100 = long-run average",
+  "ko": "한국 주가: OECD 월평균, VIX: 일별 종가, 뉴스심리지수: 일별 지수(100 = 장기 평균)"
+ },
+ "tiles": [
+  {
+   "value": "{{F876}}",
+   "label": {
+    "en": "Rise in Korean share prices in the two years to June 2026 (OECD monthly average), the most since {{F928}}; the record, {{F903}}, came in the two years to {{F904}}",
+    "ko": "2026년 6월까지 두 해 동안 한국 주가(OECD 월평균) 상승률, {{F928}} 이후 최대. 최고 기록은 {{F904}}까지 두 해 동안의 {{F903}}"
+   },
+   "cite": [
+    "S1"
+   ]
+  },
+  {
+   "value": "{{F387}}",
+   "label": {
+    "en": "Highest VIX close during Korea's 2026 fall, against {{F339}} during the 2007–08 fall and {{F355}} in 2020",
+    "ko": "2026년 한국 주가 하락기의 VIX 최고 종가. 2007~2008년 하락기 {{F339}}, 2020년 {{F355}}와 대비"
+   },
+   "cite": [
+    "S2"
+   ]
+  },
+  {
+   "value": "{{F280}}",
+   "label": {
+    "en": "Bank of Korea news sentiment on 22 Jun 2026, the day stocks peaked; readings above the long-run average mean upbeat news",
+    "ko": "주가가 고점을 찍은 2026년 6월 22일의 한국은행 뉴스심리지수. 장기 평균보다 높으면 뉴스 분위기가 평소보다 밝다는 뜻"
+   },
+   "cite": [
+    "S4"
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "en": "Korean share prices are the OECD's monthly average index of Korean share prices, which tracks the KOSPI's monthly average but is not the KOSPI close. The series starts in January 1981, so two-year rises can be measured from January 1983.",
+   "ko": "한국 주가는 OECD의 한국 주가 월평균 지수로, 코스피 월평균을 따라가지만 코스피 종가는 아니다. 자료가 1981년 1월부터 있어 두 해 상승률은 1983년 1월부터 잴 수 있다."
+  },
+  {
+   "en": "The VIX high is the highest daily close between the KOSPI's daily peak (22 Jun 2026) and its low so far (15 Oct 2026). The news sentiment index measures the tone of economic news, not views on whether stocks are overpriced.",
+   "ko": "VIX 최고치는 코스피 일별 고점(2026년 6월 22일)부터 지금까지의 저점(2026년 10월 15일) 사이 일별 종가 가운데 가장 높은 값이다. 뉴스심리지수는 경제 뉴스의 논조를 잴 뿐, 주가가 비싸다는 인식을 재지는 않는다."
+  }
+ ],
+ "alt": {
+  "en": "Three figures: Korean share prices (OECD monthly average) rose 209% in the two years to June 2026, the most since Dec 1988, against a record of 282% in the two years to Feb 1988; the VIX closed no higher than 20.7 during the 2026 fall, against 79.1 during the 2007–08 fall and 82.7 in 2020; and the Bank of Korea news sentiment index stood at 108.1 on 22 Jun 2026, the day stocks peaked, above its long-run average of 100.",
+  "ko": "세 숫자: 한국 주가(OECD 월평균)는 2026년 6월까지 두 해 동안 209% 올라 1988년 12월 이후 최대였고, 최고 기록은 1988년 2월까지 두 해 동안의 282%였다. 2026년 하락기 VIX 최고 종가는 20.7로 2007~2008년 하락기 79.1, 2020년 82.7에 크게 못 미쳤다. 주가가 고점을 찍은 2026년 6월 22일 한국은행 뉴스심리지수는 108.1로 장기 평균 100을 웃돌았다."
+ },
+ "meta": {
+  "sources": [
+   "S1",
+   "S2",
+   "S4"
+  ],
+  "provider": "OECD and Cboe via FRED; Bank of Korea, ECOS",
+  "keys": [
+   "SPASTT01KRM661N",
+   "VIXCLS",
+   "523Y001/D/A001"
+  ],
+  "definition": {
+   "en": "OECD share price index for Korea (all shares, monthly average of daily prices, 2015 = 100); Cboe Volatility Index (VIX), daily close; Bank of Korea news sentiment index (experimental statistic, daily, 100 = long-run average).",
+   "ko": "OECD 한국 주가지수(전 종목, 일별 주가의 월평균, 2015 = 100), 시카고옵션거래소 변동성지수(VIX) 일별 종가, 한국은행 뉴스심리지수(실험적 통계, 일별, 100 = 장기 평균)."
+  },
+  "calculation": {
+   "en": "Two-year rise = (June 2026 ÷ June 2024 − 1) × 100, compared with every earlier 24-month change from January 1983. VIX high = highest daily close from 22 Jun to 15 Oct 2026. News sentiment as published on 22 Jun 2026.",
+   "ko": "두 해 상승률 = (2026년 6월 ÷ 2024년 6월 − 1) × 100이며 1983년 1월 이후 모든 24개월 변화율과 비교했다. VIX 최고치 = 2026년 6월 22일~10월 15일 일별 종가의 최고값. 뉴스심리지수는 2026년 6월 22일 발표값 그대로."
+  },
+  "span": [
+   "1981-01",
+   "2026-10-16"
+  ],
+  "lastObservation": "2026-10-16",
+  "retrieved": "2026-10-19",
+  "licence": "FRED (OECD, Cboe): copyrighted, citation required; ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Sources: OECD and Cboe via FRED, Federal Reserve Bank of St. Louis; Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: OECD·시카고옵션거래소(FRED 경유, 세인트루이스 연방준비은행); 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "csv": null
+}

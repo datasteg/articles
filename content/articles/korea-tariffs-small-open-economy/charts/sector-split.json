@@ -1,0 +1,236 @@
+{
+ "id": "sector-split",
+ "form": "dumbbell",
+ "headline": {
+  "en": "Between 2024 and 2025 Korea's semiconductor export values rose 22% and cars 1.5%, while primary steel, a sector facing US sectoral tariffs, fell 7.6% and chemicals 4.0%",
+  "ko": "2024년에서 2025년 사이 한국 반도체 수출금액은 22% 늘고 자동차는 1.5% 느는 데 그쳤으며, 미국 품목별 관세를 맞은 철강 일차제품은 7.6% 줄었고 화학제품도 4.0% 줄었다"
+ },
+ "title": {
+  "en": "Korea's export value index by product, 2024 and 2025 annual averages",
+  "ko": "한국 품목별 수출금액지수, 2024년과 2025년 연평균"
+ },
+ "subtitle": {
+  "en": "Index, 2020 = 100, US dollar basis; annual averages of monthly values",
+  "ko": "지수, 2020년 = 100, 달러 기준; 월별 값의 연평균"
+ },
+ "howToRead": {
+  "en": "Each row is one product group; the hollow dot is its 2024 average export value index and the filled dot its 2025 average, so a filled dot to the right means exports of that product rose. Rows are sorted by the 2025 change, largest rise first.",
+  "ko": "행마다 품목군 하나다. 빈 점은 2024년 연평균 수출금액지수, 채운 점은 2025년 연평균이며, 채운 점이 오른쪽에 있으면 그 품목의 수출이 늘었다는 뜻이다. 2025년 변화율이 큰 순서로 놓았다."
+ },
+ "notes": [
+  {
+   "en": "Indices (2020 = 100), not dollar amounts, so rows cannot be added or read as shares of exports. Motor vehicles excludes parts; primary steel is the steel sub-group; chemical products is the whole chemicals category.",
+   "ko": "달러 금액이 아니라 지수(2020년 = 100)이므로 행을 더하거나 수출 비중으로 읽을 수 없다. 자동차는 부품을 뺀 것이고, 철강 일차제품은 철강 하위 항목이며, 화학제품은 화학 전체다."
+  },
+  {
+   "en": "The 2026 figures are in the text: from January to September 2026 semiconductors were 189% above a year earlier and cars 3.9% below. Shown as dots they would flatten the 2025 differences.",
+   "ko": "2026년 수치는 본문에 있다. 2026년 1월부터 9월까지 반도체는 한 해 전보다 189% 높았고 자동차는 3.9% 낮았다. 점으로 그리면 2025년의 차이가 눌려 보인다."
+  }
+ ],
+ "alt": {
+  "en": "Dumbbell chart of Korea's export value index (2020 = 100) by product, 2024 against 2025 annual averages: semiconductors rose from 141 to 173 (+22.4%), all goods from 133 to 137 (+3.1%), motor vehicles from 190 to 193 (+1.5%), while chemical products fell from 127 to 122 (−4.0%) and primary steel products from 126 to 116 (−7.6%).",
+  "ko": "한국 품목별 수출금액지수(2020년 = 100)의 2024년과 2025년 연평균을 견준 덤벨 그래프. 반도체는 141에서 173으로(+22.4%), 전체 상품은 133에서 137로(+3.1%), 자동차는 190에서 193으로(+1.5%) 올랐고, 화학제품은 127에서 122로(−4.0%), 철강 일차제품은 126에서 116으로(−7.6%) 내렸다."
+ },
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Export value index, 2020 = 100",
+    "ko": "수출금액지수, 2020년 = 100"
+   },
+   "unit": "index",
+   "domain": [
+    0,
+    200
+   ],
+   "ticks": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "fromLabel": {
+  "en": "2024",
+  "ko": "2024년"
+ },
+ "toLabel": {
+  "en": "2025",
+  "ko": "2025년"
+ },
+ "rows": [
+  {
+   "id": "semi",
+   "label": {
+    "en": "Semiconductors",
+    "ko": "반도체"
+   },
+   "from": 141.21,
+   "to": 172.87
+  },
+  {
+   "id": "all",
+   "label": {
+    "en": "All goods",
+    "ko": "전체 상품"
+   },
+   "from": 132.92,
+   "to": 136.99
+  },
+  {
+   "id": "auto",
+   "label": {
+    "en": "Motor vehicles",
+    "ko": "자동차"
+   },
+   "from": 189.96,
+   "to": 192.83,
+   "highlight": true
+  },
+  {
+   "id": "chem",
+   "label": {
+    "en": "Chemical products",
+    "ko": "화학제품"
+   },
+   "from": 127.02,
+   "to": 121.95
+  },
+  {
+   "id": "steel",
+   "label": {
+    "en": "Primary steel products",
+    "ko": "철강 일차제품"
+   },
+   "from": 125.68,
+   "to": 116.12,
+   "highlight": true
+  }
+ ],
+ "meta": {
+  "sources": [
+   "S12",
+   "S33",
+   "S32",
+   "S31",
+   "S11"
+  ],
+  "provider": "Bank of Korea, ECOS",
+  "keys": [
+   "403Y001/M/3091AA",
+   "403Y001/M/*AA",
+   "403Y001/M/31211AA",
+   "403Y001/M/305AA",
+   "403Y001/M/3071AA"
+  ],
+  "definition": {
+   "en": "Bank of Korea export value indices, US dollar basis, 2020 = 100, not seasonally adjusted: semiconductors, all goods, motor vehicles (excluding parts), chemical products, primary steel products.",
+   "ko": "한국은행 수출금액지수, 달러 기준, 2020년 = 100, 계절조정 안 함: 반도체, 총지수, 자동차(부품 제외), 화학제품, 철강 일차제품."
+  },
+  "calculation": {
+   "en": "Annual average = mean of the twelve monthly index values. Change = 2025 average ÷ 2024 average − 1.",
+   "ko": "연평균 = 열두 달 지수의 평균. 변화율 = 2025년 평균 ÷ 2024년 평균 − 1."
+  },
+  "span": [
+   "2024",
+   "2025"
+  ],
+  "lastObservation": "2025",
+  "retrieved": "2026-10-20",
+  "licence": "ECOS Open API terms: reuse allowed with attribution",
+  "attribution": {
+   "en": "Source: Bank of Korea, ECOS; datasteg calculation",
+   "ko": "출처: 한국은행 ECOS; datasteg 계산"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "product",
+    "label": {
+     "en": "Product group",
+     "ko": "품목군"
+    }
+   },
+   {
+    "key": "y2024",
+    "label": {
+     "en": "2024 average",
+     "ko": "2024년 평균"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "y2025",
+    "label": {
+     "en": "2025 average",
+     "ko": "2025년 평균"
+    },
+    "align": "right",
+    "decimals": 1
+   },
+   {
+    "key": "chg",
+    "label": {
+     "en": "Change, %",
+     "ko": "변화율, %"
+    },
+    "align": "right",
+    "decimals": 1
+   }
+  ],
+  "rows": [
+   {
+    "product": {
+     "en": "Semiconductors",
+     "ko": "반도체"
+    },
+    "y2024": 141.21,
+    "y2025": 172.87,
+    "chg": 22.42
+   },
+   {
+    "product": {
+     "en": "All goods",
+     "ko": "전체 상품"
+    },
+    "y2024": 132.92,
+    "y2025": 136.99,
+    "chg": 3.06
+   },
+   {
+    "product": {
+     "en": "Motor vehicles",
+     "ko": "자동차"
+    },
+    "y2024": 189.96,
+    "y2025": 192.83,
+    "chg": 1.51
+   },
+   {
+    "product": {
+     "en": "Chemical products",
+     "ko": "화학제품"
+    },
+    "y2024": 127.02,
+    "y2025": 121.95,
+    "chg": -3.99
+   },
+   {
+    "product": {
+     "en": "Primary steel products",
+     "ko": "철강 일차제품"
+    },
+    "y2024": 125.68,
+    "y2025": 116.12,
+    "chg": -7.6
+   }
+  ]
+ },
+ "csv": "data/sector-split.csv"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "net-international-investment-position",
+ "term": {
+  "en": "net international investment position",
+  "ko": "순대외금융자산"
+ },
+ "definition": {
+  "en": "What a country's residents own abroad minus what foreigners own in that country. A negative position means foreigners own more of the country than it owns of the rest of the world.",
+  "ko": "한 나라 거주자의 대외금융자산에서 대외금융부채를 뺀 값이다. 음수(순대외금융부채)이면 외국인이 그 나라에 보유한 자산이 그 나라가 해외에 보유한 자산보다 많다."
+ },
+ "approvedBy": null
+}

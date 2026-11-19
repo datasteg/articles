@@ -1,0 +1,16 @@
+{
+ "id": "balance-sheet-effect",
+ "term": {
+  "en": "balance-sheet effect",
+  "ko": "대차대조표 효과"
+ },
+ "definition": {
+  "en": "When a currency falls, debts owed in foreign currency grow in local-currency terms while income may not, weakening borrowers' finances and their ability to borrow and invest.",
+  "ko": "통화가 약세를 보이면 외화부채의 자국 통화 환산액은 늘지만 소득은 그만큼 늘지 않는다. 이에 따라 차입자의 재무 상태와 차입·투자 여력이 약해지는 효과다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "exchange-rates",
+  "financial-stability"
+ ]
+}

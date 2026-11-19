@@ -1,0 +1,324 @@
+{
+ "id": "peer-ranking",
+ "form": "bars",
+ "headline": {
+  "en": "Indonesia's import cover was third lowest of 13 non-advanced economies and fourth lowest of all 21",
+  "ko": "인도네시아 수입 감당 기간, 13개국 중 3번째·21개국 중 4번째로 짧아"
+ },
+ "title": {
+  "en": "Months of imports covered by net reserves, non-advanced economies",
+  "ko": "순외환보유액으로 치를 수 있는 수입 개월 수, 선진국 제외"
+ },
+ "subtitle": {
+  "en": "Net reserves at end-June 2026 (IMF) divided by an average month of goods imports over the twelve months to June 2026 (UN Comtrade). Median of the 13 with a value: 7.1 months",
+  "ko": "2026년 6월말 순외환보유액(IMF)을 2026년 6월까지 12개월 상품 수입액의 한 달 평균(UN Comtrade)으로 나눈 값. 수치가 있는 13개국의 중앙값은 7.1개월"
+ },
+ "alt": {
+  "en": "Bar chart of import cover from net reserves for the 13 non-advanced economies with a value at end-June 2026, lowest first. Indonesia is third lowest at 3.78 months, after Malaysia and Türkiye. The median of those 13 non-advanced economies is 7.1 months. Across all 21 economies with a value, Indonesia was fourth lowest.",
+  "ko": "2026년 6월말 수치가 있는 선진국이 아닌 13개국의 수입 감당 기간을 순외환보유액 기준으로 그린 막대그래프다. 기간이 짧은 나라부터 늘어놓았다. 인도네시아는 3.78개월로 말레이시아와 튀르키예 다음인 3번째로 짧다. 이 13개국의 중앙값은 7.1개월이다. 수치가 있는 21개국 전체에서는 인도네시아가 4번째로 짧다."
+ },
+ "notes": [
+  {
+   "en": "Three months of imports is a convention in IMF reserve-adequacy work for emerging economies, usually read on gross reserves. It is not a threshold in these data.",
+   "ko": "'수입 3개월치'는 IMF가 신흥국의 외환보유액이 충분한지 따질 때 흔히 쓰는 관례다. 보통 총외환보유액에 적용한다. 이 통계에서 합격선으로 삼은 것은 아니다."
+  },
+  {
+   "en": "The ranking uses net reserves. On gross reserves Indonesia's cover is 6.67 months; the other economies were not ranked on that basis.",
+   "ko": "순위는 순외환보유액으로 매겼다. 인도네시아의 수입 감당 기간을 총외환보유액으로 따지면 6.67개월이다. 다른 나라는 총외환보유액 기준으로 순위를 매기지 않았다."
+  },
+  {
+   "en": "Argentina (negative net reserves) and China and Russia (no import figure) have no value.",
+   "ko": "아르헨티나는 순외환보유액이 마이너스여서, 중국과 러시아는 수입 수치가 없어서 수입 감당 기간 수치가 없다."
+  }
+ ],
+ "axes": {
+  "x": {
+   "label": {
+    "en": "Months of goods imports",
+    "ko": "상품 수입 개월 수"
+   },
+   "unit": "months",
+   "domain": [
+    0,
+    25
+   ],
+   "ticks": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25
+   ],
+   "format": {
+    "decimals": 0
+   }
+  }
+ },
+ "categories": [
+  {
+   "id": "MYS",
+   "label": {
+    "en": "Malaysia",
+    "ko": "말레이시아"
+   },
+   "value": 3.02,
+   "highlight": false
+  },
+  {
+   "id": "TUR",
+   "label": {
+    "en": "Türkiye",
+    "ko": "튀르키예"
+   },
+   "value": 3.11,
+   "highlight": false
+  },
+  {
+   "id": "IDN",
+   "label": {
+    "en": "Indonesia",
+    "ko": "인도네시아"
+   },
+   "value": 3.78,
+   "highlight": true
+  },
+  {
+   "id": "MEX",
+   "label": {
+    "en": "Mexico",
+    "ko": "멕시코"
+   },
+   "value": 4.16,
+   "highlight": false
+  },
+  {
+   "id": "HUN",
+   "label": {
+    "en": "Hungary",
+    "ko": "헝가리"
+   },
+   "value": 4.45,
+   "highlight": false
+  },
+  {
+   "id": "CHL",
+   "label": {
+    "en": "Chile",
+    "ko": "칠레"
+   },
+   "value": 5.98,
+   "highlight": false
+  },
+  {
+   "id": "POL",
+   "label": {
+    "en": "Poland",
+    "ko": "폴란드"
+   },
+   "value": 7.13,
+   "highlight": false
+  },
+  {
+   "id": "ZAF",
+   "label": {
+    "en": "South Africa",
+    "ko": "남아프리카공화국"
+   },
+   "value": 7.75,
+   "highlight": false
+  },
+  {
+   "id": "IND",
+   "label": {
+    "en": "India",
+    "ko": "인도"
+   },
+   "value": 9.22,
+   "highlight": false
+  },
+  {
+   "id": "THA",
+   "label": {
+    "en": "Thailand",
+    "ko": "태국"
+   },
+   "value": 9.42,
+   "highlight": false
+  },
+  {
+   "id": "COL",
+   "label": {
+    "en": "Colombia",
+    "ko": "콜롬비아"
+   },
+   "value": 10.25,
+   "highlight": false
+  },
+  {
+   "id": "BRA",
+   "label": {
+    "en": "Brazil",
+    "ko": "브라질"
+   },
+   "value": 14.89,
+   "highlight": false
+  },
+  {
+   "id": "SAU",
+   "label": {
+    "en": "Saudi Arabia",
+    "ko": "사우디아라비아"
+   },
+   "value": 23.17,
+   "highlight": false
+  }
+ ],
+ "valueFormat": {
+  "decimals": 1,
+  "suffix": ""
+ },
+ "referenceLines": [
+  {
+   "axis": "x",
+   "value": 7.13,
+   "label": {
+    "en": "Median of the {{F83}} non-advanced economies with a value",
+    "ko": "수치가 있는 선진국이 아닌 13개국의 중앙값"
+   }
+  }
+ ],
+ "table": {
+  "columns": [
+   {
+    "key": "label",
+    "label": {
+     "en": "Economy",
+     "ko": "나라"
+    }
+   },
+   {
+    "key": "import_cover_months",
+    "label": {
+     "en": "Months of goods imports",
+     "ko": "상품 수입 개월 수"
+    },
+    "align": "right"
+   }
+  ],
+  "rows": [
+   {
+    "label": {
+     "en": "Malaysia",
+     "ko": "말레이시아"
+    },
+    "import_cover_months": 3.02
+   },
+   {
+    "label": {
+     "en": "Türkiye",
+     "ko": "튀르키예"
+    },
+    "import_cover_months": 3.11
+   },
+   {
+    "label": {
+     "en": "Indonesia",
+     "ko": "인도네시아"
+    },
+    "import_cover_months": 3.78
+   },
+   {
+    "label": {
+     "en": "Mexico",
+     "ko": "멕시코"
+    },
+    "import_cover_months": 4.16
+   },
+   {
+    "label": {
+     "en": "Hungary",
+     "ko": "헝가리"
+    },
+    "import_cover_months": 4.45
+   },
+   {
+    "label": {
+     "en": "Chile",
+     "ko": "칠레"
+    },
+    "import_cover_months": 5.98
+   },
+   {
+    "label": {
+     "en": "Poland",
+     "ko": "폴란드"
+    },
+    "import_cover_months": 7.13
+   },
+   {
+    "label": {
+     "en": "South Africa",
+     "ko": "남아프리카공화국"
+    },
+    "import_cover_months": 7.75
+   },
+   {
+    "label": {
+     "en": "India",
+     "ko": "인도"
+    },
+    "import_cover_months": 9.22
+   },
+   {
+    "label": {
+     "en": "Thailand",
+     "ko": "태국"
+    },
+    "import_cover_months": 9.42
+   },
+   {
+    "label": {
+     "en": "Colombia",
+     "ko": "콜롬비아"
+    },
+    "import_cover_months": 10.25
+   },
+   {
+    "label": {
+     "en": "Brazil",
+     "ko": "브라질"
+    },
+    "import_cover_months": 14.89
+   },
+   {
+    "label": {
+     "en": "Saudi Arabia",
+     "ko": "사우디아라비아"
+    },
+    "import_cover_months": 23.17
+   }
+  ]
+ },
+ "meta": {
+  "sources": [
+   "S5"
+  ],
+  "provider": "datasteg calculation",
+  "keys": [
+   "desk join of board, sovereign, stress, country"
+  ],
+  "definition": {
+   "en": "Import cover: net reserves in months of goods imports (empty when net reserves are not positive)",
+   "ko": "상품 수입 개월 수"
+  },
+  "lastObservation": "2026-06-30",
+  "retrieved": "2026-11-18",
+  "licence": "derived views of open statistics; each publisher's terms apply",
+  "attribution": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network; datasteg calculation",
+   "ko": "자료: BIS, IMF, 연준, UN Comtrade(datasteg global-network 경유). 계산: datasteg"
+  }
+ },
+ "csv": "data/peer-ranking.csv"
+}

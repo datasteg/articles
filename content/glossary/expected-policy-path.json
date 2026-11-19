@@ -1,0 +1,16 @@
+{
+ "id": "expected-policy-path",
+ "term": {
+  "en": "expected policy path",
+  "ko": "기대 정책경로"
+ },
+ "definition": {
+  "en": "Where investors expect a central bank to set its policy rate over the coming months and years. It shows up in market yields of one to three years.",
+  "ko": "앞으로 몇 달, 몇 해 동안 중앙은행이 정책금리를 어디에 둘지에 대한 투자자들의 예상이다. 만기 한두 해에서 세 해 정도의 시장금리에 드러난다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "monetary-policy",
+  "bond-markets"
+ ]
+}

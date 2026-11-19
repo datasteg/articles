@@ -1,0 +1,16 @@
+{
+ "id": "trade-policy-uncertainty",
+ "term": {
+  "en": "trade-policy uncertainty",
+  "ko": "무역정책 불확실성"
+ },
+ "definition": {
+  "en": "Doubt about what tariffs and trade rules will be, which can hold back investment and trade even before any tariff takes effect. It is often measured by how often newspapers write about it.",
+  "ko": "관세와 무역 규칙이 어떻게 될지 알 수 없는 상태다. 관세가 시행되기 전부터 투자와 무역을 위축시킬 수 있으며, 신문이 이를 얼마나 자주 다루는지로 측정하는 경우가 많다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "trade",
+  "united-states"
+ ]
+}

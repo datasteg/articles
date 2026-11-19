@@ -1,0 +1,237 @@
+{
+ "id": "scenario-ladder",
+ "form": "table",
+ "headline": {
+  "en": "Korea's modelled loss grows with the breadth of protectionism, from about a third of a per cent of output under the 2025 US tariffs to two to four per cent in bloc and friend-shoring worlds; the figures are long-run model deviations from a no-tariff baseline, not forecasts",
+  "ko": "모형 속 한국의 손실은 보호무역이 넓어질수록 커져 2025년 미국 관세에서는 생산의 삼분의 일 퍼센트 안팎, 블록과 우방국 재편의 세계에서는 이~사 퍼센트에 이르며, 이 수치는 관세 없는 기준선과 견준 장기 모형 편차이지 전망이 아니다"
+ },
+ "title": {
+  "en": "Korea in the published models, from the narrowest scenario to the broadest",
+  "ko": "발표된 모형 속 한국, 가장 좁은 시나리오부터 가장 넓은 시나리오까지"
+ },
+ "subtitle": {
+  "en": "Each row is one model scenario; Korea's figure and others' are deviations from a no-tariff baseline, in % of output, GDP, potential output, welfare or real exports as each paper reports",
+  "ko": "행마다 모형 시나리오 하나이며, 한국과 다른 나라의 수치는 관세 없는 기준선과 견준 편차로 각 논문이 쓴 대로 생산, GDP, 잠재 생산, 후생, 실질 수출의 %다"
+ },
+ "howToRead": {
+  "en": "Each row is one published model scenario, from the narrowest at the top to the broadest; read Korea's column down to see how its modelled loss grows as more countries raise barriers. The last row is a response scenario, so its figure is a gain.",
+  "ko": "행마다 발표된 모형 시나리오 하나로, 위가 가장 좁고 아래로 갈수록 넓어진다. 한국 열을 위에서 아래로 읽으면 장벽을 올리는 나라가 늘수록 모형 속 손실이 어떻게 커지는지 보인다. 마지막 행은 대응 시나리오여서 수치가 이득이다."
+ },
+ "notes": [
+  {
+   "en": "Every figure is a model's deviation from a no-tariff baseline for its own scenario and horizon; the models differ in class, shock size and horizon, and the rows must not be added, averaged or read as forecasts. 'Short run' and 'long run' are adjustment regimes, not calendar years.",
+   "ko": "모든 수치는 각 모형이 자기 시나리오와 시계에서 관세 없는 기준선과 견준 편차다. 모형들은 종류, 충격 크기, 시계가 달라 행을 더하거나 평균하거나 전망으로 읽어서는 안 된다. '단기'와 '장기'는 햇수가 아니라 조정 단계다."
+  },
+  {
+   "en": "No document models the reader's exact scenario (every country protectionist and favouring neighbours); the retaliation, bloc and friend-shoring rows are the nearest proxies. Korea's figures that exist only in charts (IMF 2025/147 real income, IMF 2023/270, BIS Quarterly Review annex, the World Bank study of the first trade war) are not shown.",
+   "ko": "질문의 시나리오(모든 나라가 보호무역으로 가고 이웃을 우대하는 세계)를 정확히 다룬 문헌은 없으며, 보복·블록·우방국 재편 행이 가장 가까운 대리다. 그래프에만 있는 한국 수치(IMF 2025/147 실질소득, IMF 2023/270, BIS 계간보고서 부록, 첫 무역전쟁을 다룬 세계은행 연구)는 싣지 않았다."
+  },
+  {
+   "en": "Left out: the IMF's regional medians (emerging Asia loses 80% more per head than advanced economies), a regional rather than a Korea figure; the 2019 IMF trade-war scenarios, which give no Korea number; and the BIS price results, which exist only in a reading note.",
+   "ko": "뺀 것: IMF의 지역 중앙값(신흥 아시아가 선진국보다 일인당 80% 더 잃는다)은 한국이 아니라 지역 수치이고, 2019년 IMF 무역전쟁 시나리오에는 한국 수치가 없으며, BIS의 가격 결과는 읽기 노트에만 있다."
+  }
+ ],
+ "alt": {
+  "en": "Table of seven model scenarios with Korea's figure, others' figures and the horizon. The 2025 US tariffs as of 25 August 2025 (BIS): Korea's output −0.34% short run and −0.32% long run; US −0.94%, Canada −1.45%, Mexico −1.37%. A bystander itself tariffed (ECB three-country model): not modelled for Korea; the euro area as a bystander gains +0.93% GDP on impact and +0.07% welfare in the long run, and once targeted loses −1.15% welfare on impact and −1.01% in the long run. A global trade war with full retaliation (ECB-Global): Emerging Asia not reported; US −1.8%, China −2.8%, euro area −0.85% GDP at the trough. Technology blocs (IMF): Korea's potential output −2.0% to −3.0% in the four bloc scenarios in which Korea loses (−2.3% tripolar with forced alignment; −2.9% in a China–OECD split even without it); +0.1% to +0.5% when the split is US–China or tripolar and Korea stays open to all hubs. Friend-shoring between China and the OECD (IMF): Korea close to −4% of GDP, the largest OECD loss; world −1.8%. Full reshoring (IMF): OECD regions −3.8% to −10.2%; world −4.5%. Integration response (IMF): Korea's real exports up to +15%; Japan, the EU and smaller East Asian economies +0.5% to +1.2% real income.",
+  "ko": "일곱 가지 모형 시나리오의 한국 수치, 다른 나라 수치, 시계를 정리한 표. 2025년 8월 25일 기준 미국 관세(BIS): 한국 생산 단기 −0.34%, 장기 −0.32%, 미국 −0.94%, 캐나다 −1.45%, 멕시코 −1.37%. 제삼국이 스스로 관세를 맞는 경우(ECB 세 나라 모형): 한국은 모형화되지 않았고, 유로 지역은 제삼국일 때 GDP 즉시 +0.93%, 후생 장기 +0.07%를 얻다가 표적이 되면 후생 즉시 −1.15%, 장기 −1.01%를 잃는다. 전면 보복의 세계 무역전쟁(ECB-Global): 신흥 아시아는 보고되지 않았고 저점에서 미국 −1.8%, 중국 −2.8%, 유로 지역 −0.85%. 기술 블록(IMF): 한국이 잃는 네 블록 시나리오에서 한국 잠재 생산 −2.0%에서 −3.0%(강제 정렬 세 블록은 −2.3%, 중국·OECD 분리는 강제 정렬 없이도 −2.9%), 미·중 또는 세 블록 분리에서 한국이 모든 축에 열려 있으면 +0.1%에서 +0.5%. 중국·OECD 우방국 재편(IMF): 한국 GDP −4% 가까이로 OECD 최대 손실, 세계 −1.8%. 전면 리쇼어링(IMF): OECD 지역 −3.8%에서 −10.2%, 세계 −4.5%. 통합 대응(IMF): 한국 실질 수출 최대 +15%, 일본·EU·동아시아 소규모 경제 실질소득 +0.5%에서 +1.2%."
+ },
+ "meta": {
+  "sources": [
+   "S13",
+   "S37",
+   "S38",
+   "S15",
+   "S17",
+   "S18"
+  ],
+  "provider": "Published model results: BIS, ECB, IMF",
+  "keys": [
+   "BIS WP 1316",
+   "ECB WP 3213",
+   "ECB WP 3117",
+   "IMF WP 2021/069",
+   "IMF WP 2024/122",
+   "IMF WP 2025/147"
+  ],
+  "definition": {
+   "en": "Each cell is the figure a paper reports for its own scenario and horizon: output, GDP, potential output, welfare or real exports as a percentage deviation from a baseline without the tariff change.",
+   "ko": "각 칸은 논문이 자기 시나리오와 시계에서 보고한 수치로, 관세 변화가 없는 기준선과 견준 생산, GDP, 잠재 생산, 후생, 실질 수출의 % 편차다."
+  },
+  "calculation": {
+   "en": "No calculation: the papers' published figures, quoted without rounding beyond their own.",
+   "ko": "계산 없음. 논문이 발표한 수치를 그대로 옮겼다."
+  },
+  "span": [
+   "2021",
+   "2026"
+  ],
+  "lastObservation": "2026-04",
+  "retrieved": "2026-10-20",
+  "licence": "Research papers quoted under their publishers' terms; figures are facts, not reproduced text",
+  "attribution": {
+   "en": "Sources: BIS, ECB and IMF working papers cited in the references",
+   "ko": "출처: 참고문헌의 BIS·ECB·IMF 연구 논문"
+  }
+ },
+ "table": {
+  "columns": [
+   {
+    "key": "scenario",
+    "label": {
+     "en": "Scenario and model",
+     "ko": "시나리오와 모형"
+    }
+   },
+   {
+    "key": "korea",
+    "label": {
+     "en": "Korea's figure",
+     "ko": "한국 수치"
+    }
+   },
+   {
+    "key": "others",
+    "label": {
+     "en": "Others, for scale",
+     "ko": "비교용 다른 나라"
+    }
+   },
+   {
+    "key": "horizon",
+    "label": {
+     "en": "Horizon and nature",
+     "ko": "시계와 성격"
+    }
+   }
+  ],
+  "rows": [
+   {
+    "scenario": {
+     "en": "2025 US tariffs as of 25 August 2025, Korea at 15% (BIS WP 1316, input-output trade model)",
+     "ko": "2025년 8월 25일 기준 미국 관세, 한국 15%(BIS WP 1316, 산업연관 무역 모형)"
+    },
+    "korea": {
+     "en": "Output −0.34% short run, −0.32% long run",
+     "ko": "생산 단기 −0.34%, 장기 −0.32%"
+    },
+    "others": {
+     "en": "US −0.94%; Canada −1.45%; Mexico −1.37%; China −0.18%; Japan −0.07%",
+     "ko": "미국 −0.94%, 캐나다 −1.45%, 멕시코 −1.37%, 중국 −0.18%, 일본 −0.07%"
+    },
+    "horizon": {
+     "en": "Static adjustment regimes; deviation from end-2024 tariffs",
+     "ko": "정태적 조정 단계, 2024년 말 관세와 견준 편차"
+    }
+   },
+   {
+    "scenario": {
+     "en": "A bystander itself tariffed: 10-point US tariff on euro-area goods (ECB WP 3213, three-country model)",
+     "ko": "제삼국이 스스로 관세를 맞는 경우: 유로 지역 상품에 미국 관세 10%포인트(ECB WP 3213, 세 나라 모형)"
+    },
+    "korea": {
+     "en": "Not modelled for Korea; the bystander's marginal welfare gain turns into a loss of about 1%",
+     "ko": "한국은 모형화 안 됨. 제삼국의 미미한 후생 이득이 약 1% 손실로 바뀜"
+    },
+    "others": {
+     "en": "Euro area as bystander: GDP +0.93% on impact, welfare +0.07% long run; once targeted, welfare −1.15% on impact, −1.01% long run",
+     "ko": "유로 지역은 제삼국일 때 GDP 즉시 +0.93%, 후생 장기 +0.07%. 표적이 되면 후생 즉시 −1.15%, 장기 −1.01%"
+    },
+    "horizon": {
+     "en": "Impact and long run; model simulation",
+     "ko": "충격 초기와 장기, 모형 모의"
+    }
+   },
+   {
+    "scenario": {
+     "en": "Global trade war with full retaliation by the EU, China and Canada (ECB WP 3117, ECB-Global)",
+     "ko": "EU·중국·캐나다의 전면 보복을 더한 세계 무역전쟁(ECB WP 3117, ECB-Global)"
+    },
+    "korea": {
+     "en": "Not reported for Emerging Asia; trade shifts towards the least-tariffed regions",
+     "ko": "신흥 아시아는 보고 안 됨. 무역은 관세가 가장 낮은 지역으로 이동"
+    },
+    "others": {
+     "en": "US −1.8%, China −2.8%, euro area −0.85% GDP at the trough",
+     "ko": "저점에서 미국 −1.8%, 중국 −2.8%, 유로 지역 GDP −0.85%"
+    },
+    "horizon": {
+     "en": "Trough over 2025–2030; model simulation",
+     "ko": "2025~2030년 저점, 모형 모의"
+    }
+   },
+   {
+    "scenario": {
+     "en": "Technology blocs, with or without forced alignment to one hub (IMF WP 2021/069, GIMF)",
+     "ko": "한 축에 강제로 줄을 서거나 서지 않는 기술 블록(IMF WP 2021/069, GIMF)"
+    },
+    "korea": {
+     "en": "Potential output −2.0% to −3.0% in the four bloc scenarios in which Korea loses (−2.3% tripolar with forced alignment; −2.9% in a China–OECD split even without it); +0.1% to +0.5% when the split is US–China or tripolar and Korea stays open to all hubs",
+     "ko": "잠재 생산 한국이 잃는 네 블록 시나리오에서 −2.0%에서 −3.0%(강제 정렬 세 블록은 −2.3%, 중국·OECD 분리는 강제 정렬 없이도 −2.9%), 미·중 또는 세 블록 분리에서 한국이 모든 축에 열려 있으면 +0.1%에서 +0.5%"
+    },
+    "others": {
+     "en": "Most countries lose; losses scale with fragmentation",
+     "ko": "대부분의 나라가 잃고 손실은 분절화 정도에 비례"
+    },
+    "horizon": {
+     "en": "Long-run steady state; hypothetical non-tariff barriers on high-tech trade",
+     "ko": "장기 균형, 첨단기술 무역의 가상 비관세 장벽"
+    }
+   },
+   {
+    "scenario": {
+     "en": "Friend-shoring between China and the OECD (IMF WP 2024/122, GIMF)",
+     "ko": "중국과 OECD의 우방국 중심 재편(IMF WP 2024/122, GIMF)"
+    },
+    "korea": {
+     "en": "GDP close to −4%, the largest loss of any OECD region",
+     "ko": "GDP −4% 가까이, OECD 지역 가운데 최대 손실"
+    },
+    "others": {
+     "en": "US about −1%; world −1.8%; rest of world −0.2% to −0.7%",
+     "ko": "미국 약 −1%, 세계 −1.8%, 그 밖의 지역 −0.2%에서 −0.7%"
+    },
+    "horizon": {
+     "en": "Long-run steady state; authors call the figures upper bounds",
+     "ko": "장기 균형, 저자들은 상한이라고 설명"
+    }
+   },
+   {
+    "scenario": {
+     "en": "Full reshoring by China and the OECD (IMF WP 2024/122, GIMF)",
+     "ko": "중국과 OECD의 전면 리쇼어링(IMF WP 2024/122, GIMF)"
+    },
+    "korea": {
+     "en": "OECD regions −3.8% to −10.2%, larger for open economies with China links such as Korea",
+     "ko": "OECD 지역 −3.8%에서 −10.2%, 한국처럼 중국과 연결된 개방 경제는 더 큼"
+    },
+    "others": {
+     "en": "World −4.5%",
+     "ko": "세계 −4.5%"
+    },
+    "horizon": {
+     "en": "Long-run steady state; authors call the figures upper bounds",
+     "ko": "장기 균형, 저자들은 상한이라고 설명"
+    }
+   },
+   {
+    "scenario": {
+     "en": "Integration response: RCEP deepening and an EU–CPTPP deal, US tariffs in place (IMF WP 2025/147, multi-country trade model)",
+     "ko": "통합 대응: RCEP 심화와 EU·CPTPP 협정, 미국 관세 유지(IMF WP 2025/147, 다국가 무역 모형)"
+    },
+    "korea": {
+     "en": "Real exports up to +15%, outweighing the exports lost to US tariffs",
+     "ko": "실질 수출 최대 +15%, 미국 관세로 잃은 수출을 넘어섬"
+    },
+    "others": {
+     "en": "Japan, the EU and smaller East Asian economies +0.5% to +1.2% real income; world +0.3%",
+     "ko": "일본·EU·동아시아 소규모 경제 실질소득 +0.5%에서 +1.2%, 세계 +0.3%"
+    },
+    "horizon": {
+     "en": "Long-run steady state; for the April 2025 package, later reduced",
+     "ko": "장기 균형, 뒤에 축소된 2025년 4월 관세 묶음 기준"
+    }
+   }
+  ]
+ },
+ "csv": "data/scenario-ladder.csv"
+}

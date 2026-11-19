@@ -1,0 +1,7 @@
+{
+  "name": "@glacier/i18n",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Glacier interface strings (EN / KO glossary) and Intl formatting with a typographic minus",
+  "exports": { ".": "./src/index.ts" }
+}

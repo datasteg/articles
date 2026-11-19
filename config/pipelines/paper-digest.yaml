@@ -1,0 +1,33 @@
+# Sample: one paper, read closely and summarised for general readers (Glacier's original newsletter template).
+id: paper-digest
+version: "0.3"
+status: sample
+name: {en: Paper digest, ko: 논문 요약}
+tagline: {en: "One new paper: what it asks, what it finds, why it matters", ko: "새 논문 한 편의 질문·결과·의의"}
+shape: {words: {en: "700–1,000 words", ko: "약 2,500–3,500자"}, figures: "1–2", gates: 2}
+template: guides/templates/paper-digest.md
+phases:
+  - {id: selection, label: {en: Selection, ko: 선정}}
+  - {id: research, label: {en: Reading, ko: 읽기}}
+  - {id: writing, label: {en: Writing, ko: 집필}}
+  - {id: review, label: {en: Review, ko: 검토}}
+  - {id: publish, label: {en: Publish, ko: 게시}}
+steps:
+  - {id: select, skill: select-paper, phase: selection, label: {en: Choose the paper, ko: 논문 선정},
+     detail: {en: "New in the archive, sound method, a finding readers can use", ko: "새로 들어온 논문 중 방법이 탄탄하고 쓸모 있는 결과"}}
+  - {id: gate-selection, gate: selection, phase: selection, label: {en: Editor approves the choice, ko: 편집자가 선정을 승인}}
+  - {id: read, skill: read-paper, phase: research, label: {en: Read closely, ko: 정독},
+     detail: {en: "Question, data, method, findings; every quote verified", ko: "질문, 데이터, 방법, 결과; 인용은 모두 원문 대조"}}
+  - {id: numbers, skill: analyze-data, phase: research, label: {en: The paper's numbers, ko: 논문의 수치},
+     detail: {en: "Facts from the paper's own verified figures", ko: "논문의 검증된 수치에서 사실을 만듭니다"}}
+  - {id: plan, skill: plan-article, phase: writing, label: {en: Plan, ko: 기획}}
+  - {id: draft, skill: draft-article, phase: writing, label: {en: Draft EN · KO, ko: 영문 · 국문 집필}}
+  - {id: charts, skill: make-charts, phase: writing, label: {en: Redraw the key figure, ko: 핵심 그림 재구성}}
+  - {id: review, skill: review-article, phase: review, loop: {owners: [analyze-data, draft-article, make-charts], max: 1},
+     label: {en: Review, ko: 검토}}
+  - {id: cover, skill: make-cover, phase: publish, label: {en: Cover image, ko: 표지 그림},
+     detail: {en: "A small picture of the subject for the article lists, drawn from the final text", ko: "최종 원고를 읽고 목록에 실릴 작은 그림을 그립니다."}}
+  - {id: pdf, skill: make-pdf, phase: publish, label: {en: PDF edition, ko: PDF판},
+     detail: {en: "Each edition as a journal-style PDF for download, checked page by page", ko: "언어판마다 내려받을 수 있는 학술지 형식의 PDF로 만들어 쪽마다 확인합니다."}}
+  - {id: gate-publish, gate: publish, phase: publish, label: {en: Editor approves the digest, ko: 편집자가 요약을 승인}}
+  - {id: publish, skill: publish-article, manual: true, phase: publish, label: {en: Publish, ko: 게시}}

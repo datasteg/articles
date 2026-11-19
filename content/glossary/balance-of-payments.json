@@ -1,0 +1,16 @@
+{
+ "id": "balance-of-payments",
+ "term": {
+  "en": "balance of payments",
+  "ko": "국제수지"
+ },
+ "definition": {
+  "en": "A country's record of all money crossing its borders: trade and income in the current account, and investment flows such as purchases of shares and bonds in the financial account.",
+  "ko": "한 나라의 국경을 오가는 모든 돈의 기록이다. 무역과 소득은 경상수지에, 주식·채권 매입 같은 투자 흐름은 금융계정에 담긴다."
+ },
+ "approvedBy": null,
+ "topics": [
+  "capital-flows",
+  "trade"
+ ]
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Video storyboard: the language-neutral plan both editions share (guides/video.md)",
+  "type": "object",
+  "required": [
+    "slug",
+    "parts",
+    "slides",
+    "beats"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string",
+      "description": "The article's answer in one English sentence, for the record"
+    },
+    "parts": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(open|answer|p[1-4]|limits|recap|end)$"
+          },
+          "kind": {
+            "enum": [
+              "open",
+              "answer",
+              "part",
+              "limits",
+              "recap",
+              "end"
+            ]
+          },
+          "section": {
+            "type": "string",
+            "description": "The article section id this part draws on"
+          },
+          "finding": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "The article finding (1-based) this part explains"
+          }
+        }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 28,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "template",
+          "part"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^s\\d{2}$"
+          },
+          "template": {
+            "enum": [
+              "question",
+              "answer",
+              "roadmap",
+              "number",
+              "figure",
+              "compare",
+              "findings",
+              "term",
+              "quote",
+              "read",
+              "end"
+            ]
+          },
+          "part": {
+            "type": "string"
+          },
+          "facts": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^F\\d+$"
+            }
+          },
+          "chart": {
+            "type": "string",
+            "description": "figure: the article chart id (charts/<id>.json)"
+          },
+          "term": {
+            "type": "string",
+            "description": "term: the glossary id"
+          },
+          "source": {
+            "type": "string",
+            "description": "quote: the sources.json id (S…)"
+          },
+          "steps": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4,
+            "description": "Build steps; step 1 is the slide as it first appears"
+          },
+          "builds": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "step"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "step": {
+                  "type": "integer",
+                  "minimum": 2
+                },
+                "highlight": {
+                  "type": "string",
+                  "description": "figure: a series, a period (2010-01/2012-12) or a point to emphasise"
+                },
+                "annotate": {
+                  "type": "string",
+                  "pattern": "^F\\d+$"
+                },
+                "show": {
+                  "type": "string",
+                  "description": "a series or an item revealed at this step"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "beats": {
+      "type": "array",
+      "minItems": 20,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "part",
+          "slide",
+          "role",
+          "says"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^b\\d{2,3}$"
+          },
+          "part": {
+            "type": "string"
+          },
+          "slide": {
+            "type": "string",
+            "pattern": "^s\\d{2}$"
+          },
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "The build step this beat starts on (default 1)"
+          },
+          "facts": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^F\\d+$"
+            }
+          },
+          "says": {
+            "type": "string",
+            "description": "What the beat says, in one English sentence: the content both editions put in their own words"
+          },
+          "role": {
+            "enum": [
+              "hook",
+              "example",
+              "point",
+              "evidence",
+              "wrap",
+              "quote",
+              "open",
+              "answer",
+              "limits",
+              "recap",
+              "end"
+            ],
+            "description": "The beat's job (guides/video.md § Chapters): a chapter runs hook, example, point, evidence, wrap"
+          }
+        }
+      }
+    }
+  }
+}

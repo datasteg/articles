@@ -1,0 +1,2590 @@
+{
+ "slug": "global-capital-flows-2026",
+ "type": "explainer",
+ "pipeline": {
+  "id": "explainer",
+  "version": "1.3"
+ },
+ "date": "2026-10-20",
+ "updated": "2026-11-03",
+ "editions": [
+  "en",
+  "ko"
+ ],
+ "topics": [
+  {
+   "id": "capital-flows",
+   "label": {
+    "en": "Capital flows",
+    "ko": "자본 흐름"
+   }
+  },
+  {
+   "id": "stock-markets",
+   "label": {
+    "en": "Stock markets",
+    "ko": "주식시장"
+   }
+  },
+  {
+   "id": "artificial-intelligence",
+   "label": {
+    "en": "Artificial intelligence",
+    "ko": "인공지능"
+   }
+  },
+  {
+   "id": "inequality",
+   "label": {
+    "en": "Wealth and inequality",
+    "ko": "자산과 불평등"
+   }
+  }
+ ],
+ "jel": [
+  "F32",
+  "F21",
+  "G15",
+  "F31",
+  "D31",
+  "E44"
+ ],
+ "countries": [
+  "US",
+  "EA",
+  "KR",
+  "TW"
+ ],
+ "readTime": {
+  "en": 12,
+  "ko": 14
+ },
+ "charts": [
+  "key-numbers",
+  "us-pile-price",
+  "us-ea-flows",
+  "us-asset-mix",
+  "korea-flows",
+  "who-owns"
+ ],
+ "cover": {
+  "file": "cover.svg",
+  "alt": {
+   "en": "A pipe feeds the dark bottom slab of a tall stack of five slabs; the four above are lighter. A short stack stands beside it.",
+   "ko": "파이프가 다섯 층으로 쌓인 더미의 짙은 맨 아래 층으로 이어지고, 위의 네 층은 밝은색이다. 옆에는 낮은 더미가 있다."
+  }
+ },
+ "facts": [
+  {
+   "id": "F1",
+   "value": 25.181614,
+   "unit": "USD tn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "value": 18.363623,
+   "unit": "USD tn",
+   "period": "2024-12",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "value": 9.026373,
+   "unit": "USD tn",
+   "period": "2019-12",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "value": 6.817991,
+   "unit": "USD tn",
+   "period": "2024-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "value": 1.349365,
+   "unit": "USD tn",
+   "period": "2025-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "value": 19.791241,
+   "unit": "%",
+   "period": "2024-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F7",
+   "value": 5.468626,
+   "unit": "USD tn",
+   "period": "2024-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F8",
+   "value": 16.155241,
+   "unit": "USD tn",
+   "period": "2019-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F9",
+   "value": 1.932329,
+   "unit": "USD tn",
+   "period": "2020-01/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F10",
+   "value": 11.961004,
+   "unit": "%",
+   "period": "2019-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F11",
+   "value": 14.222912,
+   "unit": "USD tn",
+   "period": "2019-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F12",
+   "value": "2026-08",
+   "unit": "month",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F13",
+   "value": 2.789782,
+   "unit": "times",
+   "period": "2019-12/2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F14",
+   "value": 21.196933,
+   "unit": "USD tn",
+   "period": "2026-03",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F15",
+   "value": 18.269574,
+   "unit": "EUR tn",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F16",
+   "value": 21.116555,
+   "unit": "USD tn",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F17",
+   "value": 1.155832,
+   "unit": "USD per EUR",
+   "period": "2026-03",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F18",
+   "value": 1.003806,
+   "unit": "times",
+   "period": "2026-Q1",
+   "publishable": false,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F19",
+   "value": 13.081616,
+   "unit": "EUR tn",
+   "period": "2019-Q4",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F20",
+   "value": 39.658393,
+   "unit": "%",
+   "period": "2019-Q4/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F21",
+   "value": 134.833338,
+   "unit": "%",
+   "period": "2019-12/2026-03",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYPOS99996"
+    }
+   ]
+  },
+  {
+   "id": "F22",
+   "value": 75.259956,
+   "unit": "% of GDP",
+   "period": "2026-Q2",
+   "publishable": false,
+   "sources": [
+    "S17"
+   ]
+  },
+  {
+   "id": "F23",
+   "value": 5.187959,
+   "unit": "EUR tn",
+   "period": "2019-Q4/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "id": "F24",
+   "value": 3.500859,
+   "unit": "EUR tn",
+   "period": "2020-Q1/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F25",
+   "value": 67.480482,
+   "unit": "%",
+   "period": "2019-Q4/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S2",
+    "S10"
+   ]
+  },
+  {
+   "id": "F26",
+   "value": 1.875851,
+   "unit": "USD tn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F27",
+   "value": "2026-08",
+   "unit": "month",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F28",
+   "value": 1.463542,
+   "unit": "USD tn",
+   "period": "2007-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F29",
+   "value": "2007-06",
+   "unit": "month",
+   "period": "2007-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F30",
+   "value": 1.28172,
+   "unit": "times",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F31",
+   "value": 1.780292,
+   "unit": "USD tn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F32",
+   "value": 1.009591,
+   "unit": "USD tn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F33",
+   "value": 53.820426,
+   "unit": "%",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F34",
+   "value": -146.885,
+   "unit": "USD bn",
+   "period": "2021",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F35",
+   "value": -48.975,
+   "unit": "USD bn",
+   "period": "2022",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F36",
+   "value": -66.059,
+   "unit": "USD bn",
+   "period": "2023",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F37",
+   "value": 920.665,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F38",
+   "value": "2026-08",
+   "unit": "month",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTEQTYNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F39",
+   "value": 282.542,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORTREASNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F40",
+   "value": 902.203,
+   "unit": "USD bn",
+   "period": "2024-10",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORTREASNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F41",
+   "value": "2024-10",
+   "unit": "month",
+   "period": "2024-10",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORTREASNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F42",
+   "value": 298.917,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORTREASNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F43",
+   "value": 464.136,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTCORPNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F44",
+   "value": 451.41,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTCORPNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F45",
+   "value": 437.708,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F46",
+   "value": 1.342584,
+   "unit": "USD tn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F47",
+   "value": 1.424787,
+   "unit": "USD tn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F48",
+   "value": "2026-08",
+   "unit": "month",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F49",
+   "value": 1.424787,
+   "unit": "USD tn",
+   "period": "2026-08",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F50",
+   "value": 1.211377,
+   "unit": "USD tn",
+   "period": "2023-11",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F51",
+   "value": 1.122764,
+   "unit": "EUR tn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F52",
+   "value": 1.308877,
+   "unit": "USD tn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "id": "F53",
+   "value": 367.1032,
+   "unit": "EUR bn",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F54",
+   "value": "2026-Q2",
+   "unit": "quarter",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F55",
+   "value": "2026-Q2",
+   "unit": "quarter",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F56",
+   "value": 643.7023,
+   "unit": "EUR bn",
+   "period": "2015-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F57",
+   "value": "2015-Q1",
+   "unit": "quarter",
+   "period": "2015-Q1",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F58",
+   "value": 231.6293,
+   "unit": "EUR bn",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F59",
+   "value": 63.096508,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F60",
+   "value": 624.1855,
+   "unit": "EUR bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F61",
+   "value": 498.5786,
+   "unit": "EUR bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F62",
+   "value": 55.593646,
+   "unit": "%",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F63",
+   "value": 820.0002,
+   "unit": "EUR bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F64",
+   "value": 302.7639,
+   "unit": "EUR bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F65",
+   "value": 352.149592,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "id": "F66",
+   "value": "2009-Q4",
+   "unit": "quarter",
+   "period": "2009-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F67",
+   "value": 317.8406,
+   "unit": "EUR bn",
+   "period": "2009-Q4",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F68",
+   "value": "2009-Q2",
+   "unit": "quarter",
+   "period": "2009-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F69",
+   "value": 347.2735,
+   "unit": "EUR bn",
+   "period": "2009-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F70",
+   "value": 175.9528,
+   "unit": "EUR bn",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "F71",
+   "value": 1.360168,
+   "unit": "times",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "id": "F72",
+   "value": 3.812539,
+   "unit": "times",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "id": "F73",
+   "value": -55.8177,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F74",
+   "value": -104.4228,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": true,
+   "sources": [
+    "S15"
+   ]
+  },
+  {
+   "id": "F75",
+   "value": 48.6051,
+   "unit": "USD bn",
+   "period": "2025-07/2026-06",
+   "publishable": true,
+   "sources": [
+    "S29"
+   ]
+  },
+  {
+   "id": "F76",
+   "value": -60.0868,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F77",
+   "value": -102.5145,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S15"
+   ]
+  },
+  {
+   "id": "F78",
+   "value": 42.4277,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S29"
+   ]
+  },
+  {
+   "id": "F79",
+   "value": -4.8477,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F80",
+   "value": "2026-06",
+   "unit": "month",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S15"
+   ]
+  },
+  {
+   "id": "F81",
+   "value": "2022-01",
+   "unit": "month",
+   "period": "2022-01",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F82",
+   "value": 65.9331,
+   "unit": "USD bn",
+   "period": "2022-01",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F83",
+   "value": 119.52,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F84",
+   "value": 86.82,
+   "unit": "index",
+   "period": "2022-07",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F85",
+   "value": "2022-07",
+   "unit": "month",
+   "period": "2022-07",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F86",
+   "value": 37.664133,
+   "unit": "%",
+   "period": "2022-07/2026-09",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F87",
+   "value": "2007-02",
+   "unit": "month",
+   "period": "2007-02",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F88",
+   "value": 6838.04,
+   "unit": "index",
+   "period": "2026-09-30",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0001000"
+    }
+   ]
+  },
+  {
+   "id": "F89",
+   "value": 2399.49,
+   "unit": "index",
+   "period": "2024-12-30",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0001000"
+    }
+   ]
+  },
+  {
+   "id": "F90",
+   "value": 184.978891,
+   "unit": "%",
+   "period": "2024-12-30/2026-09-30",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0001000"
+    }
+   ]
+  },
+  {
+   "id": "F91",
+   "value": -195.2958,
+   "unit": "KRW tn",
+   "period": "2025-01/2026-09",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F92",
+   "value": -141.8998,
+   "unit": "KRW tn",
+   "period": "2025-07/2026-06",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "Bank of Korea, ECOS",
+     "key": "802Y001/D/0030000"
+    }
+   ]
+  },
+  {
+   "id": "F93",
+   "value": 4.99,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F94",
+   "value": "2007-07",
+   "unit": "month",
+   "period": "2007-07",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F95",
+   "value": 3.473,
+   "unit": "%",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S26"
+   ]
+  },
+  {
+   "id": "F96",
+   "value": 151.7,
+   "unit": "bp",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S11",
+    "S26"
+   ]
+  },
+  {
+   "id": "F97",
+   "value": 221.2,
+   "unit": "bp",
+   "period": "2024-12",
+   "publishable": true,
+   "sources": [
+    "S11",
+    "S26"
+   ]
+  },
+  {
+   "id": "F98",
+   "value": 0.6,
+   "unit": "pp",
+   "period": "2024-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F99",
+   "value": 1.295,
+   "unit": "pp",
+   "period": "2024-12/2026-09",
+   "publishable": true,
+   "sources": [
+    "S26"
+   ]
+  },
+  {
+   "id": "F100",
+   "value": 4.1,
+   "unit": "%",
+   "period": "2024-10",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F101",
+   "value": 119.2152,
+   "unit": "index",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F102",
+   "value": "2025-01",
+   "unit": "month",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F103",
+   "value": 128.837,
+   "unit": "index",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F104",
+   "value": 7.468196,
+   "unit": "%",
+   "period": "2025-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S25"
+   ]
+  },
+  {
+   "id": "F105",
+   "value": "2025-01",
+   "unit": "month",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "DTWEXEMEGS"
+    }
+   ]
+  },
+  {
+   "id": "F106",
+   "value": 7.889981,
+   "unit": "%",
+   "period": "2025-01/2026-09",
+   "publishable": true,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "DTWEXEMEGS"
+    }
+   ]
+  },
+  {
+   "id": "F107",
+   "value": 1.151323,
+   "unit": "USD per EUR",
+   "period": "2026-09",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F108",
+   "value": 1.035373,
+   "unit": "USD per EUR",
+   "period": "2025-01",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F109",
+   "value": 11.198866,
+   "unit": "%",
+   "period": "2025-01/2026-09",
+   "publishable": true,
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "id": "F110",
+   "value": 5.053842,
+   "unit": "% of GDP",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S17"
+   ]
+  },
+  {
+   "id": "F111",
+   "value": 4.460602,
+   "unit": "% of GDP",
+   "period": "2000-Q4",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S17"
+   ]
+  },
+  {
+   "id": "F112",
+   "value": "2000-Q4",
+   "unit": "quarter",
+   "period": "2000-Q4",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S17"
+   ]
+  },
+  {
+   "id": "F113",
+   "value": "2026-Q2",
+   "unit": "quarter",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S24",
+    "S17"
+   ]
+  },
+  {
+   "id": "F114",
+   "value": 50.9,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F115",
+   "value": 37.2,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S32"
+   ]
+  },
+  {
+   "id": "F116",
+   "value": 11.4,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S36"
+   ]
+  },
+  {
+   "id": "F117",
+   "value": 0.6,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F118",
+   "value": 88.1,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S14",
+    "S32"
+   ]
+  },
+  {
+   "id": "F119",
+   "value": 52.0,
+   "unit": "%",
+   "period": "2019-Q4",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F120",
+   "value": -1.1,
+   "unit": "pp",
+   "period": "2019-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F121",
+   "value": 52.3,
+   "unit": "%",
+   "period": "2019-Q1",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F122",
+   "value": "2019-Q1",
+   "unit": "quarter",
+   "period": "2019-Q1",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F123",
+   "value": 0.6,
+   "unit": "%",
+   "period": "2019-Q4",
+   "publishable": true,
+   "sources": [
+    "S33"
+   ]
+  },
+  {
+   "id": "F124",
+   "value": 84.833333,
+   "unit": "times",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S14",
+    "S33"
+   ]
+  },
+  {
+   "id": "F125",
+   "value": "2023-11",
+   "unit": "month",
+   "period": "2023-11",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    },
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "USLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F126",
+   "value": -104.4228,
+   "unit": "USD bn",
+   "period": "2026-06",
+   "publishable": true,
+   "sources": [
+    "S15"
+   ]
+  },
+  {
+   "id": "F127",
+   "value": 125.48,
+   "unit": "index",
+   "period": "2007-02",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F128",
+   "value": 1.100244,
+   "unit": "USD tn",
+   "period": "2011-09",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F129",
+   "value": "2011-09",
+   "unit": "month",
+   "period": "2011-09",
+   "publishable": false,
+   "sources": [],
+   "series": [
+    {
+     "provider": "FRED, Federal Reserve Bank of St. Louis",
+     "key": "FORLTTOTALNET99996"
+    }
+   ]
+  },
+  {
+   "id": "F130",
+   "value": "2026-08",
+   "unit": "month",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F131",
+   "value": -60.0868,
+   "unit": "USD bn",
+   "period": "2026-08",
+   "publishable": true,
+   "sources": [
+    "S30"
+   ]
+  },
+  {
+   "id": "F132",
+   "value": 80.377951,
+   "unit": "USD bn",
+   "period": "2026-Q1",
+   "publishable": false,
+   "sources": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F133",
+   "value": 24.664208,
+   "unit": "USD tn",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F134",
+   "value": 18.569277,
+   "unit": "USD tn",
+   "period": "2024-Q4",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F135",
+   "value": 9.296241,
+   "unit": "USD tn",
+   "period": "2019-Q4",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F136",
+   "value": 6.094931,
+   "unit": "USD tn",
+   "period": "2024-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F137",
+   "value": 1.200399,
+   "unit": "USD tn",
+   "period": "2025-Q1/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F138",
+   "value": 19.695038,
+   "unit": "%",
+   "period": "2024-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "id": "F139",
+   "value": 4.894532,
+   "unit": "USD tn",
+   "period": "2024-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "id": "F140",
+   "value": 15.367967,
+   "unit": "USD tn",
+   "period": "2019-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F141",
+   "value": 2.190284,
+   "unit": "USD tn",
+   "period": "2020-Q1/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F142",
+   "value": 14.252269,
+   "unit": "%",
+   "period": "2019-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "id": "F143",
+   "value": 13.177683,
+   "unit": "USD tn",
+   "period": "2019-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "id": "F144",
+   "value": "2026-Q2",
+   "unit": "quarter",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F145",
+   "value": 2.653138,
+   "unit": "times",
+   "period": "2019-Q4/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F146",
+   "value": 21.172622,
+   "unit": "USD tn",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F147",
+   "value": 1.002655,
+   "unit": "times",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F148",
+   "value": 56.066951,
+   "unit": "USD bn",
+   "period": "2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "F149",
+   "value": 127.754659,
+   "unit": "%",
+   "period": "2019-Q4/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F150",
+   "value": 75.742976,
+   "unit": "% of GDP",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S17"
+   ]
+  },
+  {
+   "id": "F151",
+   "value": 11.876381,
+   "unit": "USD tn",
+   "period": "2019-Q4/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "id": "F152",
+   "value": 1.764662,
+   "unit": "USD tn",
+   "period": "2020-Q1/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F153",
+   "value": 14.858584,
+   "unit": "%",
+   "period": "2019-Q4/2026-Q1",
+   "publishable": true,
+   "sources": [
+    "S1",
+    "S4"
+   ]
+  },
+  {
+   "id": "F154",
+   "value": 1.785058,
+   "unit": "USD tn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F155",
+   "value": "2026-Q2",
+   "unit": "quarter",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F156",
+   "value": 1.3034,
+   "unit": "USD tn",
+   "period": "2021-Q1",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F157",
+   "value": "2021-Q1",
+   "unit": "quarter",
+   "period": "2021-Q1",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F158",
+   "value": 1.36954,
+   "unit": "times",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F159",
+   "value": 923.046,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F160",
+   "value": 51.70958,
+   "unit": "%",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F161",
+   "value": -53.068,
+   "unit": "USD bn",
+   "period": "2021",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F162",
+   "value": 2.586,
+   "unit": "USD bn",
+   "period": "2022",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F163",
+   "value": 45.459,
+   "unit": "USD bn",
+   "period": "2023",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F164",
+   "value": "2026-Q2",
+   "unit": "quarter",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F165",
+   "value": 923.046,
+   "unit": "USD bn",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "F166",
+   "value": 293.76,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F167",
+   "value": 744.865,
+   "unit": "USD bn",
+   "period": "2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F168",
+   "value": "2025-Q1",
+   "unit": "quarter",
+   "period": "2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "id": "F169",
+   "value": 443.265,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S6"
+   ]
+  },
+  {
+   "id": "F170",
+   "value": 124.987,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "F171",
+   "value": 461.771,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F172",
+   "value": 130.783,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S8"
+   ]
+  },
+  {
+   "id": "F173",
+   "value": 330.988,
+   "unit": "USD bn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S9"
+   ]
+  },
+  {
+   "id": "F174",
+   "value": 1.323287,
+   "unit": "USD tn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F175",
+   "value": "2025-Q2",
+   "unit": "quarter",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F176",
+   "value": 1.491505,
+   "unit": "USD tn",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F177",
+   "value": 1.173437,
+   "unit": "USD tn",
+   "period": "2023-Q3",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F178",
+   "value": "2023-Q3",
+   "unit": "quarter",
+   "period": "2023-Q3",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F179",
+   "value": "2025-Q4",
+   "unit": "quarter",
+   "period": "2025-Q4",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9"
+   ]
+  },
+  {
+   "id": "F180",
+   "value": 1.363809,
+   "unit": "times",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "id": "F181",
+   "value": 3.757741,
+   "unit": "times",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6",
+    "S8",
+    "S9",
+    "S10",
+    "S3"
+   ]
+  },
+  {
+   "id": "F182",
+   "value": 4.453333,
+   "unit": "%",
+   "period": "2025-Q1",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F183",
+   "value": 4.423333,
+   "unit": "%",
+   "period": "2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F184",
+   "value": 16.456608,
+   "unit": "%",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F185",
+   "value": 1.760373,
+   "unit": "USD tn",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F186",
+   "value": "2025-Q2",
+   "unit": "quarter",
+   "period": "2025-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F187",
+   "value": 1.40226,
+   "unit": "%",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  },
+  {
+   "id": "F188",
+   "value": "2007-09",
+   "unit": "month",
+   "period": "2007-09",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F189",
+   "value": 119.59,
+   "unit": "index",
+   "period": "2007-09",
+   "publishable": true,
+   "sources": [
+    "S28"
+   ]
+  },
+  {
+   "id": "F190",
+   "value": 49.3,
+   "unit": "%",
+   "period": "2022-Q3",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F191",
+   "value": "2022-Q3",
+   "unit": "quarter",
+   "period": "2022-Q3",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F192",
+   "value": 1.6,
+   "unit": "pp",
+   "period": "2022-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F193",
+   "value": 0,
+   "unit": "quarters",
+   "period": "2022-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S14"
+   ]
+  },
+  {
+   "id": "F194",
+   "value": 4.281667,
+   "unit": "%",
+   "period": "2024-04/2025-03",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F195",
+   "value": 4.243333,
+   "unit": "%",
+   "period": "2025-07/2026-06",
+   "publishable": true,
+   "sources": [
+    "S11"
+   ]
+  },
+  {
+   "id": "F196",
+   "value": 1.785058,
+   "unit": "USD tn",
+   "period": "2025-Q3/2026-Q2",
+   "publishable": true,
+   "sources": [
+    "S4",
+    "S5",
+    "S7",
+    "S6"
+   ]
+  }
+ ],
+ "run": {
+  "id": "20261020-global-capital",
+  "skills": {
+   "frame-question": "0.1.0",
+   "scout:fetch-public-data": "0.1.0",
+   "scout:search-jejualps": "0.1.0",
+   "scout:fetch-fred": "0.1.0",
+   "refine-question": "0.1.0",
+   "search-jejualps": "0.1.0",
+   "map-literature": "0.1.0",
+   "fetch-ecos": "0.1.0",
+   "fetch-public-data": "0.1.0",
+   "fetch-fred": "0.1.0",
+   "analyze-data": "0.1.0",
+   "plan-article": "0.1.0",
+   "draft-article": "0.1.0",
+   "make-charts": "0.1.0",
+   "review-article": "0.2.0",
+   "make-cover": "1.0.0",
+   "publish-article": null,
+   "make-pdf": "1.0.0"
+  },
+  "models": [
+   "claude-opus-5-5",
+   "claude-sonnet-5-5"
+  ],
+  "runtime": {
+   "model": "claude-opus-5-5",
+   "effort": "high"
+  },
+  "steps": {
+   "scout": {
+    "docs": 25,
+    "series": 17
+   },
+   "refine": {
+    "premises": 10
+   },
+   "search": {
+    "docs": 14,
+    "quotes": 60
+   },
+   "map": {
+    "mechanisms": 8
+   },
+   "fetch": {
+    "series": 36,
+    "providers": [
+     "ECB",
+     "Bank of Korea",
+     "Eurostat",
+     "FRED"
+    ]
+   },
+   "analyze": {
+    "facts": 196
+   },
+   "plan": {
+    "sections": 11,
+    "figures": 6
+   },
+   "draft": {
+    "words": 2299
+   },
+   "charts": {
+    "charts": 6
+   },
+   "review": {
+    "rounds": 12
+   },
+   "cover": {
+    "ideas": 3
+   },
+   "pdf": {
+    "pages": {
+     "en": 11,
+     "ko": 10
+    }
+   }
+  },
+  "gates": {
+   "question": {
+    "at": "2026-10-20",
+    "by": "datasteg desk (autonomous agent)"
+   },
+   "plan": {
+    "at": "2026-10-20",
+    "by": "datasteg desk (autonomous agent)"
+   },
+   "publish": {
+    "at": "2026-10-20",
+    "by": "datasteg desk (autonomous agent)"
+   }
+  }
+ },
+ "terms": [
+  {
+   "id": "net-purchases",
+   "context": null
+  },
+  {
+   "id": "valuation-effect",
+   "context": null
+  },
+  {
+   "id": "gross-and-net-flows",
+   "context": null
+  },
+  {
+   "id": "portfolio-investment",
+   "context": null
+  },
+  {
+   "id": "net-international-investment-position",
+   "context": null
+  },
+  {
+   "id": "currency-hedging",
+   "context": null
+  },
+  {
+   "id": "terms-of-trade",
+   "context": null
+  },
+  {
+   "id": "magnificent-7",
+   "context": null
+  },
+  {
+   "id": "global-financial-cycle",
+   "context": null
+  },
+  {
+   "id": "basis-point",
+   "context": null
+  }
+ ],
+ "review": {
+  "editor": "datasteg desk (autonomous agent)",
+  "approved": "2026-10-20"
+ },
+ "citation": {
+  "author": {
+   "en": "datasteg",
+   "ko": "datasteg"
+  },
+  "publisher": {
+   "en": "datasteg articles",
+   "ko": "datasteg articles"
+  },
+  "date": "2026-10-20",
+  "title": {
+   "en": "Foreigners poured money into US stocks, yet buying built little of the rise in their pile",
+   "ko": "외국인 미국 주식 대거 매수, 보유액 증가에선 새 돈 몫 작아"
+  },
+  "url": {
+   "en": "https://articles.datasteg.com/en/a/global-capital-flows-2026",
+   "ko": "https://articles.datasteg.com/ko/a/global-capital-flows-2026"
+  }
+ },
+ "pdf": {
+  "en": {
+   "file": "pdf/en.pdf",
+   "pages": 11,
+   "bytes": 388187,
+   "made": "2026-11-03",
+   "source": "dec2c6679137a447"
+  },
+  "ko": {
+   "file": "pdf/ko.pdf",
+   "pages": 10,
+   "bytes": 710985,
+   "made": "2026-11-03",
+   "source": "a0e14ef565a3cd31"
+  }
+ },
+ "corrections": [],
+ "draws_on": [
+  "open-research"
+ ],
+ "draws_on_evidence": {
+  "open-research": 13
+ },
+ "fetch": {
+  "ecb": {
+   "series": 3,
+   "rows": 553,
+   "bytes": 10229
+  },
+  "ecos": {
+   "series": 6,
+   "rows": 2303,
+   "bytes": 39665
+  },
+  "eurostat": {
+   "series": 5,
+   "rows": 390,
+   "bytes": 6666
+  },
+  "fred": {
+   "series": 22,
+   "rows": 4649,
+   "bytes": 87396
+  }
+ }
+}

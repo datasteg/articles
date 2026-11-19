@@ -1,0 +1,35 @@
+[
+ {
+  "ref": "jejualps:46659",
+  "title": "Understanding Asian equity flows, market returns and exchange rates",
+  "institution": "BIS Working Papers 245 (Chai-Anant and Ho)",
+  "date": "2008-02-04",
+  "url": "https://www.bis.org/publ/work245.htm",
+  "why": {
+   "en": "For readers who want more on foreign selling and the won: daily Korean data on how foreign investors' buying and selling followed returns and moved the currency.",
+   "ko": "외국인 매도와 원화의 관계를 더 알고 싶은 독자를 위해, 외국인 순매수가 수익률을 어떻게 따라가고 원화를 어떻게 움직였는지 한국의 일별 자료로 분석한다."
+  }
+ },
+ {
+  "ref": "jejualps:110936",
+  "title": "Efficiency and the Bear: Short Sales and Markets around the World",
+  "institution": "NBER Working Paper 9466 (Bris, Goetzmann and Zhu)",
+  "date": "2003-02-01",
+  "url": "https://www.nber.org/papers/w9466",
+  "why": {
+   "en": "The cross-country view on short-selling limits, which Korea has used repeatedly: 47 markets compared on how restrictions change the way prices behave.",
+   "ko": "한국이 여러 차례 시행한 공매도 제한을 국가 간 비교로 본다. 47개 시장에서 공매도 제한이 가격 움직임을 어떻게 바꾸는지 살핀다."
+  }
+ },
+ {
+  "ref": "jejualps:101757",
+  "title": "How Crashes Develop: Intradaily Volatility and Crash Evolution",
+  "institution": "NBER Working Paper 22028 (Bates)",
+  "date": "2016-02-01",
+  "url": "https://www.nber.org/papers/w22028",
+  "why": {
+   "en": "For readers building the model: a technical template for 'self-exciting' volatility jumps, tested on whether it can capture crashes such as 1987.",
+   "ko": "모형을 직접 만들려는 독자를 위해, 변동성 급등이 스스로 더 큰 급등을 부르는 모형이 1987년 같은 폭락을 잡아낼 수 있는지 시험한 기술적 참고 자료다."
+  }
+ }
+]

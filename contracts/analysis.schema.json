@@ -1,0 +1,87 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "analysis",
+ "type": "object",
+ "properties": {
+  "facts": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^F[0-9]+$"
+     },
+     "label": {
+      "type": "string",
+      "minLength": 1
+     },
+     "value": {
+      "type": [
+       "number",
+       "string"
+      ]
+     },
+     "unit": {
+      "type": "string",
+      "minLength": 1
+     },
+     "display": {
+      "type": "object"
+     },
+     "period": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "formula": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "inputs": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 0
+     },
+     "publishable": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "id",
+     "label",
+     "value",
+     "unit",
+     "inputs",
+     "publishable"
+    ],
+    "additionalProperties": true
+   },
+   "minItems": 1
+  },
+  "scorecard": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  },
+  "derived": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   },
+   "minItems": 0
+  }
+ },
+ "required": [
+  "facts"
+ ],
+ "additionalProperties": true
+}

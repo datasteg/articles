@@ -1,0 +1,889 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "Long-term interest rate for convergence purposes - Euro (AT, BE, DE, ES, FI, FR, GR, IE, IT, NL, PT)",
+  "institution": "ECB Data Portal",
+  "date": "2026-10-19",
+  "url": "https://data.ecb.europa.eu/data/datasets/IRS/IRS.M.FR.L.L40.CI.0000.EUR.N.Z",
+  "dataset": {
+   "provider": "ECB Data Portal",
+   "key": [
+    "IRS.M.FR.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.DE.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.IT.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.ES.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.PT.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.GR.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.BE.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.NL.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.AT.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.FI.L.L40.CI.0000.EUR.N.Z",
+    "IRS.M.IE.L.L40.CI.0000.EUR.N.Z"
+   ],
+   "unit": "% per year",
+   "frequency": "M",
+   "lastObservation": "2026-09",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: ECB Data Portal",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens IRS.M.FR.L.L40.CI.0000.EUR.N.Z in the ECB Data Portal. The other series (IRS.M.DE.L.L40.CI.0000.EUR.N.Z, IRS.M.IT.L.L40.CI.0000.EUR.N.Z, IRS.M.ES.L.L40.CI.0000.EUR.N.Z, IRS.M.PT.L.L40.CI.0000.EUR.N.Z, IRS.M.GR.L.L40.CI.0000.EUR.N.Z, IRS.M.BE.L.L40.CI.0000.EUR.N.Z, IRS.M.NL.L.L40.CI.0000.EUR.N.Z, IRS.M.AT.L.L40.CI.0000.EUR.N.Z, IRS.M.FI.L.L40.CI.0000.EUR.N.Z, IRS.M.IE.L.L40.CI.0000.EUR.N.Z) are in the same dataset IRS: replace the series key at the end of the link, or type the key in the portal's search box.",
+    "ko": "링크는 ECB 데이터 포털의 IRS.M.FR.L.L40.CI.0000.EUR.N.Z를 연다. 나머지 시리즈(IRS.M.DE.L.L40.CI.0000.EUR.N.Z, IRS.M.IT.L.L40.CI.0000.EUR.N.Z, IRS.M.ES.L.L40.CI.0000.EUR.N.Z, IRS.M.PT.L.L40.CI.0000.EUR.N.Z, IRS.M.GR.L.L40.CI.0000.EUR.N.Z, IRS.M.BE.L.L40.CI.0000.EUR.N.Z, IRS.M.NL.L.L40.CI.0000.EUR.N.Z, IRS.M.AT.L.L40.CI.0000.EUR.N.Z, IRS.M.FI.L.L40.CI.0000.EUR.N.Z, IRS.M.IE.L.L40.CI.0000.EUR.N.Z)도 같은 데이터셋 IRS에 있다. 링크 끝의 시리즈 키를 바꾸거나 포털 검색창에 키를 입력하면 된다."
+   }
+  },
+  "usedFor": {
+   "en": "France's 10-year government bond yield, monthly averages, from which its spread over Germany is computed",
+   "ko": "프랑스 10년물 국채 금리 월평균, 독일 대비 가산금리 계산의 바탕"
+  },
+  "cite": {
+   "en": "ECB Data Portal. Long-term interest rate for convergence purposes - Euro (AT, BE, DE, ES, FI, FR, GR, IE, IT, NL, PT). IRS.M.FR.L.L40.CI.0000.EUR.N.Z, IRS.M.DE.L.L40.CI.0000.EUR.N.Z, IRS.M.IT.L.L40.CI.0000.EUR.N.Z, IRS.M.ES.L.L40.CI.0000.EUR.N.Z, IRS.M.PT.L.L40.CI.0000.EUR.N.Z, IRS.M.GR.L.L40.CI.0000.EUR.N.Z, IRS.M.BE.L.L40.CI.0000.EUR.N.Z, IRS.M.NL.L.L40.CI.0000.EUR.N.Z, IRS.M.AT.L.L40.CI.0000.EUR.N.Z, IRS.M.FI.L.L40.CI.0000.EUR.N.Z, IRS.M.IE.L.L40.CI.0000.EUR.N.Z. Retrieved 19 Oct 2026.",
+   "ko": "ECB Data Portal. Long-term interest rate for convergence purposes - Euro (AT, BE, DE, ES, FI, FR, GR, IE, IT, NL, PT). IRS.M.FR.L.L40.CI.0000.EUR.N.Z, IRS.M.DE.L.L40.CI.0000.EUR.N.Z, IRS.M.IT.L.L40.CI.0000.EUR.N.Z, IRS.M.ES.L.L40.CI.0000.EUR.N.Z, IRS.M.PT.L.L40.CI.0000.EUR.N.Z, IRS.M.GR.L.L40.CI.0000.EUR.N.Z, IRS.M.BE.L.L40.CI.0000.EUR.N.Z, IRS.M.NL.L.L40.CI.0000.EUR.N.Z, IRS.M.AT.L.L40.CI.0000.EUR.N.Z, IRS.M.FI.L.L40.CI.0000.EUR.N.Z, IRS.M.IE.L.L40.CI.0000.EUR.N.Z. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "now",
+   "france-alone",
+   "global",
+   "then-and-now",
+   "defences",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "US 10-year Treasury yield, monthly average",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/GS10",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "GS10",
+   "unit": "Percent",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: frb, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series GS10 directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 GS10 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the US 10-year Treasury yield, monthly averages",
+   "ko": "미국 10년물 국채 금리 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury yield, monthly average. GS10. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. US 10-year Treasury yield, monthly average. GS10. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "global"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "UK 10-year government bond yield, monthly (OECD)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/IRLTLT01GBM156N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IRLTLT01GBM156N",
+   "unit": "Percent",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IRLTLT01GBM156N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IRLTLT01GBM156N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "the UK 10-year government bond yield, monthly",
+   "ko": "영국 10년물 국채 금리 월별 자료"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. UK 10-year government bond yield, monthly (OECD). IRLTLT01GBM156N. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. UK 10-year government bond yield, monthly (OECD). IRLTLT01GBM156N. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "global"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "Japan 10-year government bond yield, monthly (OECD)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/IRLTLT01JPM156N",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "IRLTLT01JPM156N",
+   "unit": "Percent",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: oecd, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series IRLTLT01JPM156N directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 IRLTLT01JPM156N 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "Japan's 10-year government bond yield, monthly",
+   "ko": "일본 10년물 국채 금리 월별 자료"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. Japan 10-year government bond yield, monthly (OECD). IRLTLT01JPM156N. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. Japan 10-year government bond yield, monthly (OECD). IRLTLT01JPM156N. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "global"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "CBOE Volatility Index: VIX (US)",
+  "institution": "FRED, Federal Reserve Bank of St. Louis",
+  "date": "2026-10-19",
+  "url": "https://fred.stlouisfed.org/series/VIXCLS",
+  "dataset": {
+   "provider": "FRED, Federal Reserve Bank of St. Louis",
+   "key": "VIXCLS",
+   "unit": "Index",
+   "frequency": "M",
+   "lastObservation": "2026-09-01",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: cboe, via FRED, Federal Reserve Bank of St. Louis",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the FRED series VIXCLS directly. Use “Edit Graph” to change the dates or units, and “Download” for the data.",
+    "ko": "링크를 누르면 FRED의 VIXCLS 시리즈가 바로 열린다. ‘Edit Graph’로 기간과 단위를 바꾸고, ‘Download’로 자료를 내려받을 수 있다."
+   }
+  },
+  "usedFor": {
+   "en": "monthly averages of the VIX, a gauge of expected swings in US shares, since 2007",
+   "ko": "미국 주가의 예상 변동폭을 나타내는 VIX의 2007년 이후 월평균"
+  },
+  "cite": {
+   "en": "FRED, Federal Reserve Bank of St. Louis. CBOE Volatility Index: VIX (US). VIXCLS. Retrieved 19 Oct 2026.",
+   "ko": "FRED, Federal Reserve Bank of St. Louis. CBOE Volatility Index: VIX (US). VIXCLS. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "global",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "Real GDP growth, % change on previous year (chain-linked volumes) (DE, ES, FR, GR, IT, PT)",
+  "institution": "Eurostat",
+  "date": "2026-10-19",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table",
+  "dataset": {
+   "provider": "Eurostat",
+   "key": [
+    "nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=FR",
+    "nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=IT",
+    "nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=ES",
+    "nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=PT",
+    "nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=EL",
+    "nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=DE"
+   ],
+   "unit": "Chain linked volumes, percentage change on previous period",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Eurostat",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens dataset nama_10_gdp in Eurostat's Data Browser. Use the filters above the table (“Customise your dataset”) to select Chain linked volumes, percentage change on previous period; Gross domestic product at market prices; in codes: na_item = B1GQ; unit = CLV_PCH_PRE; freq = A; geo = FR, IT, ES, PT, EL, DE.",
+    "ko": "링크는 Eurostat 데이터 브라우저의 데이터셋 nama_10_gdp를 연다. 표 위의 필터(‘Customise your dataset’)에서 다음을 고른다: Chain linked volumes, percentage change on previous period; Gross domestic product at market prices. 코드로는 na_item = B1GQ; unit = CLV_PCH_PRE; freq = A; geo = FR, IT, ES, PT, EL, DE이다."
+   }
+  },
+  "usedFor": {
+   "en": "France's real GDP growth in 2025",
+   "ko": "2025년 프랑스의 실질 GDP 성장률"
+  },
+  "cite": {
+   "en": "Eurostat. Real GDP growth, % change on previous year (chain-linked volumes) (DE, ES, FR, GR, IT, PT). nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=FR, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=IT, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=ES, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=PT, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=EL, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=DE. Retrieved 19 Oct 2026.",
+   "ko": "Eurostat. Real GDP growth, % change on previous year (chain-linked volumes) (DE, ES, FR, GR, IT, PT). nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=FR, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=IT, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=ES, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=PT, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=EL, nama_10_gdp?na_item=B1GQ&unit=CLV_PCH_PRE&freq=A&geo=DE. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "then-and-now"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "dataset",
+  "title": "Government deficit/surplus, debt and associated data (DE, ES, FR, GR, IT, PT)",
+  "institution": "Eurostat",
+  "date": "2026-10-19",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table",
+  "dataset": {
+   "provider": "Eurostat",
+   "key": [
+    "gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=FR",
+    "gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=FR",
+    "gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=IT",
+    "gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=PT",
+    "gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=FR",
+    "gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=DE",
+    "gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=IT",
+    "gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=ES",
+    "gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=PT",
+    "gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=EL",
+    "gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=ES",
+    "gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=IT",
+    "gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=EL",
+    "gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=EL",
+    "gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=DE",
+    "gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=ES",
+    "gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=PT",
+    "gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=DE"
+   ],
+   "unit": "Percentage of gross domestic product (GDP)",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Eurostat",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens dataset gov_10dd_edpt1 in Eurostat's Data Browser. Use the filters above the table (“Customise your dataset”) to select the series; in codes: na_item = D41PAY, GD, B9; sector = S13; unit = PC_GDP; freq = A; geo = FR, IT, PT, DE, ES, EL.",
+    "ko": "링크는 Eurostat 데이터 브라우저의 데이터셋 gov_10dd_edpt1를 연다. 표 위의 필터(‘Customise your dataset’)에서 해당 시리즈를 고른다. 코드로는 na_item = D41PAY, GD, B9; sector = S13; unit = PC_GDP; freq = A; geo = FR, IT, PT, DE, ES, EL이다."
+   }
+  },
+  "usedFor": {
+   "en": "France's government interest payments as a share of GDP, 2011 and 2025",
+   "ko": "2011년과 2025년 프랑스 정부의 GDP 대비 이자 지급"
+  },
+  "cite": {
+   "en": "Eurostat. Government deficit/surplus, debt and associated data (DE, ES, FR, GR, IT, PT). gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=FR, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=FR, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=IT, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=PT, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=FR, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=DE, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=IT, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=ES, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=PT, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=EL, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=ES, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=IT, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=EL, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=EL, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=DE, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=ES, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=PT, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=DE. Retrieved 19 Oct 2026.",
+   "ko": "Eurostat. Government deficit/surplus, debt and associated data (DE, ES, FR, GR, IT, PT). gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=FR, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=FR, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=IT, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=PT, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=FR, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=DE, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=IT, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=ES, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=PT, gov_10dd_edpt1?na_item=B9&sector=S13&unit=PC_GDP&freq=A&geo=EL, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=ES, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=IT, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=EL, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=EL, gov_10dd_edpt1?na_item=GD&sector=S13&unit=PC_GDP&freq=A&geo=DE, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=ES, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=PT, gov_10dd_edpt1?na_item=D41PAY&sector=S13&unit=PC_GDP&freq=A&geo=DE. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "then-and-now",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "paper",
+  "title": "The use of the Eurosystem's monetary policy instruments and its monetary policy implementation framework in 2022 and 2023",
+  "authors": "Hudepohl, T. and Malderez, S. (eds)",
+  "institution": "European Central Bank",
+  "series": "ECB Occasional Paper Series",
+  "number": "355",
+  "date": "2024-08-01",
+  "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op355~7a0d99f4f2.en.pdf",
+  "quote": {
+   "text": "It can be activated to counter unwarranted, disorderly market dynamics that pose a serious threat to the transmission of monetary policy across the euro area.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "what the ECB's TPI is for: countering unwarranted, disorderly market moves that threaten how its policy reaches each country",
+   "ko": "ECB TPI의 목적: 통화정책 전달을 위협하는 정당화되지 않는 무질서한 시장 움직임에 대한 대응"
+  },
+  "ref": "jejualps:57496",
+  "cite": {
+   "en": "Hudepohl, T. and Malderez, S. (eds) (2024). The use of the Eurosystem's monetary policy instruments and its monetary policy implementation framework in 2022 and 2023. ECB Occasional Paper Series 355. European Central Bank",
+   "ko": "Hudepohl, T. and Malderez, S. (eds) (2024). The use of the Eurosystem's monetary policy instruments and its monetary policy implementation framework in 2022 and 2023. ECB Occasional Paper Series 355. European Central Bank"
+  },
+  "citedIn": [
+   "defences",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S9",
+  "kind": "paper",
+  "title": "Carry off, carry on",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "date": "2024-09-16",
+  "url": "https://www.bis.org/publications/qr-202409/carry-off-carry-on",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt2409a.pdf",
+  "quote": {
+   "text": "Notably, French credit default swap (CDS) spreads widened following the first round of parliamentary elections in June, with the associated geopolitical uncertainty affecting other euro area countries more broadly",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how France's June 2024 snap election moved the cost of insuring French debt and weighed on other euro countries",
+   "ko": "2024년 6월 프랑스 조기 총선이 프랑스 부도 보험료와 다른 유로 국가에 미친 영향"
+  },
+  "ref": "jejualps:44601",
+  "cite": {
+   "en": "BIS (2024). Carry off, carry on. BIS Quarterly Review.",
+   "ko": "BIS (2024). Carry off, carry on. BIS Quarterly Review."
+  },
+  "citedIn": [
+   "now",
+   "global"
+  ]
+ },
+ {
+  "id": "S10",
+  "kind": "speech",
+  "title": "Denis Beau: Economic developments in France and the euro area",
+  "authors": "Beau, D.",
+  "institution": "Bank of France",
+  "series": "BIS central bank speeches",
+  "date": "2026-03-10",
+  "url": "https://www.bis.org/review/r260309h.htm",
+  "pdfUrl": "https://www.bis.org/review/r260309h.pdf",
+  "quote": {
+   "text": "This contributed to lower government bond (OAT) yields and a modest improvement in business sentiment, as shown by the evolution of the uncertainty indicator incorporated into the Banque de France Monthly Business Survey.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "a Banque de France deputy governor's view that easing political uncertainty after the budget's adoption helped lower French yields",
+   "ko": "예산 통과 뒤 정치 불확실성이 누그러져 프랑스 국채 금리를 낮추는 데 도움이 됐다는 프랑스중앙은행 부총재의 견해"
+  },
+  "ref": "jejualps:22090",
+  "cite": {
+   "en": "Beau, D. (2026). Denis Beau: Economic developments in France and the euro area. BIS central bank speeches. Bank of France",
+   "ko": "Beau, D. (2026). Denis Beau: Economic developments in France and the euro area. BIS central bank speeches. Bank of France"
+  },
+  "citedIn": [
+   "now",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S11",
+  "kind": "paper",
+  "title": "Euro area sovereign crisis drives global financial markets",
+  "authors": "Vause, N. and von Peter, G.",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "date": "2011-12-12",
+  "url": "https://www.bis.org/publ/qtrpdf/r_qt1112a.htm",
+  "pdfUrl": "https://www.bis.org/publ/qtrpdf/r_qt1112a.pdf",
+  "quote": {
+   "text": "Yield spreads of Austrian and French bonds approached 200 basis points, and even Dutch and Finnish yields broke away from those of German bunds (Graph 3, left-hand panel).",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how in late 2011 the selling reached France and the euro area's other core countries",
+   "ko": "2011년 말 매도세가 프랑스와 유로 지역의 다른 핵심국에까지 번진 상황"
+  },
+  "ref": "jejualps:45133",
+  "cite": {
+   "en": "Vause, N. and von Peter, G. (2011). Euro area sovereign crisis drives global financial markets. BIS Quarterly Review. BIS",
+   "ko": "Vause, N. and von Peter, G. (2011). Euro area sovereign crisis drives global financial markets. BIS Quarterly Review. BIS"
+  },
+  "citedIn": [
+   "now",
+   "then-and-now",
+   "defences"
+  ]
+ },
+ {
+  "id": "S12",
+  "kind": "paper",
+  "title": "Euro Area Financial Fragmentation and Bond Market Stability",
+  "authors": "Mosk, B. and de Vette, N.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2025/194",
+  "date": "2025-09-26",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2025/194/001.2025.issue-194-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2025/194/001.2025.issue-194-en.pdf",
+  "quote": {
+   "text": "Nonetheless, the fragmentation indicator remains low compared to historical episodes.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the IMF study's euro-area fragmentation gauge staying low in 2024 compared with past episodes",
+   "ko": "2024년 과거 위기 때보다 낮게 유지된 IMF 연구의 유로 지역 분열 지표"
+  },
+  "ref": "jejualps:66946",
+  "cite": {
+   "en": "Mosk, B. and de Vette, N. (2025). Euro Area Financial Fragmentation and Bond Market Stability. IMF Working Papers 2025/194. IMF",
+   "ko": "Mosk, B. and de Vette, N. (2025). Euro Area Financial Fragmentation and Bond Market Stability. IMF Working Papers 2025/194. IMF"
+  },
+  "citedIn": [
+   "france-alone",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S13",
+  "kind": "paper",
+  "title": "Yields climb, yet risk appetite holds firm",
+  "institution": "BIS",
+  "series": "BIS Quarterly Review",
+  "date": "2026-09-14",
+  "url": "https://www.bis.org/publications/qr-202609/yields-climb-yet-risk-appetite-holds-firm",
+  "pdfUrl": "https://www.bis.org/publications/yields-climb-yet-risk-appetite-holds-firm.pdf",
+  "quote": {
+   "text": "In the euro area, these pressures were compounded by a steady widening of sovereign spreads as energy price swings returned to the fore.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the BIS reading of this summer's wider euro spreads, tied to energy prices",
+   "ko": "올여름 유로 가산금리 확대를 에너지 가격과 연결한 BIS의 해석"
+  },
+  "ref": "jejualps:122096",
+  "cite": {
+   "en": "BIS (2026). Yields climb, yet risk appetite holds firm. BIS Quarterly Review.",
+   "ko": "BIS (2026). Yields climb, yet risk appetite holds firm. BIS Quarterly Review."
+  },
+  "citedIn": [
+   "france-alone",
+   "global"
+  ]
+ },
+ {
+  "id": "S14",
+  "kind": "dataset",
+  "title": "Current account balance, % of GDP (BPM6) (ES, FR, GR, PT)",
+  "institution": "Eurostat",
+  "date": "2026-10-19",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/bop_gdp6_q/default/table",
+  "dataset": {
+   "provider": "Eurostat",
+   "key": [
+    "bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=FR",
+    "bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=ES",
+    "bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=PT",
+    "bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=EL"
+   ],
+   "unit": "Percentage of gross domestic product (GDP)",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: Eurostat",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens dataset bop_gdp6_q in Eurostat's Data Browser. Use the filters above the table (“Customise your dataset”) to select Percentage of gross domestic product (GDP); Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data); Current account; Balance; Rest of the world; in codes: freq = A; unit = PC_GDP; s_adj = NSA; bop_item = CA; stk_flow = BAL; partner = WRL_REST; geo = FR, ES, PT, EL.",
+    "ko": "링크는 Eurostat 데이터 브라우저의 데이터셋 bop_gdp6_q를 연다. 표 위의 필터(‘Customise your dataset’)에서 다음을 고른다: Percentage of gross domestic product (GDP); Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data); Current account; Balance; Rest of the world. 코드로는 freq = A; unit = PC_GDP; s_adj = NSA; bop_item = CA; stk_flow = BAL; partner = WRL_REST; geo = FR, ES, PT, EL이다."
+   }
+  },
+  "usedFor": {
+   "en": "France's current account balance as a share of GDP in 2025",
+   "ko": "2025년 프랑스의 GDP 대비 경상수지"
+  },
+  "cite": {
+   "en": "Eurostat. Current account balance, % of GDP (BPM6) (ES, FR, GR, PT). bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=FR, bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=ES, bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=PT, bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=EL. Retrieved 19 Oct 2026.",
+   "ko": "Eurostat. Current account balance, % of GDP (BPM6) (ES, FR, GR, PT). bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=FR, bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=ES, bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=PT, bop_gdp6_q?freq=A&unit=PC_GDP&s_adj=NSA&bop_item=CA&stk_flow=BAL&partner=WRL_REST&geo=EL. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "then-and-now"
+  ]
+ },
+ {
+  "id": "S15",
+  "kind": "paper",
+  "title": "The Evolution of Current Account Deficits in the Euro Area Periphery and the Baltics: Many Paths to the Same Endpoint",
+  "authors": "Kang, J. S. and Shambaugh, J. C.",
+  "institution": "IMF",
+  "series": "IMF Working Papers",
+  "number": "2013/169",
+  "date": "2013-07-17",
+  "url": "https://www.elibrary.imf.org/view/journals/001/2013/169/001.2013.issue-169-en.xml",
+  "pdfUrl": "https://www.elibrary.imf.org/downloadpdf/journals/001/2013/169/001.2013.issue-169-en.pdf",
+  "quote": {
+   "text": "Given that fiscal problems were generally not an issue as much as overall borrowing by the economy (due to demand booms, lending booms or borrowing to maintain spending when transfers declined), it seems that surveillance on fiscal policy alone is apt to miss economic vulnerabilities.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the finding that borrowing by whole economies, more than by governments, was the main problem before the crisis",
+   "ko": "위기 전의 주된 문제가 정부보다 경제 전체의 차입이었다는 분석"
+  },
+  "ref": "jejualps:70040",
+  "cite": {
+   "en": "Kang, J. S. and Shambaugh, J. C. (2013). The Evolution of Current Account Deficits in the Euro Area Periphery and the Baltics: Many Paths to the Same Endpoint. IMF Working Papers 2013/169. IMF",
+   "ko": "Kang, J. S. and Shambaugh, J. C. (2013). The Evolution of Current Account Deficits in the Euro Area Periphery and the Baltics: Many Paths to the Same Endpoint. IMF Working Papers 2013/169. IMF"
+  },
+  "citedIn": [
+   "then-and-now"
+  ]
+ },
+ {
+  "id": "S16",
+  "kind": "paper",
+  "title": "II. High public debt and shifting financial markets: challenges for central banks",
+  "institution": "BIS",
+  "series": "BIS Annual Economic Report",
+  "date": "2026-06-28",
+  "url": "https://www.bis.org/publications/aer-2026/high-public-debt-shifting-financial-markets",
+  "pdfUrl": "https://www.bis.org/publ/arpdf/ar2026e2.pdf",
+  "quote": {
+   "text": "In the euro area, during the 2010–12 sovereign debt crisis, the bank-sovereign nexus amplified initial fiscal concerns into broader financial stress, prompting extraordinary monetary measures.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how the bank–government link amplified fiscal worries into wider financial stress in 2010–12",
+   "ko": "2010~2012년 은행-정부 연결이 재정 우려를 더 넓은 금융 불안으로 키운 과정"
+  },
+  "ref": "jejualps:3",
+  "cite": {
+   "en": "BIS (2026). II. High public debt and shifting financial markets: challenges for central banks. BIS Annual Economic Report.",
+   "ko": "BIS (2026). II. High public debt and shifting financial markets: challenges for central banks. BIS Annual Economic Report."
+  },
+  "citedIn": [
+   "defences",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S17",
+  "kind": "paper",
+  "title": "The financial and macroeconomic effects of OMT announcements",
+  "authors": "Altavilla, C., Giannone, D. and Lenza, M.",
+  "institution": "European Central Bank",
+  "series": "ECB Working Paper Series",
+  "number": "1707",
+  "date": "2014-08-01",
+  "url": "http://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1707.pdf",
+  "quote": {
+   "text": "Indeed, such announcements have led to a decrease of about 200 basis points in the 2-year government bond rates in Italy and Spain, while leaving German and French bond yields for comparable maturities largely unaffected.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "what the 2012 OMT announcement did to Italian, Spanish and French two-year yields",
+   "ko": "2012년 OMT 발표가 이탈리아·스페인·프랑스 2년물 금리에 미친 영향"
+  },
+  "ref": "jejualps:64007",
+  "cite": {
+   "en": "Altavilla, C., Giannone, D. and Lenza, M. (2014). The financial and macroeconomic effects of OMT announcements. ECB Working Paper Series 1707. European Central Bank",
+   "ko": "Altavilla, C., Giannone, D. and Lenza, M. (2014). The financial and macroeconomic effects of OMT announcements. ECB Working Paper Series 1707. European Central Bank"
+  },
+  "citedIn": [
+   "defences"
+  ]
+ },
+ {
+  "id": "S18",
+  "kind": "dataset",
+  "title": "Eurosystem securities held for monetary policy purposes, EUR million, weekly financial statement",
+  "institution": "ECB Data Portal",
+  "date": "2026-10-19",
+  "url": "https://data.ecb.europa.eu/data/datasets/ILM/ILM.W.U2.C.A070100.U2.EUR",
+  "dataset": {
+   "provider": "ECB Data Portal",
+   "key": "ILM.W.U2.C.A070100.U2.EUR",
+   "unit": "EUR million",
+   "frequency": "W",
+   "lastObservation": "2026-W41",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: ECB Data Portal",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens the series ILM.W.U2.C.A070100.U2.EUR directly in the ECB Data Portal (dataset ILM), with a chart, the data table and a download button.",
+    "ko": "링크를 누르면 ECB 데이터 포털의 ILM.W.U2.C.A070100.U2.EUR 시리즈(데이터셋 ILM)가 차트, 자료표, 내려받기 버튼과 함께 바로 열린다."
+   }
+  },
+  "usedFor": {
+   "en": "the Eurosystem's holdings of securities for monetary policy, from its weekly statements",
+   "ko": "주간 재무제표에 나타난 유로시스템의 통화정책 목적 보유 증권"
+  },
+  "cite": {
+   "en": "ECB Data Portal. Eurosystem securities held for monetary policy purposes, EUR million, weekly financial statement. ILM.W.U2.C.A070100.U2.EUR. Retrieved 19 Oct 2026.",
+   "ko": "ECB Data Portal. Eurosystem securities held for monetary policy purposes, EUR million, weekly financial statement. ILM.W.U2.C.A070100.U2.EUR. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "defences"
+  ]
+ },
+ {
+  "id": "S19",
+  "kind": "dataset",
+  "title": "Government debt held by other monetary financial institutions (ES, FR, IT, PT)",
+  "institution": "ECB Data Portal",
+  "date": "2026-10-19",
+  "url": "https://data.ecb.europa.eu/data/datasets/GFS/GFS.A.N.FR.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+  "dataset": {
+   "provider": "ECB Data Portal",
+   "key": [
+    "GFS.A.N.FR.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+    "GFS.A.N.IT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+    "GFS.A.N.ES.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+    "GFS.A.N.PT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T"
+   ],
+   "unit": "EUR million",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: ECB Data Portal",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens GFS.A.N.FR.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T in the ECB Data Portal. The other series (GFS.A.N.IT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T) are in the same dataset GFS: replace the series key at the end of the link, or type the key in the portal's search box.",
+    "ko": "링크는 ECB 데이터 포털의 GFS.A.N.FR.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T를 연다. 나머지 시리즈(GFS.A.N.IT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T)도 같은 데이터셋 GFS에 있다. 링크 끝의 시리즈 키를 바꾸거나 포털 검색창에 키를 입력하면 된다."
+   }
+  },
+  "usedFor": {
+   "en": "French government debt held by banks in France, 2011 to 2025",
+   "ko": "2011~2025년 프랑스 은행들이 보유한 프랑스 정부 부채"
+  },
+  "cite": {
+   "en": "ECB Data Portal. Government debt held by other monetary financial institutions (ES, FR, IT, PT). GFS.A.N.FR.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.IT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T. Retrieved 19 Oct 2026.",
+   "ko": "ECB Data Portal. Government debt held by other monetary financial institutions (ES, FR, IT, PT). GFS.A.N.FR.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.IT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W2.S13.S12T.C.L.LE.GD.T._Z.XDC._T.F.V.N._T. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "defences",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S20",
+  "kind": "dataset",
+  "title": "Government debt (consolidated) (ES, FR, IT, PT)",
+  "institution": "ECB Data Portal",
+  "date": "2026-10-19",
+  "url": "https://data.ecb.europa.eu/data/datasets/GFS/GFS.A.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+  "dataset": {
+   "provider": "ECB Data Portal",
+   "key": [
+    "GFS.A.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+    "GFS.A.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+    "GFS.A.N.ES.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T",
+    "GFS.A.N.PT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T"
+   ],
+   "unit": "EUR million",
+   "frequency": "A",
+   "lastObservation": "2025",
+   "retrieved": "2026-10-19",
+   "attribution": "Source: ECB Data Portal",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens GFS.A.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T in the ECB Data Portal. The other series (GFS.A.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T) are in the same dataset GFS: replace the series key at the end of the link, or type the key in the portal's search box.",
+    "ko": "링크는 ECB 데이터 포털의 GFS.A.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T를 연다. 나머지 시리즈(GFS.A.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T)도 같은 데이터셋 GFS에 있다. 링크 끝의 시리즈 키를 바꾸거나 포털 검색창에 키를 입력하면 된다."
+   }
+  },
+  "usedFor": {
+   "en": "France's total government debt, the base for the bank share",
+   "ko": "은행 보유 비중의 분모가 되는 프랑스 정부 부채 총액"
+  },
+  "cite": {
+   "en": "ECB Data Portal. Government debt (consolidated) (ES, FR, IT, PT). GFS.A.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T. Retrieved 19 Oct 2026.",
+   "ko": "ECB Data Portal. Government debt (consolidated) (ES, FR, IT, PT). GFS.A.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.ES.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T, GFS.A.N.PT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T. 2026년 10월 19일 조회."
+  },
+  "citedIn": [
+   "defences",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S21",
+  "kind": "speech",
+  "title": "Christine Lagarde: When it matters most - upholding independence in challenging times",
+  "authors": "Lagarde, C.",
+  "institution": "European Central Bank",
+  "series": "BIS central bank speeches",
+  "date": "2026-06-03",
+  "url": "https://www.bis.org/review/r260603g.htm",
+  "pdfUrl": "https://www.bis.org/review/r260603g.pdf",
+  "quote": {
+   "text": "That room depends first and foremost on fiscal responsibility: the legal frameworks cannot safeguard central bank independence when fiscal trajectories become unsustainable.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "the ECB president's view that the bank's room to act depends on fiscal responsibility",
+   "ko": "중앙은행의 운신의 폭이 재정 책임에 달려 있다는 ECB 총재의 견해"
+  },
+  "ref": "jejualps:21852",
+  "cite": {
+   "en": "Lagarde, C. (2026). Christine Lagarde: When it matters most - upholding independence in challenging times. BIS central bank speeches. European Central Bank",
+   "ko": "Lagarde, C. (2026). Christine Lagarde: When it matters most - upholding independence in challenging times. BIS central bank speeches. European Central Bank"
+  },
+  "citedIn": [
+   "defences"
+  ]
+ },
+ {
+  "id": "S22",
+  "kind": "paper",
+  "title": "The evolving nexus: sovereigns, banks and NBFIs",
+  "authors": "Hardy, B., Jager, M. and Avdjiev, S.",
+  "institution": "BIS",
+  "series": "BIS Working Papers",
+  "number": "1369",
+  "date": "2026-07-16",
+  "url": "https://www.bis.org/publications/working-paper-1369-evolving-nexus-sovereigns-banks-and-nbfis",
+  "pdfUrl": "https://www.bis.org/publ/work1369.pdf",
+  "quote": {
+   "text": "This implies that the risks associated with the linkages between banks and sovereigns have not disappeared, but have moved to different parts of banks’ balance sheets.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how the risk linking banks and governments has moved to banks' ties with non-banks",
+   "ko": "은행과 정부를 잇는 위험이 비은행과의 연결로 옮겨 간 과정"
+  },
+  "ref": "jejualps:46905",
+  "cite": {
+   "en": "Hardy, B., Jager, M. and Avdjiev, S. (2026). The evolving nexus: sovereigns, banks and NBFIs. BIS Working Papers 1369. BIS",
+   "ko": "Hardy, B., Jager, M. and Avdjiev, S. (2026). The evolving nexus: sovereigns, banks and NBFIs. BIS Working Papers 1369. BIS"
+  },
+  "citedIn": [
+   "defences",
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S23",
+  "kind": "paper",
+  "title": "Slow Moving Debt Crises",
+  "authors": "Lorenzoni, G. and Werning, I.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w19228",
+  "date": "2013-07-01",
+  "url": "https://www.nber.org/papers/w19228",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w19228/w19228.pdf",
+  "quote": {
+   "text": "Higher interest rates, prompted by fears of default, lead to faster debt accumulation, validating default fears.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how fear of default can raise interest rates and so validate itself",
+   "ko": "부도에 대한 두려움이 금리를 올려 스스로를 정당화하는 과정"
+  },
+  "ref": "jejualps:104550",
+  "cite": {
+   "en": "Lorenzoni, G. and Werning, I. (2013). Slow Moving Debt Crises. NBER Working Papers w19228. NBER",
+   "ko": "Lorenzoni, G. and Werning, I. (2013). Slow Moving Debt Crises. NBER Working Papers w19228. NBER"
+  },
+  "citedIn": [
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S24",
+  "kind": "paper",
+  "title": "Estimating the contribution of macroeconomic factors to sovereign bond spreads in the euro area",
+  "authors": "Burriel, P., Delgado-Téllez, M. et al.",
+  "institution": "Banco de España",
+  "series": "Banco de España Working Papers",
+  "number": "2408",
+  "date": "2024-03-01",
+  "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/24/Files/dt2408e.pdf",
+  "quote": {
+   "text": "In this period, macroeconomic indicators are able to explain at most 26% of the observed peaks in spreads among non-core countries.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how much of the 2010–12 spread peaks economic fundamentals explain",
+   "ko": "2010~2012년 가산금리 정점 가운데 경제 기초여건이 설명하는 몫"
+  },
+  "ref": "jejualps:51956",
+  "cite": {
+   "en": "Burriel, P., Delgado-Téllez, M. et al. (2024). Estimating the contribution of macroeconomic factors to sovereign bond spreads in the euro area. Banco de España Working Papers 2408. Banco de España",
+   "ko": "Burriel, P., Delgado-Téllez, M. et al. (2024). Estimating the contribution of macroeconomic factors to sovereign bond spreads in the euro area. Banco de España Working Papers 2408. Banco de España"
+  },
+  "citedIn": [
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S25",
+  "kind": "paper",
+  "title": "Self-Fulfilling Debt Crises: A Quantitative Analysis",
+  "authors": "Bocola, L. and Dovis, A.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w22694",
+  "date": "2016-10-01",
+  "url": "https://www.nber.org/papers/w22694",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w22694/w22694.pdf",
+  "quote": {
+   "text": "After fitting the model to Italian data, we find that 12% of the interest rate spreads during the 2008-2012 period were due, on average, to rollover risk.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "a model estimate for Italy: only a small part of its spread due to self-fulfilling fear of not being able to roll over debt",
+   "ko": "이탈리아 가산금리 가운데 차환 불안이라는 자기실현적 두려움의 몫은 작다는 모형 추정"
+  },
+  "ref": "jejualps:101100",
+  "cite": {
+   "en": "Bocola, L. and Dovis, A. (2016). Self-Fulfilling Debt Crises: A Quantitative Analysis. NBER Working Papers w22694. NBER",
+   "ko": "Bocola, L. and Dovis, A. (2016). Self-Fulfilling Debt Crises: A Quantitative Analysis. NBER Working Papers w22694. NBER"
+  },
+  "citedIn": [
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S26",
+  "kind": "paper",
+  "title": "ECB Policies Involving Government Bond Purchases: Impact and Channels",
+  "authors": "Krishnamurthy, A., Nagel, S. and Vissing-Jorgensen, A.",
+  "institution": "NBER",
+  "series": "NBER Working Papers",
+  "number": "w23985",
+  "date": "2017-11-01",
+  "url": "https://www.nber.org/papers/w23985",
+  "pdfUrl": "https://www.nber.org/system/files/working_papers/w23985/w23985.pdf",
+  "quote": {
+   "text": "In the pure multiple equilibrium case, a policy announcement such as OMT rules out the bad equilibrium at zero cost.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "when a backstop announcement can end a crisis at no cost",
+   "ko": "안전판 발표가 비용 없이 위기를 끝낼 수 있는 조건"
+  },
+  "ref": "jejualps:99815",
+  "cite": {
+   "en": "Krishnamurthy, A., Nagel, S. and Vissing-Jorgensen, A. (2017). ECB Policies Involving Government Bond Purchases: Impact and Channels. NBER Working Papers w23985. NBER",
+   "ko": "Krishnamurthy, A., Nagel, S. and Vissing-Jorgensen, A. (2017). ECB Policies Involving Government Bond Purchases: Impact and Channels. NBER Working Papers w23985. NBER"
+  },
+  "citedIn": [
+   "what-it-would-take"
+  ]
+ },
+ {
+  "id": "S27",
+  "kind": "paper",
+  "title": "High public debt, NBFIs and the risk of market dysfunction",
+  "authors": "Drehmann, M. and Zhu, S.",
+  "institution": "BIS",
+  "series": "BIS Bulletins",
+  "number": "136",
+  "date": "2026-09-29",
+  "url": "https://www.bis.org/publications/bulletin-136-high-public-debt-nbfis-and-risk-market-dysfunction",
+  "pdfUrl": "https://www.bis.org/publications/bulletin-136-high-public-debt-nbfis-and-risk-market-dysfunction.pdf",
+  "quote": {
+   "text": "Market functioning may be especially undermined if the initial jump in yields is amplified by any of the discussed NBFI vulnerabilities, which in turn can further undermine fiscal space, thus giving rise to a negative feedback spiral.",
+   "lang": "en",
+   "locator": null
+  },
+  "usedFor": {
+   "en": "how non-bank weaknesses could turn a jump in yields into a spiral",
+   "ko": "비은행의 취약성이 금리 급등을 소용돌이로 키우는 과정"
+  },
+  "ref": "jejualps:121825",
+  "cite": {
+   "en": "Drehmann, M. and Zhu, S. (2026). High public debt, NBFIs and the risk of market dysfunction. BIS Bulletins 136. BIS",
+   "ko": "Drehmann, M. and Zhu, S. (2026). High public debt, NBFIs and the risk of market dysfunction. BIS Bulletins 136. BIS"
+  },
+  "citedIn": [
+   "what-it-would-take"
+  ]
+ }
+]

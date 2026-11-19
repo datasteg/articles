@@ -1,0 +1,273 @@
+[
+ {
+  "id": "S1",
+  "kind": "dataset",
+  "title": "Cut a lender, Q2 2026 BIS LBS positions",
+  "institution": "BIS, IMF via datasteg money-flow",
+  "date": "2026-11-17",
+  "url": "https://money-flow.datasteg.com/en/m/bank?cut=1&by=debtor&e=CAN&pct=25",
+  "dataset": {
+   "provider": "BIS, IMF via datasteg money-flow",
+   "key": "api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: BIS, IMF, via datasteg money-flow (release 20261117.2); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF via datasteg money-flow. Search there for “Cut a lender, Q2 2026 BIS LBS positions” (series api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25).",
+    "ko": "링크는 BIS, IMF via datasteg money-flow를 연다. 그곳에서 ‘Cut a lender, Q2 2026 BIS LBS positions’(시리즈 api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "US-located banks' share of Canada's bank loans to one decimal and the first-round loss from a lender cut",
+   "ko": "미국 소재 은행의 캐나다 은행 대출 비중(소수점 첫째 자리) 및 1차 대출금 삭감에 따른 손실"
+  },
+  "cite": {
+   "en": "BIS, IMF via datasteg money-flow. Cut a lender, Q2 2026 BIS LBS positions. api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25. Retrieved 17 Nov 2026.",
+   "ko": "BIS, IMF via datasteg money-flow. Cut a lender, Q2 2026 BIS LBS positions. api.datasteg.com/v1/money-flow/markets/bank/lender-cut?debtor=CAN&lender=USA&cut_pct=25. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "finding",
+   "why-it-matters"
+  ]
+ },
+ {
+  "id": "S2",
+  "kind": "dataset",
+  "title": "Country sheets: funding and goods trade by economy",
+  "institution": "BIS, IMF, UN Comtrade via datasteg global-network",
+  "date": "2026-11-17",
+  "url": "https://global-network.datasteg.com/en",
+  "dataset": {
+   "provider": "BIS, IMF, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/countries/{iso3}",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: BIS, IMF, UN Comtrade, via datasteg global-network (release 20261117.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, UN Comtrade via datasteg global-network. Search there for “Country sheets: funding and goods trade by economy” (series api.datasteg.com/v1/global-network/countries/{iso3}).",
+    "ko": "링크는 BIS, IMF, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Country sheets: funding and goods trade by economy’(시리즈 api.datasteg.com/v1/global-network/countries/{iso3})를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Lender, buyer and loans-to-exports figures with ranks and medians, the partner ratios and the rank correlations",
+   "ko": "대출국 점유율(최대 대출 경제권의 은행이 보유한 대출 채무의 비중), 구매국 점유율(최대 구매 경제국이 차지하는 상품 수출의 비중), 상품 수출 대비 은행 대출 채무 비율, 순위 및 중앙값; 파트너 비율 및 순위 상관계수도 포함"
+  },
+  "cite": {
+   "en": "BIS, IMF, UN Comtrade via datasteg global-network. Country sheets: funding and goods trade by economy. api.datasteg.com/v1/global-network/countries/{iso3}. Retrieved 17 Nov 2026.",
+   "ko": "BIS, IMF, UN Comtrade via datasteg global-network. Country sheets: funding and goods trade by economy. api.datasteg.com/v1/global-network/countries/{iso3}. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "key-numbers",
+   "finding",
+   "each-side",
+   "method"
+  ]
+ },
+ {
+  "id": "S3",
+  "kind": "dataset",
+  "title": "Mexico and United States",
+  "institution": "UN Comtrade, BIS, IMF via datasteg global-network",
+  "date": "2026-11-17",
+  "url": "https://global-network.datasteg.com/en/c/MEX/with/USA",
+  "dataset": {
+   "provider": "UN Comtrade, BIS, IMF via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/pairs/MEX/USA",
+   "unit": "see columns",
+   "frequency": "M",
+   "lastObservation": "2026-07",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: UN Comtrade, BIS, IMF, via datasteg global-network (release 20261117.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens UN Comtrade, BIS, IMF via datasteg global-network. Search there for “Mexico and United States” (series api.datasteg.com/v1/global-network/pairs/MEX/USA).",
+    "ko": "링크는 UN Comtrade, BIS, IMF via datasteg global-network를 연다. 그곳에서 ‘Mexico and United States’(시리즈 api.datasteg.com/v1/global-network/pairs/MEX/USA)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Mexico's loans owed to US-located banks",
+   "ko": "미국 소재 은행에 대한 멕시코의 대출"
+  },
+  "cite": {
+   "en": "UN Comtrade, BIS, IMF via datasteg global-network. Mexico and United States. api.datasteg.com/v1/global-network/pairs/MEX/USA. Retrieved 17 Nov 2026.",
+   "ko": "UN Comtrade, BIS, IMF via datasteg global-network. Mexico and United States. api.datasteg.com/v1/global-network/pairs/MEX/USA. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "finding"
+  ]
+ },
+ {
+  "id": "S4",
+  "kind": "dataset",
+  "title": "Bank loans and deposits, Q2 2026 positions",
+  "institution": "BIS via datasteg money-flow",
+  "date": "2026-11-17",
+  "url": "https://money-flow.datasteg.com/en/m/bank",
+  "dataset": {
+   "provider": "BIS via datasteg money-flow",
+   "key": "api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: BIS, via datasteg money-flow (release 20261117.2); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS via datasteg money-flow. Search there for “Bank loans and deposits, Q2 2026 positions” (series api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN).",
+    "ko": "링크는 BIS via datasteg money-flow를 연다. 그곳에서 ‘Bank loans and deposits, Q2 2026 positions’(시리즈 api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Canada's loans and deposits owed to banks located in the United States",
+   "ko": "캐나다가 미국 내 은행에 지고 있는 대출 및 예금"
+  },
+  "cite": {
+   "en": "BIS via datasteg money-flow. Bank loans and deposits, Q2 2026 positions. api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN. Retrieved 17 Nov 2026.",
+   "ko": "BIS via datasteg money-flow. Bank loans and deposits, Q2 2026 positions. api.datasteg.com/v1/money-flow/markets/bank?debtor=CAN. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "finding",
+   "each-side"
+  ]
+ },
+ {
+  "id": "S5",
+  "kind": "dataset",
+  "title": "Canada, 2026-Q2",
+  "institution": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+  "date": "2026-11-17",
+  "url": "https://global-network.datasteg.com/en/stress?e=CAN",
+  "dataset": {
+   "provider": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/stress?economy=CAN",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: BIS, IMF, Federal Reserve, UN Comtrade, via datasteg global-network (release 20261117.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Search there for “Canada, 2026-Q2” (series api.datasteg.com/v1/global-network/stress?economy=CAN).",
+    "ko": "링크는 BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Canada, 2026-Q2’(시리즈 api.datasteg.com/v1/global-network/stress?economy=CAN)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Canada's overlap signal by quarter, its rank among Canada's own quarters since Q4 2010 and its median over them",
+   "ko": "캐나다의 분기별 겹침 신호, 2010년 4분기 이후 캐나다 자체 분기 중 순위 및 해당 분기들의 중앙값"
+  },
+  "cite": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Canada, 2026-Q2. api.datasteg.com/v1/global-network/stress?economy=CAN. Retrieved 17 Nov 2026.",
+   "ko": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Canada, 2026-Q2. api.datasteg.com/v1/global-network/stress?economy=CAN. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "why-it-matters",
+   "method"
+  ]
+ },
+ {
+  "id": "S6",
+  "kind": "dataset",
+  "title": "Funding-and-trade stress signals",
+  "institution": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+  "date": "2026-11-17",
+  "url": "https://global-network.datasteg.com/en/stress?tab=board",
+  "dataset": {
+   "provider": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/stress",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: BIS, IMF, Federal Reserve, UN Comtrade, via datasteg global-network (release 20261117.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Search there for “Funding-and-trade stress signals” (series api.datasteg.com/v1/global-network/stress).",
+    "ko": "링크는 BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network를 연다. 그곳에서 ‘Funding-and-trade stress signals’(시리즈 api.datasteg.com/v1/global-network/stress)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Group median of the lender-and-export-market overlap signal",
+   "ko": "대출기관 및 수출시장 중복 신호의 그룹 중앙값"
+  },
+  "cite": {
+   "en": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Funding-and-trade stress signals. api.datasteg.com/v1/global-network/stress. Retrieved 17 Nov 2026.",
+   "ko": "BIS, IMF, Federal Reserve, UN Comtrade via datasteg global-network. Funding-and-trade stress signals. api.datasteg.com/v1/global-network/stress. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "why-it-matters"
+  ]
+ },
+ {
+  "id": "S7",
+  "kind": "dataset",
+  "title": "Signal Board: funding vulnerability and flows",
+  "institution": "BIS, IMF via datasteg money-flow",
+  "date": "2026-11-17",
+  "url": "https://money-flow.datasteg.com/en/world",
+  "dataset": {
+   "provider": "BIS, IMF via datasteg money-flow",
+   "key": "api.datasteg.com/v1/money-flow/board",
+   "unit": "see columns",
+   "frequency": "Q",
+   "lastObservation": "2026-06-30",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: BIS, IMF, via datasteg money-flow (release 20261117.2); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens BIS, IMF via datasteg money-flow. Search there for “Signal Board: funding vulnerability and flows” (series api.datasteg.com/v1/money-flow/board).",
+    "ko": "링크는 BIS, IMF via datasteg money-flow를 연다. 그곳에서 ‘Signal Board: funding vulnerability and flows’(시리즈 api.datasteg.com/v1/money-flow/board)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Short-term bank loans owed against net and gross reserves, with medians and ranks",
+   "ko": "중앙은행의 순예금 및 총예금 대비 단기 은행 대출 부채, 중앙값 및 순위"
+  },
+  "cite": {
+   "en": "BIS, IMF via datasteg money-flow. Signal Board: funding vulnerability and flows. api.datasteg.com/v1/money-flow/board. Retrieved 17 Nov 2026.",
+   "ko": "BIS, IMF via datasteg money-flow. Signal Board: funding vulnerability and flows. api.datasteg.com/v1/money-flow/board. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "why-it-matters",
+   "method"
+  ]
+ },
+ {
+  "id": "S8",
+  "kind": "dataset",
+  "title": "Canada and United States",
+  "institution": "UN Comtrade, BIS, IMF via datasteg global-network",
+  "date": "2026-11-17",
+  "url": "https://global-network.datasteg.com/en/c/CAN/with/USA",
+  "dataset": {
+   "provider": "UN Comtrade, BIS, IMF via datasteg global-network",
+   "key": "api.datasteg.com/v1/global-network/pairs/CAN/USA",
+   "unit": "see columns",
+   "frequency": "M",
+   "lastObservation": "2026-07",
+   "retrieved": "2026-11-17",
+   "attribution": "Source: UN Comtrade, BIS, IMF, via datasteg global-network (release 20261117.1); datasteg calculation",
+   "publishable": true,
+   "locate": {
+    "en": "The link opens UN Comtrade, BIS, IMF via datasteg global-network. Search there for “Canada and United States” (series api.datasteg.com/v1/global-network/pairs/CAN/USA).",
+    "ko": "링크는 UN Comtrade, BIS, IMF via datasteg global-network를 연다. 그곳에서 ‘Canada and United States’(시리즈 api.datasteg.com/v1/global-network/pairs/CAN/USA)를 검색한다."
+   }
+  },
+  "usedFor": {
+   "en": "Gross bank claims in both directions between Canada and the United States, the net bank position between them, and Canada's partner ratio on the July trade window",
+   "ko": "캐나다와 미국 간 양방향 총 은행 채권, 양국 간 순 은행 포지션, 7월(7월) 무역 창구의 캐나다 파트너 비율"
+  },
+  "cite": {
+   "en": "UN Comtrade, BIS, IMF via datasteg global-network. Canada and United States. api.datasteg.com/v1/global-network/pairs/CAN/USA. Retrieved 17 Nov 2026.",
+   "ko": "UN Comtrade, BIS, IMF via datasteg global-network. Canada and United States. api.datasteg.com/v1/global-network/pairs/CAN/USA. 2026년 11월 17일 조회."
+  },
+  "citedIn": [
+   "limits"
+  ]
+ }
+]
